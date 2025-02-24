@@ -286,8 +286,7 @@
     <task label="APEX_chain_rule_2B_v2">
       <statement>
         <p>
-          Explain why the temperature inside the greenhouse is also a function of time 
-          and use the chain rule to represent the rate of change of the greenhouse temperature with respect to time at 1 pm.
+          Explain why the temperature inside the greenhouse is also a function of time.
         </p>
       </statement>
       <response/>
@@ -296,10 +295,10 @@
     <task label="APEX_chain_rule_2C_v2">
       <statement>
         <p>
-          Notice that the graph of <m>T(S)</m> shows a strictly increasing graph, 
-          meaning the greenhouse temperature always increases as the outside temperature increases. 
-          Does this mean that the greenhouse temperature never has a rate of change of zero? 
-          Justify your answer and explain your thought process.
+          Notice that the graph of <m>T(S)</m> shows a strictly increasing trend. 
+          This suggests that, throughout the day, the greenhouse temperature never decreases,
+          even though the outside temperature does.
+          Explain what is incorrect about this statement in the context of the chain rule.
         </p>
       </statement>
       <response/>
@@ -327,7 +326,7 @@
     <task label="APEX_chain_rule_3B_v2">
       <statement>
         <p>
-          Notice that the chain rule contains the product of two rates. Use your answer to part 1 to support this representation.
+          How does <xref ref="thm_chain_rule" text="title"/> support what you did to answer part (a)?
         </p>
       </statement>
       <response/>
