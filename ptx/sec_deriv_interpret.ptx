@@ -220,10 +220,9 @@
           Imagine you are watching a video of an American football game, and you see a player return a kick for a touchdown. 
           The video has timestamps accurate to 0.1 seconds, 
           and the field markings are visible, along the sideline, with a mark every yard (3 feet), as shown below.
-          (Source: <url href="https://en.wikipedia.org/wiki/American_football_field">Wikipedia</url>.)
         </p>
 
-        <image source="https://upload.wikimedia.org/wikipedia/commons/c/c5/AmFBfield.svg">
+        <image source="images/football-field.png">
           <shortdescription>A diagram of an American football field, showing the yard markings along the sidelines of the field</shortdescription>
         </image>
       </introduction>

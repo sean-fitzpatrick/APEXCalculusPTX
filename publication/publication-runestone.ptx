@@ -22,9 +22,10 @@
         <video privacy="yes"/>
         <!-- baseurl should not have a trailing slash -->
         <baseurl href="https://opentext.uleth.ca/apex-video"/>
-        <knowl example="no"/>
+        <knowl example="no" exercise-inline="no"/>
         <asymptote links="yes"/>
         <webwork divisional="dynamic"/>
+        <exercises tabbed-tasks="yes"/>
         <!-- <css toc="crc" banner="crc" navbar="crc" shell="crc"/> -->
     </html>
     
