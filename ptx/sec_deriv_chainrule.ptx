@@ -8,10 +8,11 @@
     functions.
     The operations of addition, subtraction, multiplication
     (including by a constant)
-    and division led to the <xref ref="sum-difference-derivative-rule" text="title"/>,
+    and division led to the sum, difference, constant multiple, power, product, and quotient rules.
+    <!-- <xref ref="sum-difference-derivative-rule" text="title"/>,
     the <xref ref="constant-multiple-derivative-rule" text="title"/>,
     the <xref ref="thm_PowerRule" text="title"/>,
-    the <xref ref="thm_ProductRule" text="title"/> and the <xref ref="thm_QuotientRule" text="title"/>.
+    the <xref ref="thm_ProductRule" text="title"/> and the <xref ref="thm_QuotientRule" text="title"/>. -->
     To complete the list of differentiation rules,
     we look at the last way two
     (or more)
@@ -672,7 +673,7 @@
         <ol>
           <li>
             <p>
-              We must use the <xref ref="thm_ProductRule" text="title"/> and <xref ref="thm_chain_rule" text="title"/>.
+              We must use the <!--<xref ref="thm_ProductRule" text="title"/>--> product rule and <xref ref="thm_chain_rule" text="title"/>.
               Do not think that you must be able to <q>see</q>
               the whole answer immediately;
               rather, just proceed step-by-step.
@@ -687,7 +688,7 @@
 
           <li>
             <p>
-              We must employ the <xref ref="thm_QuotientRule" text="title"/> along with the <xref ref="thm_chain_rule" text="title"/>.
+              We must employ the <!--<xref ref="thm_QuotientRule" text="title"/>--> quotient rule along with the <xref ref="thm_chain_rule" text="title"/>.
               Again, proceed step-by-step.
               <md>
                 <mrow>\fp(x) \amp= \frac{e^{-x^2}\cdot \lzoo{x}{5x^3} - 5x^3\cdot \lzoo{x}{e^{-x^2}}}{\left(e^{-x^2}\right)^2}</mrow>
@@ -707,7 +708,7 @@
     </solution>
   </example>
 
-  <p>
+  <!-- <p>
     A key to correctly working these problems is to break the problem down into smaller,
     more manageable pieces.
     For instance,
@@ -717,13 +718,13 @@
     Just rewrite <m>f(x)</m>, then find <m>g'(x)</m>.
     Then move on to the <m>\fp(x)g(x)</m> part.
     Don't attempt to figure out both parts at once.
-  </p>
+  </p> -->
 
-  <p>
+  <!-- <p>
     Likewise, using the <xref ref="thm_QuotientRule" text="title"/>,
     approach the numerator in two steps and handle the denominator after completing that.
     Only simplify afterward.
-  </p>
+  </p> -->
 
   <p>
     We can also employ the <xref ref="thm_chain_rule" text="title"/> itself several times,
@@ -800,9 +801,9 @@
       <p>
         This function likely has no practical use outside of demonstrating derivative skills.
         The answer is given below without simplification.
-        It employs the <xref ref="thm_QuotientRule" text="title"/>,
+        <!-- It employs the <xref ref="thm_QuotientRule" text="title"/>,
         the <xref ref="thm_ProductRule" text="title"/>,
-        and the <xref ref="thm_chain_rule" text="title"/> three times.
+        and the <xref ref="thm_chain_rule" text="title"/> three times. -->
         <md>
           <mrow>\amp\fp(x)</mrow>
           <mrow>\amp=\Bigg(\ln\mathopen{}\left(x^2+5x^4\right)\mathclose{}\cdot\bigg[\Big(x\cdot\left(-\sin\mathopen{}\left(x^{-2}\right)\mathclose{}\right)\cdot\left(-2x^{-3}\right)</mrow>
@@ -812,12 +813,12 @@
         </md>.
       </p>
 
-      <p>
+      <!-- <p>
         The reader is highly encouraged to look at each term and recognize why it is there. (<ie/>, the <xref ref="thm_QuotientRule" text="title"/> is used;
         in the numerator, identify the <q>LOdHI</q> term,
         etc.) This example demonstrates that derivatives can be computed systematically,
         no matter how arbitrarily complicated the function is.
-      </p>
+      </p> -->
     </solution>
   </example>
 
@@ -1055,7 +1056,7 @@
       we can find <m>\lz{y}{x}</m>.
     </p>
 
-    <p>
+    <!-- <p>
       In <xref ref="sec_imp_deriv"/>,
       we use the <xref ref="thm_chain_rule" text="title"/> to justify another differentiation technique.
       There are many curves that we can draw in the plane that fail the
@@ -1069,7 +1070,7 @@
       in many other instances solving for <m>y</m> is impossible.
       In these situations,
       <term>implicit differentiation</term> is indispensable.
-    </p>
+    </p> -->
   </paragraphs>
 
   <!-- <exercises>

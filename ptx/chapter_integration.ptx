@@ -38,7 +38,7 @@
       Therefore we developed numerical techniques that gave us good approximations of definite integrals.
     </p>
 
-    <p>
+    <!-- <p>
       We used the definite integral to compute areas,
       and also to compute displacements and distances traveled.
       There is far more we can do than that.
@@ -47,7 +47,7 @@
       Before that, in <xref ref="chapter_anti_tech"/>
       we'll learn advanced techniques of integration,
       analogous to learning rules like the Product, Quotient and Chain Rules of differentiation.
-    </p>
+    </p> -->
   </conclusion>
 
 </chapter>

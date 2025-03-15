@@ -2,7 +2,7 @@
 <section xml:id="sec_interp_deriv" label="sec_interp_deriv">
   <title>Interpretations of the Derivative</title>
   <introduction>
-    <p>
+    <!-- <p>
       <xref ref="sec_derivative"/>
       defined the derivative of a function and gave examples of how to compute it using its definition (<ie/>, using limits).
       The section also started with a brief motivation for this definition, that is,
@@ -10,7 +10,7 @@
       <xref ref="sec_basic_diff_rules"/>
       will give us more accessible tools for computing the derivative;
       tools that are easier to use than repeated use of limits.
-    </p>
+    </p> -->
 
     <p>
       This section falls in between the
@@ -29,7 +29,7 @@
   <subsection>
     <title>Interpretation of the Derivative as Instantaneous Rate of Change</title>
     <p>
-      <xref ref="sec_derivative"/>
+      <!-- <xref ref="sec_derivative"/> -->The previous section
       started with an example of using the position of an object
       (in this case, a falling amusement park rider)
       to find the object's velocity.
@@ -452,8 +452,10 @@
         <p>
           We can answer this exactly
           (and quickly)
-          after <xref ref="sec_basic_diff_rules"/>,
-          where we learn to quickly compute derivatives.
+          after
+           <!-- <xref ref="sec_basic_diff_rules"/>,
+          where  -->
+          we learn to quickly compute derivatives.
           For now, we will answer graphically,
           by considering the slopes of the respective tangent lines.
         </p>

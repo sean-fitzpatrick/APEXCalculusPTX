@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chapter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="chapter_derivatives" label="chapter_derivatives">
   <title>Derivatives</title>
-  <introduction>
+  <!-- <introduction>
     <p>
       <xref ref="chapter_limits"/> introduced the most fundamental of calculus topics:
       the limit.
@@ -10,7 +10,7 @@
       Limits describe <em>where</em> a function is going;
       derivatives describe <em>how fast</em> the function is going.
     </p>
-  </introduction>
+  </introduction> -->
 
   <!-- <xi:include href="sec_deriv_intro.ptx"/> -->
   <xi:include href="sec_deriv_interpret.ptx"/>
