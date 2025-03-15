@@ -779,7 +779,7 @@
     </p>
   </subsection>
 
-  <exercises>
+  <!-- <exercises>
     <subexercises xml:id="TaC-deriv-interpret">
       <title>Terms and Concepts</title>
 
@@ -1481,7 +1481,7 @@
           </webwork>
         </exercise>
       </exercisegroup>
-    </subexercises>
+    </subexercises> -->
 
     <!-- <subexercises xml:id="exset-deriv-interpret-review">
       <title>Review</title>
@@ -1579,5 +1579,5 @@
         </exercise>
       </exercisegroup>
     </subexercises> -->
-  </exercises>
+  <!-- </exercises> -->
 </section>

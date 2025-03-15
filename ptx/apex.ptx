@@ -4,7 +4,7 @@
   <xi:include href="./docinfo.ptx"/>
 
   <book xml:id="apex-calculus">
-    <title>APEX Calculus</title>
+    <title>APEX Calculus for PROTEUS</title>
     <frontmatter label="frontmatter">
       <bibinfo>
         <author>
@@ -45,7 +45,7 @@
         </website>
 
         <copyright>
-          <year>2021</year>
+          <year>2025</year>
           <holder>Gregory Hartman</holder>
           <minilicense>Creative Commons BY NC</minilicense>
           <shortlicense>
@@ -61,42 +61,42 @@
         <colophon-items/>
       </colophon>
 
-      <xi:include href="./acknowledgement.ptx"/>
+      <!-- <xi:include href="./acknowledgement.ptx"/>
       <xi:include href="./preface.ptx"/>
-      <xi:include href="./preface-history.ptx"/>
+      <xi:include href="./preface-history.ptx"/> -->
     </frontmatter>
 
-    <xi:include href="./chapter_limits.ptx"/>
+    <!-- <xi:include href="./chapter_limits.ptx"/> -->
 
     <xi:include href="./chapter_derivatives.ptx"/>
 
-    <xi:include href="./chapter_graphbehavior.ptx"/>
+    <!-- <xi:include href="./chapter_graphbehavior.ptx"/> -->
 
-    <xi:include href="./chapter_deriv_apps.ptx"/>
+    <!-- <xi:include href="./chapter_deriv_apps.ptx"/> -->
 
     <xi:include href="./chapter_integration.ptx"/>
 
-    <xi:include href="./chapter_anti_tech.ptx"/>
+    <!-- <xi:include href="./chapter_anti_tech.ptx"/> -->
 
-    <xi:include href="./chapter_app_of_int.ptx"/>
+    <!-- <xi:include href="./chapter_app_of_int.ptx"/> -->
 
-    <xi:include href="./chapter_differential_equations.ptx"/>
+    <!-- <xi:include href="./chapter_differential_equations.ptx"/> -->
 
-    <xi:include href="./chapter_sequences_series.ptx"/>
+    <!-- <xi:include href="./chapter_sequences_series.ptx"/> -->
 
-    <xi:include href="./chapter_planar_curves.ptx"/>
+    <!-- <xi:include href="./chapter_planar_curves.ptx"/> -->
 
-    <xi:include href="./chapter_vectors.ptx"/>
+    <!-- <xi:include href="./chapter_vectors.ptx"/> -->
 
-    <xi:include href="./chapter_vvf.ptx"/>
+    <!-- <xi:include href="./chapter_vvf.ptx"/> -->
 
-    <xi:include href="./chapter_multi.ptx"/>
+    <!-- <xi:include href="./chapter_multi.ptx"/> -->
 
-    <xi:include href="./chapter_mult_int.ptx"/>
+    <!-- <xi:include href="./chapter_mult_int.ptx"/> -->
 
-    <xi:include href="./chapter_vector_calc.ptx"/>
+    <!-- <xi:include href="./chapter_vector_calc.ptx"/> -->
 
-    <backmatter label="backmatter">
+    <!-- <backmatter label="backmatter">
       <solutions divisional="answer" admit="odd" label="selected-answers">
         <title>Answers to Selected Exercises</title>
       </solutions>
@@ -105,6 +105,6 @@
         <title>Index</title>
         <index-list/>
       </index>
-    </backmatter>
+    </backmatter> -->
   </book>
 </pretext>

@@ -1072,7 +1072,7 @@
     </p>
   </paragraphs>
 
-  <exercises>
+  <!-- <exercises>
     <subexercises xml:id="TaC-deriv-chain">
       <title>Terms and Concepts</title>
 
@@ -1169,11 +1169,11 @@
           <p>
             Compute the derivative of the given function.
           </p>
-        </introduction>
+        </introduction>-->
 
-        <exercise xml:id="exer_02_05_06" label="ex-deriv-chain-compute-1">
+        <!-- <exercise xml:id="exer_02_05_06" label="ex-deriv-chain-compute-1"> -->
           <!-- Intentionally not randomized because function used again later. -->
-          <webwork xml:id="webwork-ex-deriv-chain-compute-1">
+          <!-- <webwork xml:id="webwork-ex-deriv-chain-compute-1">
             <pg-code>
               $fp=Formula("10(4x^3-x)^9(12x^2-1)");
             </pg-code>
@@ -1188,9 +1188,9 @@
           </webwork>
         </exercise>
 
-        <exercise label="ex-deriv-chain-compute-2">
+        <exercise label="ex-deriv-chain-compute-2">-->
           <!-- Intentionally not randomized because function used again later. -->
-          <webwork xml:id="webwork-ex-deriv-chain-compute-2">
+          <!--<webwork xml:id="webwork-ex-deriv-chain-compute-2">
             <pg-code>
               Context()-&gt;variables-&gt;are(t=&gt;'Real');
               $fp=Formula("15(3t-2)^4");
@@ -1206,9 +1206,9 @@
           </webwork>
         </exercise>
 
-        <exercise label="ex-deriv-chain-compute-3">
+        <exercise label="ex-deriv-chain-compute-3">-->
           <!-- Intentionally not randomized because function used again later. -->
-          <webwork xml:id="webwork-ex-deriv-chain-compute-3">
+          <!--<webwork xml:id="webwork-ex-deriv-chain-compute-3">
             <pg-code>
               Context()-&gt;variables-&gt;are(theta=&gt;['Real',TeX=&gt;'\theta']);
               $fp=Formula("3(sin(theta)+cos(theta))^2(cos(theta)-sin(theta))");
@@ -1227,9 +1227,9 @@
           </webwork>
         </exercise>
 
-        <exercise xml:id="exer_02_05_09" label="ex-deriv-chain-compute-4">
+        <exercise xml:id="exer_02_05_09" label="ex-deriv-chain-compute-4">-->
           <!-- Intentionally not randomized because function used again later. -->
-          <webwork xml:id="webwork-ex-deriv-chain-compute-4">
+          <!--<webwork xml:id="webwork-ex-deriv-chain-compute-4">
             <pg-code>
               Context()-&gt;variables-&gt;are(t=&gt;'Real');
               $fp=Formula("(6t+1)e^(3t^2+t-1)");
@@ -1870,9 +1870,9 @@
           </p>
         </introduction>
 
-        <exercise label="ex-deriv-chain-tangent-1">
+        <exercise label="ex-deriv-chain-tangent-1">-->
           <!-- Intentionally not randomized because function used from earlier. -->
-          <webwork xml:id="webwork-ex-deriv-chain-tangent-1">
+<!--          <webwork xml:id="webwork-ex-deriv-chain-tangent-1">
             <pg-code>
               Context("Numeric")-&gt;variables-&gt;add(y=&gt;'Real');
               parser::Assignment-&gt;Allow;
@@ -1899,9 +1899,9 @@
           </webwork>
         </exercise>
 
-        <exercise label="ex-deriv-chain-tangent-2">
+        <exercise label="ex-deriv-chain-tangent-2">-->
           <!-- Intentionally not randomized because function used from earlier. -->
-          <webwork xml:id="webwork-ex-deriv-chain-tangent-2">
+          <!--<webwork xml:id="webwork-ex-deriv-chain-tangent-2">
             <pg-code>
               Context("Numeric")-&gt;variables-&gt;add(y=&gt;'Real');
               parser::Assignment-&gt;Allow;
@@ -1929,9 +1929,9 @@
           </webwork>
         </exercise>
 
-        <exercise label="ex-deriv-chain-tangent-3">
-          <!-- Intentionally not randomized because function used from earlier. -->
-          <webwork xml:id="webwork-ex-deriv-chain-tangent-3">
+        <exercise label="ex-deriv-chain-tangent-3">-->
+        <!-- Intentionally not randomized because function used from earlier. -->
+        <!-- <webwork xml:id="webwork-ex-deriv-chain-tangent-3">
             <pg-code>
               Context("Numeric")-&gt;variables-&gt;add(y=&gt;'Real');
               parser::Assignment-&gt;Allow;
@@ -1959,9 +1959,9 @@
           </webwork>
         </exercise>
 
-        <exercise label="ex-deriv-chain-tangent-4">
+        <exercise label="ex-deriv-chain-tangent-4">-->
           <!-- Intentionally not randomized because function used from earlier. -->
-          <webwork xml:id="webwork-ex-deriv-chain-tangent-4">
+          <!--<webwork xml:id="webwork-ex-deriv-chain-tangent-4">
             <pg-code>
               Context("Numeric")-&gt;variables-&gt;add(y=&gt;'Real');
               parser::Assignment-&gt;Allow;
@@ -2048,7 +2048,7 @@
           </solution>
         </webwork>
       </exercise>
-    </subexercises>
+    </subexercises> -->
 
     <!-- <subexercises>
       <title>Review</title>
@@ -2144,5 +2144,5 @@
         </webwork>
       </exercise>
     </subexercises> -->
-  </exercises>
+  <!-- </exercises> -->
 </section>

@@ -5,7 +5,7 @@
   <rename element="inlineexercise">Exercise</rename>
   <rename element="task">Part</rename>
 
-  <document-id edition="5">APEX</document-id>
+  <document-id edition="5">APEX-PROTEUS</document-id>
 
   <blurb shelf="Mathematics">
     A traditional calculus textbook with many exercises and few proofs,
