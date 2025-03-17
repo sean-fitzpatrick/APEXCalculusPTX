@@ -362,7 +362,7 @@
 
         <figure xml:id="fig-PROTEUS-FTC-1">
           <caption>The function <m>f(x)</m> used to define <m>F(x)</m> in <xref ref="APEX_FTC_1_v1"/></caption>
-          <image>
+          <image width="47%">
             <shortdescription>A graph consisting of a semicircle from (0,0) to (2,0) and a line segment from (2,0) to (4,1)</shortdescription>
             <latex-image label="img_PROTEUS-FTC-1">
 
