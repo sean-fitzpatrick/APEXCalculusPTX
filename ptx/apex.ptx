@@ -4,7 +4,7 @@
   <xi:include href="./docinfo.ptx"/>
 
   <book xml:id="apex-calculus">
-    <title>APEX Calculus for PROTEUS</title>
+    <title>PROTEUS APEX Calculus</title>
     <frontmatter label="frontmatter">
       <bibinfo>
         <author>
