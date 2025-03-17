@@ -370,11 +370,12 @@
 
             \begin{axis}[
             ymin=-0.5,ymax=1.5,
-            xmin=-0.3,xmax=4.3
+            xmin=-0.3,xmax=4.3,
+            axis equal
             ]
 
-            \addplot+ [domain=0:2] {sqrt(2*x-x^2)};
-            \addplot+ [domain=2:4] {0.5*(x-2)};
+            \addplot+ [domain=0:2,samples=100] {sqrt(2*x-x^2)};
+            \addplot [firstcurvestyle,domain=2:4] {0.5*(x-2)};
 
             \end{axis}
 
@@ -429,10 +430,10 @@
           with the progress shown in the figures below. 
         </p>
 
-        <sidebyside widths="40% 40%">
+        <sidebyside widths="47% 47%">
           <figure xml:id="fig-PROTEUS-data-1">
             <caption>Constant transfer rate</caption>
-            <image source="images/data-transfer-constant">
+            <image source="images/data-transfer-constant.png">
               <shortdescription>Screenshot from a computer utility showing a constant rate of data transfer</shortdescription>
               <description>
                 <p>
@@ -452,7 +453,7 @@
           </figure>
           <figure xml:id="fig-PROTEUS-data-2">
             <caption>Variable transfer rate</caption>
-            <image source="images/data-transfer-variable">
+            <image source="images/data-transfer-variable.png">
               <shortdescription>Screenshot from a computer utility showing a variable rate of data transfer</shortdescription>
               <description>
                 <p>
