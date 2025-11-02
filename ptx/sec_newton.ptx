@@ -141,7 +141,7 @@
   </figure>
 
   <exercise label="APEX-PROTEUS-newton-1-v1" component="proteus">
-    <title>Understanding Newton's Update Formula</title>
+    <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
         Let <m>f(x)</m> be a function of <m>x</m> and let <m>x_0</m> be some <m>x</m>-value. Match each expression on the left with its geometric meaning, on the right. 
@@ -520,7 +520,7 @@
   </example>
 
   <exercise label="APEX-PROTEUS-newton-2-v1" component="proteus">
-    <title>Where Newton's Method Fits</title>
+    <title>PROTEUS EXERCISE</title>
     <statement>
         <p>
           Select all situations where Newton's Method would be a reasonable tool.
@@ -784,7 +784,7 @@
   </figure>
 
     <exercise label="APEX-PROTEUS-newton-3-v1" component="proteus">
-      <title>Detecting a <q>Bad</q> Initial Guess</title>
+      <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
           Starting with an initial guess, <m>x_0</m>, suppose you compute the next value, <m>x_1</m>, in Newton's Method using the update formula:
