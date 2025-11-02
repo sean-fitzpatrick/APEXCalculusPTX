@@ -140,7 +140,7 @@
     </sidebyside>
   </figure>
 
-  <exercise label="chkpt-newton-1">
+  <exercise label="APEX-PROTEUS-newton-1-v1" component="proteus">
     <title>Understanding Newton's Update Formula</title>
     <statement>
       <p>
@@ -519,7 +519,7 @@
     </solution>
   </example>
 
-  <exercise label="chkpt-newton-applications">
+  <exercise label="APEX-PROTEUS-newton-2-v1" component="proteus">
     <title>Where Newton's Method Fits</title>
     <statement>
         <p>
@@ -783,7 +783,7 @@
     </sidebyside>
   </figure>
 
-    <exercise label="chkpt-newton-2">
+    <exercise label="APEX-PROTEUS-newton-3-v1" component="proteus">
       <title>Detecting a <q>Bad</q> Initial Guess</title>
       <statement>
         <p>
