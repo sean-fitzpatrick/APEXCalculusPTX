@@ -473,6 +473,29 @@
       <video youtube="J-5vVJIGQp4" label="vid_deriv_apps_taylor_poly_defn"/>
     </figure>
 
+    <exercise label="APEX-PROTEUS-taypoly-2-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          Look carefully at the formula for the Taylor polynomial in <xref ref="def_taypoly"/>.
+          Among all the symbols, which represent constants? Which represent variables?
+        </p>
+
+        <p>
+          Given a function <m>f</m> and a point <m>c</m> in the domain of <m>f</m>,
+          what are the steps for creating the Taylor polynomial of <m>f</m>
+          of a given degree centered at the point <m>c</m>?
+        </p>
+
+        <p>
+          State what you think the process should be, then read the next two examples.
+          Then, update your response to this question. Did the examples follow the steps you predicted?
+          If not, what was different?
+        </p>
+      </statement>
+      <response />
+    </exercise>
+
     <p>
       We will practice creating Taylor and Maclaurin polynomials in the
       following examples.
@@ -605,6 +628,51 @@
         <video width="98%" youtube="ENf-Z2pLrJg" label="vid_deriv_apps_taylor_poly_ex_1" component="video"/>
       </solution>
     </example>
+
+    <exercise label="APEX-PROTEUS-taypoly-3-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          An exercise asks you to use <xref ref="def_taypoly"/> to evaluate
+          the Taylor polynomial of degree 3 for some function <m>f</m>,
+          centered at <m>2</m>.
+        </p>
+
+        <p>
+          In the Taylor polynomial formula, the value <m>2</m> is plugged in for:
+        </p>
+      </statement>
+      <choices>
+        <choice>
+          <statement>
+            <p>
+              <m>x</m>
+            </p>
+          </statement>
+        </choice>
+        <choice correct="yes">
+          <statement>
+            <p>
+              <m>c</m>
+            </p>
+          </statement>
+        </choice>
+        <choice>
+          <statement>
+            <p>
+              <m>n</m>
+            </p>
+          </statement>
+        </choice>
+        <choice>
+          <statement>
+            <p>
+              Both <m>x</m> and <m>c</m>
+            </p>
+          </statement>
+        </choice>
+      </choices>
+    </exercise>
 
     <example xml:id="ex_taypoly2">
       <title>Finding and using Taylor polynomials</title>
@@ -1372,6 +1440,39 @@
       </solution>
     </example>
 
+    <exercise label="APEX-PROTEUS-taypoly-4-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      
+      <introduction>
+        <p>
+          Example <xref ref="ex_taypoly4"/> shows how to use <xref ref="thm_taylorthm"/>
+          to determine a sufficiently accurate Taylor polynomial for the cosine function.
+          Let's explore how this might work in general.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Taylor's theorem requires us to find the maximum value of <m>\abs{f^{(n+1)}(z)}</m> on an interval <m>I</m>.
+            What do we need to know about the derivative <m>f^{(n+1)}</m> and the interval <m>I</m> to be sure this maximum exists?
+          </p>
+        </statement>
+        <response />
+        
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Suppose you have found a number <m>M</m> such that <m>M\geq \abs{f^{(n+1)}(z)}</m>
+            for all <m>z</m> on the interval <m>I</m>, and you have access to a spreadsheet.
+            Describe how you can use the spreadsheet to find the value of <m>n</m> needed to ensure
+            that your Taylor polynomial is sufficiently accurate.
+          </p>
+        </statement>
+      </task>
+    </exercise>
     
     <example xml:id="ex_taypoly5">
       <title>Finding and using Taylor polynomials</title>
