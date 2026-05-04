@@ -250,23 +250,26 @@
       In the above expression factor out a <m>\dx_i^2</m> term:
       <md>
         <mrow>\sum_{i=1}^n \sqrt{\dx_i^2 + \Delta y_i^2} \amp = \sum_{i=1}^n \sqrt{\dx_i^2\left(1 + \frac{\Delta y_i^2}{\dx_i^2}\right)}.</mrow>
-        <intertext>Now pull the <m>\dx_i^2</m> term out of the square root:</intertext>
-        <mrow>\amp = \sum_{i=1}^n\sqrt{1 + \frac{\Delta y_i^2}{\dx_i^2}}\,\dx_i.</mrow>
-        <intertext>
-          This is nearly a Riemann Sum. Consider the <m>\Delta y_i^2/\dx_i^2</m> term.
-          The expression <m>\Delta y_i/\dx_i</m> measures the <q>change in <m>y</m>/change in <m>x</m>,</q>
-          that is, the <q>rise over run</q> of <m>f</m> on the <m>i</m>th subinterval.
-          The Mean Value Theorem of Differentiation (<xref ref="thm_mvt"/>)
-          states that there is a <m>c_i</m> in the <m>i</m>th subinterval where
-          <m>\fp(c_i) = \Delta y_i/\dx_i</m>. Thus we can rewrite our above expression as:
-        </intertext>
-        <mrow>\amp = \sum_{i=1}^n\sqrt{1+\fp(c_i)^2}\,\dx_i.</mrow>
-        <intertext>
-          This <em>is</em> a Riemann Sum.
-          As long as <m>\fp</m> is continuous, we can invoke <xref ref="thm_riemann_sum"/>
-          and conclude
-        </intertext>
-        <mrow>\amp = \int_a^b\sqrt{1+\fp(x)^2}\, dx</mrow>
+        <mrow>\amp = \sum_{i=1}^n\sqrt{1 + \frac{\Delta y_i^2}{\dx_i^2}}\,\dx_i</mrow>
+      </md>
+      after pulling the <m>\dx_i^2</m> term out of the square root.
+    </p>
+
+    <p>
+      This is nearly a Riemann Sum. Consider the <m>\Delta y_i^2/\dx_i^2</m> term.
+      The expression <m>\Delta y_i/\dx_i</m> measures the <q>change in <m>y</m>/change in <m>x</m>,</q>
+      that is, the <q>rise over run</q> of <m>f</m> on the <m>i</m>th subinterval.
+      The Mean Value Theorem of Differentiation (<xref ref="thm_mvt"/>)
+      states that there is a <m>c_i</m> in the <m>i</m>th subinterval where
+      <m>\fp(c_i) = \Delta y_i/\dx_i</m>. Thus we can rewrite our above expression as:
+      <md>
+        L \amp \approx \sum_{i=1}^n\sqrt{1+\fp(c_i)^2}\,\dx_i
+      </md>.
+      This <em>is</em> a Riemann Sum.
+      As long as <m>\fp</m> is continuous, we can invoke <xref ref="thm_riemann_sum"/>
+      and conclude
+      <md>
+        L \amp = \int_a^b\sqrt{1+\fp(x)^2}\, dx
       </md>.
     </p>
 
@@ -437,6 +440,25 @@
         <video width="98%" youtube="mJlyz_9yiao" label="vid-intapp-arclength-example2" component="video"/>
       </solution>
     </example>
+
+    <exercise label="APEX-PROTEUS-arclength-1-v1" compnent="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          Let <m>f(x) = \sqrt{1-x^2}</m>, and consider the curve <m>y=f(x), -1\leq x\leq 1</m>.
+        </p>
+
+        <p>
+          We know the length of this curve, and can find it without using calculus.
+          Why is this, and what is the length?
+        </p>
+
+        <p>
+          What difficulty will we encounter if we try to calculate the length using <xref ref="thm_arclength"/>?
+        </p>
+      </statement>
+      <response/>
+    </exercise>
 
     <p>
       The previous examples found the arc length exactly through careful choice of the functions.
@@ -775,6 +797,19 @@
       In the limit, this midpoint is just <m>x</m>.
       This gives the second part of <xref ref="thm_surface_area"/>.)
     </p>
+
+    <exercise label="APEX-PROTEUS-arclength-2-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          The formulas in <xref ref="thm_surface_area"/> assume we are given <m>y</m> as a function of <m>x</m>.
+          What are the corresponding formulas if we are given <m>x=g(y)</m> for some function <m>g</m>?
+          In particular, for which type of axis do we write <m>y</m> in front of the square root,
+          and for which type of axis do we write <m>g(y)</m> in front of the square root?
+        </p>
+      </statement>
+      <response/>
+    </exercise>
 
     <example xml:id="ex_sa1">
       <title>Finding surface area of a solid of revolution</title>
