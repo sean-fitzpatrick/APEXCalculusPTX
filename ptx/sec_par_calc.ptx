@@ -79,6 +79,66 @@
       </statement>
     </definition>
 
+    <exercise label="APEX-PROTEUS-par-calc-1-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          Suppose <m>x=f(t)</m> and <m>y=g(t)</m>. Which statement correctly explains why
+          <m>\dfrac{dy}{dx} = \dfrac{g'(t)}{f'(t)}</m>?
+        </p>
+      </statement>
+      <choices randomize="yes">
+        <choice>
+          <statement>
+            <p>
+              Because <m>\frac{dy}{dt}</m> and <m>\frac{dx}{dt}</m> are always equal for parametric curves.
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              The two derivatives measure different rates of change, so they are not generally equal. The quotient comes from the Chain Rule identity <m>\dfrac{dy}{dt}=\dfrac{dy}{dx}\dfrac{dx}{dt}</m>.
+            </p>
+          </feedback>
+        </choice>
+        <choice correct="yes">
+          <statement>
+            <p>
+              The Chain Rule gives <m>\frac{dy}{dt}=\frac{dy}{dx}\frac{dx}{dt}</m>, so dividing by <m>\frac{dx}{dt}</m> isolates the slope with respect to <m>x</m> when <m>x'(t)\neq 0</m>.
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              This is the key transition in the section: the slope in the <m>xy</m>-plane is recovered from the two derivatives with respect to the parameter <m>t</m>.
+            </p>
+          </feedback>
+        </choice>
+        <choice>
+          <statement>
+            <p>
+              Because parametric curves use <m>t</m> instead of <m>x</m>, the derivative with respect to <m>x</m> is the product <m>g'(t)f'(t)</m>.
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              The section derives a quotient, not a product. We divide by <m>x'(t)</m> because we are converting a rate with respect to <m>t</m> into a rate with respect to <m>x</m>.
+            </p>
+          </feedback>
+        </choice>
+        <choice>
+          <statement>
+            <p>
+              Tangent lines for parametric curves depend only on <m>y'(t)</m>.
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              Both coordinates matter. A tangent slope compares the change in <m>y</m> to the change in <m>x</m>, so both <m>y'(t)</m> and <m>x'(t)</m> appear.
+            </p>
+          </feedback>
+        </choice>
+      </choices>
+    </exercise>
+
     <p>
       The definition leaves two special cases to consider.
       When the tangent line is horizontal,
@@ -440,6 +500,77 @@
         <video width="98%" youtube="rb4wEkhcUtE" label="vid-planecurves-parcalc-astroid" component="video"/>
       </solution>
     </example>
+
+    <exercise label="APEX-PROTEUS-par-calc-4-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          Select all true statements about tangent lines to parametric curves.
+        </p>
+      </statement>
+
+      <choices randomize="yes">
+        <choice correct="yes">
+          <statement><p>If <m>\dfrac{dy}{dt}=0</m> and <m>\dfrac{dx}{dt}\neq 0</m>, then the tangent line is horizontal.</p></statement>
+          <feedback><p>Correct.</p></feedback>
+        </choice>
+        <choice correct="yes">
+          <statement><p>If <m>\dfrac{dx}{dt}=0</m> and <m>\dfrac{dy}{dt}\neq 0</m>, then the tangent line is vertical.</p></statement>
+          <feedback><p>Correct.</p></feedback>
+        </choice>
+        <choice correct="no">
+          <statement><p>If <m>\dfrac{dy}{dt}=0</m>, then the particle is not moving.</p></statement>
+          <feedback><p>The particle may still be moving horizontally.</p></feedback>
+        </choice>
+        <choice correct="no">
+          <statement><p>If <m>\dfrac{dx}{dt}=0</m>, then the tangent line must be horizontal.</p></statement>
+          <feedback><p>This is the condition associated with a vertical tangent, provided <m>\dfrac{dy}{dt}\neq 0</m>.</p></feedback>
+        </choice>
+        <choice correct="yes">
+          <statement><p>A particle can be moving even when the tangent line is horizontal.</p></statement>
+          <feedback><p>Correct. The horizontal component of velocity may be nonzero.</p></feedback>
+        </choice>
+      </choices>
+    </exercise>
+
+    <exercise label="APEX-PROTEUS-par-calc-2-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          A student is told that at some parameter value <m>t=t_0</m> on a parametric curve, the derivative values <m>f'(t_0)</m> and <m>g'(t_0)</m> are as given on the left. Match each pair of derivative values with the most appropriate description of what is happening on the curve.
+        </p>
+        <sidebyside widths="42% 58%">
+          <p><m>\small\text{Values of }f'(t_0),\ g'(t_0)</m> ⤵︎</p>
+          <p><m>\small\text{What is happening at }\ t=t_0</m> ⤵︎</p>
+        </sidebyside>
+      </statement>
+      <feedback>
+        <p>
+          The slope formula <m>dy/dx = g'(t)/f'(t)</m> reads off four distinct geometric situations depending on which derivatives vanish. A zero numerator with a nonzero denominator gives slope <m>0</m> (horizontal tangent); a zero denominator with a nonzero numerator gives an undefined slope (vertical tangent); both zeros give <m>0/0</m>, which often indicates a cusp and may require an L'Hôpital-style limit to resolve; neither zero gives an ordinary oblique tangent line.
+        </p>
+      </feedback>
+      <cardsort>
+        <match>
+          <premise><m>f'(t_0) = 2,\ g'(t_0) = 0</m></premise>
+          <response>Horizontal tangent line when <m>t = t_0</m></response>
+        </match>
+        <match>
+          <premise><m>f'(t_0) = 0,\ g'(t_0) = -3</m></premise>
+          <response>Vertical tangent line when <m>t = t_0</m></response>
+        </match>
+        <match>
+          <premise><m>f'(t_0) = 0,\ g'(t_0) = 0</m></premise>
+          <response>Slope is indeterminate; the curve may have a cusp at <m>t = t_0</m></response>
+        </match>
+        <match>
+          <premise><m>f'(t_0) = 4,\ g'(t_0) = -1</m></premise>
+          <response>Non-vertical tangent line with a finite, nonzero slope when <m>t = t_0</m></response>
+        </match>
+        <match>
+          <response>There is an inflection point at <m>t = t_0</m></response>
+        </match>
+      </cardsort>
+    </exercise>
   </introduction>
 
   <subsection>
@@ -760,6 +891,43 @@
         </figure>
       </solution>
     </example>
+
+    <exercise label="APEX-PROTEUS-par-calc-5-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          Match each condition for a parametric curve with the correct interpretation.
+        </p>
+      </statement>
+
+      <cardsort>
+        <match>
+          <premise order="1"><m>\dfrac{dy}{dt}=0,\ \dfrac{dx}{dt}\neq 0</m></premise>
+          <response>Horizontal tangent line</response>
+        </match>
+        <match>
+          <premise order="2"><m>\dfrac{dx}{dt}=0,\ \dfrac{dy}{dt}\neq 0</m></premise>
+          <response>Horizontal normal line</response>
+        </match>
+        <match>
+          <premise order="3"><m>\dfrac{d^2y}{dx^2}&gt;0</m></premise>
+          <response>Concave up</response>
+        </match>
+        <match>
+          <premise order="4"><m>\dfrac{dx}{dt}>0</m>, <m>\dfrac{dy}{dt}>0</m></premise>
+          <response>The curve <m>y=y(x)</m> is increasing near <m>x</m>.</response>
+        </match>
+        <match>
+          <response>Constant speed</response>
+        </match>
+        <match>
+          <response>Clockwise motion</response>
+        </match>
+        <match>
+          <response>The curve <m>y=y(x)</m> is decreasing near <m>x</m>.</response>
+        </match> 
+      </cardsort>
+    </exercise>
   </subsection>
 
   <subsection>
@@ -940,6 +1108,116 @@
         <video width="98%" youtube="G5U9BVhB3PE" label="vid-planecurves-parcalc-arclength-example2" component="video"/>
       </solution>
     </example>
+
+    <exercise label="APEX-PROTEUS-par-calc-3-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          Consider the parametric curve <m>x=f(t)=t^2</m>, <m>y=g(t)=t^3</m> on the interval <m>[0,2]</m>. Several candidate expressions for its arc length are listed below. Match each incorrect setup with the reason it fails.
+        </p>
+        <sidebyside widths="40% 60%">
+          <p><m>\small\text{Candidate expression}</m> ⤵︎</p>
+          <p><m>\small\text{Correct or Reason it fails}</m> ⤵︎</p>
+        </sidebyside>
+      </statement>
+      <feedback>
+        <p>
+          The parametric arc length formula is <m>L = \int_{t_1}^{t_2}\sqrt{f'(t)^2 + g'(t)^2}\,dt</m>. With <m>f'(t)=2t</m> and <m>g'(t)=3t^2</m>, the correct integrand is <m>\sqrt{4t^2 + 9t^4}</m> and the bounds are the <m>t</m>-bounds <m>[0,2]</m>. Two common errors: adding <m>f'</m> and <m>g'</m> inside the root without squaring, and integrating with respect to <m>x</m> over the <m>x</m>-bounds. Another is dropping the <m>1</m> from the Cartesian formula but keeping <m>dx</m>.
+        </p>
+      </feedback>
+      <cardsort>
+        <match>
+          <premise><m>\displaystyle\int_0^2 \sqrt{(2t)^2 + (3t^2)^2}\,dt</m></premise>
+          <response>The correct parametric arc length integral</response>
+        </match>
+        <match>
+          <premise><m>\displaystyle\int_0^2 \sqrt{2t + 3t^2}\,dt</m></premise>
+          <response>Forgot to square <m>f'(t)</m> and <m>g'(t)</m> inside the radical</response>
+        </match>
+        <match>
+          <premise><m>\displaystyle\int_0^4 \sqrt{(2t)^2 + (3t^2)^2}\,dx</m></premise>
+          <response>Mixed <m>x</m>-bounds with a <m>dt</m> integrand; bounds and differential are inconsistent</response>
+        </match>
+        <match>
+          <premise><m>\displaystyle\int_0^2 \sqrt{1+\left(\dfrac{3t^2}{2t}\right)^2}\,dt</m></premise>
+          <response>Used the Cartesian integrand <m>\sqrt{1+(dy/dx)^2}</m> but integrated with respect to <m>t</m> instead of <m>x</m></response>
+        </match>
+        <match>
+          <response>This is the area enclosed by the curve, not its length</response>
+        </match>
+      </cardsort>
+    </exercise>
+
+    <exercise label="APEX-PROTEUS-par-calc-6-v1" language="math" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          Consider the parametric curve
+          <m>x(t)=t^3-3t,\quad y(t)=t^2+1,\quad -1\le t\le 2.</m>
+        </p>
+        <p>
+          Arrange the blocks to form the correct expression for the arc length of the curve on the given interval.
+        </p>
+        <p>
+          <em>Note:</em> Some blocks are distractors and should not be used.
+        </p>
+      </statement>
+
+      <blocks layout="horizontal" randomize="yes">
+        <!-- Correct blocks -->
+        <block order="1"><m>\int_{-1}^{2}</m></block>
+        <block order="2">sqrt</block>
+        <block order="3"><m>\Bigl(</m></block>
+        <block order="3"><m>\left(3t^2-3\right)^2</m></block>
+        <block order="4"><m>+</m></block>
+        <block order="5"><m>4t^2</m></block>
+        <block order="6"><m>\Bigr)</m></block>
+        <block order="7"><m>\,dt</m></block>
+
+        <!-- Distractors -->
+        <block correct="no"><m>\int_{0}^{2}</m></block>
+        <!-- <block correct="no"><m>\int_{-1}^{2}\left[\cdots\right]\,dt</m></block> -->
+        <block correct="no"><m>\left(3t^2-3\right)</m></block>
+        <block correct="no"><m>2t</m></block>
+        <!--
+        <block><m>\left(6t\right)^2</m></block>
+        <block><m>\sqrt{\left(3t^2-3\right)^2-\left(2t\right)^2}</m></block>
+        <block><m>\sqrt{\left(3t^2-3\right)+\left(2t\right)}</m></block>
+        <block><m>\,dx</m></block>
+        <block><m>\,ds</m></block>
+        <block><m>\left(3t^2+3\right)^2</m></block> -->
+      </blocks>
+
+      <answer>
+        <p>
+          The correct arc length expression is
+          <me>
+            \int_{-1}^{2}\sqrt{\left(3t^2-3\right)^2+\left(2t\right)^2}\,dt.
+          </me>
+        </p>
+      </answer>
+
+      <solution>
+        <p>
+          For a parametric curve <m>x=x(t)</m>, <m>y=y(t)</m>, the arc length on <m>a\le t\le b</m> is
+          <me>
+            L=\int_a^b \sqrt{\left(\frac{dx}{dt}\right)^2+\left(\frac{dy}{dt}\right)^2}\,dt.
+          </me>
+        </p>
+        <p>
+          Here,
+          <me>
+            \frac{dx}{dt}=3t^2-3,\qquad \frac{dy}{dt}=2t.
+          </me>
+        </p>
+        <p>
+          Therefore,
+          <me>
+            L=\int_{-1}^{2}\sqrt{\left(3t^2-3\right)^2+\left(2t\right)^2}\,dt.
+          </me>
+        </p>
+      </solution>
+    </exercise>
   </subsection>
 
   <subsection>
