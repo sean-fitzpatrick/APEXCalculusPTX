@@ -419,22 +419,22 @@
     </example>
 
     <exercise label="APEX-PROTEUS-param-eqs-1-v1" component="proteus">
-    <title>PROTEUS EXERCISE</title>
-    
-    <statement>
-      <p>
-        Two parametrizations are given:
-        <md>
-          x=\cos(t),\ y=\sin(t),\ 0\le t\le 2\pi
-        </md>
-        and
-        <md>
-          x=\cos(2t),\ y=\sin(2t),\ 0\le t\le \pi
-        </md>.
-      </p>
+      <title>PROTEUS EXERCISE</title>
+      
+      <statement>
+        <p>
+          Two parametrizations are given:
+          <md>
+            x=\cos(t),\ y=\sin(t),\ 0\le t\le 2\pi
+          </md>
+          and
+          <md>
+            x=\cos(2t),\ y=\sin(2t),\ 0\le t\le \pi
+          </md>.
+        </p>
 
-      <p>Which statement is true?</p>
-    </statement>
+        <p>Which statement is true?</p>
+      </statement>
       <choices>
         <choice correct="no">
            <statement><p>The second traces a larger circle.</p> </statement>

@@ -19,6 +19,11 @@
       <video youtube="FIvX66HAaj8" label="vid-planecurves-parcalc-intro"/>
     </figure>
 
+  </introduction>
+
+  <subsection xml:id="subsec-parametric-tangent" label="subsec-param-tangent">
+    <title>Tangent lines to parametric curves</title>
+        
     <p>
       The slope of the tangent line is still <m>\frac{dy}{dx}</m>,
       and the Chain Rule allows us to calculate this in the context of parametric equations.
@@ -571,7 +576,7 @@
         </match>
       </cardsort>
     </exercise>
-  </introduction>
+  </subsection>
 
   <subsection>
     <title>Concavity</title>
