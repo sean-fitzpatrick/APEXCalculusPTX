@@ -418,6 +418,76 @@
       </solution>
     </example>
 
+    <exercise label="APEX-PROTEUS-param-eqs-1-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
+    
+    <statement>
+      <p>
+        Two parametrizations are given:
+        <md>
+          x=\cos(t),\ y=\sin(t),\ 0\le t\le 2\pi
+        </md>
+        and
+        <md>
+          x=\cos(2t),\ y=\sin(2t),\ 0\le t\le \pi
+        </md>.
+      </p>
+
+      <p>Which statement is true?</p>
+    </statement>
+      <choices>
+        <choice correct="no">
+           <statement><p>The second traces a larger circle.</p> </statement>
+        </choice>
+        <choice correct="no">
+           <statement><p>The second traces the same circle twice.</p> </statement>
+        </choice>
+        <choice correct="yes">
+           <statement><p>The second traces the same circle once, but at a different speed.</p> </statement>
+        </choice>
+        <choice correct="no">
+           <statement><p>The two curves are different because the parameter intervals are different.</p> </statement>
+        </choice>
+      </choices>
+      <solution>
+        <p>As <m>t</m> goes from <m>0</m> to <m>\pi</m>, the angle <m>2t</m> goes from <m>0</m> to <m>2\pi</m>. So the second parametrization traces the unit circle exactly once, but the parameter changes at a different rate.</p>
+      </solution>
+    </exercise>
+
+    <exercise label="APEX-PROTEUS-param-eqs-2-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>Which statement best explains why two different parametric equations can describe the same geometric curve?</p>
+      </statement>
+      <choices>
+        <choice correct="no">
+           <statement><p>Because parametric equations always produce infinitely many different curves.</p> </statement>
+        </choice>
+        <choice correct="yes">
+           <statement><p>
+            Different functions of the parameter can produce the same set of points, possibly with different speeds or directions.
+           </p> </statement>
+        </choice>
+        <choice correct="no">
+           <statement><p>Because every Cartesian equation has only one possible parametrization.</p> </statement>
+        </choice>
+        <choice correct="no">
+           <statement><p>
+            Because changing the parameter always changes the geometric shape of the curve.
+          </p> </statement>
+        </choice>
+      </choices>
+      <solution>
+        <statement>
+        <p>
+          A parametric curve is determined by the set of points traced and how they are traced. 
+          Different choices of parameter can produce the same set of points while changing orientation, 
+          speed, or how often the curve is retraced.
+        </p>
+        </statement>
+      </solution>
+    </exercise>
+
     <p>
       <em>Technology Note:</em> Most graphing utilities can graph functions given in parametric form.
       Often the word <q>parametric</q>
@@ -662,6 +732,69 @@
         </p>
       </solution>
     </example>
+
+    <exercise label="APEX-PROTEUS-param-eqs-5-v1">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          Match each parametric curve with the description of its graph or motion.
+          Some responses may not match any curve.
+        </p>
+      </statement>
+      <feedback>
+        <p>
+          Eliminate the parameter to see the geometric curve, consider the range of t, 
+          and pay attention to motion direction.
+        </p>
+      </feedback>
+      <cardsort>
+        <!-- True matches -->
+        <match>
+          <premise order="1"><m>x=t^2, y=t^2</m>, <m>-2 ≤ t &lt; 2</m></premise>
+          <response>Line segment from (0,0) to (4,4), points mostly traced twice, 
+            retraces motion</response>
+        </match>
+        <match>
+          <premise order="2"><m>x=cos(t), y=sin(t)</m>, <m>0 ≤ t ≤ 2π</m></premise>
+          <response>
+            Circle of radius 1 centered at the origin, traced once counterclockwise
+          </response>
+        </match>
+        <match>
+          <premise order="3"><m>x=t, y=t^2<m>, </m>-2 ≤ t ≤ 2</m></premise>
+          <response>Parabola opening upward from (-2,2) to (2,2)</response>
+        </match>
+        <match>
+          <premise order="4"><m>x=2cos(t), y=3sin(t)</m>, <m>0 ≤ t ≤ 2π</m></premise>
+          <response>
+            Ellipse centered at the origin, semi-major axis 3 along y, 
+            semi-minor axis 2 along x
+          </response>
+        </match>
+        <match>
+          <premise order="5"><m>x=sin(2t), y=cos(2t)</m>, <m>0 ≤ t ≤ 2π</m></premise>
+          <response>Circle of radius 1 centered at the origin, 
+            traced twice counterclockwise</response>
+        </match>
+            <match>
+          <premise order="6"><m>x=3, y=t^2</m>, <m>0 ≤ t ≤ 3</m></premise>
+          <response>A vertical line segment</response>
+        </match>
+    <!-- Distractors -->
+        <match>     
+          <response>Line segment along <m>y=2x</m> from <m>(0,0)</m> to <m>(2,4)</m></response>
+        </match>
+        <match>
+          <response>Circle of radius 2 centered at the origin</response>
+        </match>
+        <match>
+          <response>An horizontal line segment</response>
+        </match>
+        <response>Downward-opening parabola from (-2,4) to (2,4)</response>
+        <response>Horizontal line y=3</response>
+        <response>Figure traced only once from t=0 to t=1</response>
+      </cardsort>
+    </exercise>
   </subsection>
 
   <subsection>
@@ -982,6 +1115,146 @@
         <video width="98%" youtube="RYkPHhpgnas" label="vid-planecurves-parameq-ellipse" component="video"/>
       </solution>
     </example>
+
+    <exercise label="APEX-PROTEUS-param-eqs-3-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          A particle moves according to <m>x=t^2</m> and <m>y=t^2</m> for <m>-2\le t\lt 2</m>.
+          Select all true statements about the curve and the motion of the particle.
+        </p>
+      </statement>
+      <choices>
+        <choice correct="yes">
+          <statement>
+            <p>
+              Every point traced by the particle lies on the line <m>y=x</m>.
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              Correct. Since <m>x=t^2</m> and <m>y=t^2</m>, we always have <m>y=x</m>.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="yes">
+          <statement>
+            <p>
+              The particle traces a line segment from <m>(0,0)</m> to <m>(4,4)</m>.
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              Correct. Because <m>t^2</m> ranges through all values from <m>0</m> to <m>4</m>, both <m>x</m> and <m>y</m> take the same values in that interval, so the traced set is exactly the line segment on <m>y=x</m> from <m>(0,0)</m> to <m>(4,4)</m>.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct ="no"> 
+          <statement>
+            <p>
+              The parametric equations trace an arc of the parabola <m>y=x^2</m> from <m>(0,0)</m> to <m>(4,4)</m>.
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              This is false. Since <m>x=t^2</m> and <m>y=t^2</m>, eliminating the parameter gives <m>y=x</m>, not <m>y=x^2</m>. The curve is a line segment, not a parabolic arc.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="yes">
+          <statement>
+            <p>
+              The particle starts at <m>(4,4)</m>, moves to <m>(0,0)</m>, 
+              and then retraces the same segment back toward <m>(4,4)</m>.
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              Correct. At <m>t=-2</m>, the particle is at <m>(4,4)</m>. 
+              As <m>t</m> increases to <m>0</m>, <m>t^2</m> decreases to <m>0</m>, 
+              so the particle moves to <m>(0,0)</m>. 
+              Then as <m>t</m> increases from <m>0</m> toward <m>2</m>, 
+              <m>t^2</m> increases again, so the particle retraces the same path.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="no">
+          <statement>
+            <p>
+              All points on the curve are traced twice.
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              False. If <m>0&lt;a&lt;4</m>, then the point <m>(a,a)</m> 
+              occurs for both <m>t=\sqrt{a}</m> and <m>t=-\sqrt{a}</m>. 
+              The origin is traced only once, at <m>t=0</m>. 
+              The point <m>(4,4)</m> is approached again as <m>t\to 2^-</m>, 
+              but <m>t=2</m> is not included.
+            </p>
+          </feedback>
+        </choice>
+
+        <choice correct="yes">
+          <statement>
+            <p>
+              The particle is at the point <m>(4, 4)</m> at some moment <m>t</m> .
+            </p>
+          </statement>
+          <feedback>
+            <p>
+              This is true. The particle is at the point <m>(4,4)</m> at time <m>t=-2</m>.
+            </p>
+          </feedback>
+        </choice>
+      </choices>
+      <hint>
+        <p>
+          Try eliminating the parameter first. Then think separately about the <em>geometric curve</em> and the <em>direction of motion</em> as <m>t</m> increases.
+        </p>
+      </hint>
+      <solution>
+        <p>
+          Since <m>x=t^2</m> and <m>y=t^2</m>, we have <m>y=x</m>. Because <m>-2\le t&lt;2</m>, the quantity <m>t^2</m> takes every value in the interval <m>[0,4]</m>. Therefore, the geometric curve is the line segment from <m>(0,0)</m> to <m>(4,4)</m>. At <m>t=-2</m>, the particle starts at <m>(4,4)</m>, moves toward <m>(0,0)</m> as <m>t</m> increases to <m>0</m>, and then retraces the segment back toward <m>(4,4)</m> as <m>t</m> increases from <m>0</m> toward <m>2</m>. Thus the true statements are that the curve lies on <m>y=x</m>, that it is the segment from <m>(0,0)</m> to <m>(4,4)</m>, that the particle retraces the segment, and that most points are traced twice.
+        </p>
+      </solution>
+    </exercise>
+
+    <exercise label="APEX-PROTEUS-param-eqs-4-v1">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          Select all statements that are true about parametric equations.
+        </p>
+      </statement>
+
+      <choices randomize="yes">
+        <choice correct="yes">
+          <statement><p>Different parametric equations can represent the same geometric curve.</p></statement>
+          <feedback><p>Correct.</p></feedback>
+        </choice>
+        <choice correct="yes">
+          <statement><p>Two parameterizations of the same curve may trace the curve at different speeds.</p></statement>
+          <feedback><p>Correct.</p></feedback>
+        </choice>
+        <choice correct="yes">
+          <statement><p>Two parameterizations of the same curve may trace the curve in opposite directions.</p></statement>
+          <feedback><p>Correct.</p></feedback>
+        </choice>
+        <choice correct="no">
+          <statement><p>If two parameterizations are different formulas, they must represent different curves.</p></statement>
+          <feedback><p>Different formulas can still describe the same curve.</p></feedback>
+        </choice>
+        <choice correct="no">
+          <statement><p>The parameter <m>t</m> must always represent time.</p></statement>
+          <feedback><p>The parameter is often interpreted as time, but it does not have to be.</p></feedback>
+        </choice>
+      </choices>
+    </exercise>
 
     <p>
       The Pythagorean Theorem can also be used to identify parametric equations for hyperbolas.
