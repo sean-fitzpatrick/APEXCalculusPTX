@@ -1238,7 +1238,7 @@
               </pg-code>-->
               <statement>
                 <p>
-                  <m>f(x) = e^x</m>;<m>c=0</m>
+                  <m>f(x) = e^x</m>; <m>c=0</m>
                 </p>
               </statement>
               <solution>
@@ -1263,7 +1263,7 @@
               </pg-code>-->
               <statement>
                 <p>
-                  <m>f(x) = \sin(x)</m>;<m>c=0</m>
+                  <m>f(x) = \sin(x)</m>; <m>c=0</m>
                 </p>
               </statement>
               <solution>
@@ -1287,7 +1287,7 @@
               </pg-code>-->
               <statement>
                 <p>
-                  <m>f(x) = 1/(1-x)</m>;<m>c=0</m>
+                  <m>f(x) = 1/(1-x)</m>; <m>c=0</m>
                 </p>
               </statement>
               <solution>
@@ -1313,7 +1313,7 @@
               </pg-code>-->
               <statement>
                 <p>
-                  <m>f(x) = \tan^{-1}(x)</m>;<m>c=0</m>
+                  <m>f(x) = \tan^{-1}(x)</m>; <m>c=0</m>
                 </p>
               </statement>
               <solution>
@@ -1369,7 +1369,7 @@
               </pg-code>-->
               <statement>
                 <p>
-                  <m>f(x) = \cos(x)</m>;<m>c=\pi/2</m>
+                  <m>f(x) = \cos(x)</m>; <m>c=\pi/2</m>
                 </p>
               </statement>
               <solution>
@@ -1390,7 +1390,7 @@
               </pg-code>-->
               <statement>
                 <p>
-                  <m>f(x) = 1/x</m>;<m>c=1</m>
+                  <m>f(x) = 1/x</m>; <m>c=1</m>
                 </p>
               </statement>
               <solution>
@@ -1411,7 +1411,7 @@
               </pg-code>-->
               <statement>
                 <p>
-                  <m>f(x) = e^{-x}</m>;<m>c=0</m>
+                  <m>f(x) = e^{-x}</m>; <m>c=0</m>
                 </p>
               </statement>
               <solution>
@@ -1438,7 +1438,7 @@
               </pg-code>-->
               <statement>
                 <p>
-                  <m>f(x) = \ln(1+x)</m>;<m>c=0</m>
+                  <m>f(x) = \ln(1+x)</m>; <m>c=0</m>
                 </p>
               </statement>
               <solution>
@@ -1464,7 +1464,7 @@
               </pg-code>-->
               <statement>
                 <p>
-                  <m>f(x) = x/(x+1)</m>;<m>c=1</m>
+                  <m>f(x) = x/(x+1)</m>; <m>c=1</m>
                 </p>
               </statement>
               <solution>
@@ -1490,7 +1490,7 @@
               </pg-code>-->
               <statement>
                 <p>
-                  <m>f(x) = \sin(x)</m>;<m>c=\pi/4</m>
+                  <m>f(x) = \sin(x)</m>; <m>c=\pi/4</m>
                 </p>
               </statement>
               <solution>
