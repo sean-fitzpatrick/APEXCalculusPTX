@@ -84,6 +84,46 @@
     <video youtube="-W6wco1HZYo" label="vid-seqseries-ast-def-alt-series"/>
   </figure>
 
+  <exercise label="APEX-PROTEUS-alt-series-1-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
+    <statement>
+      <p>
+        Consider the sequence defined by <m>a_n = \dfrac{1+(-1)^n}{2n}</m>.
+        Is it positive? Is it decreasing? Does <m>\sum_{n=1}^\infty (-1)^n a_n</m> converge?
+      </p>
+    </statement>
+    <response />
+    
+  </exercise>
+
+  <exercise label="APEX-PROTEUS-alt-series-2-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
+    
+    <statement>
+      <p>
+        Suppose the sequence <m>\{a_n\}</m> is not positive.
+        In this case, is it possible for <m>\{a_n\}</m> to be decreasing and for <m>\lim_{n\to\infty}a_n=0</m>?
+        Give an example of such a sequence, or explain why one is not possible.
+      </p>
+    </statement>
+    <response />
+    
+  </exercise>
+
+  <exercise label="APEX-PROTEUS-alt-series-3-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
+    
+    <statement>
+      <p>
+        Suppose the sequence <m>\{a_n\}</m> is not decreasing.
+        In this case, is it possible for <m>\{a_n\}</m> to be positive and for <m>\lim_{n\to\infty}a_n=0</m>?
+        Give an example of such a sequence, or explain why one is not possible.
+      </p>
+    </statement>
+    <response />
+    
+  </exercise>
+
   <p>
     The basic idea behind <xref ref="thm_alt_series_test"/>
     is illustrated in <xref first="fig_alt_series_converge_a" last="fig_alt_series_converge_b"/>.
@@ -551,6 +591,33 @@
   <p>
     Thus we say the Alternating Harmonic Series converges conditionally.
   </p>
+
+  <exercise label="APEX-PROTEUS-alt-series-4-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
+    <statement>
+      <p>
+        Sort each series on the left according to whether the series is
+        absolutely convergent, conditionally convergent, or divergent.
+      </p>
+    </statement>
+    <cardsort>
+      <match>
+        <premise><m>\ds \sum_{n=1}^\infty (-1)^n\frac{\abs{\sin(n)}}{n^2}</m></premise>
+        <premise><m>\ds \sum_{n=1}^\infty \frac{(-1)^{n+1}}{n\sqrt{n}}</m></premise>
+        <response>Absolutely convergent</response>
+      </match>
+      <match>
+        <premise><m>\ds \sum_{n=1}^\infty \frac{(-1)^{n+1}}{\sqrt{n}}</m></premise>
+        <premise><m>\ds \sum_{n=2}^\infty \frac{(-1)^n}{n\ln(n)}</m></premise>
+        <response>Conditionally convergent</response>
+      </match>
+      <match>
+        <premise><m>\ds \sum_{n=1}^\infty (-1)^n\frac{1-n}{2n}</m></premise>
+        <response>Divergent</response>
+      </match>
+      
+    </cardsort>
+  </exercise>
 
   <example xml:id="ex_alt_series2">
     <title>Determining absolute and conditional convergence</title>
