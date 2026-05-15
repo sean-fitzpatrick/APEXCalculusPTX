@@ -552,8 +552,7 @@
   </p>
 
   <p>
-    <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/>
-    (on the following page)
+    In <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/>
     we give a table of the Taylor series of a number of common functions.
     We then give a theorem about the
     <q>algebra of power series,</q> that is,
@@ -697,6 +696,22 @@
     </p>
   </insight>
 
+  <aside vshift="-1">
+    <p>
+      Note that we require <m>h(x)</m> to be a polynomial function in <xref ref="thm_series_alg"/>.
+      If we plug a function that is not polynomial into a power series,
+      the result will no longer be a power series.
+      If one is <em>very</em> careful about the centre and radius of convergence,
+      it is technically possible to substitute the Taylor series for a general function <m>h(x)</m>
+      into the Taylor series for <m>f(x)</m>, and the result will be the Taylor series for <m>f(h(x))</m>.
+    </p>
+
+    <p>
+      In practice, <m>h(x)</m> is typically a monomial function of the form <m>h(x)=ax^n</m>.
+      For anything more complicated, rearranging the power series into a standard form becomes a nightmare.
+    </p>
+  </aside>
+
   <theorem xml:id="thm_series_alg">
     <title>Algebra of Power Series</title>
     <statement>
@@ -730,22 +745,6 @@
       </p>
     </statement>
   </theorem>
-
-  <aside vshift="3">
-    <p>
-      Note that we require <m>h(x)</m> to be a polynomial function in <xref ref="thm_series_alg"/>.
-      If we plug a function that is not polynomial into a power series,
-      the result will no longer be a power series.
-      If one is <em>very</em> careful about the centre and radius of convergence,
-      it is technically possible to substitute the Taylor series for a general function <m>h(x)</m>
-      into the Taylor series for <m>f(x)</m>, and the result will be the Taylor series for <m>f(h(x))</m>.
-    </p>
-
-    <p>
-      In practice, <m>h(x)</m> is typically a monomial function of the form <m>h(x)=ax^n</m>.
-      For anything more complicated, rearranging the power series into a standard form becomes a nightmare.
-    </p>
-  </aside>
 
   <example xml:id="ex_ts5">
     <title>Combining Taylor series</title>
