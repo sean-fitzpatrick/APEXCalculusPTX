@@ -285,6 +285,85 @@
     </statement>
   </insight>
 
+  <exercise label="APEX-PROTEUS-power-series-1-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
+
+    <statement>
+      <p>
+        The power series
+        <m>\displaystyle \sum_{n=0}^{\infty} a_n x^n</m>
+        has radius of convergence <m>R</m>.
+      </p>
+
+      <p>
+        Match each transformed series on the left with its radius of convergence on the right.
+      </p>
+    </statement>
+
+    <feedback>
+      <p>
+        Multiplying <m>x</m> by a constant changes the radius inversely.
+        Multiplying coefficients by factors such as <m>(-1)^n</m>, <m>n</m>, or shifting powers by finitely many terms does not change the radius of convergence.
+      </p>
+    </feedback>
+
+    <cardsort>
+      <match>
+        <premise>
+          <m>\displaystyle \sum_{n=0}^{\infty} a_n (3x)^n</m>
+        </premise>
+        <response>
+          <m>\dfrac{R}{3}</m>
+        </response>
+      </match>
+
+      <match>
+        <premise>
+          <m>\displaystyle \sum_{n=0}^{\infty} a_n \left(\frac{x}{2}\right)^n</m>
+        </premise>
+        <response>
+          <m>2R</m>
+        </response>
+      </match>
+      
+      <match>
+        <premise>
+          <m>\displaystyle \sum_{n=0}^{\infty} (-1)^n a_n x^n</m>
+        </premise>
+        <premise>
+          <m>\displaystyle \sum_{n=0}^{\infty} n a_n x^n</m>
+        </premise>
+        <premise>
+          <m>\displaystyle \sum_{n=0}^{\infty} a_n x^{n+2}</m>
+        </premise>
+        <premise>
+          <m>\displaystyle \sum_{n=0}^{\infty} \frac{a_n}{n} x^n</m>
+        </premise>
+        <response>
+          <m>R</m>
+        </response>
+      </match>
+
+      <match>
+        <response>
+          <m>3R</m>
+        </response>
+      </match>
+
+      <match>
+        <response>
+          <m>\dfrac{R}{3}</m>
+        </response>
+      </match>
+
+      <match>
+        <response>
+          <m>\dfrac{1}{R}</m>
+        </response>
+      </match>
+    </cardsort>
+  </exercise>
+
   <p>
     <xref ref="thm_abs_power"/>
     allows us to find the radius of convergence <m>R</m> of a series by applying the Ratio Test
@@ -417,6 +496,20 @@
       <video width="98%" youtube="1YzPDWYUWO8" label="vid-seqseries-powerseries-example-radius" component="video"/>
     </solution>
   </example>
+
+  <exercise label="APEX-PROTEUS-power-series-2-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
+    
+    <statement>
+      <p>
+        Suppose we have power series <m>\sum_{n=0}^\infty a_n (x-2)^n</m> and <m>\sum_{n=0}^\infty b_n (x-2)^n</m>,
+        and that both series have radius of convergence <m>R=3</m>.
+        Must they have the same interval of convergence? Explain.
+      </p>
+    </statement>
+    <response />
+    
+  </exercise>
 
   <p>
     We can use a power series to define a function:

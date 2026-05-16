@@ -552,8 +552,7 @@
   </p>
 
   <p>
-    <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/>
-    (on the following page)
+    In <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/>
     we give a table of the Taylor series of a number of common functions.
     We then give a theorem about the
     <q>algebra of power series,</q> that is,
@@ -697,6 +696,22 @@
     </p>
   </insight>
 
+  <aside vshift="-1">
+    <p>
+      Note that we require <m>h(x)</m> to be a polynomial function in <xref ref="thm_series_alg"/>.
+      If we plug a function that is not polynomial into a power series,
+      the result will no longer be a power series.
+      If one is <em>very</em> careful about the centre and radius of convergence,
+      it is technically possible to substitute the Taylor series for a general function <m>h(x)</m>
+      into the Taylor series for <m>f(x)</m>, and the result will be the Taylor series for <m>f(h(x))</m>.
+    </p>
+
+    <p>
+      In practice, <m>h(x)</m> is typically a monomial function of the form <m>h(x)=ax^n</m>.
+      For anything more complicated, rearranging the power series into a standard form becomes a nightmare.
+    </p>
+  </aside>
+
   <theorem xml:id="thm_series_alg">
     <title>Algebra of Power Series</title>
     <statement>
@@ -731,21 +746,51 @@
     </statement>
   </theorem>
 
-  <aside vshift="3">
-    <p>
-      Note that we require <m>h(x)</m> to be a polynomial function in <xref ref="thm_series_alg"/>.
-      If we plug a function that is not polynomial into a power series,
-      the result will no longer be a power series.
-      If one is <em>very</em> careful about the centre and radius of convergence,
-      it is technically possible to substitute the Taylor series for a general function <m>h(x)</m>
-      into the Taylor series for <m>f(x)</m>, and the result will be the Taylor series for <m>f(h(x))</m>.
-    </p>
+  <exercise label="APEX-PROTEUS-taylor-series-1-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
+    <introduction>
+      <p>
+        We know that the geometric series expansion
+        <md>
+          f(x)=\frac{1}{1-x} = \sum_{n=0}^\infty x^n
+        </md>
+        is valid for <m>\abs{x}\lt 1</m>. We also know that we can integrate and differentiate a power series term-by-term.
+      </p>
 
-    <p>
-      In practice, <m>h(x)</m> is typically a monomial function of the form <m>h(x)=ax^n</m>.
-      For anything more complicated, rearranging the power series into a standard form becomes a nightmare.
-    </p>
-  </aside>
+      <p>
+        Use these observations, and <xref ref="thm_series_alg"/>, to answer the following.
+      </p>
+    </introduction>
+    
+    <task label="APEX-PROTEUS-taylor-series-1a-v1">
+      <statement>
+        <p>
+          What is the Taylor series for <m>\fp(x) = \dfrac{1}{(1-x)^2}</m>, <m>\abs{x}\lt 1</m>?
+        </p>
+      </statement>
+      <response/>
+    </task>
+    <task label="APEX-PROTEUS-taylor-series-1b-v1">
+      <statement>
+        <p>
+          What is the Taylor series for <m>f^{(k)}(x) = \dfrac{1}{(1-x)^k}</m>, <m>\abs{x}\lt 1</m>,
+          where <m>k\geq 1</m> is an integer? Does your result agree with the binomial series formula?
+        </p>
+      </statement>
+      <response />
+      
+    </task>
+    <task label="APEX-PROTEUS-taylor-series-1c-v1">
+      <statement>
+        <p>
+          What is the Taylor series for <m>g(x) = \dfrac{1}{1+x^2}</m>,
+          and how can you use this result to obtain the Taylor series for <m>\tan^{-1}(x)</m>?
+        </p>
+      </statement>
+      <response />
+      
+    </task>
+  </exercise>
 
   <example xml:id="ex_ts5">
     <title>Combining Taylor series</title>
@@ -855,6 +900,19 @@
       <video width="98%" youtube="j3eHOO9taNQ" label="vid-seqseries-taylorseries-composition" component="video"/>
     </solution>
   </example>
+
+  <exercise label="APEX-PROTEUS-taylor-series-2-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
+       
+    <statement>
+      <p>
+        Let <m>f(x) = \cos(x^3)</m>. For which <m>n</m> is <m>f^{(n)}(0)\neq 0</m>?
+        (You should not need to compute any derivatives to answer this question.)
+      </p>
+    </statement>
+    <response />
+    
+  </exercise>
 
   <example xml:id="ex_ts9">
     <title>A (somewhat foolish) combination of Taylor series</title>
@@ -1238,7 +1296,7 @@
               </pg-code>-->
               <statement>
                 <p>
-                  <m>f(x) = e^x</m>;<m>c=0</m>
+                  <m>f(x) = e^x</m>; <m>c=0</m>
                 </p>
               </statement>
               <solution>
@@ -1263,7 +1321,7 @@
               </pg-code>-->
               <statement>
                 <p>
-                  <m>f(x) = \sin(x)</m>;<m>c=0</m>
+                  <m>f(x) = \sin(x)</m>; <m>c=0</m>
                 </p>
               </statement>
               <solution>
@@ -1287,7 +1345,7 @@
               </pg-code>-->
               <statement>
                 <p>
-                  <m>f(x) = 1/(1-x)</m>;<m>c=0</m>
+                  <m>f(x) = 1/(1-x)</m>; <m>c=0</m>
                 </p>
               </statement>
               <solution>
@@ -1313,7 +1371,7 @@
               </pg-code>-->
               <statement>
                 <p>
-                  <m>f(x) = \tan^{-1}(x)</m>;<m>c=0</m>
+                  <m>f(x) = \tan^{-1}(x)</m>; <m>c=0</m>
                 </p>
               </statement>
               <solution>
@@ -1369,7 +1427,7 @@
               </pg-code>-->
               <statement>
                 <p>
-                  <m>f(x) = \cos(x)</m>;<m>c=\pi/2</m>
+                  <m>f(x) = \cos(x)</m>; <m>c=\pi/2</m>
                 </p>
               </statement>
               <solution>
@@ -1390,7 +1448,7 @@
               </pg-code>-->
               <statement>
                 <p>
-                  <m>f(x) = 1/x</m>;<m>c=1</m>
+                  <m>f(x) = 1/x</m>; <m>c=1</m>
                 </p>
               </statement>
               <solution>
@@ -1411,7 +1469,7 @@
               </pg-code>-->
               <statement>
                 <p>
-                  <m>f(x) = e^{-x}</m>;<m>c=0</m>
+                  <m>f(x) = e^{-x}</m>; <m>c=0</m>
                 </p>
               </statement>
               <solution>
@@ -1438,7 +1496,7 @@
               </pg-code>-->
               <statement>
                 <p>
-                  <m>f(x) = \ln(1+x)</m>;<m>c=0</m>
+                  <m>f(x) = \ln(1+x)</m>; <m>c=0</m>
                 </p>
               </statement>
               <solution>
@@ -1464,7 +1522,7 @@
               </pg-code>-->
               <statement>
                 <p>
-                  <m>f(x) = x/(x+1)</m>;<m>c=1</m>
+                  <m>f(x) = x/(x+1)</m>; <m>c=1</m>
                 </p>
               </statement>
               <solution>
@@ -1490,7 +1548,7 @@
               </pg-code>-->
               <statement>
                 <p>
-                  <m>f(x) = \sin(x)</m>;<m>c=\pi/4</m>
+                  <m>f(x) = \sin(x)</m>; <m>c=\pi/4</m>
                 </p>
               </statement>
               <solution>
