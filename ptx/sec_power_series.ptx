@@ -292,7 +292,7 @@
       <p>
         The power series
         <m>\displaystyle \sum_{n=0}^{\infty} a_n x^n</m>
-        has radius of convergence <m>4</m>.
+        has radius of convergence <m>R</m>.
       </p>
 
       <p>
@@ -313,7 +313,7 @@
           <m>\displaystyle \sum_{n=0}^{\infty} a_n (3x)^n</m>
         </premise>
         <response>
-          <m>\dfrac{4}{3}</m>
+          <m>\dfrac{R}{3}</m>
         </response>
       </match>
 
@@ -322,7 +322,7 @@
           <m>\displaystyle \sum_{n=0}^{\infty} a_n \left(\frac{x}{2}\right)^n</m>
         </premise>
         <response>
-          <m>8</m>
+          <m>2R</m>
         </response>
       </match>
       
@@ -340,25 +340,25 @@
           <m>\displaystyle \sum_{n=0}^{\infty} \frac{a_n}{n} x^n</m>
         </premise>
         <response>
-          <m>4</m>
+          <m>R</m>
         </response>
       </match>
 
       <match>
         <response>
-          <m>12</m>
+          <m>3R</m>
         </response>
       </match>
 
       <match>
         <response>
-          <m>2</m>
+          <m>\dfrac{R}{3}</m>
         </response>
       </match>
 
       <match>
         <response>
-          <m>\dfrac14</m>
+          <m>\dfrac{1}{R}</m>
         </response>
       </match>
     </cardsort>
