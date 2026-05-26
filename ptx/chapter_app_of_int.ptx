@@ -5,33 +5,33 @@
     <p>
       We begin this chapter with a reminder of a few key concepts from <xref ref="chapter_integration"/>.
       Let <m>f</m> be a continuous function on <m>[a,b]</m> which is partitioned into <m>n</m> equally spaced subintervals as
-      <me>
+      <md>
         a=x_0 \lt  x_1 \lt  \cdots \lt  x_n\lt x_{n}=b
-      </me>.
+      </md>.
     </p>
 
     <p>
       Let <m>\dx=(b-a)/n</m> denote the length of the subintervals,
       and let <m>c_i</m> be any <m>x</m>-value in the <m>i</m>th subinterval.
       <xref ref="def_rie_sum"/> states that the sum
-      <me>
+      <md>
         \sum_{i=1}^n f(c_i)\dx
-      </me>
+      </md>
       is a <em>Riemann Sum.</em> Riemann Sums are often used to approximate some quantity
       (area, volume, work, pressure, etc.).
       The <em>approximation</em> becomes
       <em>exact</em> by taking the limit
-      <me>
+      <md>
         \lim_{n\to\infty} \sum_{i=1}^n f(c_i)\dx
-      </me>.
+      </md>.
     </p>
 
     <p>
       <xref ref="thm_riemann_sum"/>
       connects limits of Riemann Sums to definite integrals:
-      <me>
+      <md>
         \lim_{n\to\infty} \sum_{i=1}^n f(c_i)\dx = \int_a^b f(x)\, dx
-      </me>.
+      </md>.
     </p>
 
     <p>

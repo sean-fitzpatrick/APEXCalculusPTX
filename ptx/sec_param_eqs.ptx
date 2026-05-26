@@ -829,9 +829,9 @@
           We can solve for <m>x</m> and find <m>x= t/2</m>.
           Knowing that <m>y=x^2</m>, we have <m>y= t^2/4</m>.
           Thus parametric equations for the parabola <m>y=x^2</m> are
-          <me>
+          <md>
             x=t/2  y=t^2/4
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -943,9 +943,9 @@
       <statement>
         <p>
           Find a rectangular equation for the curve described by
-          <me>
+          <md>
             x= \frac{1}{t^2+1} \text{ and }  y=\frac{t^2}{t^2+1}
-          </me>.
+          </md>.
         </p>
       </statement>
       <solution>
@@ -1016,9 +1016,9 @@
         <p>
           Thus <m>y=1-x</m>.
           One may have recognized this earlier by manipulating the equation for <m>y</m>:
-          <me>
+          <md>
             y = \frac{t^2}{t^2+1} = 1-\frac{1}{t^2+1} = 1-x
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1058,9 +1058,9 @@
           Rather, we solve for <m>\cos(t)</m> and <m>\sin(t)</m> in each equation,
           respectively.
           This gives
-          <me>
+          <md>
             \cos(t) = \frac{x-3}{4}  \text{ and }  \sin(t) =\frac{y-1}{2}
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1268,9 +1268,9 @@
           <li>
             <p>
               The parametric equations
-              <me>
+              <md>
                 x=a\cos(t) +h,  y=b\sin(t) +k
-              </me>
+              </md>
               define an ellipse with horizontal axis of length <m>2a</m> and vertical axis of length <m>2b</m>,
               centered at <m>(h,k)</m>.
               <idx><h>ellipse</h><h>parametric equations</h></idx>
@@ -1280,13 +1280,13 @@
           <li>
             <p>
               The parametric equations
-              <me>
+              <md>
                 x= a\tan(t) +h, y=\pm b\sec(t) +k
-              </me>
+              </md>
               define a hyperbola with vertical transverse axis centered at <m>(h,k)</m>, and
-              <me>
+              <md>
                 x=\pm a\sec(t) +h,  y=b\tan(t) + k
-              </me>
+              </md>
               defines a hyperbola with horizontal transverse axis.
               Each has asymptotes at <m>y=\pm b/a(x-h)+k</m>.
 
@@ -1490,9 +1490,9 @@
     <p>
       Consider the astroid, given by <m>x=\cos^3(t)</m>, <m>y=\sin^3(t)</m>.
       Taking derivatives, we have:
-      <me>
+      <md>
         x' = -3\cos^2(t) \sin(t) \text{ and }  \yp = 3\sin^2(t) \cos(t)
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -1517,9 +1517,9 @@
       <solution>
         <p>
           We begin by taking derivatives.
-          <me>
+          <md>
             x' = 3t^2-12, \yp = 2t-4
-          </me>.
+          </md>.
         </p>
 
         <p>

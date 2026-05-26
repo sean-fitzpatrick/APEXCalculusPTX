@@ -17,9 +17,9 @@
     Recall that the derivative of a function <m>f</m> can be used to find the slopes of lines tangent to the graph of <m>f</m>.
     At <m>x=c</m>,
     the tangent line to the graph of <m>f</m> has equation
-    <me>
+    <md>
       y = \fp(c)(x-c)+f(c)
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -33,9 +33,9 @@
     Recall that <m>\sin(\pi/3) = \sqrt{3}/2 \approx 0.866</m>,
     and <m>\fp(\pi/3)=\cos(\pi/3) = 1/2</m>.
     Thus the tangent line to <m>f(x) = \sin(x)</m> at <m>x=\pi/3</m> is:
-    <me>
+    <md>
       \ell(x) = \frac12(x-\pi/3)+0.866
-    </me>.
+    </md>.
   </p>
 
   <figure xml:id="fig_diffal1">
@@ -202,9 +202,9 @@
     Let <m>\dx</m> be a small number,
     representing a small change in the <m>x</m>-value.
     We assert that:
-    <me>
+    <md>
       f(c+\dx) \approx \ell(c+\dx)
-    </me>,
+    </md>,
     since the tangent line to a function approximates well the values of that function near <m>x=c</m>.
     In fact, the tangent line is the graph of the linear function that best approximates the value of
     <m>f(x)</m> for <m>x</m> near <m>c</m>.
@@ -230,18 +230,18 @@
     the <m>y</m>-value of <m>f</m> changes from <m>f(c)</m> to <m>f(c+\dx)</m>.
     We call this change of <m>y</m>-value <m>\dy</m>.
     That is:
-    <me>
+    <md>
       \dy = f(c+\dx)-f(c)
-    </me>.
+    </md>.
   </p>
 
   <p>
     Replacing <m>f(c+\dx)</m> with its tangent line approximation, we have
-    <mdn>
-      <mrow number="no">\dy \amp \approx \ell(c+\dx) - f(c)</mrow>
-      <mrow number="no">\amp = \fp(c)\big((c+\dx)-c\big)+f(c) - f(c)</mrow>
-      <mrow xml:id="eq_differential">\amp =\fp(c)\dx</mrow>
-    </mdn>.
+    <md>
+      <mrow>\dy \amp \approx \ell(c+\dx) - f(c)</mrow>
+      <mrow>\amp = \fp(c)\big((c+\dx)-c\big)+f(c) - f(c)</mrow>
+      <mrow number="yes" xml:id="eq_differential">\amp =\fp(c)\dx</mrow>
+    </md>.
   </p>
 
   <p>
@@ -259,20 +259,20 @@
     </statement>
     <cardsort>
       <match>
-        <premise><me>\Delta y</me></premise>
+        <premise><md>\Delta y</md></premise>
         <premise><m>f(c+\Delta x) - f(c)</m></premise>
         <response>The true change in <m>y</m> when <m>x</m> changes</response>
       </match>
       <match>
-        <premise><me>f'(c)\Delta x</me></premise>
+        <premise><md>f'(c)\Delta x</md></premise>
         <response>The linear (approximate) change in <m>y</m></response>
       </match>
       <match>
-        <premise><me>\Delta x</me></premise>
+        <premise><md>\Delta x</md></premise>
         <response>A chosen small change in <m>x</m></response>
       </match>
       <match>
-        <premise><me>f'(c)</me></premise>
+        <premise><md>f'(c)</md></premise>
         <response>The slope of the tangent line at <m>x=c</m></response>
       </match>
     </cardsort>
@@ -297,9 +297,9 @@
         <idx><h>derivative</h><h>differential</h></idx>
 
         The <term>differential</term> of <m>y</m>, denoted <m>dy</m>, is
-        <me>
+        <md>
           dy = \fp(x)dx
-        </me>.
+        </md>.
       </p>
     </statement>
   </definition>
@@ -340,9 +340,9 @@
     <p>
       The relationship between the differential and the linearization given in
       <xref ref="def-linearization"/> is as follows:
-      <me>
+      <md>
         \ell(x) = f(c)+dy
-      </me>,
+      </md>,
       if we take <m>dy</m> to be evaluated at <m>x=c</m>.
     </p>
 
@@ -380,9 +380,9 @@
         <li>
           <p>
             Let <m>\dy</m> be the change in <m>y</m> value as <m>x</m> changes by <m>\dx</m>; hence
-            <me>
+            <md>
               \dy = f(x+\dx)-f(x)
-            </me>.
+            </md>.
           </p>
         </li>
 
@@ -571,9 +571,9 @@
   <p>
     Differentials are important when we discuss <em>integration</em>.
     When we study that topic, we will use notation such as
-    <me>
+    <md>
       \int f(x)\,dx
-    </me>
+    </md>
     quite often.
     While we don't discuss here what all of that notation means,
     note the existence of the differential <m>dx</m>.
@@ -609,9 +609,9 @@
             <p>
               <m>y = \sin(x)</m>: As <m>f(x) = \sin(x)</m>, <m>\fp(x) = \cos(x)</m>.
               Thus
-              <me>
+              <md>
                 dy = \cos(x)dx
-              </me>.
+              </md>.
             </p>
           </li>
 
@@ -624,9 +624,9 @@
 
             <p>
               We have <m>\fp(x) = e^x\left(x^2+2\right) + 2xe^x</m>, so
-              <me>
+              <md>
                 dy = \left(e^x\left(x^2+2\right) + 2xe^x\right)dx
-              </me>.
+              </md>.
             </p>
           </li>
 
@@ -640,9 +640,9 @@
             <p>
               We have <m>\fp(x) = \frac{1}{2}\left(x^2+3x-1\right)^{-\frac{1}{2}}(2x+3) = \frac{2x+3}{2\sqrt{x^2+3x-1}}</m>.
               Thus
-              <me>
+              <md>
                 dy = \frac{(2x+3)dx}{2\sqrt{x^2+3x-1}}
-              </me>.
+              </md>.
             </p>
           </li>
         </ol>
@@ -674,9 +674,9 @@
   <p>
     How close are <m>f(x)</m> and <m>f(x+\dx)</m>?
     This is a difference in <q>y</q> values:
-    <me>
+    <md>
       f(x+\dx)-f(x) = \dy \approx dy
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -709,9 +709,9 @@
         In this situation the mass function is a product of the radius of the ball bearing,
         hence it is <m>m = 7.85\frac43\pi r^3</m>.
         The differential of the mass is
-        <me>
+        <md>
           dm = 31.4\pi r^2 dr
-        </me>.
+        </md>.
       </p>
 
       <p>

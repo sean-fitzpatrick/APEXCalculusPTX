@@ -720,7 +720,7 @@
             <li>
               <p>
                 Law of Cosines:
-                <me>c^2=a^2+b^2-2ab\cos(\theta)</me>
+                <md>c^2=a^2+b^2-2ab\cos(\theta)</md>
               </p>
             </li>
           </ul>
@@ -1309,7 +1309,7 @@
     <assemblage xml:id="reference-formulas-trapezoid">
       <title>Trapezoidal Rule:</title>
       <p>
-        <me>\int_a^b{f(x)}\, dx \approx \frac{\Delta x}{2}\big[f(x_0)+2f(x_1) + 2f(x_2) + \cdots + 2f(x_{n-1}) + f(x_{n})\big]</me>
+        <md>\int_a^b{f(x)}\, dx \approx \frac{\Delta x}{2}\big[f(x_0)+2f(x_1) + 2f(x_2) + \cdots + 2f(x_{n-1}) + f(x_{n})\big]</md>
       </p>
 
       <p>
@@ -1320,7 +1320,7 @@
     <assemblage xml:id="reference-formulas-simpsons">
       <title>Simpson's Rule:</title>
       <p>
-        <me>\int_a^b{f(x)}\, dx \approx \frac{\Delta x}{3}\big[f(x_0)+4f(x_1) + 2f(x_2) + 4f(x_3) + \cdots + 2f(x_{n-2}) + 4f(x_{n-1}) + f(x_{n})\big]</me>
+        <md>\int_a^b{f(x)}\, dx \approx \frac{\Delta x}{3}\big[f(x_0)+4f(x_1) + 2f(x_2) + 4f(x_3) + \cdots + 2f(x_{n-2}) + 4f(x_{n-1}) + f(x_{n})\big]</md>
       </p>
 
       <p>
@@ -1331,14 +1331,14 @@
     <assemblage xml:id="reference-formulas-arclength">
       <title>Arc Length:</title>
       <p>
-        <me>L = \int_a^b\sqrt{1+ f\,'(x)^2}\,dx</me>
+        <md>L = \int_a^b\sqrt{1+ f\,'(x)^2}\,dx</md>
       </p>
     </assemblage>
 
     <assemblage xml:id="reference-formulas-surface-revolution">
       <title> Surface of Revolution:</title>
       <p>
-        <me>2\pi \int_a^b{f(x) \sqrt{1+ f\,'(x)^2}}dx</me>
+        <md>2\pi \int_a^b{f(x) \sqrt{1+ f\,'(x)^2}}dx</md>
       </p>
 
       <p>
@@ -1346,7 +1346,7 @@
       </p>
 
       <p>
-        <me>S = 2\pi \int_a^b{x \sqrt{1+ f\,'(x)^2}}dx</me>
+        <md>S = 2\pi \int_a^b{x \sqrt{1+ f\,'(x)^2}}dx</md>
       </p>
 
       <p>
@@ -1357,28 +1357,28 @@
     <assemblage xml:id="reference-formulas-work">
       <title> Work Done by a Variable Force:</title>
       <p>
-        <me>W = \int_a^b{F(x)}dx</me>
+        <md>W = \int_a^b{F(x)}dx</md>
       </p>
     </assemblage>
 
     <assemblage xml:id="reference-formulas-fluid-force">
       <title> Force Exerted by a Fluid:</title>
       <p>
-        <me>F = \int_a^b{w\,d(y)\,\ell(y)}dy</me>
+        <md>F = \int_a^b{w\,d(y)\,\ell(y)}dy</md>
       </p>
     </assemblage>
 
     <assemblage xml:id="reference-formulas-taylor">
       <title>Taylor Series Expansion for <m>f(x)</m>:</title>
       <p>
-        <me>p_n(x) = f(c) + f\,'(c)(x-c) + \frac{f\,''(c)}{2!}(x-c)^2 + \cdots + \frac{f\,^{(n)}(c)}{n!}(x-c)^n + \cdots</me>
+        <md>p_n(x) = f(c) + f\,'(c)(x-c) + \frac{f\,''(c)}{2!}(x-c)^2 + \cdots + \frac{f\,^{(n)}(c)}{n!}(x-c)^n + \cdots</md>
       </p>
     </assemblage>
 
     <assemblage xml:id="reference-formulas-maclaurin">
       <title>Maclaurin Series Expansion for <m>f(x)</m>, where <m>c=0</m>:</title>
       <p>
-        <me>p_n(x) = f(0) + f\,'(0)x + \frac{f\,''(0)}{2!}x^2 + \frac{f\,'''(0)}{3!}x^3 + \cdots + \frac{f\,^{(n)}(0)}{n!}x^n+\cdots</me>
+        <md>p_n(x) = f(0) + f\,'(0)x + \frac{f\,''(0)}{2!}x^2 + \frac{f\,'''(0)}{3!}x^3 + \cdots + \frac{f\,^{(n)}(0)}{n!}x^n+\cdots</md>
       </p>
     </assemblage>
   </section>

@@ -47,9 +47,9 @@
     (Each of these rectangles represents a differential element.)
     Each slice has an area approximately equal to <m>\big(f(c_i)-g(c_i)\big)\dx</m>;
     hence, the total area is approximately the Riemann Sum
-    <me>
+    <md>
       Q = \sum_{i=1}^n \big(f(c_i)-g(c_i)\big)\dx
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -217,9 +217,9 @@
         The area of the region bounded by the curves <m>y=f(x)</m>,
         <m>y=g(x)</m> and the lines <m>x=a</m> and <m>x=b</m> is
         <idx><h>integration</h><h>area between curves</h></idx>
-        <me>
+        <md>
           \int_a^b \big(f(x)-g(x)\big)\, dx
-        </me>.
+        </md>.
       </p>
     </statement>
   </theorem>
@@ -472,12 +472,12 @@
         Some curves can also be described as functions of <m>y</m>:
         input a <m>y</m>-value and an <m>x</m>-value is returned.
         We can rewrite the equations describing the boundary by solving for <m>x</m>:
-        <me>
+        <md>
           y=\sqrt{x}+2  \Rightarrow x=(y-2)^2
-        </me>
-        <me>
+        </md>
+        <md>
           y=-(x-1)^2+3  \Rightarrow  x=\sqrt{3-y}+1
-        </me>.
+        </md>.
       </p>
 
       <figure xml:id="fig_abc3b" vshift="-6">
@@ -530,9 +530,9 @@
         The <q>top</q> <m>x</m>-value is the largest value, <ie/>, the rightmost.
         The <q>bottom</q> <m>x</m>-value is the smaller, <ie/>, the leftmost.
         Therefore the height of the rectangle is
-        <me>
+        <md>
           \big(\sqrt{3-y}+1\big) - (y-2)^2
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -817,9 +817,9 @@
 
       <p>
         We have the following data points:
-        <me>
+        <md>
           (0,0),\,(2,2.25),\,(4,5.08),\,(6,6.35),\,(8,5.21),\,(10,2.76),\,(12,0)
-        </me>.
+        </md>.
       </p>
 
       <p>

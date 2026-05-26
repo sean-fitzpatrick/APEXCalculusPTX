@@ -154,9 +154,9 @@
       visual way,
       these constructs are not very helpful when trying to analyze the shapes algebraically or consider them as the graph of a function.
       It can be shown that all conics can be defined by the general second-degree equation
-      <me>
+      <md>
         Ax^2+Bxy+Cy^2+Dx+Ey+F=0
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -260,16 +260,16 @@
 
     <p>
       We use the Distance Formula to find the distance <m>d_1</m> between <m>F</m> and <m>P</m>:
-      <me>
+      <md>
         d_1=\sqrt{(x-0)^2+(y-p)^2}
-      </me>.
+      </md>.
     </p>
 
     <p>
       The distance <m>d_2</m> from <m>P</m> to the directrix is more straightforward:
-      <me>
+      <md>
         d_2=y-(-p) = y+p
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -300,9 +300,9 @@
             <p>
               <em>Vertical Axis of Symmetry:</em>
               The equation of the parabola with vertex at <m>(h,k)</m> and directrix <m>y=k-p</m> in standard form is
-              <me>
+              <md>
                 y=\frac{1}{4p}(x-h)^2+k
-              </me>.
+              </md>.
               The focus is at <m>(h,k+p)</m>.
             </p>
           </li>
@@ -311,9 +311,9 @@
             <p>
               <em>Horizontal Axis of Symmetry:</em>
               The  equation of the parabola with vertex at <m>(h,k)</m> and directrix <m>x=h-p</m> in standard form is
-              <me>
+              <md>
                 x=\frac{1}{4p}(y-k)^2+h
-              </me>.
+              </md>.
               The focus is at <m>(h+p,k)</m>.
             </p>
           </li>
@@ -340,9 +340,9 @@
           This gives <m>p=-0.5</m>.
           Using <xref ref="idea_parabola"/>
           we have the equation of the parabola as
-          <me>
+          <md>
             y=\frac{1}{4(-0.5)}(x-1)^2+2.5 = -\frac12(x-1)^2+2.5
-          </me>.
+          </md>.
         </p>
 
         <figure xml:id="fig_conic1" vshift="6">
@@ -462,9 +462,9 @@
           The point <m>(7,12)</m> lies on the graph and is
           <m>7-(-3)=10</m> units from the directrix.
           The distance from <m>(7,12)</m> to the focus is:
-          <me>
+          <md>
             \sqrt{(7-1)^2 + (12-4)^2} = \sqrt{100}=10
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -671,26 +671,26 @@
       The sum of distances from <m>F_1</m> to <m>P</m> (<m>d_1</m>) and from <m>F_2</m> to <m>P</m> (<m>d_2</m>) is a constant <m>d</m>.
       That is, <m>d_1+d_2=d</m>.
       Using the Distance Formula, we have
-      <me>
+      <md>
         \sqrt{(x+c)^2+y^2} + \sqrt{(x-c)^2+y^2} = d
-      </me>.
+      </md>.
     </p>
 
     <p>
       Using a fair amount of algebra can produce the following equation of an ellipse (note that the equation is an implicitly defined function;
       it has to be, as an ellipse fails the Vertical Line Test):
-      <me>
+      <md>
         \frac{x^2}{\left(\frac d2\right)^2} + \frac{y^2}{\left(\frac d2\right)^2-c^2} = 1
-      </me>.
+      </md>.
     </p>
 
     <p>
       This is not particularly illuminating,
       but by making the substitution <m>a=d/2</m> and <m>b=\sqrt{a^2-c^2}</m>,
       we can rewrite the above equation as
-      <me>
+      <md>
         \frac{x^2}{a^2} + \frac{y^2}{b^2} = 1
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -841,9 +841,9 @@
           The distance from the center to a vertex is 5 units, hence <m>a=5</m>.
           The minor axis seems to have length 4, so <m>b=2</m>.
           Thus the equation of the ellipse is
-          <me>
+          <md>
             \frac{(x+3)^2}{4}+\frac{(y-1)^2}{25} = 1
-          </me>.
+          </md>.
         </p>
       </solution>
       <solution component="video" vshift="3">
@@ -865,9 +865,9 @@
           In order to put the given equation in standard form,
           we must complete the square with both the <m>x</m> and <m>y</m> terms.
           We first rewrite the equation by regrouping:
-          <me>
+          <md>
             4x^2+9y^2-8x-36y=-4  \Rightarrow  (4x^2-8x) + (9y^2-36y) = -4
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -947,9 +947,9 @@
       <p>
         When <m>a=b</m>, we have a circle.
         The general equation becomes
-        <me>
+        <md>
           \frac{(x-h)^2}{a^2} + \frac{(y-k)^2}{a^2} = 1  \Rightarrow (x-h)^2 + (y-k)^2 = a^2
-        </me>,
+        </md>,
         the familiar equation of the circle centered at <m>(h,k)</m> with radius <m>a</m>.
         Since <m>a=b</m>, <m>c = \sqrt{a^2-b^2}=0</m>.
         The circle has <q>two</q> foci,

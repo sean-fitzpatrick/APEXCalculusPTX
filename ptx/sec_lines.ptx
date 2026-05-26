@@ -113,9 +113,9 @@
     <p>
       The figure illustrates how every point on the line can be obtained by starting with <m>\vec p</m> and moving a certain distance in the direction of <m>\vec d</m>.
       That is, we can define the line as a function of <m>t</m>:
-      <men xml:id="eq_lines1">
+      <md number="yes" xml:id="eq_lines1">
         \vec\ell(t) = \vec p + t\ \vec d
-      </men>.
+      </md>.
     </p>
 
     <p>
@@ -218,9 +218,9 @@
       we can set these equal to each other,
       forming the <em>symmetric equations of the line</em>
       through <m>\vec p</m> in the direction of <m>\vec d</m>:
-      <me>
+      <md>
         \frac{x-x_0}{a} = \frac{y-y_0}{b}=\frac{z-z_0}{c}
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -243,27 +243,27 @@
             <li>
               <p>
                 The <em>vector equation</em> of the line is
-                <me>
+                <md>
                   \vec \ell(t) = \vec p+t\vec d
-                </me>.
+                </md>.
               </p>
             </li>
 
             <li>
               <p>
                 The <em>parametric equations</em> of the line are
-                <me>
+                <md>
                   x = x_0+at,  y=y_0+bt,  z = z_0+ct
-                </me>.
+                </md>.
               </p>
             </li>
 
             <li>
               <p>
                 The <em>symmetric equations</em> of the line are
-                <me>
+                <md>
                   \frac{x-x_0}{a} = \frac{y-y_0}{b}=\frac{z-z_0}{c}
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
@@ -298,18 +298,18 @@
             <li>
               <p>
                 the parametric equations of the line are
-                <me>
+                <md>
                   x = 2-t, y = 3+t, z = 1+2t; \text{ and }
-                </me>
+                </md>
               </p>
             </li>
 
             <li>
               <p>
                 the symmetric equations of the line are
-                <me>
+                <md>
                   \frac{x-2}{-1}=\frac{y-3}{1} = \frac{z-1}{2}
-                </me>.
+                </md>.
               </p>
             </li>
           </ul>
@@ -394,9 +394,9 @@
           the symmetric equations are probably best suited for this task.
           Simply plug in the values of <m>x</m>,
           <m>y</m> and <m>z</m> and see if equality is maintained:
-          <me>
+          <md>
             \frac{-1-2}{-1} \stackrel{?}{=} \frac{6-3}{1} \stackrel{?}{=} \frac{6-1}{2}  \Rightarrow  3=3\neq2.5
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -430,9 +430,9 @@
 
         <p>
           The parametric equations of the line <m>\ell</m> through <m>P</m> in the direction of <m>\overrightarrow{PQ}</m> are:
-          <me>
+          <md>
             \ell:  x= 2-t y=-1+4t  z=2-3t
-          </me>.
+          </md>.
         </p>
 
         <figure xml:id="fig_lines6" vshift="-8">
@@ -563,7 +563,7 @@
         <p>
           Consider lines <m>\ell_1</m> and <m>\ell_2</m>,
           given in parametric equation form:
-          <me>
+          <md>
             \ell_1:\, \begin{matrix}
                       x\amp =\amp 1+3t \\
                       y\amp =\amp 2-t\\
@@ -574,7 +574,7 @@
                       y\amp =\amp 3+s\\
                       z\amp =\amp 5+2s
                     \end{matrix}
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -678,27 +678,27 @@
           we look for <m>t</m> and <m>s</m> values such that the respective <m>x</m>,
           <m>y</m> and <m>z</m> values are the same.
           That is, we want <m>s</m> and <m>t</m> such that:
-          <me>
+          <md>
             \begin{matrix} 1+3t \amp =\amp -2+4s\\ 2-t\amp =\amp 3+s\\ t\amp =\amp 5+2s \end{matrix}
-          </me>.
+          </md>.
         </p>
 
         <p>
           This is a relatively simple system of linear equations.
           Since the last equation is already solved for <m>t</m>,
           substitute that value of <m>t</m> into the equation above it:
-          <me>
+          <md>
             2-(5+2s) = 3+s  \Rightarrow  s=-2,\ t=1
-          </me>.
+          </md>.
         </p>
 
         <p>
           A key to remember is that we have
           <em>three</em> equations;
           we need to check if <m>s=-2,\ t=1</m> satisfies the first equation as well:
-          <me>
+          <md>
             1+3(1) \neq -2+4(-2)
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -718,9 +718,9 @@
         <p>
           Consider lines <m>\ell_1</m> and <m>\ell_2</m>,
           given in parametric equation form:
-          <me>
+          <md>
             \ell_1:\, \begin{matrix} x\amp =\amp -0.7+1.6t \\ y\amp =\amp 4.2+2.72t\\z\amp =\amp 2.3-3.36t \end{matrix} \qquad\qquad \ell_2:\,\begin{matrix} x\amp =\amp 2.8-2.9s\\y\amp =\amp 10.15-4.93s\\z\amp =\amp -5.05+6.09s. \end{matrix}
-          </me>
+          </md>
         </p>
 
         <p>
@@ -759,9 +759,9 @@
           One way to be sure is to rewrite <m>\vec d_1</m> and
           <m>\vec d_2</m> in terms of fractions, not decimals.
           We have
-          <me>
+          <md>
             \vec d_1 =\la \frac{16}{10},\frac{272}{100},-\frac{336}{100}\ra \qquad \vec d_2 = \la -\frac{29}{10},-\frac{493}{100},\frac{609}{100}\ra
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -770,9 +770,9 @@
           After a lot of manual arithmetic
           (or after briefly using a computer algebra system),
           one finds that
-          <me>
+          <md>
             \vec u_1 = \la \sqrt{\frac{10}{83}},\frac{17}{\sqrt{830}},-\frac{21}{\sqrt{830}}\ra \qquad \vec u_2 = \la -\sqrt{\frac{10}{83}},-\frac{17}{\sqrt{830}},\frac{21}{\sqrt{830}}\ra
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -934,9 +934,9 @@
       We have a similar identity involving the cross product:
       <m>\norm{\overrightarrow{PQ}\times \vec d} = \norm{\overrightarrow{PQ}}\, \vnorm{d}\sin(\theta)</m>.
       Divide both sides of this latter equation by <m>\vnorm{d}</m> to obtain <m>h</m>:
-      <men xml:id="eq_lines2">
+      <md number="yes" xml:id="eq_lines2">
         h = \frac{\norm{\overrightarrow{PQ}\times \vec d}}{\vnorm{d}}
-      </men>.
+      </md>.
     </p>
 
     <figure xml:id="vid-vectors-lines-distance-point" component="video" vshift="0">
@@ -1099,9 +1099,9 @@
                 <idx><h>distance</h><h>between point and line</h></idx>
                 <idx><h>distance</h><h>between lines</h></idx>
                 <idx><h>lines</h><h>distances between</h></idx>
-              <me>
+              <md>
                 h =\frac{\norm{\overrightarrow{PQ}\times \vec d}}{\vnorm{d}}
-              </me>.
+              </md>.
             </p>
           </li>
 
@@ -1112,9 +1112,9 @@
               and let <m>\vec c = \vec d_1\times \vec d_2</m>,
               where lines <m>\ell_1</m> and <m>\ell_2</m> are not parallel.
               The distance <m>h</m> between the two lines is:
-              <me>
+              <md>
                 h=\frac{\abs{\overrightarrow{P_1P_2}\cdot \vec c}}{\vnorm c}
-              </me>.
+              </md>.
             </p>
           </li>
         </ol>
@@ -1159,10 +1159,10 @@
       <statement>
         <p>
           Find the distance between the lines
-          <me>
+          <md>
             \ell_1: \begin{matrix} x\amp =\amp 1+3t \\ y\amp =\amp 2-t\\z\amp =\amp t \end{matrix} \qquad\qquad
             \ell_2:\begin{matrix} x\amp =\amp -2+4s\\y\amp =\amp 3+s\\z\amp =\amp 5+2s. \end{matrix}
-          </me>
+          </md>
         </p>
       </statement>
       <solution>
@@ -1170,12 +1170,12 @@
           These are the sames lines as given in <xref ref="ex_lines2"/>,
           where we showed them to be skew.
           The equations allow us to identify the following points and vectors:
-          <me>
+          <md>
             P_1 = (1,2,0) P_2 = (-2,3,5)  \Rightarrow  \overrightarrow{P_1P_2} = \la -3,1,5\ra
-          </me>.
-          <me>
+          </md>.
+          <md>
             \vec d_1 = \la 3,-1,1\ra  \vec d_2 = \la 4,1,2\ra  \Rightarrow  \vec c = \vec d_1\times \vec d_2 = \la -3,-2,7\ra
-          </me>.
+          </md>.
         </p>
 
         <p>

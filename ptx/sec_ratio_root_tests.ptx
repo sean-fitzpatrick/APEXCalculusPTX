@@ -373,9 +373,9 @@
                 (by L'Hospital's Rule)
                 and the denominator
                 grows to infinity, we have
-                <me>
+                <md>
                   \inflim \frac{\big(n^{4/n}\big)}{\ln(n)} =0
-                </me>.
+                </md>.
                 Since the limit is less than 1, we conclude the series converges.
               </p>
             </li>

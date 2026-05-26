@@ -17,9 +17,9 @@
       What if the density were not constant,
       but variable, described by a function <m>\delta(x,y,z)</m>?
       We can describe the mass using our general integration techniques as
-      <me>
+      <md>
         \text{ mass }  = \iint_\surfaceS \, dm
-      </me>,
+      </md>,
       where <m>dm</m> represents <q>a little bit of mass.</q> That is,
       to find the total mass of the object,
       sum up lots of little masses over the surface.
@@ -34,9 +34,9 @@
       <m>\Delta S</m> to 0, we get <m>dm = \delta(x,y,z)dS</m>;
       that is, a little bit of mass is equal to a density times a small amount of surface area.
       Thus the total mass of the thin sheet is
-      <men xml:id="eq_surface_int">
+      <md number="yes" xml:id="eq_surface_int">
         \text{ mass }  =\iint_\surfaceS \delta(x,y,z)\, dS
-      </men>.
+      </md>.
     </p>
 
     <p>
@@ -67,9 +67,9 @@
           Let <m>G(x,y,z)</m> be a continuous function defined on a surface <m>\surfaceS</m>. The
           <term>surface integral</term> of <m>G</m> on <m>\surfaceS</m> is
               <idx><h>surface integral</h></idx>
-          <me>
+          <md>
             \iint_\surfaceS G(x,y,z)\, dS
-          </me>.
+          </md>.
         </p>
       </statement>
     </definition>
@@ -176,12 +176,12 @@
           so we need to compute <m>\vec r_u</m>,
           <m>\vec r_v</m> and the norm of their cross product.
           We leave it to the reader to confirm the following:
-          <me>
+          <md>
             \vec r_u = \langle 1,-2v,2v-2\rangle, \vec r_v = \langle 0,2-2u, 2u-2\rangle
-          </me>,
-          <me>
+          </md>,
+          <md>
             \vec r_u\times \vec r_v = \langle 4-4u,2-2u,2-2u\rangle \text{ and }  \snorm{\vec r_u\times \vec r_v} = 2\sqrt{6}\sqrt{(u-1)^2}
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -247,9 +247,9 @@
       <m>\vec r(u,v)</m> of <m>\surfaceS</m>, the work in the previous section showing the development of our method of computing surface area also shows that <m>\vec r_u(u,v)</m> and
       <m>\vec r_v(u,v)</m> are tangent to <m>\surfaceS</m> at <m>\vec r(u,v)</m>.
       Thus <m>\vec r_u\times \vec r_v</m> is orthogonal to <m>\surfaceS</m>, and we let
-      <me>
+      <md>
         \vec n = \frac{\vec r_u\times \vec r_v}{\snorm{\vec r_u\times \vec r_v}}
-      </me>,
+      </md>,
       which is a unit vector normal to <m>\surfaceS</m> at <m>\vec r(u,v)</m>.
     </p>
 
@@ -285,17 +285,17 @@
           Let <m>\vec F</m> be a vector field with continuous components defined on an orientable surface <m>\surfaceS</m> with normal vector <m>\vec n</m>.
           The <term>flux</term> of <m>\vec F</m> across <m>\surfaceS</m> is
               <idx><h>flux</h></idx>
-          <me>
+          <md>
             \text{ Flux }  = \iint_\surfaceS \vec F\cdot \vec n\, dS
-          </me>.
+          </md>.
         </p>
 
         <p>
           If <m>\surfaceS</m> is parametrized by <m>\vec r(u,v)</m>,
           which is smooth on its domain <m>R</m>, then
-          <me>
+          <md>
             \text{ Flux }  = \iint_R \vec F\big(\vec r(u,v)\big)\cdot (\vec r_u\times \vec r_v)\, dA
-          </me>.
+          </md>.
         </p>
       </statement>
     </definition>
@@ -614,9 +614,9 @@
           <m>\langle \cos(u),\sin(u),0\rangle</m>, <m>0\leq u\leq 2\pi</m>.
           To obtain the interior of the circle as well,
           we can scale by <m>v</m>, giving
-          <me>
+          <md>
             \vec r_1(u,v) = \langle v\cos(u),v\sin(u), 0\rangle,  0\leq u\leq 2\pi 0\leq v\leq 1
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -625,9 +625,9 @@
           <m>\vec r_2</m> will be the same as those of <m>\vec r_1</m>;
           we just need a different <m>z</m> component.
           With <m>z = 1-x^2-y^2</m>, we have
-          <me>
+          <md>
             \vec r_2(u,v) = \langle v\cos(u),v\sin(u), 1-v^2\cos^2u-v^2\sin^2u\rangle = \langle v\cos(u),v\sin(u), 1-v^2\rangle
-          </me>,
+          </md>,
           where <m>0\leq u\leq 2\pi</m> and <m>0\leq v\leq 1</m>.
         </p>
 
@@ -639,32 +639,32 @@
           For <m>\vec n_1</m>:
           <m>\vec r_{1u}= \langle -v\sin(u), v\cos(u),0\rangle</m>,
           <m>\vec r_{1v} = \langle \cos(u),\sin(u),0\rangle</m>, so
-          <me>
+          <md>
             \vec n_1 = \vec r_{1u}\times \vec r_{1v} = \langle 0,0,-v\rangle
-          </me>.
+          </md>.
         </p>
 
         <p>
           As this vector has a negative <m>z</m>-component, we instead use
-          <me>
+          <md>
             \vec n_1 = \vec r_{1v}\times \vec r_{1u} = \langle 0,0,v\rangle
-          </me>.
+          </md>.
         </p>
 
         <p>
           Similarly, <m>\vec n_2</m>:
           <m>\vec r_{2u}= \langle -v\sin(u), v\cos(u),0\rangle</m>,
           <m>\vec r_{2v} = \langle \cos(u),\sin(u),-2v\rangle</m>, so
-          <me>
+          <md>
             \vec n_2 = \vec r_{2u}\times \vec r_{2v} = \langle -2v^2\cos(u),-2v^2\sin(u),-v\rangle
-          </me>.
+          </md>.
         </p>
 
         <p>
           Again, this normal vector has a negative <m>z</m>-component so we use
-          <me>
+          <md>
             \vec n_2 = \vec r_{2v}\times \vec r_{2u} = \langle 2v^2\cos(u),2v^2\sin(u),v\rangle
-          </me>.
+          </md>.
         </p>
 
         <p>

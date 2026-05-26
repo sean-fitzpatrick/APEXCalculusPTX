@@ -22,9 +22,9 @@
         An <term>alternating series</term>
         is a series of either the form
         <idx><h>series</h><h>alternating</h></idx>
-        <me>
+        <md>
           \infser (-1)^na_n\qquad \text{ or } \qquad \infser (-1)^{n+1}a_n
-        </me>.
+        </md>.
       </p>
     </statement>
   </definition>
@@ -33,17 +33,17 @@
     Recall the terms of Harmonic Series come from the Harmonic Sequence <m>\{a_n\} = \{1/n\}</m>.
     An important alternating series is the
     <em>Alternating Harmonic Series</em>:
-    <me>
+    <md>
       \infser (-1)^{n+1}\frac1n = 1-\frac12+\frac13-\frac14+\frac15-\frac16+\cdots
-    </me>
+    </md>
   </p>
 
   <p>
     Geometric Series can also be alternating series when <m>r\lt 0</m>.
     For instance, if <m>r=-1/2</m>, the geometric series is
-    <me>
+    <md>
       \infser[0] \left(\frac{-1}{2}\right)^n = 1-\frac12+\frac14-\frac18+\frac1{16}-\frac1{32}+\cdots
-    </me>
+    </md>
   </p>
 
   <p>
@@ -51,9 +51,9 @@
     states that geometric series converge when <m>\abs{r}\lt 1</m> and gives the sum:
     <m>\ds \infser[0] r^n = \frac1{1-r}</m>.
     When <m>r=-1/2</m> as above, we find
-    <me>
+    <md>
       \infser[0] \left(\frac{-1}{2}\right)^n = \frac1{1-(-1/2)} = \frac 1{3/2} = \frac23
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -71,9 +71,9 @@
             <idx><h>Alternating Series Test</h></idx>
             <idx><h>convergence</h><h>Alternating Series Test</h></idx>
             <idx><h>divergence</h><h>Alternating Series Test</h></idx>
-        <me>
+        <md>
           \infser (-1)^{n}a_n \qquad \text{ and } \qquad \infser (-1)^{n+1}a_n
-        </me>
+        </md>
         converge.
       </p>
     </statement>
@@ -128,9 +128,9 @@
     The basic idea behind <xref ref="thm_alt_series_test"/>
     is illustrated in <xref first="fig_alt_series_converge_a" last="fig_alt_series_converge_b"/>.
     A positive, decreasing sequence <m>\{a_n\}</m> is shown along with the partial sums
-    <me>
+    <md>
       S_n = \sum_{i=1}^n(-1)^{i+1}a_i =a_1-a_2+a_3-a_4+\cdots+(-1)^{n+1}a_n
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -323,9 +323,9 @@
               the sequence is increasing for at least the first 3 terms.
 
               We do not immediately conclude that we cannot apply the Alternating Series Test. Rather, consider the long-term behavior of <m>\{a_n\}</m>. Treating <m>a_n=a(n)</m> as a continuous function of <m>n</m> defined on <m>[1,\infty)</m>, we can take its derivative:
-              <me>
+              <md>
                 a'(n) = \frac{1-\ln(n) }{n^2}
-              </me>.
+              </md>.
               The derivative is negative for all <m>n\geq 3</m> (actually,
               for all <m>n \gt e</m>),
               meaning <m>a(n)=a_n</m> is decreasing on <m>[3,\infty)</m>.
@@ -362,9 +362,9 @@
     <xref ref="idea_famous_series"/>
     gives the sum of some important series.
     Two of these are
-    <me>
+    <md>
       \infser \frac1{n^2} =\frac{\pi^2}6 \approx 1.64493  \text{ and }   \infser \frac{(-1)^{n+1}}{n^2} = \frac{\pi^2}{12}\approx 0.82247
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -510,9 +510,9 @@
               That is, we can guess and check numerically until we find a solution.)
 
               Let <m>f(x) = \ln(x)/x-0.001</m>; we want to know where <m>f(x) = 0</m>. We make a guess that <m>x</m> must be <q>large,</q> so our initial guess will be <m>x_1=1000</m>. Recall how Newton's Method works: given an approximate solution <m>x_n</m>, our next approximation <m>x_{n+1}</m> is given by
-              <me>
+              <md>
                 x_{n+1} = x_n - \frac{f(x_n)}{\fp(x_n)}
-              </me>.
+              </md>.
               We find <m>\fp(x) = \big(1-\ln(x)\big)/x^2</m>.
               This gives
               <md>
@@ -647,9 +647,9 @@
           <li>
             <p>
               We can show the series
-              <me>
+              <md>
                 \ds \infser \abs{(-1)^n\frac{n+3}{n^2+2n+5}}= \infser \frac{n+3}{n^2+2n+5}
-              </me>
+              </md>
               diverges using the Limit Comparison Test,
               comparing with <m>1/n</m>.
 
@@ -660,9 +660,9 @@
           <li>
             <p>
               We can show the series
-              <me>
+              <md>
                 \ds \infser \abs{(-1)^n\frac{n^2+2n+5}{2^n}}=\infser \frac{n^2+2n+5}{2^n}
-              </me>
+              </md>
               converges using the Ratio Test.
 
               Therefore we conclude <m>\ds \infser (-1)^n\frac{n^2+2n+5}{2^n}</m> converges absolutely.
@@ -672,9 +672,9 @@
           <li>
             <p>
               The series
-              <me>
+              <md>
                 \ds \sum_{n=3}^\infty \abs{(-1)^n\frac{3n-3}{5n-10}} = \sum_{n=3}^\infty \frac{3n-3}{5n-10}
-              </me>
+              </md>
               diverges using the <m>n</m>th Term Test,
               so it does not converge absolutely.
               The series <m>\ds \sum_{n=3}^\infty (-1)^n\frac{3n-3}{5n-10}</m> fails the conditions of the Alternating Series Test as
@@ -759,9 +759,9 @@
             <p>
               Let <m>\{b_n\}</m> be any rearrangement of the sequence <m>\{a_n\}</m>.
               Then
-              <me>
+              <md>
                 \infser b_n = \infser a_n
-              </me>.
+              </md>.
             </p>
           </li>
         </ol>
@@ -821,9 +821,9 @@
     As an example,
     consider the Alternating Harmonic Series once more.
     We have stated that
-    <me>
+    <md>
       \infser (-1)^{n+1}\frac1n = 1-\frac12+\frac13-\frac14+\frac15-\frac16+\frac17\cdots = \ln(2)
-    </me>,
+    </md>,
   </p>
 
   <p>
@@ -833,9 +833,9 @@
 
   <p>
     Consider the rearrangement where every positive term is followed by two negative terms:
-    <me>
+    <md>
       1-\frac12-\frac14+\frac13-\frac16-\frac18+\frac15-\frac1{10}-\frac1{12}\cdots
-    </me>
+    </md>
   </p>
 
   <p>

@@ -19,9 +19,9 @@
 
     <p>
       In general, we can show that
-      <me>
+      <md>
         a_1+a_2+a_3+\cdots +a_n = \frac{2^n-1}{2^n} = 1-\frac{1}{2^n}
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -109,17 +109,17 @@
       and in some cases we may need to consider other values as well.
       The <m>n</m>th partial sum <m>S_n</m> will always denote the sum of the first <m>n</m> terms:
       For example, <m>\infser 1/n</m> has
-      <me>
+      <md>
         S_n = \overbrace{1+\frac12+\cdots + \frac1n}^{n \text{ terms}}
-      </me>,
+      </md>,
       while <m>\sum_{n=0}^\infty 3^{-n}</m> has
-      <me>
+      <md>
         S_n = \overbrace{1+\frac13+\cdots + \frac{1}{3^{n-1}}}^{n \text{ terms}}
-      </me>,
+      </md>,
       and <m>\sum_{n=3}^\infty \frac{1}{n^2-2n}</m> has
-      <me>
+      <md>
         S_n = \overbrace{\frac{1}{3}+\frac{1}{8}+\cdots + \frac{1}{(n+2)^2-2(n+2)}}^{n \text{ terms}}
-      </me>.
+      </md>.
       In general, for the series <m>\ds\sum_{n=k}^\infty a_n</m>,
       the <m>n</m>th partial sum will be <m>\ds S_n = \sum_{i=k}^{k+n-1}a_i</m>.
     </p>
@@ -340,9 +340,9 @@
       <statement>
         <p>
           A <term>geometric series</term> is a series of the form
-          <me>
+          <md>
             \infser[0] r^n = 1+r+r^2+r^3+\cdots+r^n+\cdots
-          </me>
+          </md>
         </p>
 
         <p>
@@ -377,9 +377,9 @@
 
               <p>
                 For <m>r\neq 1</m>, the <m>n</m>th partial sum is:
-                <me>
+                <md>
                   S_n = 1+r+r^2+\cdots + r^{n-1} = \frac{1-r^{n}}{1-r}
-                </me>.
+                </md>.
                 When <m>r=1</m>, <m>S_n = n</m>.
               </p>
             </li>
@@ -393,9 +393,9 @@
                   <idx><h>geometric series</h></idx>
                   <idx><h>convergence</h><h>of geometric series</h></idx>
                   <idx><h>divergence</h><h>of geometric series</h></idx>
-                <me>
+                <md>
                   \infser[0] r^n = \frac{1}{1-r}
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
@@ -437,9 +437,9 @@
               <p>
                 If <m>r \gt 1</m>, then <m>r^n \to \infty</m>
                 as <m>n \to \infty</m>, so
-                <me>
+                <md>
                   S_n = \frac{1-r^n}{1-r}=\frac{r^n}{r-1}-\frac{1}{r-1}
-                </me>
+                </md>
                 diverges to infinity. (Note that <m>r-1</m> is a positive constant.)
               </p>
             </li>
@@ -489,9 +489,9 @@
     <p>
       According to <xref ref="thm_geom_series"/>,
       the series
-      <me>
+      <md>
         \ds\infser[0] \frac{1}{2^n} =\infser[0] \left(\frac 12\right)^2= 1+\frac12+\frac14+\cdots
-      </me>
+      </md>
       converges as <m>r=1/2 \lt 1</m>,
       and <m>\ds \infser[0] \frac{1}{2^n} = \frac{1}{1-1/2} = 2</m>.
       This concurs with our introductory example;
@@ -535,15 +535,15 @@
               <p>
                 Since <m>r=3/4\lt 1</m>, this series converges.
                 By <xref ref="thm_geom_series"/>, we have that
-                <me>
+                <md>
                   \infser[0] \left(\frac34\right)^n = \frac{1}{1-3/4} = 4
-                </me>.
+                </md>.
                 However, note the subscript of the summation in the given series:
                 we are to start with <m>n=2</m>.
                 Therefore we subtract off the first two terms, giving:
-                <me>
+                <md>
                   \sum_{n=2}^\infty \left(\frac34\right)^n = 4 - 1 - \frac34 = \frac94
-                </me>.
+                </md>.
                 This is illustrated in <xref ref="fig_series2a"/>.
               </p>
               <figure xml:id="fig_series2a" vshift="12">
@@ -602,9 +602,9 @@
               <p>
                 Since <m>\abs{r} = 1/2 \lt  1</m>,
                 this series converges, and by <xref ref="thm_geom_series"/>,
-                <me>
+                <md>
                   \infser[0] \left(\frac{-1}{2}\right)^n = \frac{1}{1-(-1/2)} = \frac23
-                </me>.
+                </md>.
                 The partial sums of this series are plotted in <xref ref="fig_series2b"/>.
                 Note how the partial sums are not purely increasing as some of the terms of the sequence <m>\{(-1/2)^n\}</m> are negative.
               </p>
@@ -664,9 +664,9 @@
               <p>
                 Since <m>r \gt 1</m>, the series diverges.
                 (This makes <q>common sense</q>; we expect the sum
-                <me>
+                <md>
                   1+3+9+27 + 81+243+\cdots
-                </me>
+                </md>
                 to diverge.)
                 This is illustrated in <xref ref="fig_series2c"/>.
               </p>
@@ -739,9 +739,9 @@
             <li>
               <p>
                 A <em><m>p</m>-series</em> is a series of the form
-                <me>
+                <md>
                   \infser \frac{1}{n^p}, \qquad \text{ where \(p \gt 0\). }
-                </me>
+                </md>
               </p>
             </li>
 
@@ -753,9 +753,9 @@
                 <idx><h>p@<m>p</m>-series</h></idx>
                 <idx><h>p@<m>p</m>-series</h></idx>
 
-                <me>
+                <md>
                   \infser \frac{1}{(an+b)^p}
-                </me>,
+                </md>,
                 where <m>p \gt 0</m> and <m>a, b</m> are real numbers such that <m>a\neq 0</m> and <m>an+b\gt 0</m> for all <m>n\geq 1</m>.
               </p>
             </li>
@@ -1090,9 +1090,9 @@
             <li>
               <p>
                 We can decompose the fraction <m>2/(n^2+2n)</m> as
-                <me>
+                <md>
                   \frac2{n^2+2n} = \frac1n-\frac1{n+2}
-                </me>.
+                </md>.
                 (See <xref ref="sec_partial_fraction"/>, Partial Fraction Decomposition,
                 to recall how  this is done, if necessary.)
 
@@ -1115,9 +1115,9 @@
                 In each partial sum,
                 most of the terms cancel and we obtain the formula <m>\ds S_n = 1+\frac12-\frac1{n+1}-\frac1{n+2}</m>.
                 Taking limits allows us to determine the convergence of the series:
-                <me>
+                <md>
                   \lim_{n\to\infty}S_n = \lim_{n\to\infty} \left(1+\frac12-\frac1{n+1}-\frac1{n+2}\right) = \frac32
-                </me>,
+                </md>,
                 so <m> \infser \frac1{n^2+2n} = \frac32</m>.
                 This is illustrated in <xref ref="fig_series4a"/>.
               </p>
@@ -1719,9 +1719,9 @@
       <title>Divergence of the harmonic series</title>
       <p>
         If you just consider the partial sums
-        <me>
+        <md>
           S_1, S_2, S_3, \dots, S_{1000}, S_{1001}, \dots
-        </me>,
+        </md>,
         it is not apparent that the partial sums diverge.
         Indeed they do diverge, but very, very slowly.
         (If you graph them on a logarithmic scale however,
@@ -1749,9 +1749,9 @@
       <p>
         In the partial sum <m>S_4</m>,
         we note that since <m>1/3\gt 1/4</m>, we can say
-        <me>
+        <md>
           S_4=1+\frac12+\left(\frac13+\frac14\right)\gt 1+\frac12+\underbrace{\left(\frac14+\frac14\right)}_{1/2}=1+\frac22
-        </me>.
+        </md>.
         Do the same in <m>S_8</m> and also note that every term in the group
         <m>\left(\frac15+\frac16+\frac17+\frac18\right)</m> is larger than <m>1/8</m>.
         So
@@ -2958,9 +2958,9 @@
             <introduction>
               <p>
                 Break the Harmonic Series into the sum of the odd and even terms:
-                <me>
+                <md>
                   \infser \frac1n = \infser \frac{1}{2n-1}+\infser \frac{1}{2n}
-                </me>.
+                </md>.
               </p>
 
               <p>

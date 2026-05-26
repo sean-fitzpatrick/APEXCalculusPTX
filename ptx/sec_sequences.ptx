@@ -453,9 +453,9 @@
         then we say the <term>limit</term> of <m>\{a_n\}</m>,
         as <m>n</m> <term>approaches infinity</term>,
         is <m>L</m>, denoted
-        <me>
+        <md>
           \lim_{n\to\infty}a_n = L
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -1403,9 +1403,9 @@
             <p>
               A sequence <m>\{a_n\}</m> is <em>monotonically increasing</em>
               if <m>a_n \leq a_{n+1}</m> for all <m>n</m>, <ie/>,
-              <me>
+              <md>
                 a_1 \leq a_2 \leq a_3 \leq \cdots a_n \leq a_{n+1} \cdots
-              </me>
+              </md>
             </p>
           </li>
 
@@ -1413,9 +1413,9 @@
             <p>
               A sequence <m>\{a_n\}</m> is <em>monotonically decreasing</em>
               if <m>a_n \geq a_{n+1}</m> for all <m>n</m>, <ie/>,
-              <me>
+              <md>
                 a_1 \geq a_2 \geq a_3 \geq \cdots a_n \geq a_{n+1} \cdots
-              </me>
+              </md>
             </p>
           </li>
 

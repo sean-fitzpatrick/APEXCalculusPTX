@@ -34,9 +34,9 @@
       <statement>
         <p>
           A <term>first order linear differential equation</term> is a differential equation that can be written in the form
-          <me>
+          <md>
             \frac{dy}{dx} + p(x)y = q(x)
-          </me>,
+          </md>,
           where <m>p</m> and <m>q</m> are arbitrary functions of the independent variable <m>x</m>.
           <idx><h>differential equation</h><h>first order linear</h></idx>
         </p>
@@ -153,24 +153,24 @@
       Before working out a general technique for solving first order linear differential equations,
       we look at a specific example.
       Consider the differential equation
-      <me>
+      <md>
         \frac{d}{dx}\bigl(xy\bigr) = \sin(x) \cos(x)
-      </me>.
+      </md>.
     </p>
     <p>
       This is an easy differential equation to solve.
       On the left,
       the antiderivative of the derivative is simply the function <m>xy</m>.
       Using the substitution <m>u = \sin(x)</m> on the right and integrating results in the implicit solution
-      <me>
+      <md>
         xy = \frac{1}{2}\sin^2 x + C
-      </me>.
+      </md>.
     </p>
     <p>
       Solving for <m>y</m> yields the explicit solution
-      <me>
+      <md>
         y = \frac{\sin^2 x}{2x} + \frac{C}{x}
-      </me>.
+      </md>.
     </p>
     <p>
       Though not obvious,
@@ -178,15 +178,15 @@
       Using the product rule and implicit differentiation,
       we can write <m>\displaystyle \frac{d}{dx}\big(xy\big) = x\frac{dy}{dx} + y</m>.
       Our original differential equation can be written
-      <me>
+      <md>
         x\frac{dy}{dx} + y = \sin(x) \cos(x)
-      </me>.
+      </md>.
     </p>
     <p>
       If we divide by <m>x</m>, we have
-      <me>
+      <md>
         \frac{dy}{dx} + \frac{1}{x} y = \frac{\sin(x) \cos(x)}{x}
-      </me>,
+      </md>,
       which matches the form in <xref ref="def_Linear"/>.
       Reversing our steps would lead us back to the original form our our differential equation.
     </p>
@@ -221,16 +221,16 @@
     </figure>
     <p>
       Consider the first order linear equation
-      <me>
+      <md>
         \frac{dy}{dx} + p(x)y = q(x)
-      </me>.
+      </md>.
     </p>
     <p>
       Let's call the integrating factor <m>\mu(x)</m>.
       We multiply both sides of the differential equation by <m>\mu(x)</m> to get
-      <me>
+      <md>
         \mu(x) \left( \frac{dy}{dx} + p(x)y \right) = \mu(x)q(x)
-      </me>.
+      </md>.
     </p>
 
     <aside vshift="-1">
@@ -246,46 +246,46 @@
     <p>
       Our goal is to choose <m>\mu(x)</m> so that the left hand side of the differential equation looks like the result of a Product Rule.
       The left hand side of the equation is
-      <me>
+      <md>
         \mu(x) \frac{dy}{dx} + \mu(x)p(x)y
-      </me>.
+      </md>.
     </p>
     <p>
       Using the Product Rule and Implicit Differentiation,
-      <me>
+      <md>
         \frac{d}{dx} \bigl( \mu(x) y \bigr) = \frac{d\mu}{dx}y + \mu(x)\frac{dy}{dx}
-      </me>.
+      </md>.
     </p>
 
     <p>
       Equating
       <m>\frac{d}{dx} \big ( \mu(x) y \big )</m> and <m>\mu(x) \left( \frac{dy}{dx} + p(x)y \right)</m> gives
-      <me>
+      <md>
         \frac{d\mu}{dx}y + \mu(x)\frac{dy}{dx} = \mu(x) \frac{dy}{dx} + \mu(x)p(x)y
-      </me>,
+      </md>,
       which is equivalent to
-      <me>
+      <md>
         \frac{d\mu}{dx} = \mu(x)p(x)
-      </me>.
+      </md>.
     </p>
     <p>
       In order for the integrating factor <m>\mu(x)</m> to perform its job,
       it must solve the differential equation above.
       But that differential equation is separable, so we can solve it.
       The separated form is
-      <me>
+      <md>
         \frac{d\mu}{\mu} = p(x)\,dx
-      </me>.
+      </md>.
     </p>
     <p>
       Integrating,
-      <me>
+      <md>
         \ln \mu = \int p(x)\,dx
-      </me>,
+      </md>,
       or
-      <me>
+      <md>
         \mu(x) = e^{\int p(x)\,dx}
-      </me>.
+      </md>.
     </p>
 
     <aside vshift="0">
@@ -303,15 +303,15 @@
       If <m>\mu(x)</m> is chosen this way,
       after multiplying by <m>\mu(x)</m>,
       we can always write the differential equation in the form
-      <me>
+      <md>
         \frac{d}{dx} \bigl( \mu(x)y \bigr) = \mu(x)q(x)
-      </me>.
+      </md>.
     </p>
     <p>
       Integrating and solving for <m>y</m>, the explicit solution is
-      <me>
+      <md>
         y = \frac{1}{\mu(x)}\int \bigl( \mu(x)q(x) \bigr)\,dx
-      </me>.
+      </md>.
     </p>
     <p>
       Though this formula can be used to write down the solution to a first order linear equation,
@@ -328,26 +328,26 @@
           <li>
             <p>
               Write the differential equation in the form
-              <me>
+              <md>
                 \frac{dy}{dx} + p(x)y = q(x)
-              </me>.
+              </md>.
             </p>
           </li>
           <li>
             <p>
               Compute the integrating factor
-              <me>
+              <md>
                 \mu(x) = e^{\int p(x)\,dx}
-              </me>.
+              </md>.
             </p>
           </li>
           <li>
             <p>
               Multiply both sides of the differential equation by <m>\mu(x)</m>,
               and condense the left hand side to get
-              <me>
+              <md>
                 \frac{d}{dx}\big( \mu(x)y \big) = \mu(x)q(x)
-              </me>.
+              </md>.
             </p>
           </li>
           <li>
@@ -384,28 +384,28 @@
           The answer we find <em>will</em>
           be the general solution to the differential equation.
           We first write the equation in the form
-          <me>
+          <md>
             \frac{dy}{dx} - xy = 0
-          </me>.
+          </md>.
         </p>
         <p>
           By identifying <m>p(x) = -x</m>,
           we can compute the integrating factor
-          <me>
+          <md>
             \mu(x) = e^{\int -x\,dx} = e^{-\frac{1}{2}x^2}
-          </me>.
+          </md>.
         </p>
         <p>
           Multiplying both side of the differential equation by <m>\mu(x)</m>, we have
-          <me>
+          <md>
             e^{-\frac{1}{2}x^2}\left( \frac{dy}{dx} - xy\right) = 0
-          </me>.
+          </md>.
         </p>
         <p>
           The left hand side of the differential equation condenses to yield
-          <me>
+          <md>
             \frac{d}{dx} \left( e^{-\frac{1}{2}x^2}y\right) = 0
-          </me>.
+          </md>.
         </p>
 
         <aside vshift="-2">
@@ -421,13 +421,13 @@
 
         <p>
           We integrate both sides with respect to <m>x</m> to find the implicit solution
-          <me>
+          <md>
             e^{-\frac{1}{2}x^2}y = C
-          </me>,
+          </md>,
           or the explicit solution
-          <me>
+          <md>
             y  = Ce^{\frac{1}{2}x^2}
-          </me>.
+          </md>.
         </p>
       </solution>
       <solution component="video" vshift="8">
@@ -477,28 +477,28 @@
         <p>
           The differential equation is already in the correct form.
           The integrating factor is given by
-          <me>
+          <md>
             \mu(x) = e^{-\int\cos(x)\,dx} = e^{-\sin(x)}
-          </me>.
+          </md>.
         </p>
         <p>
           Multiplying both sides of the equation by the integrating factor and condensing,
-          <me>
+          <md>
             \frac{d}{dx}\left(e^{-\sin(x)}y \right) = (\cos(x)) e^{-\sin(x)}
-          </me>
+          </md>
         </p>
         <p>
           Using the substitution <m>u = -\sin(x)</m>,
           we can integrate to find the implicit solution
-          <me>
+          <md>
             e^{-\sin(x)} y = -e^{-\sin(x)} + C
-          </me>.
+          </md>.
         </p>
         <p>
           The explicit form of the general solution is
-          <me>
+          <md>
             y = -1 + Ce^{\sin(x)}
-          </me>.
+          </md>.
         </p>
       </solution>
       <solution component="video" vshift="3">
@@ -522,9 +522,9 @@
       <solution>
         <p>
           We first divide by <m>x</m> to get
-          <me>
+          <md>
             \frac{dy}{dx}-\frac{1}{x}y = x^2\ln(x)
-          </me>.
+          </md>.
         </p>
         <p>
           The integrating factor is given by
@@ -537,29 +537,29 @@
         </p>
         <p>
           Multiplying both sides of the differential equation by the integrating factor and condensing the left hand side, we have
-          <me>
+          <md>
             \frac{d}{dx} \left( \frac{y}{x}\right) = x\ln(x)
-          </me>.
+          </md>.
         </p>
         <p>
           Using Integrating by Parts to find the antiderivative of <m>x\ln(x)</m>,
           we find the implicit solution
-          <me>
+          <md>
             \frac{y}{x} = \frac{1}{2}x^2\ln(x) - \frac{1}{4}x^2 + C
-          </me>.
+          </md>.
         </p>
         <p>
           Solving for <m>y</m>, the explicit solution is
-          <me>
+          <md>
             y = \frac{1}{2}x^3\ln(x) - \frac{1}{4}x^3 + Cx
-          </me>.
+          </md>.
         </p>
         <p>
           The initial condition <m>y(1) = 0</m> yields <m>C = 1/4</m>.
           The solution to the initial value problem is
-          <me>
+          <md>
             y = \frac{1}{2}x^3\ln(x) - \frac{1}{4}x^3 + \frac{1}{4}x
-          </me>.
+          </md>.
         </p>
       </solution>
       <solution component="video" vshift="3">
@@ -586,9 +586,9 @@
       <solution>
         <p>
           The basic physical law at play is Newton's second law,
-          <me>
+          <md>
             \text{ mass }  \times \text{ acceleration }  = \text{ the sum of the forces }
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -599,18 +599,18 @@
           This force is approximately constant,
           and is given by <m>mg</m>, where <m>g</m> is the gravitational constant.
           The word equation above can be written as the differential equation
-          <me>
+          <md>
             m\frac{dv}{dt} = mg
-          </me>.
+          </md>.
         </p>
 
         <p>
           Because <m>g</m> is constant,
           this differential equation is simply an integration problem,
           and we find
-          <me>
+          <md>
             v = gt + C
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -661,18 +661,18 @@
           Taken together,
           a function of the form <m>kv^{p}</m> is often called a <em>power law</em>.
           The differential equation for the velocity is given by
-          <me>
+          <md>
             m\frac{dv}{dt} = mg - kv^{p}
-          </me>.
+          </md>.
         </p>
 
         <p>
           (Notice that the force from air resistance opposes motion,
           and points in the opposite direction as the force from gravity.) This differential equation is separable,
           and can be written in the separated form
-          <me>
+          <md>
             \frac{m}{mg - kv^{p}}\,dv = dt
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -684,28 +684,28 @@
           We assume <m>p=1</m>,
           and proceed with an integrating factor so we can continue practicing the process.
           Writing
-          <me>
+          <md>
             \frac{dv}{dt} + \frac{k}{m}v = g
-          </me>,
+          </md>,
           we identify the integrating factor
-          <me>
+          <md>
             \mu(t) = e^{\int \frac{k}{m}\,dt} = e^{\frac{k}{m}t}
-          </me>.
+          </md>.
         </p>
 
         <p>
           Then
-          <me>
+          <md>
             \frac{d}{dt}\left(e^{\frac{k}{m}t}v \right) = ge^{\frac{k}{m}t}
-          </me>,
+          </md>,
           so
-          <me>
+          <md>
             e^{\frac{k}{m}t}v = \frac{mg}{k}e^{\frac{k}{m}t} + C
-          </me>,
+          </md>,
           or
-          <me>
+          <md>
             v = \frac{mg}{k}+ Ce^{-\frac{k}{m}t}
-          </me>.
+          </md>.
         </p>
       </solution>
     </example>

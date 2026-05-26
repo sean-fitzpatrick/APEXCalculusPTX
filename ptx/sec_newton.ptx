@@ -150,27 +150,27 @@
     </statement>
     <cardsort>
       <match>
-        <premise><me>(x_0, f(x_0))</me></premise>
+        <premise><md>(x_0, f(x_0))</md></premise>
         <response>A point on the graph of <m>f(x)</m>.</response>
       </match>
       <match>
-        <premise><me>f'(x_0)</me></premise>
+        <premise><md>f'(x_0)</md></premise>
         <response>Slope of the tangent line passing through <m>(x_0, f(x_0))</m>.</response>
       </match>
       <match>
-        <premise><me>y = f'(x_0)(x-x_0)+f(x_0)</me></premise>
+        <premise><md>y = f'(x_0)(x-x_0)+f(x_0)</md></premise>
         <response>Equation of the tangent line passing through <m>(x_0, f(x_0))</m>.</response>
       </match>
       <match>
-        <premise><me>0 = f'(x_0)(x-x_0)-f(x_0)</me></premise>
+        <premise><md>0 = f'(x_0)(x-x_0)-f(x_0)</md></premise>
         <response>First step in finding the <m>x</m>-intercept of a line (<em>setting <m>y=0</m></em>).</response>
       </match>
       <match>
-        <premise><me>x = x_0 - \dfrac{f(x_0)}{f'(x_0)}</me></premise>
+        <premise><md>x = x_0 - \dfrac{f(x_0)}{f'(x_0)}</md></premise>
         <response>The (solved) <m>x</m>-intercept of the tangent line.</response>
       </match>
       <match>
-        <premise><me>x_1 = x_0 - \dfrac{f(x_0)}{f'(x_0)}</me></premise>
+        <premise><md>x_1 = x_0 - \dfrac{f(x_0)}{f'(x_0)}</md></premise>
         <response>First Approximation in Newton's Method.</response>
       </match>
     </cardsort>
@@ -183,9 +183,9 @@
     We started with the tangent line to the graph at <m>(x_0,f(x_0))</m>.
     The slope of this tangent line is
     <m>\fp(x_0)</m> and the equation of the line is
-    <me>
+    <md>
       y=\fp(x_0)(x-x_0)+f(x_0)
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -193,32 +193,32 @@
     and the <m>x</m>-value where it crosses is what we called <m>x_1</m>.
     So let <m>y=0</m> and replace <m>x</m> with <m>x_1</m>,
     giving the equation:
-    <me>
+    <md>
       0 = \fp(x_0)(x_1-x_0)+f(x_0)
-    </me>.
+    </md>.
   </p>
 
   <p>
     Now solve for <m>x_1</m>:
-    <me>
+    <md>
       x_1=x_0-\frac{f(x_0)}{\fp(x_0)}
-    </me>.
+    </md>.
   </p>
 
   <p>
     Since we repeat the same geometric process to find <m>x_2</m> from <m>x_1</m>, we have
-    <me>
+    <md>
       x_2=x_1-\frac{f(x_1)}{\fp(x_1)}
-    </me>.
+    </md>.
   </p>
 
   <p>
     In general, given an approximation <m>x_n</m>,
     we can find the next approximation,
     <m>x_{n+1}</m> as follows:
-    <me>
+    <md>
       x_{n+1} = x_{n} - \frac{f(x_{n})}{\fp(x_{n})}
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -248,9 +248,9 @@
             Create successive approximations iteratively;
             given an approximation <m>x_n</m>,
             compute the next approximation <m>x_{n+1}</m> as
-            <me>
+            <md>
               x_{n+1} = x_n - \frac{f(x_n)}{\fp(x_n)}
-            </me>.
+            </md>.
           </p>
         </li>
 
@@ -384,9 +384,9 @@
     We can automate this process on a calculator that has an <c>ANS</c> key that returns the result of the previous calculation.
     Start by pressing <c>1</c> and then <c>Enter</c>. (We have just entered our initial guess,
     <m>x_0=1</m>.) Now compute
-    <me>
+    <md>
       \texttt{ ANS }  - \frac{f(\texttt{ ANS } )}{\fp(\texttt{ ANS } )}
-    </me>
+    </md>
     by entering the following and repeatedly press the <c>Enter</c> key.
     <cd>
       <cline>ANS-(ANS^3-ANS^2-1)/(3*ANS^2-2*ANS)</cline>
@@ -624,9 +624,9 @@
     <p>
       We can also see analytically that it fails.
       Since
-      <me>
+      <md>
         x_1 = 0 -\frac{f(0)}{\fp(0)}
-      </me>
+      </md>
       and <m>\fp(0)=0</m>, we see that <m>x_1</m> is not well defined.
     </p>
 
@@ -794,7 +794,7 @@
         <p>
           Starting with an initial guess, <m>x_0</m>, suppose you compute the next value, <m>x_1</m>, 
           in Newton's Method using the formula:
-          <me>x_{1} = x_{0} - \dfrac{f(x_{0})}{f'(x_{0})}</me>
+          <md>x_{1} = x_{0} - \dfrac{f(x_{0})}{f'(x_{0})}</md>
           Which of the following might be an indication that you have a <q>bad</q> initial guess?
         </p>
       </statement>

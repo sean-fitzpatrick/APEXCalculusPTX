@@ -115,9 +115,9 @@
     one can see that it seems that <m>y</m> takes on values near <m>1</m>.
     But what happens when <m>x=0</m>?
     We have
-    <me>
+    <md>
       y \rightarrow \frac{\sin(0) }{0} \rightarrow {\genfrac{}{}{0pt}{0}{\text{“}}{}}\frac{0}{0}{\genfrac{}{}{0pt}{0}{\text{”}}{}}
-    </me>.
+    </md>.
     The expression <m>0/0</m> has no value; it is
 
         <idx><h>limit</h><h>indeterminate form</h></idx>
@@ -191,9 +191,9 @@
     <m>1</m></q> describes a number, often referred to as <m>L</m>,
     that <m>y</m> nears as <m>x</m> nears <m>1</m>.
     We write all this as
-    <me>
+    <md>
       \lim_{x\to 1} y = \lim_{x\to 1} f(x) = L
-    </me>.
+    </md>.
     This is not a complete definition (that will come in the next section);
     this is a pseudo-definition that will allow us to explore the idea of a limit.
         <idx><h>limit</h><h>pseudo-definition</h></idx>
@@ -201,9 +201,9 @@
 
   <p>
     Above, where <m>f(x) = \sin(x)/x</m>, we approximated
-    <me>
+    <md>
       \lim_{x\to 1} \frac{\sin(x) }{x} \approx 0.84 \quad \text{ and } \quad \lim_{x\to 0}\frac{\sin(x) }{x} \approx 1
-    </me>.
+    </md>.
     (We <em>approximated</em> these limits,
     hence used the <q><m>\approx</m></q> symbol,
     since we are working with the pseudo-definition of a limit,
@@ -335,9 +335,9 @@
   <p>
     This numerical method gives confidence to say that <m>1</m> is a good approximation of
     <m>\lim_{x\to 0} \frac{\sin(x)}{x}</m>; that is,
-    <me>
+    <md>
       \lim_{x\to 0} \frac{\sin(x)}{x} \approx 1
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -366,17 +366,17 @@
     <statement>
       <p>
         Use graphical and numerical methods to approximate
-        <me>
+        <md>
           \lim_{x\to 3} \frac{x^2-x-6}{6x^2-19x+3}
-        </me>.
+        </md>.
       </p>
     </statement>
     <solution>
       <p>
         To graphically approximate the limit, graph
-        <me>
+        <md>
           y = \frac{x^2-x-6}{6x^2-19x+3}
-        </me>
+        </md>
         on a small interval that contains <m>3</m>.
         To numerically approximate the limit,
         create a table of values where the <m>x</m> values are near <m>3</m>.
@@ -472,9 +472,9 @@
         By considering values of <m>x</m> near <m>3</m>,
         we see that <m>y=0.294</m> is a better approximation.
         The graph and the table imply that
-        <me>
+        <md>
           \lim_{x\to 3} \frac{x^2-x-6}{6x^2-19x+3} \approx 0.294
-        </me>.
+        </md>.
       </p>
     </solution>
     <solution component="video" vshift="3">
@@ -534,9 +534,9 @@
       <p>
         Graphically and numerically approximate the limit of
         <m>f(x)</m> as <m>x</m> approaches <m>0</m>, where
-        <me>
+        <md>
           f(x) = \begin{cases}x+1 \amp  x\lt  0 \\ -x^2+1 \amp  x \gt 0\end{cases}
-        </me>.
+        </md>.
       </p>
     </statement>
     <solution>
@@ -690,9 +690,9 @@
       <statement>
         <p>
           Explore why <m>\lim_{x\to 1} f(x)</m> does not exist, where
-          <me>
+          <md>
             f(x) = \begin{cases}x^2-2x+3 \amp  x\leq 1 \\ x \amp  x \gt 1\end{cases}
-          </me>.
+          </md>.
         </p>
       </statement>
       <solution>
@@ -890,16 +890,16 @@
           We can deduce this on our own,
           without the aid of the graph and table.
           If <m>x</m> is near 1, then <m>(x-1)^2</m> is very small, and:
-          <me>
+          <md>
             \frac{1}{\text{ very small number } } = \text{ very large number }
-          </me>.
+          </md>.
         </p>
 
         <p>
           Since <m>f(x)</m> is not approaching a single number, we conclude that
-          <me>
+          <md>
             \lim_{x\to 1}\frac{1}{(x-1)^2}
-          </me>
+          </md>
           does not exist.
         </p>
       </solution>
@@ -1230,9 +1230,9 @@
       <idx><h>difference quotient</h></idx>
 
       <term>difference quotient</term>:
-      <me>
+      <md>
         \frac{f(5) - f(1)}{5-1} \frac{\text{ ft}}{\text{s}} = \frac{10 \text{ ft}}{4\text{ s}} = 2.5 \text{ ft/s }
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -1288,9 +1288,9 @@
       That is, consider the positions of the particle when <m>x=1</m>
       and when <m>x=1+h</m>. The difference quotient (excluding units)
       is now
-      <me>
+      <md>
         \frac{f(1+h)-f(1)}{(1+h)-1} = \frac{f(1+h)-f(1)}{h}
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -1313,9 +1313,9 @@
       This leads us to wonder what the limit of the difference quotient is as
       <m>h</m> approaches <m>0</m>.
       That is,
-      <me>
+      <md>
         \lim_{h\to 0} \frac{f(1+h)-f(1)}{h} = \text{ ? }
-      </me>
+      </md>
     </p>
 
     <!--TODO: Add a geogebra applet (for online version only). I've made one here: https://ggbm.at/mGffD9sE -->
@@ -1501,9 +1501,9 @@
             Let <m>f(x)</m> be a function defined on an open interval containing <m>c</m>,
             but not possibly at <m>c</m>. We say that the <term>limit</term> of <m>f(x)</m> as <m>x</m> approaches <m>c</m> is <m>L</m>,
             and write
-            <me>
+            <md>
               \lim_{x\to c}f(x)=L
-            </me>,
+            </md>,
             if <m>f(x)</m> can be made arbitrarily close to <m>L</m> by choosing <m>x</m> sufficiently close, but not equal, to <m>c</m>.
           </p>
         </blockquote>
@@ -3297,9 +3297,9 @@
               </image>
               <p>
                 It appears that when <m>x</m> is close to <m><var name="$a"/></m>, that <m>\big\lfloor\lvert x\rvert\big\rfloor !</m> approaches different values from the left and right. So
-                <me>
+                <md>
                   \lim_{x\to<var name="$a"/>}\big\lfloor\lvert x\rvert\big\rfloor !\text{ does not exist (DNE).}
-                </me>
+                </md>
               </p>
             </solution>
           </webwork>
@@ -3412,9 +3412,9 @@
               </image>
               <p>
                 It appears that when <m>x</m> is close to <m><var name="$a"/></m>, that <m>\big\lfloor\lvert x\rvert\big\rfloor !</m> is always equal to <m>1</m>. So
-                <me>
+                <md>
                   \lim_{x\to<var name="$a"/>}\big\lfloor\lvert x\rvert\big\rfloor !=1
-                </me>
+                </md>
               </p>
             </solution>
           </webwork>

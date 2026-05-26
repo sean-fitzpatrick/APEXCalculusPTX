@@ -20,9 +20,9 @@
     We start with <em>pressure</em>,
     which is related to <em>force</em>
     by the following equations:
-    <me>
+    <md>
       \text{Pressure}\,  = \,\frac{\text{Force}}{\text{Area}}\,  \Leftrightarrow\, \text{Force}\,  = \, \text{Pressure} \times\text{Area}
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -215,9 +215,9 @@
               <times/><quantity><mag>10</mag><unit base="foot"/></quantity><m>=</m><quantity><mag>500</mag><unit base="pound"/><per base="foot" exp="2"/></quantity>.
               The area of the base is <m>\pi\cdot 2^2 = 4\pi</m> <quantity><unit base="foot" exp="2"/></quantity>.
               So the force exerted by the fluid is
-              <me>
+              <md>
                 F = 500\times 4\pi = 6283\,\text{lb}
-              </me>.
+              </md>.
               Note that we effectively just computed the <em>weight</em>
               of the fluid in the tank.
             </p>
@@ -322,9 +322,9 @@
     we have <m>a=-3</m>.
     We will come back to this later.)
     We partition the interval <m>[a,b]</m> into <m>n</m> subintervals
-    <me>
+    <md>
       a = y_0 \lt  y_1 \lt  \cdots \lt y_{n} = b
-    </me>,
+    </md>,
     with the <m>i</m>th subinterval having length <m>\Delta y_i</m>.
     The force <m>F_i</m> exerted on the plate in the
     <m>i</m>th subinterval is <m>F_i = \text{Pressure} \times \text{Area}</m>.
@@ -356,9 +356,9 @@
   <p>
     To approximate the total force,
     we add up the approximate forces on each of the <m>n</m> thin strips:
-    <me>
+    <md>
       F = \sum_{i=1}^n F_i \approx \sum_{i=1}^n -w\cdot y_i\cdot\ell(c_i)\cdot\Delta y_i
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -381,9 +381,9 @@
           <p>
             If <m>y=0</m> corresponds to the surface of the fluid,
             then the force exerted on the plate by the fluid is
-            <me>
+            <md>
               F=\int_a^b w\cdot(-y)\cdot\ell(y)\, dy
-            </me>.
+            </md>.
           </p>
         </li>
 
@@ -391,9 +391,9 @@
           <p>
             In general, let <m>d(y)</m> represent the distance between the surface of the fluid and the plate at <m>y</m>.
             Then the force exerted on the plate by the fluid is
-            <me>
+            <md>
               F=\int_a^b w\cdot d(y)\cdot\ell(y)\, dy
-            </me>.
+            </md>.
           </p>
         </li>
       </ol>
@@ -824,9 +824,9 @@
 
       <p>
         Finding the force on a horizontally oriented porthole is more straightforward:
-        <me>
+        <md>
           F = \text{Pressure} \times\text{Area}  = 62.4\cdot50\times \pi\cdot1.5^2 = 22,054\, \text{lb}
-        </me>.
+        </md>.
       </p>
 
       <p>

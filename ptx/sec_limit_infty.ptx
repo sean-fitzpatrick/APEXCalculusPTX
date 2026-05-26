@@ -15,18 +15,18 @@
       Note how, as <m>x</m> approaches 0, <m>f(x)</m> grows very,
       very large <mdash/> in fact, it grows without bound.
       It seems appropriate, and descriptive, to state that
-      <me>
+      <md>
         \lim_{x\to 0} \frac1{x^2}=\infty
-      </me>.
+      </md>.
     </p>
 
     <p>
       Also note that as <m>x</m> gets very large,
       <m>f(x)</m> gets very, very small.
       We could represent this concept with notation such as
-      <me>
+      <md>
         \lim_{x\to \infty} \frac1{x^2}=0
-      </me>.
+      </md>.
     </p>
 
     <figure xml:id="fig_oneoverxsquared" vshift="2">
@@ -84,9 +84,9 @@
                 The limit of <m>f(x)</m>,
                 as <m>x</m> approaches <m>c</m>,
                 is <term>infinity</term>, denoted by
-                <me>
+                <md>
                   \lim_{x\rightarrow c} f(x) = \infty
-                </me>,
+                </md>,
                 if given any <m>N \gt 0</m>,
                 there exists <m>\delta  \gt  0</m> such that for all <m>x</m> in <m>I</m>,
                 where <m>x\neq c</m>,
@@ -98,9 +98,9 @@
                 The limit of <m>f(x)</m>,
                 as <m>x</m> approaches <m>c</m>,
                 is <term>negative infinity</term>, denoted by
-                <me>
+                <md>
                   \lim_{x\rightarrow c} f(x) = -\infty
-                </me>,
+                </md>,
                 if given any <m>N \lt  0</m>,
                 there exists <m>\delta  \gt  0</m> such that for all <m>x</m> in <m>I</m>,
                 where <m>x\neq c</m>,
@@ -174,9 +174,9 @@
                 as <m>x</m> approaches <m>c</m> from the left, is infinity, or,
                 the left-hand limit of <m>f</m> at <m>c</m> is infinity,
                 denoted by
-                <me>
+                <md>
                   \lim_{x\rightarrow c^-} f(x) = \infty
-                </me>,
+                </md>,
                 if given any <m>N  \gt  0</m>,
                 there exists <m>\delta  \gt  0</m> such that for all
                 <m>a\lt x\lt c</m>,
@@ -190,9 +190,9 @@
                 as <m>x</m> approaches <m>c</m> from the right, is infinity, or,
                 the right-hand limit of <m>f</m> at <m>c</m> is infinity,
                 denoted by
-                <me>
+                <md>
                   \lim_{x\rightarrow c^+} f(x) = \infty
-                </me>,
+                </md>,
                 if  given any <m>N  \gt  0</m>,
                 there exists <m>\delta  \gt  0</m> such that for all
                 <m>c\lt x\lt b</m>,
@@ -358,9 +358,9 @@
       <statement>
         <p>
           Each limit below refers to the function
-          <me>
+          <md>
             f(x) = \frac{x^3-4x}{(x-1)^2(x-2)(x-3)}
-          </me>.
+          </md>.
           Match each limit to <m>\infty</m> or <m>-\infty</m>, or <q>Finite</q>, if the limit exists.
         </p>
       </statement>
@@ -509,9 +509,9 @@
       the numerator gets small too,
       matching the denominator step for step.
       In fact, factoring the numerator, we get
-      <me>
+      <md>
         f(x)=\frac{(x-1)(x+1)}{x-1}
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -952,9 +952,9 @@
 
     <p>
       Now suppose we need to compute the following limit:
-      <me>
+      <md>
         \lim_{x\to\infty}\frac{x^3+2x+1}{4x^3-2x^2+9}
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -975,9 +975,9 @@
       (which also hold for limits at infinity),
       as well as the fact about limits of <m>1/x^n</m>,
       we see that the limit becomes
-      <me>
+      <md>
         \frac{1+0+0}{4-0+0}=\frac14
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -990,26 +990,26 @@
       <statement>
         <p>
           Let <m>f(x)</m> be a rational function of the following form:
-          <me>
+          <md>
             f(x)=\frac{a_nx^n + a_{n-1}x^{n-1}+\dots + a_1x + a_0}{b_mx^m + b_{m-1}x^{m-1} + \dots + b_1x + b_0}
-          </me>,
+          </md>,
           where <m>m,n</m> are positive integers and where any of the coefficients may be <m>0</m> except for <m>a_n</m> and <m>b_m</m>.
           Then:
           <ol>
             <li>
               <p>
                 If <m>n=m</m>, then
-                <me>
+                <md>
                   \lim_{x\to\infty} f(x) = \lim_{x\to-\infty} f(x) = \frac{a_n}{b_m}
-                </me>.
+                </md>.
               </p>
             </li>
             <li>
               <p>
                 If <m>n\lt m</m>, then
-                <me>
+                <md>
                   \lim_{x\to\infty} f(x) = \lim_{x\to-\infty} f(x) = 0
-                </me>.
+                </md>.
               </p>
             </li>
             <li>

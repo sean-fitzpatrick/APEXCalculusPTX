@@ -92,17 +92,17 @@
       We begin by reviewing the Chain Rule.
       Let <m>f</m> and <m>g</m> be functions of <m>x</m>.
       Then
-      <me>
+      <md>
         \lzoo{x}{f(g(x))} = \fp(g(x))\cdot g'(x)
-      </me>.
+      </md>.
     </p>
 
     <p>
       Suppose now that <m>y=g(x)</m>.
       We can rewrite the above as
-      <mdn>
-        <mrow xml:id="eq_implicit1">\lzoo{x}{f(y)}\amp=\fp(y)\cdot \yp,\amp\amp\text{ or }\amp\lzoo{x}{f(y)}\amp=\fp(y)\cdot\lz{y}{x}</mrow>
-      </mdn>.
+      <md number="yes" xml:id="eq_implicit1">
+        \lzoo{x}{f(y)}\amp=\fp(y)\cdot \yp,\amp\amp\text{ or }\amp\lzoo{x}{f(y)}\amp=\fp(y)\cdot\lz{y}{x}
+      </md>.
     </p>
 
     <p>
@@ -126,9 +126,9 @@
           We start by taking the derivative of both sides
           (thus maintaining the equality.)
           We have:
-          <me>
+          <md>
             \lzoo{x}{\sin(y) + y^3}=\lzoo{x}{6-x^3}
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -141,23 +141,23 @@
           We take the derivative term-by-term.
           Using the technique derived from <xref ref="eq_implicit1">Equation</xref> above,
           we can see that
-          <me>
+          <md>
             \lzoo{x}{\sin(y)} = \cos(y) \cdot \yp
-          </me>.
+          </md>.
         </p>
 
         <p>
           We apply the same process to the <m>y^3</m> term.
-          <me>
+          <md>
             \lzoo{x}{y^3} = \lzoo{(y)^3} = 3(y)^2\cdot \yp
-          </me>.
+          </md>.
         </p>
 
         <p>
           Putting this together with the right hand side, we have
-          <me>
+          <md>
             \cos(y)\yp+3y^2\yp = -3x^2
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -198,31 +198,31 @@
       <statement>
         <p>
           Suppose we want apply implicit differentiation to find <m>\frac{dy}{dx}</m> for the equation
-          <me>y + y^2 = 3x^6</me>.
+          <md>y + y^2 = 3x^6</md>.
           Match the one or more tasks on the right that was applied in each step on the left.
         </p>
       </statement>
       <cardsort>
         <match>
           <premise>Apply the derivative with respect <m>x</m> to both sides</premise>
-          <response><me>\frac{d}{dx}(y + y^2) = \frac{d}{dx}(3x^6)</me></response>
+          <response><md>\frac{d}{dx}(y + y^2) = \frac{d}{dx}(3x^6)</md></response>
         </match>
         <match>
           <premise>Sum rule</premise>
-          <response><me>\frac{d}{dx}(y) + \frac{d}{dx}(y^2) = \frac{d}{dx}(3x^6)</me></response>
+          <response><md>\frac{d}{dx}(y) + \frac{d}{dx}(y^2) = \frac{d}{dx}(3x^6)</md></response>
         </match>
         <match>
           <premise>Chain rule</premise>
           <premise>Power rule</premise>
-          <response><me>\frac{dy}{dx} + 2y\frac{dy}{dx} = 18x^5</me></response>
+          <response><md>\frac{dy}{dx} + 2y\frac{dy}{dx} = 18x^5</md></response>
         </match>
         <match>
           <premise>Factor</premise>
-          <response><me>\frac{dy}{dx}\left(1+2y\right) = 18x^5</me></response>
+          <response><md>\frac{dy}{dx}\left(1+2y\right) = 18x^5</md></response>
         </match>
         <match>
           <premise>Divide both sides by <m>1+2y</m></premise>
-          <response><me>\frac{dy}{dx} = \frac{18x^5}{1+2y}</me></response>
+          <response><md>\frac{dy}{dx} = \frac{18x^5}{1+2y}</md></response>
         </match>
         <match>
           <premise>Quotient rule</premise>
@@ -263,26 +263,26 @@
       <solution>
         <p>
           In <xref ref="ex_implicit1"/> we found that
-          <me>
+          <md>
             \yp = \frac{-3x^2}{\cos(y) +3y^2}
-          </me>.
+          </md>.
         </p>
 
         <p>
           We find the slope of the tangent line at the point <m>\left(\sqrt[3]6,0\right)</m> by substituting
           <m>\sqrt[3]6</m> for <m>x</m> and <m>0</m> for <m>y</m>.
           Thus at the point <m>\left(\sqrt[3]6,0\right)</m>, we have the slope as
-          <me>
+          <md>
             \yp = \frac{-3\left(\sqrt[3]{6}\right)^2}{\cos(0) + 3\cdot0^2} = \frac{-3\sqrt[3]{36}}{1} \approx -9.91
-          </me>.
+          </md>.
         </p>
 
         <p>
           Therefore the equation of the tangent line to the implicitly defined function
           <m>\sin(y) + y^3=6-x^3</m> at the point <m>\left(\sqrt[3]{6},0\right)</m> is
-          <me>
+          <md>
             y = -3\sqrt[3]{36}\left(x-\sqrt[3]{6}\right)+0 \approx -9.91x+18
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -390,23 +390,23 @@
         <p>
           The derivative of the right hand side is easily found to be <m>2</m>.
           In all, we get:
-          <me>
+          <md>
             3y^2\yp + 4x^2y^3\yp + 2xy^4 = 2
-          </me>.
+          </md>.
         </p>
 
         <p>
           Move terms around so that the left side consists only of the <m>\yp</m> terms and the right side consists of all the other terms:
-          <me>
+          <md>
             3y^2\yp + 4x^2y^3\yp = 2-2xy^4
-          </me>.
+          </md>.
         </p>
 
         <p>
           Factor out <m>\yp</m> from the left side and solve to get
-          <me>
+          <md>
             \yp = \frac{2-2xy^4}{3y^2+4x^2y^3}
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -497,9 +497,9 @@
         <p>
           We leave the derivatives of the other terms to the reader.
           After taking the derivatives of both sides, we have
-          <me>
+          <md>
             2\left(x^2y\yp+xy^2\right)\cos\mathopen{}\left(x^2y^2\right)\mathclose{} + 3y^2\yp = 1 + \yp
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -507,23 +507,23 @@
           particularly because of the product on the left.
           It is best to multiply out the product.
           Doing this, we get
-          <me>
+          <md>
             2x^2y\cos\mathopen{}\left(x^2y^2\right)\mathclose{}\yp + 2xy^2\cos\mathopen{}\left(x^2y^2\right)\mathclose{} + 3y^2\yp = 1 + \yp
-          </me>.
+          </md>.
         </p>
 
         <p>
           From here we can safely move around terms to get the following:
-          <me>
+          <md>
             2x^2y\cos\mathopen{}\left(x^2y^2\right)\mathclose{}\yp + 3y^2\yp - \yp = 1 - 2xy^2\cos\mathopen{}\left(x^2y^2\right)\mathclose{}
-          </me>.
+          </md>.
         </p>
 
         <p>
           Then we can solve for <m>\yp</m> to get
-          <me>
+          <md>
             \yp = \frac{1 - 2xy^2\cos\mathopen{}\left(x^2y^2\right)\mathclose{}}{2x^2y\cos\mathopen{}\left(x^2y^2\right)\mathclose{}+3y^2-1}
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -638,9 +638,9 @@
         <p>
           Taking derivatives, we get <m>2x+2y\yp=0</m>.
           Solving for <m>\yp</m> gives:
-          <me>
+          <md>
             \yp = \frac{-x}{y}
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -654,9 +654,9 @@
         <p>
           At the point <m>\left(1/2, \sqrt{3}/2\right)</m>,
           we have the tangent line's slope as
-          <me>
+          <md>
             \yp = \frac{-1/2}{\sqrt{3}/2} = \frac{-1}{\sqrt{3}} \approx -0.577
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -711,9 +711,9 @@
       One hole in our current understanding of derivatives is this:
       what is the derivative of the square root function?
       That is,
-      <me>
+      <md>
         \lzoo{x}{\sqrt{x}} = \lzoo{x}{x^{1/2}} = \text{?}
-      </me>
+      </md>
     </p>
 
     <p>
@@ -721,9 +721,9 @@
       as we can write the square root function as a power function with a rational (or,
       fractional) power.
       We are then tempted to apply the <xref ref="thm_PowerRule" text="title"/> and obtain
-      <me>
+      <md>
         \lzoo{x}{x^{1/2}} = \frac{1}{2}x^{-1/2} = \frac{1}{2\sqrt{x}}
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -931,9 +931,9 @@
           Also, if we remember that we are only considering points on the curve <m>x^2+y^2=1</m>,
           then we know that <m>x^2=1-y^2</m>.
           So we can replace the <m>x^2</m> in the expression for <m>\yp'</m> to get
-          <me>
+          <md>
             \yp'=-\frac{y+\left(1-y^2\right)/y}{y^2}=-\frac{1}{y^3}
-          </me>
+          </md>
           which is a simpler expression.
           Recognizing when simplifications like this are possible is not always easy.
         </p>
@@ -1045,9 +1045,9 @@
           let's use it to find the equation of the tangent line at <m>x=1.5</m>.
           The point on the graph our tangent line must pass through is <m>\left(1.5, 1.5^{1.5}\right) \approx (1.5, 1.837)</m>.
           Using the equation for <m>\yp</m>, we find the slope as
-          <me>
+          <md>
             \yp = 1.5^{1.5}\left(\ln(1.5) +1\right) \approx 1.837(1.405) \approx 2.582
-          </me>.
+          </md>.
         </p>
 
         <p>

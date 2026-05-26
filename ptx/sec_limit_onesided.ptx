@@ -71,9 +71,9 @@
               is <m>L</m>, (alternatively,
               that <term>the left-hand limit</term> of <m>f</m> at
               <m>c</m> is <m>L</m>) is denoted by
-              <me>
+              <md>
                 \lim_{x\to c^-} f(x) = L
-              </me>,
+              </md>,
               and means that for any <m>\varepsilon \gt 0</m>,
               there exists <m>\delta \gt 0</m> such that for all
               <m>x\in (a,c)</m>, if <m>\abs{x - c} \lt  \delta</m>,
@@ -94,9 +94,9 @@
               is <m>L</m>, (alternatively,
               that <term>the right-hand limit</term> of <m>f</m> at
               <m>c</m> is <m>L</m>) is denoted by
-              <me>
+              <md>
                 \lim_{x\to c^+} f(x) = L
-              </me>,
+              </md>,
               and means that for any <m>\varepsilon \gt 0</m>,
               there exists <m>\delta \gt 0</m> such that for all
               <m>x\in (c,b)</m>, if <m>\abs{x - c} \lt  \delta</m>,
@@ -190,12 +190,12 @@
         <ol>
           <li>
             <p>
-              The limit from the left side as <m>t</m> gets close to <m>112</m>:  <me>\lim_{t \rightarrow 112^-} L(t) =</me>
+              The limit from the left side as <m>t</m> gets close to <m>112</m>:  <md>\lim_{t \rightarrow 112^-} L(t) =</md>
             </p>
           </li>
           <li>
             <p>
-              The limit from the right side as <m>t</m> gets close to 112: <me>\lim_{t \rightarrow 112^+} L(t) =</me>
+              The limit from the right side as <m>t</m> gets close to 112: <md>\lim_{t \rightarrow 112^+} L(t) =</md>
             </p>
           </li>
           <li>
@@ -423,13 +423,13 @@
             <idx><h>limit</h><h>does not exist</h></idx>
 
         Then
-        <me>
+        <md>
           \lim_{x\to c}f(x) = L
-        </me>
+        </md>
         if, and only if,
-        <me>
+        <md>
           \lim_{x\to c^-}f(x) = L  \text{ and }   \lim_{x\to c^+}f(x) = L
-        </me>.
+        </md>.
       </p>
     </statement>
   </theorem>
@@ -814,9 +814,9 @@
     <solution>
       <p>
         It is clear from the definition of the function and its graph that all of the following are equal:
-        <me>
+        <md>
           \lim_{x\to 1^-} f(x) = \lim_{x\to 1^+} f(x) =\lim_{x\to 1} f(x) =f(1) = 1
-        </me>.
+        </md>.
       </p>
     </solution>
     <solution component="video" vshift="-2">

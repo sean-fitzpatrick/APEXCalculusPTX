@@ -63,9 +63,9 @@
       <m>a(n)=a_n</m> for <m>n=1,2,\ldots</m>,
       and clearly the rectangles enclose more area than the area under <m>y=a(x)</m>.
       Therefore we can conclude that
-      <men xml:id="eq_integral_testa">
+      <md number="yes" xml:id="eq_integral_testa">
         \ds \int_1^\infty a(x)\, dx \lt  \infser a_n
-      </men>.
+      </md>.
     </p>
 
     <figure xml:id="fig_integral_test">
@@ -167,16 +167,16 @@
       so <m>\ds\sum_{n=2}^\infty a_n \lt  \int_1^\infty a(x)\, dx</m>.
       Note how this summation starts with <m>n=2</m>;
       adding <m>a_1</m> to both sides lets us rewrite the summation starting with <m>n=1</m>:
-      <men xml:id="eq_integral_testb">
+      <md number="yes" xml:id="eq_integral_testb">
         \infser a_n \lt  a_1 +\int_1^\infty a(x)\, dx
-      </men>.
+      </md>.
     </p>
 
     <p>
       Combining Equations <xref ref="eq_integral_testa"/> and <xref ref="eq_integral_testb"/>, we have
-      <men xml:id="eq_integral_testc">
+      <md number="yes" xml:id="eq_integral_testc">
         \infser a_n\lt  a_1 +\int_1^\infty a(x)\, dx \lt  a_1 + \infser a_n
-      </men>.
+      </md>.
     </p>
 
     <p>
@@ -487,9 +487,9 @@
                 our partial sums for <m>a_n</m> are bounded
                 (note that the partial sums started at <m>i=N</m>,
                 but a finite number of terms will not affect the boundedness of the partial sums).
-                <me>
+                <md>
                   0\lt \sum_{i=N}^n a_i \leq \sum_{i=N}^n b_i \lt S
-                </me>.
+                </md>.
                 Since the sequence of partial sums,
                 <m>s_n=\sum_{i=1}^n a_i </m> is both monotonically increasing and bounded,
                 we can say that <m>s_n</m> converges
@@ -503,13 +503,13 @@
                 Suppose that <m>\ds \infser a_n</m> diverges,
                 so <m>\ds \sum_{i=1}^n a_n=\infty</m>. (We can say that the series diverges to <m>\infty</m> since the terms of the series are always positive).
                 Comparing the partial sums, we have
-                <me>
+                <md>
                   \ds \sum_{i=N}^n a_i \leq \sum_{i=N}^n b_i
-                </me>
+                </md>
                 Then applying limits, we get
-                <me>
+                <md>
                   \ds \lim\limits_{n \to \infty}\sum_{i=N}^n a_i \leq \lim\limits_{n \to \infty}\sum_{i=N}^n b_i
-                </me>.
+                </md>.
                 Since the limit on the left side diverges to <m>\infty</m>,
                 we can say that <m>\lim\limits_{n \to \infty}\sum_{i=N}^n b_i</m> also diverges to <m>\infty</m>.
               </p>
@@ -1274,9 +1274,9 @@
               <solution>
                 <p>
                   Diverges; compare to <m>\ds \infser \frac{1}{n}</m>:
-                  <me>
+                  <md>
                     \frac 1n = \frac{n^2}{n^3} \lt  \frac{n^2+n+1}{n^3} \lt  \frac{n^2+n+1}{n^3-5}
-                  </me>,
+                  </md>,
                   for all <m>n\geq 1</m>.
                 </p>
               </solution>
@@ -1314,9 +1314,9 @@
                 <p>
                   Diverges; compare to <m>\ds \infser \frac 1n</m>.
                   Note that
-                  <me>
+                  <md>
                     \frac{n}{n^2-1} = \frac{n^2}{n^2-1}\cdot\frac1n  \gt  \frac 1n
-                  </me>,
+                  </md>,
                   as <m>\frac{n^2}{n^2-1} \gt 1</m>, for all <m>n\geq 2</m>.
                 </p>
               </solution>
@@ -1777,9 +1777,9 @@
               that is, the difference between <m>\infser a_n</m> and the <m>n</m>th partial sum.
               (Note that <m>R_n</m> is the size of the error that results if we approximate the series by the <m>n</m>th partial sum.)
               Explain why we must have the following inequality:
-              <me>
+              <md>
                 \int_n^\infty a(x)\,dx \leq R_n \leq \int_{n+1}^\infty a(x)\,dx
-              </me>
+              </md>
             </p>
           </statement>
           <hint>
@@ -1828,9 +1828,9 @@
           <solution>
             <p>
               We have
-              <me>
+              <md>
                 R_n\leq \int_n^\infty \frac{1}{x^4}\,dx = \frac{1}{3n^3}
-              </me>.
+              </md>.
               For 5 decimal places of accuracy, we need <m>R_n\leq 0.000005</m>.
               Setting <m>0.000005=1/(3n^3)</m> and solving for <m>n</m> gives
               <m>n\approx 40.55</m>, so we should take 41 terms.

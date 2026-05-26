@@ -65,9 +65,9 @@
       Then the work done on this interval is approximately <m>W_i\approx F(c_i)\cdot(x_{i}-x_{i-1}) = F(c_i)\dx_i</m>,
       a constant force <times/> the distance over which it is applied.
       The total work is
-      <me>
+      <md>
         W = \sum_{i=1}^n W_i \approx \sum_{i=1}^n F(c_i)\dx_i
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -82,9 +82,9 @@
         The total work <m>W</m> done on <m>[a,b]</m> is
             <idx><h>integration</h><h>work</h></idx>
             <idx><h>work</h></idx>
-        <me>
+        <md>
           W = \int_a^b F(x)\, dx
-        </me>.
+        </md>.
       </p>
     </insight>
 
@@ -118,16 +118,16 @@
           multiplying this mass by the acceleration of gravity,
           <quantity><mag>9.8</mag><unit base="meter"/><per base="second" exp="2"/></quantity>,
           gives our variable force function
-          <me>
+          <md>
             F(x) = (9.8)(0.066)(60-x) = 0.6468(60-x)
-          </me>.
+          </md>.
         </p>
 
         <p>
           Thus the total work performed in pulling up the rope is
-          <me>
+          <md>
             W = \int_0^{60} 0.6468(60-x)\, dx = 1,164.24 \,\text{J}
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -155,9 +155,9 @@
           We want to find a height <m>h</m> such that the work in pulling the rope from a height of <m>x=0</m>
           to a height of <m>x=h</m> is <m>582.12</m>, or half the total work.
           Thus we want to solve the equation
-          <me>
+          <md>
             \int_0^h 0.6468(60-x)\, dx = 582.12
-          </me>
+          </md>
           for <m>h</m>.
           <md>
             <mrow>\int_0^h 0.6468(60-x)\, dx \amp = 582.12</mrow>
@@ -236,9 +236,9 @@
                 (Note that we do not have to include the acceleration of gravity here,
                 for the <em>weight</em> of the rope per foot is given,
                 not its <em>mass</em> per meter as before.) The work performed lifting the rope is
-                <me>
+                <md>
                   W_r = \int_0^{50} (10-0.2x)\, dx = 250\,\text{ft--lb}
-                </me>.
+                </md>.
               </p>
             </li>
 
@@ -264,9 +264,9 @@
                 <quantity><mag>5</mag><unit base="pound"/></quantity>,
                 so the total force function is <m>F_b(x) = -1.2x+105</m>.
                 Integrating from <m>x=0</m> to <m>x=50</m> gives the work performed in lifting box and sand:
-                <me>
+                <md>
                   W_b = \int_0^{50} (-1.2x+105)\, dx = 3750\,\text{ft--lb}
-                </me>.
+                </md>.
               </p>
             </li>
 
@@ -415,9 +415,9 @@
 
         <p>
           Converting the units of length to feet, we have
-          <me>
+          <md>
             F(5/12) = 5/12k = 20\,\text{lb}
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -585,9 +585,9 @@
           We orient our tank vertically since this makes intuitive sense with the base of the tank at <m>y=0</m>.
           Hence the top of the water is at <m>y=30</m>,
           meaning we are interested in subdividing the <m>y</m>-interval <m>[0,30]</m> into <m>n</m> subintervals as
-          <me>
+          <md>
             0 = y_0 \lt  y_1 \lt  \cdots \lt  y_{n} = 30
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -611,17 +611,17 @@
         <p>
           In all, the approximate work <m>W_i</m> performed in moving the water in the
           <m>i</m>th subinterval to a point <m>5</m> feet above the tank is
-          <me>
+          <md>
             W_i \approx 6240\pi\Delta y_i(35-y_i)
-          </me>.
+          </md>.
         </p>
 
         <p>
           To approximate the total work performed in pumping out all the water from the tank,
           we sum all the work <m>W_i</m> performed in pumping the water from each of the <m>n</m> subintervals of <m>[0,30]</m>:
-          <me>
+          <md>
             W \approx \sum_{i=1}^n W_i = \sum_{i=1}^n 6240\pi\Delta y_i(35-y_i)
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -903,9 +903,9 @@
           The water is to be pumped to a height of <m>y=8</m>,
           so the height function is <m>h(y) = 8-y</m>.
           The work done in pumping this top region of water is
-          <me>
+          <md>
             W_t = 62.4\int_3^6 500(8-y)\, dy = 327,600 \,\text{ft--lb}
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -928,16 +928,16 @@
           this differential element represents a thin slice of water with volume <m>V(y) = 20\cdot(5/3y+10)\cdot dy</m>;
           the height function is the same as before at <m>h(y)=8-y</m>.
           The work performed in emptying this part of the pool is
-          <me>
+          <md>
             W_b = 62.4\int_0^3 20(5/3y+10)(8-y)\, dy = 299,520\,\text{ft--lb}
-          </me>.
+          </md>.
         </p>
 
         <p>
           The total work in empyting the pool is
-          <me>
+          <md>
             W = W_b+W_t = 327,600+299,520 = 627,120\,\text{ft--lb}
-          </me>.
+          </md>.
         </p>
 
         <p>

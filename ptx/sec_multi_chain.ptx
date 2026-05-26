@@ -143,13 +143,13 @@
     <p>
       The Chain Rule of <xref ref="sec_chainrule"/>
       states that
-      <me>
+      <md>
         \frac{d}{dx}\Big(f\big(g(x)\big)\Big) = \fp\big(g(x)\big)\gp(x)
-      </me>.
+      </md>.
       If <m>t=g(x)</m>, we can express the Chain Rule as
-      <me>
+      <md>
         \frac{df}{dx} = \frac{df}{dt}\frac{dt}{dx};
-      </me>
+      </md>
       recall that the derivative notation is deliberately chosen to reflect their fraction-like properties.
       A similar effect is seen in <xref ref="thm_multi_chain"/>.
       In the second line of equations,
@@ -187,16 +187,16 @@
       <solution>
         <p>
           Following <xref ref="thm_multi_chain"/>, we find
-          <me>
+          <md>
             f_x(x,y) = 2xy+1,\qquad f_y(x,y) = x^2,\qquad \frac{dx}{dt} = \cos(t) ,\qquad \frac{dy}{dt}= 5e^{5t}
-          </me>.
+          </md>.
         </p>
 
         <p>
           Applying the theorem, we have
-          <me>
+          <md>
             \frac{dz}{dt} = (2xy+1)\cos(t) + 5x^2e^{5t}
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -205,9 +205,9 @@
           Since <m>x</m> and <m>y</m> are functions of <m>t</m>,
           <m>\frac{dz}{dt}</m> is really just a function of <m>t</m>,
           and we can replace <m>x</m> with <m>\sin(t)</m> and <m>y</m> with <m>e^{5t}</m>:
-          <me>
+          <md>
             \frac{dz}{dt} = (2xy+1)\cos(t) + 5x^2e^{5t} = (2\sin(t)e^{5t}+1)\cos(t) +5e^{5t}\sin^2(t)
-          </me>.
+          </md>.
         </p>
       </solution>
     </example>
@@ -223,9 +223,9 @@
     <p>
       That is, <m>z = x^2y+x = (\sin(t) )^2e^{5t}+\sin(t) </m>.
       Applying the Chain and Product Rules, we have
-      <me>
+      <md>
         \frac{dz}{dt} = 2\sin(t) \cos(t) \, e^{5t}+ 5\sin^2(t) \,e^{5t}+\cos(t)
-      </me>,
+      </md>,
       which matches the result from the example.
     </p>
 
@@ -260,9 +260,9 @@
           An object travels along a path on a surface.
           The exact path and surface are not known,
           but at time <m>t=t_0</m> it is known that :
-          <me>
+          <md>
             \frac{\partial z}{\partial x} = 5,\qquad \frac{\partial z}{\partial y}=-2,\qquad \frac{dx}{dt}=3\qquad \text{ and } \qquad \frac{dy}{dt}=7
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -312,9 +312,9 @@
 
         <p>
           Combining these according to the Chain Rule gives:
-          <me>
+          <md>
             \frac{dz}{dt} = -(2x-y)\sin(t) + (2y-x)\cos(t)
-          </me>.
+          </md>.
         </p>
 
         <figure xml:id="fig_mchain2" vshift="0">
@@ -452,9 +452,9 @@
                 Let <m>z = f(x_1,x_2,\ldots,x_m)</m> be a differentiable function of <m>m</m> variables,
                 where each of the <m>x_i</m> is a differentiable function of the variables <m>t_1,t_2,\ldots,t_n</m>.
                 Then <m>z</m> is a function of the <m>t_i</m>, and
-                <me>
+                <md>
                   \frac{\partial z}{\partial t_i} = \frac{\partial f}{\partial x_1}\frac{\partial x_1}{\partial t_i} + \frac{\partial f}{\partial x_2}\frac{\partial x_2}{\partial t_i} + \cdots +  \frac{\partial f}{\partial x_m}\frac{\partial x_m}{\partial t_i}
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
@@ -475,30 +475,30 @@
         <p>
           Following <xref ref="thm_multi_chain2"/>,
           we compute the following partial derivatives:
-          <me>
+          <md>
             \frac{\partial f}{\partial x} = 2xy+1\qquad\qquad \frac{\partial f}{\partial y} = x^2
-          </me>,
-          <me>
+          </md>,
+          <md>
             \frac{\partial x}{\partial s} = 2s \qquad\qquad \frac{\partial x}{\partial t} = 3\qquad\qquad \frac{\partial y}{\partial s} = 2 \qquad\qquad \frac{\partial y}{\partial t} = -1
-          </me>.
+          </md>.
         </p>
 
         <p>
           Thus
-          <me>
+          <md>
             \ds \frac{\partial z}{\partial s} = (2xy+1)(2s) + (x^2)(2) = 4xys+2s + 2x^2, \text{ and }
-          </me>
-          <me>
+          </md>
+          <md>
             \ds \frac{\partial z}{\partial t} = (2xy+1)(3) + (x^2)(-1) = 6xy-x^2+3
-          </me>.
+          </md>.
         </p>
 
         <p>
           When <m>s=1</m> and <m>t=2</m>,
           <m>x= 7</m> and <m>y= 0</m>, so
-          <me>
+          <md>
             \frac{\partial z}{\partial s} = 100\qquad \text{ and } \qquad \frac{\partial z}{\partial t} = -46
-          </me>.
+          </md>.
         </p>
       </solution>
     </example>
@@ -524,18 +524,18 @@
 
         <p>
           Thus
-          <me>
+          <md>
             \frac{\partial w}{\partial t} = y(2te^s) + x(\cos(s) ) + 2z(s\cos(t) )
-          </me>.
+          </md>.
         </p>
 
         <p>
           When <m>s=0</m> and <m>t=\pi</m>,
           we have <m>x=\pi^2</m>, <m>y=\pi</m> and <m>z=0</m>.
           Thus
-          <me>
+          <md>
             \frac{\partial w}{\partial t} = \pi(2\pi) + \pi^2 = 3\pi^2
-          </me>.
+          </md>.
         </p>
       </solution>
     </example>
@@ -569,9 +569,9 @@
       The implicit function above describes the level curve <m>z=3</m>.
       Considering <m>x</m> and <m>y</m> as functions of <m>x</m>,
       the Multivariable Chain Rule states that
-      <men xml:id="eq_mchain1">
+      <md number="yes" xml:id="eq_mchain1">
         \frac{dz}{dx} = \frac{\partial z}{\partial x}\frac{dx}{dx}+\frac{\partial z}{\partial y}\frac{dy}{dx}
-      </men>.
+      </md>.
     </p>
 
     <p>
@@ -580,11 +580,11 @@
       <m>\frac{dz}{dx} = 0</m>.
       We also know <m>\frac{dx}{dx} = 1</m>.
       <xref ref="eq_mchain1">Equation</xref> becomes
-      <mdn>
-        <mrow number="no">0 \amp = \frac{\partial z}{\partial x}(1) + \frac{\partial z}{\partial y}\frac{dy}{dx}  \Rightarrow</mrow>
-        <mrow number="no">\frac{dy}{dx} \amp = -\frac{\partial z}{\partial x}\Big/\frac{\partial z}{\partial y}</mrow>
-        <mrow xml:id="eq_mchain2">\amp = -\frac{\,f_x\,}{f_y}</mrow>
-      </mdn>.
+      <md>
+        <mrow>0 \amp = \frac{\partial z}{\partial x}(1) + \frac{\partial z}{\partial y}\frac{dy}{dx}  \Rightarrow</mrow>
+        <mrow>\frac{dy}{dx} \amp = -\frac{\partial z}{\partial x}\Big/\frac{\partial z}{\partial y}</mrow>
+        <mrow number="yes" xml:id="eq_mchain2">\amp = -\frac{\,f_x\,}{f_y}</mrow>
+      </md>.
     </p>
 
     <p>
@@ -607,9 +607,9 @@
           Then
             <idx><h>derivative</h><h>implicit</h></idx>
             <idx><h>implicit differentiation</h></idx>
-          <me>
+          <md>
             \frac{dy}{dx} = - \frac{f_x(x,y)}{f_y(x,y)}
-          </me>.
+          </md>.
         </p>
       </statement>
     </theorem>
@@ -641,9 +641,9 @@
             <mrow>f_y(x,y) \amp = 2x^2y\cos(x^2y^2)+3y^2-1</mrow>
           </md>,
           so
-          <me>
+          <md>
             \frac{dy}{dx} = -\frac{2xy^2\cos(x^2y^2)-1}{2x^2y\cos(x^2y^2)+3y^2-1}
-          </me>,
+          </md>,
           which matches our solution from <xref ref="ex_implicit5"/>.
         </p>
       </solution>
@@ -672,13 +672,13 @@
         <mrow>  \amp = f_x(x,y,z)(1)+f_y(x,y,z)(0)+f_z(x,y,z)\plz{z}{x}</mrow>
       </md>.
       Solving for <m>\plz{z}{x}</m> gives us
-      <me>
+      <md>
         \plz{z}{x} = -\frac{f_x(x,y,z)}{f_z(x,y,z)}
-      </me>,
+      </md>,
       and similarly,
-      <me>
+      <md>
         \plz{z}{y} = -\frac{f_y(x,y,z)}{f_z(x,y,z)}
-      </me>.
+      </md>.
     </p>
 
     <aside vshift="0">
@@ -709,9 +709,9 @@
       <statement>
         <p>
           Given that the equation
-          <men xml:id="eqn-implicit-three">
+          <md number="yes" xml:id="eqn-implicit-three">
             x^2yz^3-\sin(x-3z)+4xy^2-3yz=0
-          </men>
+          </md>
           defines <m>z</m> implicitly as a function of <m>x</m> and <m>y</m>,
           compute <m>\plz{z}{x}</m> and <m>\plz{z}{y}</m> using implicit differentiation.
           Then, determine the equation of the tangent plane to the surface at the point <m>(3,0,1)</m>.
@@ -733,21 +733,21 @@
           </md>.
           Note that we treated <m>y</m> as a constant, since the derivative is with respect to <m>x</m>.
           Next, we collect terms:
-          <me>
+          <md>
             \plz{z}{x}\left(3x^2yz^2+3\cos(x-3z)-3y\right) = -2xyz^3+\cos(x-3z)-4y^2
-          </me>.
+          </md>.
           Lastly, we solve for <m>\plz{z}{x}</m>:
-          <me>
+          <md>
             \plz{z}{x} = \frac{-2xyz^3+\cos(x-3z)-4y^2}{3x^2yz^2+3\cos(x-3z)-3y}
-          </me>.
+          </md>.
         </p>
         <p>
           For the <m>y</m> derivative, we will use the result given above.
           Setting <m>f(x,y,z) = x^2yz^3-\sin(x-3z)+4xy^2-3yz</m>, we have <m>\plz{z}{y} = -\frac{f_y(x,y,z)}{f_z(x,y,z)}</m>.
           Therefore,
-          <me>
+          <md>
             \plz{z}{y} = -\frac{x^2z^3+8xy-3z}{3x^2yz^2+3\cos(x-3z)-3y}
-          </me>.
+          </md>.
           The second method certainly seems simpler!
           The reader is invited to try each part with the other method, and compare answers.
         </p>
@@ -762,9 +762,9 @@
             <mrow>g_y(3,0) \amp = \plzoa{z}{y}{(3,0)} = -\frac{9+0-3}{0+3-0} = -2</mrow>
           </md>.
           The equation of the tangent plane is therefore
-          <me>
+          <md>
             z = g(3,0)+g_x(3,0)(x-3)+g_y(3,0)(y-0) = 1+\frac13(x-3)-2y
-          </me>.
+          </md>.
         </p>
       </solution>
     </example>
@@ -1247,17 +1247,17 @@
               <solution>
                 <p>
                   We find that
-                  <me>
+                  <md>
                     \frac{dz}{dt} = -\frac{2\cos^2(t) \sin(t) }{(1+\sin^2(t) )^2}-\frac{\sin(t) }{1+\sin^2(t) }
-                  </me>.
+                  </md>.
                 </p>
 
                 <p>
                   Setting this equal to <m>0</m>,
                   finding a common denominator and factoring out <m>\sin(t)</m>, we get
-                  <me>
+                  <md>
                     \sin(t) \left(\frac{2\cos^2(t) +\sin^2(t) +1}{(1+\sin^2(t) )^2}\right)=0
-                  </me>.
+                  </md>.
                 </p>
 
                 <p>
@@ -1284,9 +1284,9 @@
               <solution>
                 <p>
                   We find that
-                  <me>
+                  <md>
                     \frac{dz}{dt} = 38\cos(t) \sin(t)
-                  </me>.
+                  </md>.
                 </p>
 
                 <p>
@@ -1318,9 +1318,9 @@
               <solution>
                 <p>
                   We find that
-                  <me>
+                  <md>
                     \frac{dz}{dt} = -\pi\sin(\pi t)\sin(2\pi t+\pi/2)+2\pi\cos(\pi t)\cos(2\pi t+\pi/2)
-                  </me>.
+                  </md>.
                 </p>
 
                 <p>
@@ -1331,57 +1331,57 @@
                   First, verify that <m>\sin(2\pi t+\pi/2) = \cos(2\pi t)</m>,
                   and <m>\cos(2\pi t+\pi/2) = -\sin(2\pi t)</m>.
                   This lets us rewrite <m>\frac{dz}{dt} = 0</m> as
-                  <me>
+                  <md>
                     -\sin(\pi t)\cos(2\pi t)-2\cos(\pi t)\sin(2\pi t)=0
-                  </me>.
+                  </md>.
                 </p>
 
                 <p>
                   By bringing one term to the other side of the equality then dividing,
                   we can get
-                  <me>
+                  <md>
                     2\tan(2\pi t) = -\tan(\pi t)
-                  </me>.
+                  </md>.
                 </p>
 
                 <p>
                   Using the angle sum/difference formula for tangent, we know
-                  <me>
+                  <md>
                     \tan(2\pi t) = \tan(\pi t + \pi t) = \frac{\tan(\pi t)+\tan(\pi t)}{1-\tan^2(\pi t)}
-                  </me>.
+                  </md>.
                 </p>
 
                 <p>
                   Thus we write
-                  <me>
+                  <md>
                     2\frac{\tan(\pi t)+\tan(\pi t)}{1-\tan^2(\pi t)} = -\tan(\pi t)
-                  </me>.
+                  </md>.
                 </p>
 
                 <p>
                   Solving for <m>\tan^2(\pi t)</m>, we find
-                  <me>
+                  <md>
                     \tan^2(\pi t) = 5  \implies  \tan(\pi t) = \pm\sqrt{5}
-                  </me>,
+                  </md>,
                   and so
-                  <me>
+                  <md>
                     \pi t = \tan^{-1}(\pm\sqrt{5}) = \pm\tan^{-1}(\sqrt{5})
-                  </me>.
+                  </md>.
                 </p>
 
                 <p>
                   Since the period of tangent is <m>\pi</m>,
                   we can adjust our answer to be
-                  <me>
+                  <md>
                     \pi t = \pm\tan^{-1}(\sqrt{5})+ n\pi,\text{ where \(n\) is an integer. }
-                  </me>
+                  </md>
                 </p>
 
                 <p>
                   Dividing by <m>\pi</m>, we find
-                  <me>
+                  <md>
                     t = \pm\frac1\pi\tan^{-1}(\sqrt{5})+ n,\text{ where \(n\) is an integer. }
-                  </me>
+                  </md>
                 </p>
 
                 <p>

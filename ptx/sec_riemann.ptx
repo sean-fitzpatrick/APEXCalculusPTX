@@ -555,9 +555,9 @@
       <m>a_2</m>,
       <m>a_3</m>, <ellipsis/>, <m>a_9</m>.
       Instead of writing
-      <me>
+      <md>
         a_1+a_2+a_3+a_4+a_5+a_6+a_7+a_8+a_9
-      </me>,
+      </md>,
       we use summation notation and write <m>\sum_{i=1}^9 a_i</m>.
 <!--ToDo: original has a diagram for this, named fig_rie_notation. Why not include here?-->
       The upper case sigma,
@@ -569,9 +569,9 @@
       the expression <m>a_i</m> is called the summand.
       It tells us what we are summing.
       This is summarized in <xref ref="eq_sigmanotation" text="global">Equation</xref>.
-      <men xml:id="eq_sigmanotation">
+      <md number="yes" xml:id="eq_sigmanotation">
         \sum_{\underbrace{i=1}_{i \text{-index of summation}}}^{\overbrace{9}^\text{upper bound}} \underbrace{a_i}_\text{summand}
-      </men>
+      </md>
     </p>
 
     <p>
@@ -689,9 +689,9 @@
         <p>
           Revisit <xref ref="ex_rie3"/> and,
           using <xref ref="thm_summation"/>, evaluate
-          <me>
+          <md>
             \sum_{i=1}^6 a_i = \sum_{i=1}^6 (2i-1)
-          </me>.
+          </md>.
         </p>
       </statement>
       <solution>
@@ -815,9 +815,9 @@
       If we had partitioned <m>[0,4]</m> into 100 equally spaced subintervals,
       each subinterval would have length <m>\Delta x=4/100 = 0.04</m>.
       We could compute <m>x_{31}</m> as
-      <me>
+      <md>
         x_{31} = x_0 + 31(4/100) = 1.24
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -896,31 +896,31 @@
           Using the formula derived before,
           using 16 equally spaced intervals and the Right Hand Rule,
           we can approximate the definite integral as
-          <me>
+          <md>
             \sum_{i=1}^{16}f(x_{i})\Delta x
-          </me>.
+          </md>.
         </p>
 
         <p>
           We have <m>\Delta x = 4/16 = 0.25</m>.
           Since <m>x_i = 0+i\Delta x</m>, we have
-          <me>
+          <md>
             x_{i} = 0 + i\Delta x = i\Delta x
-          </me>.
+          </md>.
         </p>
 
         <p>
           Using the summation formulas, consider:
-          <mdn>
-            <mrow number="no">\int_0^4 (4x-x^2)\, dx \amp \approx \sum_{i=1}^{16} f(x_{i})\Delta x</mrow>
-            <mrow number="no">\amp = \sum_{i=1}^{16} f(i\Delta x) \Delta x</mrow>
-            <mrow number="no">\amp = \sum_{i=1}^{16} \big(4i\Delta x - (i\Delta x)^2\big)\Delta x</mrow>
-            <mrow number="no">\amp = \sum_{i=1}^{16} (4i\Delta x^2 - i^2\Delta x^3)</mrow>
-            <mrow xml:id="eq_rie7">\amp = (4\Delta x^2)\sum_{i=1}^{16} i - \Delta x^3 \sum_{i=1}^{16} i^2</mrow>
-            <mrow number="no">\amp = (4\Delta x^2)\frac{16\cdot 17}{2} - \Delta x^3 \frac{16(17)(33)}6</mrow>
-            <mrow number="no">\amp =	4\cdot 0.25^2\cdot 136-0.25^3\cdot 1496</mrow>
-            <mrow number="no">\amp =10.625</mrow>
-          </mdn>
+          <md>
+            <mrow>\int_0^4 (4x-x^2)\, dx \amp \approx \sum_{i=1}^{16} f(x_{i})\Delta x</mrow>
+            <mrow>\amp = \sum_{i=1}^{16} f(i\Delta x) \Delta x</mrow>
+            <mrow>\amp = \sum_{i=1}^{16} \big(4i\Delta x - (i\Delta x)^2\big)\Delta x</mrow>
+            <mrow>\amp = \sum_{i=1}^{16} (4i\Delta x^2 - i^2\Delta x^3)</mrow>
+            <mrow number="yes" xml:id="eq_rie7">\amp = (4\Delta x^2)\sum_{i=1}^{16} i - \Delta x^3 \sum_{i=1}^{16} i^2</mrow>
+            <mrow>\amp = (4\Delta x^2)\frac{16\cdot 17}{2} - \Delta x^3 \frac{16(17)(33)}6</mrow>
+            <mrow>\amp =	4\cdot 0.25^2\cdot 136-0.25^3\cdot 1496</mrow>
+            <mrow>\amp =10.625</mrow>
+          </md>
         </p>
 
         <p>
@@ -999,9 +999,9 @@
           Using many, many rectangles, we have a likely good approximation of
           <m>\int_0^4 (4x-x^2)\dx</m>.
           That is,
-          <me>
+          <md>
             \int_0^4(4x-x^2)\, dx \approx 10.666656
-          </me>.
+          </md>.
         </p>
       </solution>
       <solution component="video" vshift="3">
@@ -1053,9 +1053,9 @@
           A <term>partition</term> <m>\Delta x</m> of a closed interval <m>[a,b]</m> is a set of numbers <m>x_0</m>,
           <m>x_1</m>,
           <m>\ldots</m> <m>x_{n}</m> where
-          <me>
+          <md>
             a=x_0 \lt  x_1 \lt  \ldots \lt  x_{n-1} \lt  x_{n}=b
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1100,9 +1100,9 @@
 
         <p>
           The sum
-          <me>
+          <md>
             \sum_{i=1}^n f(c_i)\Delta x_i
-          </me>
+          </md>
           is a <term>Riemann sum</term> of <m>f</m> on <m>[a,b]</m>.
         </p>
       </statement>
@@ -1233,9 +1233,9 @@
       <solution>
         <p>
           Following <xref ref="idea_riemann"/>, we have
-          <me>
+          <md>
             \Delta x = \frac{3 - (-2)}{10} = 1/2  \text{ and }   x_i = (-2) + (1/2)(i) = i/2-2
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1243,9 +1243,9 @@
           we will also need <m>x_{i-1}</m> and <m>\ds \frac{x_{i-1}+x_{i}}2</m>.
           Since <m>x_i = i/2-2</m>,<m>x_{i-1} = (i-1)/2 - 2 = i/2 -5/2</m>.
           This gives
-          <me>
+          <md>
             \frac{x_{i-1}+x_{i}}2 = \frac{(i/2-5/2) + (i/2-2)}{2} = \frac{i-9/2}{2} = i/2 - 9/4
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1381,9 +1381,9 @@
           The result is an amazing, easy to use formula.
           To approximate the definite integral with 10 equally spaced subintervals and the Right Hand Rule,
           set <m>n=10</m> and compute
-          <me>
+          <md>
             \int_0^4 (4x-x^2)\, dx \approx \frac{32}{3}\left(1-\frac{1}{10^2}\right) = 10.56
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1404,9 +1404,9 @@
           (finding areas and manipulating expressions).
           Now we apply <em>calculus</em>.
           For any <em>finite</em> <m>n</m>, we know that
-          <me>
+          <md>
             \int_0^4 (4x-x^2)\, dx \approx \frac{32}{3}\left(1-\frac{1}{n^2}\right)
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1530,9 +1530,9 @@
 
         <p>
           Now find the exact answer using a limit:
-          <me>
+          <md>
             \int_{-1}^5 x^3\, dx = \lim_{n\to\infty} \left(156 + \frac{378}n + \frac{216}{n^2}\right) = 156
-          </me>.
+          </md>.
         </p>
       </solution>
       <solution component="video" vshift="7">
@@ -1555,9 +1555,9 @@
 <!--ToDo: add GeoGebra applet with adjustable number of rectangles to demonstrate limit process-->
     <p>
       The previous two examples demonstrated how an expression such as
-      <me>
+      <md>
         \sum_{i=1}^n f(x_{i})\Delta x
-      </me>
+      </md>
       can be rewritten as an expression explicitly involving <m>n</m>,
       such as <m>32/3(1-1/n^2)</m>.
     </p>
@@ -1604,9 +1604,9 @@
       Recall the definition of a limit as <m>n\to\infty</m>:
       <m>\lim\limits_{n\to\infty}S_L(n) = K</m> if, given any <m>\varepsilon \gt 0</m>,
       there exists <m>N \gt 0</m> such that
-      <me>
+      <md>
         \abs{S_L(n)-K} \lt  \varepsilon  \text{ when }  n\geq N
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -1632,9 +1632,9 @@
       implies that the number <m>n</m> of subintervals in the partition is growing to infinity,
       as the largest subinterval length is becoming arbitrarily small.
       We then interpret the expression
-      <me>
+      <md>
         \lim_{\norm{\Delta x}\to 0}\sum_{i=1}^nf(c_i)\Delta x_i
-      </me>
+      </md>
       as <q>the limit of the sum of the areas of rectangles,
       where the width of each rectangle can be different but getting small,
       and the height of each rectangle is not necessarily determined by a particular rule.</q>

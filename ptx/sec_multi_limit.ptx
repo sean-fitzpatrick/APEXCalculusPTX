@@ -369,9 +369,9 @@
           except possibly at <m>P</m>, and let <m>L</m> be a real number.
           The <term>limit</term> of <m>f(x,y)</m> as <m>(x,y)</m> approaches
           <m>(x_0,y_0)</m> is <m>L</m>, denoted
-          <me>
+          <md>
             \lim\limits_{(x,y)\to (x_0,y_0)} f(x,y) = L
-          </me>,
+          </md>,
           means that given any <m>\varepsilon \gt 0</m>,
           there exists <m>\delta \gt 0</m> such that for all <m>(x,y)</m> in <m>S</m>,
           where <m>(x,y)\neq (x_0,y_0)</m>,
@@ -508,9 +508,9 @@
           <m>L</m> and <m>K</m> be real numbers,
           let <m>n</m> be a positive integer,
           and let <m>f</m> and <m>g</m> be functions with the following limits:
-          <me>
+          <md>
             \lim_{(x,y)\to (x_0,y_0)}f(x,y) = L  \textit{ and } \lim_{(x,y)\to (x_0,y_0)} g(x,y) = K
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -622,9 +622,9 @@
 
     <p>
       When dealing with functions of a single variable we also considered one-sided limits and stated
-      <me>
+      <md>
         \lim_{x\to c}f(x) = L \text{ if, and only if, }  \lim_{x\to c^+}f(x) =L \textbf{ and} \lim_{x\to c^-}f(x) =L
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -864,17 +864,17 @@
           <m>\lim\limits_{(x,y)\to (0,0)} \cos(y)</m> and <m>\lim\limits_{(x,y)\to(0,0)} \frac{\sin(x) }x</m>.
           The first limit does not contain <m>x</m>,
           and since <m>\cos(y)</m> is continuous,
-          <me>
+          <md>
             \lim\limits_{(x,y)\to (0,0)} \cos(y) =\lim_{y\to 0} \cos(y) = \cos(0) = 1
-          </me>.
+          </md>.
         </p>
 
         <p>
           The second limit does not contain <m>y</m>.
           By <xref ref="thm_special_limits"/> we can say
-          <me>
+          <md>
             \lim_{(x,y)\to (0,0)} \frac{\sin(x) }{x} = \lim_{x\to 0} \frac{\sin(x) }{x} = 1
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1084,9 +1084,9 @@
               <p>
                 An <em>open ball</em> in <m>\mathbb{R}^3</m> centered at
                 <m>(x_0,y_0,z_0)</m> with radius <m>r</m> is the set of all points <m>(x,y,z)</m> such that
-                <me>
+                <md>
                   \sqrt{(x-x_0)^2+(y-y_0)^2+(z-z_0)^2} = r
-                </me>.
+                </md>.
                 <idx><h>multivariable function</h><h>limit</h></idx>
                 <idx><h>limit</h><h>of multivariable function</h></idx>
                 <idx><h>multivariable function</h><h>continuity</h></idx>
@@ -1102,9 +1102,9 @@
                 and let <m>f(x,y,z)</m> be a function of three variables defined on <m>D</m>,
                 except possibly at  <m>(x_0,y_0,z_0)</m>.
                 The <em>limit</em> of <m>f(x,y,z)</m> as <m>(x,y,z)</m> approaches <m>(x_0,y_0,z_0)</m> is <m>L</m>, denoted
-                <me>
+                <md>
                   \lim_{(x,y,z)\to (x_0,y_0,z_0)} f(x,y,z) = L
-                </me>,
+                </md>,
                 means that given any <m>\varepsilon \gt 0</m>,
                 there is a <m>\delta \gt 0</m> such that for all  <m>(x,y,z)</m> in <m>D</m>,
                 <m>(x,y,z)\neq(x_0,y_0,z_0)</m>,
@@ -1119,9 +1119,9 @@
                 Let <m>f(x,y,z)</m> be defined on a set <m>D</m> containing <m>(x_0,y_0,z_0)</m>.
                 We say <m>f</m> is <em>continuous</em>
                 at <m>(x_0,y_0,z_0)</m> if
-                <me>
+                <md>
                   \lim\limits_{(x,y,z)\to (x_0,y_0,z_0)} f(x,y,z) = f(x_0,y_0,z_0)
-                </me>.
+                </md>.
                 If <m>f</m> is continuous at all points in <m>D</m>,
                 we say <m>f</m> is <em>continuous on <m>D</m></em>.
               </p>
@@ -1136,9 +1136,9 @@
       <xref ref="thm_multi_continuous_prop"/>
       also applies to function of three or more variables,
       allowing us to say that the function
-      <me>
+      <md>
         f(x,y,z) = \frac{e^{x^2+y}\sqrt{y^2+z^2+3}}{\sin(xyz)+5}
-      </me>
+      </md>
       is continuous everywhere.
     </p>
 
@@ -1863,9 +1863,9 @@
                     <li>
                       <p>
                         Along <m>y=x^2</m>, the limit is:
-                        <me>
+                        <md>
                           \lim_{(x,y)\to(0,0)} \frac{\sin(x^2)}{y} =  \lim_{x\to 0} \frac{\sin(x^2)}{x^2}
-                        </me>.
+                        </md>.
                         This can be evaluated with L'Hospital's Rule or from known limits; it is 1.
                       </p>
                     </li>

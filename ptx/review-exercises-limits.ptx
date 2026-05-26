@@ -332,9 +332,9 @@
               (whether slightly above or slightly below),
               that <m><var name="$f"/></m> is close to <m><var name="$l"/></m>.
               So
-              <me>
+              <md>
                 \lim_{x\to <var name="$a"/>^{+}}\left(<var name="$f"/>\right)=\lim_{x\to <var name="$a"/>^{-}}\left(<var name="$f"/>\right)=<var name="$l"/>
-              </me>.
+              </md>.
             </p>
           </solution>
         </webwork>

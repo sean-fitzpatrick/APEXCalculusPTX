@@ -184,9 +184,9 @@
     whereas the smaller,
     unshaded sector has area <m>\frac12r_1^2\Delta \theta</m>.
     The area of the shaded region is the difference of these areas:
-    <me>
+    <md>
       \Delta A_i = \frac12r_2^2\Delta\theta-\frac12r_1^2\Delta\theta = \frac12\big(r_2^2-r_1^2\big)\big(\Delta\theta\big) = \frac{r_2+r_1}{2}\big(r_2-r_1\big)\Delta\theta
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -202,17 +202,17 @@
     Finally, as <m>dr</m> is small,
     <m>r_2\approx r_1</m>, and so <m>(r_2+r_1)/2\approx r_1</m>.
     Thus, when <m>dr</m> and <m>d\theta</m> are small,
-    <me>
+    <md>
       \Delta A_i \approx r_i\, dr\, d\theta
-    </me>.
+    </md>.
   </p>
 
   <p>
     Taking a limit,
     where the number of subregions goes to infinity and both <m>r_2-r_1</m> and <m>\Delta\theta</m> go to 0, we get
-    <me>
+    <md>
       dA = r\, dr\, d\theta
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -235,9 +235,9 @@
       <m>\alpha\leq\theta\leq\beta</m> and <m>g_1(\theta)\leq r\leq g_2(\theta)</m>.
       Then
         <idx><h>double integral</h><h>in polar</h></idx>
-      <me>
+      <md>
         \iint_Rf(x,y)\, dA = \int_\alpha^\beta\int_{g_1(\theta)}^{g_2(\theta)} f\big(r\cos(\theta) ,r\sin(\theta) \big)\, r\, dr\, d\theta
-      </me>.
+      </md>.
     </p>
   </insight>
 
@@ -265,9 +265,9 @@
       <p>
         We replace <m>f(x,y)</m> with <m>f(r\cos(\theta) ,r\sin(\theta) )</m>.
         That means we make the following substitutions:
-        <me>
+        <md>
           4-x-2y  \Rightarrow  4-r\cos(\theta) -2r\sin(\theta)
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -681,9 +681,9 @@
         Thus, in polar, the bounds on <m>R</m> are <m>0\leq r\leq a</m>,
         <m>0\leq\theta\leq\pi/2</m>.
         The integrand is rewritten in polar as
-        <me>
+        <md>
           \frac{1}{x^2+y^2+1} \Rightarrow \frac{1}{r^2\cos^2(\theta) +r^2\sin^2(\theta) +1} = \frac1{r^2+1}
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -903,17 +903,17 @@
         This gives us our bounds of integration.
         The integrand is <m>z=1-x+0.1y</m>;
         converting to polar, we have that the volume <m>V</m> is:
-        <me>
+        <md>
           V = \iint_R f(x,y)\, dA = \int_0^\pi\int_0^{\cos(3\theta)}\big(1-r\cos(\theta) +0.1r\sin(\theta) \big)r\, dr\, d\theta
-        </me>.
+        </md>.
       </p>
 
       <p>
         Distributing the <m>r</m>, the inner integral is easy to evaluate,
         leading to
-        <me>
+        <md>
           \int_0^\pi \left(\frac12\cos^2(3\theta)-\frac13\cos^3(3\theta)\cos(\theta) +\frac{0.1}3\cos^3(3\theta)\sin(\theta) \right)\, d\theta
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -943,9 +943,9 @@
         such as WolframAlpha<registered/>,
         to compute the numeric answer.
         Such technology gives:
-        <me>
+        <md>
           \int_0^\pi\int_0^{\cos(3\theta)}\big(1-r\cos(\theta) +0.1r\sin(\theta) \big)r\, dr\, d\theta = \frac{\pi}{4} \approx 0.785u^3
-        </me>.
+        </md>.
       </p>
 
       <p>

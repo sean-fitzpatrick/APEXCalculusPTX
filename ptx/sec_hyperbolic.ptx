@@ -702,9 +702,9 @@
                 We employ substitution, with <m>u = 7t-3</m> and <m>du = 7dt</m>.
                 Applying <xref ref="idea_linearsub" text="global">Key Ideas</xref>
                 and <xref ref="idea_hyperbolic_identities" text="global"/> we have:
-                <me>
+                <md>
                   \int \sech^2(7t-3)\,dt = \frac17\tanh(7t-3) + C
-                </me>.
+                </md>.
               </p>
             </li>
 
@@ -1239,9 +1239,9 @@
             <li>
               <p>
                 Applying <xref ref="idea_hyperbolic_inverse_derivatives"/> with the Chain Rule gives:
-                <me>
+                <md>
                   \frac{d}{dx}\left[\cosh^{-1}\left(\frac{3x-2}5\right)\right] = \frac{1}{\sqrt{\left(\frac{3x-2}5\right)^2-1}}\cdot\frac35
-                </me>.
+                </md>.
               </p>
             </li>
 
@@ -1252,14 +1252,14 @@
                 The second integral can be solved with a direct application of item #3 from <xref ref="idea_hyperbolic_inverse_integrals"/>,
                 with <m>a=1</m>.
                 Thus
-                <mdn>
-                  <mrow number="no">\int \frac{1}{x^2-1}\, dx \amp = -\int \frac{1}{1-x^2}\, dx</mrow>
-                  <mrow number="no">\amp = \left\{\begin{array}{ccc} -\tanh^{-1}\left(x\right)+C \amp  \amp  x^2\lt 1 \\ \\
+                <md>
+                  <mrow>\int \frac{1}{x^2-1}\, dx \amp = -\int \frac{1}{1-x^2}\, dx</mrow>
+                  <mrow>\amp = \left\{\begin{array}{ccc} -\tanh^{-1}\left(x\right)+C \amp  \amp  x^2\lt 1 \\ \\
                   -\coth^{-1}\left(x\right)+C \amp  \amp  1\lt x^2
                   \end{array} \right.</mrow>
-                  <mrow number="no">\amp =-\frac12\ln\abs{\frac{x+1}{x-1}}+C</mrow>
-                  <mrow xml:id="eq_hf3">\amp =\frac12\ln\abs{\frac{x-1}{x+1}}+C</mrow>
-                </mdn>.
+                  <mrow>\amp =-\frac12\ln\abs{\frac{x+1}{x-1}}+C</mrow>
+                  <mrow number="yes" xml:id="eq_hf3">\amp =\frac12\ln\abs{\frac{x-1}{x+1}}+C</mrow>
+                </md>.
                 We should note that this exact problem was solved at the beginning of <xref ref="sec_partial_fraction"/>.
                 In that example the answer was given as <m>\frac12\ln\abs{x-1}-\frac12\ln\abs{x+1}+C</m>.
                 Note that this is equivalent to the answer given in <xref ref="eq_hf3">Equation</xref>,

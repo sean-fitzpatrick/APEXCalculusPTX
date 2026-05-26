@@ -196,9 +196,9 @@
       We partition <m>[a,b]</m> into <m>n</m> equally spaced subintervals,
       each of length <m>\ds\dx = \frac{b-a}{n}</m>.
       The endpoints of these subintervals are labeled as
-      <me>
+      <md>
         x_0=a,\,x_1 = a+\dx,\,x_2 = a+ 2\dx,\,\ldots,\,x_i = a+i\dx,\,\ldots,\,x_{n} = b
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -219,9 +219,9 @@
         <p>
           We begin by partitioning the interval <m>[0,1]</m> into 5 equally spaced intervals.
           We have <m>\dx = \frac{1-0}5 = 1/5=0.2</m>, so
-          <me>
+          <md>
             x_0 = 0,\,x_1 = 0.2,\,x_2 = 0.4,\,x_3 = 0.6,\,x_4 = 0.8,\,\text{ and } \,x_5 = 1
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -338,9 +338,9 @@
           we could use more rectangles,
           as we did in <xref ref="sec_riemann"/>.
           We could also average the Left and Right Hand Rule results together, giving
-          <me>
+          <md>
             \frac{0.8076 + 0.6812}{2} = 0.7444
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -360,9 +360,9 @@
       <solution>
         <p>
           We begin by finding <m>\dx</m>:
-          <me>
+          <md>
             \frac{b-a}{n} = \frac{\pi/2 - (-\pi/4)}{10} = \frac{3\pi}{40}\approx 0.2356
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -748,18 +748,18 @@
         <p>
           The leftmost trapezoid has legs of length <m>1</m> and <m>0.9607</m> and a height of 0.2.
           Thus, by our formula, the area of the leftmost trapezoid is:
-          <me>
+          <md>
             \frac{1+0.9608}{2}(0.2) = 0.1961
-          </me>.
+          </md>.
         </p>
 
         <p>
           Moving right,
           the next trapezoid has legs of length <m>0.9607</m> and <m>0.8521</m> and a height of 0.2.
           Thus its area is:
-          <me>
+          <md>
             \frac{0.9608+0.8521}2(0.2) = 0.1813
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -790,9 +790,9 @@
     <p>
       Now notice that all numbers except for the first and the last are added twice.
       Therefore we can write the summation even more concisely as
-      <me>
+      <md>
         \frac{0.2}{2}\Big[1 + 2(0.9608+0.8521+0.6977+0.5273) + 0.3679\Big]
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -1118,9 +1118,9 @@
       <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m> whose <m>x</m>-values are equally spaced and <m>x_0\lt x_1\lt x_2</m>.
       Let <m>f</m> be the quadratic function that goes through these three points.
       It is not hard to show that
-      <men xml:id="eq_simpsons">
+      <md number="yes" xml:id="eq_simpsons">
         \int_{x_0}^{x_2} f(x)\, dx = \frac{x_2-x_0}{6}\big(y_0+4y_1+y_2\big)
-      </men>.
+      </md>.
     </p>
 
     <!-- ToDo: Fix the aside to include this video (either embedded or as a link) -->
@@ -1142,17 +1142,17 @@
       Consider <xref ref="fig_numsimpsons"/>.
       A function <m>f</m> goes through the 3 points shown and the parabola <m>g</m> that also goes through those points is graphed with a dashed line.
       Using our equation from above, we know exactly that
-      <me>
+      <md>
         \int_1^3 g(x) \, dx = \frac{3-1}{6}\big(3+4(1)+2\big)= 3
-      </me>.
+      </md>.
     </p>
 
     <p>
       Since <m>g</m> is a good approximation for <m>f</m> on <m>[1,3]</m>,
       we can state that
-      <me>
+      <md>
         \int_1^3 f(x)\, dx \approx 3
-      </me>.
+      </md>.
     </p>
 
     <figure xml:id="fig_numsimpsons" vshift="0">
@@ -1208,9 +1208,9 @@
       We approximate <m>f</m> with <m>n/2</m> parabolic curves,
       using <xref ref="eq_simpsons">Equation</xref> to compute the area under these parabolas.
       Adding up these areas gives the formula:
-      <me>
+      <md>
         \int_a^b f(x) \, dx \approx \frac{\dx}3\Big[f(x_0)+4f(x_1)+2f(x_2)+4f(x_3)+\ldots+2f(x_{n-2})+4f(x_{n-1})+f(x_{n})\Big]
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -1399,9 +1399,9 @@
 
         <p>
           Simpson's Rule states that
-          <me>
+          <md>
             \int_0^1e^{-x^2}\, dx \approx \frac{0.25}{3}\Big[1+4(0.939)+2(0.779)+4(0.570) + 0.368\Big] = 0.7468\overline{3}
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1718,13 +1718,13 @@
 
                 If <m>f</m> has a continuous second derivative on <m>[a,b]</m> and <m>K</m> is any upper bound of
                 <m>\abs{\fpp(x)}</m> on <m>[a,b]</m>, then
-                <me>
+                <md>
                   \ds E_T \leq \frac{(b-a)^3}{12n^2}K
-                </me>.
+                </md>.
                 and
-                <me>
+                <md>
                   \ds E_M \leq \frac{(b-a)^3}{24n^2}K
-                </me>.
+                </md>.
               </p>
             </li>
 
@@ -1735,9 +1735,9 @@
 
                 If <m>f</m> has a continuous <m>4</m>th derivative on <m>[a,b]</m> and <m>K</m> is any upper bound of
                 <m>\abs{f^{(4)}(x)}</m> on <m>[a,b]</m>, then
-                <me>
+                <md>
                   E_S \leq \frac{(b-a)^5}{180n^4}K
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
@@ -1803,9 +1803,9 @@
 
         <p>
           We start by computing the <m>2</m>nd derivative of <m>f(x) = e^{-x^2}</m>:
-          <me>
+          <md>
             \fpp(x) = e^{-x^2}(4x^2-2)
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1847,9 +1847,9 @@
 
         <p>
           Thus we let <m>K=2</m> and apply the error formula from <xref ref="thm_numerical_error"/>.
-          <me>
+          <md>
             E_T \leq \frac{(1-0)^3}{12\cdot 5^2}\cdot 2 = 0.00\overline{6}
-          </me>.
+          </md>.
           Since the maximum error in the Midpoint rule is half the error in the Trapezoidal Rule,
           we can say:
           <m>E_M \leq 0.00\overline{3}</m>
@@ -1862,9 +1862,9 @@
           <xref ref="ex_num3"/> is within 0.0067 of the correct answer.
           Hence we know that the actual value is within
           <m>[0.7444-0.0067, 0.7444+0.0067]=[0.7377,0.7511].</m> So:
-          <me>
+          <md>
             0.7377 \leq \int_0^1e^{-x^2}\, dx \leq 0.7511
-          </me>
+          </md>
           But we can do better than this with the Midpoint Rule since its error is at most half of the error of the Trapezoidal Rule.
           Our error estimate formula state that our approximate of <m>0.7480</m> found in <xref ref="ex_num3_2"/>
           is within <m>0.0034</m> of the correct answer.
@@ -1883,9 +1883,9 @@
 
         <p>
           We start by computing the <m>4</m>th derivative of <m>f(x) = e^{-x^2}</m>:
-          <me>
+          <md>
             f^{(4)}(x) = e^{-x^2}(16x^4-48x^2+12)
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1893,9 +1893,9 @@
           shows a graph of <m>f^{(4)}(x)</m> on <m>[0,1]</m>.
           It is clear that the largest value of <m>f^{(4)}</m>, in absolute value, is 12.
           Thus we let <m>K=12</m> and apply the error formula from <xref ref="thm_numerical_error"/>.
-          <me>
+          <md>
             E_s =\leq \frac{(1-0)^5}{180\cdot 4^4}\cdot 12 = 0.00026
-          </me>.
+          </md>.
         </p>
 
         <figure xml:id="fig_num7b" vshift="2">
@@ -1936,9 +1936,9 @@
           <m>0.7468\overline{3}</m> found in <xref ref="ex_num5"/>
           is within <m>0.00026</m> of the correct answer,
           hence we know that the correct answer is in the interval <m>[0.74683-0.00026 , 0.74683 + 0.00026]=[0.74657,0.74709].</m> So:
-          <me>
+          <md>
             0.74657 \leq \int_0^1e^{-x^2}\, dx \leq 0.74709
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -2101,9 +2101,9 @@
           Since we start at time <m>t=0</m>, we have <m>a=0</m>.
           The final recorded time was <m>t=12</m> minutes, which is 1/5 of an hour.
           Thus we have
-          <me>
+          <md>
             \dx = \frac{b-a}{n} = \frac{1/5-0}{24} = \frac1{120};  \frac{\dx}{3} = \frac{1}{360}
-          </me>.
+          </md>.
         </p>
 
         <p>

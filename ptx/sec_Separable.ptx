@@ -26,9 +26,9 @@
       <statement>
         <p>
           A <term>separable differential equation</term> is one that can be written in the form
-          <me>
+          <md>
             \displaystyle n(y) \frac{dy}{dx} = m(x)
-          </me>,
+          </md>,
           where <m>n</m> is a function that depends only on the dependent variable <m>y</m>,
           and <m>m</m> is a function that depends only on the independent variable <m>x</m>.
           <idx><h>differential equation</h><h>separable</h></idx>
@@ -62,9 +62,9 @@
       not added
       (like <xref ref="item-not-sep" text="local">Item</xref> in <xref ref="list_nonseparable_examples" text="global">List</xref>).
       An alternate definition of a separable differential equation states that an equation is separable if it can be written in the form
-      <me>
+      <md>
         \frac{dy}{dx} = f(x)g(y)
-      </me>,
+      </md>,
       for some functions <m>f</m> and <m>g</m>.
     </p>
 
@@ -114,17 +114,17 @@
     <p>
           <idx><h>separation of variables</h></idx>
       Let's find a formal solution to the separable equation
-      <me>
+      <md>
         \displaystyle n(y) \frac{dy}{dx} = m(x)
-      </me>.
+      </md>.
     </p>
     <p>
       Since the functions on the left and right hand sides of the equation are equal,
       their antiderivatives should be equal up to an arbitrary constant of integration.
       That is
-      <me>
+      <md>
         \displaystyle \int n(y) \frac{dy}{dx}\,dx = \int m(x)\, dx + C
-      </me>.
+      </md>.
     </p>
     <p>
       Though the integral on the left may look a bit strange,
@@ -132,23 +132,23 @@
       Consider the substitution <m>u = y(x)</m>.
       The differential is <m>du = \displaystyle \frac{dy}{dx}\,dx</m>.
       Using this substitution, the above equation becomes
-      <me>
+      <md>
         \int n(u)\,du = \int m(x)\,dx + C
-      </me>.
+      </md>.
     </p>
     <p>
       Let <m>N(u)</m> and <m>M(x)</m> be antiderivatives of <m>n(u)</m> and <m>m(x)</m>,
       respectively.
       Then
-      <me>
+      <md>
         N(u) = M(x) + C
-      </me>.
+      </md>.
     </p>
     <p>
       Since <m>u = y(x)</m>, this is
-      <me>
+      <md>
         N(y) = M(x) + C
-      </me>.
+      </md>.
     </p>
     <p>
       This relationship between <m>y</m> and <m>x</m> is an implicit form of the solution to the differential equation.
@@ -161,9 +161,9 @@
       The informal way to solve a separable equation is to treat the derivative
       <m>\displaystyle \frac{dy}{dx}</m> as if it were a fraction.
       The separated form of the equation is
-      <me>
+      <md>
         n(y)\,dy = m(x)\, dx
-      </me>.
+      </md>.
     </p>
     <p>
       To solve, we integrate the left hand side with respect to <m>y</m> and the right hand side with respect to <m>x</m> and add a constant of integration.
@@ -185,9 +185,9 @@
           Using the informal solution method outlined above,
           we treat <m>\displaystyle \frac{dy}{dx}</m> as a fraction,
           and write the separated form of the differential equation as
-          <me>
+          <md>
             \frac{dy}{y} = x^2 dx
-          </me>.
+          </md>.
         </p>
 
         <aside vshift="-3">
@@ -201,17 +201,17 @@
 
         <p>
           Integrating the left hand side of the equation with respect to <m>y</m> and the right hand side of the equation with respect to <m>x</m> yields
-          <me>
+          <md>
             \ln \abs{y} = \frac{1}{3}x^3 + C
-          </me>.
+          </md>.
         </p>
         <p>
           This is an implicit form of the solution to the differential equation.
           Solving for <m>y</m> yields an explicit form for the solution.
           Exponentiating both sides, we have
-          <me>
+          <md>
             \abs{y} = e^{x^3/3 + C} = e^{x^3/3}e^C
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -259,9 +259,9 @@
           Finally, if we allow <m>A</m> to be zero,
           we recover the missing solution discussed above.
           The best way to express the general solution to our differential equation is
-          <me>
+          <md>
             y = Ae^{\frac{x^3}{3}}
-          </me>.
+          </md>.
         </p>
       </solution>
       <solution component="video" vshift="8">
@@ -276,9 +276,9 @@
       <statement>
         <p>
           Suppose you want to use separation of variables method to determine the general solution of the differential equation
-          <me>
+          <md>
             \frac{dq}{dt} - 3qt^2 = 2q
-          </me>.
+          </md>.
         </p>
         <p>
           Put the steps below in the order that best represents the solution to this problem.
@@ -331,9 +331,9 @@
       <solution>
         <p>
           We first put the differential equation in separated form
-          <me>
+          <md>
             y\sqrt{y^2-5}\,dy = \sin(x) \cos(x)\, dx
-          </me>.
+          </md>.
         </p>
         <p>
           The indefinite integral <m>\displaystyle \int y\sqrt{y^2-5}\,dy</m> requires the substitution <m>u = y^2-5</m>.
@@ -341,22 +341,22 @@
           The indefinite integral <m>\displaystyle \int \sin(x) \cos(x)\,dx</m> requires the substitution <m>u = \sin(x)</m>.
           Using this substitution yields the antiderivative <m>\displaystyle \frac{1}{2} \sin^2 x</m>.
           Thus, we have an implicit form of the solution to the differential equation given by
-          <me>
+          <md>
             \frac{1}{3} (y^2-5)^{3/2} = \frac{1}{2} \sin^2 x + C
-          </me>.
+          </md>.
         </p>
         <p>
           The initial condition says that <m>y</m> should be <m>-3</m> when <m>x</m> is <m>0</m>, or
-          <me>
+          <md>
             \frac{1}{3} ((-3)^2 - 5)^{3/2} = \frac{1}{2} \sin^2 0 + C
-          </me>.
+          </md>.
         </p>
         <p>
           Evaluating the line above, we find <m>C = 8/3</m>,
           yielding the particular solution to the initial value problem
-          <me>
+          <md>
             \frac{1}{3} (y^2-5)^{3/2} = \frac{1}{2} \sin^2 x + \frac{8}{3}
-          </me>.
+          </md>.
         </p>
       </solution>
       <solution component="video" vshift="3">
@@ -378,16 +378,16 @@
           values that make the right hand side of the equation identically zero.
           Thus, we need not worry about losing solutions during the separation of variables process.
           The separated form of the equation is given by
-          <me>
+          <md>
             ye^{-y}\,dy = (x^2+1)\,dx
-          </me>.
+          </md>.
         </p>
         <p>
           The antiderivative of the left hand side requires Integration by Parts.
           Evaluating both indefinite integrals yields the implicit solution
-          <me>
+          <md>
             -(y+1)e^{-y} = \frac{1}{3}x^3 + x + C
-          </me>.
+          </md>.
         </p>
         <p>
           Since we cannot solve for <m>y</m>,
@@ -457,43 +457,43 @@
           We start by making the observation that both <m>y=0</m> and <m>y = M</m> are constant solutions to the differential equation.
           We must check that these solutions are not lost during the separation of variables process.
           The separated form of the equation is
-          <me>
+          <md>
             \frac{1}{y \left(1-\displaystyle\frac{y}{M}\right)}\,dy = k\,dt
-          </me>.
+          </md>.
         </p>
         <p>
           The antiderivative of the left hand side of the equation can be found by making use of partial fractions.
           Using the techniques discussed in <xref ref="sec_partial_fraction"/>, we write
-          <me>
+          <md>
             \frac{1}{y\left(1-\frac{y}{M}\right)} = \frac{1}{y} + \frac{1}{M-y}
-          </me>.
+          </md>.
         </p>
         <p>
           Then an implicit form of the solution is given by
-          <me>
+          <md>
             \ln \abs{y} - \ln \abs{M-y} = kt + C
-          </me>.
+          </md>.
         </p>
         <p>
           Combining the logarithms,
-          <me>
+          <md>
             \ln \abs{\frac{y}{M-y}} = kt + C
-          </me>.
+          </md>.
         </p>
         <p>
           Similarly to <xref ref="ex_separable_DE"/>,
           we can write
-          <me>
+          <md>
             \frac{y}{M-y} = Ae^{kt}
-          </me>.
+          </md>.
         </p>
         <p>
           Letting <m>A</m> take on positive values or negative values incorporates both cases of the absolute value.
           This is another implicit form of the solution.
           Solving for <m>y</m> gives the explicit form
-          <me>
+          <md>
             y = \frac{M}{1 + be^{-kt}}
-          </me>,
+          </md>,
           where <m>b</m> is an arbitrary constant.
           Notice that <m>b=0</m> recovers the constant solution <m>y = M</m>.
           The constant solution <m>y=0</m> cannot be produced with a finite <m>b</m> value,

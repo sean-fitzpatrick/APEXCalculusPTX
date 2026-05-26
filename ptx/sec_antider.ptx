@@ -13,9 +13,9 @@
       is an equation that incorporates <m>y</m>, <m>x</m>,
       and the derivatives of <m>y</m>.
       For instance, a simple differential equation is:
-      <me>
+      <md>
         \yp = 2x
-      </me>.
+      </md>.
     </p>
     <p>
       Solving a differential equation amounts to finding a function <m>y</m>
@@ -56,9 +56,9 @@
         <p>
           The set of all antiderivatives of <m>f(x)</m> is the
           <term>indefinite integral of</term> <m>f</m>, denoted by
-          <me>
+          <md>
             \int f(x) \,dx
-          </me>.
+          </md>.
         </p>
       </statement>
     </definition>
@@ -104,9 +104,9 @@
           Let <m>F(x)</m> and <m>G(x)</m> be antiderivatives of a continuous
           function <m>f(x)</m> on an interval <m>I</m>.
           Then there exists a constant <m>C</m> such that, on <m>I</m>,
-          <me>
+          <md>
             G(x) = F(x) + C
-          </me>.
+          </md>.
         </p>
       </statement>
     </theorem>
@@ -117,9 +117,9 @@
       we know <em>all</em> antiderivatives of <m>f</m> on <m>I</m> have the form
       <m>F(x) + C</m> for some constant <m>C</m>.
       Using <xref ref="def_antider"/>, we can say that
-      <me>
+      <md>
         \int f(x) \,dx = F(x) + C
-      </me>.
+      </md>.
     </p>
     <p>
       Note that we are abusing notation somewhat:
@@ -240,9 +240,9 @@
           The indefinite integral of <m>\sin(x)</m> is thus <m>-\cos(x)</m>,
           plus a constant of integration.
           So:
-          <me>
+          <md>
             \int \sin(x) \,dx = -\cos(x) + C
-          </me>.
+          </md>.
         </p>
       </solution>
       <solution component="video" vshift="1">
@@ -260,9 +260,9 @@
       This process of <em>antidifferentiation</em>
       is really solving a <em>differential</em> question.
       The integral
-      <me>
+      <md>
         \int \sin(x) \,dx
-      </me>
+      </md>
       presents us with a differential, <m>dy = \sin(x) \, dx</m>.
       It is asking: <q>What is <m>y</m>?</q>
       We found lots of solutions,
@@ -270,9 +270,9 @@
     </p>
     <p>
       Letting <m>dy = \sin(x)\,dx</m>, rewrite
-      <me>
+      <md>
         \int \sin(x) \,dx  \text{ as }  \int\,dy
-      </me>.
+      </md>.
     </p>
     <p>
       This is asking:
@@ -328,17 +328,17 @@
         </p>
         <p>
           Our answer appears to be
-          <me>
+          <md>
             \int\left(3x^2+4x+5\right)\,dx = x^3+C_1+2x^2+C_2+5x+C_3
-          </me>.
+          </md>.
         </p>
         <p>
           We do not need three separate constants of integration;
           combine them as one constant,
           giving the final answer of
-          <me>
+          <md>
             \int\left(3x^2+4x+5\right)\,dx = x^3+2x^2+5x+C
-          </me>.
+          </md>.
         </p>
         <p>
           It is easy to verify our answer;
@@ -362,9 +362,9 @@
       We also see that taking the derivative of our answer returns the function
       in the integrand.
       Thus we can say that:
-      <me>
+      <md>
         \lzoo{x}{\int f(x)\,dx} = f(x)
-      </me>.
+      </md>.
     </p>
     <p>
       Differentiation <q>undoes</q> the work done by antidifferentiation.
@@ -445,9 +445,9 @@
       <ul>
         <li>
           <p>
-            <me>
+            <md>
               \int c\cdot f(x)\,dx = c\cdot \int f(x)\,dx
-            </me>
+            </md>
           </p>
           <p>
             This is the Constant Multiple Rule:
@@ -458,9 +458,9 @@
             just as we did when computing derivatives (<ie/>,
             <m>\lzoo{x}{3x^2}</m> is just as easy to compute as
             <m>\lzoo{x}{x^2}</m>). An example:
-            <me>
+            <md>
               \int 5\cos(x) \,dx = 5\cdot\int \cos(x) \,dx = 5\cdot (\sin(x) +C) = 5\sin(x) + C
-            </me>.
+            </md>.
             In the last step we can consider the constant as also being
             multiplied by 5, but
             <q>5 times a constant</q> is still a constant,
@@ -470,9 +470,9 @@
 
         <li>
           <p>
-            <me>
+            <md>
               \int \big(f(x)\pm g(x)\big)\,dx =\int f(x)\,dx\pm \int g(x)\,dx
-            </me>
+            </md>
           </p>
           <p>
             This is the Sum/Difference Rule:
@@ -498,9 +498,9 @@
 
         <li>
           <p>
-            <me>
+            <md>
               \int x^n\,dx =\frac{1}{n+1}x^{n+1}+ C\quad(n\neq -1)
-            </me>
+            </md>
           </p>
           <p>
             This is the Power Rule of indefinite integration.
@@ -551,9 +551,9 @@
 
         <li>
           <p>
-            <me>
+            <md>
               \int \frac{1}x\,dx = \ln\abs{x}+C
-            </me>
+            </md>
           </p>
           <p>
             Note that this rule uses the absolute value of <m>x</m>.
@@ -634,9 +634,9 @@
           Using the first piece of information,
           we know that <m>v(t)</m> is an antiderivative of <m>v'(t)=-32</m>.
           So we begin by finding the indefinite integral of <m>-32</m>:
-          <me>
+          <md>
             \int (-32)\,dt = -32t+C=v(t)
-          </me>.
+          </md>.
         </p>
         <p>
           Now we use the fact that <m>v(3)=-10</m> to find <m>C</m>:
@@ -659,9 +659,9 @@
         <p>
           When did the object begin moving down?
           Immediately after <m>v(t) = 0</m>:
-          <me>
+          <md>
             -32t+86 = 0  \implies  t = \frac{43}{16}  \approx 2.69\text{s}
-          </me>.
+          </md>.
         </p>
         <p>
           Recognize that we are able to determine quite a bit about the path of
@@ -706,9 +706,9 @@
           We now find <m>f(t)</m> by integrating again.
           We will use a different integration constant since we have already
           defined <m>C</m> to equal <m>3</m> above.
-          <me>
+          <md>
             f(t)=\int \fp(t) \,dt = \int (\sin(t) +3)\,dt = -\cos(t) + 3t + D
-          </me>.
+          </md>.
         </p>
         <p>
           We are given that <m>f(0) = 5</m>, so

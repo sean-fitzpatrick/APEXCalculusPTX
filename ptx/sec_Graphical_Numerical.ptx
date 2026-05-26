@@ -55,34 +55,34 @@
     </definition>
     <p>
       Let us return to the simple differential equation
-      <me>
+      <md>
         \yp = 2x
-      </me>.
+      </md>.
     </p>
     <p>
       To find a solution,
       we must find a function whose derivative is <m>2x</m>.
       In other words, we seek an antiderivative of <m>2x</m>.
       The function
-      <me>
+      <md>
         y = x^2
-      </me>
+      </md>
       is an antiderivative of <m>2x</m>,
       and solves the differential equation.
       So do the functions
-      <me>
+      <md>
         y = x^2 + 1
-      </me>
+      </md>
       and
-      <me>
+      <md>
         y = x^2 - 2346
-      </me>.
+      </md>.
     </p>
     <p>
       We call the function
-      <me>
+      <md>
         y = x^2 +  C
-      </me>,
+      </md>,
       with <m>C</m> an arbitrary constant of integration,
       the <em>general solution</em> to the differential equation.
       <idx><h>general solution</h><h>of a differential equation</h></idx>
@@ -178,13 +178,13 @@
       <introduction>
         <p>
           Consider the differential equation:
-          <me>
+          <md>
             \frac{dy}{dx} = 2xy - 6x,
-          </me>
+          </md>
           which has the general solution:
-          <me>
+          <md>
             y = c e^{x^2} + 3.
-          </me>
+          </md>
           Since the constant <m>c</m> can take any value, there are many possible solutions as seen by the green curves in the figure below. Notice, each green curve can be identified by where it crosses the <m>y</m>-axis (e.g., <m>y(0) = 2</m>). This point is called the initial condition and it leads to both <m>c</m> and the particular solution in blue.
         </p>
 
@@ -232,7 +232,7 @@
         <statement>
           <p>
             What is the initial condition for the particular solution
-            <me>y = 1.3e^{x^2} + 3</me>?
+            <md>y = 1.3e^{x^2} + 3</md>?
           </p>
         </statement>
         <choices randomize="yes">
@@ -335,22 +335,22 @@
           we can't compute the indefinite integral.
           Later sections will explore systematic ways to find analytic solutions to simple differential equations.
           For now, a bit of thought might let us guess the solution
-          <me>
+          <md>
             y = e^{2x}
-          </me>.
+          </md>.
         </p>
         <p>
           Notice that application of the chain rule yields <m>\yp = 2e^{2x} = 2y</m>.
           Another solution is given by
-          <me>
+          <md>
             y = -3e^{2x}
-          </me>.
+          </md>.
         </p>
         <p>
           In fact,
-          <me>
+          <md>
             y = Ce^{2x}
-          </me>,
+          </md>,
           where <m>C</m> is any constant,
           is the <em>general solution</em>
           to the differential equation because <m>\yp = 2Ce^{2x} = 2y</m>.
@@ -358,14 +358,14 @@
         <p>
           If we are provided with a single initial condition,
           say <m>y(0) = 3/2</m>, we can identify <m>C=3/2</m> so that
-          <me>
+          <md>
             y = \frac{3}{2}e^{2x}
-          </me>
+          </md>
           is the <em>particular solution</em>
           to the initial value problem
-          <me>
+          <md>
             \yp = 2y, \text{ with }  y(0) = \frac{3}{2}
-          </me>.
+          </md>.
         </p>
         <p>
           <xref ref="fig_general_particular"/>
@@ -436,9 +436,9 @@
           We seek a function whose second derivative is negative 9 multiplied by the original function.
           Both <m>\sin(3x)</m> and <m>\cos(3x)</m> have this feature.
           The general solution to the differential equation is given by
-          <me>
+          <md>
             y = C_1\sin(3x) + C_2\cos(3x)
-          </me>,
+          </md>,
           where <m>C_1</m> and <m>C_2</m> are arbitrary constants.
           To fully specify a particular solution,
           we require two additional conditions.
@@ -465,9 +465,9 @@
       <statement>
         <p>
           Which of the following is a solution to the differential equation
-          <me>
+          <md>
             \yp + \frac{y}{x} - \sqrt{y} = 0
-          </me>?
+          </md>?
         </p>
         <p>
           <ol marker="(a)">
@@ -532,9 +532,9 @@
                 Differentiating,
                 <m>\displaystyle \yp = -3Ce^{-3x} + \frac{\cos(x)}{2\sqrt{\sin(x)}}</m>.
                 Substituting into the differential equation,
-                <me>
+                <md>
                   -3Ce^{-3x} + \frac{\cos(x)}{2\sqrt{\sin(x)}} + \frac{C e^{-3x} + \sqrt{\sin(x)}}{x} - \sqrt{C e^{-3x} + \sqrt{\sin(x)}} \neq 0
-                </me>.
+                </md>.
               </p>
               <p>
                 The function <m>\displaystyle y = C e^{-3x} + \sqrt{\sin(x)}</m> is <em>not</em>
@@ -615,16 +615,16 @@
           Verifying the solution still involves differentiation,
           but we must take the derivatives implicitly.
           Differentiating, we have
-          <me>
+          <md>
             2x + 2y\yp = C\yp
-          </me>.
+          </md>.
           <idx><h>differential equation</h><h>implicit soution</h></idx>
         </p>
         <p>
           Solving for <m>\yp</m>, we have
-          <me>
+          <md>
             \yp = \frac{2x}{C-2y}
-          </me>.
+          </md>.
         </p>
         <p>
           From the solution,
@@ -702,9 +702,9 @@
     </figure>
     <p>
       Consider the first-order differential equation
-      <me>
+      <md>
         \yp = f(x,y)
-      </me>.
+      </md>.
     </p>
     <p>
       The function <m>f</m> could be any function of the two variables <m>x</m> and <m>y</m>.
@@ -1257,15 +1257,15 @@
 
     <p>
       Consider the first-order initial value problem
-      <me>
+      <md>
         \yp = f(x,y), \text{ with }  y(x_0) = y_0
-      </me>.
+      </md>.
     </p>
     <p>
       Using the definition of the derivative,
-      <me>
+      <md>
         \yp(x) = \lim_{h \to 0} \frac{y(x+h) - y(x)}{h}
-      </me>.
+      </md>.
     </p>
     <p>
       This notation can be confusing at first, but
@@ -1280,18 +1280,18 @@
       If we remove the limit but restrict <m>h</m> to be
       <q>small,</q>
       we have
-      <me>
+      <md>
         \yp(x) \approx \frac{y(x+h) - y(x)}{h}
-      </me>,
+      </md>,
       so that
-      <me>
+      <md>
         f(x,y) \approx \frac{y(x+h)-y(x)}{h}
-      </me>,
+      </md>,
       because <m>\yp = f(x,y)</m> according to the differential equation.
       Rearranging terms,
-      <me>
+      <md>
         y(x + h) \approx y(x) + h\,f(x,y)
-      </me>.
+      </md>.
     </p>
     <p>
       This statement says that if we know the solution (<m>y</m>-value) to the initial value problem for some given <m>x</m>-value,
@@ -1304,9 +1304,9 @@
       <title>Euler's Method</title>
       <p>
         Consider the initial value problem
-        <me>
+        <md>
           \yp = f(x,y) \text{ with }  y(x_0)=y_0
-        </me>.
+        </md>.
       </p>
       <p>
         Let <m>h</m> be a small positive number and <m>N</m> be an integer.
@@ -1314,18 +1314,18 @@
           <li>
             <p>
               For <m>i = 0, 1, 2, \ldots, N</m>, define
-              <me>
+              <md>
                 x_i = x_0 + ih
-              </me>.
+              </md>.
             </p>
           </li>
           <li>
             <p>
               The value <m>y_0</m> is given by the initial condition.
               For <m>i = 0, 1, 2, \ldots, N-1</m>, define
-              <me>
+              <md>
                 y_{i+1} = y_i + hf(x_i,y_i)
-              </me>.
+              </md>.
             </p>
           </li>
         </ol>
@@ -1606,9 +1606,9 @@
           (<m>t</m> in this case).
           This has no real effect on the application of Euler's method other than the fact that the function <m>f(t,y)</m> is really just a function of <m>y</m>.
           To take steps in the <m>y</m> variable, we use
-          <me>
+          <md>
             y_{i+1} = y_i + hf(t_i,y_i) = y_i + hy_i(1-y_i)
-          </me>.
+          </md>.
         </p>
         <p>
           Using <m>N=10</m> steps requires <m>\displaystyle h = \frac{4-0}{10} = 0.4</m>.
@@ -1833,9 +1833,9 @@
             <p>
               Given <m>y=x\sin(x)</m>, we find <m>\yp = \sin(x)+x\cos(x)</m>, using the product rule.
               Then, <m>\yp-x\cos(x) = \sin(x)</m>; on the other hand,
-              <me>
+              <md>
                 (x^2+1)\sin(x)-xy = x^2\sin(x)+\sin(x)-x^2\sin(x)=\sin(x)
-              </me>.
+              </md>.
               Finally, we check that <m>y(\pi) = \pi\sin(\pi)=0</m>.
             </p>
           </solution>
@@ -1868,9 +1868,9 @@
             <p>
               If <m>y=xe^x</m>, we find <m>\yp = e^x+xe^x</m>,
               and <m>\yp' = 2e^x+xe^x</m>. Therefore,
-              <me>
+              <md>
                 \yp' - 2\yp + y = 2e^x+xe^x -2e^x-2xe^x + xe^x = 0
-              </me>.
+              </md>.
               
             </p>
           </solution>
@@ -1917,9 +1917,9 @@
           <solution>
             <p>
               If <m>y(x^2+y)=C</m>, implicit differentiation gives us
-              <me>
+              <md>
                 \yp(x^2+y)+y(2x+\yp) = 2xy + 2y\yp +x^2\yp = 0
-              </me>,
+              </md>,
               so the differential equation is satisfied. When <m>x=1</m>, <m>y=2</m>,
               which gives <m>2(1+2)=C</m>, or <m>C=6</m>.
               

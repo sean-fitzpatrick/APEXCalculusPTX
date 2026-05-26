@@ -311,9 +311,9 @@
   <p>
     By breaking the solid into <m>n</m> cylindrical shells,
     we can approximate the volume of the solid as
-    <me>
+    <md>
       V \approx \sum_{i=1}^n 2\pi r_ih_i\dx_i
-    </me>,
+    </md>,
     where <m>r_i</m>, <m>h_i</m> and <m>\dx_i</m> are the radius,
     height and thickness of the <m>i</m>th shell,
     respectively.
@@ -434,9 +434,9 @@
       The volume of the solid is
           <idx><h>integration</h><h>volume!Shell Method</h></idx>
           <idx><h>Shell Method</h></idx>
-      <me>
+      <md>
         V = 2\pi\int_a^b r(x)h(x)\, dx
-      </me>.
+      </md>.
     </p>
   </insight>
 
@@ -1420,9 +1420,9 @@
         We leave it to the reader to verify that the outside radius function is
         <m>R(y) = \pi-\arcsin y</m> and the inside radius function is <m>r(y)=\arcsin y</m>.
         Thus the volume can be computed as
-        <me>
+        <md>
           \pi\int_0^1 \Big[ (\pi-\arcsin y)^2-(\arcsin y)^2\Big]\, dy
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -1540,7 +1540,7 @@
 		<statement>
 			<p>
 				The Shell Method states that the volume of a solid of revolution is
-				<me>V = 2\pi\int_a^b r(x)\ h(x)\ dx</me>.
+				<md>V = 2\pi\int_a^b r(x)\ h(x)\ dx</md>.
 				Match each component of this formula with its geometric meaning.
 			</p>
 			<sidebyside widths="32% 68%">
@@ -1577,7 +1577,7 @@
 		<statement>
 			<p>
 				Suppose the region bounded by
-				<me>y = x\ \text{and}\ y = x^2\ \text{for}\ 0 \le x \le 1</me>
+				<md>y = x\ \text{and}\ y = x^2\ \text{for}\ 0 \le x \le 1</md>
 				is revolved about the <m>y</m>-axis.
 			</p>
 			<p>
@@ -1612,7 +1612,7 @@
 				The region bounded by <m>y = x^2</m> and <m>y = 0</m> for
 				<m>0 \le x \le 2</m> is revolved about the line
 				<m>x = 3</m>.  A student sets up the following integral:
-				<me>V = 2\pi\int_0^2 x \cdot x^2\ dx = 2\pi\int_0^2 x^3\ dx.</me>
+				<md>V = 2\pi\int_0^2 x \cdot x^2\ dx = 2\pi\int_0^2 x^3\ dx.</md>
 				Which statement best identifies the error?
 			</p>
 		</statement>
@@ -1623,9 +1623,9 @@
 						The radius of each shell is the distance from the
 						shell to the axis <m>x = 3</m>, which is
 						<m>3 - x</m>, not <m>x</m>. <m>V</m> should be
-						<me>
+						<md>
 							V = 2\pi\int_0^2(3-x)\cdot x^2\ dx
-						</me>.
+						</md>.
 					</p>
 				</statement>
 				<feedback>
@@ -1635,9 +1635,9 @@
 						Because the axis is <m>x = 3</m>, this distance is 
 						<m>r(x) = 3 - x</m>. The height is still 
 						<m>h(x) = x^2</m>, giving
-						<me>
+						<md>
 							V = 2\pi\int_0^2 (3-x)\ x^2\ dx
-						</me>.
+						</md>.
 					</p>
 				</feedback>
 			</choice>
@@ -1646,9 +1646,9 @@
 					<p>
 						The limits of integration should run from <m>0</m>
 						to <m>3</m> to match the position of the axis. <m>V</m> should be
-						<me>
+						<md>
 							V = 2\pi\int_0^3 x^3\ dx
-						</me>.
+						</md>.
 					</p>
 				</statement>
 				<feedback>
@@ -1667,9 +1667,9 @@
 						The height of each shell should be <m>2 - x^2</m>
 						rather than <m>x^2</m>, because the height is
 						measured downward from <m>y = 2</m>. <m>V</m> should be
-						<me>
+						<md>
 							V = 2\pi\int_0^2 x\cdot(2-x^2)\ dx
-						</me>.
+						</md>.
 					</p>
 				</statement>
 				<feedback>
@@ -1687,9 +1687,9 @@
 						The factor <m>2\pi</m> should be replaced by
 						<m>\pi</m>, because the axis of rotation is a
 						vertical line rather than a horizontal one. <m>V</m> should be
-						<me>
+						<md>
 							V = \pi\int_0^2 x^3\ dx
-						</me>.
+						</md>.
 					</p>
 				</statement>
 				<feedback>

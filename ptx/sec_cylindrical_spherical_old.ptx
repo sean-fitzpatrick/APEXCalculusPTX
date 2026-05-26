@@ -130,10 +130,10 @@
     <p>
       We use the identity <m>z=z</m> along with the identities found in <xref ref="idea_polarconvert"/>
       to convert between the rectangular coordinate <m>(x,y,z)</m> and the cylindrical coordinate <m>(r,\theta,z)</m>, namely:
-      <me>
+      <md>
         \begin{array}{l} \text{ From rectangular to cylindrical: }  r=\sqrt{x^2+y^2}, \tan(\theta) = y/x \text{ and }  z=z;\\
          \text{ From cylindrical to rectangular: }   x=r\cos(\theta),  y=r\sin(\theta) \text{ and }  z=z. \end{array}
-      </me>
+      </md>
     </p>
 
     <aside vshift="-13">
@@ -406,9 +406,9 @@
           bounded in cylindrical coordinates by <m>\alpha \leq \theta \leq \beta</m>,
           <m>g_1(\theta)\leq r \leq g_2(\theta)</m> and <m>f_1(r,\theta) \leq z \leq f_2(r,\theta)</m>.
           Then <idx><h>integration</h><h>with cylindrical coordinates</h></idx>
-          <me>
+          <md>
             \iiint_D h(r,\theta,z)\, dV = \int_\alpha^\beta\int_{g_1(\theta)}^{g_2(\theta)}\int_{f_1(r,\theta)}^{f_2(r,\theta)}h(r,\theta,z) r\,dz\,dr\,d\theta
-          </me>.
+          </md>.
         </p>
       </statement>
     </theorem>
@@ -661,9 +661,9 @@
           we set <m>\delta = 1</m> and finding the mass is equivalent to finding the volume of the solid.
           We set up the triple integral to compute this but do not evaluate it;
           we leave it to the reader to confirm it evaluates to the same result found in <xref ref="ex_doublepol4"/>.
-          <me>
+          <md>
             M = \iiint_D\delta \, dV = \int_0^{\pi}\int_0^{\cos(3\theta)}\int_0^{1-r\cos(\theta)+0.1r\sin(\theta)} r\,dz\,dr\,d\theta = \frac{\pi}{4}
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1127,9 +1127,9 @@
       <m>\Delta\theta</m> and <m>\Delta\varphi</m>, respectively.
       This wedge is approximately a rectangular solid when the change in each coordinate is small,
       giving a volume of about
-      <me>
+      <md>
         \Delta V \approx \Delta\rho\ \times\ \rho\Delta\varphi\ \times\ \rho\sin(\varphi)\Delta\theta
-      </me>.
+      </md>.
     </p>
 
     <figure xml:id="fig_sphericalwedge" vshift="-2">
@@ -1175,9 +1175,9 @@
                 <p>
                   The spherical wedge that is depicted looks like a distorted rectangular box.
                   The dimensions of the box, based on the observations above, are
-                  <me>
+                  <md>
                     \Delta\rho\times\rho\Delta\varphi\times\rho\sin\varphi\Delta\theta
-                  </me>.                  
+                  </md>.                  
                 </p>
               </li>
             </ul>
@@ -1338,9 +1338,9 @@
       As the size of each of <m>\Delta\rho</m>,
       <m>\Delta\theta</m> and <m>\Delta\varphi</m> goes to zero,
       the number of wedges increases to infinity and the volume of <m>D</m> is more accurately approximated, giving
-      <me>
+      <md>
         dV = d\rho\ \times\ \rho\, d\varphi\ \times\ \rho\sin(\varphi)d\theta = \rho^2\sin(\varphi)\, d\rho\, d\varphi\, d\theta
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -1368,9 +1368,9 @@
           bounded in spherical coordinates by <m>\alpha_1 \leq \varphi \leq \alpha_2</m>,
           <m>\beta_1 \leq \theta \leq \beta_2</m> and <m>f_1(\varphi,\theta) \leq \rho \leq f_2(\varphi,\theta)</m>.
           Then <idx><h>integration</h><h>with spherical coordinates</h></idx>
-          <me>
+          <md>
             \iiint_D h(\rho,\varphi,\theta)\, dV = \int_{\beta_1}^{\beta_2}\int_{\alpha_1}^{\alpha_2}\int_{f_1(\varphi,\theta)}^{f_2(\varphi,\theta)} h(\rho,\varphi,\theta) \rho^2\sin(\varphi)\, d\rho\, d\varphi\, d\theta
-          </me>.
+          </md>.
         </p>
       </statement>
     </theorem>
@@ -2636,9 +2636,9 @@
             <p>
               In cylindrical coordinates, the density is <m>\delta(r,\theta,z) = r+1</m>.
               Thus mass is
-              <me>
+              <md>
                 \int_0^{2\pi}\int_0^2\int_0^4 (r+1)r\, dz\, dr\, d\theta = 112\pi/3
-              </me>.
+              </md>.
             </p>
           </solution>
         </exercise>
@@ -2654,9 +2654,9 @@
             <p>
               In cylindrical coordinates, the density is <m>\delta(r,\theta,z) = z</m>.
               Thus mass is
-              <me>
+              <md>
                 \int_0^{2\pi}\int_2^3\int_0^{10} zr\, dz\, dr\, d\theta = 250\pi
-              </me>.
+              </md>.
             </p>
           </solution>
         </exercise>
@@ -2672,9 +2672,9 @@
             <p>
               In cylindrical coordinates, the density is <m>\delta(r,\theta,z) = 1</m>.
               Thus mass is
-              <me>
+              <md>
                 \int_0^{\pi}\int_0^1\int_0^{4-r\sin(\theta)} r\, dz\, dr\, d\theta = 2\pi-2/3\approx 5.617
-              </me>.
+              </md>.
             </p>
           </solution>
         </exercise>
@@ -2691,9 +2691,9 @@
             <p>
               In cylindrical coordinates, the density is <m>\delta(r,\theta,z) = 1</m>.
               Thus mass is
-              <me>
+              <md>
                 \int_0^{2\pi}\int_0^1\int_{-\sqrt{1-r^2}}^{\sqrt{1-r^2}} r\, dz\, dr\, d\theta = 4\pi/3
-              </me>.
+              </md>.
             </p>
           </solution>
         </exercise>
@@ -2719,9 +2719,9 @@
             <p>
               In cylindrical coordinates, the density is <m>\delta(r,\theta,z) = r+1</m>.
               Thus mass is
-              <me>
+              <md>
                 M=\int_0^{2\pi}\int_0^2\int_0^4 (r+1)r\, dz\, dr\, d\theta = 112\pi/3
-              </me>.
+              </md>.
             </p>
 
             <p>
@@ -2743,9 +2743,9 @@
             <p>
               In cylindrical coordinates, the density is <m>\delta(r,\theta,z) = z</m>.
               Thus mass is
-              <me>
+              <md>
                 M=\int_0^{2\pi}\int_2^3\int_0^{10} zr\, dz\, dr\, d\theta = 250\pi
-              </me>.
+              </md>.
             </p>
 
             <p>
@@ -2767,9 +2767,9 @@
             <p>
               In cylindrical coordinates, the density is <m>\delta(r,\theta,z) = 1</m>.
               Thus mass is
-              <me>
+              <md>
                 \int_0^{\pi}\int_0^1\int_0^{4-r\sin(\theta)} r\, dz\, dr\, d\theta = 2\pi-2/3\approx 5.617
-              </me>.
+              </md>.
             </p>
 
             <p>
@@ -2792,9 +2792,9 @@
             <p>
               In cylindrical coordinates, the density is <m>\delta(r,\theta,z) = 1</m>.
               Thus mass is
-              <me>
+              <md>
                 \int_0^{2\pi}\int_0^1\int_{-\sqrt{1-r^2}}^{\sqrt{1-r^2}} r\, dz\, dr\, d\theta = 2\pi/3
-              </me>.
+              </md>.
             </p>
 
             <p>
@@ -2827,9 +2827,9 @@
               In spherical coordinates,
               the density is <m>\delta(\rho,\varphi,\theta) = 1</m>.
               Thus mass is
-              <me>
+              <md>
                 \int_0^{2\pi}\int_0^{\pi/2}\int_{0}^{1} \rho^2\sin(\varphi)\, d\rho\, d\varphi\, d\theta = 2\pi/3
-              </me>.
+              </md>.
             </p>
           </solution>
         </exercise>
@@ -2846,9 +2846,9 @@
               In spherical coordinates,
               the density is <m>\delta(\rho,\varphi,\theta) = \rho</m>.
               Thus mass is
-              <me>
+              <md>
                 \int_0^{2\pi}\int_0^{\pi}\int_{4}^{5} (\rho)\rho^2\sin(\varphi)\, d\rho\, d\varphi\, d\theta = 369\pi
-              </me>.
+              </md>.
             </p>
           </solution>
         </exercise>
@@ -2865,9 +2865,9 @@
               In spherical coordinates,
               the density is <m>\delta(\rho,\varphi,\theta) = \rho\cos(\varphi)</m>.
               Thus mass is
-              <me>
+              <md>
                 \int_0^{2\pi}\int_0^{\pi/4}\int_{0}^{1} \big(\rho\cos(\varphi)\big)\rho^2\sin(\varphi)\, d\rho\, d\varphi\, d\theta = \pi/8
-              </me>.
+              </md>.
             </p>
           </solution>
         </exercise>
@@ -2883,9 +2883,9 @@
               In spherical coordinates,
               the density is <m>\delta(\rho,\varphi,\theta) = \rho\cos(\varphi)</m>.
               Thus mass is
-              <me>
+              <md>
                 \int_0^{2\pi}\int_0^{\pi/4}\int_{0}^{\sec(\varphi)} \big(\rho\cos(\varphi)\big)\rho^2\sin(\varphi)\, d\rho\, d\varphi\, d\theta = \pi/4
-              </me>.
+              </md>.
             </p>
           </solution>
         </exercise>
@@ -2914,9 +2914,9 @@
               In spherical coordinates,
               the density is <m>\delta(\rho,\varphi,\theta) = 1</m>.
               Thus mass is
-              <me>
+              <md>
                 \int_0^{2\pi}\int_0^{\pi/2}\int_{0}^{1} \rho^2\sin(\varphi)\, d\rho\, d\varphi\, d\theta = 2\pi/3
-              </me>.
+              </md>.
             </p>
 
             <p>
@@ -2938,9 +2938,9 @@
               In spherical coordinates,
               the density is <m>\delta(\rho,\varphi,\theta) = \rho</m>.
               Thus mass is
-              <me>
+              <md>
                 \int_0^{2\pi}\int_0^{\pi}\int_{4}^{5} (\rho)\rho^2\sin(\varphi)\, d\rho\, d\varphi\, d\theta = 369\pi
-              </me>.
+              </md>.
             </p>
 
             <p>
@@ -2962,9 +2962,9 @@
               In spherical coordinates,
               the density is <m>\delta(\rho,\varphi,\theta) = \rho\cos(\varphi)</m>.
               Thus mass is
-              <me>
+              <md>
                 \int_0^{2\pi}\int_0^{\pi/4}\int_{0}^{1} \big(\rho\cos(\varphi)\big)\rho^2\sin(\varphi)\, d\rho\, d\varphi\, d\theta = \pi/8
-              </me>.
+              </md>.
             </p>
 
             <p>
@@ -2986,9 +2986,9 @@
               In spherical coordinates,
               the density is <m>\delta(\rho,\varphi,\theta) = \rho\cos(\varphi)</m>.
               Thus mass is
-              <me>
+              <md>
                 \int_0^{2\pi}\int_0^{\pi/4}\int_{0}^{\sec(\varphi)} \big(\rho\cos(\varphi)\big)\rho^2\sin(\varphi)\, d\rho\, d\varphi\, d\theta = \pi/4
-              </me>.
+              </md>.
             </p>
 
             <p>

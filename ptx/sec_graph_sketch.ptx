@@ -220,9 +220,9 @@
           <li>
             <p>
               We determine the end behavior using limits as <m>x</m> approaches <m>\pm \infty </m>.
-              <me>
+              <md>
                 \lim_{x\to -\infty} f(x) = -\infty \qquad \lim_{x\to \infty}f(x) = \infty
-              </me>.
+              </md>.
               We do not have any horizontal asymptotes.
             </p>
           </li>
@@ -467,9 +467,9 @@
               To find the critical values of <m>f</m>,
               we first find <m>\fp(x)</m>.
               Using the <xref ref="thm_QuotientRule" text="title"/>, we find
-              <me>
+              <md>
                 \fp(x) = \frac{-8x+4}{(x^2+x-6)^2} = \frac{-8x+4}{(x-3)^2(x+2)^2}
-              </me>.
+              </md>.
               We get <m>\fp(x) = 0</m> when <m>x = 1/2</m>,
                 and <m>\fp</m> is undefined when <m>x=-2,3</m>.
               Since <m>\fp</m>is undefined only when <m>f</m> is also undefined,
@@ -482,9 +482,9 @@
             <p>
               To find the possible points of inflection, we find <m>\fpp(x)</m>,
               again employing the <xref ref="thm_QuotientRule" text="title"/>:
-              <me>
+              <md>
                 \fpp(x) = \frac{24x^2-24x+56}{(x-3)^3(x+2)^3}
-              </me>.
+              </md>.
               We find that <m>\fpp(x)</m> is never <m>0</m>
               (setting the numerator equal to <m>0</m> and solving for <m>x</m>,
               we find the only roots to this quadratic are not real numbers)
@@ -759,9 +759,9 @@
             <p>
               We find the possible points of inflection by solving <m>\fpp(x) = 0</m> for <m>x</m> (again,
               there are no values of <m>x</m> for which <m>\fpp</m> is undefined.) We find
-              <me>
+              <md>
                 \fpp(x) = -\frac{30x^3+180x^2-240}{(x^2+2x+4)^3}
-              </me>.
+              </md>.
               The cubic in the numerator does not factor very <q>nicely.</q>
               We instead approximate the roots
               (using a <init>CAS</init>)

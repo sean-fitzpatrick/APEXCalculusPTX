@@ -283,9 +283,9 @@
       <p>
         We conclude that <m>f</m> is continuous everywhere except at integer values of <m>c</m>.
         So the intervals on which <m>f</m> is continuous are
-        <me>
+        <md>
           \ldots, (-2,-1), (-1,0), (0,1), (1,2), \ldots
-        </me>.
+        </md>.
         We could also say that <m>f</m> is continuous on all intervals of the form
         <m>(n,n+1)</m> where <m>n</m> is an integer.
       </p>
@@ -454,9 +454,9 @@
     as mentioned in that example.
     We can also revisit <xref ref="ex_contint2"/>
     and state that the floor function is continuous on the following half-open intervals
-    <me>
+    <md>
       \ldots, [-2,-1), [-1,0), [0,1), [1,2), \ldots
-    </me>.
+    </md>.
   </p>
 
   <figure xml:id="vid_limit_con_basic_ex" component="video" vshift="0">
@@ -555,9 +555,9 @@
             <p>
               The domain of <m>f(x) = \abs{x}</m> is <m>(-\infty,\infty)</m>.
               We can define the absolute value function as
-              <me>
+              <md>
                 f(x) = \begin{cases}-x \amp x\lt 0 \\ x \amp x\geq 0\end{cases}
-              </me>.
+              </md>.
               Each <q>piece</q> of this piecewise defined function is continuous on all of its domain,
               giving that <m>f</m> is continuous on
               <m>(-\infty,0)</m> and <m>[0,\infty)</m>.
@@ -863,9 +863,9 @@
               states that <m>f(x) = \tan(x)</m> is continuous <em>on its domain</em>.
               Its domain includes all real numbers except odd multiples of <m>\pi/2</m>.
               Thus the intervals on which <m>f(x) = \tan(x)</m> is continuous are
-              <me>
+              <md>
                 \ldots \left(-\frac{3\pi}{2},-\frac{\pi}2\right),\ \left(-\frac{\pi}2,\frac{\pi}2\right),\ \left(\frac{\pi}2,\frac{3\pi}2\right),\ldots,
-              </me>.
+              </md>.
             </p>
           </li>
           <li>
@@ -1440,9 +1440,9 @@
           Notice that in the 12th iteration we have the endpoints of the interval each starting with <m>0.739</m>.
           Thus we have narrowed the zero down to an accuracy of the first three places after the decimal.
           Using a computer, we have
-          <me>
+          <md>
             f(0.7390) = -0.00014, f(0.7391) = 0.000024
-          </me>.
+          </md>.
         </p>
 
         <p>

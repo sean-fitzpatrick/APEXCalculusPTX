@@ -22,9 +22,9 @@
     <p>
       Now consider this: What is <m>\int (20x+30)(x^2+3x-5)^9\, dx</m>?
       We have the answer in front of us;
-      <me>
+      <md>
         \int (20x+30)(x^2+3x-5)^9\, dx = (x^2+3x-5)^{10}+C
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -49,17 +49,17 @@
       we do so through a substitution.
       Let <m>u=x^2+3x-5</m>.
       Thus
-      <me>
+      <md>
         (x^2+3x-5)^9 = u^9
-      </me>.
+      </md>.
     </p>
 
     <p>
       We have established <m>u</m> as a function of <m>x</m>,
       so now consider the differential of <m>u</m>:
-      <me>
+      <md>
         du = (2x+3)dx
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -92,16 +92,16 @@
       <q>undoes</q> the Chain Rule.
       Specifically,
       let <m>F(x)</m> and <m>g(x)</m> be differentiable functions and consider the derivative of their composition:
-      <me>
+      <md>
         \frac{d}{dx}\Big(F\big(g(x)\big)\Big) = \Fp(g(x))\gp(x)
-      </me>.
+      </md>.
     </p>
 
     <p>
       Thus
-      <me>
+      <md>
         \int \Fp(g(x))\gp(x)\, dx = F(g(x)) + C
-      </me>.
+      </md>.
     </p>
   </introduction>
 
@@ -113,16 +113,16 @@
       Integration by substitution works by recognizing the <q>inside</q>
       function <m>g(x)</m> and replacing it with a variable.
       By setting <m>u=g(x)</m>, we can rewrite the derivative as
-      <me>
+      <md>
         \frac{d}{dx}\Big(F\big(u\big)\Big) = \Fp(u)u'
-      </me>.
+      </md>.
     </p>
 
     <p>
       Since <m>du = \gp(x)dx</m>, we can rewrite the above integral as
-      <me>
+      <md>
         \int \Fp(g(x))\gp(x)\, dx = \int \Fp(u) du = F(u)+C = F(g(x))+ C
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -136,16 +136,16 @@
           Let <m>F</m> and <m>g</m> be differentiable functions,
           where the range of <m>g</m> is an interval <m>I</m> contained in the domain of <m>F</m>.
           Then <idx><h>integration</h><h>by substitution</h></idx>
-          <me>
+          <md>
             \int \Fp(g(x))\gp(x)\, dx = F(g(x)) + C
-          </me>.
+          </md>.
         </p>
 
         <p>
           If <m>u = g(x)</m>, then <m>du = \gp(x)dx</m> and
-          <me>
+          <md>
             \int \Fp(g(x))\gp(x)\, dx = \int \Fp(u)\, du = F(u)+C = F(g(x))+C
-          </me>.
+          </md>.
         </p>
       </statement>
     </theorem>
@@ -198,9 +198,9 @@
           (Recall that multiplication is commutative,
           so the <m>x</m> does not physically have to be next to <m>dx</m> for there to be an <m>x\,dx</m> term.)
           We can divide both sides of the <m>du</m> expression by 2:
-          <me>
+          <md>
             du = 2x\,dx \quad \Rightarrow \quad  \frac12du = x\,dx
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -264,9 +264,9 @@
         where <m>a\neq 0</m> and <m>b</m> are constants.
         Letting <m>u = ax+b</m> gives
         <m>du = a\cdot dx</m>, leading to the result
-        <me>
+        <md>
           \int \Fp(ax+b)\, dx = \frac{1}{a}F(ax+b) + C
-        </me>.
+        </md>.
       </p>
     </insight>
 
@@ -410,9 +410,9 @@
           Then <m>du = dx</m>,
           giving what seems initially to be a simple substitution.
           But at this stage, we have:
-          <me>
+          <md>
             \int x\sqrt{x+3}\, dx = \int x\sqrt{u}\, du
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -566,9 +566,9 @@
           multiply the integrand by <q>1</q>
           so that we see how to integrate more clearly.
           In this case, we write <q>1</q> as
-          <me>
+          <md>
             1 = \frac{\sec(x) + \tan(x) }{\sec(x) + \tan(x) }
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -663,9 +663,9 @@
         <p>
           The process we'll employ is to use a Power Reducing formula for <m>\cos^2(x)</m>,
           which states
-          <me>
+          <md>
             \cos^2(x) = \frac{1+\cos(2x)}{2}
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -728,9 +728,9 @@
           but note that when <m>x^2+2x+1</m> is divided into <m>x^3+4x^2+8x+5</m>,
           it goes in <m>x+2</m> times with a remainder of <m>3x+3</m>.
           Thus
-          <me>
+          <md>
             \frac{x^3+4x^2+8x+5}{x^2+2x+1} = x+2 + \frac{3x+3}{x^2+2x+1}
-          </me>.
+          </md>.
         </p>
         <!--TODO: aside with link to long division reference-->
         <p>
@@ -773,9 +773,9 @@
           We already know how to integrate this particular example.
           Rewrite <m>\sqrt{x}</m> as
           <m>x^\frac12</m> and simplify the fraction:
-          <me>
+          <md>
             \frac{x^2+2x+3}{x^{1/2}} = x^\frac32 + 2x^\frac12 + 3x^{-\frac12}
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -793,9 +793,9 @@
 
         <p>
           Let <m>u = \sqrt{x} = x^\frac12</m>; therefore
-          <me>
+          <md>
             du = \frac{1}{2\sqrt{x}}\, dx \quad  \Rightarrow \quad  2du = \frac{1}{\sqrt{x}}\, dx
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -824,16 +824,16 @@
     <title>Substitution and Inverse Trigonometric Functions</title>
     <p>
       When studying derivatives of inverse functions, we learned that
-      <me>
+      <md>
         \frac{d}{dx}\big(\tan^{-1}(x) \big) = \frac{1}{1+x^2}
-      </me>.
+      </md>.
     </p>
 
     <p>
       Applying the Chain Rule to this is not difficult; for instance,
-      <me>
+      <md>
         \frac{d}{dx}\big(\tan^{-1}(5x) \big) = \frac{5}{1+25x^2}
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -862,9 +862,9 @@
 
         <p>
           Thus
-          <me>
+          <md>
             \int\frac{1}{25+x^2}\, dx = \frac{1}{25}\int \frac{1}{1+\left(\frac{x}{5}\right)^2}\, dx
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1033,9 +1033,9 @@
         <p>
           This integral requires two different methods to evaluate it.
           We get to those methods by splitting up the integral into two terms:
-          <me>
+          <md>
             \int \frac{4-x}{\sqrt{16-x^2}}\, dx = \int \frac{4}{\sqrt{16-x^2}}\, dx - \int \frac{x}{\sqrt{16-x^2}}\, dx
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1062,9 +1062,9 @@
 
         <p>
           Combining these together, we have
-          <me>
+          <md>
             \int \frac{4-x}{\sqrt{16-x^2}}\, dx = 4\sin^{-1}\left(\frac{x}{4}\right) + \sqrt{16-x^2}+C
-          </me>.
+          </md>.
           As with all definite integrals,
           you can check your work by differentiation.
         </p>
@@ -1142,9 +1142,9 @@
 
           <idx><h>definite integral</h><h>and substitution</h></idx>
 
-          <me>
+          <md>
             \int_a^b \Fp\big(g(x)\big)\gp(x)\, dx = \int_{g(a)}^{g(b)} \Fp(u)\, du
-          </me>.
+          </md>.
         </p>
       </statement>
     </theorem>

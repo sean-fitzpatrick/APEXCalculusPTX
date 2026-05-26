@@ -204,12 +204,12 @@
         <p>
           Thus the parametric equations of the line tangent to <m>f</m> at
           <m>(\pi/2,\pi/2)</m> in the directions of <m>x</m> and <m>y</m> are:
-          <me>
+          <md>
             \ell_x(t) = \left\{\begin{array}{l} x=\pi/2 + t\\ y=\pi/2 \\z=0
             \end{array} \right.  \text{ and }
             \ell_y(t) = \left\{\begin{array}{l} x=\pi/2 \\ y=\pi/2+t \\z=-t
             \end{array} \right.
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -365,17 +365,17 @@
           <m>\vec u = \la -1/\sqrt{2},1/\sqrt{2}\ra</m>.
           The directional derivative at
           <m>(\pi/2,\pi,2)</m> in the direction of <m>\vec u</m> is
-          <me>
+          <md>
             D_{\vec u\,}f(\pi/2,\pi,2) = \la 0,-1\ra \cdot \la -1/\sqrt{2},1/\sqrt 2\ra = -1/\sqrt 2
-          </me>.
+          </md>.
         </p>
 
         <p>
           Thus the directional tangent line is
-          <me>
+          <md>
             \ell_{\vec u}(t) = \left\{\begin{array}{l} x= \pi/2 -t/\sqrt{2}\\ y = \pi/2 + t/\sqrt{2} \\ z= -t/\sqrt{2}
             \end{array} \right.
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -399,9 +399,9 @@
           We need to compute directional derivatives,
           so we need <m>\nabla f</m>.
           We begin by computing partial derivatives.
-          <me>
+          <md>
             f_x = 4y-4x^3 \Rightarrow f_x(1,1) = 0; f_y = 4x-4y^3\Rightarrow f_y(1,1) = 0
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -411,10 +411,10 @@
           It does not matter what direction we choose;
           the directional derivative is always 0.
           Therefore
-          <me>
+          <md>
             \ell_{\vec u}(t) = \left\{\begin{array}{l} x= 1 +u_1t\\ y = 1+ u_2 t\\ z= 2
             \end{array} \right.
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -541,9 +541,9 @@
       The direction of the normal line is orthogonal to <m>\vec d_x</m> and <m>\vec d_y</m>,
       hence the direction is parallel to <m>\vec d_n = \vec d_x\times \vec d_y</m>.
       It turns out this cross product has a very simple form:
-      <me>
+      <md>
         \vec d_x\times \vec d_y = \la 1,0,f_x\ra \times \la 0,1,f_y\ra = \la -f_x,-f_y,1\ra
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -557,9 +557,9 @@
       <statement>
         <p>
           Let <m>z=f(x,y)</m> be differentiable on a set <m>S</m> containing <m>(x_0,y_0)</m> where
-          <me>
+          <md>
             a = f_x(x_0,y_0)  \text{ and }  b=f_y(x_0,y_0)
-          </me>
+          </md>
           are defined.
               <idx><h>normal line</h></idx>
               <idx><h>orthogonal</h></idx>
@@ -587,10 +587,10 @@
 
     <p>
       Thus the parametric equations of the normal line to a surface <m>z=f(x,y)</m> at <m>\big(x_0,y_0,f(x_0,y_0)\big)</m> is:
-      <me>
+      <md>
         \ell_{n}(t) = \left\{\begin{array}{l} x= x_0+at\\ y = y_0 + bt \\ z = f(x_0,y_0) - t
         \end{array} \right.
-      </me>.
+      </md>.
     </p>
 
     <example xml:id="ex_tpl3">
@@ -608,10 +608,10 @@
           following <xref ref="def_normal_line_space"/>,
           to be <m>\vec n=\la 0,-2,-1\ra</m>.
           The line with this direction going through the point <m>(0,1,1)</m> is
-          <me>
+          <md>
             \ell_n(t) = \left\{\begin{array}{l} x=0\\y=-2t+1\\z=-t+1
             \end{array} \right. \text{ or }  \ell_n(t)=\la 0,-2,-1\ra t+\la 0,1,1\ra
-          </me>.
+          </md>.
         </p>
 
         <figure xml:id="fig_tpl3" vshift="0">
@@ -747,9 +747,9 @@
 
         <p>
           In each equation, we can solve for <m>c</m>:
-          <me>
+          <md>
             c = \frac{-2x}{2-x} = \frac{-2y}{2-y} = \frac{-1}{x^2+y^2}
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -770,9 +770,9 @@
           We find that <m>x= 0.689</m>,
           hence <m>P = (0.689,0.689, 1.051)</m>.
           We find the distance from <m>Q</m> to the graph of <m>f</m> is
-          <me>
+          <md>
             \norm{\overrightarrow{PQ}} = \sqrt{(2-0.689)^2 +(2-0.689)^2+(2-1.051)^2} = 2.083
-          </me>.
+          </md>.
         </p>
       </solution>
     </example>
@@ -805,16 +805,16 @@
           The vector <m>\vec n=\la 1,-2,-1\ra</m> is orthogonal to <m>f</m> at <m>P</m>.
           For reasons that will become more clear in a moment,
           we find the unit vector in the direction of <m>\vec n</m>:
-          <me>
+          <md>
             \vec u = \frac{\vec n}{\vnorm n} = \la 1/\sqrt{6},-2/\sqrt{6},-1/\sqrt{6}\ra \approx \la 0.408,-0.816,-0.408\ra
-          </me>.
+          </md>.
         </p>
 
         <p>
           Thus a the normal line to <m>f</m> at <m>P</m> can be written as
-          <me>
+          <md>
             \ell_n(t) = \la 2,1,4\ra + t\la  0.408,-0.816,-0.408 \ra
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -943,9 +943,9 @@
           The standard form of this plane is
               <idx><h>tangent plane</h></idx>
               <idx><h>planes</h><h>tangent</h></idx>
-          <me>
+          <md>
             a(x-x_0) + b(y-y_0) - \big(z-f(x_0,y_0)\big) = 0
-          </me>.
+          </md>.
         </p>
       </statement>
     </definition>
@@ -962,9 +962,9 @@
           Note that this is the same surface and point used in <xref ref="ex_tpl3"/>.
           There we found <m>\vec n = \la 0,-2,-1\ra</m> and <m>P = (0,1,1)</m>.
           Therefore the equation of the tangent plane is
-          <me>
+          <md>
             -2(y-1)-(z-1)=0
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1064,9 +1064,9 @@
           Knowing the partial derivatives at <m>(3,-1)</m> allows us to form the normal vector to the tangent plane,
           <m>\vec n = \la 2,-1/2,-1\ra</m>.
           Thus the equation of the tangent line to <m>f</m> at <m>P</m> is:
-          <men xml:id="eq_tpl7">
+          <md number="yes" xml:id="eq_tpl7">
             2(x-3)-1/2(y+1) - (z-4) = 0  \Rightarrow  z = 2(x-3)-1/2(y+1)+4
-          </men>.
+          </md>.
         </p>
 
         <p>
@@ -1078,9 +1078,9 @@
         <p>
           This is not a new method of approximation.
           Compare the right hand expression for <m>z</m> in <xref ref="eq_tpl7">Equation</xref> to the total differential:
-          <me>
+          <md>
             dz = f_xdx + f_ydy  \text{ and }   z = \underbrace{\underbrace{2}_{f_x}\underbrace{(x-3)}_{dx}+\underbrace{-1/2}_{f_y}\underbrace{(y+1)}_{dy}}_{dz}+4
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1123,9 +1123,9 @@
             <li>
               <p>
                 The <term>gradient</term> of <m>F</m> at <m>(x_0,y_0,z_0)</m> is
-                <me>
+                <md>
                   \nabla F(x_0,y_0,z_0) = \la f_x(x_0,y_0,z_0),f_y(x_0,y_0,z_0),f_z(x_0,y_0,z_0)\ra
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
@@ -1192,9 +1192,9 @@
           At <m>P</m>,
           the gradient is <m>\nabla F(1,2,1) = \la 1/6, 2/3, 1/2\ra</m>.
           Thus the equation of the plane tangent to the ellipsoid at <m>P</m> is
-          <me>
+          <md>
             \frac 16(x-1) + \frac23(y-2) + \frac 12(z-1) = 0
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1288,22 +1288,22 @@
       recall the method of implicit differentiation given in <xref ref="subsec-implicit-diff"/>.
       A level surface <m>f(x,y,z)=0</m> can be viewed as defining <m>z=g(x,y)</m> implicitly.
       We found that the partial derivatives of <m>z</m> with respect to <m>x</m> and <m>y</m> are then given by
-      <me>
+      <md>
         \plz{z}{x} = g_x(x,y) = -\frac{f_x(x,y,z)}{f_z(x,y,z)}\quad \plz{z}{y} = g_y(x,y) = -\frac{f_y(x,y,z)}{f_z(x,y,z)}
-      </me>.
+      </md>.
       If we plug these values into the tangent plane equation
-      <me>
+      <md>
         z = g(a,b)+g_x(a,b)(x-a)+g_y(a,b)(y-b)
-      </me>
+      </md>
       we get, with <m>c=g(a,b)</m>,
-      <me>
+      <md>
         z = c - \frac{f_x(a,b,c)}{f_z(a,b,c)}(x-a)-\frac{f_y(a,b,c)}{f_z(a,b,c)}(y-b)
-      </me>.
+      </md>.
       If we move everything to the left-hand side of the equation and multiply through by <m>f_z(a,b,c)</m>,
       we get
-      <me>
+      <md>
         f_x(a,b,c)(x-a)+f_y(a,b,c)(y-b)+f_z(a,b,c)(z-c)=0
-      </me>,
+      </md>,
       which is the equation of a plane with normal vector <m>\nabla f(a,b,c)</m>.
     </p>
 
@@ -1327,9 +1327,9 @@
         </p>
         <p>
           The equation of the tangent plane is therefore
-          <me>
+          <md>
             -1(x-3)+6y+3(z-1)=0
-          </me>.
+          </md>.
           Note that solving for <m>z</m> gives <m>z=1+\frac13(x-3)-2y</m>,
           which is the same result as <xref ref="ex_mchain6"/>.
         </p>

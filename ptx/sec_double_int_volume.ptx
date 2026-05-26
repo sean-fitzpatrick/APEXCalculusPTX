@@ -11,9 +11,9 @@
     height <m>f(c_i)</m>, and hence with area <m>f(c_i)\dx_i</m>.
     Summing all the rectangle's areas gave an approximation of the definite integral,
     and <xref ref="thm_riemann_sum"/> stated that
-    <me>
+    <md>
       \int_a^bf(x)\, dx = \lim_{\norm{\Delta x}\to 0}\sum f(c_i)\dx_i
-    </me>,
+    </md>,
     connecting the area under the curve with sums of the areas of rectangles.
   </p>
 
@@ -313,9 +313,9 @@
     For each subregion <m>R_i</m> used to approximate <m>R</m>,
     create the rectangular solid with base area <m>\dx\dy</m> and height <m>f(x_i,y_i)</m>.
     The sum of all rectangular solids is
-    <me>
+    <md>
       \ds \sum_{i=1}^n f(x_i,y_i)\dx\dy
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -354,16 +354,16 @@
       then add these totals together
       (another sum),
       as in
-      <me>
+      <md>
         \sum_{j=1}^n\sum_{i=1}^mf(x_i,y_j)\Delta x_i\Delta y_j
-      </me>.
+      </md>.
     </p>
 
     <p>
       One can rewrite this as
-      <me>
+      <md>
         \sum_{j=1}^n\left(\sum_{i=1}^mf(x_i,y_j)\Delta x_i\right)\Delta y_j
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -383,9 +383,9 @@
         bounded region <m>R</m> in the <m>xy</m>-plane.
         The <term>signed volume</term> <m>V</m> under <m>f</m> over <m>R</m> is denoted by the
         <term>double integral</term>
-        <me>
+        <md>
           V = \iint_R f(x,y)\, dA
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -395,9 +395,9 @@
             <idx><h>iterated integration</h></idx>
             <idx><h>signed volume</h></idx>
             <idx><h>volume</h></idx>
-        <me>
+        <md>
           \iint_R f(x,y)\, dA=\iint_R f(x,y)\, dx\, dy=\iint_R f(x,y)\, dy\, dx
-        </me>.
+        </md>.
       </p>
     </statement>
   </definition>
@@ -419,9 +419,9 @@
       <p>
         Let <m>z=f(x,y)</m> be a continuous function defined over a closed , bounded region <m>R</m> in the <m>xy</m>-plane.
         Then the signed volume <m>V</m> under <m>f</m> over <m>R</m> is
-        <me>
+        <md>
           V = \iint_R f(x,y)\, dA = \lim_{\norm{\Delta A}\to 0}\sum_{i=1}^n f(x_i,y_i)\Delta A_i
-        </me>.
+        </md>.
       </p>
     </statement>
   </theorem>
@@ -451,9 +451,9 @@
     Fixing a particular <m>x</m> value,
     we can consider the area under <m>f</m> over <m>R</m> where <m>x</m> has that fixed value.
     That area can be found with a definite integral, namely
-    <me>
+    <md>
       A(x)=\int_{g_1(x)}^{g_2(x)} f(x,y)\, dy
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -555,9 +555,9 @@
   <p>
     As <m>A(x)</m> is a cross-sectional area function,
     we can find the signed volume <m>V</m> under <m>f</m> by integrating it:
-    <me>
+    <md>
       V = \int_a^b A(x)\, dx = \int_a^b\left(\int_{g_1(x)}^{g_2(x)} f(x,y)\, dy\right)dx = \int_a^b\int_{g_1(x)}^{g_2(x)} f(x,y)\, dy\, dx
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -589,9 +589,9 @@
             <p>
               If <m>R</m> is bounded by <m>a\leq x\leq b</m> and <m>g_1(x)\leq y\leq g_2(x)</m>,
               where <m>g_1</m> and <m>g_2</m> are continuous functions on <m>[a,b]</m>, then
-              <me>
+              <md>
                 \iint_R f(x,y)\, dA = \int_a^b\int_{g_1(x)}^{g_2(x)} f(x,y)\, dy\, dx
-              </me>.
+              </md>.
             </p>
           </li>
 
@@ -599,9 +599,9 @@
             <p>
               If <m>R</m> is bounded by <m>c\leq y\leq d</m> and <m>h_1(y)\leq x\leq h_2(y)</m>,
               where <m>h_1</m> and <m>h_2</m> are continuous functions on <m>[c,d]</m>, then
-              <me>
+              <md>
                 \iint_R f(x,y)\, dA = \int_c^d\int_{h_1(y)}^{h_2(y)} f(x,y)\, dx\, dy
-              </me>.
+              </md>.
             </p>
           </li>
         </ol>
@@ -957,9 +957,9 @@
               <m>R = R_1\bigcup R_2</m>
               (see <xref ref="fig_double_region"/>).
               Then
-              <me>
+              <md>
                 \iint_R f(x,y)\, dA = \iint_{R_1}f(x,y)\, dA+ \iint_{R_2}f(x,y)\, dA
-              </me>.
+              </md>.
             </p>
 
             <figure xml:id="fig_double_region" vshift="12">
@@ -1283,9 +1283,9 @@
       <p>
         Thus we have the following <q>curve to curve,
         point to point</q> bounds:
-        <me>
+        <md>
           y^2/4\leq x\leq 2\sqrt y, \text{ and } 0\leq y\leq 4
-        </me>.
+        </md>.
         Therefore,
         <md>
           <mrow>\iint_R (4-y)\, dA \amp = \int_0^4\int_{y^2/4}^{2\sqrt{y}}(4-y)\, dx\, dy</mrow>
@@ -1420,16 +1420,16 @@
         we are faced with <m>\int e^{-x^2}\, dy</m>;
         integrating with respect to <m>y</m> gives us <m>ye^{-x^2}+C</m>,
         and the first definite integral evaluates to
-        <me>
+        <md>
           \int_0^x e^{-x^2}\, dy = xe^{-x^2}
-        </me>.
+        </md>.
       </p>
 
       <p>
         Thus
-        <me>
+        <md>
           \int_0^3\int_0^x e^{-x^2}\, dy\, dx = \int_0^3\Big(xe^{-x^2}\Big)dx
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -1537,9 +1537,9 @@
   <p>
     <xref ref="def_av_val"/>
     defines the average value of a single-variable function <m>f(x)</m> on the interval <m>[a,b]</m> as
-    <me>
+    <md>
       \text{ average value of \(f(x)\) on \([a,b]\) }  = \frac1{b-a}\int_a^b f(x)\, dx;
-    </me>
+    </md>
     that is, it is the <q>area under <m>f</m> over an interval divided by the length of the interval.</q>
     We make an analogous statement here:
     the average value of <m>z=f(x,y)</m> over a region <m>R</m> is the volume under <m>f</m> over <m>R</m> divided by the area of <m>R</m>.
@@ -1553,9 +1553,9 @@
         bounded region <m>R</m> in the <m>xy</m>-plane.
         The <term>average value</term> of <m>f</m> on <m>R</m> is
         <idx><h>average value of a function</h></idx>
-        <me>
+        <md>
           \text{ average value of \(f\) on \(R\) }  = \frac{\ds \iint_R f(x,y)\, dA}{\ds\iint_R \, dA}
-        </me>.
+        </md>.
       </p>
     </statement>
   </definition>
@@ -1572,23 +1572,23 @@
     <solution>
       <p>
         In <xref ref="ex_double4"/> we found
-        <me>
+        <md>
           \iint_R f(x,y)\, dA = \int_0^4\int_{y^2/4}^{2\sqrt{y}}(4-y)\, dx\, dy = \frac{176}{15}
-        </me>.
+        </md>.
       </p>
 
       <p>
         We find the area of <m>R</m> by computing <m>\iint_R \, dA</m>:
-        <me>
+        <md>
           \iint_R \, dA = \int_0^4\int_{y^2/4}^{2\sqrt{y}} \, dx\, dy = \frac{16}{3}
-        </me>.
+        </md>.
       </p>
 
       <p>
         Dividing the volume under the surface by the area gives the average value:
-        <me>
+        <md>
           \text{ average value of \(f\) on \(R\) }  = \frac{176/15}{16/3} = \frac{11}5 = 2.2
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -1840,9 +1840,9 @@
               <p>
                 Explain why the following statement is false:
                 Fubini's Theorem states that
-                <me>
+                <md>
                   \int_a^b\int_{g_1(x)}^{g_2(x)} f(x,y)\, dy\, dx = \int_a^b\int_{g_1(y)}^{g_2(y)} f(x,y)\, dx\, dy
-                </me>.
+                </md>.
               </p>
             </statement>
             <response />

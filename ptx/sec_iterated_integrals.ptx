@@ -26,9 +26,9 @@
       To signify that <m>C</m> is actually a function of <m>y</m>,
       we write:
       <idx><h>integration</h><h>of multivariable functions</h></idx>
-      <me>
+      <md>
         f(x,y) = \int f_x(x,y)\, dx  = x^2y+C(y)
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -62,13 +62,13 @@
     <p>
       We can also integrate with respect to <m>y</m>.
       In general,
-      <me>
+      <md>
         \int_{h_1(y)}^{h_2(y)} f_x(x,y)\, dx = f(x,y)\Big|_{h_1(y)}^{h_2(y)} = f\big(h_2(y),y\big)-f\big(h_1(y),y\big)
-      </me>,
+      </md>,
       and
-      <me>
+      <md>
         \int_{g_1(x)}^{g_2(x)} f_y(x,y)\, dy = f(x,y)\Big|_{g_1(x)}^{g_2(x)} = f\big(x,g_2(x)\big)-f\big(x,g_1(x)\big)
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -220,9 +220,9 @@
       We learned in <xref ref="sec_ABC"/>
       that the area of <m>R</m> is given by
           <idx><h>integration</h><h>area</h></idx>
-      <me>
+      <md>
         \int_a^b \big(g_2(x)-g_1(x)\big)\, dx
-      </me>.
+      </md>.
     </p>
 
     <figure xml:id="fig_iterated_intro" vshift="0">
@@ -270,13 +270,13 @@
 
     <p>
       We can view the expression <m>\big(g_2(x)-g_1(x)\big)</m> as
-      <me>
+      <md>
         \big(g_2(x)-g_1(x)\big) = \int_{g_1(x)}^{g_2(x)} 1\, dy =\int_{g_1(x)}^{g_2(x)} \, dy
-      </me>,
+      </md>,
       meaning we can express the area of <m>R</m> as an iterated integral:
-      <me>
+      <md>
         \text{ area of } R = \int_a^b \big(g_2(x)-g_1(x)\big)\, dx = \int_a^b\left(\int_{g_1(x)}^{g_2(x)} \, dy\right) dx =\int_a^b\int_{g_1(x)}^{g_2(x)} \, dy\, dx
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -288,9 +288,9 @@
       <m>c\leq y\leq d</m> and <m>h_1(y)\leq x\leq h_2(y)</m>,
       as shown in <xref ref="fig_iterated_intro2"/>.
       Using a process similar to that above, we have
-      <me>
+      <md>
         \text{ the area of } R = \int_c^d\int_{h_1(y)}^{h_2(y)} \, dx\, dy
-      </me>.
+      </md>.
     </p>
 
     <figure xml:id="fig_iterated_intro2" vshift="0">
@@ -353,9 +353,9 @@
                 <m>a\leq x\leq b</m> and <m>g_1(x)\leq y\leq g_2(x)</m>,
                 where <m>g_1</m> and <m>g_2</m> are continuous functions on <m>[a,b]</m>.
                 The area <m>A</m> of <m>R</m> is
-                <me>
+                <md>
                   A = \int_a^b\int_{g_1(x)}^{g_2(x)} \, dy\, dx
-                </me>.
+                </md>.
               </p>
             </li>
 
@@ -368,9 +368,9 @@
 
                 <idx><h>integration</h><h>area</h></idx>
 
-                <me>
+                <md>
                   A = \int_c^d\int_{h_1(y)}^{h_2(y)} \, dx\, dy
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
@@ -433,16 +433,16 @@
           The region <m>R</m> is bounded by <m>x=-1</m>,
           <m>x=3</m>, <m>y=1</m> and <m>y=3</m>.
           Choosing to integrate with respect to <m>y</m> first, we have
-          <me>
+          <md>
             A = \int_{-1}^3\int_1^3 1\, dy\, dx = \int_{-1}^3 \left(y\, \Big|_1^3\right)\, dx = \int_{-1}^3 2\, dx = 2x\Big|_{-1}^3=8
-          </me>.
+          </md>.
         </p>
 
         <p>
           We could also integrate with respect to <m>x</m> first, giving:
-          <me>
+          <md>
             A = \int_1^3\int_{-1}^3 1\, dx \, dy =\int_1^3 \left(x\, \Big|_{-1}^3\right)\, dy = \int_1^3 4\, dy = 4y\Big|_1^3 = 8
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -617,16 +617,16 @@
 
         <p>
           Using <m>dy\, dx</m>:
-          <me>
+          <md>
             \int_0^2\int_{x^2}^{2x}1\, dy \, dx = \int_0^2(2x-x^2)\, dx = \big(x^2-\frac13x^3\big)\Big|_0^2 = \frac43
-          </me>.
+          </md>.
         </p>
 
         <p>
           Using <m>dx\, dy</m>:
-          <me>
+          <md>
             \int_0^4\int_{y/2}^{\sqrt{y}} 1\, dx\, dy = \int_0^4 (\sqrt{y}-y/2)\, dy = \left(\frac23y^{3/2} - \frac14y^2\right)\Big|_0^4 = \frac43
-          </me>.
+          </md>.
         </p>
       </solution>
     </example>
@@ -654,9 +654,9 @@
       The region described by these bounds is a rectangle
       (see <xref ref="ex_iterated4"/>),
       and so:
-      <me>
+      <md>
         \int_a^b\int_c^d 1\, dy\, dx = \int_c^d\int_a^b1\, dx\, dy
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -840,9 +840,9 @@
           Thus we need two double integrals.
           The upper bound for each is <m>y=2\sqrt{x}</m>.
           Thus we have
-          <me>
+          <md>
             \int_0^4\int_{y^2/4}^{(y+4)/2}1\, dx\, dy = \int_0^2\int_0^{2\sqrt{x}} 1\, dy\, dx + \int_2^4\int_{2x-4}^{2\sqrt{x}}1\, dy\, dx
-          </me>.
+          </md>.
         </p>
       </solution>
     </example>
@@ -1343,9 +1343,9 @@
                   <m>\ds\int_2^4\int_{x-1}^{7-x}\, dy\, dx</m>.
                   The order <m>dx\, dy</m> needs two iterated integrals as <m>x</m> is bounded above by two different functions.
                   This gives:
-                  <me>
+                  <md>
                     \int_{1}^3\int_{2}^{y+1}\, dx\, dy+\int_{3}^5\int_{2}^{7-y}\, dx\, dy
-                  </me>.
+                  </md>.
                   area of <m>R = 4u^2</m>
                 </p>
               </solution>

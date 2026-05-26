@@ -50,9 +50,9 @@
           the <term>total differential</term> of <m>z</m> is
               <idx><h>total differential</h></idx>
               <idx><h>partial derivative</h><h>total differential</h></idx>
-          <me>
+          <md>
             dz = f_x(x,y)\,dx + f_y(x,y)\,dy
-          </me>.
+          </md>.
         </p>
       </statement>
     </definition>
@@ -61,9 +61,9 @@
       <p>
         From <xref ref="def_total_differential"/>,
         we can write
-        <me>
+        <md>
           dz = \langle\, f_x,f_y\rangle\cdot\langle dx,dy\rangle
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -85,9 +85,9 @@
           We compute the partial derivatives:
           <m>f_x = 4x^3e^{3y}</m> and <m>f_y = 3x^4e^{3y}</m>.
           Following <xref ref="def_total_differential"/>, we have
-          <me>
+          <md>
             dz = 4x^3e^{3y}dx+3x^4e^{3y}dy
-          </me>.
+          </md>.
         </p>
       </solution>
     </example>
@@ -124,9 +124,9 @@
           Let <m>dz</m> be the total differential of <m>z</m> at <m>(x_0,y_0)</m>,
           let <m>\ddz = f(x_0+dx,y_0+dy) - f(x_0,y_0)</m>,
           and let <m>E_x</m> and <m>E_y</m> be functions of <m>dx</m> and <m>dy</m> such that
-          <me>
+          <md>
             \ddz = dz + E_xdx + E_ydy
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -181,9 +181,9 @@
 
         <p>
           <m>\ddz = f(x+dx,y+dy) - f(x,y)</m>, so
-          <me>
+          <md>
             \ddz = xdy + ydx + dxdy + 6ydy+3dy^2
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -283,12 +283,12 @@
 
     <p>
       For instance, consider the function
-      <me>
+      <md>
         f(x,y) = \begin{cases}
                    \frac{xy}{x^2+y^2} \amp  (x,y)\neq (0,0) \\
                    0 \amp  (x,y) = (0,0)
                  \end{cases}
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -305,9 +305,9 @@
     <p>
       Both <m>f_x</m> and <m>f_y</m> <em>exist</em> at <m>(0,0)</m>,
       but they are not continuous at <m>(0,0)</m>, as
-      <me>
+      <md>
         f_x(x,y) = \frac{y(y^2-x^2)}{(x^2+y^2)^2} \qquad \text{ and } \qquad f_y(x,y) = \frac{x(x^2-y^2)}{(x^2+y^2)^2}
-      </me>
+      </md>
       are not continuous at <m>(0,0)</m>. (Take the limit of <m>f_x</m> as
       <m>(x,y)\to(0,0)</m> along the <m>x</m>- and <m>y</m>-axes;
       they give different results.) So even though <m>f_x</m> and <m>f_y</m> <em>exist</em>
@@ -355,9 +355,9 @@
         <p>
           We let <m>\ddz = f(4.1,0.8) - f(4,\pi/4)</m>.
           The total differential <m>dz</m> is approximately equal to <m>\ddz</m>, so
-          <men xml:id="eq_totaldiff2">
+          <md number="yes" xml:id="eq_totaldiff2">
             f(4.1,0.8) - f(4,\pi/4) \approx dz  \Rightarrow  f(4.1,0.8) \approx dz + f(4,\pi/4)
-          </men>.
+          </md>.
         </p>
 
         <p>
@@ -385,9 +385,9 @@
 
         <p>
           Returning to <xref ref="eq_totaldiff2">Equation</xref>, we have
-          <me>
+          <md>
             f(4.1,0.8) \approx 0.039 + 1.414 = 1.4531
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -476,9 +476,9 @@
       Recall from <xref ref="def-linearization"/> that for a function <m>f(x)</m>,
       when <m>x</m> is near <m>c</m> we have the linear approximation <m>f(x)\approx \ell(x)</m>,
       where
-      <me>
+      <md>
         \ell(x) = f(c)+f'(c)(x-c)
-      </me>
+      </md>
       is the linearization of <m>f</m> at <m>c</m>. If we set <m>dx=\dx = x-c</m>,
       and evaluate the differential <m>dy = f'(x)\,dx</m> at <m>c</m>,
       then we have
@@ -491,27 +491,27 @@
     <p>
       Given the graph <m>y=f(x)</m>, we know that <m>y=\ell(x)</m> gives the tangent line to the graph at <m>c</m>.
       For the graph <m>z=f(x,y)</m> of a function of two variables, we similarly have the tangent plane
-      <me>
+      <md>
         z=f(a,b)+f_x(a,b)(x-a)+f_y(a,b)(y-b)
-      </me>
+      </md>
       defined in <xref ref="def-tangent-plane"/>,
       suggesting that we define the two variable linearization
-      <me>
+      <md>
         \ell(x,y) = f(a,b)+f_x(a,b)(x-a)+f_y(a,b)(y-b)
-      </me>.
+      </md>.
     </p>
 
     <p>
       Consider the total differential <m>dz</m> at <m>(a,b)</m>:
-      <me>
+      <md>
         dz = f_x(a,b)\,dx + f_y(a,b)\,dy
-      </me>.
+      </md>.
       If we assume that <m>(x,y)</m> is <q>close</q> to <m>(a,b)</m>,
       and set <m>dx = x-a</m>, <m>dy = y-b</m>,
       then we have
-			<me>
+			<md>
         dz = f_x(a,b)\,dx + f_y(a,b)\,dy = f_x(a,b)(x-a)+f_y(a,b)(y-b)
-      </me>.
+      </md>.
 			Since <m>\ell(a,b)=f(a,b)</m>, we have
 			<m>\ell(x,y)-\ell(a,b) = dz</m>,
       which agrees with the one-variable situation,
@@ -561,9 +561,9 @@
           A cylindrical solid with height <m>h</m> and radius <m>r</m> has volume <m>V = \pi r^2h</m>.
           We can view <m>V</m> as a function of two variables, <m>r</m> and <m>h</m>.
           We can compute partial derivatives of <m>V</m>:
-          <me>
+          <md>
             \frac{\partial V}{\partial r} = V_r(r,h) = 2\pi rh \qquad \text{ and } \qquad \frac{\partial V}{\partial h} = V_h(r,h) = \pi r^2
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -612,9 +612,9 @@
           the <term>total differential</term> of <m>w</m> is
               <idx><h>total differential</h></idx>
               <idx><h>partial derivative</h><h>total differential</h></idx>
-          <me>
+          <md>
             dw = f_x(x,y,z)\,dx + f_y(x,y,z)\,dy+f_z(x,y,z)\,dz
-          </me>.
+          </md>.
         </p>
       </statement>
     </definition>
@@ -639,9 +639,9 @@
               <idx><h>differentiable</h></idx>
               <idx><h>derivative</h><h>multivariable differentiability</h></idx>
               <idx><h>multivariable function</h><h>differentiability</h></idx>
-          <me>
+          <md>
             \Delta w = dw + E_xdx + E_ydy + E_zdz
-          </me>.
+          </md>.
         </p>
 
         <p>

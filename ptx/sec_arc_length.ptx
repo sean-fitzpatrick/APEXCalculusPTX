@@ -230,13 +230,13 @@
       The dashed lines show that we can view this line segment as the hypotenuse of a right triangle whose sides have length <m>\dx_i</m> and <m>\dy_i</m>.
       Using the Pythagorean Theorem,
       the length of this line segment is
-      <me>
+      <md>
         \sqrt{\dx_i^2 + \Delta y_i^2}
-      </me>.
+      </md>.
       Summing over all subintervals gives an arc length approximation
-      <me>
+      <md>
         L \approx \sum_{i=1}^n \sqrt{\dx_i^2 + \Delta y_i^2}
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -282,9 +282,9 @@
           Then the arc length of <m>f</m> from <m>x=a</m> to <m>x=b</m> is
               <idx><h>integration</h><h>arc length</h></idx>
               <idx><h>arc length</h></idx>
-          <me>
+          <md>
             L = \int_a^b \sqrt{1+\fp(x)^2}\, dx
-          </me>.
+          </md>.
         </p>
       </statement>
     </theorem>
@@ -485,9 +485,9 @@
           The setup is straightforward:
           <m>f(x) = \sin(x)</m> and <m>\fp(x) = \cos(x)</m>.
           Thus
-          <me>
+          <md>
             L = \int_0^\pi \sqrt{1+\cos^2(x)}\, dx
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -708,30 +708,30 @@
       (called a <em>frustum</em> of a cone)
       as shown in <xref ref="fig_arc4b_3D"/>.
       The surface area of a frustum of a cone is
-      <me>
+      <md>
         2\pi\cdot\,\text{length} \,\cdot\,\text{average of the two radii \(R\) and \(r\)}
-      </me>.
+      </md>.
     </p>
 
     <p>
       The length is given by <m>L</m>;
       we use the material just covered by arc length to state that
-      <me>
+      <md>
         L\approx \sqrt{1+\fp(c_i)^2}\dx_i
-      </me>
+      </md>
       for some <m>c_i</m> in the <m>i</m>th subinterval.
       The radii are just the function evaluated at the endpoints of the interval.
       That is,
-      <me>
+      <md>
         R = f(x_{i}) \text{ and }  r = f(x_{i-1})
-      </me>.
+      </md>.
     </p>
 
     <p>
       Thus the surface area of this sample frustum of the cone is approximately
-      <me>
+      <md>
         2\pi\frac{f(x_{i-1})+f(x_{i})}2\sqrt{1+\fp(c_i)^2}\dx_i
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -739,16 +739,16 @@
       the Intermediate Value Theorem states there is some <m>d_i</m> in
       <m>[x_{i-1},x_{i}]</m> such that <m>\ds f(d_i) = \frac{f(x_{i-1})+f(x_{i})}2</m>;
       we can use this to rewrite the above equation as
-      <me>
+      <md>
         2\pi f(d_i)\sqrt{1+\fp(c_i)^2}\dx_i
-      </me>.
+      </md>.
     </p>
 
     <p>
       Summing over all the subintervals we get the total surface area to be approximately
-      <me>
+      <md>
         \text{Surface Area}\, \approx \sum_{i=1}^n 2\pi f(d_i)\sqrt{1+\fp(c_i)^2}\dx_i
-      </me>,
+      </md>,
       which is a Riemann Sum.
       Taking the limit as the subinterval lengths go to zero gives us the exact surface area,
       given in the following theorem.
@@ -770,9 +770,9 @@
               <p>
                 The surface area of the solid formed by revolving the graph of <m>y=f(x)</m>,
                 where <m>f(x)\geq0</m>, about the <m>x</m>-axis is
-                <me>
+                <md>
                   \text{Surface Area}\,  = 2\pi\int_a^b f(x)\sqrt{1+\fp(x)^2}\, dx
-                </me>.
+                </md>.
               </p>
             </li>
 
@@ -780,9 +780,9 @@
               <p>
                 The surface area of the solid formed by revolving the graph of <m>y=f(x)</m> about the <m>y</m>-axis,
                 where <m>a,b\geq0</m>, is
-                <me>
+                <md>
                   \text{Surface Area}\,  = 2\pi\int_a^b x\sqrt{1+\fp(x)^2}\, dx
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>

@@ -24,9 +24,9 @@
       While the definite integrals do increase in value as the upper bound grows,
       they are not increasing by much.
       In fact, consider:
-      <me>
+      <md>
         \int_0^b \frac{1}{1+x^2}\, dx = \tan^{-1}(x) \Big|_0^b = \tan^{-1}(b) -\tan^{-1}(0) = \tan^{-1}(b)
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -133,9 +133,9 @@
                 <idx><h>convergence</h><h>of improper int.</h></idx>
                 <idx><h>divergence</h><h>of improper int.</h></idx>
 
-                <me>
+                <md>
                   \int_a^\infty f(x)\, dx  \text{ to be }  \lim_{b\to\infty}\int_a^b f(x)\, dx
-                </me>.
+                </md>.
               </p>
             </li>
 
@@ -143,9 +143,9 @@
               <p>
                 Let <m>f</m> be a continuous function on <m>(-\infty,b]</m>.
                 Define
-                <me>
+                <md>
                   \int_{-\infty}^b f(x)\, dx  \text{ to be }  \lim_{a\to-\infty}\int_a^b f(x)\, dx
-                </me>.
+                </md>.
               </p>
             </li>
 
@@ -153,9 +153,9 @@
               <p>
                 Let <m>f</m> be a continuous function on <m>(-\infty,\infty)</m>.
                 Let <m>c</m> be any real number; define
-                <me>
+                <md>
                   \int_{-\infty}^\infty f(x)\, dx  \text{ to be }  \lim_{a\to-\infty}\int_a^c f(x)\, dx\,+\,\lim_{b\to\infty}\int_c^b f(x)\, dx
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
@@ -543,9 +543,9 @@
               <idx><h>integration</h><h>improper</h></idx>
               <idx><h>improper integration</h></idx>
 
-          <me>
+          <md>
             \int_a^b f(x)\, dx = \lim_{t\to c^-}\int_a^t f(x)\, dx + \lim_{t\to c^+}\int_t^b f(x)\, dx
-          </me>.
+          </md>.
         </p>
       </statement>
     </definition>
@@ -1006,9 +1006,9 @@
                 It is easy to see that when <m>x \gt 0</m>,
                 we have <m>x = \sqrt{x^2}  \gt  \sqrt{x^2-x}</m>.
                 Taking reciprocals reverses the inequality, giving
-                <me>
+                <md>
                   \frac1x \lt  \frac1{\sqrt{x^2-x}}
-                </me>.
+                </md>.
                 Using <xref ref="thm_impint_comparison"/>,
                 we conclude that since <m>\ds\int_3^\infty\frac1x\, dx</m> diverges,
                 <m>\ds\int_3^\infty\frac1{\sqrt{x^2-x}}\, dx</m> diverges as well.
@@ -1095,13 +1095,13 @@
           Let <m>f</m> and <m>g</m> be continuous functions on
           <m>[a,\infty)</m> where <m>f(x) \gt 0</m> and <m>g(x) \gt 0</m> for all <m>x</m>.
           If
-          <me>
+          <md>
             \lim_{x\to\infty} \frac{f(x)}{g(x)} = L,\qquad 0\lt L\lt \infty
-          </me>,
+          </md>,
           then
-          <me>
+          <md>
             \int_a^\infty f(x)\, dx  \text{ and }   \int_a^\infty g(x)\, dx
-          </me>
+          </md>
           either both converge or both diverge.
               <idx><h>integration</h><h>improper</h></idx>
               <idx><h>convergence</h><h>Limit Comparison Test!for integration</h></idx>
@@ -1125,9 +1125,9 @@
           As <m>x</m> gets large,
           the denominator of the integrand will begin to behave much like <m>y=x</m>.
           So we compare <m>\ds\frac{1}{\sqrt{x^2+2x+5}}</m><nbsp/>to <m>\ds\frac1x</m><nbsp/>with the Limit Comparison Test:
-          <me>
+          <md>
             \lim_{x\to\infty} \frac{1/\sqrt{x^2+2x+5}}{1/x} = \lim_{x\to\infty}\frac{x}{\sqrt{x^2+2x+5}}
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1145,9 +1145,9 @@
           then <m>\lim\limits_{x\to c} f(x)^2 = L^2</m>.
           (This is true when either <m>c</m> or <m>L</m> is <m>\infty</m>.)
           So we consider now the limit
-          <me>
+          <md>
             \lim_{x\to\infty} \frac{x^2}{x^2+2x+5}
-          </me>.
+          </md>.
         </p>
 
         <p>

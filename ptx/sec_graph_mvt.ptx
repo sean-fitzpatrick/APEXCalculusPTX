@@ -61,9 +61,9 @@
       <mag>50</mag><unit base="mileperhour"/>
     </quantity>.
     Symbolically,
-    <me>
+    <md>
       \fp(c) = \frac{f(2)-f(0)}{2-0} = 50
-    </me>
+    </md>
     for some time <m>0\le c \le 2</m>.
   </p>
 
@@ -93,9 +93,9 @@
         But if you look at the plots of each,
         you can see that there are no points on either graph where the tangent lines have slope zero.
         Therefore we have found that there is no <m>c</m> in <m>[-1,1]</m> such that
-        <me>
+        <md>
           \fp(c) = \frac{f(1)-f(-1)}{1-(-1)} = 0
-        </me>.
+        </md>.
       </p>
 
       <figure xml:id="fig_mvt1">
@@ -189,9 +189,9 @@
         Let <m>y=f(x)</m> be a continuous function on the closed interval <m>[a,b]</m> and differentiable on the open interval <m>(a,b)</m>.
         There exists a value <m>c</m>, <m>a \lt  c \lt  b</m>,
         such that <idx><h>Mean Value Theorem</h><h>of differentiation</h></idx><idx><h>derivative</h><h>Mean Value Theorem</h></idx>
-        <me>
+        <md>
           \fp(c) = \frac{f(b)-f(a)}{b-a}
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -370,9 +370,9 @@
 
     <p>
       Define the function
-      <me>
+      <md>
         g(x) = f(x) - \frac{f(b)-f(a)}{b-a}x
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -382,13 +382,13 @@
       We can then apply Rolle's theorem to guarantee the existence of
       <m>c</m> in <m>(a,b)</m> such that <m>\gp(c) = 0</m>.
       But note that
-      <me>
+      <md>
         0= \gp(c) = \fp(c) - \frac{f(b)-f(a)}{b-a}
-      </me>;
+      </md>;
       hence
-      <me>
+      <md>
         \fp(c) = \frac{f(b)-f(a)}{b-a}
-      </me>,
+      </md>,
       which is what we sought to prove.
     </p>
   </proof>
@@ -571,9 +571,9 @@
               Choose any two points <m>a</m> and <m>b</m> in the interval <m>I</m>.
               By the <xref ref="thm_mvt" text="custom">Mean Value Theorem</xref>,
               we must have
-              <me>
+              <md>
                 \fp(c) = \frac{f(b)-f(a)}{b-a}
-              </me>
+              </md>
               for some <m>c</m> between <m>a</m> and <m>b</m>.
               But <m>\fp(c)=0</m>, so <m>f(b)-f(a)=0</m>, or <m>f(a)=f(b)</m>.
               Since <m>a</m> and <m>b</m> were any two points,
@@ -586,9 +586,9 @@
               Suppose <m>\gp(x)=h'(x)</m> for each point <m>x</m> in <m>I</m>,
               and consider the function <m>f(x)=g(x)-h(x)</m>.
               By the difference rule for derivatives, we have
-              <me>
+              <md>
                 f'(x) = \gp(x)-h'(x)=0
-              </me>,
+              </md>,
               since <m>\gp(x)=h'(x)</m>.
             </p>
 

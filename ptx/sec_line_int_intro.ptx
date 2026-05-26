@@ -298,9 +298,9 @@
       The sum of the areas of these rectangles gives an approximate value of the true area above <m>C</m> and under <m>f</m>.
       As the area of each rectangle is
       <q>height <times/> width</q>, we assert that the
-      <me>
+      <md>
         \text{ area above \(C\) } \approx \sum (\text{ heights } \times\text{ widths } )
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -323,11 +323,11 @@
       we can say that <m>f</m> is a function of <m>s</m>.
       Given a value <m>s</m>, we can compute <m>f(s)</m> and find a height.
       Thus
-      <mdn>
-        <mrow number="no">\text{ area under \(f\) and above \(C\) } \amp \approx \sum (\text{ heights } \times\text{ widths } );</mrow>
-        <mrow number="no">\text{ area under \(f\) and above \(C\) }               \amp =\lim_{\norm{\Delta s}\to0}\sum f(c_i)\Delta s_i</mrow>
-        <mrow xml:id="eq_line0">\amp =\int_Cf(s)\, ds</mrow>
-      </mdn>.
+      <md>
+        <mrow>\text{ area under \(f\) and above \(C\) } \amp \approx \sum (\text{ heights } \times\text{ widths } );</mrow>
+        <mrow>\text{ area under \(f\) and above \(C\) }               \amp =\lim_{\norm{\Delta s}\to0}\sum f(c_i)\Delta s_i</mrow>
+        <mrow number="yes" xml:id="eq_line0">\amp =\int_Cf(s)\, ds</mrow>
+      </md>.
     </p>
 
     <p>
@@ -361,9 +361,9 @@
           the arc-length parameter,
           and let <m>f</m> be a continuous function of <m>s</m>.
           A <term>line integral</term> is an integral of the form
-          <me>
+          <md>
             \int_C f(s)\, ds = \lim_{\norm{\Delta s}\to 0}\sum_{i=1}^n f(c_i)\Delta s_i
-          </me>,
+          </md>,
           where <m>s_0\lt s_1\lt \ldots\lt s_n</m> is any partition of the <m>s</m>-interval over which <m>C</m> is defined,
           <m>c_i</m> is any value in the <m>i</m>th subinterval,
           <m>\Delta s_i</m> is the width of the <m>i</m>th subinterval,
@@ -385,9 +385,9 @@
     <p>
       When <m>C</m> is a <em>closed</em> curve,
       <ie/>, a curve that ends at the same point at which it starts, we use
-      <me>
+      <md>
         \oint_C f(s)\, ds  \text{ instead of }  \int_C f(s)\, ds
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -400,9 +400,9 @@
     <p>
       This definition of the line integral doesn't really say anything new.
       If <m>C</m> is a curve and <m>s</m> is the arc-length parameter of <m>C</m> on <m>a\leq s\leq b</m>, then
-      <me>
+      <md>
         \int_Cf(s)\, ds = \int_a^bf(s)\, ds
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -430,9 +430,9 @@
     <p>
       In <xref ref="sec_curvature"/>,
       we defined the arc-length parameter in <xref ref="eq_vvfarc" text="global">Equation</xref> as
-      <me>
+      <md>
         s(t) = \int_0^t \norm{\vec r\,'(u)}\, du
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -445,9 +445,9 @@
       We can view <m>f</m> as being a function of <m>x</m> and <m>y</m> since it is a function of <m>s</m>.
       Thus <m>f(s) =f(x,y) =f\big(g(t),h(t)\big)</m>.
       This gives us a concrete way to evaluate a line integral:
-      <me>
+      <md>
         \int_C f(s)\, ds = \int_a^bf\big(g(t),h(t)\big)\norm{\vec r\,'(t)}\, dt
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -469,9 +469,9 @@
                 where <m>g</m> and <m>h</m> are continuously differentiable,
                 and let <m>z=f(x,y)</m>, where <m>f</m> is continuous over <m>C</m>.
                 Then<idx><h>line integral</h><h>over scalar field</h></idx>
-                <me>
+                <md>
                   \int_C f(s)\, ds = \int_a^b f\big(g(t),h(t)\big)\norm{\vec r\,'(t)}\, dt
-                </me>.
+                </md>.
               </p>
             </li>
 
@@ -484,9 +484,9 @@
                 <m>h</m> and <m>k</m> are continuously differentiable,
                 and let <m>w=f(x,y,z)</m>, where <m>f</m> is continuous over <m>C</m>.
                 Then
-                <me>
+                <md>
                   \int_Cf(s)\, ds = \int_a^bf\big(g(t),h(t),k(t)\big)\norm{\vec r\,'(t)}\, dt
-                </me>.
+                </md>.
               </p>
             </li>
           </ul>
@@ -1001,9 +1001,9 @@
           but rather it is given directly by the third component of \vec r(t):
           <m>t/\pi</m>.
           Thus
-          <me>
+          <md>
             \oint_C f(s)\, ds = \int_0^{2\pi} \frac{t}{\pi}\sqrt{\sin^2t + 4\cos^2t}\,dt \approx 9.69
-          </me>,
+          </md>,
           where the approximation was obtained using numerical methods.
         </p>
       </solution>
@@ -1039,9 +1039,9 @@
       If <m>C</m> is a curve composed of subcurves <m>C_1</m> and <m>C_2</m>,
       where they share only one point in common (see <xref ref="fig_line_int_propa"/>,
       then the line integral over <m>C</m> is the sum of the line integrals over <m>C_1</m> and <m>C_2</m>:
-      <me>
+      <md>
         \int_Cf(s)\, ds = \int_{C_1}f(s)\, ds+\int_{C_2}f(s)\, ds
-      </me>.
+      </md>.
     </p>
 
     <figure xml:id="fig_line_int_prop">
@@ -1160,9 +1160,9 @@
                 let <m>f</m> and <m>g</m> be continuous functions of <m>s</m>,
                 and let <m>k_1</m> and <m>k_2</m> be scalars.
                 Then <idx><h>line integral</h><h>properties over a scalar field</h></idx>
-                <me>
+                <md>
                   \ds \int_C\big(k_1f(s)+k_2g(s)\big)\, ds = k_1\int_Cf(s)\, ds +k_2\int_Cg(s)\, ds
-                </me>.
+                </md>.
               </p>
             </li>
 
@@ -1171,9 +1171,9 @@
                 Let <m>C</m> be piecewise smooth,
                 composed of smooth components <m>C_1</m> and <m>C_2</m>.
                 Then
-                <me>
+                <md>
                   \int_Cf(s)\, ds = \int_{C_1}f(s)\, ds + \int_{C_2}f(s)\, ds
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
@@ -1201,9 +1201,9 @@
       <m>\Delta s_i</m> and assume the density is constant across these small segments.
       The mass of each segment is density of the segment <times/> its length;
       by summing up the approximate mass of each segment we can approximate the total mass:
-      <me>
+      <md>
         \text{ Total Mass of Wire }  = \sum \delta(s_i)\Delta s_i
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -1262,9 +1262,9 @@
             <li>
               <p>
                 The <em>center of mass</em> of the wire is
-                <me>
+                <md>
                   (\overline{x},\overline{y},\overline{z}) = \left(\frac{M_{yz}}M, \frac{M_{xz}}M,\frac{M_{xy}}M\right)
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
@@ -1363,23 +1363,23 @@
       <solution>
         <p>
           We compute the density of the wire as
-          <me>
+          <md>
             \delta(x,y,z) = \delta\big(1+\cos(t),1+\sin(t), 1+\sin(2t)\big) = 2+\sin(t)+\sin(2t)
-          </me>.
+          </md>.
         </p>
 
         <p>
           We compute <m>ds</m> as
-          <me>
+          <md>
             ds = \norm{\vrp(t)}\, dt = \sqrt{\sin^2t+\cos^2t+4\cos^2(2t)}\, dt = \sqrt{1+4\cos^2(2t)}\, dt
-          </me>.
+          </md>.
         </p>
 
         <p>
           Thus the mass is
-          <me>
+          <md>
             M = \oint_C \delta(s)\, ds = \int_0^{2\pi} \big(2+\sin(t)+\sin(2t)\big)\sqrt{1+4\cos^2(2t)}\, dt \approx 21.08\text{ gm }
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1399,9 +1399,9 @@
 
         <p>
           Thus the center of mass of the wire is located at
-          <me>
+          <md>
             (\overline{x},\overline{y},\overline{z}) = \left(\frac{M_{yz}}M, \frac{M_{xz}}M,\frac{M_{xy}}M\right) \approx (1,1.25,1.20)
-          </me>,
+          </md>,
           as indicated by the dot in <xref ref="fig_linescalarfield6"/>.
           Note how in this example,
           the curve <m>C</m> is <q>centered</q>
