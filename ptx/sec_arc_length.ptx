@@ -263,13 +263,13 @@
       states that there is a <m>c_i</m> in the <m>i</m>th subinterval where
       <m>\fp(c_i) = \Delta y_i/\dx_i</m>. Thus we can rewrite our above expression as:
       <md>
-        L \amp \approx \sum_{i=1}^n\sqrt{1+\fp(c_i)^2}\,\dx_i
+        L \approx \sum_{i=1}^n\sqrt{1+\fp(c_i)^2}\,\dx_i
       </md>.
       This <em>is</em> a Riemann Sum.
       As long as <m>\fp</m> is continuous, we can invoke <xref ref="thm_riemann_sum"/>
       and conclude
       <md>
-        L \amp = \int_a^b\sqrt{1+\fp(x)^2}\, dx
+        L = \int_a^b\sqrt{1+\fp(x)^2}\, dx
       </md>.
     </p>
 

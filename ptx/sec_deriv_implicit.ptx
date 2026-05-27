@@ -101,7 +101,7 @@
       Suppose now that <m>y=g(x)</m>.
       We can rewrite the above as
       <md number="yes" xml:id="eq_implicit1">
-        \lzoo{x}{f(y)}\amp=\fp(y)\cdot \yp,\amp\amp\text{ or }\amp\lzoo{x}{f(y)}\amp=\fp(y)\cdot\lz{y}{x}
+        \lzoo{x}{f(y)}=\fp(y)\cdot \yp, \quad \text{ or } \quad \lzoo{x}{f(y)}=\fp(y)\cdot\lz{y}{x}
       </md>.
     </p>
 
