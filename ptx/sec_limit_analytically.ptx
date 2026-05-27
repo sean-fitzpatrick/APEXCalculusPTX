@@ -579,7 +579,7 @@
     <image width="47%">
       <description>
         <p>
-          An illustration of the squeeze theorem. There are graphs of three functions shown, labelled <m>h(x)</m>,
+          An illustration of the squeeze theorem. There are graphs of three functions shown, labeled <m>h(x)</m>,
           <m>g(x)</m>, and <m>f(x)</m>. On the <m>y</m>axis, there is a marker at <m>y = 4</m>,
           labeled <m>L</m> and on the <m>x</m>axis there is a marker at <m>x = 5</m>, labeled
           <m>c</m>.
@@ -680,7 +680,7 @@
               There are horizontal lines and vertical lines inside the circle,
               these lines act only as guides.
               The horizontal and vertical lines intersect at <m>(0, 0)</m>.
-              The horizontal line starts at <m>(-1, 0)</m> and ends at <m>1, 0</m>,
+              The horizontal line starts at <m>(-1, 0)</m> and ends at <m>(1, 0)</m>,
               the vertical line starts at <m>(0, 1)</m> and ends at <m>(0, -1)</m>.
             </p>
             <p>
