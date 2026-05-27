@@ -609,11 +609,6 @@
     <video youtube="PVMLAKYehgs" label="vid_graphs_MVT_func_deriv_0_const"/>
   </figure>
 
-  <p xml:id="vidint-MVT-applications3" component="video">
-    Using this result, we can establish another result which will be useful when we study antiderivatives:
-    if two functions have the same derivative, then they differ by a constant.
-  </p>
-
   <figure xml:id="vid_graphs_MVT_funcs_eq_derivs_diff_const" component="video" vshift="2">
     <caption>Showing that two functions with the equal derivatives differ by a constant</caption>
     <video youtube="BzvxKeZMNtE" label="vid_graphs_MVT_funcs_eq_derivs_diff_const"/>
