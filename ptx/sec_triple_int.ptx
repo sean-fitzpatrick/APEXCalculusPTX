@@ -4347,7 +4347,7 @@
               </pg-code> -->
               <statement>
                 <p>
-                  <m>D</m> is bounded by the plane <m>z=2y</m> and by <m>y=4-x^2</m>.
+                  <m>D</m> is bounded by the planes <m>z=0</m> and <m>z=2y</m>, and by <m>y=4-x^2</m>.
                 </p>
 
                 <p>
