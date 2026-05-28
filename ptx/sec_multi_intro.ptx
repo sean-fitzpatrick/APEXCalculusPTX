@@ -392,9 +392,9 @@
           Consider first <m>c=0</m>.
           The level curve for <m>c=0</m> is the set of all points <m>(x,y)</m> such that <m>0=\sqrt{1-\frac{x^2}9-\frac{y^2}4}</m>.
           Squaring both sides gives us
-          <me>
+          <md>
             \frac{x^2}9+\frac{y^2}4=1
-          </me>,
+          </md>,
           an ellipse centered at <m>(0,0)</m> with horizontal major axis of length 6 and minor axis of length 4.
           Thus for any point <m>(x,y)</m> on this curve, <m>f(x,y) = 0</m>.
         </p>
@@ -780,9 +780,9 @@
       <solution>
         <p>
           To evaluate the function we simply set <m>x=3</m>, <m>y=0</m>, and <m>z=3</m> in the definition of <m>f</m>:
-          <me>
+          <md>
             f(3,0,2) = \frac{3^2+2+3\sin(0) }{3+2(0)-2} = 11
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -790,9 +790,9 @@
           we take it to be the set of all triples <m>(x,y,z)</m> for which <m>f(x,y,z)</m> is defined.
           As we cannot divide by <m>0</m>,
           we find the domain <m>D</m> is
-          <me>
+          <md>
             D = \{(x,y,z)\,|\,x+2y-z\neq 0\}
-          </me>.
+          </md>.
         </p>
 
         <p>

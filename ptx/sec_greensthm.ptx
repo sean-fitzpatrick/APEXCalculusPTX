@@ -281,9 +281,9 @@
       When a curve <m>C</m> is traversed counterclockwise by <m>\vrt = \la f(t),
       g(t)\ra</m>,
       we rotate <m>\vec T</m> clockwise 90<m>^\circ</m> to obtain <m>\vec n</m>:
-      <me>
+      <md>
         \vec T = \frac{\la \fp(t),\gp(t)\ra}{\norm{\vrp(t)}}  \Rightarrow  \vec n = \frac{\la \gp(t),-\fp(t)\ra}{\norm{\vrp(t)}}
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -319,18 +319,18 @@
             <li>
               <p>
                 The <em>flow</em> of <m>\vec F</m> along <m>C</m> is
-                <me>
+                <md>
                   \int_C \vec F\cdot\vec T\, ds=\int_C \vec F\cdot d\vec r
-                </me>.
+                </md>.
               </p>
             </li>
 
             <li>
               <p>
                 The <em>flux</em> of <m>\vec F</m> across <m>C</m> is
-                <me>
+                <md>
                   \int_C \vec F\cdot \vec n\, ds =  \int_C M\, dy -N\, dx = \int_C\Big(M\,\gp(t) - N\,\fp(t)\Big)dt
-                </me>.
+                </md>.
               </p>
             </li>
           </ul>
@@ -558,12 +558,12 @@
           We parametrize <m>C_2</m> with the familiar
           <m>\vec r_2(t) = \la \cos(t),\sin(t)\ra</m> on <m>0\leq t\leq \pi/2</m>.
           For reference later, we give each function and its derivative below:
-          <me>
+          <md>
             \vec r_1(t) = \la 1-t, t\ra,  \vrp_1(t) = \la -1,1\ra
-          </me>.
-          <me>
+          </md>.
+          <md>
             \vec r_2(t) = \la \cos(t), \sin(t)\ra,  \vrp_2(t) = \la -\sin(t) ,\cos(t)\ra
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -677,9 +677,9 @@
           and let <m>\vec F =\la M,N\ra</m> where <m>N_x</m> and <m>M_y</m> are continuous over <m>R</m>.
           Then
               <idx><h>Green's Theorem</h></idx>
-          <me>
+          <md>
             \oint_C \vec F\cdot d\vec r = \iint_R\curl \vec F\, dA
-          </me>.
+          </md>.
         </p>
       </statement>
     </theorem>
@@ -852,9 +852,9 @@
           <m>y=-2x+2</m> and <m>y=0</m>.
           Integrating with the order <m>dx\, dy</m> is most straightforward,
           leading to
-          <me>
+          <md>
             \int_0^2\int_{y/2-1}^{1-y/2} (2x+1)\, dx\, dy = \int_0^2 (2-y)\, dy = 2
-          </me>,
+          </md>,
           which matches our previous measurement of circulation.
         </p>
       </solution>
@@ -1160,9 +1160,9 @@
           let <m>\vec r(t)</m> be a counterclockwise parametrization of <m>C</m>,
           and let <m>\vec F =\la M,N\ra</m> where <m>M_x</m> and <m>N_y</m> are continuous over <m>R</m>.
           Then<idx><h>Divergence Theorem</h><h>in the plane</h></idx>
-          <me>
+          <md>
             \oint_C \vec F\cdot \vec n\, ds = \iint_R\divv \vec F\, dA
-          </me>.
+          </md>.
         </p>
       </statement>
     </theorem>
@@ -1263,9 +1263,9 @@
           We compute the divergence of <m>\vec F</m> as <m>\divv \vec F = M_x+N_y = 2</m>.
           Since the divergence is constant,
           we can compute the following double integral easily:
-          <me>
+          <md>
             \iint_R \divv \vec F\, dA = \iint_R 2\, dA = 2\iint_R\, dA = 2(\text{ area of \(R\) } ) = 8\pi
-          </me>,
+          </md>,
           which matches our previous result.
         </p>
       </solution>
@@ -1290,9 +1290,9 @@
           We label the enclosed region <m>R</m>.
           Since <m>\divv \vec F = 0</m>,
           the Divergence Theorem states that
-          <me>
+          <md>
             \oint_C \vec F\cdot \vec n\, ds = \iint_R \divv \vec F\, dA = \iint_R 0\, dA = 0
-          </me>.
+          </md>.
         </p>
 
         <p>

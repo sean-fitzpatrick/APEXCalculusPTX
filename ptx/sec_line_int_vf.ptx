@@ -45,9 +45,9 @@
       we can obtain the exact amount of work.
       Following the logic presented at the beginning of this chapter in the Integration Review,
       we see that
-      <me>
+      <md>
         W = \int_C \vec F\cdot \vec T\, ds
-      </me>,
+      </md>,
       a line integral.
     </p>
 
@@ -61,10 +61,10 @@
       <m>ds = \norm{\vrp(t)}\, dt</m>,
       and recall that <m>\vec T = \vrp(t)/\norm{\vrp(t)}</m>.
       Thus
-      <mdn>
-        <mrow number="no">W \amp = \int_C \vec F\cdot\vec T\, ds = \int_C \vec F\cdot \frac{\vrp(t)}{\norm{\vrp(t)}}\norm{\vrp(t)}\, dt</mrow>
-        <mrow xml:id="eq_line_integral"> \amp = \int_C\vec F\cdot \vrp(t)\, dt = \int_C \vec F\cdot d\vec r</mrow>
-      </mdn>,
+      <md>
+        <mrow>W \amp = \int_C \vec F\cdot\vec T\, ds = \int_C \vec F\cdot \frac{\vrp(t)}{\norm{\vrp(t)}}\norm{\vrp(t)}\, dt</mrow>
+        <mrow number="yes" xml:id="eq_line_integral"> \amp = \int_C\vec F\cdot \vrp(t)\, dt = \int_C \vec F\cdot d\vec r</mrow>
+      </md>,
       where the final integral uses the differential <m>d\vec r</m> for <m>\vrp(t)\,dt</m>.
     </p>
   </introduction>
@@ -98,9 +98,9 @@
           The <term>line integral</term> over <m>\vec F</m> along <m>C</m>
           is
               <idx><h>line integral</h><h>over vector field</h></idx>
-          <me>
+          <md>
             \int_C \vec F\cdot d\vec r = \int_C \vec F\cdot\vec T\, ds
-          </me>.
+          </md>.
         </p>
       </statement>
     </definition>
@@ -129,9 +129,9 @@
         parametrized by <m>\vrt</m>, <m>a\leq t\leq b</m>,
         where <m>\vec r</m> is continuously differentiable.
         Then<idx><h>vector field</h><h>over vector field</h></idx>
-        <me>
+        <md>
           \int_C\vec F\cdot\vec T\, ds = \int_C \vec F\cdot d\vec r =\int_a^b \vec F\big(\vec r(t)\big) \cdot \vrp(t)\, dt
-        </me>.
+        </md>.
       </p>
     </insight>
 
@@ -522,9 +522,9 @@
                 Let <m>\vec F</m> and <m>\vec G</m> be  vector fields with continuous components defined on a smooth curve <m>C</m>,
                 parametrized by <m>\vrt</m>, and let <m>k_1</m> and <m>k_2</m> be scalars.
                 Then<idx><h>line integral</h><h>properties over a vector field</h></idx>
-                <me>
+                <md>
                   \ds \int_C\big(k_1\vec F+k_2\vec G\big)\cdot d\vec r = k_1\int_C\vec F\cdot d\vec r +k_2\int_C\vec G\cdot d\vec r
-                </me>.
+                </md>.
               </p>
             </li>
 
@@ -533,9 +533,9 @@
                 Let <m>C</m> be piecewise smooth,
                 composed of smooth components <m>C_1</m> and <m>C_2</m>.
                 Then
-                <me>
+                <md>
                   \int_C\vec F\cdot d\vec r = \int_{C_1}\vec F\cdot d\vec r + \int_{C_2}\vec F\cdot d\vec r
-                </me>.
+                </md>.
               </p>
             </li>
 
@@ -544,9 +544,9 @@
                 Let <m>C^*</m> be the curve <m>C</m> with opposite orientation,
                 parametrized by <m>\vec r\,^*</m>.
                 Then
-                <me>
+                <md>
                   \int_C\vec F\cdot d\vec r = -\int_{C^*}\vec F\cdot d\vec r\,^*
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
@@ -1258,9 +1258,9 @@
               <p>
                 The line integral <m>\int_C \vec F\cdot d\vec r</m> is
                 <em>path independent</em> and can be written as
-                <me>
+                <md>
                   \int_C \vec F\cdot d\vec r = \int_A^B \vec F\cdot \, d\vec r
-                </me>.
+                </md>.
               </p>
             </li>
           </ul>
@@ -1345,9 +1345,9 @@
             <li>
               <p>
                 If <m>\vec F</m> is conservative, then
-                <me>
+                <md>
                   \int_C\vec F\cdot d\vec r = \int_A^B \vec F\cdot d\vec r = f(B) - f(A)
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
@@ -1364,9 +1364,9 @@
       Note that <m>f(x,y) = xy</m> is a potential function for <m>\vec F</m>.
       Following the Fundamental Theorem of Line Integrals,
       consider <m>f(B) - f(A)</m>:
-      <me>
+      <md>
         f(B) - f(A) = f(1,1) - f(-1,1) = 1 - (-1) = 2
-      </me>,
+      </md>,
       the same value given by the line integrals.
     </p>
 
@@ -1392,9 +1392,9 @@
           <m>f_x = 3x^2y+2x</m> and <m>f_y = x^3+1</m>.
           As all we know about <m>f</m> are its partial derivatives,
           we recover <m>f</m> by integration:
-          <me>
+          <md>
             \int \frac{\partial f}{\partial x}\, dx = f(x,y) + C(y)
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1408,23 +1408,23 @@
 
         <p>
           Integrating <m>f_x</m> in this example gives:
-          <me>
+          <md>
             \int \frac{\partial f}{\partial x}\, dx = \int (3x^2y+2x)\, dx = x^3y+x^2 + C_1(y)
-          </me>.
+          </md>.
         </p>
 
         <p>
           Likewise, integrating <m>f_y</m> with respect to <m>y</m> gives:
-          <me>
+          <md>
             \int \frac{\partial f}{\partial y}\, dy = \int( x^3+1)\, dy = x^3y+ y + C_2(x)
-          </me>.
+          </md>.
         </p>
 
         <p>
           These two results should be equal with appropriate choices of <m>C_1(y)</m> and <m>C_2(x)</m>:
-          <me>
+          <md>
             x^3y+x^2 + C_1(y) = x^3y+ y + C_2(x) \Rightarrow C_2(x) = x^2  \text{ and }  C_1(y) = y
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1496,9 +1496,9 @@
       we showed that <m>\vec F =\langle 3x^2y+2x,x^3+1\rangle</m> is conservative by finding a potential function for <m>\vec F</m>.
       Using the above theorem,
       we can show that <m>\vec F</m> is conservative much more easily by computing its curl:
-      <me>
+      <md>
         \curl \vec F = N_x - M_y = 3x^2 - 3x^2 = 0
-      </me>.
+      </md>.
     </p>
     <figure xml:id="vid-veccalc-lineint-conservatve" component="video" vshift="0">
       <caption>Discussing conservative vector fields and path independence</caption>

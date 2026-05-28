@@ -29,16 +29,16 @@
       and the Chain Rule allows us to calculate this in the context of parametric equations.
       If <m>x=f(t)</m> and <m>y=g(t)</m>,
       the Chain Rule states that
-      <me>
+      <md>
         \frac{dy}{dt} = \frac{dy}{dx}\cdot\frac{dx}{dt}
-      </me>.
+      </md>.
     </p>
 
     <p>
       Solving for <m>\frac{dy}{dx}</m>, we get
-      <me>
+      <md>
         \frac{dy}{dx} = \frac{dy}{dt}\Bigg/\frac{dx}{dt} = \frac{\gp(t)}{\fp(t)}
-      </me>,
+      </md>,
       provided that <m>\fp(t)\neq 0</m>.
       This is important so we label it a Key Idea.
     </p>
@@ -51,9 +51,9 @@
         Then
         <idx><h>parametric equations</h><h>finding <m>\frac{dy}{dx}</m></h></idx>
         <idx><h>derivative</h><h>parametric equations</h></idx>
-        <me>
+        <md>
           \frac{dy}{dx} = \frac{\gp(t)}{\fp(t)}
-        </me>.
+        </md>.
       </p>
     </insight>
 
@@ -203,9 +203,9 @@
               <p>
                 We start by computing <m>\fp(t) = 10t-6</m> and <m>\gp(t) =2t+6</m>.
                 Thus
-                <me>
+                <md>
                   \frac{dy}{dx} = \frac{2t+6}{10t-6}
-                </me>.
+                </md>.
                 Make note of something that might seem unusual:
                 <m>\frac{dy}{dx}</m> is a function of <m>t</m>, not <m>x</m>.
                 Just as points on the curve are found in terms of <m>t</m>,
@@ -289,9 +289,9 @@
                 we set <m>\frac{dy}{dx}=0</m> and solve for <m>t</m>.
                 In this case,
                 this amounts to setting <m>\gp(t)=0</m> and solving for <m>t</m> (and making sure that <m>\fp(t)\neq 0</m>).
-                <me>
+                <md>
                   \gp(t)=0  \Rightarrow  2t+6=0  \Rightarrow  t=-3
-                </me>.
+                </md>.
                 The point on <m>C</m> corresponding to <m>t=-3</m> is <m>(67,-10)</m>;
                 the tangent line at that point is horizontal
                 (hence with equation <m>y=-10</m>).
@@ -299,9 +299,9 @@
                 we find where it has a horizontal normal line,
                 and set <m>-\frac{\fp(t)}{\gp(t)}=0</m>.
                 This amounts to setting <m>\fp(t)=0</m> and solving for <m>t</m> (and making sure that <m>\gp(t)\neq 0</m>).
-                <me>
+                <md>
                   \fp(t)=0  \Rightarrow  10t-6=0  \Rightarrow  t=0.6
-                </me>.
+                </md>.
                 The point on <m>C</m> corresponding to <m>t=0.6</m> is <m>(2.2,2.96)</m>.
                 The tangent line at that point is <m>x=2.2</m>.
                 The points where the tangent lines are vertical and horizontal are indicated on the graph in <xref ref="fig_parcalc1"/>.
@@ -343,9 +343,9 @@
             <li>
               <p>
                 We compute the derivative following <xref ref="idea_dydxpar"/>:
-                <me>
+                <md>
                   \frac{dy}{dx} = \frac{\gp(t)}{\fp(t)} = -\frac{\cos(t) }{\sin(t) }
-                </me>.
+                </md>.
                 The derivative is <m>0</m> when <m>\cos(t) = 0</m>;
                 that is, when <m>t=\pi/2,\, 3\pi/2</m>.
                 These are the points <m>(0,1)</m> and <m>(0,-1)</m> on the circle.
@@ -464,9 +464,9 @@
       <solution>
         <p>
           We start by finding <m>x'(t)</m> and <m>\yp(t)</m>:
-          <me>
+          <md>
             x'(t) = -3\sin(t) \cos^2(t) , \qquad \yp(t) = 3\cos(t) \sin^2(t)
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -586,9 +586,9 @@
       <q>the second derivative of <m>y</m> with respect to <m>x</m>.</q> To find this,
       we need to find the derivative of
       <m>\frac{dy}{dx}</m> with respect to <m>x</m>; that is,
-      <me>
+      <md>
         \frac{d^2y}{dx^2}=\frac{d}{dx}\left[\frac{dy}{dx}\right]
-      </me>,
+      </md>,
       but recall that <m>\frac{dy}{dx}</m> is a function of <m>t</m>,
       not <m>x</m>, making this computation not straightforward.
           <idx><h>concavity</h></idx>
@@ -602,9 +602,9 @@
       that is, we want <m>\frac{dh}{dx}</m>.
       We again appeal to the Chain Rule.
       Note:
-      <me>
+      <md>
         \frac{dh}{dt} = \frac{dh}{dx}\cdot\frac{dx}{dt}  \Rightarrow  \frac{dh}{dx} = \frac{dh}{dt}\Bigg/\frac{dx}{dt}
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -622,9 +622,9 @@
         where <m>\fp(t)\neq 0</m> on <m>I</m>.
         Then
         <idx><h>parametric equations</h><h>finding <m>\frac{d^2y}{dx^2}</m></h></idx>
-        <me>
+        <md>
           \frac{d^2y}{dx^2} = \frac{d}{dt}\left[\frac{dy}{dx}\right]\Bigg/\frac{dx}{dt} = \frac{d}{dt}\left[\frac{dy}{dx}\right]\Bigg/\fp(t)
-        </me>.
+        </md>.
       </p>
     </insight>
 
@@ -780,12 +780,12 @@
       <solution>
         <p>
           We need to compute <m>\frac{dy}{dx}</m> and <m>\frac{d^2y}{dx^2}</m>.
-          <me>
+          <md>
             \frac{dy}{dx} = \frac{\yp(t)}{x'(t)} = \frac{\cos(t) }{1/(2\sqrt{t})} = 2\sqrt{t}\cos(t)
-          </me>.
-          <me>
+          </md>.
+          <md>
             \frac{d^2y}{dx^2} = \frac{\frac{d}{dt}\left[\frac{dy}{dx}\right]}{x'(t)} = \frac{\cos(t) /\sqrt{t}-2\sqrt{t}\sin(t) }{1/(2\sqrt{t})}=2\cos(t) -4t\sin(t)
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -801,9 +801,9 @@
           made only by looking at the graph.
           Newton's Method provides more accurate approximations.
           Accurate to 2 decimal places, we have:
-          <me>
+          <md>
             t=0.65,\,3.29,\,6.36,\,9.48,\,12.61\,\text{ and } \,15.74
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -949,9 +949,9 @@
       Recall in <xref ref="sec_arc_length"/>
       we found the arc length of the graph of a function,
       from <m>x=a</m> to <m>x=b</m>, to be
-      <me>
+      <md>
         L = \int_a^b\sqrt{1+\left(\frac{dy}{dx}\right)^2}\, dx
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -959,9 +959,9 @@
       Letting <m>x=f(t)</m> and <m>y=g(t)</m>,
       we know that <m>\frac{dy}{dx} = \gp(t)/\fp(t)</m>.
       It will also be useful to calculate the differential of <m>x</m>:
-      <me>
+      <md>
         dx = \fp(t)dt \qquad \Rightarrow \qquad dt = \frac{1}{\fp(t)}\cdot dx
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -993,9 +993,9 @@
           is
           <idx><h>parametric equations</h><h>arc length</h></idx>
           <idx><h>arc length</h></idx>
-          <me>
+          <md>
             L = \int_{t_1}^{t_2} \sqrt{\fp(t)^2+\gp(t)^2}\, dt
-          </me>.
+          </md>.
         </p>
       </statement>
     </theorem>
@@ -1196,30 +1196,30 @@
       <answer>
         <p>
           The correct arc length expression is
-          <me>
+          <md>
             \int_{-1}^{2}\sqrt{\left(3t^2-3\right)^2+\left(2t\right)^2}\,dt.
-          </me>
+          </md>
         </p>
       </answer>
 
       <solution>
         <p>
           For a parametric curve <m>x=x(t)</m>, <m>y=y(t)</m>, the arc length on <m>a\le t\le b</m> is
-          <me>
+          <md>
             L=\int_a^b \sqrt{\left(\frac{dx}{dt}\right)^2+\left(\frac{dy}{dt}\right)^2}\,dt.
-          </me>
+          </md>
         </p>
         <p>
           Here,
-          <me>
+          <md>
             \frac{dx}{dt}=3t^2-3,\qquad \frac{dy}{dt}=2t.
-          </me>
+          </md>
         </p>
         <p>
           Therefore,
-          <me>
+          <md>
             L=\int_{-1}^{2}\sqrt{\left(3t^2-3\right)^2+\left(2t\right)^2}\,dt.
-          </me>
+          </md>
         </p>
       </solution>
     </exercise>
@@ -1251,9 +1251,9 @@
               <p>
                 The surface area of the solid formed by revolving the graph about the <m>x</m>-axis is (where
                 <m>g(t)\geq 0</m> on <m>[t_1,t_2]</m>):
-                <me>
+                <md>
                   \text{ Surface Area }  = 2\pi\int_{t_1}^{t_2} g(t)\sqrt{\fp(t)^2+\gp(t)^2}\, dt
-                </me>.
+                </md>.
               </p>
             </li>
 
@@ -1261,9 +1261,9 @@
               <p>
                 The surface area of the solid formed by revolving the graph about the <m>y</m>-axis is (where
                 <m>f(t)\geq 0</m> on <m>[t_1,t_2]</m>):
-                <me>
+                <md>
                   \text{ Surface Area }  = 2\pi\int_{t_1}^{t_2} f(t)\sqrt{\fp(t)^2+\gp(t)^2}\, dt
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>

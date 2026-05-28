@@ -99,9 +99,9 @@
         <p>
           Plot the following polar coordinates:
           <idx><h>polar coordinates</h><h>plotting points</h></idx>
-          <me>
+          <md>
             A = P(1,\pi/4),\, B=P(1.5,\pi),\, C = P(2,-\pi/3),\, D = P(-1,\pi/4)
-          </me>
+          </md>
         </p>
       </statement>
       <solution>
@@ -298,17 +298,17 @@
       <p>
         Given the polar point <m>P(r,\theta)</m>,
         the rectangular coordinates are determined by
-        <me>
+        <md>
           x=r\cos(\theta) \qquad y=r\sin(\theta)
-        </me>.
+        </md>.
       </p>
 
       <p>
         Given the rectangular coordinates <m>(x,y)</m>,
         the polar coordinates are determined by
-        <me>
+        <md>
           r^2=x^2+y^2\qquad \tan(\theta) = \frac yx
-        </me>.
+        </md>.
       </p>
     </insight>
 
@@ -342,9 +342,9 @@
                     <p>
                       We start with <m>P(2,2\pi/3)</m>.
                       Using <xref ref="idea_polarconvert"/>, we have
-                      <me>
+                      <md>
                         x= 2\cos(2\pi/3) = -1\qquad y = 2\sin(2\pi/3) = \sqrt{3}
-                      </me>.
+                      </md>.
                       So the rectangular coordinates are <m>(-1,\sqrt{3}) \approx (-1,1.732)</m>.
                     </p>
                   </li>
@@ -352,9 +352,9 @@
                   <li>
                     <p>
                       The polar point <m>P(-1,5\pi/4)</m> is converted to rectangular with:
-                      <me>
+                      <md>
                         x=-1\cos(5\pi/4) = \sqrt{2}/2\qquad y= -1\sin(5\pi/4) = \sqrt{2}/2
-                      </me>.
+                      </md>.
                       So the rectangular coordinates are <m>(\sqrt{2}/2,\sqrt{2}/2) \approx (0.707,0.707)</m>.
                     </p>
                   </li>
@@ -477,14 +477,14 @@
                     <p>
                       To convert the rectangular point <m>(1,2)</m> to polar coordinates,
                       we use the Key Idea to form the following two equations:
-                      <me>
+                      <md>
                         1^2+2^2 = r^2 \qquad \tan(\theta) = \frac{2}{1}
-                      </me>.
+                      </md>.
                       The first equation tells us that <m>r=\sqrt{5}</m>.
                       Using the inverse tangent function, we find
-                      <me>
+                      <md>
                         \tan(\theta) = 2  \Rightarrow  \theta = \tan^{-1}(2) \approx 1.11\approx 63.43^\circ
-                      </me>.
+                      </md>.
                       Thus polar coordinates of <m>(1,2)</m> are <m>P(\sqrt{5},1.11)</m>.
                     </p>
                   </li>
@@ -492,15 +492,15 @@
                   <li>
                     <p>
                       To convert <m>(-1,1)</m> to polar coordinates, we form the equations
-                      <me>
+                      <md>
                         (-1)^2+1^2=r^2 \qquad \tan(\theta) = \frac{1}{-1}
-                      </me>.
+                      </md>.
                       Thus <m>r=\sqrt{2}</m>.
                       We need to be careful in computing <m>\theta</m>:
                       using the inverse tangent function, we have
-                      <me>
+                      <md>
                         \tan(\theta) = -1  \Rightarrow  \theta = \tan^{-1}(-1) = -\pi/4 = -45^\circ
-                      </me>.
+                      </md>.
                       This is not the angle we desire.
                       The range of <m>\tan^{-1}(x)</m> is <m>(-\pi/2,\pi/2)</m>;
                       that is, it returns angles that lie in the
@@ -590,9 +590,9 @@
                 <m>\pi/4 = 45^\circ</m> with the initial ray.
                 We can again consider the rectangular equivalent of this equation.
                 Combine <m>\tan(\theta) =y/x</m> and <m>\theta =\pi/4</m>:
-                <me>
+                <md>
                   \tan(\pi) /4 = y/x  \Rightarrow x\tan(\pi) /4 = y  \Rightarrow y = x
-                </me>.
+                </md>.
                 This graph is also plotted in <xref ref="fig_polar3"/>.
               </p>
 

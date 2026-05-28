@@ -3,9 +3,9 @@
   <title>Integration by Parts</title>
   <p>
     Here's a simple integral that we can't yet evaluate:
-    <me>
+    <md>
       \int x\cos(x) \,dx
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -29,34 +29,34 @@
     we've written <m>u</m> for <m>u(x)</m> and <m>v</m> for <m>v(x)</m>.
     Suppose we integrate both sides with respect to <m>x</m>.
     This gives
-    <me>
+    <md>
       \int (uv)'\,dx = \int (u'v+uv')\,dx
-    </me>.
+    </md>.
   </p>
 
   <p>
     By the Fundamental Theorem of Calculus,
     the left side integrates to <m>uv</m>.
     The right side can be broken up into two integrals, and we have
-    <me>
+    <md>
       uv = \int u'v\,dx + \int uv'\,dx
-    </me>.
+    </md>.
   </p>
 
   <p>
     Solving for the second integral we have
-    <me>
+    <md>
       \int uv'\,dx = uv - \int u'v\,dx
-    </me>.
+    </md>.
   </p>
 
   <p>
     Using differential notation,
     we can write <m>du = u'(x)dx</m> and
     <m>dv=v'(x)dx</m> and the expression above can be written as follows:
-    <me>
+    <md>
       \int u\,dv = uv - \int v\,du
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -71,13 +71,13 @@
         Let <m>u</m> and <m>v</m> be differentiable functions of
         <m>x</m> on an interval <m>I</m> containing <m>a</m> and <m>b</m>.
         Then
-        <me>
+        <md>
           \int u\, dv = uv - \int v\, du
-        </me>,
+        </md>,
         and <idx><h>integration</h><h>by parts</h></idx>
-        <me>
+        <md>
           \int_{x=a}^{x=b} u\, dv = uv\Big|_a^b - \int_{x=a}^{x=b}v\, du
-        </me>.
+        </md>.
       </p>
     </statement>
   </theorem>
@@ -163,17 +163,17 @@
 
       <p>
         Now substitute all of this into the Integration by Parts formula, giving
-        <me>
+        <md>
           \int x\cos(x)\,dx = x\sin(x) - \int \sin(x) \,dx
-        </me>.
+        </md>.
       </p>
 
       <p>
         We can then integrate <m>\sin(x)</m> to get
         <m>-\cos(x) + C</m> and overall our answer is
-        <me>
+        <md>
           \int x\cos(x)\, dx = x\sin(x) + \cos(x) + C
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -202,9 +202,9 @@
     <m>dv=x \, dx</m> then <m>du=-\sin(x)\, dx</m> and <m>v=x^2/2</m>.
     Our second integral is not simpler than the first;
     we would have
-    <me>
+    <md>
       \int x\cos(x)\,dx=\cos(x)\frac{x^2}{2}-\int \frac{x^2}{2}\left(-\sin(x)\right)\,dx
-    </me>.
+    </md>.
     The only way to approach this second integral would be yet another integration by parts.
   </p>
 
@@ -321,16 +321,16 @@
         while there is no change in going from <m>dv</m> to <m>v</m>.
         This is good.
         The Integration by Parts formula gives
-        <me>
+        <md>
           \int x e^x\,dx = xe^x - \int e^x\,dx
-        </me>.
+        </md>.
       </p>
 
       <p>
         The integral on the right is simple; our final answer is
-        <me>
+        <md>
           \int xe^x\, dx = xe^x - e^x + C
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -378,9 +378,9 @@
 
       <p>
         The Integration by Parts formula gives
-        <me>
+        <md>
           \int x^2\cos(x)\,dx = x^2\sin(x) - \int 2x\sin(x)\,dx
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -417,9 +417,9 @@
       </figure>
 
       <p>
-        <me>
+        <md>
           \int x^2\cos(x)\,dx = x^2\sin(x) - \left(-2x\cos(x) - \int -2\cos(x)\,dx\right)
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -427,9 +427,9 @@
         It evaluates to <m>-2\sin(x)</m>.
         Then going through and simplifying,
         being careful to keep all the signs straight, our answer is
-        <me>
+        <md>
           \int x^2\cos(x)\, dx = x^2\sin(x)  + 2x\cos(x) - 2\sin(x) + C
-        </me>.
+        </md>.
       </p>
     </solution>
     <solution component="video" vshift="3">
@@ -485,9 +485,9 @@
         going against our general rule
         (but bear with us).
         The Integration by Parts formula yields
-        <me>
+        <md>
           \int e^x\cos(x)\, dx = e^x\sin(x) - \int e^x\sin(x)\,dx
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -547,9 +547,9 @@
 
       <p>
         Simplifying a little, our answer is thus
-        <me>
+        <md>
           \int e^x\cos(x)\, dx = \frac12e^x\left(\sin(x) + \cos(x)\right)+C
-        </me>.
+        </md>.
       </p>
     </solution>
     <solution component="video" vshift="3">
@@ -603,18 +603,18 @@
       <p>
         Putting this all together in the Integration by Parts formula,
         things work out very nicely:
-        <me>
+        <md>
           \int \ln(x)\,dx = x\ln(x) - \int x\,\frac1x\,dx
-        </me>.
+        </md>.
       </p>
 
       <p>
         The new integral simplifies to <m>\int 1\,dx</m>,
         which is about as simple as things get.
         Its integral is <m>x+C</m> and our answer is
-        <me>
+        <md>
           \int \ln(x) \, dx = x\ln(x) - x + C
-        </me>.
+        </md>.
       </p>
     </solution>
     <solution component="video" vshift="3">
@@ -636,18 +636,18 @@
         Let <m>u=\arctan x</m> and <m>dv=dx</m>.
         Then <m>du=1/(1+x^2)\,dx</m> and <m>v=x</m>.
         The Integration by Parts formula gives
-        <me>
+        <md>
           \int \arctan x \,dx = x\arctan x - \int \frac x{1+x^2}\,dx
-        </me>.
+        </md>.
       </p>
 
       <p>
         The integral on the right can be solved by substitution.
         Taking <m>w=1+x^2</m>, we get <m>dw=2x\,dx</m>.
         The integral then becomes
-        <me>
+        <md>
           \int \arctan x \,dx = x\arctan x - \frac12\int \frac 1{w}\,dw
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -655,9 +655,9 @@
         which becomes <m>\ln(1+x^2)+C</m>
         (we can drop the absolute values as <m>1+x^2</m> is always positive).
         Therefore, the answer is
-        <me>
+        <md>
           \int \arctan x\, dx = x\arctan x - \frac12\ln(1+x^2) + C
-        </me>.
+        </md>.
       </p>
     </solution>
     <solution component="video" vshift="3">
@@ -703,9 +703,9 @@
           Letting <m>u=\ln(x)</m>, we have <m>du = 1/x\, dx</m>.
           This seems problematic, as we do not have a <m>1/x</m> in the integrand.
           But consider:
-          <me>
+          <md>
             du = \frac 1x\, dx \quad \Rightarrow \quad x\cdot du = dx
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -721,9 +721,9 @@
         <p>
           We can thus replace <m>\ln(x)</m> with <m>u</m> and <m>dx</m> with <m>e^u\, du</m>.
           Thus we rewrite our integral as
-          <me>
+          <md>
             \int \cos(\ln(x))\, dx = \int e^u\cos u \, du
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -821,9 +821,9 @@
       and experience will tell us when one tool is preferable/necessary over another.
       For instance,
       consider the three similar-looking integrals
-      <me>
+      <md>
         \int xe^x\,dx, \qquad  \int x e^{x^2}\,dx \qquad \text{ and }  \qquad \int xe^{x^3}\,dx
-      </me>.
+      </md>.
     </p>
 
     <p>

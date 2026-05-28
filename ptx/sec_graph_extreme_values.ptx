@@ -825,9 +825,9 @@
     <statement>
       <p>
         Find the maximum and minimum values of <m>f</m> on <m>[-4,2]</m>, where
-        <me>
+        <md>
           f(x) = \begin{cases}(x-1)^2 \amp  x\leq 0 \\ x+1 \amp  x \gt 0\end{cases}
-        </me>.
+        </md>.
 
       </p>
     </statement>
@@ -849,9 +849,9 @@
       <p>
         We now find the critical numbers of <m>f</m>.
         We have to define <m>\fp</m> in a piecewise manner; it is
-        <me>
+        <md>
           \fp(x) =\begin{cases}2(x-1) \amp  x \lt  0 \\ 1 \amp  x \gt 0\end{cases}
-        </me>.
+        </md>.
       </p>
 
       <p>

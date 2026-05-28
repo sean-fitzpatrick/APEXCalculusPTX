@@ -87,9 +87,9 @@
         <quantity>
           <mag>5</mag><unit base="inch"/><per base="hour"/>
         </quantity>, we know
-        <me>
+        <md>
           \lz{C}{t} = 2\pi 5 = 10\pi \approx 31.4\text{ in/hr }
-        </me>.
+        </md>.
       </p>
 
       <p xml:id="vidint_deriv_apps_rel_rates_circ_area" component="video">
@@ -219,9 +219,9 @@
               <quantity>
                 <mag>2</mag><unit base="inch" exp="3"/><per base="second"/>
               </quantity>, where
-              <me>
+              <md>
                 \text{volume of puddle}=\text{area of circle}\times\text{depth}
-              </me>.
+              </md>.
               Since the depth is constant at
               <quantity>
                 <mag>1/8</mag><unit base="inch"/>
@@ -301,13 +301,13 @@
                 <mag>2</mag><unit base="inch" exp="3"/><per base="second"/>
               </quantity>.
               So we have:
-              <me>
+              <md>
                 2 = \frac14 \pi r\lz{r}{t}
-              </me>
+              </md>
               Solving for <m>\lz{r}{t}</m>, we have
-              <me>
+              <md>
                 \lz{r}{t} = \frac{8}{\pi r}
-              </me>.
+              </md>.
               Note how our answer is not a number,
               but rather a function of <m>r</m>.
               In other words,
@@ -331,9 +331,9 @@
               <quantity>
                 <mag>10</mag><unit base="inch"/>
               </quantity>, the radius is growing at a rate of
-              <me>
+              <md>
                 \lz{r}{t} = \frac{8}{10\pi} = \frac{4}{5\pi} \approx 0.25\text{ in/s }
-              </me>.
+              </md>.
             </p>
           </li>
         </ol>
@@ -678,9 +678,9 @@
       <p>
         We have values for everything except <m>\lz{B}{t}</m>.
         Solving for this we have:
-        <me>
+        <md>
           \lz{B}{t} = \frac{C\lz{C}{t}- A\lz{A}{t}}{B}
-        </me>.
+        </md>.
         Now we substitue in our known rates and instantaneous values of our
         variables:
         <md>
@@ -769,9 +769,9 @@
         suggests we use a trigonometric equation.
         Letting <m>x</m> represent the distance the car is from the point on the
         road directly in front of the camera, we have
-        <men xml:id="eq_rr4">
+        <md number="yes" xml:id="eq_rr4">
           \tan(\theta) = \frac{x}{10}
-        </men>.
+        </md>.
       </p>
 
       <p>
@@ -783,9 +783,9 @@
           <mrow>\sec^2(\theta)\lz{\theta}{t} \amp = \frac{1}{10}\lz{x}{t}</mrow>
         </md>
         Now we solve for <m>\lz{\theta}{t}</m>:
-        <men xml:id="eq_rr4b">
+        <md number="yes" xml:id="eq_rr4b">
           \lz{\theta}{t} = \frac{\cos^2(\theta)}{10}\lz{x}{t}
-        </men>
+        </md>
       </p>
 
       <p>

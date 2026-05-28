@@ -170,9 +170,9 @@
     <aside vshift="-2">
       <p>
         Alternate notations for <m>f_x(x,y)</m> include:
-        <me>
+        <md>
           \frac{\partial}{\partial x}f(x,y),\,\,\frac{\pf}{\px},\,\,\frac{\pz}{\px},\,\,\text{ and } \,z_x
-        </me>,
+        </md>,
         with similar notations for <m>f_y(x,y)</m>.
         For ease of notation, <m>f_x(x,y)</m> is often abbreviated <m>f_x</m>.
       </p>
@@ -190,18 +190,18 @@
             <li>
               <p>
                 The <em>partial derivative of <m>f</m> with respect to <m>x</m></em> is:
-                <me>
+                <md>
                   f_x(x,y) = \lim_{h\to 0} \frac{f(x+h,y) - f(x,y)}h
-                </me>.
+                </md>.
               </p>
             </li>
 
             <li>
               <p>
                 The <em>partial derivative of <m>f</m> with respect to <m>y</m></em> is:
-                <me>
+                <md>
                   f_y(x,y) = \lim_{h\to 0} \frac{f(x,y+h) - f(x,y)}h
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
@@ -289,14 +289,14 @@
                 Begin with <m>f_x(x,y)</m>.
                 Keep <m>y</m> fixed,
                 treating it as a constant or coefficient, as appropriate:
-                <me>
+                <md>
                   f_x(x,y) = 3x^2y^2-1
-                </me>.
+                </md>.
                 Note how the <m>5y^2</m> and <m>7</m> terms go to zero.
                 To compute <m>f_y(x,y)</m>, we hold <m>x</m> fixed:
-                <me>
+                <md>
                   f_y(x,y) = 2x^3y+10y
-                </me>.
+                </md>.
                 Note how the <m>-x</m> and <m>7</m> terms go to zero.
               </p>
             </li>
@@ -306,17 +306,17 @@
                 We have <m>f(x,y) = \cos(xy^2)+\sin(x)</m>.
 
                 Begin with <m>f_x(x,y)</m>. We need to apply the Chain Rule with the cosine term; <m>y^2</m> is the coefficient of the <m>x</m>-term inside the cosine function.
-                <me>
+                <md>
                   f_x(x,y) = -\sin(xy^2)(y^2)+\cos(x) = -y^2\sin(xy^2)+\cos(x)
-                </me>.
+                </md>.
                 To find <m>f_y(x,y)</m>,
                 note that <m>x</m> is the coefficient of the <m>y^2</m> term inside of the cosine term;
                 also note that since <m>x</m> is fixed,
                 <m>\sin(x)</m> is also fixed,
                 and we treat it as a constant.
-                <me>
+                <md>
                   f_y(x,y) = -\sin(xy^2)(2xy) = -2xy\sin(xy^2)
-                </me>.
+                </md>.
               </p>
             </li>
 
@@ -332,9 +332,9 @@
                 Note that when finding <m>f_y(x,y)</m> we do not have to apply the Product Rule;
                 since <m>\sqrt{x^2+1}</m> does not contain <m>y</m>,
                 we treat it as fixed and hence becomes a coefficient of the <m>e^{x^2y^3}</m> term.
-                <me>
+                <md>
                   f_y(x,y) = e^{x^2y^3}(3x^2y^2)\sqrt{x^2+1} = 3x^2y^2e^{x^2y^3}\sqrt{x^2+1}
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
@@ -398,9 +398,9 @@
         <p>
           We begin by computing <m>f_x(x,y) = -2x+y</m> and <m>f_y(x,y) = -y+x</m>.
           Thus
-          <me>
+          <md>
             f_x(2,1) = -3  \text{ and }  f_y(2,1) = 1
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -612,17 +612,17 @@
       notice that in <m>\vec{r}_1(s)</m> we vary the <m>x</m>-component of <m>f</m> while holding the <m>y</m>-component constant.
       Using the Chain Rule and <xref ref="def_partial_derivative"/>,
       we find that the third component is <m>f_x(a+s,b)</m>. Altogether, we have
-			<me>
+			<md>
 			\vec{r}_1'(s) = \la 1,0,f_x(a+s,b)\ra
-			</me>.
+			</md>.
 			Evaluating this at <m>s=0</m> gives
-      <me>
+      <md>
         \vec{v}=\vec{r}_1'(0) = \la 1,0,f_x(a,b)\ra
-      </me>.
+      </md>.
       We can perform a similar process with <m>\vec{r}_2(t)</m>, ultimately leading to
-      <me>
+      <md>
         \vec{w}=\vec{r}_2'(0) = \la 0,1,f_y(a,b)\ra
-      </me>.
+      </md>.
       From <xref ref="sec_vvf_calc"/>,
       we know that <m>\vec{r}_1'(0)</m> defines a tangent vector to the curve <m>\vec{r}_1(s)</m> when <m>s=0</m>,
       and similarly, <m>\vec{r}_2'(0)</m> defines a tangent vector to the curve <m>\vec{r}_2(t)</m> when <m>t=0</m>.
@@ -636,16 +636,16 @@
       From <xref ref="sec_planes"/> we know that any two non-parallel vectors at a point define a plane through that point.
       We also know that taking the cross product of these two vectors gives us a normal vector:
       the cross product gives us
-      <me>
+      <md>
         \vec{n}=\vec{v}\times\vec{w}=\la -f_x(a,b), -f_y(a,b), 1\ra
-      </me>.
+      </md>.
     </p>
 
     <p>
       The equation of the plane through <m>(a,b,f(a,b))</m> with normal vector <m>\vec{n}=\la -f_x(a,b),-f_y(a,b),1\ra</m> is
-      <me>
+      <md>
         -f_x(a,b)(x-a)-f_y(a,b)(y-b)+(z-f(a,b))=0
-      </me>.
+      </md>.
       It is customary to solve for <m>z</m> in this equation and make the following definition.
     </p>
 
@@ -654,9 +654,9 @@
         <p>
           Let <m>f(x,y)</m> be a function whose first-order partial derivatives exist at <m>(a,b)</m>.
           The <term>tangent plane</term> to the surface <m>z=f(x,y)</m> at the point <m>(a,b,f(a,b))</m> is the plane defined by the equation
-          <me>
+          <md>
             z = f(a,b)+f_x(a,b)(x-a)+f_y(a,b)(y-b)
-          </me>.
+          </md>.
           <idx><h>tangent plane</h></idx>
           <idx><h>tangent plane</h><h>to a graph</h></idx>
         </p>
@@ -677,9 +677,9 @@
           The partial derivatives are <m>f_x(x,y)=2x</m> and <m>f_y(x,y)=6y</m>,
           so <m>f_x(1,-1)=2</m>, <m>f_y(1,-1)=-6</m>.
           Using <xref ref="def-tangent-plane"/>, our plane is given by
-          <me>
+          <md>
             z = 4+2(x-1)-6(y+1)
-          </me>.
+          </md>.
         </p>
       </solution>
     </example>
@@ -717,18 +717,18 @@
             <li>
               <p>
                 The <em>second partial derivative of <m>f</m> with respect to <m>x</m> then <m>x</m></em> is
-                <me>
+                <md>
                   \frac{\partial}{\partial x}\left(\frac{\partial f}{\px}\right) = \frac{\partial^2 f}{\px^2} = \big(\,f_x\,\big)_x = f_{xx}
-                </me>
+                </md>
               </p>
             </li>
 
             <li>
               <p>
                 The <em>second partial derivative of <m>f</m> with respect to <m>x</m> then <m>y</m></em> is
-                <me>
+                <md>
                   \frac{\partial}{\partial y}\left(\frac{\partial f}{\px}\right) = \frac{\partial^2f}{\py\px} = \big(\,f_x\,\big)_y = f_{xy}
-                </me>
+                </md>
               </p>
             </li>
           </ol>
@@ -775,9 +775,9 @@
         <p>
           For each of the following, find all six first and second partial derivatives.
           That is, find
-          <me>
+          <md>
             f_x, f_y, f_{xx}, f_{yy}, f_{xy} \text{ and }  f_{yx}\,
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -961,9 +961,9 @@
           <m>f_x(x,y) = 2x+y</m>,<m>f_y(x,y) = -2y+x</m>,<m>f_{xx}(x,y) = 2</m>,
           <m>f_{yy}(x,y) = -2</m> and <m>f_{xy}(x,y) = f_{yx}(x,y) = 1</m>.
           Thus at <m>(-1/2,1/2)</m> we have
-          <me>
+          <md>
             f_x(-1/2,1/2) = -1/2,\qquad f_y(-1/2,1/2) = -3/2
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1212,9 +1212,9 @@
 
         <p>
           The <term>partial derivative of <m>f</m> with respect to <m>x</m></term> is:
-          <me>
+          <md>
             f_x(x,y,z) = \lim_{h\to 0} \frac{f(x+h,y,z)-f(x,y,z)}{h}
-          </me>.
+          </md>.
         </p>
 
         <p>

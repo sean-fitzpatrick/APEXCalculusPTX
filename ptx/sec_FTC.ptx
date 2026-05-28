@@ -287,13 +287,13 @@
 
           <idx><h>integration</h><h>Fun. Thm. of Calc.</h></idx>
 
-          <me>
+          <md>
             \Fp(x)=f(x)
-          </me>.
+          </md>.
           In other words:
-          <me>
+          <md>
             \lzoo{x}{\int_a^x f(t)\, dt}=f(x)
-          </me>.
+          </md>.
         </p>
       </statement>
     </theorem>
@@ -516,9 +516,9 @@
       <m>b</m> and <m>c</m>.
       Suppose we want to compute <m>\int_a^b f(t)\, dt</m>.
       First, let
-      <men xml:id="eq_ftc_c">
+      <md number="yes" xml:id="eq_ftc_c">
         F(x) = \int_c^x f(t)\, dt
-      </men>.
+      </md>.
       Using the properties of the definite integral found in <xref ref="thm_defintprop"/>, we know
       <md>
         <mrow>\int_a^b f(t)\, dt \amp = \int_a^c f(t)\, dt + \int_c^b f(t)\, dt</mrow>
@@ -554,9 +554,9 @@
 
           <idx><h>integration</h><h>Fun. Thm. of Calc.</h></idx>
 
-          <me>
+          <md>
             \int_a^b f(x)\, dx = F(b) - F(a)
-          </me>.
+          </md>.
         </p>
       </statement>
     </theorem>
@@ -744,9 +744,9 @@
 
     <p>
       The Fundamental Theorem of Calculus states that
-      <me>
+      <md>
         \int_a^b v(t)\, dt = V(b) - V(a)
-      </me>,
+      </md>,
       where <m>V(t)</m> is any antiderivative of <m>v(t)</m>.
       Since <m>v(t)</m> is a velocity function,
       <m>V(t)</m> must be a position function,
@@ -945,9 +945,9 @@
       integrating an acceleration function gives total change in velocity.
       We do not have a simple term for this analogous to displacement.
       If <m>a(t) = 5</m>miles/h<m>^2</m> and <m>t</m> is measured in hours, then
-      <me>
+      <md>
         \int_0^3 a(t)\, dt = 15
-      </me>
+      </md>
       means the velocity has increased by 15m/h from <m>t=0</m> to <m>t=3</m>.
     </p>
   </subsection>
@@ -956,13 +956,13 @@
     <title>The Fundamental Theorem of Calculus and the Chain Rule</title>
     <p>
       Part 1 of the Fundamental Theorem of Calculus (FTC) states that given
-      <me>
+      <md>
         F(x) = \int_a^x f(t)\, dt
-      </me>,
+      </md>,
       we have <m>\Fp(x) = f(x)</m>. Using other notation,
-      <me>
+      <md>
         \lzoo{x}{F(x)}=\lzoo{x}{\int_a^x f(t)\, dt} = f(x)
-      </me>.
+      </md>.
       While we have just practiced evaluating definite integrals,
       sometimes finding antiderivatives is impossible and we need to rely on other techniques to approximate the value of a definite integral.
       Functions written as <m>F(x) = \int_a^x f(t)\, dt</m> are useful in such situations.
@@ -971,18 +971,18 @@
     <p>
       It may be of further use to compose such a function with another.
       As an example, we may compose <m>F(x)</m> with <m>g(x)</m> to get
-      <me>
+      <md>
         F\big(g(x)\big) = \int_a^{g(x)} f(t)\, dt
-      </me>.
+      </md>.
     </p>
 
     <p>
       What is the derivative of such a function?
           <idx><h>Fundamental Theorem of Calculus</h><h>and Chain Rule</h></idx>
       The Chain Rule can be employed to state
-      <me>
+      <md>
         \frac{d}{dx}\Big(F\big(g(x)\big)\Big) = \Fp\big(g(x)\big)\gp(x) = f\big(g(x)\big)\gp(x)
-      </me>.
+      </md>.
     </p>
 
     <figure xml:id="vid_int_FTC_chain_rule_FTC" component="video" vshift="0">
@@ -1189,16 +1189,16 @@
       The area can be found by recognizing that this area is
       <q>the area under <m>f</m> <m>-</m> the area under <m>g</m>.</q>
       Using mathematical notation, the area is
-      <me>
+      <md>
         \int_a^b f(x)\, dx - \int_a^b g(x)\, dx
-      </me>.
+      </md>.
     </p>
 
     <p>
       Properties of the definite integral allow us to simplify this expression to
-      <me>
+      <md>
         \int_a^b\big(f(x) - g(x)\big)\, dx
-      </me>.
+      </md>.
     </p>
 
     <theorem xml:id="thm_areabtwncurves">
@@ -1209,9 +1209,9 @@
           <m>f(x)\geq g(x)</m> for all <m>x</m> in <m>[a,b]</m>.
           The area of the region bounded by the curves <m>y=f(x)</m>,
           <m>y=g(x)</m> and the lines <m>x=a</m> and <m>x=b</m> is
-          <me>
+          <md>
             \int_a^b \big(f(x)-g(x)\big)\, dx
-          </me>.
+          </md>.
         </p>
       </statement>
     </theorem>
@@ -1520,9 +1520,9 @@
               <idx><h>Mean Value Theorem</h><h>of integration</h></idx>
               <idx><h>integration</h><h>Mean Value Theorem</h></idx>
           There exists a value <m>c</m> in <m>[a,b]</m> such that
-          <me>
+          <md>
             \int_a^bf(x)\, dx = f(c)(b-a)
-          </me>.
+          </md>.
         </p>
       </statement>
     </theorem>
@@ -1568,16 +1568,16 @@
         <p>
           We first need to evaluate <m>\int_0^\pi \sin(x) \, dx</m>.
           (This was previously done in <xref ref="ex_ftc4"/>.)
-          <me>
+          <md>
             \int_0^\pi\sin(x) \, dx =	-\cos(x) \Big|_0^\pi = 2
-          </me>.
+          </md>.
         </p>
 
         <p>
           Thus we seek a value <m>c</m> in <m>[0,\pi]</m> such that <m>\pi\sin(c) =2</m>.
-          <me>
+          <md>
             \pi\sin(c) = 2\,\,\Rightarrow\,\,\sin(c) = 2/\pi\,\,\Rightarrow\,\,c = \arcsin(2/\pi) \approx 0.69
-          </me>.
+          </md>.
         </p>
 
         <figure xml:id="fig_ftc8" vshift="0">
@@ -1768,9 +1768,9 @@
     <p>
       The value <m>f(c)</m> is the average value in another sense.
       First, recognize that the Mean Value Theorem can be rewritten as
-      <me>
+      <md>
         f(c) = \frac{1}{b-a}\int_a^b f(x)\, dx
-      </me>,
+      </md>,
       for some value of <m>c</m> in <m>[a,b]</m>.
 
 <!--ToDo: have Greg review the change here. This was made during the previous conversion.-->
@@ -1795,9 +1795,9 @@
       (which is again infinite).
     </p>
       <!--Next, partition the interval <m>[a,b]</m> into <m>n</m> equally spaced subintervals, <m>a=x_1 \lt  x_2 \lt  \ldots \lt  x_{n+1}=b</m> and choose any <m>c_i</m> in <m>[x_i,x_{i+1}]</m>. The average of the numbers <m>f(c_1)</m>, <m>f(c_2)</m>, <ellipsis />, <m>f(c_n)</m> is:
-      <me>
+      <md>
         \frac1n\Big(f(c_1) + f(c_2) + \ldots + f(c_n)\Big) = \frac1n\sum_{i=1}^n f(c_i).
-      </me>
+      </md>
     </p>
 
     <p>Multiply this last expression by 1 in the form of <m>\frac{(b-a)}{(b-a)}</m>:
@@ -1810,9 +1810,9 @@
     </p>
 
     <p>Now take the limit as <m>n\to\infty</m>:
-      <me>
+      <md>
         \lim_{n\to\infty} \frac{1}{b-a} \sum_{i=1}^n f(c_i)\Delta x  =  \frac{1}{b-a} \int_a^b f(x)\, dx =   f(c).
-      </me>
+      </md>
     </p>
 
     <p>This tells us this: when we evaluate <m>f</m> at <m>n</m> (somewhat) equally spaced points in <m>[a,b]</m>, the average value of these samples is <m>f(c)</m> as <m>n\to\infty</m>.</p>-->
@@ -1830,9 +1830,9 @@
               <idx><h>integration</h><h>average value</h></idx>
               <idx><h>average value of function</h></idx>
           <ie/>,
-          <me>
+          <md>
             \text{ Average Value of \(f\) on \([a,b]\) }  = \frac{1}{b-a}\int_a^b f(x)\, dx
-          </me>.
+          </md>.
         </p>
       </statement>
     </definition>

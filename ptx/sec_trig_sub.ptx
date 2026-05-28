@@ -9,9 +9,9 @@
     so we only evaluated special definite integrals which described nice,
     geometric shapes.
     For instance, we were able to evaluate
-    <men xml:id="eq_trigsub1">
+    <md number="yes" xml:id="eq_trigsub1">
       \int_{-3}^3\sqrt{9-x^2}\, dx = \frac{9\pi}{2}
-    </men>
+    </md>
     as we recognized that <m>f(x) = \sqrt{9-x^2}</m> described the upper half of a circle with radius 3.
   </p>
 
@@ -342,9 +342,9 @@
       <p>
         The reference triangle given in <xref ref="fig_trigsub_intro3"/> helps.
         With <m>x=\sqrt{5}\tan(\theta)</m>, we have
-        <me>
+        <md>
           \tan(\theta) = \frac x{\sqrt{5}} \text{ and }  \sec(\theta) = \frac{\sqrt{x^2+5}}{\sqrt{5}}
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -412,9 +412,9 @@
       <p>
         We integrated <m>\sec^3(\theta)</m> in <xref ref="ex_trigint6"/>,
         finding its antiderivatives to be
-        <me>
+        <md>
           \int \sec^3(\theta) \, d\theta = \frac12\Big(\sec(\theta) \tan(\theta) + \ln\abs{\sec(\theta) +\tan(\theta) }\Big)+C
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -434,9 +434,9 @@
         We need to rewrite our answer in terms of <m>x</m>.
         With <m>a=1/2</m>, and <m>x=\frac12\sec(\theta)</m>,
         the reference triangle in <xref ref="fig_trigsub_intro2"/> shows that
-        <me>
+        <md>
           \tan(\theta) = \sqrt{x^2-1/4}\Big/(1/2) = 2\sqrt{x^2-1/4} \text{ and }  \sec(\theta) = 2x
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -450,9 +450,9 @@
 
       <p>
         The final answer is given in the last line above, repeated here:
-        <me>
+        <md>
           \int \sqrt{4x^2-1}\, dx = \frac14\Big(4x\sqrt{x^2-1/4} - \ln\abs{2x + 2\sqrt{x^2-1/4}}\Big)+C
-        </me>.
+        </md>.
       </p>
     </solution>
     <solution component="video" vshift="3">
@@ -487,9 +487,9 @@
         Using the reference triangle found in <xref ref="fig_trigsub_intro1"/>,
         we have <m>\cot(\theta) = \sqrt{4-x^2}/x</m> and <m>\theta = \sin^{-1}(x/2)</m>.
         Thus
-        <me>
+        <md>
           \int \frac{\sqrt{4-x^2}}{x^2}\, dx = -\frac{\sqrt{4-x^2}}x-\sin^{-1}\left(\frac x2\right) + C
-        </me>.
+        </md>.
       </p>
     </solution>
     <solution component="video" vshift="3">
@@ -555,16 +555,16 @@
         We start by completing the square,
         then make the substitution <m>u=x+3</m>,
         followed by the trigonometric substitution of <m>u=\tan(\theta)</m>:
-        <mdn>
-          <mrow number="no">\int \frac1{(x^2+6x+10)^2}\, dx =\int \frac1{\big((x+3)^2+1\big)^2}\, dx\amp = \int \frac1{(u^2+1)^2}\,du.</mrow>
+        <md>
+          <mrow>\int \frac1{(x^2+6x+10)^2}\, dx =\int \frac1{\big((x+3)^2+1\big)^2}\, dx\amp = \int \frac1{(u^2+1)^2}\,du.</mrow>
           <intertext>Now make the substitution <m>u=\tan(\theta)</m>, <m>du=\sec^2(\theta) \, d\theta</m>:</intertext>
-          <mrow number="no">\amp =	\int \frac1{(\tan^2(\theta) +1)^2}\sec^2(\theta) \, d\theta</mrow>
-          <mrow number="no">\amp = \int\frac 1{(\sec^2(\theta) )^2}\sec^2(\theta) \, d\theta</mrow>
-          <mrow number="no">\amp = \int \cos^2(\theta) \, d\theta.</mrow>
+          <mrow>\amp =	\int \frac1{(\tan^2(\theta) +1)^2}\sec^2(\theta) \, d\theta</mrow>
+          <mrow>\amp = \int\frac 1{(\sec^2(\theta) )^2}\sec^2(\theta) \, d\theta</mrow>
+          <mrow>\amp = \int \cos^2(\theta) \, d\theta.</mrow>
           <intertext>Applying a power reducing formula, we have</intertext>
-          <mrow number="no">\amp = \int \left(\frac12 +\frac12\cos(2\theta)\right)\, d\theta</mrow>
-          <mrow xml:id="eq_extrigsub7">\amp = \frac12\theta + \frac14\sin(2\theta) + C</mrow>
-        </mdn>.
+          <mrow>\amp = \int \left(\frac12 +\frac12\cos(2\theta)\right)\, d\theta</mrow>
+          <mrow number="yes" xml:id="eq_extrigsub7">\amp = \frac12\theta + \frac14\sin(2\theta) + C</mrow>
+        </md>.
       </p>
 
       <p>
@@ -572,9 +572,9 @@
         As <m>u=\tan(\theta)</m>, <m>\theta = \tan^{-1}(u)</m>.
         Using the identity <m>\sin(2\theta) = 2\sin(\theta) \cos(\theta)</m> and using the reference triangle found in
         <xref ref="fig_trigsub_intro3"/>, we have
-        <me>
+        <md>
           \frac14\sin(2\theta) = \frac12\frac u{\sqrt{u^2+1}}\cdot\frac 1{\sqrt{u^2+1}} = \frac12\frac u{u^2+1}
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -588,9 +588,9 @@
 
       <p>
         Stating our final result in one line,
-        <me>
+        <md>
           \int\frac1{(x^2+6x+10)^2}\, dx=\frac12\tan^{-1}(x+3) + \frac{x+3}{2(x^2+6x+10)}+C
-        </me>.
+        </md>.
       </p>
     </solution>
     <solution component="video" vshift="3">
@@ -680,9 +680,9 @@
 
       <p>
         We encountered this indefinite integral in <xref ref="ex_trigsub2"/> where we found
-        <me>
+        <md>
           \int \tan^2(\theta) \sec(\theta) \, d\theta = \frac12\big(\sec(\theta) \tan(\theta) -\ln\abs{\sec(\theta) +\tan(\theta) }\big)
-        </me>.
+        </md>.
       </p>
 
       <p>

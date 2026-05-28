@@ -10,9 +10,9 @@
       <m>V = \iint_R f(x,y)\, dA</m>.
       It follows naturally that if <m>f(x,y)\geq g(x,y)</m> on <m>R</m>,
       then the <em>volume between <m>f(x,y)</m> and <m>g(x,y)</m> on <m>R</m></em> is
-      <me>
+      <md>
         V = \iint_R f(x,y)\, dA - \iint_R g(x,y)\, dA = \iint_R \big(f(x,y)-g(x,y)\big)\, dA
-      </me>.
+      </md>.
     </p>
 
     <theorem xml:id="thm_volume_between_surfaces">
@@ -24,9 +24,9 @@
           where <m>f(x,y)\geq g(x,y)</m> for all <m>(x,y)</m> in <m>R</m>.
           The volume <m>V</m> between <m>f</m> and <m>g</m> over <m>R</m> is
               <idx><h>volume</h></idx>
-          <me>
+          <md>
             V =\iint_R \big(f(x,y)-g(x,y)\big)\, dA
-          </me>.
+          </md>.
         </p>
       </statement>
     </theorem>
@@ -254,24 +254,24 @@
 
     <p>
       In the preceding example, we found the volume by evaluating the integral
-      <me>
+      <md>
         \ds \int_0^2\int_0^{4-2x} \big(8-3x-2y-(3x+y-4)\big)\, dy\, dx
-      </me>.
+      </md>.
     </p>
 
     <p>
       Note how we can rewrite the integrand as an integral,
       much as we did in <xref ref="sec_iterated_integrals"/>:
-      <me>
+      <md>
         8-3x-2y-(3x+y-4) = \int_{3x+y-4}^{8-3x-2y}\, dz
-      </me>.
+      </md>.
     </p>
 
     <p>
       Thus we can rewrite the double integral that finds volume as
-      <me>
+      <md>
         \int_0^2\int_0^{4-2x} \big(8-3x-2y-(3x+y-4)\big)\, dy\, dx = \int_0^2\int_0^{4-2x}\left(\int_{3x+y-4}^{8-3x-2y}\, dz\right)\, dy\, dx
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -444,9 +444,9 @@
       <m>y</m> and <m>z</m> directions, respectively.
       By summing up the volumes of all <m>n</m> solids,
       we get an approximation of the volume <m>V</m> of <m>D</m>:
-      <me>
+      <md>
         V \approx \sum_{i=1}^n \Delta V_i = \sum_{i=1}^n \dx_i\dy_i\ddz_i
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -480,18 +480,18 @@
               <p>
                 The volume <m>V</m> of <m>D</m> is denoted by a
                 <em>triple integral</em>,
-                <me>
+                <md>
                   V = \iiint_D dV
-                </me>.
+                </md>.
               </p>
             </li>
 
             <li>
               <p>
                 The iterated integral <m>\ds \int_a^b\int_{g_1(x)}^{g_2(x)}\int_{f_1(x,y)}^{f_2(x,y)} \, dz\, dy\, dx</m> is evaluated as
-                <me>
+                <md>
                   \int_a^b\int_{g_1(x)}^{g_2(x)}\int_{f_1(x,y)}^{f_2(x,y)} \, dz\, dy\, dx=\int_a^b\int_{g_1(x)}^{g_2(x)}\left(\int_{f_1(x,y)}^{f_2(x,y)} \, dz\right)\, dy\, dx
-                </me>.
+                </md>.
                 Evaluating the above iterated integral is
                 <em>triple integration.</em>
               </p>
@@ -536,9 +536,9 @@
             <li>
               <p>
                 The volume <m>V</m> of <m>D</m> is
-                <me>
+                <md>
                   V = \iiint_D\, dV = \lim_{\norm{\Delta D}\to0} \sum_{i=1}^n \Delta V_i = \lim_{\norm{\Delta D}\to0} \sum_{i=1}^n \dx_i\dy_i\ddz_i
-                </me>.
+                </md>.
               </p>
             </li>
 
@@ -549,9 +549,9 @@
                 and the surfaces <m>z=f_1(x,y)</m> and
                 <m>z=f_2(x,y)</m>, where <m>a\lt b</m>,
                 <m>g_1(x)\leq g_2(x)</m> and <m>f_1(x,y)\leq f_2(x,y)</m> on <m>D</m>, then
-                <me>
+                <md>
                   \iiint_D \, dV = \int_a^b\int_{g_1(x)}^{g_2(x)}\int_{f_1(x,y)}^{f_2(x,y)} \, dz\, dy\, dx
-                </me>.
+                </md>.
               </p>
             </li>
 
@@ -575,9 +575,9 @@
       allows us to find the volume of a space region with an iterated integral with bounds
       <q>from surface to surface, then from curve to curve,
       then from point to point.</q> In the iterated integral
-      <me>
+      <md>
         \int_a^b\int_{g_1(x)}^{g_2(x)}\int_{f_1(x,y)}^{f_2(x,y)} \, dz\, dy\, dx
-      </me>,
+      </md>,
       the bounds <m>a\leq x\leq b</m> and
       <m>g_1(x)\leq y\leq g_2(x)</m> define a region <m>R</m> in the <m>xy</m>-plane over which the region <m>D</m> exists in space.
       However, these bounds are also defining surfaces in space;
@@ -786,9 +786,9 @@
           we now describe this triangle with the order of integration <m>dx\, dy</m>.
           This gives bounds <m>0\leq x\leq 3-y/2</m> and <m>0\leq y\leq 6</m>.
           Thus the volume is given by the triple integral
-          <me>
+          <md>
             V = \int_0^6\int_0^{3-\frac12y}\int_0^{2-\frac13y-\frac23x}\, dz\, dx\, dy
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -833,9 +833,9 @@
           </p>
 
           <p>
-            <me>
+            <md>
               \int_0^2\int_0^{6-3z}\int_0^{3-y/2-3z/2}\, dx\, dy\, dz
-            </me>.
+            </md>.
           </p>
         </sidebyside>
 
@@ -1000,9 +1000,9 @@
           </p>
 
           <p>
-            <me>
+            <md>
               \int_0^6\int_0^{2-y/3}\int_0^{3-y/2-3z/2}\, dx\, dz\, dy
-            </me>.
+            </md>.
           </p>
         </sidebyside>
 
@@ -1042,9 +1042,9 @@
           </p>
 
           <p>
-            <me>
+            <md>
               \int_0^3\int_0^{2-2x/3}\int_0^{6-2x-3z}\, dy\, dz\, dx
-            </me>.
+            </md>.
           </p>
         </sidebyside>
 
@@ -1074,9 +1074,9 @@
           </p>
 
           <p>
-            <me>
+            <md>
               \int_0^2\int_0^{3-3z/2}\int_0^{6-2x-3z}\, dy\, dx\, dz
-            </me>.
+            </md>.
           </p>
         </sidebyside>
 
@@ -1310,9 +1310,9 @@
 
         <p>
           We can rewrite this implicit function by completing the square:
-          <me>
+          <md>
             3-x^2-y^2=2y  \Rightarrow  y^2+2y+x^2=3 \Rightarrow  (y+1)^2+x^2=4
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1337,9 +1337,9 @@
 
         <p>
           Thus we have (after again completing the square):
-          <me>
+          <md>
             3-x^2-z = z^2/4  \Rightarrow \frac{(z+2)^2}{16}+\frac{x^2}4=1
-          </me>,
+          </md>,
           and ellipse centered at <m>(0,-2)</m> in the <m>xz</m>-plane with a major axis of length 8 and a minor axis of length 4.
         </p>
 
@@ -1560,9 +1560,9 @@
           </p>
 
           <p>
-            <me>
+            <md>
               \int_{-1}^1\int_{-\sqrt{1-x^2}}^{0}\int_0^{-y}\, dz\, dy\, dx
-            </me>.
+            </md>.
           </p>
         </sidebyside>
 
@@ -1614,9 +1614,9 @@
           </p>
 
           <p>
-            <me>
+            <md>
               \int_{0}^1\int_{-\sqrt{1-z^2}}^{\sqrt{1-z^2}}\int_{-\sqrt{1-x^2}}^{-z}\, dy\, dx\, dz
-            </me>.
+            </md>.
           </p>
         </sidebyside>
 
@@ -1777,9 +1777,9 @@
           </p>
 
           <p>
-            <me>
+            <md>
               \int_{-1}^0\int_{0}^{-y}\int_{-\sqrt{1-y^2}}^{\sqrt{1-y^2}}\, dx\, dz\, dy
-            </me>.
+            </md>.
           </p>
         </sidebyside>
       </solution>
@@ -2014,9 +2014,9 @@
           for there are two <q>upper</q>
           surfaces that bound <m>D</m> in the <m>z</m>-direction.
           So we start by noting that we have
-          <me>
+          <md>
             0\leq z\leq 1-\frac12x \text{ and }  0\leq z\leq 1-\frac14y
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -2035,15 +2035,15 @@
 
         <p>
           We use the second property of <xref ref="thm_triple_int_prop"/> to state that
-          <me>
+          <md>
             \iiint_D \, dV = \iiint_{D_1}\, dV + \iiint_{D_2}\, dV
-          </me>,
+          </md>,
           where <m>D_1</m> and <m>D_2</m> are the space regions above the plane regions <m>R_1</m> and <m>R_2</m>,
           respectively.
           Thus we can say
-          <me>
+          <md>
             \iiint_D\, dV = \iint_{R_1}\left(\int_0^{1-x/2}\, dz\right)dA + \iint_{R_2}\left(\int_0^{1-y/4}\, dz\right)dA
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -2225,9 +2225,9 @@
           </p>
 
           <p>
-            <me>
+            <md>
               \int_0^1\int_{0}^{2-2z}\int_0^{4-4z}\, dy\, dx\, dz
-            </me>.
+            </md>.
           </p>
         </sidebyside>
 
@@ -2249,9 +2249,9 @@
           </p>
 
           <p>
-            <me>
+            <md>
               \int_0^2\int_{0}^{1-x/2}\int_0^{4-4z}\, dy\, dx\, dz
-            </me>.
+            </md>.
           </p>
         </sidebyside>
 
@@ -2273,9 +2273,9 @@
            </p>
 
           <p>
-            <me>
+            <md>
               \int_0^1\int_{0}^{4-4z}\int_0^{2-2z}\, dx\, dy\, dz
-            </me>.
+            </md>.
           </p>
         </sidebyside>
 
@@ -2297,9 +2297,9 @@
           </p>
 
           <p>
-            <me>
+            <md>
               \int_0^4\int_{0}^{1-y/4}\int_0^{2-2z}\, dx\, dz\, dy
-            </me>.
+            </md>.
           </p>
         </sidebyside>
       </solution>
@@ -2546,16 +2546,16 @@
           The bounds on <m>z</m> are clearly <m>2x^2+2\leq z\leq 6-2x^2-y^2</m>.
           Collapsing <m>D</m> onto the <m>xy</m>-plane gives the ellipse shown in <xref ref="fig_trip5a3_3D"/>.
           The equation of this ellipse is found by setting the two surfaces equal to each other:
-          <me>
+          <md>
             2x^2+2 = 6-2x^2-y^2 \Rightarrow 4x^2+y^2=4 \Rightarrow x^2+\frac{y^2}4=1
-          </me>.
+          </md>.
         </p>
 
         <p>
           We can describe this ellipse with the bounds
-          <me>
+          <md>
             -\sqrt{4-4x^2} \leq y\leq \sqrt{4-4x^2} \text{ and }  -1\leq x\leq 1
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -2576,9 +2576,9 @@
           </p>
 
           <p>
-            <me>
+            <md>
               \int_{-1}^1\int_{-\sqrt{4-4x^2}}^{\sqrt{4-4x^2}}\int_{2x^2+2}^{6-2x^2-y^2}\, dz\, dy\, dx
-            </me>.
+            </md>.
           </p>
         </sidebyside>
 
@@ -2592,9 +2592,9 @@
           it does not create a border for <m>y</m>.
           The paraboloid <m>z=6-2x^2-y^2</m> does;
           solving for <m>y</m>, we get the bounds
-          <me>
+          <md>
             -\sqrt{6-2x^2-z}\leq y\leq \sqrt{6-2x^2-z}
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -2622,9 +2622,9 @@
           </p>
 
           <p>
-            <me>
+            <md>
               \int_{-1}^1\int_{2x^2+2}^{6-2x^2}\int_{-\sqrt{6-2x^2-z}}^{\sqrt{6-2x^2-z}}\, dy\, dz\, dx
-            </me>.
+            </md>.
           </p>
         </sidebyside>
 
@@ -2803,13 +2803,13 @@
           This order takes more effort as <m>D</m> must be split into two subregions.
           The two surfaces create two sets of upper/lower bounds in terms of <m>x</m>;
           the cylinder creates bounds
-          <me>
+          <md>
             -\sqrt{z/2-1}\leq x\leq \sqrt{z/2-1}
-          </me>
+          </md>
           for region <m>D_1</m> and the paraboloid creates bounds
-          <me>
+          <md>
             -\sqrt{3-y^2/2-z^2/2}\leq x\leq \sqrt{3-y^2/2-z^2/2}
-          </me>
+          </md>
           for region <m>D_2</m>.
         </p>
 
@@ -2817,36 +2817,36 @@
           Collapsing <m>D</m> onto the <m>yz</m>-axes gives the regions shown in <xref ref="fig_trip5b2_3D"/>.
           We find the equation of the curve
           <m>z=4-y^2/2</m> by noting that the equation of the ellipse seen in <xref ref="fig_trip5a3_3D"/> has equation
-          <me>
+          <md>
             x^2+y^2/4=1  \Rightarrow  x = \sqrt{1-y^2/4}
-          </me>.
+          </md>.
         </p>
 
         <p>
           Substitute this expression for <m>x</m> in either surface equation,
           <m>z=6-2x^2-y^2</m> or <m>z=2x^2+2</m>.
           In both cases, we find
-          <me>
+          <md>
             z=4-\frac12y^2
-          </me>.
+          </md>.
         </p>
 
         <p>
           Region <m>R_1</m>, corresponding to <m>D_1</m>, has bounds
-          <me>
+          <md>
             2\leq z\leq 4-y^2/2, -2\leq y\leq 2
-          </me>
+          </md>
           and region <m>R_2</m>, corresponding to <m>D_2</m>, has bounds
-          <me>
+          <md>
             4-y^2/2\leq z\leq 6-y^2, -2\leq y\leq 2
-          </me>.
+          </md>.
         </p>
 
         <p>
           Thus the volume of <m>D</m> is given by:
-          <me>
+          <md>
             \int_{-2}^2\int_2^{4-y^2/2}\int_{-\sqrt{z/2-1}}^{\sqrt{z/2-1}}\, dx\, dz\, dy \, +\, \int_{-2}^2\int_{4-y^2/2}^{6-y^2}\int_{-\sqrt{3-y^2/2-z^2/2}}^{\sqrt{3-y^2/2-z^2/2}}\, dx\, dz\, dy
-          </me>.
+          </md>.
         </p>
       </solution>
     </example>
@@ -2892,9 +2892,9 @@
               <idx><h>integration</h><h>triple</h></idx>
               <idx><h>triple integral</h></idx>
               <idx><h>iterated integration</h></idx>
-          <me>
+          <md>
             \int_a^b\int_{g_1(x)}^{g_2(x)}\int_{f_1(x,y)}^{f_2(x,y)} h(x,y,z)\, dz\, dy\, dx = \int_a^b\int_{g_1(x)}^{g_2(x)}\left(\int_{f_1(x,y)}^{f_2(x,y)} h(x,y,z)\, dz\right) dy\, dx
-          </me>.
+          </md>.
         </p>
       </statement>
     </definition>
@@ -2956,9 +2956,9 @@
       Again letting <m>\norm{\Delta D}</m> represent the length of the longest diagonal of the <m>n</m> rectangular solids in the partition,
       we can take the limit of the sums of products as <m>\norm{\Delta D}\to 0</m>.
       That is, we can find
-      <me>
+      <md>
         S = \lim_{\norm{\Delta D}\to 0} \sum_{i=1}^n h(x_i,y_i,z_i)\Delta V_i=\lim_{\norm{\Delta D}\to 0} \sum_{i=1}^n h(x_i,y_i,z_i)\dx_i\dy_i\ddz_i
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -2986,9 +2986,9 @@
               <idx><h>integration</h><h>triple</h></idx>
               <idx><h>triple integral</h></idx>
               <idx><h>iterated integration</h></idx>
-          <me>
+          <md>
             \iiint_Dh(x,y,z)\, dV = \lim_{\norm{\Delta D}\to 0}\sum_{i=1}^n h(x_i,y_i,z_i)\Delta V_i
-          </me>.
+          </md>.
         </p>
       </statement>
     </definition>
@@ -3021,9 +3021,9 @@
                 and the surfaces <m>z=f_1(x,y)</m> and
                 <m>z=f_2(x,y)</m>, where <m>a\lt b</m>,
                 <m>g_1(x)\leq g_2(x)</m> and <m>f_1(x,y)\leq f_2(x,y)</m> on <m>D</m>, then
-                <me>
+                <md>
                   \iiint_D h(x,y,z)\, dV = \int_a^b\int_{g_1(x)}^{g_2(x)}\int_{f_1(x,y)}^{f_2(x,y)} h(x,y,z)\, dz\, dy\, dx
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
@@ -3037,17 +3037,17 @@
       we showed how the summation of rectangles over a region <m>R</m> in the plane could be viewed as a double sum,
       leading to the double integral.
       Likewise, we can view the sum
-      <me>
+      <md>
         \sum_{i=1}^nh(x_i,y_i,z_i)\dx_i\dy_i\ddz_i
-      </me>
+      </md>
       as a triple sum,
-      <me>
+      <md>
         \sum_{k=1}^p\sum_{j=1}^n\sum_{i=1}^mh(x_i,y_j,z_k)\dx_i\dy_j\ddz_k
-      </me>,
+      </md>,
       which we evaluate as
-      <me>
+      <md>
         \sum_{k=1}^p\left(\sum_{j=1}^n\left(\sum_{i=1}^mh(x_i,y_j,z_k)\dx_i\right)\dy_j\right)\ddz_k
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -3119,9 +3119,9 @@
             <li>
               <p>
                 The <em>center of mass</em> of the object is
-                <me>
+                <md>
                   \big(\overline{x},\overline{y},\overline{z}\big) = \left(\frac{M_{yz}}M,\frac{M_{xz}}M,\frac{M_{xy}}M\right)
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
@@ -3252,9 +3252,9 @@
 
         <p>
           The center of mass is
-          <me>
+          <md>
             \big(\overline{x},\overline{y},\overline{z}\big) = \left(\frac{27/2}{18},\frac{27}{18},\frac{9}{18}\right) = \big(0.75,1.5,0.5\big)
-          </me>.
+          </md>.
         </p>
       </solution>
     </example>
@@ -3391,9 +3391,9 @@
         <p>
           Note how <m>M_{yz}=0</m>, as expected.
           The center of mass is
-          <me>
+          <md>
             \big(\overline{x},\overline{y},\overline{z}\big) = \left(0,\frac{-1.99}{3.855},\frac{0.885}{3.855}\right) \approx \big(0,-0.516, 0.230\big)
-          </me>.
+          </md>.
         </p>
       </solution>
     </example>
@@ -4347,7 +4347,7 @@
               </pg-code> -->
               <statement>
                 <p>
-                  <m>D</m> is bounded by the plane <m>z=2y</m> and by <m>y=4-x^2</m>.
+                  <m>D</m> is bounded by the planes <m>z=0</m> and <m>z=2y</m>, and by <m>y=4-x^2</m>.
                 </p>
 
                 <p>

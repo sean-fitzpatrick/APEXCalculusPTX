@@ -134,17 +134,17 @@
       <solution>
         <p>
           We start by computing the partial derivatives of <m>f</m>:
-          <me>
+          <md>
             f_x(x,y) = 2x-y-1 \qquad \text{ and } \qquad f_y(x,y) = 2y-x
-          </me>.
+          </md>.
         </p>
 
         <p>
           Each is never undefined.
           A critical point occurs when <m>f_x</m> and <m>f_y</m> are simultaneously 0, leading us to solve the following system of linear equations:
-          <me>
+          <md>
             2x-y-1 = 0\qquad \text{ and } \qquad -x+2y = 0
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -233,9 +233,9 @@
       <solution>
         <p>
           We start by computing the partial derivatives of <m>f</m>:
-          <me>
+          <md>
             f_x(x,y) = \frac{-x}{\sqrt{x^2+y^2}}\qquad \text{ and } \qquad f_y(x,y) = \frac{-y}{\sqrt{x^2+y^2}}
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -336,9 +336,9 @@
       <solution>
         <p>
           Once again we start by finding the partial derivatives of <m>f</m>:
-          <me>
+          <md>
             f_x(x,y) = 3x^2-3\qquad \text{ and }  \qquad f_y(x,y) = -2y+4
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -540,9 +540,9 @@
               <idx><h>maximum</h><h>relative/local</h></idx>
               <idx><h>minimum</h><h>relative/local</h></idx>
               <idx><h>saddle point</h></idx>
-          <me>
+          <md>
             D = f_{xx}(x_0,y_0)f_{yy}(x_0,y_0)-f_{xy}^{\,2}(x_0,y_0)
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -601,9 +601,9 @@
           We determined previously that the critical points of <m>f</m> are <m>(-1,2)</m> and <m>(1,2)</m>.
           To use the Second Derivative Test,
           we must find the second partial derivatives of <m>f</m>:
-          <me>
+          <md>
             f_{xx} = 6x;\qquad f_{yy} = -2;\qquad f_{xy} = 0
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -649,9 +649,9 @@
           We find the critical points by finding where <m>f_x</m> and <m>f_y</m> are simultaneously 0
           (they are both never undefined).
           Setting <m>f_x=0</m>, we have:
-          <me>
+          <md>
             f_x=0  \Rightarrow  2xy+y=0 \Rightarrow  y(2x+1)=0
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -998,9 +998,9 @@
 
         <p>
           The critical points of <m>f_1</m> are found by setting its derivative equal to 0:
-          <me>
+          <md>
             \fp_1(x)=0\qquad \Rightarrow x=0
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1025,18 +1025,18 @@
         <p>
           Along the left edge, along the line <m>y=3x+1</m>,
           we substitute <m>3x+1</m> in for <m>y</m> in <m>f(x,y)</m>:
-          <me>
+          <md>
             f(x,y) = f(x,3x+1) = x^2-(3x+1)^2+5 = -8x^2-6x+4 = f_2(x)
-          </me>.
+          </md>.
         </p>
 
         <p>
           We want the maximum and minimum values of <m>f_2</m> on the interval <m>[-1,0]</m>,
           so we evaluate <m>f_2</m> at its critical points and the endpoints of the interval.
           We find the critical points:
-          <me>
+          <md>
             \fp_2(x) = -16x-6=0 \qquad \Rightarrow \qquad x=-3/8
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1051,16 +1051,16 @@
         <p>
           Finally, we evaluate <m>f</m> along the right edge of the triangle,
           where <m>y = -3/2x+1</m>.
-          <me>
+          <md>
             f(x,y) = f(x,-3/2x+1) = x^2-(-3/2x+1)^2+5 = -\frac54x^2+3x+4=f_3(x)
-          </me>.
+          </md>.
         </p>
 
         <p>
           The critical points of <m>f_3(x)</m> are:
-          <me>
+          <md>
             \fp_3(x) = 0 \qquad \Rightarrow \qquad x=6/5=1.2
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1233,9 +1233,9 @@
         <p>
           We now consider the volume along the constraint <m>\ell=130-4w</m>.
           Along this line, we have:
-          <me>
+          <md>
             V(w,\ell) = V(w,130-4w) = w^2(130-4w) = 130w^2-4w^3 = V_1(w)
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1247,9 +1247,9 @@
         <p>
           Finding the critical values of <m>V_1</m>,
           we take the derivative and set it equal to 0:
-          <me>
+          <md>
             V\,'_1(w) = 260w-12w^2 = 0  \Rightarrow  w(260-12w)= 0  \Rightarrow  w=0,\frac{260}{12}\approx 21.67
-          </me>.
+          </md>.
         </p>
 
         <p>

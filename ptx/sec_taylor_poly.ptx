@@ -103,17 +103,17 @@
       that does match the concavity near <m>0</m> without much difficulty, though.
       The table in <xref ref="fig_taypolyintroa_2"/>
       gives the following information:
-      <me>
+      <md>
         f(0) = 2 \qquad \fp(0) = 1\qquad \fp'(0) = 2
-      </me>.
+      </md>.
     </p>
 
     <p>
       Therefore, we want our polynomial <m>p_2(x)</m> to have these same
       properties. That is, we need
-      <me>
+      <md>
         p_2(0) = 2 \qquad p_2'(0) = 1 \qquad p_2''(0) = 2
-      </me>.
+      </md>.
     </p>
 
     <p component="taypoly-late">
@@ -139,9 +139,9 @@
 
     <p component="taypoly-early">
       Let's start with a general quadratic function
-      <me>
+      <md>
         p(x) = a_0+a_1x+a_2x^2
-      </me>.
+      </md>.
       We find the following:
       <md>
         <mrow>p_2(x) \amp = a_0+a_1x+a_2x^2 \amp p_2(0)\amp=a_0</mrow>
@@ -149,13 +149,13 @@
         <mrow>p_2\primeskip ''(x) \amp = 2a_2 \amp p_2\primeskip''(0) \amp = 2a_2</mrow>
       </md>.
       To get the desired properties above, we must have
-      <me>
+      <md>
         a_0 = f(0) = 2,\, a_1 = \fp(0) = 1,\, 2a_2 = \fpp(0) = 2
-      </me>,
+      </md>,
       so <m>a_0=2</m>, <m>a_1=1</m>, and <m>a_2 = 2/2=1</m>, giving us the polynomial
-      <me>
+      <md>
         p_2(x) = 2+x+x^2.
-      </me>
+      </md>
     </p>
 
     <p component="taypoly-late">
@@ -284,21 +284,21 @@
       so that the derivatives of our polynomial match those of our function <m>f</m>.
       If we take <m>k</m> derivatives of the term <m>a_nx^n</m>,
       with <m>k\leq n</m>, we obtain
-      <me>
+      <md>
         \frac{d^k}{dx^k}(a_nx^n)= n(n-1)\cdots (n-k+1)a_nx^{n-k}
-      </me>.
+      </md>.
     </p>
 
     <p component="taypoly-early">
       For <m>k\lt n</m>, the expression above vanishes when we set <m>x=0</m>.
       However, for <m>n=k</m>, we obtain the constant value
-      <men xml:id="polyderiv">
+      <md number="yes" xml:id="polyderiv">
         \frac{d^k}{dx^k}(a_kx^k) = k\cdot (k-1)\cdots 2\cdot 1 a_k
-      </men>.
+      </md>.
       Consider a polynomial
-      <me>
+      <md>
       p_n(x) = a_0+a_1x+\cdots +a_kx^k+\cdots +a_nx^n
-      </me>
+      </md>
       of degree <m>n</m>. If we take <m>k</m> derivatives,
       all of the terms involving powers of <m>x</m> less than <m>k</m> disappear,
       and when we set <m>x=0</m>, all of the terms involving powers of <m>x</m>
@@ -311,14 +311,14 @@
       Recalling the notation <m>k! = 1\cdot 2\cdot 3\cdots k</m>
       for the product of the first <m>k</m> integers,
       we have shown that
-      <me>
+      <md>
         p_n^{(k)}(0) = k!a_k
-      </me>.
+      </md>.
       If we want the derivatives of <m>p_n</m> to agree with
       some unknown function <m>f</m> when <m>x=0</m>, then we must have
-      <me>
+      <md>
         a_k = \frac{f^{(k)}(0)}{k!}
-      </me>.
+      </md>.
     </p>
 
     <aside component="taypoly-early" vshift="1">
@@ -439,9 +439,9 @@
                 polynomial, where <m>c=0</m>.
                 That is, the <em>Maclaurin polynomial of degree <m>n</m> of
                 <m>f</m></em> is
-                <me>
+                <md>
                   p_n(x) = f(0) + \fp(0)x + \frac{\fpp(0)}{2!}x^2+\frac{\fp''(0)}{3!}x^3+\cdots+\frac{f\,^{(n)}(0)}{n!}x^n
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
@@ -569,15 +569,15 @@
             <li>
               <p>
                 Using our answer from part 1, we have
-                <me>
+                <md>
                  e^x\approx p_5(x) = 1+x+\frac{1}{2}x^2+\frac{1}{6}x^3 + \frac{1}{24}x^4 + \frac{1}{120}x^5
-                </me>.
+                </md>.
                 To approximate the value of <m>e</m>,
                 note that <m>e = e^1 = f(1) \approx p_5(1)</m>.
                 It is very straightforward to evaluate <m>p_5(1)</m>:
-                <me>
+                <md>
                   p_5(1) = 1+1+\frac12+\frac16+\frac1{24}+\frac1{120} = \frac{163}{60} \approx 2.71667
-                </me>.
+                </md>.
                 A plot of <m>f(x)=e^x</m> and <m>p_5(x)</m> is given in
                 <xref ref="fig_taypoly1b"/>.
                 To <m>5</m> decimal places, the actual value of <m>e</m> is
@@ -996,10 +996,10 @@
                 and let <m>c</m> be in <m>I</m>.
                 Then, for each <m>x</m> in <m>I</m>,
                 there exists <m>z_x</m> between <m>x</m> and <m>c</m> such that
-                <me>
+                <md>
                   f(x) = f(c) + \fp(c)(x-c) + \cdots
                   +\frac{f^{(n)}(c)}{n!}(x-c)^n+R_n(x)
-                </me>,
+                </md>,
                 where <m>\ds R_n(x) = \frac{f^{(n+1)}(z_x)}{(n+1)!}(x-c)^{(n+1)}</m>.
                   <idx><h>Taylor Polynomial</h><h>Taylor's Theorem</h></idx>
                   <idx><h>Taylor's Theorem</h></idx>
@@ -1025,9 +1025,9 @@
         We say that two functions <m>f</m> and
         <m>g</m> <em>agree to order <m>n</m> at <m>c</m></em>
         if <m>n</m> is the <em>largest</em> integer for which
-        <me>
+        <md>
         \lim_{x\to c}\frac{f(x)-g(x)}{(x-c)^n}=0
-        </me>.
+        </md>.
         Taylor's Theorem tells us that a function and its degree
         <m>n</m> Taylor polynomial agree to order <m>n</m>.
         Roughly speaking, this means that their difference goes to zero faster
@@ -1314,9 +1314,9 @@
 
         <p>
           We finally approximate <m>\cos(2)</m>:
-          <me>
+          <md>
             \cos(2) \approx p_8(2) = -\frac{131}{315} \approx -0.41587
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1589,9 +1589,9 @@
               <m>(n+1)^{th}</m> derivative to find its extrema.
               In this case is <m>f^{(5)}(x)=105/(32x^{9/2})</m> is always
               decreasing, so the maximum occurs at <m>2.9</m>.) Thus
-              <me>
+              <md>
                 \abs{R_4(3)} \leq \frac{0.0273}{5!}\abs{(3-4)^5} \approx 0.00023
-              </me>.
+              </md>.
                 This shows our approximation is accurate to at least the first 2
                 places after the decimal.
                 (It turns out that our approximation is actually accurate to 4
@@ -1694,9 +1694,9 @@
           find <m>p_3(x)</m>.
           However, note how the second fact above actually lets us know what
           <m>\yp(0)</m> is:
-          <me>
+          <md>
             \yp = y^2 \Rightarrow \yp(0) = y^2(0)
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1734,9 +1734,9 @@
 
         <p>
           In summary, we have:
-          <me>
+          <md>
             y(0) = 1 \qquad \yp(0) = 1  \qquad \yp'(0) = 2 \qquad \yp''(0) = 6
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1754,7 +1754,7 @@
           It turns out that the differential equation we started with,
           <m>\yp=y^2</m>,
           where <m>y(0)=1</m>, can be solved without too much difficulty:
-          <me>y = \frac{1}{1-x}</me>.
+          <md>y = \frac{1}{1-x}</md>.
           <xref ref="fig_taypoly6"/>
           shows this function plotted with <m>p_3(x)</m>.
           Note how similar they are near <m>x=0</m>.
@@ -1903,7 +1903,7 @@
               A higher-degree Maclaurin polynomial begins with the same terms
               as any lower-degree
               Maclaurin polynomial of the same function. Therefore,
-              <me>p_2(x) = 6+3x-4x^2</me>.
+              <md>p_2(x) = 6+3x-4x^2</md>.
             </p>
           </solution>
         </webwork>

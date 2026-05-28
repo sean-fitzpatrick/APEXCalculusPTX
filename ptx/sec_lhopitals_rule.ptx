@@ -60,13 +60,13 @@
           and <m>\gp(x)\neq 0</m> on <m>I</m> except possibly at <m>c</m>.
           If <idx><h>limit</h><h>l'Hospital's Rule</h></idx>
               <idx><h>l'Hospital's Rule</h><h>zero over zero</h></idx>
-          <me>
+          <md>
             \lim_{x\to c} \frac{\fp(x)}{\gp(x)}=L
-          </me>,
+          </md>,
           then
-          <me>
+          <md>
             \lim_{x\to c} \frac{f(x)}{g(x)}=L
-          </me>,
+          </md>,
           where <m>L</m> is a real number, or <m>L=\pm \infty</m>.
           The result applies to one-sided limits as well.
         </p>
@@ -131,26 +131,26 @@
               <p>
                 We proved this limit is 1 in <xref ref="ex_limit_sinx_prove"/> using the Squeeze Theorem.
                 Here we use l'Hospital's Rule to show its power.
-                <me>
+                <md>
                   \lim_{x\to0}\frac{\sin(x) }x \stackrel{\,\text{ by LHR }  \,}{=} \lim_{x\to0} \frac{\cos(x) }{1}=1
-                </me>.
+                </md>.
               </p>
             </li>
 
             <li>
-                <me>
+                <md>
                   \lim\limits_{x\to 1}\frac{\sqrt{x+3}-2}{1-x} 	 \stackrel{\,\text{ by LHR } \,}{=} \lim_{x \to 1} \frac{\frac12(x+3)^{-1/2}}{-1} =-\frac 14
-                </me>.
+                </md>.
             </li>
 
             <li>
               <p>
-                <me>\lim\limits_{x\to 0}\frac{x^2}{1-\cos(x) } \stackrel{\,\text{ by LHR } \,}{=} \lim_{x\to 0} \frac{2x}{\sin(x) }</me>.
+                <md>\lim\limits_{x\to 0}\frac{x^2}{1-\cos(x) } \stackrel{\,\text{ by LHR } \,}{=} \lim_{x\to 0} \frac{2x}{\sin(x) }</md>.
 
                 This latter limit also evaluates to the 0/0 indeterminate form.
                 To evaluate it, we apply l'Hospital's Rule again.
 
-                <me>\lim\limits_{x\to 0} \frac{2x}{\sin(x) } \stackrel{\,\text{ by LHR } \,}{=} \frac{2}{\cos(x) } = 2</me>.
+                <md>\lim\limits_{x\to 0} \frac{2x}{\sin(x) } \stackrel{\,\text{ by LHR } \,}{=} \frac{2}{\cos(x) } = 2</md>.
 
                 Thus <m>\lim\limits_{x\to0}\frac{x^2}{1-\cos(x) }=2</m>.
               </p>
@@ -161,13 +161,13 @@
                 We already know how to evaluate this limit;
                 first factor the numerator and denominator.
                 We then have:
-                <me>
+                <md>
                   \lim_{x\to 2}\frac{x^2+x-6}{x^2-3x+2} = \lim_{x\to 2}\frac{(x-2)(x+3)}{(x-2)(x-1)} = \lim_{x\to 2}\frac{x+3}{x-1} = 5
-                </me>.
+                </md>.
                 We now show how to solve this using l'Hospital's Rule.
-                <me>
+                <md>
                   \lim_{x\to 2}\frac{x^2+x-6}{x^2-3x+2}\stackrel{\,\text{ by LHR }  \,}{=}  \lim_{x\to 2}\frac{2x+1}{2x-3} = 5
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
@@ -207,13 +207,13 @@
                 <idx><h>limit</h><h>l'Hospital's Rule</h></idx>
                 <idx><h>l'Hospital's Rule</h><h>infinity over infinity</h></idx>
 
-                <me>
+                <md>
                   \lim_{x\to a}\frac{\fp(x)}{\gp(x)}=L
-                </me>,
+                </md>,
                 then
-                <me>
+                <md>
                   \lim_{x\to a}\frac{f(x)}{g(x)}=L
-                </me>,
+                </md>,
                 where <m>L</m> is a real number, or <m>L=\pm\infty</m>.
                 The result applies to one-sided limits as well.
               </p>
@@ -226,13 +226,13 @@
                 where <m>\gp(x)\neq 0</m> on <m>(a,\infty)</m> and
                 <m>\lim\limits_{x\to\infty} f(x)/g(x)</m> returns either <m>0/0</m> or <m>\infty/\infty</m>.
                 If
-                <me>
+                <md>
                   \lim_{x\to \infty}\frac{\fp(x)}{\gp(x)}=L
-                </me>,
+                </md>,
                 then
-                <me>
+                <md>
                   \lim_{x\to \infty}\frac{f(x)}{g(x)}=L
-                </me>,
+                </md>,
                 where <m>L</m> is a real number, or <m>L=\pm \infty</m>.
                 A similar statement can be made for limits where <m>x</m> approaches <m>-\infty</m>.
               </p>
@@ -261,17 +261,17 @@
                 We can evaluate this limit already using <xref ref="thm_lim_rational_fn_at_infty"/>;
                 the answer is 3/4.
                 We apply l'Hospital's Rule to demonstrate its applicability.
-                <me>
+                <md>
                   \lim_{x\to\infty} \frac{3x^2-100x+2}{4x^2+5x-1000}\stackrel{\,\text{ by LHR }  \,}{=} \lim_{x\to\infty} \frac{6x-100}{8x+5} \stackrel{\,\text{ by LHR }  \,}{=} \lim_{x\to\infty} \frac68 = \frac34
-                </me>.
+                </md>.
               </p>
             </li>
 
             <li>
               <p>
-                <me>
+                <md>
                   \lim\limits_{x\to \infty}\frac{e^x}{x^3} \stackrel{\,\text{ by LHR } \,}{=} \lim_{x\to\infty} \frac{e^x}{3x^2} \stackrel{\,\text{ by LHR } \,}{=} \lim_{x\to\infty} \frac{e^x}{6x} \stackrel{\,\text{ by LHR } \,}{=} \lim_{x\to\infty} \frac{e^x}{6} = \infty
-                </me>.
+                </md>.
 
                 Recall that this means that the limit does not exist;
                 as <m>x</m> approaches <m>\infty</m>,
@@ -347,9 +347,9 @@
                 now, as <m>x\rightarrow 0^+</m>,
                 we get the indeterminate form
                 <m>\infty/\infty</m> to which l'Hospital's Rule can be applied.
-                <me>
+                <md>
                   \lim_{x\to0^+} x\cdot e^{1/x} = \lim_{x\to 0^+} \frac{e^{1/x}}{1/x} \stackrel{\,\text{ by LHR }  \,}{=} \lim_{x\to 0^+}\frac{(-1/x^2)e^{1/x}}{-1/x^2} =\lim_{x\to 0^+}e^{1/x} =\infty
-                </me>.
+                </md>.
                 Interpretation: <m>e^{1/x}</m> grows <q>faster</q>
                 than <m>x</m> shrinks to zero,
                 meaning their product grows without bound.
@@ -363,9 +363,9 @@
                 The the limit evaluates to
                 <m>0\cdot 0</m> which is not an indeterminate form.
                 We conclude then that
-                <me>
+                <md>
                   \lim_{x\to 0^-}x\cdot e^{1/x} = 0
-                </me>.
+                </md>.
               </p>
             </li>
 
@@ -374,24 +374,24 @@
                 This limit initially evaluates to the indeterminate form <m>\infty-\infty</m>.
                 By applying a logarithmic rule,
                 we can rewrite the limit as
-                <me>
+                <md>
                   \lim_{x\to\infty} \ln(x+1)-\ln(x) = \lim_{x\to \infty} \ln\left(\frac{x+1}x\right)
-                </me>.
+                </md>.
                 As <m>x\rightarrow \infty</m>,
                 the argument of the <m>\ln</m> term approaches <m>\infty/\infty</m>,
                 to which we can apply l'Hospital's Rule.
-                <me>
+                <md>
                   \lim_{x\to\infty} \frac{x+1}x \stackrel{\,\text{ by LHR }  \,}{=} \frac11=1
-                </me>.
+                </md>.
                 Since <m>x\rightarrow \infty</m> implies <m>\ds\frac{x+1}x\rightarrow 1</m>,
                 it follows that
-                <me>
+                <md>
                   x\rightarrow \infty  \text{ implies }  \ln\left(\frac{x+1}x\right)\rightarrow \ln(1) =0
-                </me>.
+                </md>.
                 Thus
-                <me>
+                <md>
                   \lim_{x\to\infty} \ln(x+1)-\ln(x) = \lim_{x\to \infty} \ln\left(\frac{x+1}x\right)=0
-                </me>.
+                </md>.
                 Interpretation:
                 since this limit evaluates to 0, it means that for large <m>x</m>,
                 there is essentially no difference between <m>\ln(x+1)</m> and <m>\ln(x)</m>;
@@ -405,9 +405,9 @@
                 We can rewrite the expression by factoring out <m>x^2</m>;
                 <m>\ds x^2-e^x = x^2\left(1-\frac{e^x}{x^2}\right)</m>.
                 We need to evaluate how <m>e^x/x^2</m> behaves as <m>x\rightarrow \infty</m>:
-                <me>
+                <md>
                   \lim_{x\to\infty}\frac{e^x}{x^2} \stackrel{\,\text{ by LHR }  \,}{=} \lim_{x\to\infty} \frac{e^x}{2x} \stackrel{\,\text{ by LHR }  \,}{=} \lim_{x\to\infty} \frac{e^x}{2} = \infty
-                </me>.
+                </md>.
                 Thus <m>\lim_{x\to\infty}x^2(1-e^x/x^2)</m> evaluates to <m>\infty\cdot(-\infty)</m>,
                 which is not an indeterminate form;
                 rather, <m>\infty\cdot(-\infty)</m> evaluates to <m>-\infty</m>.
@@ -441,7 +441,7 @@
       <title>Evaluating Limits Involving Indeterminate Forms <m>0^0</m>, <m>1^\infty</m> and <m>\infty^0</m></title>
       <p>
         If <m>\lim\limits_{x\to c} \ln\big(f(x)\big) = L</m>, then
-        <me>\lim\limits_{x\to c} f(x) = \lim_{x\to c} e^{\ln(f(x))} = e^L</me>.
+        <md>\lim\limits_{x\to c} f(x) = \lim_{x\to c} e^{\ln(f(x))} = e^L</md>.
 
             <idx><h>limit</h><h>indeterminate form</h></idx>
             <idx><h>indeterminate form</h></idx>
@@ -484,9 +484,9 @@
                 </md>.
                 Thus <m>\lim\limits_{x\to\infty} \ln\big(f(x)\big) = 1</m>.
                 We return to the original limit and apply <xref ref="idea_LHR_power"/>.
-                <me>
+                <md>
                   \lim_{x\to\infty}\left(1+\frac1x\right)^x = \lim_{x\to\infty} f(x) =  \lim_{x\to\infty}e^{\ln(f(x))} = e^1 = e
-                </me>.
+                </md>.
               </p>
             </li>
 
@@ -505,9 +505,9 @@
                 </md>.
                 Thus <m>\lim\limits_{x\to0^+} \ln\big(f(x)\big) =0</m>.
                 We return to the original limit and apply <xref ref="idea_LHR_power"/>.
-                <me>
+                <md>
                   \lim_{x\to0^+} x^x = \lim_{x\to0^+} f(x) = \lim_{x\to0^+} e^{\ln(f(x))} = e^0 = 1
-                </me>.
+                </md>.
                 This result is supported by the graph of
                 <m>f(x)=x^x</m> given in <xref ref="fig_LHR4"/>.
               </p>
@@ -841,7 +841,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to 2} \frac{<var name="$fu"/> }{<var name="$fl"/>}</me>
+                  <md>\lim\limits_{x\to 2} \frac{<var name="$fu"/> }{<var name="$fl"/>}</md>
                 </p>
 
                 <p>
@@ -870,7 +870,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to \pi} \frac{<var name="$fu"/> }{<var name="$fl"/>}</me>
+                  <md>\lim\limits_{x\to \pi} \frac{<var name="$fu"/> }{<var name="$fl"/>}</md>
                 </p>
 
                 <p>
@@ -899,7 +899,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to \pi/4} \frac{<var name="$fu"/> }{<var name="$fl"/>}</me>
+                  <md>\lim\limits_{x\to \pi/4} \frac{<var name="$fu"/> }{<var name="$fl"/>}</md>
                 </p>
 
                 <p>
@@ -928,7 +928,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to 0} \frac{<var name="$fu"/> }{<var name="$fl"/>}</me>
+                  <md>\lim\limits_{x\to 0} \frac{<var name="$fu"/> }{<var name="$fl"/>}</md>
                 </p>
 
                 <p>
@@ -950,7 +950,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to 0} \frac{<var name="$fu"/> }{<var name="$fl"/>}</me>
+                  <md>\lim\limits_{x\to 0} \frac{<var name="$fu"/> }{<var name="$fl"/>}</md>
                 </p>
 
                 <p>
@@ -979,7 +979,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to 0} \frac{<var name="$fu"/> }{<var name="$fl"/>}</me>
+                  <md>\lim\limits_{x\to 0} \frac{<var name="$fu"/> }{<var name="$fl"/>}</md>
                 </p>
 
                 <p>
@@ -1010,7 +1010,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to 0} \frac{<var name="$fu"/> }{<var name="$fl"/>}</me>
+                  <md>\lim\limits_{x\to 0} \frac{<var name="$fu"/> }{<var name="$fl"/>}</md>
                 </p>
 
                 <p>
@@ -1038,7 +1038,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to 0^+} \frac{<var name="$fu"/> }{<var name="$fl"/>}</me>
+                  <md>\lim\limits_{x\to 0^+} \frac{<var name="$fu"/> }{<var name="$fl"/>}</md>
                 </p>
 
                 <p>
@@ -1067,7 +1067,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to 0^+} \frac{<var name="$fu"/> }{<var name="$fl"/>}</me>
+                  <md>\lim\limits_{x\to 0^+} \frac{<var name="$fu"/> }{<var name="$fl"/>}</md>
                 </p>
 
                 <p>
@@ -1096,7 +1096,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to 0^+} \frac{<var name="$fu"/> }{<var name="$fl"/>}</me>
+                  <md>\lim\limits_{x\to 0^+} \frac{<var name="$fu"/> }{<var name="$fl"/>}</md>
                 </p>
 
                 <p>
@@ -1118,7 +1118,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to \infty} \frac{<var name="$fu"/>}{<var name="$fl"/>}</me>
+                  <md>\lim\limits_{x\to \infty} \frac{<var name="$fu"/>}{<var name="$fl"/>}</md>
                 </p>
 
                 <p>
@@ -1138,7 +1138,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to \infty} \frac{<var name="$fu"/>}{<var name="$fl"/>}</me>
+                  <md>\lim\limits_{x\to \infty} \frac{<var name="$fu"/>}{<var name="$fl"/>}</md>
                 </p>
 
                 <p>
@@ -1158,7 +1158,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to\infty} \frac{<var name="$fu"/>}{<var name="$fl"/>}</me>
+                  <md>\lim\limits_{x\to\infty} \frac{<var name="$fu"/>}{<var name="$fl"/>}</md>
                 </p>
               </statement>
           </webwork>
@@ -1174,7 +1174,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to \infty} \frac{<var name="$fu"/>}{<var name="$fl"/>}</me>
+                  <md>\lim\limits_{x\to \infty} \frac{<var name="$fu"/>}{<var name="$fl"/>}</md>
                 </p>
 
                 <p>
@@ -1194,7 +1194,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to \infty} \frac{<var name="$fu"/>}{<var name="$fl"/>}</me>
+                  <md>\lim\limits_{x\to \infty} \frac{<var name="$fu"/>}{<var name="$fl"/>}</md>
                 </p>
 
                 <p>
@@ -1214,7 +1214,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to \infty} \frac{<var name="$fu"/>}{<var name="$fl"/>}</me>
+                  <md>\lim\limits_{x\to \infty} \frac{<var name="$fu"/>}{<var name="$fl"/>}</md>
                 </p>
 
                 <p>
@@ -1242,7 +1242,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to 3} \frac{<var name="$fu"/>}{<var name="$fl"/>}</me>
+                  <md>\lim\limits_{x\to 3} \frac{<var name="$fu"/>}{<var name="$fl"/>}</md>
                 </p>
 
                 <p>
@@ -1271,7 +1271,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to -2} \frac{<var name="$fu"/>}{<var name="$fl"/>}</me>
+                  <md>\lim\limits_{x\to -2} \frac{<var name="$fu"/>}{<var name="$fl"/>}</md>
                 </p>
 
                 <p>
@@ -1292,7 +1292,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to \infty} \frac{<var name="$fu"/>}{<var name="$fl"/>}</me>
+                  <md>\lim\limits_{x\to \infty} \frac{<var name="$fu"/>}{<var name="$fl"/>}</md>
                 </p>
 
                 <p>
@@ -1315,7 +1315,7 @@
               <!--   <m>\lim\limits_{x\to \infty} \frac{\ln(x^2)}{x}</m></p> -->
               <!-- When placed from above ln(x^2) squishes the n( too closely -->
                 <p>
-                  <me>\lim\limits_{x\to \infty} \frac{<var name="$fu"/>}{<var name="$fl"/>}</me>
+                  <md>\lim\limits_{x\to \infty} \frac{<var name="$fu"/>}{<var name="$fl"/>}</md>
                 </p>
 
                 <p>
@@ -1338,7 +1338,7 @@
               <!--   <m>\lim\limits_{x\to \infty} \frac{\Big(\ln(x) \Big)^2}{x}</m></p> -->
               <!-- Format is different when fn's placed from above. Bad? -->
                 <p>
-                  <me>\lim\limits_{x\to \infty} \frac{<var name="$fu"/>}{<var name="$fl"/>}</me>
+                  <md>\lim\limits_{x\to \infty} \frac{<var name="$fu"/>}{<var name="$fl"/>}</md>
                 </p>
 
                 <p>
@@ -1359,7 +1359,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to 0^+} <var name="$f1"/>\cdot <var name="$f2"/></me>
+                  <md>\lim\limits_{x\to 0^+} <var name="$f1"/>\cdot <var name="$f2"/></md>
                 </p>
 
                 <p>
@@ -1379,7 +1379,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to 0^+} <var name="$f1"/>\cdot <var name="$f2"/></me>
+                  <md>\lim\limits_{x\to 0^+} <var name="$f1"/>\cdot <var name="$f2"/></md>
                 </p>
 
                 <p>
@@ -1401,7 +1401,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to 0^+} <var name="$f1"/> \cdot <var name="$f2"/></me>
+                  <md>\lim\limits_{x\to 0^+} <var name="$f1"/> \cdot <var name="$f2"/></md>
                 </p>
 
                 <p>
@@ -1421,7 +1421,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to \infty} <var name="$f1"/>-<var name="$f2"/></me>
+                  <md>\lim\limits_{x\to \infty} <var name="$f1"/>-<var name="$f2"/></md>
                 </p>
 
                 <p>
@@ -1442,7 +1442,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to \infty} <var name="$f1"/>-<var name="$f2"/></me>
+                  <md>\lim\limits_{x\to \infty} <var name="$f1"/>-<var name="$f2"/></md>
                 </p>
 
                 <p>
@@ -1462,7 +1462,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to -\infty} <var name="$f1"/> \cdot <var name="$f2"/></me>
+                  <md>\lim\limits_{x\to -\infty} <var name="$f1"/> \cdot <var name="$f2"/></md>
                 </p>
 
                 <p>
@@ -1482,7 +1482,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to 0^+} <var name="$f1"/> \cdot <var name="$f2"/></me>
+                  <md>\lim\limits_{x\to 0^+} <var name="$f1"/> \cdot <var name="$f2"/></md>
                 </p>
 
                 <p>
@@ -1502,7 +1502,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to 0^+} (<var name="$fb"/>)^<var name="$fp"/></me>
+                  <md>\lim\limits_{x\to 0^+} (<var name="$fb"/>)^<var name="$fp"/></md>
                 </p>
 
                 <p>
@@ -1522,7 +1522,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to 0^+} (<var name="$fb"/>)^{<var name="$fp"/>}</me>
+                  <md>\lim\limits_{x\to 0^+} (<var name="$fb"/>)^{<var name="$fp"/>}</md>
                 </p>
 
                 <p>
@@ -1542,7 +1542,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to 0^+} (<var name="$fb"/>)^{<var name="$fp"/>}</me>
+                  <md>\lim\limits_{x\to 0^+} (<var name="$fb"/>)^{<var name="$fp"/>}</md>
                 </p>
 
                 <p>
@@ -1562,7 +1562,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to 0^+} (<var name="$fb"/>)^{<var name="$fp"/>}</me>
+                  <md>\lim\limits_{x\to 0^+} (<var name="$fb"/>)^{<var name="$fp"/>}</md>
                   Hint: use the Squeeze Theorem.
                 </p>
 
@@ -1583,7 +1583,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to 1^-} (<var name="$fb"/>)^{<var name="$fp"/>}</me>
+                  <md>\lim\limits_{x\to 1^-} (<var name="$fb"/>)^{<var name="$fp"/>}</md>
                 </p>
 
                 <p>
@@ -1603,7 +1603,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to \infty} (<var name="$fb"/>)^{<var name="$fp"/>}</me>
+                  <md>\lim\limits_{x\to \infty} (<var name="$fb"/>)^{<var name="$fp"/>}</md>
                 </p>
 
                 <p>
@@ -1623,7 +1623,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to \infty} (<var name="$fb"/>)^{<var name="$fp"/>}</me>
+                  <md>\lim\limits_{x\to \infty} (<var name="$fb"/>)^{<var name="$fp"/>}</md>
                 </p>
 
                 <p>
@@ -1643,7 +1643,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to 1^+} (<var name="$fb"/>)^{<var name="$fp"/>}</me>
+                  <md>\lim\limits_{x\to 1^+} (<var name="$fb"/>)^{<var name="$fp"/>}</md>
                 </p>
 
                 <p>
@@ -1663,7 +1663,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to \infty} (<var name="$fb"/>)^{<var name="$fp"/>}</me>
+                  <md>\lim\limits_{x\to \infty} (<var name="$fb"/>)^{<var name="$fp"/>}</md>
                 </p>
 
                 <p>
@@ -1683,7 +1683,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to \infty} (<var name="$fb"/>)^{<var name="$fp"/>}</me>
+                  <md>\lim\limits_{x\to \infty} (<var name="$fb"/>)^{<var name="$fp"/>}</md>
                 </p>
 
                 <p>
@@ -1703,7 +1703,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to \pi/2} <var name="$f1"/> <var name="$f2"/></me>
+                  <md>\lim\limits_{x\to \pi/2} <var name="$f1"/> <var name="$f2"/></md>
                 </p>
 
                 <p>
@@ -1723,7 +1723,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to \pi/2} <var name="$f1"/> <var name="$f2"/></me>
+                  <md>\lim\limits_{x\to \pi/2} <var name="$f1"/> <var name="$f2"/></md>
                 </p>
 
                 <p>
@@ -1743,7 +1743,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to 1^+} <var name="$f1"/> - <var name="$f2"/></me>
+                  <md>\lim\limits_{x\to 1^+} <var name="$f1"/> - <var name="$f2"/></md>
                 </p>
 
                 <p>
@@ -1763,7 +1763,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to 3^+} <var name="$f1"/> - <var name="$f2"/></me>
+                  <md>\lim\limits_{x\to 3^+} <var name="$f1"/> - <var name="$f2"/></md>
                 </p>
 
                 <p>
@@ -1783,7 +1783,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to \infty} <var name="$f1"/> <var name="$f2"/></me>
+                  <md>\lim\limits_{x\to \infty} <var name="$f1"/> <var name="$f2"/></md>
                 </p>
 
                 <p>
@@ -1803,7 +1803,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to \infty} \frac{<var name="$fu"/>}{<var name="$fl"/>}</me>
+                  <md>\lim\limits_{x\to \infty} \frac{<var name="$fu"/>}{<var name="$fl"/>}</md>
                 </p>
 
                 <p>
@@ -1831,7 +1831,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <me>\lim\limits_{x\to 1} \frac{<var name="$fu"/>}{<var name="$fl"/> }</me>
+                  <md>\lim\limits_{x\to 1} \frac{<var name="$fu"/>}{<var name="$fl"/> }</md>
                 </p>
 
                 <p>

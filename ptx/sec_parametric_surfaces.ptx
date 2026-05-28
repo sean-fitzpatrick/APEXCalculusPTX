@@ -459,9 +459,9 @@
           Thus far, we have determined the <m>x</m> and <m>y</m> components of our parametrization of the surface:
           <m>x=2v\cos(u)</m> and <m>y=2v\sin(u)</m>.
           We find the <m>z</m> component simply by using <m>z = f(x,y) = x^2+2y^2</m>:
-          <me>
+          <md>
             z = (2v\cos(u))^2+2(2v\sin(u))^2 = 4v^2\cos^2u+8v^2\sin^2u
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -825,9 +825,9 @@
       suppose a region <m>R</m> can be described by <m>a\leq x\leq b</m>,
       <m>g_1(x) \leq y\leq g_2(x)</m>,
       <ie/>, the area of <m>R</m> can be found using the iterated integral
-      <me>
+      <md>
         \int_a^b\int_{g_1(x)}^{g_2(x)}\, dy\, dx
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -847,9 +847,9 @@
       shown in <xref ref="fig_parsurf4a"/>.
       Using the techniques of <xref ref="sec_iterated_integrals"/>,
       we can find the area of <m>R</m> as
-      <me>
+      <md>
         \int_0^3\int_1^{3-2x/3} dy\, dx
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -880,9 +880,9 @@
 
       <p>
         <m>\surfaceS</m> can be parametrized as
-        <me>
+        <md>
           \vec r(u,v) = \la u, h(u,v), f\big(u,h(u,v)\big)\ra, a\leq u\leq b,\ 0\leq v\leq 1
-        </me>.
+        </md>.
       </p>
     </insight>
 
@@ -965,9 +965,9 @@
           This ellipse has a vertical major axis of length 4, a horizontal minor axis of length 2, and is centered at the origin.
           We can parametrize this ellipse using sines and cosines;
           our parametrization can begin with
-          <me>
+          <md>
             \vec r(u,v) = \la \cos(u), \text{ ??? } , 2\sin(u)\ra, 0\leq u\leq 2\pi
-          </me>,
+          </md>,
           where we still need to determine the <m>y</m> component.
         </p>
 
@@ -977,9 +977,9 @@
           Since the value of <m>y</m> does not depend at all on the values of <m>x</m> or <m>z</m>,
           we can use another variable, <m>v</m>, to describe <m>y</m>.
           Our final answer is
-          <me>
+          <md>
             \vec r(u,v) = \la \cos(u), v, 2\sin(u)\ra,  0\leq u\leq 2\pi, -1\leq v\leq 2
-          </me>.
+          </md>.
         </p>
       </solution>
     </example>
@@ -1068,9 +1068,9 @@
           <m>x=2z\cos(u)</m> and the <m>y</m> component with <m>y=3z\sin(u)</m>,
           where <m>0\leq u\leq 2\pi</m>.
           Putting all components together, we have
-          <me>
+          <md>
             \vec r(u,v) = \la 2v\cos(u), 3v\sin(u), v\ra, 0\leq u\leq 2\pi, -2\leq v\leq 3
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1291,9 +1291,9 @@
           The <m>x</m>-radius of the given ellipsoid is 5, the <m>y</m>-radius is 1 and the <m>z</m>-radius is 2.
           Substituting <m>u</m> for <m>\theta</m> and <m>v</m> for <m>\varphi</m>,
           we have
-          <me>
+          <md>
             \vec r(u,v) = \langle 5\sin(u)\cos(v), \sin(u)\sin(v),2\cos(u)\rangle
-          </me>,
+          </md>,
           where we still need to determine the ranges of <m>u</m> and <m>v</m>.
         </p>
 
@@ -1313,9 +1313,9 @@
 
         <p>
           The final parametrization is thus
-          <me>
+          <md>
             \vec r(u,v) = \langle 5\sin(u)\cos(v), \sin(u)\sin(v),2\cos(u)\rangle,  0\leq u\leq\pi, 0\leq v\leq 2\pi
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -1355,9 +1355,9 @@
       <m>a\leq u\leq b</m>, <m>c\leq v\leq d</m>.
       Following the principles given in the integration review at the beginning of this chapter,
       we can say that<idx><h>surface area</h><h>of parametrized surface</h></idx>
-      <me>
+      <md>
         \text{ Surface Area of }\surfaceS\, =S = \iint_{\surfaceS}\, dS
-      </me>,
+      </md>,
       where <m>dS</m> represents a small amount of surface area.
       That is, to compute total surface area <m>S</m>,
       add up lots of small amounts of surface area <m>dS</m> across the entire surface <m>\surfaceS</m>. The key to finding surface area is knowing how to compute <m>dS</m>.
@@ -1693,9 +1693,9 @@
       we know the area of this parallelogram is <m>\snorm{\vec u\times \vec v}</m>.
       If we repeat this approximation process for each rectangle in the partition of <m>R</m>,
       we can sum the areas of all the parallelograms to get an approximation of the surface area <m>S</m>:
-      <me>
+      <md>
         \text{ Surface area of } \surfaceS \,  =S \approx \sum_{j=1}^n\sum_{i=1}^n \snorm{\vec u_{i,j}\times \vec v_{i,j}}
-      </me>,
+      </md>,
       where <m>\vec u_{i,j} = \vec r(u_i+\Delta u,v_j) - \vec r(u_i,v_j)</m> and <m>\vec v_{i,j} = \vec r(u_i,v_j+\Delta v)-\vec r(u_i,v_j)</m>.
     </p>
 
@@ -1716,12 +1716,12 @@
       We now take the limit as <m>n\to\infty</m>,
       forcing <m>\Delta u</m> and <m>\Delta v</m> to 0.
       As <m>\Delta u\to 0</m>,
-      <me>
+      <md>
         \frac{\vec r(u_i+\Delta u,v_j) - \vec r(u_i,v_j)}{\Delta u} \to \vec r_u(u_i,v_j) \text{ and }
-      </me>
-      <me>
+      </md>
+      <md>
         \frac{\vec r(u_i,v_j+\Delta v)-\vec r(u_i,v_j)}{\Delta v} \to \vec r_v(u_i,v_j)
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -1732,9 +1732,9 @@
 
     <p>
       Thus, in the limit, the double sum leads to a double integral:
-      <me>
+      <md>
         \lim_{n\to\infty} \sum_{j=1}^n\sum_{i=1}^n \snorm{\vec u_{i,j}\times \vec v_{i,j}}= \int_c^d\int_a^b \snorm{\vec r_u\times\vec r_v}\, du\, dv
-      </me>.
+      </md>.
     </p>
 
     <theorem xml:id="thm_par_surface_area">
@@ -1755,9 +1755,9 @@
             <li>
               <p>
                 The surface area <m>S</m> of <m>\surfaceS</m> is
-                <me>
+                <md>
                   S = \iint_\surfaceS\, dS = \iint_R \snorm{\vec r_u\times \vec r_v}\, dA
-                </me>.
+                </md>.
               </p>
             </li>
           </ul>

@@ -99,9 +99,9 @@
       <statement>
         <p>
           The time (<m>T</m>, measured in hours) it takes to drive 50 miles along State Highway 46 depends on the constant speed at which you are driving (<m>s</m>, measured in mph). Since 
-          <me>
+          <md>
             \text{distance traveled} = \text{speed}\cdot \text{travel time},
-          </me> 
+          </md> 
           <m>T(s) = 50/s.</m>
         </p>
         <p>
@@ -317,9 +317,9 @@
       we made similar approximations.
       We were given rate of change information which we used to approximate total change.
       Notationally, we would say that
-      <me>
+      <md>
         f(c+h) \approx f(c) + \fp(c)\cdot h
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -802,9 +802,9 @@
     <p>
       This last example has a direct connection to our approximation method explained above after <xref ref="ex_der_meaning2"/>.
       We stated there that
-      <me>
+      <md>
         f(c+h) \approx f(c)+\fp(c)\cdot h
-      </me>.
+      </md>.
     </p>
 
     <p>

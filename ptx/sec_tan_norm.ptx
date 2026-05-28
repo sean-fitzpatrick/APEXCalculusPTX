@@ -22,9 +22,9 @@
           The unit tangent vector <m>\unittangent(t)</m> is
             <idx><h>unit tangent vector</h><h>definition</h></idx>
             <idx><h>unit vector</h><h>unit tangent vector</h></idx>
-          <me>
+          <md>
             \unittangent(t) = \frac{1}{\norm{\vrp(t)}}\vrp(t)
-          </me>.
+          </md>.
         </p>
       </statement>
     </definition>
@@ -55,9 +55,9 @@
 
         <p>
           We can now easily compute <m>\unittangent(0)</m> and <m>\unittangent(1)</m>:
-          <me>
+          <md>
             \unittangent(0) = \la 0,\frac35,\frac45\ra\,; \unittangent(1) = \la -\frac35\sin(1) ,\frac35\cos(1) ,\frac45\ra \approx \la -0.505,0.324,0.8\ra
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -128,9 +128,9 @@
         <p>
           The unit tangent vector <m>\unittangent(t)</m> always has a magnitude of 1, though it is sometimes easy to doubt that is true.
           We can help solidify this thought in our minds by computing <m>\norm{\unittangent(1)}</m>:
-          <me>
+          <md>
             \norm{\unittangent(1)} \approx \sqrt{(-0.505)^2+0.324^2+0.8^2} = 1.000001
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -165,16 +165,16 @@
       <solution>
         <p>
           We find <m>\vrp(t) = \la 2t-1,2t+1\ra</m>, and
-          <me>
+          <md>
             \norm{\vrp(t)} = \sqrt{(2t-1)^2+(2t+1)^2} = \sqrt{8t^2+2}
-          </me>.
+          </md>.
         </p>
 
         <p>
           Therefore
-          <me>
+          <md>
             \unittangent(t) = \frac{1}{\sqrt{8t^2+2}}\la 2t-1,2t+1\ra = \la \frac{2t-1}{\sqrt{8t^2+2}},\frac{2t+1}{\sqrt{8t^2+2}}\ra
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -336,9 +336,9 @@
           <m>\unitnormal(t)</m> is
             <idx><h>unit normal vector</h><h>definition</h></idx>
             <idx><h>unit vector</h><h>unit normal vector</h></idx>
-          <me>
+          <md>
             \unitnormal(t) = \frac1{\norm{\unittangentprime(t)}}\unittangentprime(t)
-          </me>.
+          </md>.
         </p>
       </statement>
     </definition>
@@ -361,20 +361,20 @@
         <p>
           In <xref ref="ex_tannorm1"/>,
           we found
-          <me>
+          <md>
             \unittangent(t) = \la  (-3/5)\sin(t) ,(3/5)\cos(t) ,4/5\ra
-          </me>.
+          </md>.
           Therefore
-          <me>
+          <md>
             \unittangentprime(t) = \la -\frac35\cos(t) ,-\frac35\sin(t) ,0\ra \text{ and }   \norm{\unittangentprime(t)} = \frac35
-          </me>.
+          </md>.
         </p>
 
         <p>
           Thus
-          <me>
+          <md>
             \unitnormal(t) = \frac{\unittangentprime(t)}{3/5} = \la -\cos(t) ,-\sin(t) ,0\ra
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -478,9 +478,9 @@
       <solution>
         <p>
           In <xref ref="ex_tannorm2"/>, we found
-          <me>
+          <md>
             \unittangent(t) = \la \frac{2t-1}{\sqrt{8t^2+2}},\frac{2t+1}{\sqrt{8t^2+2}}\ra
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -598,9 +598,9 @@
           <m>\unittangentprime(t)</m> is smooth on an open interval <m>I</m>.
           Let <m>t_0</m> be in <m>I</m> and
           <m>\unittangent(t_0) = \la t_1,t_2\ra</m> Then <m>\unitnormal(t_0)</m> is either
-          <me>
+          <md>
             \unitnormal(t_0) = \la -t_2,t_1\ra  \text{ or }  \unitnormal(t_0) = \la t_2,-t_1\ra
-          </me>,
+          </md>,
           whichever is the vector that points to the concave side of the graph of <m>\vec r</m>.
               <idx><h>unit tangent vector</h><h>in <m>\mathbb{R}^2</m></h></idx>
               <idx><h>unit normal vector</h><h>in <m>\mathbb{R}^2</m></h></idx>
@@ -618,9 +618,9 @@
       lies in the plane defined by <m>\unittangent</m> and <m>\unitnormal</m>.
       That is, there are scalar functions
       <m>a_\text{T}(t)</m> and <m>a_\text{N}(t)</m> such that
-      <me>
+      <md>
         \vat = a_\text{T}(t)\unittangent(t) + a_\text{N}(t)\unitnormal(t)
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -647,9 +647,9 @@
       in <xref ref="sec_dot_product"/> if needed).
       Recalling that since <m>\unittangent(t)</m> is a unit vector,
       <m>\unittangent(t)\cdot\unittangent(t)=1</m>, so we have
-      <me>
+      <md>
         \proj{a(t)}{T(t)} = \frac{\vec a(t)\cdot\unittangent(t)}{\unittangent(t)\cdot\unittangent(t)}\unittangent(t) = \underbrace{\big(\vec a(t)\cdot\unittangent(t)\big)}_{a_\text{T}}\unittangent(t)
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -685,9 +685,9 @@
           <m>\unittangent(t)</m> and <m>\unitnormal(t)</m>;
           that is, there exists scalars
           <m>a_\text{T}</m> and <m>a_\text{N}</m> such that
-          <me>
+          <md>
             \vat = a_\text{T} \unittangent(t) + a_\text{N} \unitnormal(t)
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -733,9 +733,9 @@
       <solution>
         <p>
           The previous examples give <m>\vat = \la -3\cos(t) ,-3\sin(t) ,0\ra</m> and
-          <me>
+          <md>
             \unittangent(t) = \la -\frac35\sin(t) ,\frac35\cos(t) ,\frac45\ra  \text{ and }  \unitnormal(t) = \la -\cos(t) ,-\sin(t) ,0\ra
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -776,9 +776,9 @@
       <solution>
         <p>
           The previous examples give <m>\vat = \la 2,2\ra</m> and
-          <me>
+          <md>
             \unittangent(t) = \la \frac{2t-1}{\sqrt{8t^2+2}},\frac{2t+1}{\sqrt{8t^2+2}}\ra  \text{ and }  \unitnormal(t) = \la \frac{2t+1}{\sqrt{8t^2+2}},-\frac{2t-1}{\sqrt{8t^2+2}}\ra
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -869,9 +869,9 @@
           Using <xref ref="idea_projectile"/>
           of <xref ref="sec_vvf_motion"/>
           we form the position function of the ball:
-          <me>
+          <md>
             \vrt = \la \big(64\cos(30^\circ) \big)t, -16t^2+\big(64\sin(30^\circ) \big)t+240\ra
-          </me>,
+          </md>,
           which we plot in <xref ref="fig_tannorm7b"/>.
         </p>
 
@@ -925,25 +925,25 @@
           From this we find <m>\vvt = \la 64\cos(30^\circ) , -32t+64\sin(30^\circ) \ra</m> and <m>\vat = \la 0,-32\ra</m>.
           Computing <m>\unittangent(t)</m> is not difficult,
           and with some simplification we find
-          <me>
+          <md>
             \unittangent(t) = \la \frac{\sqrt{3}}{\sqrt{t^2-2t+4}}, \frac{1-t}{\sqrt{t^2-2t+4}}\ra
-          </me>.
+          </md>.
         </p>
 
         <p>
           With <m>\vat</m> as simple as it is,
           finding <m>a_\text{T}</m> is also simple:
-          <me>
+          <md>
             a_\text{T}  = \vat\cdot \unittangent(t) = \frac{32t-32}{\sqrt{t^2-2t+4}}
-          </me>.
+          </md>.
         </p>
 
         <p>
           We choose to not find <m>\unitnormal(t)</m> and find
           <m>a_\text{N}</m> through the formula <m>a_\text{N}  = \sqrt{\norm{\vat}^2-a_\text{T}^2\,}</m>:
-          <me>
+          <md>
             a_\text{N}  = \sqrt{32^2-\left(\frac{32t-32}{\sqrt{t^2-2t+4}}\right)^2} = \frac{32\sqrt{3}}{\sqrt{t^2-2t+4}}
-          </me>.
+          </md>.
         </p>
 
         <p>

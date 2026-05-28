@@ -265,9 +265,9 @@
 
   <p>
     Summing up all <m>n</m> of the approximations to the surface area gives
-    <me>
+    <md>
       \text{surface area over \(R\)}  \approx \sum_{i=1}^m\sum_{j=1}^n \sqrt{1+f_x(x_i,y_j)^2+f_y(x_i,y_j)^2}\Delta A_{ij}
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -421,9 +421,9 @@
         The height is then <m>\norm {\vec u - \proj{u}{v}} = 4\sqrt{6/5}</m>;
         this is indicated by the additional line drawn in <xref ref="fig_surfacearea1"/>.
         Geometry states that the area is thus
-        <me>
+        <md>
           \frac 12\cdot4\sqrt{6/5}\cdot\sqrt{20} = 4\sqrt{6}
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -449,9 +449,9 @@
     <solution>
       <p>
         We start by computing partial derivatives and find
-        <me>
+        <md>
           f_x(x,y) = \frac{-x}{\sqrt{a^2-x^2-y^2}}  \text{ and }  f_y(x,y) = \frac{-y}{\sqrt{a^2-x^2-y^2}}
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -471,14 +471,14 @@
         Using the substitutions <m>x=r\cos(\theta)</m>, <m>y=r\sin(\theta)</m>,
         <m>dA = r\, dr\, d\theta</m> and bounds
         <m>0\leq\theta\leq2\pi</m> and <m>0\leq r\leq a</m>, we have:
-        <mdn>
-          <mrow number="no">S \amp = 2\int_0^{2\pi}\int_0^a \sqrt{1+\frac{r^2\cos^2(\theta) +r^2\sin^2(\theta) }{a^2-r^2\cos^2(\theta) -r^2\sin^2(\theta) }}\, r\, dr\, d\theta</mrow>
-          <mrow number="no">\amp =2\int_0^{2\pi}\int_0^ar\sqrt{1+\frac{r^2}{a^2-r^2}}\, dr\, d\theta</mrow>
-          <mrow xml:id="eq_exsurfacearea2">\amp =2\int_0^{2\pi}\int_0^ar\sqrt{\frac{a^2}{a^2-r^2}}\, dr\, d\theta.</mrow>
+        <md>
+          <mrow>S \amp = 2\int_0^{2\pi}\int_0^a \sqrt{1+\frac{r^2\cos^2(\theta) +r^2\sin^2(\theta) }{a^2-r^2\cos^2(\theta) -r^2\sin^2(\theta) }}\, r\, dr\, d\theta</mrow>
+          <mrow>\amp =2\int_0^{2\pi}\int_0^ar\sqrt{1+\frac{r^2}{a^2-r^2}}\, dr\, d\theta</mrow>
+          <mrow number="yes" xml:id="eq_exsurfacearea2">\amp =2\int_0^{2\pi}\int_0^ar\sqrt{\frac{a^2}{a^2-r^2}}\, dr\, d\theta.</mrow>
           <intertext>Apply substitution <m>u=a^2-r^2</m> and integrate the inner integral, giving</intertext>
-          <mrow number="no">\amp = 2\int_0^{2\pi} a^2\, d\theta</mrow>
-          <mrow number="no">\amp = 4\pi a^2</mrow>
-        </mdn>.
+          <mrow>\amp = 2\int_0^{2\pi} a^2\, d\theta</mrow>
+          <mrow>\amp = 4\pi a^2</mrow>
+        </md>.
       </p>
 
       <p>
@@ -497,9 +497,9 @@
 
     <p>
       The reason this need arises is that the function
-      <me>
+      <md>
         f(x,y) = \sqrt{a^2-x^2-y^2}
-      </me>
+      </md>
       fails the requirements of <xref ref="def_surfacearea"/>,
       as <m>f_x</m> and <m>f_y</m> are not continuous on the boundary of the circle <m>x^2+y^2=a^2</m>.
     </p>
@@ -519,9 +519,9 @@
     <statement>
       <p>
         The general formula for a right cone with height <m>h</m> and base radius <m>a</m> is
-        <me>
+        <md>
           \ds f(x,y) = h-\frac{h}a\sqrt{x^2+y^2}
-        </me>,
+        </md>,
         shown in <xref ref="fig_surfacearea3"/>.
         Find the surface area of this cone.
       </p>
@@ -589,27 +589,27 @@
     <solution>
       <p>
         We begin by computing partial derivatives.
-        <me>
+        <md>
           f_x(x,y) = -\frac{xh}{a\sqrt{x^2+y^2}} \text{ and }  f_y(x,y)=-\frac{yh}{a\sqrt{x^2+y^2}}
-        </me>.
+        </md>.
       </p>
 
       <p>
         Since we are integrating over the disk bounded by <m>x^2+y^2=a^2</m>,
         we again use polar coordinates.
         Using the standard substitutions, our integrand becomes
-        <me>
+        <md>
           \sqrt{1+ \left(\frac{hr\cos(\theta) }{a\sqrt{r^2}}\right)^2 + \left(\frac{hr\sin(\theta) }{a\sqrt{r^2}}\right)^2}
-        </me>.
+        </md>.
       </p>
 
       <p>
         This may look intimidating at first,
         but there are lots of simple simplifications to be done.
         It amazingly reduces to just
-        <me>
+        <md>
           \sqrt{1+\frac{h^2}{a^2}} = \frac1a\sqrt{a^2+h^2}
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -727,9 +727,9 @@
         It is straightforward to compute
         <m>f_x(x,y) = 2x</m> and <m>f_y(x,y) = -3</m>.
         Thus the surface area is described by the double integral
-        <me>
+        <md>
           \iint_R \sqrt{1+(2x)^2+(-3)^2}\, dA = \iint_R \sqrt{10+4x^2}\, dA
-        </me>.
+        </md>.
       </p>
 
       <p>

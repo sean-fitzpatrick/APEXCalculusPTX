@@ -142,9 +142,9 @@
     <p>
       Start with any parametrization of <m>\vec r</m>.
       We can compute the arc length of the graph of <m>\vec r</m> on the interval <m>[0,t]</m> with
-      <me>
+      <md>
         \text{arc length}\,  = \int_0^t\norm{\vrp(u)}\, du
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -152,9 +152,9 @@
       as <m>t</m> varies,
       we find the arc length <m>s</m> from <m>0</m> to <m>t</m>.
       This function is
-      <men xml:id="eq_vvfarc">
+      <md number="yes" xml:id="eq_vvfarc">
         s(t) = \int_0^t \norm{\vrp(u)}\, du
-      </men>.
+      </md>.
     </p>
 
     <p>
@@ -176,9 +176,9 @@
       <solution>
         <p>
           Using <xref ref="eq_vvfarc">Equation</xref>, we write
-          <me>
+          <md>
             s(t) = \int_0^t \norm{\vrp(u)}\, du
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -195,9 +195,9 @@
         <p>
           Since <m>s=5t</m>,
           we can write <m>t=s/5</m> and replace <m>t</m> in <m>\vrt</m> with <m>s/5</m>:
-          <me>
+          <md>
             \vec r(s) = \la 3(s/5)-1, 4(s/5)+2\ra = \la \frac35s-1,\frac45s+2\ra
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -256,9 +256,9 @@
         <p>
           Is the point <m>(1/5,18/5)</m> really 2 units away from <m>(-1,2)</m>?
           We use the Distance Formula to check:
-          <me>
+          <md>
             d = \sqrt{\left(\frac15-(-1)\right)^2+ \left(\frac{18}5-2\right)^2} = \sqrt{\frac{36}{25}+\frac{64}{25}} = \sqrt{4}=2
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -286,9 +286,9 @@
       The Fundamental Theorem of Calculus
       (see <xref ref="thm_FTC1"/>)
       states that
-      <men xml:id="eq_vvfarc3">
+      <md number="yes" xml:id="eq_vvfarc3">
         \frac{ds}{dt}=s\primeskip'(t) = \norm{\vrp(t)}
-      </men>.
+      </md>.
     </p>
 
     <p>
@@ -308,9 +308,9 @@
 
     <p>
       Solving for <m>\vrp(s)</m>, we have
-      <men xml:id="eq_vvfarc2">
+      <md number="yes" xml:id="eq_vvfarc2">
         \vrp(s) = \frac{\vrp(t)}{\norm{\vrp(t)}} = \unittangent(t)
-      </men>,
+      </md>,
       where <m>\unittangent(t)</m> is the unit tangent vector.
       <xref ref="eq_vvfarc2">Equation</xref> is often misinterpreted,
       as one is tempted to think it states <m>\vrp(t) = \unittangent(t)</m>,
@@ -453,9 +453,9 @@
           The curvature <m>\kappa</m> of the graph of <m>\vec r(s)</m> is
               <idx><h>curvature</h></idx>
               <idx><h>unit tangent vector</h><h>and curvature</h></idx>
-          <me>
+          <md>
             \kappa = \snorm{\frac{d\unittangent}{ds}} = \snorm{\unittangentprime(s)}
-          </me>.
+          </md>.
         </p>
       </statement>
     </definition>
@@ -467,17 +467,17 @@
 
     <p>
       If <m>\vec r(s)</m> is parametrized by the arc length parameter, then
-      <me>
+      <md>
         \unittangent(s) = \frac{\vrp(s)}{\norm{\vrp(s)}}  \text{ and }  \unitnormal(s) = \frac{\unittangentprime(s)}{\norm{\unittangentprime(s)}}
-      </me>.
+      </md>.
     </p>
 
     <p>
       Having defined <m>\norm{\unittangentprime(s)} =\kappa</m>,
       we can rewrite the second equation as
-      <men xml:id="eq_curvature">
+      <md number="yes" xml:id="eq_curvature">
         \unittangentprime(s) = \kappa\unitnormal(s)
-      </men>.
+      </md>.
     </p>
 
     <p>
@@ -555,9 +555,9 @@
             <li>
               <p>
                 If <m>C</m> is defined by <m>y=f(x)</m>, then
-                <me>
+                <md>
                   \kappa = \frac{\abs{\fp'(x)}}{\Big(1+\big(\fp(x)\big)^2\Big)^{3/2}}
-                </me>.
+                </md>.
               </p>
             </li>
 
@@ -565,18 +565,18 @@
               <p>
                 If <m>C</m> is defined as a vector-valued function in the plane,
                 <m>\vrt = \la x(t), y(t)\ra</m>, then
-                <me>
+                <md>
                   \kappa = \frac{\abs{x'\yp'-x''\yp}}{\big((x')^2+(\yp)^2\big)^{3/2}}
-                </me>.
+                </md>.
               </p>
             </li>
 
             <li>
               <p>
                 If <m>C</m> is defined in space by a vector-valued function <m>\vrt</m>, then
-                <me>
+                <md>
                   \kappa = \frac{\norm{\unittangentprime(t)}}{\norm{\vrp(t)}} = \frac{\norm{\vrp(t)\times\vrpp(t)}}{\norm{\vrp(t)}^3} = \frac{\vec a(t)\cdot \unitnormal(t)}{\norm{\vec v(t)}^2}
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
@@ -820,9 +820,9 @@
           We use the third formula in <xref ref="thm_curvature_formulas"/>
           as <m>\vrt</m> is defined in space.
           We leave it to the reader to verify that
-          <me>
+          <md>
             \vrp(t) =\la 1,2t,6t^2\ra, \vrp'(t) = \la 0,2,12t\ra, \text{ and }  \vrp(t)\times \vrpp(t) = \la 12t^2,-12t,2\ra
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -973,17 +973,17 @@
           <idx><h>unit normal vector</h><h>and curvature</h></idx>
           <idx><h>at@<m>a_\text{T}</m></h></idx>
           <idx><h>an@<m>a_\text{N}</m></h></idx>
-      <me>
+      <md>
         \vat = a_\text{T} \unittangent(t) + a_\text{N} \unitnormal(t)
-      </me>.
+      </md>.
     </p>
 
     <p>
       <xref ref="thm_acc_plane"/>
       gives formulas for <m>a_\text{T}</m> and <m>a_\text{N}</m>:
-      <me>
+      <md>
         a_\text{T}  = \frac{d}{dt}\Big(\norm{\vvt}\Big)  \text{ and }   a_\text{N}  = \frac{\norm{\vvt\times \vat}}{\norm{\vvt}}
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -997,9 +997,9 @@
       In <xref ref="eq_vvfarc3">Equation</xref> at the beginning of this section, we found
       <m>s\primeskip'(t) = \norm{\vvt}</m>.
       We can combine this fact with the above formula for <m>a_\text{T}</m> to write
-      <me>
+      <md>
         a_\text{T}  = \frac{d}{dt}\Big(\norm{\vvt}\Big) = \frac{d}{dt}\big( s\primeskip'(t)\big) = s\primeskip''(t)
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -1012,9 +1012,9 @@
     <p>
       Now compare the formula for
       <m>a_\text{N}</m> above to the formula for curvature in <xref ref="thm_curvature_formulas"/>:
-      <me>
+      <md>
         a_\text{N}  = \frac{\norm{\vvt\times \vat}}{\norm{\vvt}} \text{ and }  \kappa = \frac{\norm{\vrp(t)\times\vrpp(t)}}{\norm{\vrp(t)}^3}=\frac{\norm{\vvt\times \vat}}{\norm{\vvt}^3}
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -1045,9 +1045,9 @@
     <p>
       Putting our new formulas for
       <m>a_\text{T}</m> and <m>a_\text{N}</m> together, we have
-      <me>
+      <md>
         \vat = s\primeskip''(t)\unittangent(t) + \kappa\norm{\vvt}^2\unitnormal(t)
-      </me>.
+      </md>.
     </p>
 
     <p>

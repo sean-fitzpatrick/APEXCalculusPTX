@@ -94,9 +94,9 @@
 
   <p>
     Here we use <q><m>\text{Distance } = \text{ Rate}_1\, \times \text{ Time}_1\, + \text{ Rate}_2\, \times \text{ Time}_2</m>,</q> which is
-    <me>
+    <md>
       \text{ Distance }  = 5\cdot10 + (-2)\cdot 4 = 42\text{ ft. }
-    </me>
+    </md>
   </p>
 
   <p>
@@ -248,9 +248,9 @@
         (Notice how we ended up just finding when the velocity was 0ft/s!)
         The first derivative test shows this is a maximum,
         so the maximum height of the object is found at
-        <me>
+        <md>
           s(1.5) = -16(1.5)^2+48(1.5)=36\text{ ft }
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -414,9 +414,9 @@
       <p>
         The <term>definite integral</term> of <m>f</m> on <m>[a,b]</m>
         is the total signed area of <m>f</m> on <m>[a,b]</m>, denoted
-        <me>
+        <md>
           \int_a^b f(x)\, dx
-        </me>,
+        </md>,
         where <m>a</m> and <m>b</m> are the
         <term>bounds of integration</term>.
       </p>
@@ -700,13 +700,13 @@
           not necessarily in support of other properties.)
           Suppose <m>b\lt a\lt c</m>.
           The discussion from the previous point clearly justifies
-          <men xml:id="eq_defint1">
+          <md number="yes" xml:id="eq_defint1">
             \int_b^a f(x)\, dx + \int_a^c f(x)\, dx = \int_b^c f(x)\, dx
-          </men>.
+          </md>.
           However, we still claim that, as originally stated,
-          <men xml:id="eq_defint2">
+          <md number="yes" xml:id="eq_defint2">
             \int_a^b f(x)\, dx + \int_b^c f(x)\, dx = \int_a^c f(x)\, dx
-          </men>.
+          </md>.
           How do Equations <xref ref="eq_defint1"/> and <xref ref="eq_defint2"/>
           relate?
           Start with <xref ref="eq_defint1">Equation</xref>:
@@ -859,9 +859,9 @@
     <statement>
       <p>
         Evaluate the following definite integrals:
-        <me>
+        <md>
           1. \, \int_{-2}^5 (2x-4)\, dx \qquad 2.\, \int_{-3}^3 \sqrt{9-x^2}\, dx
-        </me>.
+        </md>.
       </p>
     </statement>
     <solution>
@@ -874,16 +874,16 @@
               We see we need to compute the areas of two regions,
               which we have labeled <m>R_1</m> and <m>R_2</m>.
               Both are triangles, so the area computation is straightforward:
-              <me>
+              <md>
                 R_1: \frac12(4)(8) = 16 \qquad R_2: \frac12(3)6 = 9
-              </me>.
+              </md>.
               Region <m>R_1</m> lies under the <m>x</m>-axis,
               hence it is counted as negative area
               (we can think of the triangle's height as being <q><m>-8</m></q>),
               so
-              <me>
+              <md>
                 \int_{-2}^5(2x-4)\, dx = -16+9 = -7
-              </me>.
+              </md>.
             </p>
           </li>
 
@@ -894,9 +894,9 @@
               as sketched in <xref ref="fig_defint8b"/>,
               with radius 3.
               Thus the area is:
-              <me>
+              <md>
                 \int_{-3}^3 \sqrt{9-x^2}\, dx = \frac12\pi r^2 = \frac 92\pi
-              </me>.
+              </md>.
             </p>
           </li>
         </ol>
@@ -1185,7 +1185,7 @@
         <statement>
           <p>
             Give a single definite integral that has the same value as
-            <me>I = \int_0^1(2x+3)\, dx + \int_1^2 (2x+3)\, dx</me>.
+            <md>I = \int_0^1(2x+3)\, dx + \int_1^2 (2x+3)\, dx</md>.
           </p>
         </statement>
         <response />
@@ -2444,7 +2444,7 @@
         <introduction>
           <p>
             The values of several definite integrals are given as follows:
-            <me>\int_0^2f(x)\,dx = 5 \quad \int_0^3f(x)\,dx = 7 \quad \int_0^2g(x)\,dx = -3 \quad \int_2^3g(x)\,dx = 5</me>
+            <md>\int_0^2f(x)\,dx = 5 \quad \int_0^3f(x)\,dx = 7 \quad \int_0^2g(x)\,dx = -3 \quad \int_2^3g(x)\,dx = 5</md>
             Use these values and properties of definite integrals to evaluate the indicated definite integral.
           </p>
         </introduction>
@@ -2513,7 +2513,7 @@
         <introduction>
           <p>
             The values of several definite integrals are given as follows:
-            <me>\int_0^3s(t)\,dt = 10 \quad \int_3^5s(t)\,dt = 8 \quad \int_3^5r(t)\,dt = -1 \quad \int_0^5r(t)\,dt = 11</me>
+            <md>\int_0^3s(t)\,dt = 10 \quad \int_3^5s(t)\,dt = 8 \quad \int_3^5r(t)\,dt = -1 \quad \int_0^5r(t)\,dt = 11</md>
             Use these values and properties of definite integrals to evaluate the indicated definite integral.
           </p>
         </introduction>

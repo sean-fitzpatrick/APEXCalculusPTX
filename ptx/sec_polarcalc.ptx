@@ -41,9 +41,9 @@
 
     <p>
       Using <xref ref="idea_dydxpar"/> we have
-      <me>
+      <md>
         \frac{dy}{dx} = \frac{dy}{d\theta}\Big/\frac{dx}{d\theta}
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -58,9 +58,9 @@
         With <m>x=f(\theta)\cos(\theta)</m> and <m>y=f(\theta)\sin(\theta)</m>,
         <idx><h>polar</h><h>functions!finding <m>\frac{dy}{dx}</m></h></idx>
             <idx><h>tangent line</h></idx>
-        <me>
+        <md>
           \frac{dy}{dx} = \frac{\fp(\theta)\sin(\theta) +f(\theta)\cos(\theta) }{\fp(\theta)\cos(\theta) -f(\theta)\sin(\theta) }
-        </me>.
+        </md>.
       </p>
     </insight>
 
@@ -103,15 +103,15 @@
                 In rectangular coordinates,
                 the point on the graph at <m>\theta=\pi/4</m> is <m>(1+\sqrt{2}/2,1+\sqrt{2}/2)</m>.
                 Thus the rectangular equation of the line tangent to the limaçon at <m>\theta=\pi/4</m> is
-                <me>
+                <md>
                   y=(-2\sqrt{2}-1)\big(x-(1+\sqrt{2}/2)\big)+1+\sqrt{2}/2 \approx  -3.83 x+8.24
-                </me>.
+                </md>.
                 The limaçon and the tangent line are graphed in <xref ref="fig_polcalc1"/>.
 
                 The normal line has the opposite-reciprocal slope as the tangent line, so its equation is
-                <me>
+                <md>
                   y \approx \frac{1}{3.83}x+1.26
-                </me>.
+                </md>.
               </p>
 
               <figure xml:id="fig_polcalc1" vshift="0">
@@ -185,9 +185,9 @@
                 To find the horizontal lines of tangency,
                 we find where <m>\frac{dy}{dx}=0</m>;
                 thus we find where the numerator of our equation for <m>\frac{dy}{dx}</m> is 0.
-                <me>
+                <md>
                   \cos(\theta) (4\sin(\theta) +1)=0 \Rightarrow  \cos(\theta) =0  \text{ or }  4\sin(\theta) +1=0
-                </me>.
+                </md>.
                 On <m>[0,2\pi]</m>,
                 <m>\cos(\theta) =0</m> when <m>\theta=\pi/2,\,3\pi/2</m>.
 
@@ -221,13 +221,13 @@
                 <m>\sin^{-1}(x)</m> only returns solutions in <m>[-\pi/2,\pi/2]</m>,
                 the <m>4</m>th and <m>1</m>st quadrants.
                 Again using reference angles, we have:
-                <me>
+                <md>
                   \sin(\theta) = \frac{-1+\sqrt{33}}8  \Rightarrow  \theta = 0.6349,\,2.5067 \text{ radians }
-                </me>
+                </md>
                 and
-                <me>
+                <md>
                   \sin(\theta) = \frac{-1-\sqrt{33}}8  \Rightarrow  \theta = 4.1446,\,5.2802 \text{ radians. }
-                </me>
+                </md>
                 These points are also shown in <xref ref="fig_polcalc1"/>
                 with white-filled dots.
               </p>
@@ -246,9 +246,9 @@
       it means that <m>f(\alpha)=0</m> for some angle <m>\alpha</m>.
       Thus the formula for <m>\frac{dy}{dx}</m> in such instances is very simple,
       reducing simply to
-      <me>
+      <md>
         \frac{dy}{dx} = \tan\alpha
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -409,9 +409,9 @@
       This is shown in <xref ref="fig_polarea2"/>,
       where <m>[\alpha,\beta]</m> has been divided into 4 subintervals.
       We approximate the area of the whole region by summing the areas of all sectors:
-      <me>
+      <md>
         \text{ Area }  \approx \sum_{i=1}^n \frac12f(c_i)^2\Delta\theta
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -563,9 +563,9 @@
           where <m>0\leq \beta-\alpha\leq 2\pi</m>.
           The area <m>A</m> of the region bounded by the curve <m>r=f(\theta)</m> and the lines
           <m>\theta=\alpha</m> and <m>\theta=\beta</m> is
-          <me>
+          <md>
             A \,=\, \frac12\int_\alpha^\beta f(\theta)^2 \, d\theta\, =\, \frac12\int_\alpha^\beta r^{\,2} \, d\theta
-          </me>
+          </md>
         </p>
       </statement>
     </theorem>
@@ -710,9 +710,9 @@
         <m>r_2=f_2(\theta)</m> and subtracting the area bounded by
         <m>r_1=f_1(\theta)</m> on <m>[\alpha,\beta]</m>.
         Thus
-        <me>
+        <md>
           \text{ Area } \,= \,\frac12\int_\alpha^\beta r_2^{\,2}\, d\theta - \frac12\int_\alpha^\beta r_1^{\,2}\, d\theta = \frac12\int_\alpha^\beta \big(r_2^{\,2}-r_1^{\,2}\big)\, d\theta
-        </me>.
+        </md>.
       </p>
 
       <figure xml:id="fig_polarea3" vshift="-2">
@@ -788,9 +788,9 @@
           <m>r_1=f_1(\theta)</m> and <m>r_2=f_2(\theta)</m>,
           <m>\theta=\alpha</m> and <m>\theta=\beta</m>,
           where <m>f_1(\theta)\leq f_2(\theta)</m> on <m>[\alpha,\beta]</m>, is
-          <me>
+          <md>
             A = \frac12\int_\alpha^\beta \big(r_2^{\,2}-r_1^{\,2}\big)\, d\theta
-          </me>.
+          </md>.
         </p>
       </insight>
 
@@ -955,9 +955,9 @@
           <p>
             We need to find the point of intersection between the two curves.
             Setting the two functions equal to each other, we have
-            <me>
+            <md>
               2\cos(2\theta) = 1  \Rightarrow  \cos(2\theta) = \frac12  \Rightarrow  2\theta = \pi/3 \Rightarrow  \theta=\pi/6
-            </me>.
+            </md>.
           </p>
 
           <figure xml:id="fig_polcalc6b" vshift="-11.5">
@@ -1028,9 +1028,9 @@
           <p>
             Call the area below the dashed line <m>A_1</m> and the area above the dashed line <m>A_2</m>.
             They are determined by the following integrals:
-            <me>
+            <md>
               A_1 = \frac12\int_0^{\pi/6} (1)^2\, d\theta\qquad  A_2 = \frac12\int_{\pi/6}^{\pi/4} \big(2\cos(2\theta)\big)^2\, d\theta
-            </me>.
+            </md>.
           </p>
 
           <p>
@@ -1061,9 +1061,9 @@
       <m>y=g(t)</m> on <m>[a,b]</m> is
           <idx><h>arc length</h></idx>
           <idx><h>polar</h><h>function!arc length</h></idx>
-      <men xml:id="eq_polar_arclength">
+      <md number="yes" xml:id="eq_polar_arclength">
         L = \int_a^b \sqrt{\fp(t)^2 + \gp(t)^2}\, dt = \int_a^b \sqrt{x'(t)^2+\yp(t)^2}\, dt
-      </men>.
+      </md>.
     </p>
 
     <p>
@@ -1078,9 +1078,9 @@
     <p>
       The expression <m>x'(\theta)^2+\yp(\theta)^2</m> can be simplified a great deal;
       we leave this as an exercise and state that
-      <me>
+      <md>
         x'(\theta)^2+\yp(\theta)^2 = \fp(\theta)^2+f(\theta)^2
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -1094,9 +1094,9 @@
           Let <m>r=f(\theta)</m> be a polar function with <m>\fp</m> continuous on <m>[\alpha,\beta]</m>,
           on which the graph traces itself only once.
           The arc length <m>L</m> of the graph on <m>[\alpha,\beta]</m> is
-          <me>
+          <md>
             L = \int_\alpha^\beta \sqrt{\fp(\theta)^2+f(\theta)^2}\, d\theta = \int_\alpha^\beta\sqrt{(r\,')^2+ r^2}\, d\theta
-          </me>.
+          </md>.
         </p>
       </statement>
     </theorem>
@@ -1200,18 +1200,18 @@
             <li>
               <p>
                 The surface area of the solid formed by revolving the graph about the initial ray (<m>\theta=0</m>) is:
-                <me>
+                <md>
                   \text{ Surface Area }  = 2\pi\int_\alpha^\beta f(\theta)\sin(\theta)\sqrt{\fp(\theta)^2+f(\theta)^2}\, d\theta
-                </me>.
+                </md>.
               </p>
             </li>
 
             <li>
               <p>
                 The surface area of the solid formed by revolving the graph about the line <m>\theta=\pi/2</m> is:
-                <me>
+                <md>
                   \text{ Surface Area }  = 2\pi\int_\alpha^\beta f(\theta)\cos(\theta)\sqrt{\fp(\theta)^2+f(\theta)^2}\, d\theta
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
@@ -2388,9 +2388,9 @@
                 <p>
                   Let <m>x(\theta) = f(\theta)\cos(\theta)</m> and <m>y(\theta)=f(\theta)\sin(\theta)</m>.
                   Show, as suggested by the text, that
-                  <me>
+                  <md>
                     x\,'(\theta)^2+y\,'(\theta)^2 = \fp(\theta)^2+f(\theta)^2
-                  </me>.
+                  </md>.
                 </p>
               </statement>
               <solution>

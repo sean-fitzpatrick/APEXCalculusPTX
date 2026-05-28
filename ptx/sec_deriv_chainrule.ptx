@@ -182,9 +182,9 @@
             <idx><h>derivative</h><h>Chain Rule</h></idx>
             <idx><h>Chain Rule</h></idx>
         Then <m>y=f(g(x))</m> is a differentiable function on <m>I</m>, and
-        <me>
+        <md>
           \yp = \fp(g(x))\cdot \gp(x)
-        </me>.
+        </md>.
       </p>
     </statement>
   </theorem>
@@ -386,7 +386,7 @@
     <cardsort widths="20% 80%">
       <match>
         <premise>   
-          <me> 4 </me>
+          <md> 4 </md>
         </premise>
         <response>
           <md> 
@@ -398,42 +398,42 @@
       </match>
       <match>
         <premise>
-          <me> x^2 </me>
+          <md> x^2 </md>
         </premise>
         <premise>
-          <me> 1 </me>
+          <md> 1 </md>
         </premise>
         <response>
-          <me> 
+          <md> 
             \left[\left(\blank{4}{5}+x\right)^6\right]' = 6\left(2x+\blank{4}{5}\right)\left(\blank{4}{5}+x\right)^5
-          </me>
+          </md>
         </response>
       </match>
       <match>
         <premise> 
-          <me> 2x </me>
+          <md> 2x </md>
         </premise>
         <premise>
-          <me> 4x </me>
+          <md> 4x </md>
         </premise>
         <premise>
-          <me>e</me>
+          <md>e</md>
         </premise>
         <!-- <premise>
-          <me> \ln\bigl(\hspace{36pt}\bigr) </me>
+          <md> \ln\bigl(\hspace{36pt}\bigr) </md>
         </premise> -->
         <response>
-          <me> 
+          <md> 
             \left[\ln\mathopen{}\left(\blank{4}{5}^{2x} + \blank{4}{5}\right)\mathclose{}\right]' = \frac{2e^{\blank{3}{3}}+4}{\blank{4}{5}^{\blank{3}{3}} + \blank{4}{5}}
-          </me>
+          </md>
         </response>
       </match>
       <match>
         <premise>
-          <me> 2 </me>
+          <md> 2 </md>
         </premise>
         <premise>
-          <me> 2/x </me>
+          <md> 2/x </md>
         </premise>
       </match>
     </cardsort>
@@ -466,9 +466,9 @@
             <title><m>F_1(x) = (1-x)^2</m></title>
             <p>
               We found that
-              <me>
+              <md>
                 y=(1-x)^2 = f(g(x))
-              </me>,
+              </md>,
               where <m>f(x) = x^2</m> and <m>g(x) = 1-x</m>.
               To find <m>\yp</m>,
               we apply the <xref ref="thm_chain_rule" text="title"/>.
@@ -540,9 +540,9 @@
             <idx><h>derivative</h><h>Generalized Power Rule</h></idx>
             <idx><h>Generalized Power Rule</h></idx>
         Then
-        <me>
+        <md>
           \lzoo{x}{g(x)^n} = n\cdot\left(g(x)\right)^{n-1}\cdot \gp(x)
-        </me>.
+        </md>.
       </p>
     </statement>
   </theorem>
@@ -551,9 +551,9 @@
     This allows us to quickly find the derivative of functions like <m>y = (3x^2-5x+7+\sin(x) )^{20}</m>.
     While it may look intimidating,
     the Generalized Power Rule states that
-    <me>
+    <md>
       \yp = 20(3x^2-5x+7+\sin(x) )^{19}\cdot (6x-5+\cos(x) )
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -607,9 +607,9 @@
               Recognize that <m>y = \ln\mathopen{}\left(4x^3-2x^2\right)\mathclose{}</m> is the composition of
               <m>f(x) = \ln(x)</m> and <m>g(x) = 4x^3-2x^2</m>.
               Also, recall that
-              <me>
+              <md>
                 \lzoo{x}{\ln(x)} = \frac{1}{x}
-              </me>.
+              </md>.
               This leads us to:
               <md>
                 <mrow>\yp \amp = \frac{1}{4x^3-2x^2} \cdot \lzoo{x}{4x^3-2x^2}</mrow>
@@ -664,9 +664,9 @@
         <m>\fp(x) = -\sin(x^2) \cdot(2x) = -2x\sin(x^2)</m>.
         Evaluated at <m>x=1</m>, we have <m>\fp(1) = -2\sin(1) \approx -1.68</m>.
         Thus the equation of the tangent line is approximated by
-        <me>
+        <md>
           y \approx -1.68(x-1)+0.54
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -711,16 +711,16 @@
     Because of this,
     one can become familiar with the basic process and learn patterns that facilitate finding derivatives quickly.
     For instance,
-    <me>
+    <md>
       \lzoo{x}{\ln(\text{anything})} = \frac{1}{\text{anything}}\cdot\lzoo{x}{\text{anything}}  = \frac{\lzoo{x}{\text{anything}}}{\text{anything}}
-    </me>.
+    </md>.
   </p>
 
   <p>
     A concrete example of this is
-    <me>
+    <md>
       \lzoo{x}{\ln(3x^{15}-\cos(x) +e^x)} = \frac{45x^{14}+\sin(x) +e^x}{3x^{15}-\cos(x) +e^x}
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -734,9 +734,9 @@
     In general, instead of writing <q>anything</q>,
     we use <m>u</m> as a generic function of <m>x</m>.
     We then say
-    <me>
+    <md>
       \lzoo{x}{\ln(u)} = \frac{u'}{u}
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -852,9 +852,9 @@
         We begin using the <xref ref="thm_gen_power_rule" text="title"/>;
         in this first step, we do not fully compute the derivative.
         Rather, we are approaching this step-by-step.
-        <me>
+        <md>
           \yp = 5\left(\tan\mathopen{}\left(6x^3-7x\right)\mathclose{}\right)^4\cdot \gp(x)
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -947,9 +947,9 @@
         Recalling that <m>e^x</m> and <m>\ln(x)</m> are inverse functions,
         we can write
         <m>2=e^{\ln 2}</m> and so
-        <me>
+        <md>
           y=2^x = \left(e^{\ln 2}\right)^x = e^{x(\ln(2))}
-        </me>,
+        </md>,
         using the <q>power to a power</q> property of exponents.
       </p>
 
@@ -958,9 +958,9 @@
         with <m>f(x) = e^x</m> and <m>g(x) = x(\ln(2))</m>.
         Since <m>\fp(x) = e^x</m> and
         <m>\gp(x) = \ln(2)</m>, the <xref ref="thm_chain_rule" text="title"/> gives
-        <me>
+        <md>
           \yp = e^{x (\ln(2))} \cdot \ln 2
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -968,9 +968,9 @@
         our original function.
         Thus, the derivative contains the original function itself.
         We have
-        <me>
+        <md>
           \yp = y \cdot \ln(2) = 2^x\cdot \ln(2)
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -997,9 +997,9 @@
             <idx><h>derivative</h><h>exponential functions</h></idx>
 
         Then <m>f</m> is differentiable for all real numbers (<ie/>, differentiable everywhere) and
-        <me>
+        <md>
           \fp(x) = \ln(a) \cdot a^x
-        </me>.
+        </md>.
       </p>
     </statement>
   </theorem>
@@ -1036,9 +1036,9 @@
       Here the <q>fractional</q> aspect of the derivative notation stands out.
       On the right hand side, it seems as though the <q><m>du</m></q>
       terms cancel out, leaving
-      <me>
+      <md>
         \frac{dy}{dx} = \frac{dy}{dx}
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -1048,9 +1048,9 @@
       It is equally important to realize that this notation was chosen precisely because of this behavior.
       It makes applying the <xref ref="thm_chain_rule" text="title"/> easy with multiple variables.
       For instance,
-      <me>
+      <md>
         \lz{y}{t} = \lz{y}{\bigcirc} \cdot \lz{\bigcirc}{\triangle} \cdot \lz{\triangle}{t}
-      </me>.
+      </md>.
       where <m>\bigcirc</m> and <m>\triangle</m> are any variables you'd like to use.
     </p>
 
@@ -1137,9 +1137,9 @@
       How does <m>y</m> change with respect to <m>x</m>?
       For each revolution of <m>x</m>,
       <m>y</m> revolves <m>6</m> times; that is,
-      <me>
+      <md>
         \frac{dy}{dx} = \frac{dy}{du}\cdot \frac{du}{dx} = 2\cdot 3 = 6
-      </me>.
+      </md>.
     </p>
 
     <p>

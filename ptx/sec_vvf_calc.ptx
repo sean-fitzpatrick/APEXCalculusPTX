@@ -35,9 +35,9 @@
           The <term>limit of <m>\vec r(t)</m>,
           as <m>t</m> approaches <m>c</m>,
           is <m>\vec L</m></term>, expressed as
-          <me>
+          <md>
             \lim_{t\to c} \vec r(t) = \vec L
-          </me>,
+          </md>,
           means that given any <m>\varepsilon \gt 0</m>,
           there exists a <m>\delta \gt 0</m> such that for all <m>t\neq c</m>,
           if <m>\abs{t-c} \lt \delta</m>,
@@ -74,9 +74,9 @@
               <idx><h>vector-valued function</h><h>limits</h></idx>
               <idx><h>limit</h><h>of vector-valued functions</h></idx>
 
-                <me>
+                <md>
                   \lim_{t\to c} \vec r(t) = \la \lim_{t\to c}f(t)\, , \,\lim_{t\to c} g(t)\ra
-                </me>.
+                </md>.
               </p>
             </li>
 
@@ -86,9 +86,9 @@
                 <m>\mathbb{R}^3</m> defined on an open interval <m>I</m> containing <m>c</m>,
                 except possibly at <m>c</m>.
                 Then
-                <me>
+                <md>
                   \lim_{t\to c} \vec r(t) = \la \lim_{t\to c}f(t)\, , \,\lim_{t\to c} g(t)\,, \,\lim_{t\to c} h(t)\ra
-                </me>
+                </md>
               </p>
             </li>
           </ol>
@@ -296,9 +296,9 @@
       we think of it as <m>[c,c+h]</m> for some value of <m>h</m>
       (hence the interval has length <m>h</m>).
       The <em>average</em> rate of change is
-      <me>
+      <md>
         \frac{\vec r(c+h)-\vec r(c)}{h}
-      </me>
+      </md>
       for any value of <m>h\neq0</m>.
       We take the limit as <m>h\to0</m> to measure the instantaneous rate of change;
       this is the derivative of <m>\vec r</m>.
@@ -316,18 +316,18 @@
             <li>
               <p>
                 The <term>derivative</term> of <m>\vec r</m> at <m>t=c</m> is
-                <me>
+                <md>
                   \vrp (c) = \lim_{h\to 0} \frac{\vec r(c+h) - \vec r(c)}{h}
-                </me>.
+                </md>.
               </p>
             </li>
 
             <li>
               <p>
                 The <term>derivative of <m>\vec r</m></term> is
-                <me>
+                <md>
                   \vrp (t) = \lim_{h\to 0} \frac{\vec r(t+h) - \vec r(t)}{h}
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
@@ -338,9 +338,9 @@
     <aside vshift="0">
       <p>
         Alternate notations for the derivative of <m>\vec r</m> include:
-        <me>
+        <md>
           \vrp(t) = \frac{d}{dt}\big(\,\vec r(t)\,\big) = \frac{d\vec r}{dt}
-        </me>.
+        </md>.
       </p>
     </aside>
     <p>
@@ -372,9 +372,9 @@
               <p>
                 Let <m>\vec r(t) = \la \, f(t), g(t)\,\ra</m>.
                 Then
-                <me>
+                <md>
                   \vrp(t) = \la\, \fp(t), \gp(t)\, \ra
-                </me>.
+                </md>.
               </p>
             </li>
 
@@ -384,9 +384,9 @@
                 Then
                 <idx><h>vector-valued function</h><h>derivatives</h></idx>
                 <idx><h>derivative</h><h>vector-valued functions</h></idx>
-                <me>
+                <md>
                   \vrp(t) = \la\, \fp(t), \gp(t), h'(t)\, \ra
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
@@ -429,9 +429,9 @@
               <p>
                 <xref ref="thm_vvf_deriv"/>
                 allows us to compute derivatives component-wise, so
-                <me>
+                <md>
                   \vrp(t) = \la 2t, 1\ra
-                </me>.
+                </md>.
                 <m>\vec r(t)</m> and <m>\vrp(t)</m> are graphed together in <xref ref="fig_vvflimit3a"/>.
                 Note how plotting the two of these together,
                 in this way, is not very illuminating.
@@ -656,9 +656,9 @@
                 <m>\vec r(t)</m> at <m>t=c</m> is the line through
                 <m>\vec r(c)</m> with direction parallel to <m>\vrp(c)</m>.
                 An equation of the tangent line is
-                <me>
+                <md>
                   \vec \ell(t) = \vec r(c) + t\,\vrp(c)
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
@@ -775,13 +775,13 @@
         <p>
           We find that <m>\vrp(t) = \la 3t^2,2t\ra</m>.
           At <m>t=-1</m>, we have
-          <me>
+          <md>
             \vec r(-1) = \la -1,1\ra \text{ and }  \vrp(-1) = \la 3,-2\ra
-          </me>,
+          </md>,
           so the equation of the line tangent to the graph of <m>\vec r(t)</m> at <m>t=-1</m> is
-          <me>
+          <md>
             \ell(t) = \la -1,1\ra + t\la 3,-2\ra
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -969,9 +969,9 @@
               <p>
                 To form the unit vector that points in the direction of <m>\vec r</m>,
                 we need to divide <m>\vec r(t)</m> by its magnitude.
-                <me>
+                <md>
                   \norm{\vec r(t)} = \sqrt{t^2+(t^2-1)^2}  \Rightarrow  \vec u(t) = \frac{1}{\sqrt{t^2+(t^2-1)^2}}\la t,t^2-1\ra
-                </me>.
+                </md>.
                 <m>\vec r(t)</m> and <m>\vec u(t)</m> are graphed in <xref ref="fig_vvfderiv2a"/>.
                 Note how the graph of <m>\vec u(t)</m> forms part of a circle;
                 this must be the case, as the length of
@@ -1024,13 +1024,13 @@
               <p>
                 To compute <m>\vec u\,'(t)</m>,
                 we use <xref ref="thm_vvf_deriv_prop"/>, writing
-                <me>
+                <md>
                   \vec u(t) = f(t)\vec r(t),  \text{ where }  f(t) = \frac{1}{\sqrt{t^2+(t^2-1)^2}}=\big(t^2+(t^2-1)^2\big)^{-1/2}
-                </me>.
+                </md>.
                 (We <em>could</em> write
-                <me>
+                <md>
                   \vec u(t) = \la \frac{t}{\sqrt{t^2+(t^2-1)^2}}, \frac{t^2-1}{\sqrt{t^2+(t^2-1)^2}}\ra
-                </me>
+                </md>
                 and then take the derivative.
                 It is a matter of preference;
                 this latter method requires two applications of the Quotient Rule where our method uses the Product and Chain Rules.)  We find <m>\fp(t)</m> using the Chain Rule:
@@ -1155,9 +1155,9 @@
       Before formally defining integrals of vector-valued functions,
       consider the following equation that our calculus experience tells us
       <em>should</em> be true:
-      <me>
+      <md>
         \int_a^b \vrp(t)\, dt = \vec r(b) - \vec r(a)
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -1189,16 +1189,16 @@
         <p>
           The set of all antiderivatives of <m>\vec r(t)</m> is the
           <term>indefinite integral</term> of <m>\vec r(t)</m>, denoted by
-          <me>
+          <md>
             \int \vec r(t)\, dt
-          </me>.
+          </md>.
         </p>
 
         <p>
           The <term>definite integral</term> of <m>\vec r(t)</m> on <m>[a,b]</m> is
-          <me>
+          <md>
             \int_a^b \vec r(t)\, dt =\lim_{\norm{\Delta t}\to 0} \sum_{i=1}^n\vec r(c_i)\Delta t_i
-          </me>,
+          </md>,
           where <m>\Delta t_i</m> is the length of the
           <m>i</m>th subinterval of a partition of <m>[a,b]</m>,
           <m>\norm{\Delta t}</m> is the length of the largest subinterval in the partition,
@@ -1375,9 +1375,9 @@
 
     <p>
       A key understanding for us comes from considering the integral of a derivative:
-      <me>
+      <md>
         \int_a^b \vrp(t)\, dt = \vec r(t)\Big|_a^b = \vec r(b)-\vec r(a)
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -1391,9 +1391,9 @@
       we can describe the arc length of the graph of a vector-valued function as an integral.
       Given parametric equations <m>x=f(t)</m>,
       <m>y=g(t)</m>, the arc length on <m>[a,b]</m> of the graph is
-      <me>
+      <md>
         \text{ Arc Length }  = \int_a^b\sqrt{\fp(t)^2+\gp(t)^2}\, dt
-      </me>,
+      </md>,
       as stated in <xref ref="thm_arc_length_parametric"/>
       in <xref ref="sec_par_calc"/>.
       If <m>\vrt = \la f(t), g(t)\ra</m>,
@@ -1409,9 +1409,9 @@
           The arc length <m>L</m> of the graph of <m>\vrt</m> is
               <idx><h>vector-valued function</h><h>arc length</h></idx>
               <idx><h>arc length</h></idx>
-          <me>
+          <md>
             L = \int_a^b \norm{\vrp(t)}\, dt
-          </me>.
+          </md>.
         </p>
       </statement>
     </theorem>

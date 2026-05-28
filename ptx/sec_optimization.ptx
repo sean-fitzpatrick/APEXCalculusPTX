@@ -132,9 +132,9 @@
       <p>
         We let <m>x</m> and <m>y</m> denote the lengths of the sides of the
         rectangle. Clearly,
-        <me>
+        <md>
           \text{ Area } =xy
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -144,24 +144,24 @@
         the man has <m>100</m> feet of fencing.
         By knowing the perimeter of the rectangle must be <m>100</m>,
         we can create another equation:
-        <me>
+        <md>
           \text{ Perimeter }  = 100 = 2x+2y
-        </me>.
+        </md>.
       </p>
 
       <p>
         We now have two equations and two unknowns.
         In the latter equation, we solve for <m>y</m>:
-        <me>
+        <md>
           y = 50-x
-        </me>.
+        </md>.
       </p>
 
       <p>
         Now substitute this expression for <m>y</m> in the area equation:
-        <me>
+        <md>
           \text{ Area }  = A(x) = x(50-x)
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -449,9 +449,9 @@
             <p>
               We want to maximize the area;
               as in the example before,
-              <me>
+              <md>
                 \text{ Area }  = xy
-              </me>.
+              </md>.
               This is our fundamental equation.
               This defines area as a function of two variables,
               so we need another equation to  reduce it to one variable.
@@ -460,9 +460,9 @@
             <p>
               We again appeal to the perimeter;
               here the perimeter is
-              <me>
+              <md>
                 \text{ Perimeter }  = 100 = x+2y
-              </me>.
+              </md>.
               The perimeter is our constraint equation.
               Note how this is a different equation for perimeter than in
               <xref ref="ex_opt1"/>,
@@ -506,9 +506,9 @@
               We have <m>A'(x) = 50-x</m>;
               setting this equal to 0 and solving for <m>x</m> returns <m>x=50</m>.
               This gives an area of
-              <me>
+              <md>
                 A(50) = 50(25) = 1250
-              </me>.
+              </md>.
             </p>
           </li>
 
@@ -805,9 +805,9 @@
       <p>
         We now find the critical values of <m>c(x)</m>.
         We compute <m>c'(x)</m> as
-        <me>
+        <md>
           c'(x) = -50+\frac{130x}{\sqrt{x^2+1000^2}}
-        </me>.
+        </md>.
       </p>
 
       <p>

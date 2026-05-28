@@ -29,9 +29,9 @@
             <idx><h>Power Rule</h><h>differentiation</h></idx>
             <idx><h>derivative</h><h>Product Rule</h></idx>
         Then <m>fg</m> is a differentiable function on <m>I</m>, and
-        <me>
+        <md>
           \lzoo{x}{f(x)g(x)} = \fp(x)g(x) + f(x)g'(x)
-        </me>.
+        </md>.
       </p>
     </statement>
   </theorem>
@@ -71,9 +71,9 @@
 
       <p>
         At <m>x=\pi/2</m>, we have
-        <me>
+        <md>
             \yp(\pi/2) = 10\cdot\frac{\pi}2 \sin\left(\frac{\pi}{2}\right) + 5\left(\frac{\pi}{2}\right)^2\cos\left(\frac{\pi}2\right) = 5\pi
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -132,31 +132,31 @@
     <statement>
       <p>
         The product rule is given by the formula
-        <me>\frac{d}{dx}(f\cdot g) = f\frac{dg}{dx} + g\frac{df}{dx}</me>.
+        <md>\frac{d}{dx}(f\cdot g) = f\frac{dg}{dx} + g\frac{df}{dx}</md>.
         Match the functions on the left with the correct derivative on the right,
         according to the product rule.
       </p>
     </statement>
   	<cardsort>
       <match>
-        <premise><me>x^2</me></premise>
-        <premise><me>\tan(x)</me></premise>
-        <response><me>2x\tan(x) + x^2 \sec^2 x</me></response>
+        <premise><md>x^2</md></premise>
+        <premise><md>\tan(x)</md></premise>
+        <response><md>2x\tan(x) + x^2 \sec^2 x</md></response>
       </match>
       <match>
-        <premise><me>\ln(x)</me></premise>
-        <premise><me>\sin(x)</me></premise>
-        <response><me>\frac{\sin(x)}{x} + \cos(x) \ln(x)</me></response>
+        <premise><md>\ln(x)</md></premise>
+        <premise><md>\sin(x)</md></premise>
+        <response><md>\frac{\sin(x)}{x} + \cos(x) \ln(x)</md></response>
       </match>
       <match>
-        <premise><me>\sin(x)</me></premise>
-        <premise><me>\csc(x)</me></premise>
-        <response><me>-\cos(x) \csc(x) + \sin(x) \csc(x) \cot(x)</me></response>
+        <premise><md>\sin(x)</md></premise>
+        <premise><md>\csc(x)</md></premise>
+        <response><md>-\cos(x) \csc(x) + \sin(x) \csc(x) \cot(x)</md></response>
       </match>
       <match>
-        <premise><me>\frac{1}{x}</me></premise>
-        <premise><me>2x</me></premise>
-        <premise><me>\cos(x)</me></premise>
+        <premise><md>\frac{1}{x}</md></premise>
+        <premise><md>2x</md></premise>
+        <premise><md>\cos(x)</md></premise>
       </match>
     </cardsort>
   </exercise>
@@ -178,9 +178,9 @@
 
     <p>
       By the limit definition, we have
-      <me>
+      <md>
         \lzoo{x}{f(x)g(x)} =\lim_{h\to0} \frac{f(x+h)g(x+h)-f(x)g(x)}{h}
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -243,9 +243,9 @@
         We first expand the expression for <m>y</m>;
         a little algebra shows that <m>y = 2x^4+3x^3-6x^2+1</m>.
         It is easy to compute <m>\yp</m>:
-        <me>
+        <md>
           \yp = 8x^3+9x^2-12x
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -304,14 +304,14 @@
 
       <p>
         Ultimately though, we would simplify our final computation to:
-        <me>
+        <md>
           \yp=3x^2\ln(x)\cos(x) + x^2\cos(x) + -x^3\ln(x)\sin(x)
-        </me>
+        </md>
         If you check this answer with a <init>CAS</init>,
         it may factor and give the answer:
-        <me>
+        <md>
           \yp=-x^2\left[x\ln(x)\sin(x) + \cos(x) + 3\ln(x)\cos(x)\right]
-        </me>
+        </md>
       </p>
     </solution>
     <solution component="video" vshift="6">
@@ -401,9 +401,9 @@
             <idx><h>derivative</h><h>Quotient Rule</h></idx>
             <idx><h>Quotient Rule</h></idx>
         Then <m>f/g</m> is differentiable on <m>I</m>, and
-        <me>
+        <md>
           \lzoo{x}{\frac{f(x)}{g(x)}} = \frac{g(x)\fp(x) - f(x)g'(x)}{g(x)^2}
-        </me>.
+        </md>.
       </p>
     </statement>
   </theorem>
@@ -420,9 +420,9 @@
     Consider a fraction's numerator and denominator as <q>HI</q>
     and <q>LO</q>, respectively.
     Then
-    <me>
+    <md>
       \lzoo{x}{\frac{\text{ HI } }{\text{ LO } }} = \frac{\text{ LO}\cdot\text{dHI}-\text{HI}\cdot\text{dLO }}{\text{ LOLO } }
-    </me>,
+    </md>,
     read <q>low dee high minus high dee low,
     over low low.</q> Said fast,
     that phrase can roll off the tongue,
@@ -702,9 +702,9 @@
             <idx><h>derivative</h><h>Power Rule</h></idx>
             <idx><h>Power Rule</h><h>differentiation</h></idx>
         Then
-        <me>
+        <md>
           \fp(x) = n\cdot x^{n-1}
-        </me>.
+        </md>.
       </p>
     </statement>
   </theorem>
@@ -781,9 +781,9 @@
               As <m>x\neq 0</m>, we can divide through by <m>x</m> first,
               giving <m>f(x) = x-3+x^{-1}</m>.
               Now apply the <xref ref="thm_PowerRule" text="title"/>.
-              <me>
+              <md>
                 \fp(x) = 1-\frac{1}{x^2}
-              </me>,
+              </md>,
               the same result as before.
             </p>
           </li>

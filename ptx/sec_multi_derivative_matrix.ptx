@@ -50,9 +50,9 @@
       and let <m>\vec{h}</m> represent a point <m>(h_1,h_2,\ldots, h_n)</m>.
       Since we're treating <m>\vec{h}</m> and <m>\vec{a}</m> as vectors,
       we can add them, and write down the limit
-      <me>
+      <md>
         \lim_{\vec{h}\to\vec{0}}\frac{f(\vec{a}+\vec{h})-f(\vec{a})}{\norm{\vec{h}}}.
-      </me>
+      </md>
     </p>
 
     <p>
@@ -81,9 +81,9 @@
        is remembering the following essential property of the derivative:
        the derivative <m>\fp(a)</m> is used to compute the <em>best linear approximation</em> to <m>f</m> at <m>a</m>.
        Indeed, the <em>linearization</em> of <m>f</m> at <m>a</m> is the linear function
-      <men xml:id="eq_linearization">
+      <md number="yes" xml:id="eq_linearization">
         L_a(x) = f(a) +\fp(a)(x-a)
-      </men>.
+      </md>.
       <idx><h>linearization</h></idx>
     </p>
 
@@ -104,15 +104,15 @@
       <p>
         In general, we say that two real-valued functions of one variable
         <m>f</m> and <m>g</m> <em>agree to first order</em> at <m>a</m> if
-        <me>
+        <md>
           \lim_{x\to a}\frac{\lvert f(x)-g(x)\rvert}{x-a}=0
-        </me>.
+        </md>.
         The linearization of <m>f</m> at <m>a</m> is the unique linear function that agrees with
         <m>f</m> to first order at <m>a</m>. Going further,
         we can say that <m>f</m> and <m>g</m> <em>agree to order <m>k</m></em> at <m>a</m> if
-        <me>
+        <md>
           \lim_{x\to a}\frac{\lvert f(x)-g(x)\rvert}{(x-a)^k}=0
-        </me>.
+        </md>.
         For example one could define the degree <m>n</m> Taylor polynomial of a function
         <m>f</m> at <m>a</m> to be the unique polynomial of degree <m>n</m>
         that agrees with <m>f</m> to order <m>k</m> at <m>a</m>.
@@ -126,7 +126,7 @@
       given any <m>m\times n</m> matrix <m>A</m>, we can define a function <m>T</m>,
       called a <em>linear transformation</em>, that takes an <m>n\times 1</m>
       column vector as input, and produces an <m>m\times 1</m> column vector as output:
-      <me>
+      <md>
       T(\vec{x}) = A\vec{x} =
         \begin{bmatrix}
           a_{11} \amp \cdots \amp a_{1n}\\
@@ -135,7 +135,7 @@
         \end{bmatrix}
         \begin{bmatrix}x_1\\x_2\\ \vdots\\x_n\end{bmatrix}
          = \begin{bmatrix}y_1\\y_2\\ \vdots \\y_m\end{bmatrix}=\vec{y}.
-      </me>
+      </md>
     </p>
 
     <p>
@@ -143,9 +143,9 @@
       <m>m\times n</m> matrix <m>A</m> with the <m>n\times 1</m> matrix <m>\vec{x}</m>.
       In this text, we generally do not write our vectors as columns,
       so for a vector <m>\vec{x}=\langle x_1,\ldots, x_n\rangle</m> we will use the notation
-      <me>
+      <md>
         A\cdot \vec{x} =\langle a_{11}x_1+\cdots + a_{1n}x_n, \ldots, a_{m1}x_1+\cdots +a_{mn}x_n\rangle
-      </me>
+      </md>
       to represent the same product in our notation.
       (And yes, the dot in this product is intended to remind you of the dot product between vectors:
       recall that the <m>(i,j)</m>-entry of a matrix product <m>AB</m>
@@ -169,9 +169,9 @@
         <p>
            A function <m>\ell</m> from <m>\mathbb{R}^n</m> to <m>\mathbb{R}^m</m>
           will be called a <term>linear function</term> if <m>\ell</m> is of the form
-           <me>
+           <md>
            \ell(\vec{x}) = M\cdot \vec{x}+\vec{b}
-           </me>
+           </md>
              for some <m>m\times n</m> matrix <m>M</m> and vector <m>\vec{b}</m> <m>\mathbb{R}^m</m>.
            <idx><h>linear function</h></idx>
          </p>
@@ -200,9 +200,9 @@
           if there exists a linear function <m>\ell:\mathbb{R}^n\to\mathbb{R}^m</m>
           that agrees with <m>f</m> to first order at <m>\vec{a}</m>;
           that is, if
-          <me>
+          <md>
             \lim_{\vec{x}\to\vec{a}}\frac{\norm{f(\vec{x})-\ell(\vec{x})}}{\norm{\vec{x}-\vec{a}}} = 0.
-          </me>
+          </md>
           <idx><h>differentiable</h><h>general functions</h></idx>
         </p>
       </statement>
@@ -225,11 +225,11 @@
       we must have <m>\ell(\vec{a})=f(\vec{a})</m>, or the limit above will not exist.
       Thus <m>M\cdot \vec{a}+\vec{b} = f(\vec{a})</m>, so <m>\vec{b}=f(\vec{a})-M\cdot \vec{a}</m>.
       This tells us that <m>\ell</m> must have the following form:
-      <mdn>
-        <mrow number="no">\ell(\vec{x}) \amp= M\cdot \vec{x} + \vec{b}</mrow>
-        <mrow number="no">\amp= M\cdot \vec{x} + (f(\vec{a}) - M\cdot \vec{a})</mrow>
-        <mrow xml:id="eq_gen_linear">\amp = f(\vec{a})+M\cdot (\vec{x}-\vec{a})</mrow>
-      </mdn>.
+      <md>
+        <mrow>\ell(\vec{x}) \amp= M\cdot \vec{x} + \vec{b}</mrow>
+        <mrow>\amp= M\cdot \vec{x} + (f(\vec{a}) - M\cdot \vec{a})</mrow>
+        <mrow number="yes" xml:id="eq_gen_linear">\amp = f(\vec{a})+M\cdot (\vec{x}-\vec{a})</mrow>
+      </md>.
     </p>
 
     <p>
@@ -260,16 +260,16 @@
       <m>dz = f_x(x,y)\,dx+f_y(x,y)\,dy</m>.
       Differentiability was defined to mean that the error functions <m>E_x</m> and <m>E_y</m>,
       defined by
-      <me>
+      <md>
         E_x\,dx+E_y\,dy = \ddz -dz
-      </me>,
+      </md>,
       go to zero as <m>\langle dx,dy\rangle</m> goes to zero.
       Let's rephrase this so that it works for any number of variables.
       Recall that the  <em>gradient</em> of <m>f</m> at <m>\vec{a}\in D</m> is the vector
       <m>\nabla f(\vec{a})</m> defined by
-      <me>
+      <md>
         \nabla f(\vec{a}) = \left\langle \frac{\partial f}{\partial x_1}(\vec{a}),\frac{\partial f}{\partial x_2}(\vec{a}),\ldots, \frac{\partial f}{\partial x_n}(\vec{a})\right\rangle
-      </me>.
+      </md>.
     </p>
 
     <definition xml:id="def_multi_linearize">
@@ -279,9 +279,9 @@
           Let <m>f</m> be continuously differentiable on some open set <m>D\subseteq\mathbb{R}^n</m>,
           and let <m>\vec{a}\in D</m>. The <term>linearization</term> of <m>f</m> at <m>\vec{a}</m>
           is the function <m>L_{\vec{a}}(\vec{x})</m> defined by
-          <me>
+          <md>
             L_{\vec{a}}(\vec{x}) = f(\vec{a}) + \nabla f(\vec{a})\cdot (\vec{x}-\vec{a})
-          </me>.
+          </md>.
           <idx><h>linearization</h><h>functions of several variables</h></idx>
         </p>
       </statement>
@@ -336,9 +336,9 @@
         <p>
           We say that <m>f</m> is <term>differentiable</term> at <m>\vec{a}\in D</m> if <m>\nabla f(\vec{a})</m> exists,
           and <m>f(\vec{x})</m> and <m>L_{\vec{a}}(\vec{x})</m> agree to first order at <m>\vec{a}</m>; that is, if
-          <me>
+          <md>
             \lim_{\vec{x}\to \vec{a}}\frac{\lvert f(\vec{x})-L_{\vec{a}}(\vec{x})\rvert}{\lVert \vec{x}-\vec{a}\rVert} = \lim_{\vec{x}\to\vec{a}}\frac{\lvert f(\vec{x})-f(\vec{a})-\nabla f(\vec{a})\cdot \langle \vec{x}-\vec{a}\rangle\rvert}{\lVert\vec{x} - \vec{a}\rVert} = 0
-          </me>.
+          </md>.
           <idx><h>differentiability</h><h>functions of several variables</h></idx>
         </p>
       </statement>
@@ -354,13 +354,13 @@
     <p>
       If you want to see why this has to be true, recall that since the above limit exists,
       we have to be able to evaluate it along any path we like. Suppose we chose the path
-      <me>
+      <md>
         \vec{r}(t) = \langle h,a_2,\ldots, a_n\rangle
-      </me>.
+      </md>.
       Then <m>\vec{x}-\vec{a} = \langle h,0,\ldots, 0\rangle = h\vec{i}</m>, and our definition becomes:
-      <me>
+      <md>
         \lim_{h\to 0}\left\lvert\frac{f(a_1+h,a_2,\ldots, a_n)-f(a_1,a_2,\ldots, a_n)}{h} - \frac{\partial f}{\partial x_1}(a_1,a_2,\ldots, a_n)\right\rvert = 0
-      </me>,
+      </md>,
       which is just another way of stating the definition of the partial derivative with respect to <m>x_1</m>.
       Of course, approaching along any of the other coordinate directions will similarly produce the other partial derivatives.
     </p>
@@ -372,9 +372,9 @@
     (a vector with one only component is just a number),
     and existence of <m>\fp(a)</m> immediately implies differentiability:
     since by definition we have
-    <me>
+    <md>
       \fp(a) = \lim_{x\to a}\frac{f(x)-f(a)}{x-a},
-    </me>
+    </md>
     it follows from the limit laws that
     <md>
       <mrow>0 = \lim_{x\to a}\frac{f(x)-f(a)}{x-a} - \fp(a) \amp= \lim_{x\to a}\left(\frac{f(x)-f(a)}{x-a} - \frac{\fp(a)(x-a)}{x-a}\right)</mrow>
@@ -398,15 +398,15 @@
 
     <p>
       Recall that in one variable, the derivative is often written instead in terms of <m>h=x-a</m>, so that
-      <me>
+      <md>
         \fp(a) = \lim_{h\to 0}\frac{f(a+h)-f(a)}{h}
-      </me>.
+      </md>.
       In more than one variable, we can define <m>h_i = x_i-a_i</m>, for <m>i=1,\ldots, n</m>,
       or the corresponding vector <m>\vec{h} = \vec{x}-\vec{a}</m>.
       The definition of differentiability then can be written as
-      <men xml:id="eq_deriv_with_h">
+      <md number="yes" xml:id="eq_deriv_with_h">
         \lim_{\vec{h}\to \mathbf{0}}\frac{\lvert f(\vec{a}+\vec{h})-f(\vec{a})-\nabla f(\vec{a})\cdot\vec{h}\rvert}{\lVert \vec{h}\rVert} = 0
-      </men>.
+      </md>.
       Note that we want the difference between <m>f(\vec{a}+\vec{h})</m> and
       <m>L_{\vec{a}}(\vec{h})</m> to go to zero faster than <m>\lVert \vec{h}\rVert</m>
       goes to zero, and that it only makes sense to divide by the length of <m>\vec{h}</m>,
@@ -423,9 +423,9 @@
         is the distance from <m>\vec{x}</m> to <m>\vec{a}</m>.
         In general, we would say that two functions <m>f(\vec{x})</m> and <m>g(\vec{x})</m>
         <q>agree up to order <m>k</m></q> at <m>\vec{a}</m> if
-        <me>
+        <md>
           \lim_{\vec{x}\to\vec{a}}\frac{f(\vec{x})-g(\vec{x})}{\lVert \vec{x}-\vec{a}\rVert^k} = 0
-        </me>.
+        </md>.
         As an exercise, check that, for <m>n=1</m>,
         two functions <m>f</m> and <m>g</m> agree up to order <m>k</m> at <m>a</m>
         if and only if their degree <m>k</m> Taylor polynomials are equal.
@@ -439,9 +439,9 @@
       If we write <m>\vec{h} = \langle dx, dy\rangle</m>,
       then <m>f(\vec{a}+\vec{h})-f(\vec{a}) = \ddz</m>, and <m>\nabla f(\vec{a})\cdot \vec{h} = dz</m>,
       and <xref ref="eq_deriv_with_h">Equation</xref> becomes
-      <me>
+      <md>
         \lim_{\vec{h}\to\vec{0}}\frac{\lvert \ddz-dz\rvert}{\norm{\vec{h}}} = \lim_{\vec{h}\to\vec{0}}\frac{\lvert E_x\,dx+E_y\,dz\rvert}{\norm{\langle dx,dy\rangle}} = 0
-      </me>,
+      </md>,
       which is another way of saying that the error terms <m>E_x,E_y</m> must vanish as <m>dx</m> and <m>dy</m> approach zero.
       Success! <xref ref="def_general_differentiability"/>
       is indeed a generalization of <xref ref="def_multi_differentiability"/>.
@@ -450,9 +450,9 @@
     <p>
       Note that we've also generalized <xref ref="def_derivative_at_a_point"/>
       for functions of one variable as well: <xref ref="eq_deriv_with_h">Equation</xref> becomes
-      <me>
+      <md>
         \lim_{h\to 0}\left\lvert \frac{f(a+h)-f(a)}{h}-f'(a)\right\rvert = 0
-      </me>,
+      </md>,
       which is just another way of re-writing the usual definition of the derivative.
       In fact, we've also generalized <xref ref="def_vvf_derivative"/>
       from <xref ref="chap_vvf"/> for differentiability of vector-valued functions:
@@ -461,14 +461,14 @@
 
     <p>
       For
-      <me>
+      <md>
         \vec{r}(t) = \begin{bmatrix}x_1(t)\\x_2(t)\\\vdots \\x_m(t)\end{bmatrix}
         \quad \text{ and } \quad \vrp(t) = \begin{bmatrix}x_1\primeskip'(t)\\x_2\primeskip'(t)\\\vdots \\x_m\primeskip'(t)\end{bmatrix}
-      </me>,
+      </md>,
       we have
-      <me>
+      <md>
         \lim_{h\to 0}\left\lVert \frac{1}{h}(\vec{r}(a+h)-\vec{r}(a))- \vrp(a)\right\rVert = 0
-      </me>,
+      </md>,
       which again reproduces the definition of <m>\vrp(a)</m>.
     </p>
 
@@ -489,9 +489,9 @@
       <proof>
         <p>
           Suppose that <m>f</m> is differentiable at <m>\vec{a}</m>. Then we know that
-          <me>
+          <md>
             \lim_{\vec{x}\to \vec{a}}\frac{f(\vec{x})-L_{\vec{a}}(\vec{x})}{\lVert \vec{x}-\vec{a}\rVert} = \lim_{\vec{x}\to\vec{a}}\frac{f(\vec{x})-f(\vec{a})-\nabla f(\vec{a})\cdot \langle \vec{x}-\vec{a}\rangle}{\lVert\vec{x} - \vec{a}\rVert} = 0
-          </me>.
+          </md>.
           By the definition of continuity, we need to show that
           <m>\displaystyle \lim_{\vec{x}\to\vec{a}}f(\vec{x}) = f(\vec{a})</m>. We have that
           <md>
@@ -510,9 +510,9 @@
           and clearly <m>\lim_{\vec{x}\to\vec{a}}\lVert\vec{x}-\vec{a}\rVert = 0</m>),
           and the last term vanishes since it's linear (and thus continuous) in <m>\vec{x}</m>,
           and so, by direct substitution,
-          <me>
+          <md>
             \lim_{\vec{x}\to\vec{a}}\nabla f(\vec{a})\cdot(\vec{x}-\vec{a}) = \nabla f(\vec{a})\cdot(\vec{a}-\vec{a}) = 0
-          </me>.
+          </md>.
         </p>
       </proof>
     </theorem>
@@ -524,9 +524,9 @@
       Let us now consider <xref ref="def_general_differentiability"/>
       for general functions <m>f:D\subseteq \mathbb{R}^n\to \mathbb{R}^m</m>.
       If <m>f</m> is differentiable at <m>\vec{a}</m>, then we must have
-      <me>
+      <md>
          \lim_{\vec{x}\to\vec{a}}\frac{\norm{f(\vec{x})-\ell(\vec{x})}}{\norm{\vec{x}-\vec{a}}} = 0
-      </me>
+      </md>
       for some linear function <m>\ell(\vec{x})</m>.
       Moreover, we'll see below that (a) the matrix <m>M</m> is uniquely defined,
       and (b) <m>M</m> is deserving of the title of <q>the</q> derivative of <m>f</m>.
@@ -534,9 +534,9 @@
 
     <p>
       We saw in <xref ref="eq_gen_linear">Equation</xref> above that <m>T</m> must have the form of a linear approximation:
-      <me>
+      <md>
         \ell(\vec{x})=L_{\vec{a}}(\vec{x}) = f(\vec{a})+M\cdot (\vec{x}-\vec{a})
-      </me>.
+      </md>.
     </p>
 
     <aside vshift="0">
@@ -552,49 +552,49 @@
       certainly seems to play the role of the derivative for general functions from
       <m>\mathbb{R}^n</m> to <m>\mathbb{R}^m</m>. It remains to determine the matrix <m>M</m>,
       and see that there can only be one possibility. To that end, let us write
-      <me>
+      <md>
         M = \begin{bmatrix}
         c_{11} \amp c_{12} \amp \cdots \amp c_{1n}\\
         c_{21} \amp c_{22} \amp \cdots \amp c_{2n}\\
         \vdots \amp \vdots \amp \ddots \amp \vdots\\
         c_{m1} \amp c_{m2} \amp \cdots \amp c_{mn}\end{bmatrix}
-      </me>,
+      </md>,
       and consider what happens when we let <m>\vec{x}\to\vec{a}</m> along different paths.
     </p>
 
     <p>
       If we consider the path <m>x_1 = a_1+t, x_2=a_2, \ldots, x_n=a_n</m>
       (that is, varying <m>x_1</m> while holding the other variables constant) then
-      <me>
+      <md>
          \vec{x} - \vec{a} = \langle a_1+t,a_2,\ldots, a_n\rangle - \langle a_1,a_2,\vdots ,a_n\rangle = \langle t, 0, \ldots, 0\rangle
-      </me>,
+      </md>,
       so <m>M\cdot (\vec{x}-\vec{a})</m> gives us <m>t</m> times the first column of <m>M</m>,
       since for each row of <m>M</m>, the first entry is multiplied by <m>t</m>,
       and the remaining entries are multiplied by zero. Thus,
-      <me>
+      <md>
         M\cdot (\vec{x}-\vec{a}) = \langle c_{11}, c_{21}, \ldots, c_{m1}\rangle
-      </me>
+      </md>
       along this path.
     </p>
 
     <p>
       Now we consider the limit as <m>t\to 0</m>.
-      <me>
+      <md>
          \lim_{t\to 0}\left\lvert\frac{f(a_1+t,a_2,\ldots, a_n)-f(a_1,a_2,\ldots, a_n)}{t} - \langle c_{11}, c_{21}, \ldots, c_{m1}\rangle\right\rvert = 0
-      </me>.
+      </md>.
       Since <m>\langle c_{11}, c_{21}, \ldots, c_{m1}\rangle</m> is a constant vector,
       from differentiability of <m>f</m>, together with <xref ref="def_general_differentiability"/>, we get
-      <me>
+      <md>
         \lim_{t\to 0}\frac{f(a_1+t,a_2,\ldots, a_n)-f(a_1,a_2,\ldots, a_n)}{t} = \langle c_{11}, c_{21}, \ldots, c_{m1}\rangle
-      </me>.
+      </md>.
     </p>
 
     <p>
       But this limit on the left is just the partial derivative of <m>f</m> with respect to <m>x_1</m>!
       If we write <m>f(\vec{x}) = \langle f_1(\vec{x}),f_2(\vec{x}),\ldots, f_m(\vec{x})\langle</m>, then we have
-      <me>
+      <md>
          \lim_{t\to 0}\frac{f(a_1+t,a_2,\ldots, a_n)-f(a_1,a_2,\ldots, a_n)}{t} = \left\langle\frac{\partial f_1}{\partial x_1}(\vec{a}), \frac{\partial f_2}{\partial x_1}(\vec{a}), \ldots, \frac{\partial f_m}{\partial x_1}(\vec{a})\right\rangle
-      </me>,
+      </md>,
       and this gives us the first column of <m>M</m>! Repeating this for each variable,
       we see that the matrix <m>M</m> is exactly the matrix of all the partial derivatives of <m>f</m>.
       This matrix is important enough to have a name:
@@ -608,12 +608,12 @@
           and let <m>f:D\to \mathbb{R}^m</m> be a differentiable function.
           At any point <m>\vec{a}\in D</m>,  the <term>Jacobian matrix</term> of <m>f</m> at <m>\vec{a}</m>,
           denoted <m>Df(\vec{a})</m>, is the <m>m\times n</m> matrix defined by
-          <me>
+          <md>
             Df(\vec{a}) = \begin{bmatrix}\frac{\partial f_1}{\partial x_1} \amp \cdots \amp \frac{\partial f_1}{\partial x_n}\\
                               \vdots \amp \ddots \amp \vdots \\
                   \frac{\partial f_m}{\partial x_1} \amp \cdots \amp \frac{\partial f_m}{x_n}
                              \end{bmatrix}
-          </me>.
+          </md>.
           <idx><h>matrix</h><h>Jacobian</h></idx>
           <idx><h>Jacobian matrix</h></idx>
         </p>
@@ -661,9 +661,9 @@
     <p>
       Recall that the Chain Rule is all about derivatives of composite functions.
       In one variable, given <m>h=f\circ g</m>, if <m>b=g(a)</m>, we have
-      <me>
+      <md>
         h'(a) = f'(g(a))\gp(a) = f'(b)\gp(a)
-      </me>.
+      </md>.
       The derivative of the composition is the product of the derivatives of the functions being composed,
       as long as we take care to evaluate them at the appropriate points.
     </p>
@@ -684,9 +684,9 @@
            such that the range of <m>g</m> is contained in the domain <m>U</m> of <m>f</m>.
            Then the composite function <m>h=f\circ g</m> is differentiable on <m>V</m>,
            and for each <m>\vec{a}\in V</m>, we have
-          <me>
+          <md>
             Dh(\vec{a}) = D(f\circ g)(\vec{a}) = Df(\vec{b})Dg(\vec{a})
-          </me>,
+          </md>,
           where <m>\vec{b}=g(\vec{a})</m>,
           and the product on the right is the usual matrix product of the two Jacobian matrices.
           <idx><h>chain rule</h><h>as matrix multiplication</h></idx>
@@ -714,18 +714,18 @@
           The point is to confirm that this is a special case of <xref ref="thm_gen_gen_chain"/>.
           The Jacobian matrix of <m>f</m> is a <m>1\times 3</m> matrix and Jacobian matrix of
           <m>\vec{r}</m> is a <m>3\times 1</m> matrix. They are given, respectively, by
-          <me>
+          <md>
             Df(\vec{x}) = \begin{bmatrix}
             f_x(\vec{x}) \amp f_y(\vec{x}) \amp f_z(\vec{x})
             \end{bmatrix} \quad \text{ and } \quad D\vec{r}(t) = \begin{bmatrix}x'(t)\\\yp(t)\\z'(t)\end{bmatrix}
-          </me>.
+          </md>.
         </p>
 
         <p>
           <xref ref="thm_gen_gen_chain"/> then gives us
-          <me>
+          <md>
             h'(t) = Df(\vec{r}(t))D\vec{r}(t) = f_x(\vec{r(t)})x'(t)+f_y(\vec{r(t)})\yp(t)+f_z(\vec{r(t)})z'(t)
-          </me>,
+          </md>,
           as before. Of course, in this context we usually write <m>Df(\vec{x})</m>
           as <m>\nabla f(\vec{x})</m> and <m>D\vec{r}(t)</m> as <m>\vrp(t)</m>,
           and instead of a matrix product, we write a dot product.
@@ -740,9 +740,9 @@
         <p>
           Let <m>f:U\subseteq \mathbb{R}^2\to\mathbb{R}</m> be a function of 2 variables,
           and let <m>g:V\subseteq \mathbb{R}^2\to\mathbb{R}^2</m> be given by
-          <me>
+          <md>
             g(u,v)=(x(u,v),y(u,v))
-          </me>.
+          </md>.
           Given <m>h = f\circ g</m>, use <xref ref="thm_gen_gen_chain"/>
           to determine <m>h_u</m> and <m>h_v</m>.
         </p>
@@ -750,10 +750,10 @@
       <solution>
         <p>
           First we compute the Jacobian matrices for <m>f</m> and <m>g</m>. We have
-          <me>
+          <md>
             Df(x,y) = \begin{bmatrix}f_x(x,y) \amp f_y(x,y)\end{bmatrix} \quad \text{ and }
             \quad Dg(u,v) = \begin{bmatrix}x_u(u,v) \amp x_v(u,v)\\y_u(u,v) \amp y_v(u,v)\end{bmatrix}
-          </me>.
+          </md>.
           The Chain Rule then gives
           <md>
             <mrow>Dh(u,v) \amp= \begin{bmatrix} h_u(u,v) \amp h_v(u,v) \end{bmatrix}  = Df(h(u,v))Dh(u,v)</mrow>
@@ -812,9 +812,9 @@
       and let <m>f:\mathbb{R}^n\to \mathbb{R}^m</m> be a differentiable function.
       The composite function <m>\vec{s}=f\circ \vec{r}</m> is then a curve in <m>\mathbb{R}^m</m>.
       The point <m>\vec{a} = \vec{r}(t_0)</m> on our first curve in <m>\mathbb{R}^n</m> becomes a point
-      <me>
+      <md>
         \vec{b} = f(\vec{a}) = f(\vec{r}(t_0)) = \vec{s}(t_0)
-      </me>
+      </md>
       on our new curve in <m>\mathbb{R}^m</m>. What about tangent vectors?
     </p>
 
@@ -822,17 +822,17 @@
       At the point <m>\vec{a}</m>, we have the tangent vector <m>\vec{v} = \vrp(t_0)</m>.
       What is the tangent vector to <m>\vec{s}(t)</m> at the point <m>\vec{b}</m>?
       On the one hand, by definition, we have the tangent vector
-      <me>
+      <md>
         \vec{w} = \vec{s}\primeskip ' (t_0)
-      </me>.
+      </md>.
       On the other hand, the Chain Rule gives us
-      <me>
+      <md>
         \vec{s}\primeskip ' (t_0) = (f\circ \vec{r})\primeskip '(t_0) = Df(\vec{r}(t_0))\vrp(t_0)
-      </me>.
+      </md>.
       But <m>\vrp(t_0)=\vec{v}</m>, so we have
-      <me>
+      <md>
         \vec{w} = Df(\vec{a})\cdot \vec{v}
-      </me>.
+      </md>.
       Multiplying the original tangent vector by the derivative of <m>f</m> gives us the new tangent vector. Cool!
     </p>
 
@@ -842,9 +842,9 @@
       <m>\vec{a}</m> in <m>\mathbb{R}^n</m> (this is just a copy of <m>\mathbb{R}^n</m>)
       and let <m>W</m> denote the space of all tangent vectors in <m>\mathbb{R}^m</m> at the point <m>\vec{b}</m>.
       Then we have the linear transformation <m>T:V\to W</m> given by
-      <me>
+      <md>
         T(\vec{v}) = Df(\vec{a})\cdot \vec{v}
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -854,9 +854,9 @@
       composition of the corresponding linear transformations:
       if <m>S(\vec{v}) = A\vec{v}</m> and <m>T(\vec{w}) = B\vec{w}</m>,
       and the matrices <m>A</m> and <m>B</m> are of the appropriate sizes, then
-      <me>
+      <md>
         S\circ T(\vec{w}) = S(T(\vec{w}))= A(B\vec{w}) = (AB)\vec{w}
-      </me>.
+      </md>.
     </p>
 
     <p>
@@ -866,9 +866,9 @@
       and let <m>T_g:\mathbb{R}^m\to \mathbb{R}^p</m> be the linear function given by the derivative of <m>g</m>.
       The chain rule is then essentially telling us that
       <em>the derivative of a composition is the composition of the derivatives</em>: we have
-      <me>
+      <md>
          T_f\circ T_g(\vec{v}) = T_f(T_g(\vec{v})) = D f(\vec{y})(D g(\vec{x})\vec{v}) = (D f(g(\vec{x}))D g(\vec{x}))\vec{v} = T_{f\circ g}(\vec{v})
-      </me>.
+      </md>.
     </p>
 
     <p>

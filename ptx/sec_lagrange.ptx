@@ -35,9 +35,9 @@
 	  <solution>
 	    <p>
 				First, we check for critical points: We have
-				<me>
+				<md>
 				  \nabla f(x,y) = \la 2x-8,-6y\ra
-				</me>,
+				</md>,
 				which vanishes when <m>(x,y) = (4,0)</m>.
 				This critical point is outside our region, so we do not consider it.
 			</p>
@@ -47,18 +47,18 @@
 				The boundary of our region is the circle <m>x^2+y^2=4</m>,
 				which we can parametrize using <m>x=2\cos(t)</m>, <m>y=2\sin(t)</m>,
 				for <m>t\in [0,2\pi]</m>. For <m>(x,y)</m> on the boundary, we have
-				<me>
+				<md>
 				  f(x,y) = x^2-8x-3y^2 = 4\cos^2(t)-16\cos(t)-12\sin^2(t) = h(t)
-				</me>,
+				</md>,
 				a function of one variable, with domain <m>[0,2\pi]</m>.
 			</p>
 
 			<p>
 				We learned how to find the extreme values of such a function back in our first course in calculus:
 				see <xref ref="sec_extreme_values"/>. We have <m>h(0)=h(2\pi)=-12</m>, and
-				<me>
+				<md>
 				  h'(t) = -8\cos(t)\sin(t)+16\sin(t)-24\sin(t)\cos(t) = 16\sin(t) (1-2\cos(t))
-				</me>.
+				</md>.
 				Thus, <m>h'(t)=0</m> if <m>\sin(t) = 0</m> (<m>t=0,\pi,2\pi</m>) or <m>\cos =\frac12</m> (<m>t=\pi/3, 5\pi/3</m>).
 				We have already checked that <m>h(0)=h(2\pi)=-12</m>, so we check the remaining points:
 				<md>
@@ -99,9 +99,9 @@
 		find a function <m>\vec{r}: [a,b]\to \mathbb{R}^2</m> that parametrizes the curve <m>g(x,y)=c</m>.
 		As we saw above, the maximum (or minimum) should occur at some point <m>t_0</m> that is a critical number of <m>h(t)=f(\vec{r}(t))</m>;
 		that is, such that
-		<me>
+		<md>
 		  h'(t_0)=\nabla f(\vec{r}(t_0))\cdot \vrp (t_0) = 0
-		</me>.
+		</md>.
 	</p>
 
 	<p>
@@ -140,9 +140,9 @@
 	<p>
 		But the only way that two non-zero vectors in the plane can both be orthogonal to a third vector is if they're parallel!
 		This means that there must be some scalar <m>\lambda</m> such that
-		<me>
+		<md>
 		  \nabla f(x_0,y_0) = \lambda\nabla g(x_0,y_0)
-		</me>.
+		</md>.
 		We have demonstrated the following:
 	</p>
 
@@ -154,9 +154,9 @@
 				and suppose <m>c</m> is a regular value for <m>g</m>.
 				If the function <m>f</m>, when constrained to the level curve <m>g(x,y)=c</m>
 				has a local maximum or minimum value at a point <m>(x_0,y_0)</m>, then
-				<me>
+				<md>
 				  \nabla f(x_0,y_0) = \lambda \nabla g(x_0,y_0)
-				</me>
+				</md>
 				for some scalar <m>\lambda</m>.
 			</p>
 		</statement>
@@ -198,9 +198,9 @@
 				the only critical point for <m>f</m> is outside the given disc.
 				It remains to find the maximum and minimum of <m>f</m> subject to the constraint <m>x^2+y^2=4</m>,
 				so our constraint function is <m>g(x,y)=x^2+y^2</m>. We have
-				<me>
+				<md>
 				  \nabla f(x,y) = \la 2x-8, -6y\ra = \lambda \la 2x,2y\ra = \lambda\nabla g(x,y)
-				</me>.
+				</md>.
 			</p>
 
 			<p>
@@ -370,9 +370,9 @@
 			<p>
 				Let's see what happens if we dive right in and apply our machinery.
 				With <m>g(x,y)=x+y</m>, we need to have
-				<me>
+				<md>
 				  \nabla f(x,y) = \la 4x, 2y\ra = \lambda\la 1,1\ra = \lambda\nabla g(x,y)
-				</me>,
+				</md>,
 				so <m>x+y=4</m>, from our constraint, and <m>4x=\lambda=2y</m>,
 				giving us <m>y=3-x</m> and <m>y=2x</m>, so <m>2x=3-x</m>, giving <m>x=1</m>, and <m>y=2</m>.
 			</p>
@@ -397,9 +397,9 @@
 				There is, however, a minimum value: when <m>c=6</m>,
 				the ellipse <m>2x^2+y^2=6</m> has gradient <m>\nabla f(x,y)=\la 4,4\ra</m>,
 				giving us the tangent line
-				<me>
+				<md>
 				  4(x-1)+4(y-2)=0, \text{ or } x+y=3
-				</me>,
+				</md>,
 				the equation of our constraint. For value of <m>c</m> less than 3,
 				the ellipse <m>2x^2+y^2=c</m> does not intersect the line <m>x+y=3</m>.
 			</p>
@@ -456,9 +456,9 @@
 	  <solution>
 			<p>
 				With <m>g(x,y,z)=x^2+y^2+z^2</m>, the equation <m>\nabla f(x,y,z)=\lambda \nabla g(x,y,z)</m> gives us
-				<me>
+				<md>
 				  \la 4x^3,4y^3,4z^3\ra = \lambda \la 2x, 2y, 2z\ra
-				</me>.
+				</md>.
 			</p>
 
 			<p>
@@ -483,9 +483,9 @@
 							Similarly, we can have <m>x=0</m>, <m>y=\pm 1</m>, and <m>z=0</m>,
 							or <m>x=\pm 1</m>, <m>y=0</m>, and <m>z=0</m>.
 							This gives us six points, and they all give the same value for <m>f</m>:
-							<me>
+							<md>
 							  f(\pm 1, 0, 0) = f(0,\pm 1, 0) = f(0, 0, \pm 1)=1
-							</me>.
+							</md>.
 						</p>
 					</li>
 
@@ -508,14 +508,14 @@
 						<p>
 							Finally, we could have all three variables nonzero.
 							In this case the Lagrange multiplier equations give us
-							<me>
+							<md>
 							  2x^2=2y^2=2z^2=\lambda
-							</me>,
+							</md>,
 							and putting these into the constraint equation gives us <m>x^2=y^2=z^2=\frac13</m>.
 							There are eight different points satisfying this requirement, but all of them give us a value of
-							<me>
+							<md>
 							  f(x,y,z)=\frac19+\frac19+\frac19=\frac13
-							</me>.
+							</md>.
 						</p>
 					</li>
 				</ul>
@@ -568,9 +568,9 @@
 			<p>
 				This was one of the exercises at the end of <xref ref="sec_optimization"/>.
 				The surface area of a cylinder of radius <m>r</m> and height <m>h</m> is given by
-				<me>
+				<md>
 				  s(r,h) = 2r^2+2\pi rh
-				</me>.
+				</md>.
 				This is the function we wish to minimize, subject to the volume constraint <m>\pi r^2 h = 206</m>.
 			</p>
 
@@ -583,23 +583,23 @@
 			<p>
 				Instead, we introduce the constraint function <m>v(r,h)= \pi r^2 h</m>.
 				The Lagrange multiplier equation <m>\nabla s = \lambda \nabla v</m> gives us
-				<me>
+				<md>
 				  \la 4r+2\pi h, 2\pi r\ra = \lambda\la 2\pi r h, \pi r^2\ra
-				</me>.
+				</md>.
 				Equating the second components gives us <m>2\pi r = \lambda\pi r^2</m>.
 				Since the constraint ensures that <m>r\neq 0</m>, we have <m>\lambda r = 2</m>.
 			</p>
 
 			<p>
 				Now, we equate the first components:
-				<me>
+				<md>
 				  4r+2\pi h = \lambda \cdot 2\pi r
-				</me>,
+				</md>,
 				but <m>\lambda r =2</m>, so we have simply <m>4r+2\pi h = 4\pi h</m>,
 				or <m>\pi h = 2r</m>. Putting this into the constraint equation gives us
-				<me>
+				<md>
 				  \pi r^2 h = 2r^2 = 206
-				</me>,
+				</md>,
 				so <m>r=\sqrt[3]{103}\approx 4.688</m>, and <m>h=2\sqrt[3]{103}/\pi  \approx 2.984</m>.
 				This is, of course, the same result you would have found if you did this exercise back in <xref ref="sec_optimization"/>.
 			</p>

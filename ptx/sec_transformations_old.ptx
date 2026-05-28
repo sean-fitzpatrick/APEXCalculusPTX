@@ -69,13 +69,13 @@
 			there is only one type of region of integration: a closed interval <m>[a,b]</m>.
 			For single integrals, our only consideration when making a change of variables is the function being integrated.
 			Recall that substitution <mdash/> at least, for indefinite integrals <mdash/> is essentially an attempt to reverse the Chain Rule: given
-			<me>
+			<md>
 			  \int_a^b f(T(u))T'(u)\,du
-			</me>,
+			</md>,
 			we set <m>x=T(u)</m>, compute the differential <m>dx = T'(u)\,du</m>, and set
-			<men xml:id="eqn_single_sub">
+			<md number="yes" xml:id="eqn_single_sub">
 				\int_a^b f(T(u))T\primeskip'(u)\,du = \int_{T(a)}^{T(b)}f(x)\,dx
-			</men>.
+			</md>.
 		</p>
 
 		<aside vshift="0">
@@ -309,9 +309,9 @@
 		<p>
 			Given a region <m>R</m> in the plane and an integral <m>\iint_R f(x,y)\,dA</m>,
 			we will look for a domain <m>D\subseteq \mathbb{R}^2</m> and a function <m>T:D\to \mathbb{R}^2</m> of the form
-			<me>
+			<md>
 			  (x,y) = T(u,v) = (h(u,v),k(u,v))
-			</me>
+			</md>
 			that maps <m>D</m> onto <m>R</m>, which can be used to simplify our integral.
 		</p>
 
@@ -351,9 +351,9 @@
 				<p>
 					For any subset <m>C\subseteq D</m>, the <term>image</term>
 					of <m>C</m> under <m>F</m> is denoted <m>F(C)</m> and defined by
-					<me>
+					<md>
 					  F(C) = \{F(\mathbf{x})\,|\, \mathbf{x}\in C\}
-					</me>.
+					</md>.
 					In other words, <m>\mathbf{y}\in F(C)</m> if and only if <m>\mathbf{y}</m> is the image of <m>\mathbf{x}</m> for some <m>\mathbf{x}\in C</m>.
 					<idx><h>image</h><h>of a subset</h></idx>
 				</p>
@@ -417,9 +417,9 @@
 		    <p>
 					Let <m>D\subseteq \mathbb{R}^2</m> be the rectangle defined by <m>1\leq u\leq 2</m> and <m>0\leq v\leq 1</m>.
 					Determine the range of the function <m>T:D\to\mathbb{R}^2</m> defined by
-					<me>
+					<md>
 					  (x,y)=T(u,v)=(uv, u^2+2v^2)
-					</me>.
+					</md>.
 				</p>
 			</statement>
 			<solution>
@@ -585,9 +585,9 @@
 			We probably wouldn't even consider a change of variables in this case,
 			unless one was needed for the function being integrated:
 			the region can be described by the inequalities
-			<me>
+			<md>
 			  1+x^2\leq y\leq 4+\frac14 x^2, \text { where } 0\leq x\leq 2
-			</me>.
+			</md>.
 		</p>
 
 		<p>
@@ -645,23 +645,23 @@
 				<p>
 					Let <m>D\subseteq \mathbb{R}^2</m> be a subset of the plane, described with coordinates <m>(u,v)</m>.
 					Let <m>T:D\subseteq \mathbb{R}^2\to \mathbb{R}^2</m> be given by
-					<me>
+					<md>
 					  T(u,v)=(f(u,v),g(u,v))
-					</me>,
+					</md>,
 					where <m>f</m> and <m>g</m> are continuously differentiable on <m>D</m>.
 					The <term>Jacobian</term> is the function <m>J_T:D\to \mathbb{R}</m> defined by
-					<me>
+					<md>
 					  J_T(u,v)=\det\begin{bmatrix}f_u(u,v)\amp f_v(u,v)\\g_u(u,v)\amp g_v(u,v)\end{bmatrix}
-					</me>.
+					</md>.
 					<idx><h>Jacobian</h><h>of a transformation</h></idx>
 				</p>
 
 				<p>
 					If we define <m>x=f(u,v)</m> and <m>y=g(u,v)</m>, we can write the Jacobian as
-					<me>
+					<md>
 					  J_T(u,v) = \det\begin{bmatrix}x_u\amp x_v\\y_u\amp y_v\end{bmatrix} =
 						\det\begin{bmatrix}\frac{\partial x}{\partial u}\amp\frac{\partial x}{\partial v}\\[5pt] \frac{\partial y}{\partial u}\amp\frac{\partial y}{\partial v}\end{bmatrix}
-					</me>.
+					</md>.
 				</p>
 			</statement>
 		</definition>
@@ -677,9 +677,9 @@
 			on the definition of the derivative as a matrix of partial derivatives,
 			you probably recognize the matrix whose determinant gives us the Jacobian:
 			it's the derivative matrix! One therefore could write
-			<me>
+			<md>
 			  J_T(u,v) = \det DT(u,v)
-			</me>
+			</md>
 			for the Jacobian, and this formula is valid in any dimension.
 		</p>
 
@@ -691,9 +691,9 @@
 		<aside vshift="0">
 		  <p>
 				Another common notation for the Jacobian is
-				<me>
+				<md>
 				  J_T(u,v) = \frac{\partial (x,y)}{\partial (u,v)}
-				</me>.
+				</md>.
 				This notation is intended to be reminiscent of the Leibniz form of the chain rule when <m>T</m> is used to define a change of variables: we have the mnemonic devices
 				<md>
 					<mrow>dx \amp = \frac{dx}{du}du</mrow>
@@ -709,9 +709,9 @@
 		  <statement>
 		    <p>
 					Compute the Jacobian of the transformation <m>(x,y)=T(u,v)</m> given by
-					<me>
+					<md>
 					  x = 7u-3v \quad y = -4u+2v
-					</me>.
+					</md>.
 				</p>
 			</statement>
 			<solution>
@@ -736,9 +736,9 @@
 		  <statement>
 		    <p>
 					Compute the Jacobian of the transformation given by
-					<me>
+					<md>
 					  T(u,v) = (\sqrt[3]{x^2y}, \sqrt[3]{xy^2})
-					</me>.
+					</md>.
 				</p>
 			</statement>
 			<solution>
@@ -748,9 +748,9 @@
 					Our transformation defines <m>x=\sqrt[3]{x^2y}</m> and <m>y=\sqrt[3]{xy^2}</m>.
 					If we blindly push forward with the partial derivatives as written, we get a mess.
 					For example, if we get a little too excited, we might do something like:
-					<me>
+					<md>
 					  x_u(u,v) = \frac{\partial}{\partial u}(\sqrt[3]{x^2y}) = \frac{1}{3}(x^2y)^{-2/3}(2xy)
-					</me>,
+					</md>,
 					with similar results for the other four partial derivatives.
 				</p>
 
@@ -780,17 +780,17 @@
 		  <statement>
 		    <p>
 					Compute the Jacobian of the transformation
-					<me>
+					<md>
 					  x= 4u^2-v^2 \quad y = 2u^2+3v^2
-					</me>.
+					</md>.
 				</p>
 			</statement>
 			<solution>
 			  <p>
 					Computing the Jacobian in this case is straightforward:
-					<me>
+					<md>
 					  J_T(u,v) = \det\begin{bmatrix}x_u(u,v)\amp x_v(u,v)\\y_u(u,v)\amp y_v(u,v)\end{bmatrix} = \det\begin{bmatrix} 8u\amp -2v\\4u\amp 6v\end{bmatrix} 48uv+8uv=56uv
-					</me>.
+					</md>.
 			  </p>
 			</solution>
 		</example>
@@ -920,35 +920,35 @@
 		  <statement>
 		    <p>
 					Consider the function <m>T:\mathbb{R}^2\to \mathbb{R}^2</m> given by
-					<me>
+					<md>
 					  T(u,v) = (u+4v,2u+3v)
-					</me>.
+					</md>.
 					Note that <m>T</m> is linear in both variables.
 					In fact, if we set <m>(x,y)=T(u,v)</m> and represent points by vectors,
 					replacing <m>(x,y)</m> by <m>\vec{x}=\begin{bmatrix}x\\y\end{bmatrix}</m>
 					and <m>(u,v)</m> by <m>\vec{u}=\begin{bmatrix}u\\v\end{bmatrix}</m>,
 					then we can write this function as the matrix transformation <m>\vec{x}=A\vec{u}</m>,
 					where <m>A</m> is the <m>2\times 2</m> matrix <m>\begin{bmatrix}1\amp4\\2\amp3\end{bmatrix}</m>. That is:
-					<me>
+					<md>
 					  \begin{bmatrix}x\\y\end{bmatrix} = \begin{bmatrix}1\amp4\\2\amp3\end{bmatrix}\begin{bmatrix}u\\v\end{bmatrix}
-					</me>.
+					</md>.
 					To visualize the effect of <m>T</m>, plot the vectors representing the four corners of the unit square,
 					before and after they have been multiplied by <m>A</m>, where
-					<me>
+					<md>
 					  A = \begin{bmatrix} 1\amp4\\2\amp3\end{bmatrix}
-					</me>.
+					</md>.
 				</p>
 			</statement>
 			<solution>
 			  <p>
 					The four corners of the unit square can be represented by the vectors
-					<me>
+					<md>
 					  \begin{bmatrix}0\\0\end{bmatrix}, \quad \begin{bmatrix}1\\0\end{bmatrix},\quad \begin{bmatrix}1\\1\end{bmatrix},\quad \begin{bmatrix}0\\1\end{bmatrix}
-					</me>.
+					</md>.
 					Multiplying each by <m>A</m> gives the vectors
-					<me>
+					<md>
 					  \begin{bmatrix}0\\0\end{bmatrix},\quad \begin{bmatrix} 1\\2\end{bmatrix},\quad \begin{bmatrix} 5\\5\end{bmatrix},\quad \begin{bmatrix} 4\\3\end{bmatrix}
-					</me>,
+					</md>,
 					respectively.
 			  </p>
 
@@ -1093,13 +1093,13 @@
 			How does all this relate to Jacobians and change of variables?
 			First note that the derivative of any linear function is (perhaps not so surprisingly)
 			the matrix that defines it: for <m>T(u,v) = (u+4v,2u+3v)</m>, we have
-			<me>
+			<md>
 			  DT(u,v) = \begin{bmatrix}1\amp 4\\2\amp 3\end{bmatrix} = A
-			</me>.
+			</md>.
 			The Jacobian of <m>T</m> is then the determinant of this matrix:
-			<me>
+			<md>
 			  J_T(u,v) = \det A = 1(3)-4(2)=-5
-			</me>.
+			</md>.
 		</p>
 
 		<p>
@@ -1181,18 +1181,18 @@
 					  <li>
 					    <p>
 								The polar coordinate transformation
-								<me>
+								<md>
 								  x = r\cos\theta \quad y = r\sin\theta
-								</me>
+								</md>
 					    </p>
 					  </li>
 
 						<li>
 						  <p>
 								The spherical coordinate transformation
-								<me>
+								<md>
 								  x = \rho\sin\varphi\cos\theta \quad y = \rho\sin\varphi\sin\theta \quad z = \rho\cos\varphi
-								</me>.
+								</md>.
 						  </p>
 						</li>
 					</ol>
@@ -1284,18 +1284,18 @@
 					Let <m>D</m> be a closed, bounded region in the plane,
 					and let <m>T:D\subseteq \mathbb{R}^2\to \mathbb{R}^2</m> be a transformation.
 					If <m>f</m> is a continuous, real-valued function on <m>D</m>, then
-					<me>
+					<md>
 					  \iint_D f(T(u,v))\lvert J_T(u,v)\rvert\,du\,dv = \iint_{T(D)} f(x,y)\,dx\,dy
-					</me>.
+					</md>.
 				</p>
 
 				<p>
 					The formula for triple integrals is analogous:
 					given <m>(x,y,z)=T(u,v,w)</m> for <m>(u,v,w)</m> in some closed,
 					bounded domain <m>D</m>, then
-					<me>
+					<md>
 					  \iiint_D f(T(u,v,w))\abs{J_T(u,v,w)}\,du\,dv\,dw = \iiint_{T(D)} f(x,y,z)\,dx\,dy\,dz
-					</me>.
+					</md>.
 				</p>
 			</statement>
 		</theorem>
@@ -1338,9 +1338,9 @@
 								<m>A=\begin{bmatrix}1\amp 4\\2\amp 3\end{bmatrix}</m> preserves the origin,
 								and sends the points <m>(1,0)</m> and <m>(0,1)</m> to <m>(1,2)</m> and <m>(4,3)</m>, respectively.
 								In general, the transformation
-								<me>
+								<md>
 									T(u,v) = (au+cv,bu+dv), \quad\text{ with matrix } \quad \begin{bmatrix}a\amp c\\b\amp d\end{bmatrix}
-							  </me>
+							  </md>
 								will send <m>(1,0)</m> to <m>(a,b)</m>, and <m>(0,1)</m> to <m>(c,d)</m>.
 							</p>
 
@@ -1357,9 +1357,9 @@
 
 							<p>
 								This suggests that in our case we can take <m>D</m> to be the unit square <m>[0,1]\times [0,1]</m>, and set
-								<me>
+								<md>
 								  T(u,v) = (3u+v,u+4v)
-								</me>.
+								</md>.
 								We check that <m>T(0,0)=(0,0)</m>, <m>T(1,0)=(3,1)</m>, <m>T(0,1)=(1,4)</m>, and <m>T(1,1)=(4,5)</m>.
 								The four corners of the unit square are mapped to the four corners of the parallelogram.
 								Since linear transformations map <q>lines to lines</q>, we have our transformation.
@@ -1370,13 +1370,13 @@
 						  <p>
 								To use <xref ref="thm_change_of_variables"/>,
 								we need to compute the Jacobian of our transformation. We have
-								<me>
+								<md>
 								  J_T(u,v) = \det\begin{bmatrix}3\amp1\\1\amp4\end{bmatrix} = 11
-								</me>,
+								</md>,
 								and since <m>R=T(D)</m>, the change of variables formula gives us
-								<me>
+								<md>
 								  A = \iint_R 1 \,dx\,dy = \iint_D 11\,du\,dv = 11
-								</me>.
+								</md>.
 						  </p>
 						</li>
 			    </ol>
@@ -1398,13 +1398,13 @@
 		  <statement>
 		    <p>
 					Use the change of variables <m>x= u+v</m>, <m>y=u-v</m> to evaluate the integral
-					<me>
+					<md>
 					  \iint_R xe^{x^2-y^2}\,dA
-					</me>,
+					</md>,
 					where <m>R</m> is the region bounded by the lines:
-					<me>
+					<md>
 					  y=x, \, y=-x, \, y=x-2,\, \text{ and } y=2-x
-					</me>.
+					</md>.
 				</p>
 			</statement>
 			<solution>
@@ -1464,20 +1464,20 @@
 
 				<p>
 					Now, we apply <xref ref="thm_change_of_variables"/>. Recall the formula:
-					<me>
+					<md>
 					  \iint_D f(T(u,v))\lvert J_T(u,v)\rvert\,du\,dv = \iint_{T(D)} f(x,y)\,dx\,dy
-					</me>.
+					</md>.
 					We have <m>f(x,y) = xe^{x^2-y^2}</m>. It follows that
-					<me>
+					<md>
 						f(T(u,v)) = (u+v)e^{(u+v)^2-(u-v)^2} = (u+v)e^{u^2+2uv+v^2-(u^2-2uv+v^2)} = (u+v)e^{4uv}
-					</me>.
+					</md>.
 				</p>
 
 				<p>
 					We also need to compute the Jacobian. Since the transformation is linear, we know this will be a constant. We find:
-					<me>
+					<md>
 					  J_T(u,v) = \det\begin{bmatrix}x_u\amp x_v\\y_u\amp y_v\end{bmatrix} = \det\begin{bmatrix}1\amp 1\\1\amp -1\end{bmatrix} = -2
-					</me>.
+					</md>.
 				</p>
 
 				<aside vshift="0">
@@ -1489,13 +1489,13 @@
 
 				<p>
 					Putting all this into our change of variables formula, we have
-					<me>
+					<md>
 					  \iint_R xe^{x^2+y^2}\,dx\,dy = \iint_D (u+v)e^{4uv}\lvert -2\rvert \,du\,dv
-					</me>.
+					</md>.
 					This integral can be evaluated by splitting it in two, and choosing the most convenient order of integration for each part:
-					<me>
+					<md>
 					  \iint_D 2(u+v)e^{4uv} \,du\,dv = 2\int_0^1\int_0^1 ue^{4uv}\,dv\,du + 2\int_0^1\int_0^1 ve^{4uv}\,du\,dv
-					</me>.
+					</md>.
 				</p>
 
 				<p>
@@ -1506,9 +1506,9 @@
 					  <mrow>\amp = \frac{1}{16}(e^4-1)-\frac14(1) = \frac{1}{16}e^4-\frac{5}{16}</mrow>
 					</md>,
 					and the second integral differs only in the labelling of the variables, and gives the same result. Thus, we have
-					<me>
+					<md>
 					  \iint_R xe^{x^2-y^2}\,dx\,dy = \frac14 e^4-\frac54
-					</me>.
+					</md>.
 			  </p>
 			</solution>
 		</example>
@@ -1522,18 +1522,18 @@
 		    <p>
 					Let <m>R</m> be the region in the first quadrant bounded by the lines <m>y=x</m> and <m>y=4x</m>,
 					and the hyperbolas <m>y=1/x</m> and <m>y=4/x</m>. Evaluate the integral
-					<me>
+					<md>
 					  \iint_R xy^2\,dA
-					</me>
+					</md>
 					using the change of variables <m>x=u/v</m>, <m>y=v</m>.
 				</p>
 			</statement>
 			<solution>
 			  <p>
 					First, we note that setting <m>y=kx</m>, where <m>k</m> is a constant, gives us
-					<me>
+					<md>
 					  v = k\frac{u}{v} \quad\Rightarrow\quad u=\frac1k v^2
-					</me>,
+					</md>,
 					while setting <m>y=k/x</m> gives <m>xy=k</m>, or <m>u=k</m>.
 					The region <m>R</m> is therefore the image under the transformation
 					<m>T(u,v)=(u/v,v)</m> of the region <m>D</m> bounded by the curves
@@ -1646,9 +1646,9 @@
 
 				<p>
 					With <m>f(x,y)=xy^2</m> we have <m>f(T(u,v))=\frac{u}{v}\cdot v^2=uv</m>, and the Jacobian is given by
-					<me>
+					<md>
 					  J_T(u,v) = \det\begin{bmatrix}1/v \amp -u/v^2\\0\amp1\end{bmatrix} = \frac{1}{v}
-					</me>.
+					</md>.
 					Thus, we have
 					<md>
 					  <mrow>\iint_R xy^2\,dA \amp = \iint_D uv\left\lvert\frac1v\right\rvert\,du\,dv</mrow>
@@ -1679,9 +1679,9 @@
 			One of the reasons that we require these properties is that they guarantee that <m>T</m> has an <term>inverse</term>.
 				If a transformation <m>T:D\to E</m> is one-to-one and onto,
 			then we can define the inverse mapping <m>T^{-1}:E\to D</m> according to
-			<me>
+			<md>
 			  T^{-1}(\mathbf{x}) = \mathbf{u} \quad\text{ if and only if }\quad \mathbf{x} = T(\mathbf{u})
-			</me>.
+			</md>.
 			<idx><h>inverse</h><h>of a transformation</h></idx>
 		</p>
 
@@ -1703,14 +1703,14 @@
 
 		<p>
 			Next we want to consider differentiability. Recall that a vector-valued function
-			<me>
+			<md>
 			  \mathbf{r}(t) = \langle x(t),y(t)\rangle
-			</me>
+			</md>
 			is continuous if and only if each of the component functions <m>x(t), y(t)</m> is continuous,
 			and similarly, <m>\mathbf{r}(t)</m> is differentiable if and only if each of the component functions is differentiable, and
-			<me>
+			<md>
 			  \mathbf{r}'(t) = \langle x'(t), \yp(t)\rangle
-			</me>.
+			</md>.
 		</p>
 
 		<p>
@@ -1738,9 +1738,9 @@
 				Recall that in <xref ref="sec_deriv_matrix"/>
 				we gave the following alternative definition of differentiability:
 				<m>f:D\subset \mathbb{R}^n\to\mathbb{R}^m</m> is <em>differentiable</em> if the limit of
-				<me>
+				<md>
 				  \frac{\lVert f(\mathbf{a}+\mathbf{h})-f(\mathbf{a})-Df(\mathbf{a})\mathbf{h}\rVert}{\lVert\mathbf{h}\rVert}
-				</me>
+				</md>
 				is <m>0</m> as <m>\mathbf{h}\to\mathbf{0}</m>,
 				where <m>Df(\mathbf{a})</m> is the matrix of partial derivatives of <m>f</m> at <m>\mathbf{a}</m>,
 				and <m>Df(\mathbf{a})\mathbf{h}</m> denotes matrix multiplication,
@@ -1756,11 +1756,11 @@
 			and therefore continuous.
 			The derivative of <m>T</m> is then an <m>n\times n</m> matrix.
 			For example, when <m>n=2</m>, if <m>T(u,v) = (x(u,v), y(u,v))</m>, we get
-			<me>
+			<md>
 				DT(u,v) = \begin{bmatrix}
 				\dfrac{\partial x}{\partial u}\amp \dfrac{\partial x}{\partial v}\\ \amp \\ \dfrac{\partial y}{\partial u}\amp\dfrac{\partial y}{\partial v}
 				\end{bmatrix}
-			</me>.
+			</md>.
 		</p>
 
 		<p>
@@ -1783,9 +1783,9 @@
 			If we let <m>d\mathbf{x}</m> denote either <m>dx</m>, <m>dA</m>, or <m>dV</m>,
 			depending on whether <m>n=1,2</m> or <m>3</m>, and doing the same for  <m>d\mathbf{u}</m>,
 			the change of variables formula for a transformation <m>T:D\to E</m> can be written as
-			<me>
+			<md>
 			  \int_E f(\mathbf{x})d\mathbf{x} = \int_D f(T(\mathbf{u}))\lvert J_T(\mathbf{u})\rvert d\mathbf{u}
-			</me>,
+			</md>,
 			where the integral sign represents a single, double, or triple integral, depending on the value of <m>n</m>.
 			(So this really is just a generalization of the method of substitution you learned in Calculus I.)
 		</p>
@@ -1806,9 +1806,9 @@
 			then <m>T^{-1}</m> exists, and moreover,
 			if <m>T</m> is <m>C^1</m> <em>and</em> <m>J_T(\mathbf{u})\neq 0</m> for all <m>\mathbf{u}\in D</m>,
 			then <m>T^{-1}</m> is <em>also</em> a <m>C^1</m> function, and
-			<men xml:id="eqn_gen_inverse">
+			<md number="yes" xml:id="eqn_gen_inverse">
 			DT^{-1}(\mathbf{x}) = (DT(\mathbf{u}))^{-1}
-			</men>,
+			</md>,
 			where <m>\mathbf{u}=T^{-1}(\mathbf{x})</m>.
 		</p>
 
@@ -1835,9 +1835,9 @@
 					If <m>J_T(\mathbf{u})\neq 0</m> for all <m>\mathbf{u}\in D</m>,
 					then <m>T^{-1}:E\to \mathbb{R}^2</m> is a transformation,
 					and the Jacobian of <m>T^{-1}</m> is given by
-					<me>
+					<md>
 					  J_{T^{-1}}(\mathbf{x}) = \frac{1}{J_T(T^{-1}(\mathbf{x}))}
-					</me>.
+					</md>.
 				</p>
 			</statement>
 		</theorem>
@@ -2058,13 +2058,13 @@
 
 				<p>
 					We have now determined a map <m>S:E\to D=[1,2]\times [1,4]</m> given by
-					<me>
+					<md>
 						S(x,y) = \left(\frac{y}{x^2}, \frac{x}{y^2}\right)
-					</me>.
+					</md>.
 					This map is one-to-one and onto (check this), clearly <m>C^1</m>, and has Jacobian
-					<me>
+					<md>
 						J_S(x,y) = \frac{\partial}{\partial x}\left(\frac{y}{x^2}\right)\frac{\partial}{\partial y}\left(\frac{x}{y^2}\right)-\frac{\partial}{\partial x}\left(\frac{x}{y^2}\right)\frac{\partial}{\partial y}\left(\frac{y}{x^2}\right)=\frac{3}{x^2y^2}
-					</me>,
+					</md>,
 					which is defined and non-zero on all of <m>E</m>.
 					This means that <m>S=T^{-1}</m> for some transformation <m>T:D\to E</m>.
 					We can now proceed to compute the integral via change of variables in one of two ways:
@@ -2179,20 +2179,20 @@
 				<p>
 					This time we leave the direct method (solving for <m>x</m> and <m>y</m> in terms of <m>u</m> and <m>v</m>)
 					as an exercise and use the indirect method. The Jacobian of <m>T^{-1}</m> is given by
-					<me>
+					<md>
 						J_{T^{-1}}(x,y) = \det\begin{pmatrix}
 															\dfrac{\partial}{\partial x}\left(\dfrac{y}{x}\right)\amp\dfrac{\partial }{\partial y}\left(\dfrac{y}{x}\right)\\ \amp \\ \dfrac{\partial }{\partial x}(xy)\amp \dfrac{\partial }{\partial y}(xy)
 															\end{pmatrix} = \det\begin{pmatrix}
 																							\dfrac{-y}{x^2}\amp\dfrac{1}{x}\\ \amp \\ y \amp x
 																							\end{pmatrix} = \dfrac{-2y}{x}
-					</me>.
+					</md>.
 				</p>
 
 				<p>
 					The Jacobian of <m>T</m> is thus
-					<me>
+					<md>
 						J_T(u,v) = \dfrac{1}{J_T^{-1}(x(u,v),y(u,v))} = -\dfrac{x(u,v)}{2y(u,v)} = -\dfrac{1}{2u}
-					</me>,
+					</md>,
 					since <m>u=y/x</m>. The integral is then
 					<md>
 					  <mrow>\iint_E xy\, dA \amp = \iint_D x(u,v)y(u,v)\lvert J_T(u,v)\rvert \,du\,dv</mrow>
@@ -2214,9 +2214,9 @@
 		<p>
 			We now have some practice working with the change of variables formula,
 			but why is it valid? In any dimension, the formula has the form
-			<me>
+			<md>
 			  \int_{T(D)} f(\mathbf{x})d\mathbf{x} = \int_D f(T(\mathbf{u}))\lvert J_T(\mathbf{u})\rvert d\mathbf{u}
-			</me>,
+			</md>,
 			if we let the symbol <m>\int</m> stand for a single, double, or triple integral as necessary.
 		</p>
 
@@ -2246,17 +2246,17 @@
 			If the function <m>f</m> is positive throughout the region <m>E=T(D)</m>,
 			we can interpret the integral on the left as a volume.
 			In terms of Riemann sums, we are adding up volumes of boxes:
-			<me>
+			<md>
 			  \Delta V_{ij} = f(x_{ij},y_{ij})\Delta x_i\,\Delta y_j
-			</me>.
+			</md>.
 		</p>
 
 		<p>
 			Just as <m>f(x)\approx T'(u)\,\Delta u</m> in one variable,
 			the validity of the change of variables formula rests on the approximation
-			<me>
+			<md>
 			  \Delta x_i\,\Delta y_j \approx \lvert J_T(u_{ij},v_{ij})\rvert \Delta u_i\,\Delta v_j
-			</me>.
+			</md>.
 			The distortion in area caused by the mapping <m>T</m> when we move from the region
 			<m>D</m> in the <m>u,v</m> plane to the region <m>E</m> in the <m>x,y</m>
 			plane is hidden within the <m>dx\,dy</m> area element in the integral on the left-hand side.
@@ -2265,9 +2265,9 @@
 		<p>
 			To ensure that both integrals compute the same volume,
 			the Jacobian is introduced as part of the integrand on the right-hand side to produce a corresponding change in height:
-			<me>
+			<md>
 			  \Delta V_{ij} \approx \underbrace{\left(f(x_{ij},y_{ij})\right)}_{\text{height}}\underbrace{\left(\lvert J_T(u_{ij},v_{ij})\rvert\Delta u_i\,\Delta v_j\right)}_{\text{area}} = \underbrace{\left(f(T(u_{ij},v_{ij}))\lvert J_T(u_{ij},v_{ij})\rvert\right)}_{\text{height}}\underbrace{\left(\Delta u_i\,\Delta v_j\right)}_{\text{area}}
-			</me>.
+			</md>.
 		</p>
 
 		<p>
@@ -2376,9 +2376,9 @@
 
 		<p>
 			For another example, consider the transformation <m>T</m> given by
-			<me>
+			<md>
 			  T(u,v) = (u^{1/3}v^{-1/3},u^{2/3}v^{1/3}), T^{-1}(x,y) = \left(xy,\frac{y}{x^2}\right)
-			</me>.
+			</md>.
 		</p>
 
 		<p>
@@ -2536,18 +2536,18 @@
 
 		<p>
 			Tangent vectors to these curves are given by
-			<me>
+			<md>
 			  \vec{r}_1\primeskip '(t) = \langle 1,0\rangle = \vec{i} \quad \text{ and } \quad \vec{r}_2\primeskip '(t) = \langle 0,1\rangle = \vec{j}
-			</me>.
+			</md>.
 			The <m>(i,j)</m>-th rectangle, given by <m>u_i\leq u\leq u_i+\Delta u</m> and <m>v_j\leq v\leq v_j+\Delta v</m>, has area <m>\Delta u \Delta v</m>.
 		</p>
 
 		<p>
 			Viewed another way, this rectangle is a parallelogram spanned by the vectors <m>\Delta u\,\vec{i}</m> and <m>\Delta v\,\vec{j}</m>.
 			The area of this parallelogram is given by the determinant of the matrix whose columns are these vectors. Of course, this produces the same area:
-			<me>
+			<md>
 			  \det\begin{bmatrix}\Delta u \amp 0\\0\amp\Delta v\end{bmatrix} = \Delta u\,\Delta v
-			</me>.
+			</md>.
 		</p>
 
 		<p>
@@ -2572,9 +2572,9 @@
 
 		<p>
 			We can make linear approximations to vector-valued functions in much the same way as we do for real-valued functions. We have
-			<me>
+			<md>
 			  \vec{s}_1(u_i+\Delta u)-\vec{s}_1(u_i) \approx \vec{s}_1\primeskip '(u_i)\Delta u
-			</me>,
+			</md>,
 			with a similar result for <m>\vec{s}_2</m>.
 			This means that we can approximate the area of our transformed rectangle using the parallelogram spanned by the vectors
 			<md>
@@ -2586,9 +2586,9 @@
 		<aside vshift="0">
 		  <p>
 				Recall that the Chain Rule gives us
-				<me>
+				<md>
 				  \frac{d}{dt}(x(\vec{r}(t))) = \nabla x(\vec{r}(t))\cdot \vec{r}\primeskip'(t)
-				</me>,
+				</md>,
 				with an analogous result for <m>y(\vec{r}(t))</m>.
 				Applying this for the curves <m>\vec{r}_1(t)</m> and <m>\vec{r}_2(t)</m>
 				above allows us to compute the derivatives <m>\vec{s}_1\primeskip'(t)</m> and <m>\vec{s}_2\primeskip'(t)</m>.
@@ -2673,9 +2673,9 @@
 
 		<p>
 			We can begin to see the change of variables formula by putting this result into the Riemann sum definition of the double integral:
-			<me>
+			<md>
 			  f(x_i,y_j)\Delta x\Delta y \approx f(T(u_i,v_j))\cdot J_T(u_i,v_j)\Delta u_i\Delta v_j
-			</me>.
+			</md>.
 			This equation should be viewed somewhat skeptically.
 			The area element on the left is that of a rectangle, not the parallelogram we ended up with above.
 			The argument given here is far from a complete proof of <xref ref="thm_change_of_variables"/>,

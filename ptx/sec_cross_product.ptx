@@ -35,9 +35,9 @@
           The <term>cross product</term> of <m>\vec u</m> and <m>\vec v</m>,
           denoted <m>\crossp uv</m>,
           is the vector <idx><h>vectors</h><h>cross product</h></idx><idx><h>cross product</h><h>definition</h></idx>
-          <me>
+          <md>
             \crossp uv = \la u_2v_3-u_3v_2,-(u_1v_3-u_3v_1),u_1v_2-u_2v_1\ra
-          </me>.
+          </md>.
         </p>
       </statement>
     </definition>
@@ -68,9 +68,9 @@
       <solution>
         <p>
           Using <xref ref="def_cross_product"/>, we have
-          <me>
+          <md>
             \crossp uv = \la (-1)5-(4)2,-\big((2)5-(4)3\big), (2)2-(-1)3\ra = \la -13,2,7\ra
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -80,12 +80,12 @@
 
         <p>
           We test whether or not <m>\crossp uv</m> is orthogonal to <m>\vec u</m> and <m>\vec v</m> using the dot product:
-          <me>
+          <md>
             \big(\crossp uv\big) \cdot \vec u = \la -13,2,7\ra \cdot \la 2,-1,4\ra = 0
-          </me>,
-          <me>
+          </md>,
+          <md>
             \big(\crossp uv\big) \cdot \vec v = \la -13,2,7\ra \cdot \la 3,2,5 \ra = 0
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -108,19 +108,19 @@
       respectively.
       Using <m>\vec u</m> and <m>\vec v</m> from <xref ref="ex_crossp1"/>,
       we begin with:
-      <me>
+      <md>
         \begin{matrix} \veci\amp \vecj\amp \veck \\  2\amp -1\amp 4\\3\amp 2\amp 5
         \end{matrix}
-      </me>
+      </md>
 
     </p>
 
     <p>
       Now repeat the first two columns after the original three:
-      <me>
+      <md>
         \begin{matrix} \veci\amp \vecj\amp \veck\amp \veci\amp \vecj \\  2\amp -1\amp 4\amp 2\amp -1\\3\amp 2\amp 5\amp 3\amp 2
         \end{matrix}
-      </me>
+      </md>
       This gives three full <q>upper left to lower right</q> diagonals,
       and three full <q>upper right to lower left</q> diagonals,
       as shown.
@@ -168,9 +168,9 @@
   </image>
 
     <p>
-      <me>
+      <md>
         \crossp uv = \big(-5\veci+12\vecj+4\veck\,\big) - \big(-3\veck+8\veci+10\vecj\,\big) = -13\veci+2\vecj+7\veck = \la -13,2,7\ra
-      </me>.
+      </md>.
     </p>
 
     <figure xml:id="vid-vectors-crossprod-detformula" component="video" vshift="2">
@@ -195,26 +195,26 @@
           To compute <m>\crossp uv</m>,
           we form the matrix as prescribed above,
           complete with repeated first columns:
-          <me>
+          <md>
             \begin{matrix} \ \veci\ \amp \ \vecj\ \amp \ \veck\ \amp \ \veci\ \amp \ \vecj\ \\  1\amp 3\amp 6\amp 1\amp 3\\-1\amp 2\amp 1\amp -1\amp 2 \end{matrix}
-          </me>
+          </md>
         </p>
 
         <p>
           We let the reader compute the products of the diagonals;
           we give the result:
-          <me>
+          <md>
             \crossp uv = \big(3\veci-6\vecj+2\veck\,\big) - \big(-3\veck + 12\veci+\vecj\,\big) = \la -9,-7,5\ra
-          </me>.
+          </md>.
         </p>
 
         <p>
           To compute <m>\crossp vu</m>,
           we switch the second and third rows of the above matrix,
           then multiply along diagonals and subtract:
-          <me>
+          <md>
             \begin{matrix} \ \veci\ \amp \ \vecj\ \amp \ \veck\ \amp \ \veci\ \amp \ \vecj\ \\-1\amp 2\amp 1\amp -1\amp 2\\  1\amp 3\amp 6\amp 1\amp 3 \end{matrix}
-          </me>
+          </md>
         </p>
 
         <p>
@@ -222,9 +222,9 @@
           the products that once appeared on the right now appear on the left,
           and vice-versa.
           Thus the result is:
-          <me>
+          <md>
             \crossp vu = \big(12\veci+\vecj-3\veck\,\big) - \big(2\veck + 3\veci-6\vecj\,\big) = \la 9,7,-5\ra
-          </me>,
+          </md>,
           which is the opposite of <m>\crossp uv</m>.
           We leave it to the reader to verify that each of these vectors is orthogonal to <m>\vec u</m> and <m>\vec v</m>.
         </p>
@@ -371,9 +371,9 @@
         <p>
           Let <m>\vec u</m> and <m>\vec v</m> be nonzero vectors in <m>\mathbb{R}^3</m>.
           Then
-          <me>
+          <md>
             \norm{\crossp uv} = \vnorm u\, \vnorm v \sin(\theta)
-          </me>,
+          </md>,
           where <m>\theta</m>, <m>0\leq \theta \leq \pi</m>,
           is the angle between <m>\vecu</m> and <m>\vecv</m>.
               <idx><h>vectors</h><h>cross product</h></idx>
@@ -453,9 +453,9 @@
         <p>
           Numerically, they seem equal.
           Using a right triangle, one can show that
-          <me>
+          <md>
             \sin\left(\cos^{-1}\left(\frac{11}{\sqrt{46}\sqrt{6}}\right)\right) = \frac{\sqrt{155}}{\sqrt{46}\sqrt{6}}
-          </me>,
+          </md>,
           which allows us to verify the theorem exactly.
         </p>
       </solution>
@@ -586,9 +586,9 @@
         as illustrated in <xref ref="fig_crossp_parallelogramb"/>.
         Trigonometry tells us that <m>h = \vnorm u \sin(\theta)</m>,
         hence the area of the parallelogram is
-        <men xml:id="eq_crossp1">
+        <md number="yes" xml:id="eq_crossp1">
           A = \vnorm u\,\vnorm v\sin(\theta) = \norm{\crossp uv}
-        </men>,
+        </md>,
         where the second equality comes from <xref ref="thm_cross_product"/>.
       </p>
 
@@ -822,9 +822,9 @@
                   we need to show that the opposite sides are parallel.
                   We can quickly show that <m>\overrightarrow{AB} =\overrightarrow{DC} = \la 1,2,1\ra</m> and <m>\overrightarrow{BC} = \overrightarrow{AD} = \la 2,2,1\ra</m>.
                   We find the area by computing the magnitude of the cross product of <m>\overrightarrow{AB}</m> and <m>\overrightarrow{BC}</m>:
-                  <me>
+                  <md>
                     \overrightarrow{AB} \times \overrightarrow{BC} = \la 0,1,-2\ra  \Rightarrow  \norm{\overrightarrow{AB}\times\overrightarrow{BC}} = \sqrt{5} \approx 2.236
-                  </me>.
+                  </md>.
                 </p>
               </li>
             </ol>
@@ -904,9 +904,9 @@
             As in the previous example,
             we will rewrite these vectors with a third component of 0 so that we can apply the cross product.
             The area of the triangle is
-            <me>
+            <md>
               \frac12\norm{\overrightarrow{AB}\times\overrightarrow{AC}} = \frac12\norm{\la 1,1,0\ra \times \la 2,-1,0\ra} = \frac12\norm{\la 0,0,-3\ra} = \frac32
-            </me>.
+            </md>.
           </p>
 
           <p>
@@ -1042,9 +1042,9 @@
       <p>
         Thus the volume of a parallelepiped defined by vectors <m>\vecu</m>,
         <m>\vecv</m> and <m>\vec w</m> is
-        <men xml:id="eq_crossp2">
+        <md number="yes" xml:id="eq_crossp2">
           V = \abs{\vecu\cdot (\crossp vw)}
-        </men>.
+        </md>.
       </p>
 
       <p>
@@ -1053,9 +1053,9 @@
         Applying the identities given in the theorem shows that we can apply the Triple Scalar Product in any <q>order</q>
         we choose to find the volume.
         That is,
-        <me>
+        <md>
           V = \abs{\vecu\cdot(\crossp vw)} = \abs{\vec u\cdot (\crossp wv)} = \abs{(\crossp uv)\cdot \vecw}, \text{ etc. }
-        </me>
+        </md>
       </p>
 
       <example xml:id="ex_crossp6">
@@ -1071,9 +1071,9 @@
             We apply <xref ref="eq_crossp2">Equation</xref>.
             We first find <m>\crossp vw =\la 1,1,-1\ra</m>.
             Then
-            <me>
+            <md>
               \abs{\vec u\cdot(\crossp vw)} = \abs{\la 1,1,0\ra \cdot \la1,1,-1\ra} = 2
-            </me>.
+            </md>.
           </p>
 
           <p>
@@ -1203,9 +1203,9 @@
         While a full understanding of torque is beyond the purposes of this book,
         when a force <m>\vec F</m> is applied to a lever arm
         <m>\vec \ell</m>, the resulting torque is
-        <men xml:id="eq_crossp3">
+        <md number="yes" xml:id="eq_crossp3">
           \vec \tau = \crossp \ell F
-        </men>.
+        </md>.
       </p>
 
       <example xml:id="ex_crossp7">

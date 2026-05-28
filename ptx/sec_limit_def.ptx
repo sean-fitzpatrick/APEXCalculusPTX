@@ -102,13 +102,13 @@
   <p>
     We can write <q><m>x</m> is within <m>\delta</m> units of <m>c</m></q>
     mathematically as
-    <me>
+    <md>
       \abs{x-c} \lt  \delta
-    </me>,
+    </md>,
     which is equivalent to
-    <me>
+    <md>
       c-\delta \lt  x \lt  c+\delta
-    </me>.
+    </md>.
   </p>
 
   <exercise label="APEX-PROTEUS-limit-def-1-v1" component="proteus">
@@ -133,13 +133,13 @@
     Letting the symbol <q><m>\implies</m></q>
     represent the word <q>implies,</q>
     we can rewrite <xref ref="lim_def_3pp" text="custom"><q>Named Tolerance Levels</q></xref> as
-    <me>
+    <md>
       \abs{x - c} \lt  \delta \implies  \abs{y - L} \lt  \varepsilon
-    </me>
+    </md>
     or
-    <me>
+    <md>
       c - \delta \lt  x \lt  c + \delta \implies L - \varepsilon \lt  y \lt  L + \varepsilon
-    </me>.
+    </md>.
   </p>
 
   <p>
@@ -162,9 +162,9 @@
         The statement that <q>the <term>limit</term> of <m>f(x)</m>,
         as <m>x</m> approaches <m>c</m>,
         is <m>L</m></q> is denoted by
-        <me>
+        <md>
           \lim_{x\to c} f(x) = L
-        </me>,
+        </md>,
         and means that given any <m>\varepsilon  \gt  0</m>,
         there exists <m>\delta  \gt  0</m> such that for all <m>x</m> in <m>I</m>,
         where <m>x \neq c</m>,
@@ -432,9 +432,9 @@
         Since we want this last interval to describe an <m>x</m> tolerance around 4,
         we have that either <m>\delta \lt  4\varepsilon - \varepsilon^2</m> or
         <m>\delta \lt  4\varepsilon + \varepsilon^2</m>, whichever is smaller:
-        <me>
+        <md>
           \delta \lt \min\{4\varepsilon - \varepsilon^2, 4\varepsilon + \varepsilon^2\}
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -520,9 +520,9 @@
         This is a bit trickier than the previous example,
         but let's start by noticing that <m>\abs{x^2-4} = \abs{x-2}\cdot\abs{x+2}</m>.
         Consider:
-        <me>
+        <md>
           \abs{x^2-4} \lt  \varepsilon \implies \abs{x-2}\cdot\abs{x+2} \lt  \varepsilon \implies \abs{x-2} \lt  \frac{\varepsilon}{\abs{x+2}}
-        </me>.
+        </md>.
       </p>
 
       <p>
@@ -548,17 +548,17 @@
         If <m>1\lt x\lt 3</m>, then <m>3\lt x+2\lt 5</m>
         (add <m>2</m> to all terms in the inequality).
         Taking reciprocals, we have
-        <me>
+        <md>
           \frac15 \lt \frac1{\abs{x+2}} \lt  \frac 13
-        </me>,
+        </md>,
         which implies
-        <me>
+        <md>
           \frac15 \lt \frac1{\abs{x+2}}
-        </me>,
+        </md>,
         which implies
-        <men xml:id="eq_limit1">
+        <md number="yes" xml:id="eq_limit1">
           \frac{\varepsilon}{5}\lt \frac{\varepsilon}{\abs{x+2}}
-        </men>.
+        </md>.
       </p>
 
       <p>
@@ -751,12 +751,12 @@
     <solution>
       <p>
         We start our scratch-work by considering <m>\abs{f(x) - (-1)} \lt  \varepsilon</m>:
-        <mdn>
-          <mrow number="no">\abs{f(x)-(-1)} \amp \lt  \varepsilon </mrow>
-          <mrow number="no">\abs{x^3-2x + 1}\amp \lt  \varepsilon \amp\amp  \text{(Now factor)}</mrow>
-          <mrow number="no">\abs{(x-1)(x^2+x-1)}\amp \lt  \varepsilon</mrow>
-          <mrow xml:id="eq_lim4">\abs{x-1}\amp\lt\frac{\varepsilon}{\abs{x^2+x-1}}</mrow>
-        </mdn>.
+        <md>
+          <mrow>\abs{f(x)-(-1)} \amp \lt  \varepsilon </mrow>
+          <mrow>\abs{x^3-2x + 1}\amp \lt  \varepsilon \amp\amp  \text{(Now factor)}</mrow>
+          <mrow>\abs{(x-1)(x^2+x-1)}\amp \lt  \varepsilon</mrow>
+          <mrow number="yes" xml:id="eq_lim4">\abs{x-1}\amp\lt\frac{\varepsilon}{\abs{x^2+x-1}}</mrow>
+        </md>.
       </p>
 
       <p>
@@ -785,11 +785,11 @@
         we wanted <m>\abs{x-1}\lt \varepsilon/\abs{x^2+x-1}</m>.
         The above shows that given any <m>x</m> in <m>[0,2]</m>,
         we know that
-        <mdn>
-          <mrow number="no">x^2+x-1 \amp \lt 5 \amp\amp \text{which implies that}</mrow>
-          <mrow number="no">\frac15 \amp \lt \frac{1}{x^2+x-1} \amp\amp \text{which implies that}</mrow>
-          <mrow xml:id="eq_lim5">\frac{\varepsilon}5 \amp \lt \frac{\varepsilon}{x^2+x-1}\amp\amp</mrow>
-        </mdn>.
+        <md>
+          <mrow>x^2+x-1 \amp \lt 5 \amp\amp \text{which implies that}</mrow>
+          <mrow>\frac15 \amp \lt \frac{1}{x^2+x-1} \amp\amp \text{which implies that}</mrow>
+          <mrow number="yes" xml:id="eq_lim5">\frac{\varepsilon}5 \amp \lt \frac{\varepsilon}{x^2+x-1}\amp\amp</mrow>
+        </md>.
       </p>
 
       <p>
@@ -860,9 +860,9 @@
     <statement>
       <p>
         Rearrange the blocks below to form a valid proof of the statement
-        <me>
+        <md>
           \lim_{x\to 2}(2x-3)=1
-        </me>.
+        </md>.
         Not all blocks are needed to form the proof.
       </p>
     </statement>
@@ -945,9 +945,9 @@
         <m>\varepsilon\lt 1</m> ensures the last inequality is valid (<ie/>, so that <m>\ln(1-\varepsilon)</m> is defined).
         We can then set <m>\delta</m> to be the minimum of
         <m>\abs{\ln(1-\varepsilon)}</m> and <m>\ln(1+\varepsilon)</m>; <ie/>,
-        <me>
+        <md>
           \delta = \min\{\abs{\ln(1-\varepsilon)}, \ln(1+\varepsilon)\} = \ln(1+\varepsilon)\text{.} \quad \text{(See marginal note.)}
-        </me>
+        </md>
       </p>
       <aside xml:id="aside-limit-def-min-explain" vshift="2">
         <p>
@@ -1041,9 +1041,9 @@
       <p>
         Use the <m>\varepsilon</m>-<m>\delta</m> definition of the limit to prove that
         if <m>\lim\limits_{x\to c}f(x)=L</m>, and <m>\lim\limits_{x\to c}g(x)=M</m>, then
-        <me>
+        <md>
           \lim_{x\to c}(f(x)+g(x)) = L+M = \lim_{x\to c}f(x)+\lim_{x\to c}g(x)
-        </me>.
+        </md>.
       </p>
     </statement>
     <blocks>

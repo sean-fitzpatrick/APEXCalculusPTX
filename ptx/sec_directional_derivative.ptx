@@ -39,9 +39,9 @@
           the <term>directional derivative</term> of <m>f</m> at <m>(x,y)</m> in the direction of <m>\vec u</m>
           is <idx><h>derivative</h><h>directional</h></idx>
               <idx><h>directional derivative</h></idx>
-          <me>
+          <md>
             D_{\vec u\,}f(x,y) = \lim_{h\to 0} \frac{f(x+hu_1,y+hu_2) - f(x,y)}h
-          </me>.
+          </md>.
         </p>
       </statement>
     </definition>
@@ -65,9 +65,9 @@
           The directional derivative of <m>f</m> at
           <m>(x_0,y_0)</m> in the direction of <m>\vec u</m> is <idx><h>derivative</h><h>directional</h></idx>
               <idx><h>directional derivative</h></idx>
-          <me>
+          <md>
             D_{\vec u\,}f(x_0,y_0)=f_x(x_0,y_0)u_1 + f_y(x_0,y_0)u_2
-          </me>.
+          </md>.
         </p>
       </statement>
     </theorem>
@@ -215,9 +215,9 @@
                 The vector <m>\overrightarrow{PQ} = \la 2,2\ra</m>;
                 the unit vector in this direction is <m>\vec u_1=\la 1/\sqrt{2}, 1/\sqrt{2}\ra</m>.
                 Thus the directional derivative of <m>f</m> at <m>(1,2)</m> in the direction of <m>\vec u_1</m> is
-                <me>
+                <md>
                   D_{\vec u_1}f(1,2) = -2(1/\sqrt{2}) +(-4)(1/\sqrt{2}) = -6/\sqrt{2}\approx -4.24
-                </me>.
+                </md>.
                 Thus the instantaneous rate of change in moving from the point <m>(1,2,9)</m> on the surface in the direction of <m>\vec u_1</m>
                 (which points toward the point <m>Q</m>)
                 is about <m>-4.24</m>.
@@ -230,9 +230,9 @@
                 We seek the directional derivative in the direction of <m>\la 2,-1\ra</m>.
                 The unit vector in this direction is <m>\vec u_2 = \la 2/\sqrt{5},-1/\sqrt{5}\ra</m>.
                 Thus the directional derivative of <m>f</m> at <m>(1,2)</m> in the direction of <m>\vec u_2</m> is
-                <me>
+                <md>
                   D_{\vec u_2}f(1,2) = -2(2/\sqrt{5})+(-4)(-1/\sqrt{5}) = 0
-                </me>.
+                </md>.
                 Starting on the surface of <m>f</m> at <m>(1,2)</m> and moving in the direction of <m>\la 2,-1\ra</m>
                 (or <m>\vec u_2</m>)
                 results in no instantaneous change in <m>z</m>-value.
@@ -249,9 +249,9 @@
                 the direction towards the origin is given by the vector <m>\la -1,-2\ra</m>;
                 the unit vector in this direction is <m>\vec u_3=\la -1/\sqrt{5},-2/\sqrt{5}\ra</m>.
                 The directional derivative of <m>f</m> at <m>P</m> in the direction of the origin is
-                <me>
+                <md>
                   D_{\vec u_3}f(1,2) = -2(-1/\sqrt{5}) + (-4)(-2/\sqrt{5}) = 10/\sqrt{5} \approx 4.47
-                </me>.
+                </md>.
                 Moving towards the origin means
                 <q>walking uphill</q> quite steeply,
                 with an initial slope of about <m>4.47</m>.
@@ -321,9 +321,9 @@
             <idx><h>gradient</h></idx>
             <idx><h>directional derivative</h></idx>
             <idx><h>derivative</h><h>directional</h></idx>
-        <me>
+        <md>
           D_{\vec u\,}f = \nabla f\cdot \vec u
-        </me>.
+        </md>.
       </p>
     </insight>
 
@@ -359,9 +359,9 @@
 
     <p>
       Using the key property of the dot product, we have
-      <men xml:id="eq_gradient">
+      <md number="yes" xml:id="eq_gradient">
         \nabla f\cdot \vec u = \norm{\nabla f}\,\vnorm u \cos(\theta) = \norm{\nabla f}\cos(\theta)
-      </men>,
+      </md>,
       where <m>\theta</m> is the angle between the gradient and <m>\vec u</m>.
       (Since <m>\vec u</m> is a unit vector, <m>\vnorm{u} = 1</m>.)
       This equation allows us to answer the three questions stated previously.
@@ -492,9 +492,9 @@
         <p>
           We begin by finding the gradient.
           <m>f_x = \cos(x) \cos(y)</m> and <m>f_y = -\sin(x) \sin(y)</m>, thus
-          <me>
+          <md>
             \nabla f = \la \cos(x) \cos(y) ,-\sin(x) \sin(y) \ra  \text{ and, at \(P\), }   \nabla f\left(\frac{\pi}3,\frac{\pi}3\right) = \la\frac14,-\frac34\ra
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -850,19 +850,19 @@
 
         <p>
           This implies
-          <me>
+          <md>
             -2cx = \frac{dx}{dt}  \text{ and }    -4cy =\frac{dy}{dt}, \text{i.e.,}
-          </me>
-          <me>
+          </md>
+          <md>
             c = -\frac{1}{2x}\frac{dx}{dt}  \text{ and }    c =-\frac{1}{4y}\frac{dy}{dt}
-          </me>.
+          </md>.
         </p>
 
         <p>
           As <m>c</m> equals both expressions, we have
-          <me>
+          <md>
             \frac{1}{2x}\frac{dx}{dt} =\frac{1}{4y}\frac{dy}{dt}
-          </me>.
+          </md>.
         </p>
 
         <p>
@@ -888,9 +888,9 @@
         <p>
           As the water started at the point <m>(1,1/4)</m>,
           we can solve for <m>C</m>:
-          <me>
+          <md>
             C(1)^2 = \frac14  \Rightarrow  C = \frac14
-          </me>.
+          </md>.
         </p>
 
         <figure xml:id="fig_direct3">
@@ -1057,9 +1057,9 @@
             <li>
               <p>
                 The <em>directional derivative of <m>F</m> in the direction of <m>\vec u</m></em> is
-                <me>
+                <md>
                   D_{\vec u\,}F=\nabla F\cdot \vec u
-                </me>.
+                </md>.
               </p>
             </li>
           </ol>
