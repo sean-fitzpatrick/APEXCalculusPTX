@@ -4,13 +4,13 @@
     <target name="html" format="html" source="apex.ptx" publication="publication-video.ptx">
       <stringparams key="html.annotation" value="hypothesis"/>
     </target>
-    <target name="html-novideo" format="html" source="apex.ptx" publication="publication-novid.ptx">
+    <target name="html-novideo" format="html" source="apex.ptx" publication="publication-web-novid.ptx">
       <stringparams key="html.annotation" value="hypothesis"/>
     </target>
-    <target name="html-standard" format="html" source="apex-UL-standard.ptx" publication="publication-standard.ptx">
+    <target name="html-standard" format="html" source="apex-UL-standard.ptx" publication="publication-standard-web.ptx">
       <stringparams key="html.annotation" value="hypothesis"/>
     </target>
-    <target name="html-accelerated" format="html" source="apex-UL-accelerated.ptx" publication="publication-accelerated.ptx">
+    <target name="html-accelerated" format="html" source="apex-UL-accelerated.ptx" publication="publication-accelerated-web.ptx">
       <stringparams key="html.annotation" value="hypothesis"/>
     </target>
     <target name="runestone" format="html" source="apex.ptx" publication="publication-runestone.ptx" output-dir="../published/APEX">

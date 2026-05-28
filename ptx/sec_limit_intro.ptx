@@ -1096,7 +1096,7 @@
           </sidebyside>
         </figure>
 
-        <figure xml:id="table_nolimit3c" vshift="3">
+        <figure xml:id="table_nolimit3c" vshift="2">
           <caption>Observing that <m>f(x)=\sin(1/x)</m> has no limit as <m>x\to0</m> in <xref ref="ex_no_limit3"/></caption>
           <tabular>
             <row bottom="medium">
@@ -3484,7 +3484,7 @@
                 <m>f(x)=<var name="$f"/></m>,
                 <m>a=<var name="$a"/></m>
               </p>
-              <tabular top="major">
+              <tabular top="major" component="web">
                 <col halign="center"/>
                 <col halign="center"/>
                 <row bottom="medium">
@@ -3604,7 +3604,7 @@
                 <m>f(x)=<var name="$f"/></m>,
                 <m>a=<var name="$a"/></m>
               </p>
-              <tabular top="major">
+              <tabular top="major" component="web">
                 <col halign="center"/>
                 <col halign="center"/>
                 <row bottom="medium">
@@ -3727,7 +3727,7 @@
                 <m>f(x)=<var name="$f"/></m>,
                 <m>a=<var name="$a"/></m>
               </p>
-              <tabular top="major">
+              <tabular top="major" component="web">
                 <col halign="center"/>
                 <col halign="center"/>
                 <row bottom="medium">
@@ -3848,7 +3848,7 @@
                 <m>f(x)=<var name="$f"/></m>,
                 <m>a=<var name="$a"/></m>
               </p>
-              <tabular top="major">
+              <tabular top="major" component="web">
                 <col halign="center"/>
                 <col halign="center"/>
                 <row bottom="medium">
@@ -3975,7 +3975,7 @@
                 <m>f(x)=<var name="$f"/></m>,
                 <m>a=<var name="$a"/></m>
               </p>
-              <tabular top="major">
+              <tabular top="major" component="web">
                 <col halign="center"/>
                 <col halign="center"/>
                 <row bottom="medium">
@@ -4092,7 +4092,7 @@
                 <m>f(x)=<var name="$f"/></m>,
                 <m>a=<var name="$a"/></m>
               </p>
-              <tabular top="major">
+              <tabular top="major" component="web">
                 <col halign="center"/>
                 <col halign="center"/>
                 <row bottom="medium">
@@ -4210,7 +4210,7 @@
                 <m>f(x)=<var name="$f"/></m>,
                 <m>a=<var name="$a"/></m>
               </p>
-              <tabular top="major">
+              <tabular top="major" component="web">
                 <col halign="center"/>
                 <col halign="center"/>
                 <row bottom="medium">
@@ -4328,7 +4328,7 @@
                 <m>f(x)=<var name="$f"/></m>,
                 <m>a=<var name="$a"/></m>
               </p>
-              <tabular top="major">
+              <tabular top="major" component="web">
                 <col halign="center"/>
                 <col halign="center"/>
                 <row bottom="medium">

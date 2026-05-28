@@ -4,14 +4,14 @@
 
     <!-- Relative path, relative to "main" source file -->
     <source>
-        <directories external="../assets" generated="../generated-assets-video"/>
-        <version include="main color video taypoly-late video-late web"/>
+        <directories external="../assets" generated="../generated-assets-standard"/>
+        <version include="main color video taypoly-early video-early web"/>
     </source>
 
-    <webwork server="https://webwork-dev.uleth.ca" course="apex-video"/>
+    <webwork server="https://webwork-dev.uleth.ca" course="apex-standard"/>
 
     <common>
-      <tableofcontents level="2"/>
+      <tableofcontents level="3"/>
       <exercise-divisional hint="no" answer="no" solution="no"/>
       <exercise-reading hint="yes" answer="no" solution="no"/>
     </common>
@@ -21,7 +21,7 @@
         <index-page ref="apex-calculus"/>
         <video privacy="yes"/>
         <!-- baseurl should not have a trailing slash -->
-        <baseurl href="https://opentext.uleth.ca/apex-video"/>
+        <baseurl href="https://opentext.uleth.ca/apex-standard"/>
         <knowl example="no"/>
         <asymptote links="yes"/>
         <webwork divisional="dynamic" reading="dynamic"/>
