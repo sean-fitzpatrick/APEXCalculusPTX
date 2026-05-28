@@ -991,6 +991,12 @@
               <m>\lim\limits_{n\to\infty} c\cdot a_n = c\cdot L</m>
             </p>
           </li>
+
+          <li>
+            <p>
+              If <m>g</m> is continuous at <m>L</m>, then <m>\lim\limits_{n\to\infty}g(a_n)=g(L)</m>.
+            </p>
+          </li>
         </ol>
       </p>
     </statement>
