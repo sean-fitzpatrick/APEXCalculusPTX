@@ -768,50 +768,54 @@
       <p>
         Since <m>x</m> is approaching <m>1</m>,
         we are safe to assume that <m>x</m> is between <m>0</m> and <m>2</m>.
+        But we need to be careful! The quadratic <m>x^2+x-1</m> has roots <m>\frac{-1\pm\sqrt{5}}{2}</m>,
+        and <m>\frac{-1+\sqrt{5}}{2}\approx 0.62</m> is in the interval <m>[0,2]</m>!
+        We want to divide by <m>x^2+x-1</m>, so to avoid any division by zero issues,
+        we choose a smaller interval containing <m>1</m>: <m>0.75\lt x\lt 1.25</m>. 
         So
         <md>
-          <mrow>0\amp \lt  x\lt 2</mrow>
-          <mrow>0\amp \lt  x^2\lt 4\amp\amp \text{(Squared each term.)}</mrow>
-          <intertext>Since <m>0\lt x\lt 2</m>, we can add <m>0</m>,
-            <m>x</m> and <m>2</m>, respectively,
-            to each part of the inequality and maintain the inequality.</intertext>
-          <mrow>0\amp \lt  x^2+x\lt 6</mrow>
-          <mrow>-1\amp \lt  x^2+x-1\lt 5\amp\amp \text{(Subtracted 1 from each part.)}</mrow>
+          <mrow>0\frac34 amp \lt  x\lt \frac54</mrow>
+          <mrow>\frac{9}{16}\amp \lt  x^2\lt \frac{25}{16}\amp\amp \text{(Squared each term.)}</mrow>
+          <intertext>Adding the above two inequalities, we get:</intertext>
+          <mrow>\frac{21}{16}\amp \lt  x^2+x\lt \frac{45}{16}</mrow>
+          <mrow>\frac{5}{16}\amp \lt  x^2+x-1\lt \frac{29}{16}\amp\amp \text{(Subtracted 1 from each part.)}</mrow>
         </md>
       </p>
 
       <p>
         In <xref ref="eq_lim4" text="global">Inequality</xref>,
         we wanted <m>\abs{x-1}\lt \varepsilon/\abs{x^2+x-1}</m>.
-        The above shows that given any <m>x</m> in <m>[0,2]</m>,
+        The above shows that given any <m>x</m> in <m>(0.75,1.25)</m>,
         we know that
         <md>
-          <mrow>x^2+x-1 \amp \lt 5 \amp\amp \text{which implies that}</mrow>
-          <mrow>\frac15 \amp \lt \frac{1}{x^2+x-1} \amp\amp \text{which implies that}</mrow>
-          <mrow number="yes" xml:id="eq_lim5">\frac{\varepsilon}5 \amp \lt \frac{\varepsilon}{x^2+x-1}\amp\amp</mrow>
+          <mrow>\abs{x^2+x-1} \amp \lt \frac{29}{16} \amp\amp \text{which implies that}</mrow>
+          <mrow>\frac{16}{25} \amp \lt \frac{1}{\abs{x^2+x-1}} \amp\amp \text{which implies that}</mrow>
+          <mrow number="yes" xml:id="eq_lim5">\frac{16\varepsilon}{25} \amp \lt \frac{\varepsilon}{\abs{x^2+x-1}}\amp\amp</mrow>
         </md>.
       </p>
 
       <p>
-        So we set <m>\delta \lt \epsilon/5</m>.
+        So we set <m>\delta \lt 16\epsilon/25</m>, on the interval <m>(0.75, 1.25)</m>.
         This ends our scratch-work, and we begin the formal proof
         (which also helps us understand why this was a good choice of <m>\delta</m>).
       </p>
 
       <p>
-        Given <m>\varepsilon</m>, let <m>\delta \lt \varepsilon/5</m>.
+        Given <m>\varepsilon\gt 0</m>, let <m>\delta \lt \min\{1/4, 16\varepsilon/25\}</m>.
         We want to show that when <m>\abs{x-1}\lt \delta</m>,
         then <m>\abs{(x^3-2x)-(-1)}\lt \varepsilon</m>.
         We start with <m>\abs{x-1}\lt \delta</m>:
         <md>
           <mrow>\abs{x-1} \amp \lt  \delta</mrow>
-          <mrow>\abs{x-1} \amp \lt  \frac{\varepsilon}{5}</mrow>
+          <mrow>\abs{x-1} \amp \lt  \frac{16\varepsilon}{25}</mrow>
           <mrow>\abs{x-1} \amp \lt  \frac{\varepsilon}{\abs{x^2+x-1}} \amp\amp  \text{(}<xref ref="eq_lim5" text="global">Inequality</xref>, x\text{ near 1)}</mrow>
           <mrow>\abs{x-1}\cdot \abs{x^2+x-1} \amp \lt  \varepsilon</mrow>
           <mrow>\abs{x^3-2x+1} \amp \lt  \varepsilon</mrow>
           <mrow>\abs{(x^3-2x)-(-1)} \amp \lt \varepsilon</mrow>
         </md>,
-        which is what we wanted to show.
+        which is what we wanted to show. 
+        (Note that the condition <q><m>x</m> near <m>1</m></q> is satisfied by the fact that <m>\delta\lt 1/4</m>,
+        so that <m>3/4\lt x\lt 5/4</m>.)
         Thus <m>\lim_{x\to 1}(x^3-2x) = -1</m>.
       </p>
     </solution>
