@@ -75,7 +75,16 @@
       <!-- figures/fig_taypolyintroa.tex END -->
       <figure xml:id="fig_taypolyintroa_2">
         <caption>Derivatives of <m>f</m> evaluated at <m>0</m></caption>
-        <tabular>
+        <sidebyside>
+          <p>
+            <md>
+              <mrow>f(0) \amp = 2 \amp \fp''(0) \amp =-1</mrow>
+              <mrow>\fp(0) \amp = 1 \amp f^{(4)}(0) \amp = -12</mrow>
+              <mrow>\fpp(0) \amp = 2 \amp f^{(5)}(0) \amp = -19</mrow>
+            </md>
+          </p>
+        </sidebyside>
+        <!-- <tabular>
           <row>
             <cell><m>f(0) = 2</m></cell>
             <cell/>
@@ -91,7 +100,7 @@
             <cell/>
             <cell><m>f^{(5)}(0)=-19</m></cell>
           </row>
-        </tabular>
+        </tabular> -->
       </figure>
     </sidebyside>
 
@@ -214,7 +223,7 @@
       whose first four derivatives at 0 match those of <m>f</m>.
     </p>
 
-    <figure xml:id="fig_taypolyintrob" vshift="0">
+    <figure xml:id="fig_taypolyintrob" vshift="1">
       <caption>Plotting <m>f</m>, <m>p_2</m> and <m>p_4</m></caption>
       <!-- START figures/fig_taypolyintrob.tex -->
       <image width="47%">
@@ -351,7 +360,7 @@
       </md>.
     </p>
 
-    <figure xml:id="fig_taypolyintroc" vshift="-2">
+    <figure xml:id="fig_taypolyintroc" vshift="-1">
       <caption>Plotting <m>f</m> and <m>p_{13}</m></caption>
       <!-- START figures/fig_taypolyintroc.tex -->
       <image width="47%">
@@ -533,7 +542,18 @@
 
               <figure xml:id="fig_taypoly1a" vshift="-2">
                 <caption>The derivatives of <m>f(x)=e^x</m> evaluated at <m>x=0</m></caption>
-                <tabular>
+                <sidebyside>
+                  <p>
+                    <md>
+                      <mrow>f(x) \amp = e^x \amp f(0) \amp = 1</mrow>
+                      <mrow>\fp(x) \amp = e^x \amp \fp(0) \amp =1</mrow>
+                      <mrow>\fp'(x) \amp = e^x \amp \fp'(0) \amp =1</mrow>
+                      <mrow> \amp \vdots \amp \amp \vdots</mrow>
+                      <mrow>f^{(n)}(x) \amp = e^x \amp f^{(n)}(0) \amp =1</mrow>
+                    </md>
+                  </p>
+                </sidebyside>
+                <!-- <tabular>
                   <row>
                     <cell><m>f(x) = e^x</m></cell>
                     <cell><m>f(0) = 1</m></cell>
@@ -554,7 +574,7 @@
                     <cell><m>f\,^{(n)}(x) = e^x</m></cell>
                     <cell><m>f\,^{(n)}(0) = 1</m></cell>
                   </row>
-                </tabular>
+                </tabular> -->
               </figure>
 
               <p>
@@ -720,7 +740,21 @@
 
               <figure xml:id="fig_taypoly2a" vshift="-7">
                 <caption>Derivatives of <m>\ln(x)</m> evaluated at <m>x=1</m></caption>
-                <tabular>
+                <sidebyside>
+                  <p>
+                    <md>
+                      <mrow>f(x) \amp = \ln(x) \amp f(1) \amp = 0</mrow>
+                      <mrow>\fp(x) \amp = \frac1x \amp \fp(1) \amp = 1</mrow>
+                      <mrow>\fp'(x) \amp = -\frac{1}{x^2} \amp \fp'(1) \amp = -1 </mrow>
+                      <mrow>\fp''(x) \amp = \frac{2}{x^3} \amp \fp''(1) \amp = 2</mrow>
+                      <mrow>f^{(4)}(x) \amp = -\frac{6}{x^4} \amp f^{(4)}(1) \amp = -6</mrow>
+                      <mrow> \amp \vdots \amp \amp \vdots</mrow>
+                      <mrow>f^{(n)}(x) \amp = \amp f^{(n)}(1) \amp =</mrow>
+                      <mrow>\frac{(-1)^{n+1}(n-1)!}{x^n} \amp \amp (-1)^{n+1}(n-1)! </mrow>
+                    </md>
+                  </p>
+                </sidebyside>
+                <!-- <tabular>
                   <row>
                     <cell><m>f(x) = \ln(x)</m></cell>
                     <cell><m>f(1) = 0</m></cell>
@@ -753,7 +787,7 @@
                     <cell><m>\frac{(-1)^{n+1}(n-1)!}{x^n}</m></cell>
                     <cell><m>\!\!(-1)^{n+1}(n-1)!</m></cell>
                   </row>
-                </tabular>
+                </tabular> -->
               </figure>
 
               <p>
@@ -1205,7 +1239,23 @@
 
         <figure xml:id="fig_taypoly4a" vshift="4" component="taypoly-late">
           <caption>A table of the derivatives of <m>f(x)=\cos(x)</m> evaluated at <m>x=0</m></caption>
-          <tabular>
+          <sidebyside>
+            <p>
+              <md>
+                <mrow>f(x) \amp = \cos(x) \amp f(0) \amp = 1</mrow>
+                <mrow>f'(x) \amp = -\sin(x) \amp \fp(0) \amp = 0</mrow>
+                <mrow>\fp'(x) \amp = -\cos(x) \amp \fp'(0) \amp = -1</mrow>
+                <mrow>\fp''(x) \amp = \sin(x) \amp \fp''(0) \amp = 0</mrow>
+                <mrow>f^{(4)}(x) \amp = \cos(x) \amp f^{(4)}(0) \amp =1</mrow>
+                <mrow>f^{(5)}(x) \amp = -\sin(x) \amp f^{(5)}(0) \amp =0</mrow>
+                <mrow>f^{(6)}(x) \amp = -\cos(x) \amp f^{(6)}(0) \amp =-1</mrow>
+                <mrow>f^{(7)}(x) \amp = \sin(x) \amp f^{(7)}(0) \amp =0</mrow>
+                <mrow>f^{(8)}(x) \amp = \cos(x) \amp f^{(8)}(0) \amp =1</mrow>
+                <mrow>f^{(9)}(x) \amp = -\sin(x) \amp f^{(9)}(0) \amp =0</mrow>
+              </md>
+            </p>
+          </sidebyside>
+          <!-- <tabular>
             <row>
               <cell><m>f(x) = \cos(x)</m></cell>
               <cell><m>f(0) = 1</m></cell>
@@ -1246,12 +1296,28 @@
               <cell><m>f^{(9)}(x) = -\sin(x)</m></cell>
               <cell><m>f^{(9)}(0) = 0</m></cell>
             </row>
-          </tabular>
+          </tabular> -->
         </figure>
 
         <figure xml:id="fig_taypoly4a-early" vshift="0" component="taypoly-early">
           <caption>A table of the derivatives of <m>f(x)=\cos(x)</m> evaluated at <m>x=0</m></caption>
-          <tabular>
+          <sidebyside>
+            <p>
+              <md>
+                <mrow>f(x) \amp = \cos(x) \amp f(0) \amp = 1</mrow>
+                <mrow>f'(x) \amp = -\sin(x) \amp \fp(0) \amp = 0</mrow>
+                <mrow>\fp'(x) \amp = -\cos(x) \amp \fp'(0) \amp = -1</mrow>
+                <mrow>\fp''(x) \amp = \sin(x) \amp \fp''(0) \amp = 0</mrow>
+                <mrow>f^{(4)}(x) \amp = \cos(x) \amp f^{(4)}(0) \amp =1</mrow>
+                <mrow>f^{(5)}(x) \amp = -\sin(x) \amp f^{(5)}(0) \amp =0</mrow>
+                <mrow>f^{(6)}(x) \amp = -\cos(x) \amp f^{(6)}(0) \amp =-1</mrow>
+                <mrow>f^{(7)}(x) \amp = \sin(x) \amp f^{(7)}(0) \amp =0</mrow>
+                <mrow>f^{(8)}(x) \amp = \cos(x) \amp f^{(8)}(0) \amp =1</mrow>
+                <mrow>f^{(9)}(x) \amp = -\sin(x) \amp f^{(9)}(0) \amp =0</mrow>
+              </md>
+            </p>
+          </sidebyside>
+          <!-- <tabular>
             <row>
               <cell><m>f(x) = \cos(x)</m></cell>
               <cell><m>f(0) = 1</m></cell>
@@ -1292,7 +1358,7 @@
               <cell><m>f^{(9)}(x) = -\sin(x)</m></cell>
               <cell><m>f^{(9)}(0) = 0</m></cell>
             </row>
-          </tabular>
+          </tabular> -->
         </figure>
 
         <p>
@@ -1332,7 +1398,7 @@
           Note how well the two functions agree on about <m>(-\pi,\pi)</m>.
         </p>
 
-        <figure xml:id="fig_taypoly4b" vshift="1" component="taypoly-late">
+        <figure xml:id="fig_taypoly4b" vshift="3" component="taypoly-late">
           <caption>A graph of <m>f(x)= \cos(x)</m> and its degree 8 Maclaurin
           polynomial</caption>
           <!-- START figures/fig_taypoly4.tex -->
@@ -1510,22 +1576,33 @@
                 This is done in <xref ref="fig_taypoly5a" component="taypoly-late"/><xref ref="fig_taypoly5a-early" component="taypoly-early"/>.
               </p>
 
-              <figure xml:id="fig_taypoly5a" vshift="0" component="taypoly-late">
+              <figure xml:id="fig_taypoly5a" vshift="2" component="taypoly-late">
                 <caption>A table of the derivatives of <m>f(x)=\sqrt{x}</m> evaluated at <m>x=4</m></caption>
-                <tabular>
-                  <row>
+                <sidebyside>
+                  <p>
+                    <md>
+                      <mrow>f(x) \amp = \sqrt{x} \amp f(4) \amp = 2</mrow>
+                      <mrow>\fp(x) \amp = \frac{1}{2\sqrt{x}} \amp \fp(4) \amp = \frac14</mrow>
+                      <mrow>\fp'(x) \amp = \frac{-1}{4x^{3/2}} \amp \fp'(4) \amp = \frac{-1}{32}</mrow>
+                      <mrow>\fp''(x) \amp = \frac{3}{8x^{5/2}} \amp \fp''(4) \amp = \frac{3}{256}</mrow>
+                      <mrow>f^{(4)}(x) \amp = \frac{-15}{16x^{7/2}} \amp f^{(4)}(4) \amp = \frac{-15}{2048}</mrow>
+                    </md>
+                  </p>
+                </sidebyside>
+                <!-- <tabular>
+                  <row height="10pt">
                     <cell><m>f(x) = \sqrt{x}</m></cell>
                     <cell><m>f(4) = 2</m></cell>
                   </row>
-                  <row>
-                    <cell><m>\ds\fp(x) = \frac{1}{2\sqrt{x}}</m></cell>
-                    <cell><m>\ds\fp(4) = \frac{1}{4}</m></cell>
+                  <row height="10pt">
+                    <cell><m>\ds \fp(x) = \frac{1}{2\sqrt{x}}</m></cell>
+                    <cell><m>\ds \fp(4) = \frac{1}{4}</m></cell>
                   </row>
-                  <row>
-                    <cell><m>\ds\fp'(x) = \frac{-1}{4x^{3/2}}</m></cell>
-                    <cell><m>\ds\fp'(4) = \frac{-1}{32}</m></cell>
+                  <row height="10pt">
+                    <cell><m>\ds \fp'(x) = \frac{-1}{4x^{3/2}}</m></cell>
+                    <cell><m>\ds \fp'(4) = \frac{-1}{32}</m></cell>
                   </row>
-                  <row>
+                  <row height="10pt">
                     <cell><m>\ds\fp''(x) = \frac3{8x^{5/2}}</m></cell>
                     <cell><m>\ds\fp''(4) = \frac{3}{256}</m></cell>
                   </row>
@@ -1533,12 +1610,23 @@
                     <cell><m>\ds f^{(4)}(x) = \frac{-15}{16x^{7/2}}</m></cell>
                     <cell><m>\ds f^{(4)}(4) = \frac{-15}{2048}</m></cell>
                   </row>
-                </tabular>
+                </tabular> -->
               </figure>
 
               <figure xml:id="fig_taypoly5a-early" vshift="-4.5" component="taypoly-early">
                 <caption>A table of the derivatives of <m>f(x)=\sqrt{x}</m> evaluated at <m>x=4</m></caption>
-                <tabular>
+                <sidebyside>
+                  <p>
+                    <md>
+                      <mrow>f(x) \amp = \sqrt{x} \amp f(4) \amp = 2</mrow>
+                      <mrow>\fp(x) \amp = \frac{1}{2\sqrt{x}} \amp \fp(4) \amp = \frac14</mrow>
+                      <mrow>\fp'(x) \amp = \frac{-1}{4x^{3/2}} \amp \fp'(4) \amp = \frac{-1}{32}</mrow>
+                      <mrow>\fp''(x) \amp = \frac{3}{8x^{5/2}} \amp \fp''(4) \amp = \frac{3}{256}</mrow>
+                      <mrow>f^{(4)}(x) \amp = \frac{-15}{16x^{7/2}} \amp f^{(4)}(4) \amp = \frac{-15}{2048}</mrow>
+                    </md>
+                  </p>
+                </sidebyside>
+                <!-- <tabular>
                   <row>
                     <cell><m>f(x) = \sqrt{x}</m></cell>
                     <cell><m>f(4) = 2</m></cell>
@@ -1559,7 +1647,7 @@
                     <cell><m>\ds f^{(4)}(x) = \frac{-15}{16x^{7/2}}</m></cell>
                     <cell><m>\ds f^{(4)}(4) = \frac{-15}{2048}</m></cell>
                   </row>
-                </tabular>
+                </tabular> -->
               </figure>
 
               <p>

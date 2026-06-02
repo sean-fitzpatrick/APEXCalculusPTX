@@ -95,7 +95,23 @@
 
       <figure xml:id="fig_ts1" vshift="-3">
         <caption>Derivatives of <m>f(x)=\cos (x)</m> evaluated at <m>x=0</m></caption>
-        <tabular>
+        <sidebyside>
+          <p>
+            <md>
+              <mrow>f(x) \amp = \cos(x) \amp f(0) \amp = 1</mrow>
+              <mrow>f'(x) \amp = -\sin(x) \amp \fp(0) \amp = 0</mrow>
+              <mrow>\fp'(x) \amp = -\cos(x) \amp \fp'(0) \amp = -1</mrow>
+              <mrow>\fp''(x) \amp = \sin(x) \amp \fp''(0) \amp = 0</mrow>
+              <mrow>f^{(4)}(x) \amp = \cos(x) \amp f^{(4)}(0) \amp =1</mrow>
+              <mrow>f^{(5)}(x) \amp = -\sin(x) \amp f^{(5)}(0) \amp =0</mrow>
+              <mrow>f^{(6)}(x) \amp = -\cos(x) \amp f^{(6)}(0) \amp =-1</mrow>
+              <mrow>f^{(7)}(x) \amp = \sin(x) \amp f^{(7)}(0) \amp =0</mrow>
+              <mrow>f^{(8)}(x) \amp = \cos(x) \amp f^{(8)}(0) \amp =1</mrow>
+              <mrow>f^{(9)}(x) \amp = -\sin(x) \amp f^{(9)}(0) \amp =0</mrow>
+            </md>
+          </p>
+        </sidebyside>
+        <!-- <tabular>
           <row>
             <cell><m>f(x) = \cos(x)</m></cell>
             <cell><m>f(0) = 1</m></cell>
@@ -136,7 +152,7 @@
             <cell><m>f^{(9)}(x) = -\sin(x)</m></cell>
             <cell><m>f^{(9)}(0) = 0</m></cell>
           </row>
-        </tabular>
+        </tabular> -->
       </figure>
 
       <p>
@@ -217,7 +233,22 @@
 
       <figure xml:id="fig_ts2" vshift="-4">
         <caption>Derivatives of <m>\ln(x)</m> evaluated at <m>x=1</m></caption>
-        <tabular>
+        <sidebyside>
+          <p>
+            <md>
+              <mrow>f(x) \amp = \ln(x) \amp f(1) \amp = 0</mrow>
+              <mrow>\fp(x) \amp = \frac1x \amp \fp(1) \amp = 1</mrow>
+              <mrow>\fp'(x) \amp = -\frac{1}{x^2} \amp \fp'(1) \amp = -1 </mrow>
+              <mrow>\fp''(x) \amp = \frac{2}{x^3} \amp \fp''(1) \amp = 2</mrow>
+              <mrow>f^{(4)}(x) \amp = -\frac{6}{x^4} \amp f^{(4)}(1) \amp = -6</mrow>
+              <mrow>f^{(5)}(x) \amp = \frac{24}{x^5} \amp f^{(5)}(1) \amp = 24</mrow>
+              <mrow> \amp \vdots \amp \amp \vdots</mrow>
+              <mrow>f^{(n)}(x) \amp = \amp f^{(n)}(1) \amp =</mrow>
+              <mrow>\frac{(-1)^{n+1}(n-1)!}{x^n} \amp \amp (-1)^{n+1}(n-1)! </mrow>
+            </md>
+          </p>
+        </sidebyside>
+        <!-- <tabular>
           <row>
             <cell><m>f(x) = \ln(x)</m></cell>
             <cell><m>f(1) = 0</m></cell>
@@ -243,8 +274,8 @@
             <cell><m>f^{(5)}(1) = 24</m></cell>
           </row>
           <row>
-            <cell><m>\, \vdots</m></cell>
-            <cell><m>\, \vdots</m></cell>
+            <cell halign="center"><m>\vdots</m></cell>
+            <cell halign="center"><m>\vdots</m></cell>
           </row>
           <row>
             <cell><m>f^{(n)}(x) =</m></cell>
@@ -254,7 +285,7 @@
             <cell><m>\ds \frac{(-1)^{n+1}(n-1)!}{x^n}</m></cell>
             <cell><m>(-1)^{n+1}(n-1)!</m></cell>
           </row>
-        </tabular>
+        </tabular> -->
       </figure>
 
       <p>
@@ -696,12 +727,12 @@
     </p>
   </insight>
 
-  <aside vshift="-1">
+  <aside vshift="-4">
     <p>
       Note that we require <m>h(x)</m> to be a polynomial function in <xref ref="thm_series_alg"/>.
       If we plug a function that is not polynomial into a power series,
       the result will no longer be a power series.
-      If one is <em>very</em> careful about the centre and radius of convergence,
+      If one is <em>very</em> careful about the center and radius of convergence,
       it is technically possible to substitute the Taylor series for a general function <m>h(x)</m>
       into the Taylor series for <m>f(x)</m>, and the result will be the Taylor series for <m>f(h(x))</m>.
     </p>
