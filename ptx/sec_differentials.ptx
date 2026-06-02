@@ -549,11 +549,7 @@
         We approximate the difference between <m>f(4.5)</m> and <m>f(4)</m> using differentials,
         with <m>dx = 0.5</m>:
         <md>
-          <mrow>f(4.5)-f(4) \amp = \dy \approx dy</mrow>
-          <mrow>\amp = \fp(4)\cdot dx</mrow>
-          <mrow>\amp = 1/4 \cdot 1/2</mrow>
-          <mrow>\amp = 1/8</mrow>
-          <mrow>\amp = 0.125</mrow>
+          f(4.5)-f(4) = \dy \approx dy = \fp(4)\cdot dx = \frac14 \cdot \frac12 = \frac18 = 0.125
         </md>.
       </p>
 

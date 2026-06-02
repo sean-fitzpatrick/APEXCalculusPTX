@@ -899,7 +899,7 @@
     <title>Using the Product, Quotient and Chain Rules</title>
     <statement>
       <p>
-        Find the derivative of <m>f(x) = \frac{x\cos(x^{-2})-\sin^2(e^{4x})}{\ln(x^2+5x^4)}</m>.
+        Find the derivative of <m>f(x) = \dfrac{x\cos(x^{-2})-\sin^2(e^{4x})}{\ln(x^2+5x^4)}</m>.
       </p>
     </statement>
     <solution>
@@ -909,13 +909,18 @@
         It employs the <xref ref="thm_QuotientRule" text="title"/>,
         the <xref ref="thm_ProductRule" text="title"/>,
         and the <xref ref="thm_chain_rule" text="title"/> three times.
-        <md>
+        <!-- <md>
           <mrow>\amp\fp(x)</mrow>
           <mrow>\amp=\Bigg(\ln\mathopen{}\left(x^2+5x^4\right)\mathclose{}\cdot\bigg[\Big(x\cdot\left(-\sin\mathopen{}\left(x^{-2}\right)\mathclose{}\right)\cdot\left(-2x^{-3}\right)</mrow>
           <mrow>\amp\qquad{}+1\cdot \cos\mathopen{}\left(x^{-2}\right)\Big)-2\sin\mathopen{}\left(e^{4x}\right)\mathclose{}\cdot\cos\mathopen{}\left(e^{4x}\right)\mathclose{}\cdot\left(4e^{4x}\right)\bigg]</mrow>
           <mrow>\amp\qquad\qquad\qquad{}-\left(x\cos\mathopen{}\left(x^{-2}\right)\mathclose{}-\sin^2\mathopen{}\left(e^{4x}\right)\mathclose{}\right)\cdot\frac{2x+20x^3}{x^2+5x^4}\Bigg)</mrow>
           <mrow>\amp\phantom{{}={}}\left/\left(\ln\mathopen{}\left(x^2+5x^4\right)\mathclose{}\right)^2\right.</mrow>
-        </md>.
+        </md>. -->
+        <md>
+          f'(x)=\frac{\begin{matrix}\ln\left(x^2+5x^4\right)\cdot\bigg[\Big(x\cdot\left(-\sin\left(x^{-2}\right)\right)\cdot\left(-2x^{-3}\right)+1\cdot \cos\left(x^{-2}\right)\Big)\hspace{60pt}\\
+          \hspace{72pt}-2\sin\left(e^{4x}\right)\cdot\cos\left(e^{4x}\right)\cdot\left(4e^{4x}\right)\bigg]\\
+          \hspace{120pt}-\left(x\cos\left(x^{-2}\right)-\sin^2\left(e^{4x}\right)\right)\cdot\frac{2x+20x^3}{x^2+5x^4}\end{matrix}}{\left(\ln\left(x^2+5x^4\right)\right)^2}
+        </md>.        
       </p>
 
       <p>
@@ -2124,6 +2129,8 @@
           </webwork>
         </exercise>
       </exercisegroup>
+
+      <enlarge-page skipsize="2"/>
 
       <exercise label="ex-deriv-chain-tangent-5">
         <webwork xml:id="webwork-ex-deriv-chain-tangent-5">
