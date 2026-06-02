@@ -841,7 +841,7 @@
         <!-- </webwork> -->
       </exercise>
 
-      <exercise label="TaC-multi-chain-3" language="natural">
+      <exercise label="TaC-multi-chain-3" language="math" component="web">
         <!-- <webwork xml:id="webwork-TaC-multi-chain-3">
             <pg-code>
             </pg-code> -->
@@ -862,6 +862,23 @@
               <block order="5" correct="no"><m>\frac{\partial y}{\partial t}</m></block>
             </blocks>
         <!-- </webwork> -->
+      </exercise>
+
+      <exercise label="TaC-multi-chain-3" component="pdf">
+        <statement>
+          <p>
+            Fill in the blank: the Multivariable Chain Rule states
+          </p>
+
+          <p>
+            <m>\ds\frac{df}{dt}=\frac{\partial f}{\partial x}\cdot</m><fillin/> <m>+</m> <fillin/><m>\cdot\frac{dy}{dt}</m>.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <m>\frac{dx}{dt}</m>, and <m>\frac{\partial f}{\partial y}</m>
+          </p>
+        </solution>
       </exercise>
 
       <exercise label="TaC-multi-chain-4">

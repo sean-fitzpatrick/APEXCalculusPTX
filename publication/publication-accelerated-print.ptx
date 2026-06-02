@@ -5,7 +5,7 @@
     <!-- Relative path, relative to "main" source file -->
     <source>
         <directories external="../assets" generated="../generated-assets-accelerated-print"/>
-        <version include="main print video taypoly-early video-early"/>
+        <version include="main print video taypoly-early video-early pdf"/>
     </source>
 
     <webwork server="https://webwork-dev.uleth.ca" course="apex-acc-print"/>

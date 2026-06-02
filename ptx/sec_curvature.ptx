@@ -1241,10 +1241,7 @@
         <!--</webwork>-->
       </exercise>
 
-      <exercise label="TaC-curvature-5" language="math">
-        <!--<webwork xml:id="webwork-TaC-curvature-5">
-            <pg-code>
-            </pg-code> -->
+      <exercise label="TaC-curvature-5" language="math" component="web">
             <statement>
               <p>
                 Rearrange the blocks to form a valid identity.
@@ -1261,7 +1258,19 @@
               <block order="9" correct="no"><m>\pi</m></block>
               <block order="5" correct="no"><m>\unitnormal(t)</m></block>
             </blocks>
-        <!--</webwork>-->
+      </exercise>
+
+      <exercise label="TaC-curvature-5" component="pdf">
+        <statement>
+          <p>
+            Complete the identity: <m>\unittangentprime(s) = <fillin/>\unitnormal(s)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>\kappa</m>
+          </p>
+        </answer>
       </exercise>
 
       <exercise label="TaC-curvature-6">

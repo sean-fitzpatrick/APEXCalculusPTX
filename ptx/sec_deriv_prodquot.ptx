@@ -913,12 +913,12 @@
             <p>
               What derivative rule is used to extend the Power Rule to include negative integer exponents?
             </p>
-            <p>
+            <p component="web">
               <!-- <var name="$ans" width="80"/> -->
               <fillin width="30" answer="the quotient rule"/>
             </p>
           </statement>
-          <evaluation>
+          <evaluation component="web">
             <evaluate>
 
               <test correct="yes">
