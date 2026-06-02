@@ -556,7 +556,7 @@
         then make the substitution <m>u=x+3</m>,
         followed by the trigonometric substitution of <m>u=\tan(\theta)</m>:
         <md>
-          <mrow>\int \frac1{(x^2+6x+10)^2}\, dx =\int \frac1{\big((x+3)^2+1\big)^2}\, dx\amp = \int \frac1{(u^2+1)^2}\,du.</mrow>
+          <mrow>\int \frac1{(x^2+6x+10)^2}\, dx \amp =\int \frac1{\big((x+3)^2+1\big)^2}\, dx = \int \frac1{(u^2+1)^2}\,du.</mrow>
           <intertext>Now make the substitution <m>u=\tan(\theta)</m>, <m>du=\sec^2(\theta) \, d\theta</m>:</intertext>
           <mrow>\amp =	\int \frac1{(\tan^2(\theta) +1)^2}\sec^2(\theta) \, d\theta</mrow>
           <mrow>\amp = \int\frac 1{(\sec^2(\theta) )^2}\sec^2(\theta) \, d\theta</mrow>
@@ -755,7 +755,7 @@
           <statement>
             <p>
               Trigonometric Substitution works on the same principles as Integration by Substitution,
-              though it can feel <q><fillin answer="backward" width="20"/></q>.
+              though it can feel <fillin answer="backward" width="20"/>.
             </p>
           </statement>
           <evaluation>
@@ -780,7 +780,10 @@
           <statement>
             <p>
               If one uses Trigonometric Substitution on an integrand containing <m><var name="$integrand"/></m>,
-              then one should set <m>x={}</m><var name="$answer" width="20"/>.
+              then one should set <m>x</m> equal to what?
+            </p>
+            <p>
+              <var name="$answer" width="20"/>
             </p>
           </statement>
         </webwork>
@@ -1335,6 +1338,8 @@
         </exercise>
       </exercisegroup>
 
+      <enlarge-page skipsize="2"/>
+      
       <exercisegroup cols="2" xml:id="exset-trig-sub-definite">
         <introduction>
           <p>

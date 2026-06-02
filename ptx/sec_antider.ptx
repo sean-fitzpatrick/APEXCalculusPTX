@@ -378,7 +378,7 @@
       as we learn.
     </p>
 
-    <theorem xml:id="thm_indef_alg" hstretch="360" hskip="60">
+    <theorem xml:id="thm_indef_alg" hstretch="360" hskip="70">
       <title>Derivatives and Antiderivatives</title>
       <statement>
         <p>

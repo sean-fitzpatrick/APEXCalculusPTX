@@ -2875,6 +2875,8 @@
       This leads us to a definition, followed by an example.
     </p>
 
+    <pagebreak-latex/>
+    
     <definition xml:id="def_triple_integral_2" hstretch="360">
       <title>Iterated Integration, (Part II)</title>
       <statement>

@@ -1249,6 +1249,15 @@
       This use of the dot product will be very useful in future sections.
     </p>
 
+    <p>
+      Now consider <xref ref="fig_dotpprojc"/>
+      where the concept of the orthogonal projection is again illustrated.
+      It is clear that
+      <md number="yes" xml:id="eq_orthogproj">
+        \vec u = \proj uv + \vec z
+      </md>.
+    </p>
+
     <figure xml:id="fig_dotpprojc" vshift="0">
       <caption>Illustrating the orthogonal projection</caption>
       <!-- START figures/fig_dotpprojc.tex -->
@@ -1284,16 +1293,7 @@
       </image>
       <!-- figures/fig_dotpprojc.tex END -->
     </figure>
-
-    <p>
-      Now consider <xref ref="fig_dotpprojc"/>
-      where the concept of the orthogonal projection is again illustrated.
-      It is clear that
-      <md number="yes" xml:id="eq_orthogproj">
-        \vec u = \proj uv + \vec z
-      </md>.
-    </p>
-
+    
     <p>
       As we know what <m>\vec u</m> and <m>\proj uv</m> are,
       we can solve for <m>\vec z</m> and state that

@@ -1039,6 +1039,8 @@
       Let's practice this once more.
     </p>
 
+    <enlarge-page skipsize="2"/>
+
     <example xml:id="ex_ftc12">
       <title>The FTC, Part 1, and the Chain Rule</title>
       <statement>
@@ -1542,7 +1544,7 @@
       we leave it to the reader to see how.
     </p>
 
-    <aside vshift="0">
+    <aside vshift="1">
       <p>
         <xref ref="thm_mvt2"/>
         simply says that there is a rectangle with height <m>f(c)</m> and width <m>b-a</m>,

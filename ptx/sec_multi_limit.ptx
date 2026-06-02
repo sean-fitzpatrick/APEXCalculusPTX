@@ -393,11 +393,6 @@
       then <m>f(x,y)</m> should be within <m>\varepsilon</m> of <m>L</m>.
     </p>
 
-    <p>
-      Computing limits using this definition is rather cumbersome.
-      The following theorem allows us to evaluate limits much more easily.
-    </p>
-
     <figure xml:id="fig_multilimitdef" vshift="2">
       <caption><em>Illustrating the definition of a limit.</em> The open disk in the <m>xy</m>-plane has radius <m>\delta</m>. Let <m>(x,y)</m> be any point in this disk; <m>f(x,y)</m> is within <m>\varepsilon</m> of <m>L</m>.</caption>
 
@@ -499,6 +494,11 @@
       </image>
       <!-- figures/figmultilimit_def_3D.asy END -->
     </figure>
+
+    <p>
+      Computing limits using this definition is rather cumbersome.
+      The following theorem allows us to evaluate limits much more easily.
+    </p>
 
     <theorem xml:id="thm_multi_limit_algebra">
       <title>Basic Limit Properties of Functions of Two Variables</title>
@@ -717,7 +717,8 @@
                 Now apply L'Hospital's Rule twice:
                 <md>
                   <mrow>\amp = \lim_{x\to 0}\frac{\cos\big(-x\sin(x) \big)(-\sin(x) -x\cos(x) )}{1-\cos(x) } \quad \left(0/0\right)</mrow>
-                  <mrow>\amp = \lim_{x\to 0}\frac{-\sin\big(-x\sin(x) \big)(-\sin(x) -x\cos(x) )^2+\cos\big(-x\sin(x) \big)(-2\cos(x) +x\sin(x) )}{\sin(x) }</mrow>
+                  <mrow>\amp = \lim_{x\to 0}\frac{\begin{matrix}-\sin\big(-x\sin(x) \big)(-\sin(x) -x\cos(x) )^2\phantom{\cos(x)}\\ 
+                    \phantom{\cos(x)}+\cos\big(-x\sin(x) \big)(-2\cos(x) +x\sin(x) )\end{matrix}}{\sin(x) }</mrow>
                   <!-- <mrow>\amp = \text{ <q>2/0</q> }  \Rightarrow \text{ the limit does not exist. }</mrow> -->
                 </md>.
                 This last limit is of the form <q><m>2/0</m></q>,

@@ -966,6 +966,8 @@
       Examples will help us understand this definition.
     </p>
 
+    <enlarge-page skipsize="2"/>
+
     <example xml:id="ex_deriv1">
       <title>Finding the derivative of a function</title>
       <statement>

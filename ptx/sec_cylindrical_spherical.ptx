@@ -927,7 +927,8 @@
       The following Key Idea gives conversions to/from our three spatial coordinate systems.
     </p>
 
-    <insight xml:id="idea_convert_coords" hstretch="330" hskip="60">
+    <!-- <insight xml:id="idea_convert_coords" hstretch="330" hskip="60"> -->
+    <insight xml:id="idea_convert_coords" hstretch="330">
       <title>Converting Between Rectangular, Cylindrical and Spherical Coordinates</title>
       <p>
         <ul>
@@ -1037,7 +1038,7 @@
           with the positive <m>z</m>-axis its axis of symmetry, with point at the origin.
         </p>
 
-        <figure xml:id="fig_spherical1" vshift="1">
+        <figure xml:id="fig_spherical1" vshift="-1">
           <caption>Graphing the canonical surfaces in spherical coordinates from <xref ref="ex_spherical1"/></caption>
           <image width="47%">
             <shortdescription>A three-dimensional plot showing three surfaces, each of which is obtained by fixing a value of one of the three spherical coordinates.</shortdescription>
@@ -1197,7 +1198,7 @@
       </md>.
     </p>
 
-    <figure xml:id="fig_sphericalwedge" vshift="-2">
+    <figure xml:id="fig_sphericalwedge" vshift="-3">
       <caption>Approximating the volume of a standard region in space using spherical coordinates</caption>
       <image width="47%">
         <shortdescription>A schematic diagram illustrating how the spherical volume element is computed.</shortdescription>
@@ -1412,7 +1413,7 @@
       Again, this development of <m>dV</m> should sound reasonable,
       and the following theorem states it is the appropriate manner by which triple integrals are to be evaluated in spherical coordinates.
     </p>
-    <aside vshift="-6">
+    <aside vshift="-7">
       <p>
         It is generally most intuitive to evaluate the triple integral in <xref ref="thm_triple_int_spherical"/>
         by integrating with respect to <m>\rho</m> first;

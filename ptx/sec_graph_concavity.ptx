@@ -995,11 +995,9 @@
           The sales of a certain product over a three-year span are modeled by <m>S(t)= t^4-8t^2+20</m>,
           where <m>t</m> is the time in years,
           shown in <xref ref="fig_conc3"/>.
-          Over the first two years, sales are decreasing.
-          Find the point at which sales are decreasing at their greatest rate.
         </p>
-        <pagebreak-latex/>
-        <figure xml:id="fig_conc3" vshift="1.5">
+
+        <figure xml:id="fig_conc3" vshift="2">
           <caption>A graph of <m>S(t)</m> in <xref ref="ex_conc3"/>, modeling the sale of a product over time</caption>
           <!-- START figures/fig_conc3.tex -->
           <image width="47%">
@@ -1029,6 +1027,12 @@
           </image>
           <!-- figures/fig_conc3.tex END -->
         </figure>
+
+        <p>
+          Over the first two years, sales are decreasing.
+          Find the point at which sales are decreasing at their greatest rate.
+        </p>
+        <!-- <pagebreak-latex/> -->
       </statement>
       <solution>
         <p>
@@ -1061,7 +1065,7 @@
           so the decline in sales is <q>leveling off.</q>
         </p>
 
-        <figure xml:id="fig_conc3b" vshift="2.5">
+        <figure xml:id="fig_conc3b" vshift="3">
           <caption>A graph of <m>S(t)</m> in <xref ref="ex_conc3"/>, along with <m>S'(t)</m></caption>
           <!-- START figures/fig_conc3b.tex -->
           <image width="47%">
@@ -1156,7 +1160,7 @@
       See <xref ref="fig_concavity6"/> for a visualization of this.
     </p>
 
-    <figure xml:id="fig_concavity6" vshift="-4">
+    <figure xml:id="fig_concavity6" vshift="-4.5">
       <caption>Demonstrating the fact that relative maxima occur when the graph is concave down and relative minima occur when the graph is concave up</caption>
       <!-- START figures/fig_concavity6.tex -->
       <image width="47%">

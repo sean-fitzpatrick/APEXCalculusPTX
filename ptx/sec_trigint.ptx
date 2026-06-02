@@ -253,9 +253,8 @@
       The powerful program <em>Mathematica</em><trademark/> integrates
       <m>\int \sin^5(x) \cos^9(x) \, dx</m> as
       <md>
-        f(x)=-\frac{45 \cos(2 x)}{16384}-\frac{5 \cos(4 x)}{8192}+\frac{19 \cos(6
-        x)}{49152}+\frac{\cos(8 x)}{4096}-\frac{\cos(10 x)}{81920}-\frac{\cos(12
-        x)}{24576}-\frac{\cos(14 x)}{114688}
+        <mrow>f(x) =\amp -\frac{45 \cos(2 x)}{16384}-\frac{5 \cos(4 x)}{8192}+\frac{19 \cos(6x)}{49152}</mrow>
+        <mrow>\amp+\frac{\cos(8 x)}{4096}-\frac{\cos(10 x)}{81920}-\frac{\cos(12x)}{24576}-\frac{\cos(14 x)}{114688}</mrow>
       </md>,
       which clearly has a different form than our answer in
       <xref ref="ex_trigint2"/>, which is
@@ -592,7 +591,7 @@
       This strategy is outlined in the following Key Idea.
     </p>
 
-    <insight xml:id="idea_trig_int_2" hstretch="330">
+    <insight xml:id="idea_trig_int_2" hstretch="310">
       <title>Integrals Involving Powers of Tangent and Secant</title>
       <p>
         Consider <m>\ds\int\tan^m(x) \sec^n(x) \, dx</m>,

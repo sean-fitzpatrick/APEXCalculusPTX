@@ -986,61 +986,61 @@
             </row>
             <row>
               <cell><m>\overline{x_1}</m></cell>
-              <cell><m>-17\pi/80</m></cell>
+              <cell><m>-\frac{17\pi}{80}</m></cell>
               <cell><m>-0.6676</m></cell>
               <cell><m>-0.2932</m></cell>
             </row>
             <row>
               <cell><m>\overline{x_2}</m></cell>
-              <cell><m>-11 \pi/80</m></cell>
+              <cell><m>-\frac{11 \pi}{80}</m></cell>
               <cell><m>-0.4320</m></cell>
               <cell><m>-0.0805</m></cell>
             </row>
             <row>
               <cell><m>\overline{x_3}</m></cell>
-              <cell><m>-5{\pi }/{80}</m></cell>
+              <cell><m>-\frac{5\pi }{80}</m></cell>
               <cell><m>-0.1963</m></cell>
               <cell><m>-0.0076</m></cell>
             </row>
             <row>
               <cell><m>\overline{x_4}</m></cell>
-              <cell><m>1{\pi }/{80}</m></cell>
+              <cell><m>\frac{\pi }{80}</m></cell>
               <cell><m>-0.0393</m></cell>
               <cell><m>0.0001</m></cell>
             </row>
             <row>
               <cell><m>\overline{x_5}</m></cell>
-              <cell><m>7{\pi }/{80}</m></cell>
+              <cell><m>\frac{7\pi }{80}</m></cell>
               <cell><m>0.2749</m></cell>
               <cell><m>0.0208</m></cell>
             </row>
             <row>
               <cell><m>\overline{x_6}</m></cell>
-              <cell><m>{13\pi }/{80}</m></cell>
+              <cell><m>\frac{13\pi }{80}</m></cell>
               <cell><m>0.5105</m></cell>
               <cell><m>0.1327</m></cell>
             </row>
             <row>
               <cell><m>\overline{x_7}</m></cell>
-              <cell><m>{19\pi }/{80}</m></cell>
+              <cell><m>\frac{19\pi}{80}</m></cell>
               <cell><m>0.7461</m></cell>
               <cell><m>0.4035</m></cell>
             </row>
             <row>
               <cell><m>\overline{x_8}</m></cell>
-              <cell><m>{25 \pi }/{80}</m></cell>
+              <cell><m>\frac{25 \pi}{80}</m></cell>
               <cell><m>0.9817</m></cell>
               <cell><m>0.8112</m></cell>
             </row>
             <row>
               <cell><m>\overline{x_9}</m></cell>
-              <cell><m>{31 \pi }/{80}</m></cell>
+              <cell><m>\frac{31 \pi}{80}</m></cell>
               <cell><m>1.2174</m></cell>
               <cell><m>0.9729</m></cell>
             </row>
             <row>
               <cell><m>\overline{x_{10}}</m></cell>
-              <cell><m>{37 \pi }/{80}</m></cell>
+              <cell><m>\frac{37 \pi}{80}</m></cell>
               <cell><m>1.4530</m></cell>
               <cell><m>0.0740</m></cell>
             </row>
