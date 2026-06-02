@@ -150,7 +150,7 @@
       </statement>
     </theorem>
 
-    <exercise label="APEX-PROTEUS-substitution-1-v1">
+    <exercise label="APEX-PROTEUS-substitution-1-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -314,7 +314,7 @@
       <video youtube="-6CFSvtMCDU" label="vid_int_sub_examples_1"/>
     </figure>
 
-    <exercise label="APEX-PROTEUS-substitution-2-v1">
+    <exercise label="APEX-PROTEUS-substitution-2-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       
       <statement>
@@ -1149,7 +1149,7 @@
       </statement>
     </theorem>
 
-    <exercise label="APEX-PROTEUS-substitution-3-v1">
+    <exercise label="APEX-PROTEUS-substitution-3-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -1483,12 +1483,12 @@
             <p>
               Substitution <q>undoes</q> what derivative rule?
             </p>
-            <p>
+            <p componet="web">
               <!-- <var name="'the Chain Rule'" width="40"/> -->
                <fillin width="30" answer="the chain rule"/>
             </p>
           </statement>
-          <evaluation>
+          <evaluation component="web">
             <evaluate>
 
               <test correct="yes">

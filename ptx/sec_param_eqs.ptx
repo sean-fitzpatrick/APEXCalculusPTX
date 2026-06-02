@@ -733,7 +733,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-param-eqs-5-v1">
+    <exercise label="APEX-PROTEUS-param-eqs-5-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -1224,7 +1224,7 @@
       </solution>
     </exercise>
 
-    <exercise label="APEX-PROTEUS-param-eqs-4-v1">
+    <exercise label="APEX-PROTEUS-param-eqs-4-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
