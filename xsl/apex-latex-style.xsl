@@ -59,7 +59,7 @@
 </xsl:template>
 
 <xsl:template match="insight" mode="tcb-style">
-    <xsl:text>before upper app={\setparstyle}, fonttitle=\normalfont\bfseries, colbacktitle=red!60!black!20, colframe=red!30!black!50, colback=white!95!red, coltitle=black, titlerule=-0.3pt,</xsl:text>
+    <xsl:text>before upper app={\setparstyle}, fonttitle=\normalfont\bfseries, before skip = \baselineskip, colbacktitle=red!60!black!20, colframe=red!30!black!50, colback=white!95!red, coltitle=black, titlerule=-0.3pt,</xsl:text>
 </xsl:template>
 
 <xsl:template match="&DEFINITION-LIKE;" mode="tcb-style">
