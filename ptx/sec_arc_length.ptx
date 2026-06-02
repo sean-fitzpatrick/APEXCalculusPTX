@@ -331,7 +331,7 @@
           </md>.
         </p>
 
-        <figure xml:id="fig_arc1" vshift="-1">
+        <figure xml:id="fig_arc1" vshift="1">
           <caption>A graph of <m>f(x) = x^{3/2}</m> from <xref ref="ex_arc1"/></caption>
           <!-- START figures/fig_arc1.tex -->
           <image width="47%">
@@ -397,7 +397,7 @@
           </md>.
         </p>
 
-        <figure xml:id="fig_arc2" vshift="-1">
+        <figure xml:id="fig_arc2" vshift="2">
           <caption>A graph of <m>f(x) =\frac18x^2-\ln(x)</m> from <xref ref="ex_arc2"/></caption>
           <!-- START figures/fig_arc2.tex -->
           <image width="47%">

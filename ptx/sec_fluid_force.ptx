@@ -552,7 +552,7 @@
               Thus the length function is <m>\ell(y) = 1/2y-(-1/2y) = y</m>.
             </p>
 
-            <figure xml:id="fig_fluid2c" vshift="0">
+            <figure xml:id="fig_fluid2c" vshift="-0.5">
               <caption>Sketching the triangular plate in <xref ref="ex_fluid2"/> with the convention that the base of the triangle is at <m>(0,0)</m></caption>
           <!-- START figures/fig_fluid2c.tex -->
               <image width="47%">

@@ -146,7 +146,7 @@
     the sum of the series.
   </p>
 
-  <figure xml:id="fig_alt_series_converge_a" vshift="0">
+  <figure xml:id="fig_alt_series_converge_a" vshift="-1">
     <caption>Illustrating convergence with the Alternating Series Test</caption>
   <!-- START figures/fig_alt_series_converge.tex -->
     <image width="47%">

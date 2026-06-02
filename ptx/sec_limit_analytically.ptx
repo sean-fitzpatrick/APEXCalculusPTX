@@ -667,7 +667,7 @@
         Later we will show that we can also consider <m>\theta \leq 0</m>.)
       </p>
 
-      <figure xml:id="fig_squeeze_sinx" vshift="-5.5">
+      <figure xml:id="fig_squeeze_sinx" vshift="-5.75">
         <caption>The unit circle and related triangles</caption>
         <!-- START figures/fig_squeeze1.tex -->
         <image width="47%">

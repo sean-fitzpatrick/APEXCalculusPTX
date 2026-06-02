@@ -534,7 +534,7 @@
         </md>.
       </p>
 
-      <figure xml:id="fig_vect2" vshift="-2">
+      <figure xml:id="fig_vect2" vshift="0">
         <caption>Graphing the sum of vectors in <xref ref="ex_vect2"/></caption>
         <!-- START figures/fig_vect2.tex -->
         <image width="47%">
@@ -616,7 +616,7 @@
         <idx><h>vectors</h><h>zero vector</h></idx>
   </p>
 
-  <figure xml:id="fig_vect2b" vshift="0">
+  <figure xml:id="fig_vect2b" vshift="-1">
     <caption>Illustrating how to add vectors using the Head to Tail Rule and Parallelogram Law</caption>
     <!-- START figures/fig_vect2b.tex -->
     <image width="47%">
@@ -716,7 +716,7 @@
         </md>.
       </p>
 
-      <figure xml:id="fig_vect4" vshift="4">
+      <figure xml:id="fig_vect4" vshift="2">
         <caption>Illustrating how to subtract vectors graphically</caption>
         <!-- START figures/fig_vect4.tex -->
         <image width="47%">
@@ -808,7 +808,7 @@
               </md>.
             </p>
 
-            <figure xml:id="fig_vect3" vshift="-1">
+            <figure xml:id="fig_vect3" vshift="0">
               <caption>Graphing vectors <m>\vec v</m> and <m>2\vec v</m> in <xref ref="ex_vect3"/></caption>
             <!-- START figures/fig_vect3.tex -->
               <image width="47%">
@@ -1196,7 +1196,7 @@
     <m>\vec v_2</m> are parallel if there is a scalar <m>c\neq 0</m> such that <m>\vec v_1 = c\vec v_2</m>
     (see marginal note).
   </p>
-  <aside xml:id="aside-def-orthogonal" vshift="0">
+  <aside xml:id="aside-def-orthogonal" vshift="-1">
     <title>Direction and the zero vector</title>
 
     <p>

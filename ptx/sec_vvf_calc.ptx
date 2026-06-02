@@ -700,7 +700,7 @@
           Thus <m>\vrp(-1) = \la 1,-2,3\ra</m>.
         </p>
 
-        <figure xml:id="fig_vvfderiv1" vshift="1">
+        <figure xml:id="fig_vvfderiv1" vshift="-1">
           <caption>Graphing a curve in space with its tangent line</caption>
 
           <!-- START figures/figvvfderiv1_3D.asy -->

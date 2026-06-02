@@ -1536,7 +1536,7 @@
             This is enough to make a good sketch.
           </p>
 
-          <figure xml:id="fig_conic5" vshift="-2.5">
+          <figure xml:id="fig_conic5" vshift="0">
             <caption>Graphing the hyperbola in <xref ref="ex_conic5"/></caption>
             <!-- START figures/fig_conic5.tex -->
             <image width="47%">
@@ -1623,7 +1623,7 @@
             </md>
           </p>
 
-          <figure xml:id="fig_conic6" vshift="-6">
+          <figure xml:id="fig_conic6" vshift="0">
             <caption>Graphing the hyperbola in <xref ref="ex_conic6"/></caption>
             <!-- START figures/fig_conic6.tex -->
             <image width="47%">

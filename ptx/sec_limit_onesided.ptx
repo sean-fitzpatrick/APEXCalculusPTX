@@ -694,7 +694,7 @@
         </ol>
       </p>
 
-      <figure xml:id="fig_onesidedc" vshift="1">
+      <figure xml:id="fig_onesidedc" vshift="1.1">
         <caption>Graphing <m>f</m> in <xref ref="ex_onesidec"/></caption>
         <!-- START figures/fig_one_sidedlimit3.tex -->
         <image width="47%">
@@ -770,7 +770,7 @@
         </ol>
       </p>
 
-      <figure xml:id="fig_onesidedd" vshift="2">
+      <figure xml:id="fig_onesidedd" vshift="1.5">
         <caption>Graphing <m>f</m> in <xref ref="ex_onesided"/></caption>
         <!-- START figures/fig_one_sidedlimit4.tex -->
         <image width="47%">

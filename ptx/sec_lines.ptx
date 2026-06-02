@@ -596,7 +596,7 @@
 
         <pagebreak-latex component="novideo"/>
         
-        <figure xml:id="fig_lines2" vshift="-1">
+        <figure xml:id="fig_lines2" vshift="-3">
           <caption>Sketching the lines from <xref ref="ex_lines2"/></caption>
 
           <!-- START figures/figlines2_3D.asy -->

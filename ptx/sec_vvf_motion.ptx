@@ -1141,7 +1141,7 @@
                 We can compute average speed by dividing: <m>12.88/4 = 3.22\,\text{m/s}</m>.
               </p>
 
-              <figure xml:id="fig_motion6" vshift="-4">
+              <figure xml:id="fig_motion6" vshift="-1">
                 <caption>The path of the particle in <xref ref="ex_motion6"/></caption>
 
               <!-- START figures/figmotion6_3D.asy -->

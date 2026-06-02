@@ -337,7 +337,7 @@
     This leads to a definition.
   </p>
 
-  <aside xml:id="note_doubleint" vshift="-1.5">
+  <aside xml:id="note_doubleint" vshift="-2.5">
     <title>Double integrals as limits of double sums</title>
 
     <p>
@@ -463,7 +463,7 @@
     the bounds depend on the value of <m>x</m>.
   </p>
 
-  <figure xml:id="fig_double_intro3" vshift="1.5">
+  <figure xml:id="fig_double_intro3" vshift="2">
     <caption>Finding volume under a surface by sweeping out a cross-sectional area</caption>
 
     <!-- START figures/figdouble_intro3_3D.asy -->
@@ -1027,7 +1027,7 @@
         Evaluate the double integral <m>\iint_Rf(x,y)\, dA</m>.
       </p>
 
-      <figure xml:id="fig_double3" vshift="1">
+      <figure xml:id="fig_double3" vshift="0">
         <caption>Finding the signed volume under a surface in <xref ref="ex_double3"/></caption>
 
         <!-- START figures/figdouble3_3D.asy -->
@@ -1439,7 +1439,7 @@
         shows the surface over <m>R</m>.
       </p>
 
-      <figure xml:id="fig_double6b" vshift="6">
+      <figure xml:id="fig_double6b" vshift="2">
         <caption>Showing the surface <m>z=f(x,y)</m> defined in <xref ref="ex_double6"/> over its region <m>R</m></caption>
 
         <!-- START figures/figdouble6b_3D.asy -->

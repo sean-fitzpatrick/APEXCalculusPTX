@@ -546,7 +546,7 @@
                 </md>.
                 This is illustrated in <xref ref="fig_series2a"/>.
               </p>
-              <figure xml:id="fig_series2a" vshift="12">
+              <figure xml:id="fig_series2a" vshift="7">
                 <caption>Scatter plots for the series in <xref ref="item_ex_ser2_1"/></caption>
             <!-- START figures/fig_series2a.tex -->
                 <image width="47%">
@@ -608,7 +608,7 @@
                 The partial sums of this series are plotted in <xref ref="fig_series2b"/>.
                 Note how the partial sums are not purely increasing as some of the terms of the sequence <m>\{(-1/2)^n\}</m> are negative.
               </p>
-              <figure xml:id="fig_series2b" vshift="3.5">
+              <figure xml:id="fig_series2b" vshift="4.5">
                 <caption>Scatter plots for the series in <xref ref="item_ex_ser2_2"/></caption>
           <!-- START figures/fig_series2b.tex -->
                 <image width="47%">
@@ -670,7 +670,7 @@
                 to diverge.)
                 This is illustrated in <xref ref="fig_series2c"/>.
               </p>
-              <figure xml:id="fig_series2c" vshift="0">
+              <figure xml:id="fig_series2c" vshift="1">
                 <caption>Scatter plots for the series in <xref ref="item_ex_ser2_3"/></caption>
           <!-- START figures/fig_series2c.tex -->
                 <image width="47%">
@@ -724,6 +724,8 @@
       </solution>
     </example>
   </subsection>
+
+  <pagebreak-latex/>
 
   <subsection>
     <title><m>p</m>-Series</title>
@@ -912,7 +914,7 @@
       </solution>
     </example>
 
-        <exercise label="APEX-PROTEUS-series-3-v1">
+        <exercise label="APEX-PROTEUS-series-3-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       
       <statement>

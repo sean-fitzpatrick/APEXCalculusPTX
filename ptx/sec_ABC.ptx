@@ -245,7 +245,7 @@
         as shown in <xref ref="fig_abc1"/>.
       </p>
 
-      <figure xml:id="fig_abc1" vshift="3">
+      <figure xml:id="fig_abc1" vshift="2">
         <caption>Graphing an enclosed region in <xref ref="ex_abc1"/></caption>
         <!-- START figures/fig_abc1.tex -->
         <image width="47%">
@@ -403,7 +403,7 @@
         <m>y=-(x-1)^2+3</m> and <m>y=2</m>,
         as shown in <xref ref="fig_abc3"/>.
       </p>
-      <figure xml:id="fig_abc3" vshift="0">
+      <figure xml:id="fig_abc3" vshift="-1">
         <caption>Graphing a region for <xref ref="ex_abc3"/></caption>
         <!-- START figures/fig_abc3.tex -->
         <image width="47%">

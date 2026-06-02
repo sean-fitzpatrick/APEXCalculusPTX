@@ -1383,6 +1383,7 @@
     <p>
       Let's practice Euler's Method using a few concrete examples.
     </p>
+
     <example xml:id="ex_euler1">
       <title>Using Euler's Method 1</title>
       <statement>
@@ -1407,13 +1408,9 @@
           </md>.
         </p>
         <p>
-          Using Euler's method, we find the approximate <m>y(2) \approx -0.75</m>.
+          Using Euler's method, we find the approximation <m>y(2) \approx -0.75</m>.
         </p>
-        <p>
-          To help visualize the Euler's method approximation, these three points
-          (connected by line segments)
-          are plotted along with the analytical solution to the initial value problem in <xref ref="fig_20_01_euler1"/>.
-        </p>
+
         <figure xml:id="fig_20_01_euler1" vshift="2">
           <caption>Euler's Method approximation to <m>\yp = x + y</m> with <m>y(1) = -1</m> from <xref ref="ex_euler1"/>,
           along with the analytical solution to the initial value problem</caption>
@@ -1452,6 +1449,12 @@
             </latex-image>
           </image>
         </figure>
+
+        <p>
+          To help visualize the Euler's method approximation, these three points
+          (connected by line segments)
+          are plotted along with the analytical solution to the initial value problem in <xref ref="fig_20_01_euler1"/>.
+        </p>
       </solution>
     </example>
 
@@ -1498,7 +1501,7 @@
           along with the points from <xref ref="ex_euler1"/> and the analytic solution,
           are plotted in <xref ref="fig_20_01_euler2"/>.
         </p>
-        <figure xml:id="fig_20_01_euler2" vshift="0">
+        <figure xml:id="fig_20_01_euler2" vshift="3">
           <caption>Euler's Method approximations to <m>\yp = x + y</m> with <m>y(1) = -1</m> from <xref ref="ex_euler1" text="global">Examples</xref>
             and <xref ref="ex_euler2" text="global"/>, along with the analytical solution</caption>
           <image width="47%">
@@ -1642,7 +1645,7 @@
           are plotted in <xref ref="fig_20_01_euler3"/>.
           Notice how well they seem to match the true solution.
         </p>
-        <figure xml:id="fig_20_01_euler3" vshift="2">
+        <figure xml:id="fig_20_01_euler3" vshift="3">
           <caption>Euler's Method approximation to <m>\yp = y(1-y)</m> with <m>y(0) = 0.25</m> from <xref ref="ex_euler3"/>,
           along with the analytical solution</caption>
           <image width="47%">

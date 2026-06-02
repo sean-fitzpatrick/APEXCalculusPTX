@@ -357,7 +357,7 @@
           we consider the graph of <m>f</m> in <xref ref="fig_multi_extreme3"/>.
         </p>
 
-        <figure xml:id="fig_multi_extreme3" vshift="-2">
+        <figure xml:id="fig_multi_extreme3" vshift="1">
           <caption>The surface in <xref ref="ex_multi_extreme3"/> with both critical points marked</caption>
 
           <!-- START figures/figmulti_extreme3_3D.asy -->

@@ -370,7 +370,7 @@
                 any line that passes through the center of a circle intersects the circle at right angles.
               </p>
 
-              <figure xml:id="fig_parcalc2" vshift="-1">
+              <figure xml:id="fig_parcalc2" vshift="1">
                 <caption>Illustrating how a circle's normal lines pass through its center</caption>
             <!-- START figures/fig_parcalc2.tex -->
                 <image width="47%">
@@ -428,7 +428,7 @@
           <m>y=\sin^3(t)</m> at <m>t=0</m>,
           shown in <xref ref="fig_parcalc3"/>.
         </p>
-        <figure xml:id="fig_parcalc3" vshift="-10">
+        <figure xml:id="fig_parcalc3" vshift="-5">
           <caption>A graph of an astroid</caption>
           <!-- START figures/fig_planecurve1.tex -->
           <image width="47%">

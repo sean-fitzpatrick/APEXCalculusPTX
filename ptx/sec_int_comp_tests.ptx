@@ -275,7 +275,7 @@
           We can still use the integral test since a finite number of terms will not affect convergence of the series.
         </p>
 
-        <figure xml:id="fig_itest1" vshift="-1">
+        <figure xml:id="fig_itest1" vshift="-2">
           <caption>Plotting the sequence and series in <xref ref="ex_itest1"/></caption>
           <!-- START figures/fig_itest1.tex -->
           <image width="47%">
@@ -1675,88 +1675,83 @@
         </exercise>
       </exercisegroup>
 
-      <exercise label="ex-int-comp-test-multi1">
-        <!--<webwork xml:id="webwork-ex-int-comp-test-multi1">
-            <pg-code>
-            </pg-code>-->
-            <introduction>
-              <p>
-                Given that <m>\ds \infser a_n</m> converges,
-                state which of the following series converges,
-                may converge, or does not converge.
-              </p>
-            </introduction>
+      <exercisegroup cols="2" xml:id="ex-int-comp-test-multi1">
+        <introduction>
+          <p>
+            Given that <m>\ds \infser a_n</m> converges,
+            state which of the following series converges,
+            may converge, or does not converge.
+          </p>
+        </introduction>
 
-            <task label="ex-int-comp-test-multi1a">
-              <statement>
-                <p>
-                  <m>\ds \infser \frac{a_n}n</m>
-                </p>
-              </statement>
-              <solution>
-                <p>
-                  Converges; use Direct Comparison Test as <m>\frac{a_n}{n}\lt n</m>.
-                </p>
-              </solution>
-            </task>
+        <exercise label="ex-int-comp-test-multi1a">
+          <statement>
+            <p>
+              <m>\ds \infser \frac{a_n}n</m>
+            </p>
+          </statement>
+          <solution>
+            <p>
+              Converges; use Direct Comparison Test as <m>\frac{a_n}{n}\lt n</m>.
+            </p>
+          </solution>
+        </exercise>
 
-            <task xml:id="task-series-intcomp1" label="ex-int-comp-test-multi1b">
-              <statement>
-                <p>
-                  <m>\ds \infser a_n a_{n+1}</m>
-                </p>
-              </statement>
-              <solution>
-                <p>
-                  Converges; since original series converges,
-                  we know <m>\lim_{n\to\infty}a_n = 0</m>.
-                  Thus for large <m>n</m>, <m>a_na_{n+1} \lt a_n</m>.
-                </p>
-              </solution>
-            </task>
+        <exercise xml:id="task-series-intcomp1" label="ex-int-comp-test-multi1b">
+          <statement>
+            <p>
+              <m>\ds \infser a_n a_{n+1}</m>
+            </p>
+          </statement>
+          <solution>
+            <p>
+              Converges; since original series converges,
+              we know <m>\lim_{n\to\infty}a_n = 0</m>.
+              Thus for large <m>n</m>, <m>a_na_{n+1} \lt a_n</m>.
+            </p>
+          </solution>
+        </exercise>
 
-            <task label="ex-int-comp-test-multi1c">
-              <statement>
-                <p>
-                  <m>\ds \infser (a_n)^2</m>
-                </p>
-              </statement>
-              <solution>
-                <p>
-                  Converges; similar logic to  so <m>(a_n)^2\lt a_n</m>.
-                </p>
-              </solution>
-            </task>
+        <exercise label="ex-int-comp-test-multi1c">
+          <statement>
+            <p>
+              <m>\ds \infser (a_n)^2</m>
+            </p>
+          </statement>
+          <solution>
+            <p>
+              Converges; similar logic to  so <m>(a_n)^2\lt a_n</m>.
+            </p>
+          </solution>
+        </exercise>
 
-            <task label="ex-int-comp-test-multi1d">
-              <statement>
-                <p>
-                  <m>\ds \infser na_n</m>
-                </p>
-              </statement>
-              <solution>
-                <p>
-                  May converge;
-                  certainly <m>na_n  \gt  a_n</m> but that does not mean it does not converge.
-                </p>
-              </solution>
-            </task>
+        <exercise label="ex-int-comp-test-multi1d">
+          <statement>
+            <p>
+              <m>\ds \infser na_n</m>
+            </p>
+          </statement>
+          <solution>
+            <p>
+              May converge;
+              certainly <m>na_n  \gt  a_n</m> but that does not mean it does not converge.
+            </p>
+          </solution>
+        </exercise>
 
-            <task label="ex-int-comp-test-multi1e">
-              <statement>
-                <p>
-                  <m>\ds \infser \frac{1}{a_n}</m>
-                </p>
-              </statement>
-              <solution>
-                <p>
-                  Does not converge, using logic from <xref ref="task-series-intcomp1" text="custom">part</xref> and <m>n^{th}</m> Term Test.
-                </p>
-              </solution>
-            </task>
-
-        <!--</webwork>-->
-      </exercise>
+        <exercise label="ex-int-comp-test-multi1e">
+          <statement>
+            <p>
+              <m>\ds \infser \frac{1}{a_n}</m>
+            </p>
+          </statement>
+          <solution>
+            <p>
+              Does not converge, using logic from <xref ref="task-series-intcomp1" text="custom">part</xref> and <m>n^{th}</m> Term Test.
+            </p>
+          </solution>
+        </exercise>
+      </exercisegroup>
 
       <exercise label="ex-int-comp-test-multi2">
         <introduction>

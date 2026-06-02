@@ -485,7 +485,7 @@
     without using the <m>\varepsilon</m>-<m>\delta</m> definition.
   </p>
 
-  <aside vshift="2.5">
+  <aside vshift="2.75">
     <p>
       At this point, you may well be wondering:
       if using the <m>\varepsilon</m>-<m>\delta</m> definition is so hard,
@@ -594,7 +594,7 @@
         <m>f(x)</m> will be within <m>\varepsilon</m> of <m>4</m>.
       </p>
 
-      <figure xml:id="fig_limit_eover5" vshift="3">
+      <figure xml:id="fig_limit_eover5" vshift="2.75">
         <caption>Choosing <m>\delta = \varepsilon/5</m> in <xref ref="ex_compute_lim2"/></caption>
         <!-- START figures/fig_limit_proof2a.tex -->
         <image width="47%">
@@ -949,7 +949,7 @@
           \delta = \min\{\abs{\ln(1-\varepsilon)}, \ln(1+\varepsilon)\} = \ln(1+\varepsilon)\text{.} \quad \text{(See marginal note.)}
         </md>
       </p>
-      <aside xml:id="aside-limit-def-min-explain" vshift="2">
+      <aside xml:id="aside-limit-def-min-explain" vshift="1">
         <p>
         Recall <m>\ln 1= 0</m> and
         <m>\ln x\lt 0</m> when <m>0\lt x\lt 1</m>.

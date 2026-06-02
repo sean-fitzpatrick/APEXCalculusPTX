@@ -507,7 +507,7 @@
       </solution>
     </example>
 
-    <aside vshift="-1">
+    <aside vshift="1">
       <p>
         Solving for <m>y</m> initially yields the explicit solution <m>\displaystyle y = \frac{AMe^{kt}}{1+Ae^{kt}}</m>.
         Dividing numerator and denominator by <m>Ae^{kt}</m> and defining <m>b = 1/A</m>

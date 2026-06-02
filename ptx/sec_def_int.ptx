@@ -667,7 +667,7 @@
   </p>
 
   <p>
-    <dl>
+    <dl width="narrow">
       <li>
         <title>1.</title>
         <p>
@@ -749,7 +749,7 @@
         <xref ref="fig_defint5"/>.
       </p>
 
-      <figure xml:id="fig_defint5" vshift="-2">
+      <figure xml:id="fig_defint5" vshift="1">
         <caption>A graph of a function in <xref ref="ex_defint5"/></caption>
         <image width="47%">
         <shortdescription>
