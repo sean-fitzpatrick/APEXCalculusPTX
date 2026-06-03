@@ -750,7 +750,7 @@
                       <mrow>f^{(4)}(x) \amp = -\frac{6}{x^4} \amp f^{(4)}(1) \amp = -6</mrow>
                       <mrow> \amp \vdots \amp \amp \vdots</mrow>
                       <mrow>f^{(n)}(x) \amp = \amp f^{(n)}(1) \amp =</mrow>
-                      <mrow>\frac{(-1)^{n+1}(n-1)!}{x^n} \amp \amp (-1)^{n+1}(n-1)! </mrow>
+                      <mrow>(-1)^{n+1}\amp\frac{(n-1)!}{x^n} \amp (-1)^{n+1}\amp(n-1)!</mrow>
                     </md>
                   </p>
                 </sidebyside>
