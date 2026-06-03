@@ -1670,7 +1670,7 @@
           again, this limit is easier to evluate than the limit of the difference quotient.
         </p>
 
-        <figure xml:id="fig_diff_closed1" vshift="0">
+        <figure xml:id="fig_diff_closed1" vshift="2">
           <caption>A graph of <m>y=x^{1/2}</m> and <m>y=x^{3/2}</m> in <xref ref="ex_diff_closed1"/></caption>
           <image width="47%">
             <shortdescription>

@@ -244,7 +244,7 @@
               <mrow>f^{(5)}(x) \amp = \frac{24}{x^5} \amp f^{(5)}(1) \amp = 24</mrow>
               <mrow> \amp \vdots \amp \amp \vdots</mrow>
               <mrow>f^{(n)}(x) \amp = \amp f^{(n)}(1) \amp =</mrow>
-              <mrow>\frac{(-1)^{n+1}(n-1)!}{x^n} \amp \amp (-1)^{n+1}(n-1)! </mrow>
+              <mrow>(-1)^{n+1}\amp\frac{(n-1)!}{x^n} \amp  (-1)^{n+1}\amp (n-1)! </mrow>
             </md>
           </p>
         </sidebyside>
@@ -611,7 +611,7 @@
     which is not particularly good.
   </p>
 
-  <insight xml:id="idea_common_taylor" hstretch="375" component="taypoly-late">
+  <insight xml:id="idea_common_taylor" hstretch="375" hskip="87" component="taypoly-late">
     <title>Important Taylor Series Expansions</title>
     <tabular>
       <row>
