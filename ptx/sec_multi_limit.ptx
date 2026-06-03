@@ -393,7 +393,7 @@
       then <m>f(x,y)</m> should be within <m>\varepsilon</m> of <m>L</m>.
     </p>
 
-    <figure xml:id="fig_multilimitdef" vshift="2">
+    <figure xml:id="fig_multilimitdef" vshift="2.5">
       <caption><em>Illustrating the definition of a limit.</em> The open disk in the <m>xy</m>-plane has radius <m>\delta</m>. Let <m>(x,y)</m> be any point in this disk; <m>f(x,y)</m> is within <m>\varepsilon</m> of <m>L</m>.</caption>
 
       <!-- START figures/figmultilimit_def_3D.asy -->
