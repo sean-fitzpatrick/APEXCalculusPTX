@@ -594,9 +594,21 @@
           (where the points and directions indicated by the equations of each line are identified).
         </p>
 
-        <pagebreak-latex component="novideo"/>
+        <!-- <pagebreak-latex component="novideo"/> -->
         
-        <figure xml:id="fig_lines2" vshift="-3">
+        <p>
+          We next check to see if they intersect
+          (if they do not, they are skew lines).
+          To find if they intersect,
+          we look for <m>t</m> and <m>s</m> values such that the respective <m>x</m>,
+          <m>y</m> and <m>z</m> values are the same.
+          That is, we want <m>s</m> and <m>t</m> such that:
+          <md>
+            \begin{matrix} 1+3t \amp =\amp -2+4s\\ 2-t\amp =\amp 3+s\\ t\amp =\amp 5+2s \end{matrix}
+          </md>.
+        </p>
+
+        <figure xml:id="fig_lines2" vshift="0">
           <caption>Sketching the lines from <xref ref="ex_lines2"/></caption>
 
           <!-- START figures/figlines2_3D.asy -->
@@ -670,18 +682,6 @@
           </image>
           <!-- figures/figlines2_3D.asy END -->
         </figure>
-
-        <p>
-          We next check to see if they intersect
-          (if they do not, they are skew lines).
-          To find if they intersect,
-          we look for <m>t</m> and <m>s</m> values such that the respective <m>x</m>,
-          <m>y</m> and <m>z</m> values are the same.
-          That is, we want <m>s</m> and <m>t</m> such that:
-          <md>
-            \begin{matrix} 1+3t \amp =\amp -2+4s\\ 2-t\amp =\amp 3+s\\ t\amp =\amp 5+2s \end{matrix}
-          </md>.
-        </p>
 
         <p>
           This is a relatively simple system of linear equations.
@@ -891,7 +891,7 @@
       will help establish a general method of computing this distance <m>h</m>.
     </p>
 
-    <figure xml:id="fig_lines_dist1" vshift="3">
+    <figure xml:id="fig_lines_dist1" vshift="1">
       <caption>Establishing the distance from a point to a line</caption>
       <!-- START figures/fig_lines_dist1.tex -->
       <image width="47%">

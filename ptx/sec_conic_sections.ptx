@@ -197,7 +197,7 @@
       </statement>
     </definition>
 
-    <figure xml:id="fig_parabola_def" vshift="-3">
+    <figure xml:id="fig_parabola_def" vshift="-2">
       <caption>Illustrating the definition of the parabola and establishing an algebraic formula</caption>
       <!-- START figures/fig_parabola_def.tex -->
       <image width="47%">
@@ -345,7 +345,7 @@
           </md>.
         </p>
 
-        <figure xml:id="fig_conic1" vshift="6">
+        <figure xml:id="fig_conic1" vshift="2">
           <caption>The parabola described in <xref ref="ex_conic1"/></caption>
           <!-- START figures/fig_conic1.tex -->
           <image width="47%">
@@ -802,7 +802,7 @@
           Find the general equation of the ellipse graphed in <xref ref="fig_conic3"/>.
         </p>
 
-        <figure xml:id="fig_conic3" vshift="-5.5">
+        <figure xml:id="fig_conic3" vshift="-1">
           <caption>The ellipse used in <xref ref="ex_conic3"/></caption>
           <!-- START figures/fig_conic3.tex -->
           <image width="47%">
@@ -894,7 +894,7 @@
           This is all graphed in <xref ref="fig_conic4"/>
         </p>
 
-        <figure xml:id="fig_conic4" vshift="-3">
+        <figure xml:id="fig_conic4" vshift="2">
           <caption>Graphing the ellipse in <xref ref="ex_conic4"/></caption>
           <!-- START figures/fig_conic4.tex -->
           <image width="47%">
@@ -1287,7 +1287,7 @@
       <ie/>, <m>2a</m>.
     </p>
 
-    <figure xml:id="fig_hyperbola_def" vshift="3">
+    <figure xml:id="fig_hyperbola_def" vshift="4">
       <caption>Labeling the significant features of a hyperbola</caption>
       <!-- START figures/fig_hyperbola_def.tex -->
       <image width="47%">
@@ -1398,7 +1398,7 @@
         as shown in <xref ref="fig_hyperbola_asy1"/>.
       </p>
 
-      <figure xml:id="fig_hyperbola_asy1" vshift="4">
+      <figure xml:id="fig_hyperbola_asy1" vshift="5">
         <caption>Graphing the hyperbola <m>\frac{x^2}9-\frac{y^2}1 = 1</m> along with its asymptotes, <m>y=\pm x/3</m></caption>
         <!-- START figures/fig_hyperbola_asy1.tex -->
         <image width="47%">
@@ -1444,7 +1444,7 @@
         The diagonals of the rectangle lie on the asymptotes.
       </p>
 
-      <figure xml:id="fig_hyperbola_asy2" vshift="-0.5">
+      <figure xml:id="fig_hyperbola_asy2" vshift="0.5">
         <caption>Using the asymptotes of a hyperbola as a graphing aid</caption>
         <!-- START figures/fig_hyperbola_asy2.tex -->
         <image width="47%">
@@ -1694,6 +1694,9 @@
 
     <paragraphs>
       <title>Eccentricity</title>
+      <p>
+        The eccentricity of a hyperbola is defined in the same way as an ellipse.
+      </p>
       <definition xml:id="def_hyperbola_eccentricity">
         <title>Eccentricity of a Hyperbola</title>
         <statement>
@@ -1704,6 +1707,20 @@
           </p>
         </statement>
       </definition>
+
+      <p>
+        Note that this is the definition of eccentricity as used for the ellipse.
+        When <m>c</m> is close in value to <m>a</m> (<ie/>, <m>e\approx 1</m>),
+        the hyperbola is very narrow
+        (looking almost like crossed lines).
+        <xref ref="fig_hyperbola_ecc"/>
+        shows hyperbolas centered at the origin with <m>a=1</m>.
+        The graph in <xref ref="fig_hyperbola_ecca"/> has <m>c=1.05</m>,
+        giving an eccentricity of <m>e=1.05</m>, which is close to 1.
+        As <m>c</m> grows larger,
+        the hyperbola widens and begins to look like parallel lines,
+        as shown in <xref ref="fig_hyperbola_eccd"/>.
+      </p>
 
       <figure xml:id="fig_hyperbola_ecc">
         <caption>Understanding the eccentricity of a hyperbola</caption>
@@ -1907,20 +1924,6 @@
           </sidebyside>
         </sbsgroup>
       </figure>
-
-      <p>
-        Note that this is the definition of eccentricity as used for the ellipse.
-        When <m>c</m> is close in value to <m>a</m> (<ie/>, <m>e\approx 1</m>),
-        the hyperbola is very narrow
-        (looking almost like crossed lines).
-        <xref ref="fig_hyperbola_ecc"/>
-        shows hyperbolas centered at the origin with <m>a=1</m>.
-        The graph in <xref ref="fig_hyperbola_ecca"/> has <m>c=1.05</m>,
-        giving an eccentricity of <m>e=1.05</m>, which is close to 1.
-        As <m>c</m> grows larger,
-        the hyperbola widens and begins to look like parallel lines,
-        as shown in <xref ref="fig_hyperbola_eccd"/>.
-      </p>
     </paragraphs>
 
     <paragraphs>
@@ -1992,7 +1995,7 @@
         How can the location be determined in such a situation?
       </p>
 
-      <figure xml:id="fig_hyperbola_reflect" vshift="0">
+      <figure xml:id="fig_hyperbola_reflect" vshift="-1">
         <caption>Illustrating the reflective property of a hyperbola</caption>
         <!-- START figures/fig_hyperbola_reflect.tex -->
         <image width="47%">
@@ -2361,8 +2364,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the equation of the parabola defined by the given information.
+            Find the equation of the parabola defined by the given information.
             Sketch the parabola.
           </p>
         </introduction>
@@ -2508,8 +2510,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            the equation of a parabola and a point on its graph are given.
+            The equation of a parabola and a point on its graph are given.
             Find the focus and directrix of the parabola,
             and verify that the given point is equidistant from the focus and directrix.
           </p>
@@ -2556,7 +2557,7 @@
 
         <introduction>
           <p>
-            In the following exercises, sketch the ellipse defined by the given equation.
+            Sketch the ellipse defined by the given equation.
             Label the center, foci and vertices.
           </p>
         </introduction>
@@ -2594,8 +2595,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the equation of the ellipse shown in the graph.
+            Find the equation of the ellipse shown in the graph.
             Give the location of the foci and the eccentricity of the ellipse.
           </p>
         </introduction>
@@ -2700,8 +2700,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the equation of the ellipse defined by the given information.
+            Find the equation of the ellipse defined by the given information.
             Sketch the elllipse.
           </p>
         </introduction>
@@ -2781,8 +2780,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            write the equation of the given ellipse in standard form.
+            Write the equation of the given ellipse in standard form.
           </p>
         </introduction>
 
@@ -2859,8 +2857,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the equation of the hyperbola shown in the graph.
+            Find the equation of the hyperbola shown in the graph.
           </p>
         </introduction>
 
@@ -3081,8 +3078,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            sketch the hyperbola defined by the given equation.
+            Sketch the hyperbola defined by the given equation.
             Label the center and foci.
           </p>
         </introduction>
@@ -3120,8 +3116,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the equation of the hyperbola defined by the given information.
+            Find the equation of the hyperbola defined by the given information.
             Sketch the hyperbola.
           </p>
         </introduction>
@@ -3201,8 +3196,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            write the equation of the hyperbola in standard form.
+            Write the equation of the hyperbola in standard form.
           </p>
         </introduction>
 

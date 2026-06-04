@@ -1180,8 +1180,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            functions <m>z=f(x,y)</m>, <m>x=g(t)</m> and <m>y=h(t)</m> are given.
+            Functions <m>z=f(x,y)</m>, <m>x=g(t)</m> and <m>y=h(t)</m> are given.
             Find the values of <m>t</m> where <m>\frac{dz}{dt}=0</m>.
             Note: these are the same surfaces/curves as found in <xref first="x12_08_ex_07" last="x12_08_ex_08" text="local">Exercises</xref>.
           </p>

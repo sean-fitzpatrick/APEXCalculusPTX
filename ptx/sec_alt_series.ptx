@@ -994,8 +994,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            an alternating series <m>\ds \sum_{n=i}^\infty a_n</m> is given.
+            An alternating series <m>\ds \sum_{n=i}^\infty a_n</m> is given.
           </p>
 
           <p>
@@ -1588,7 +1587,7 @@
         <introduction>
           <p>
             Let <m>S_n</m> be the <m>n^{ th }</m> partial sum of a series.
-            In the following exercises a convergent alternating series is given and a value of <m>n</m>.
+            A convergent alternating series is given and a value of <m>n</m>.
             Compute <m>S_n</m> and <m>S_{n+1}</m> and use these values to find bounds on the sum of the series.
           </p>
         </introduction>
@@ -1682,8 +1681,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            a convergent alternating series is given along with its sum and a value of <m>\varepsilon</m>.
+            A convergent alternating series is given along with its sum and a value of <m>\varepsilon</m>.
             Use <xref ref="thm_alt_series_approx"/>
             to find <m>n</m> such that the
             <m>n</m>th partial sum of the series is within

@@ -571,7 +571,9 @@
     in this case, <c>0.0000000001</c>.
   </p>
 
-  <paragraphs>
+  <!-- <pagebreak-latex/> -->
+  
+  <paragraphs xml:id="paragraphs-newton-convergence">
     <title>Convergence of Newton's Method</title>
     <p>
       What should one use for the initial guess, <m>x_0</m>?

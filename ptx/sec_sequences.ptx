@@ -153,8 +153,8 @@
               and the values of the terms are plotted on the vertical axis.
               To visualize this sequence, see <xref ref="fig_seq1a"/>.
             </p>
-            <figure xml:id="fig_seq1a" vshift="5">
-              <caption>Plotting the sequence in <xref ref="item_ex_seq1_1"/></caption>
+            <figure xml:id="fig_seq1a" vshift="6">
+              <caption>Plotting the sequence in <xref ref="item_ex_seq1_1"/> of <xref ref="ex_seq1"/></caption>
         <!-- START figures/fig_seq1a.tex -->
               <image width="47%">
                 <shortdescription>Plot of the first four terms of the sequence in part 1 of this example.</shortdescription>
@@ -205,8 +205,8 @@
               consisting of only the values 3 and 5.
               This sequence is plotted in <xref ref="fig_seq1b"/>.
             </p>
-            <figure xml:id="fig_seq1b" vshift="0">
-              <caption>Plotting the sequence in <xref ref="item_ex_seq1_2"/></caption>
+            <figure xml:id="fig_seq1b" vshift="1.25">
+              <caption>Plotting the sequence in <xref ref="item_ex_seq1_2"/> of <xref ref="ex_seq1"/></caption>
         <!-- START figures/fig_seq1b.tex -->
               <image width="47%">
                 <shortdescription>A plot of the first four terms of the sequence in part 2 of this example.</shortdescription>
@@ -262,8 +262,8 @@
               due to the fact that the exponent of <m>-1</m> is a special quadratic.
               This sequence is plotted in <xref ref="fig_seq1c"/>.
             </p>
-            <figure xml:id="fig_seq1c" vshift="-2">
-              <caption>Plotting the sequence in <xref ref="item_ex_seq1_3"/></caption>
+            <figure xml:id="fig_seq1c" vshift="-1">
+              <caption>Plotting the sequence in <xref ref="item_ex_seq1_3"/> of <xref ref="ex_seq1"/></caption>
         <!-- START figures/fig_seq1c.tex -->
               <image width="47%">
                 <shortdescription>A plot of the first four terms of the sequence in part 3 of this example.</shortdescription>
@@ -342,7 +342,7 @@
               <m>\{c_n\}=\{1, 1, 2, 6, 24, 120, 720, \ldots\}</m>
             </p>
           </li>
-          <pagebreak-latex component="novideo"/>
+
           <li>
             <p>
               <m>\{d_n\}=\left\{\frac52, \frac52, \frac{15}8, \frac54,\frac{25}{32},\ldots\right\}</m>
@@ -614,8 +614,8 @@
               ranging from about <m>-73</m> to <m>125</m>,
               but as <m>n</m> grows, the values approach 3.
             </p>
-            <figure xml:id="fig_seq4a" vshift="-3">
-              <caption>Scatter plot for the sequence in <xref ref="item_ex_seq4_1"/></caption>
+            <figure xml:id="fig_seq4a" vshift="0.5">
+              <caption>Scatter plot for the sequence in <xref ref="item_ex_seq4_1"/> of <xref ref="ex_seq4"/></caption>
               <!-- START figures/fig_seq4a.tex -->
               <image width="47%">
                 <shortdescription>A scatter plot showing a representative sample of points from the first sequence in this example.</shortdescription>
@@ -681,8 +681,8 @@
               As the sequence takes on values near 1 and <m>-1</m> infinitely many times,
               we conclude that <m>\lim\limits_{n\to\infty}a_n</m> does not exist.
             </p>
-            <figure xml:id="fig_seq4b" vshift="-3">
-              <caption>Scatter plot for the sequence in <xref ref="item_ex_seq4_2"/></caption>
+            <figure xml:id="fig_seq4b" vshift="0.5">
+              <caption>Scatter plot for the sequence in <xref ref="item_ex_seq4_2"/> of <xref ref="ex_seq4"/></caption>
               <!-- START figures/fig_seq4b.tex -->
               <image width="47%">
                 <shortdescription>A scatter plot showing a representative sample of points from the second sequence in this example.</shortdescription>
@@ -730,22 +730,9 @@
               we invoke the definition of the limit of a sequence.
               By looking at the plot in <xref ref="fig_seq4c"/>,
               we would like to conclude that the sequence converges to <m>L=0</m>.
-              Let <m>\epsilon\gt 0</m> be given.
-              We can find a natural number <m>m</m> such that <m>1/m \lt  \varepsilon</m>.
-              Let <m>n\gt m</m>, and consider <m>\abs{a_n - L}</m>:
-              <md>
-                <mrow>\abs{a_n - L} \amp = \left\lvert\frac{(-1)^n}{n} - 0\right\rvert</mrow>
-                <mrow>\amp = \frac1n</mrow>
-                <mrow>\amp \lt  \frac1m \text{ (since \(n\gt m\)) }</mrow>
-                <mrow>\amp \lt  \varepsilon</mrow>
-              </md>.
-              We have shown that by picking <m>m</m> large enough,
-              we can ensure that <m>a_n</m> is arbitrarily close to our limit,
-              <m>L=0</m>,
-              hence by the definition of the limit of a sequence,
-              we can say <m>\lim\limits_{n\to\infty}a_n = 0</m>.
             </p>
-            <figure xml:id="fig_seq4c" vshift="-5">
+
+            <figure xml:id="fig_seq4c" vshift="-3">
               <caption>Scatter plot for the sequence in <xref ref="item_ex_seq4_3"/></caption>
               <!-- START figures/fig_seq4c.tex -->
               <image width="47%">
@@ -788,6 +775,23 @@
               </image>
               <!-- figures/fig_seq4c.tex END -->
             </figure>
+
+            <p>
+              Let <m>\epsilon\gt 0</m> be given.
+              We can find a natural number <m>m</m> such that <m>1/m \lt  \varepsilon</m>.
+              Let <m>n\gt m</m>, and consider <m>\abs{a_n - L}</m>:
+              <md>
+                <mrow>\abs{a_n - L} \amp = \left\lvert\frac{(-1)^n}{n} - 0\right\rvert</mrow>
+                <mrow>\amp = \frac1n</mrow>
+                <mrow>\amp \lt  \frac1m \text{ (since \(n\gt m\)) }</mrow>
+                <mrow>\amp \lt  \varepsilon</mrow>
+              </md>.
+              We have shown that by picking <m>m</m> large enough,
+              we can ensure that <m>a_n</m> is arbitrarily close to our limit,
+              <m>L=0</m>,
+              hence by the definition of the limit of a sequence,
+              we can say <m>\lim\limits_{n\to\infty}a_n = 0</m>.
+            </p>
           </li>
         </ol>
       </p>
@@ -887,7 +891,6 @@
               Because of the alternating nature of this sequence (<ie/>, every other term is multiplied by <m>-1</m>),
               we cannot simply look at the limit <m>\lim\limits_{x\to\infty} \frac{(-1)^x(x+1)}{x}</m>.
               We can try to apply the techniques of <xref ref="thm_abs_val_seq"/>:
-              <pagebreak-latex component="novideo"/>
               <md>
                 <mrow>\lim_{n\to\infty} \abs{a_n} \amp = \lim_{n\to\infty} \abs{\frac{(-1)^n(n+1)}{n}}</mrow>
                 <mrow>\amp = \lim_{n\to\infty} \frac{n+1}{n}</mrow>
@@ -1904,7 +1907,7 @@
 
         <introduction>
           <p>
-            In the following exercises, give the first five terms of the given sequence.
+            Give the first five terms of the given sequence.
           </p>
         </introduction>
 
@@ -1982,8 +1985,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            determine the <m>n</m>th term of the given sequence.
+            Determine the <m>n</m>th term of the given sequence.
           </p>
         </introduction>
 
@@ -2060,8 +2062,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            use the following information to determine the limit of the given sequences.
+            Use the following information to determine the limit of the given sequences.
           </p>
 
           <p>
@@ -2163,8 +2164,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            determine whether the sequence converges or diverges.
+            Determine whether the sequence converges or diverges.
             If convergent, give the limit of the sequence.
           </p>
         </introduction>
@@ -2379,7 +2379,7 @@
 
         <introduction>
           <p>
-            In the following exercises, determine whether the sequence is bounded,
+            Determine whether the sequence is bounded,
             bounded above, bounded below, or none of the above.
           </p>
         </introduction>
@@ -2491,8 +2491,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            determine whether the sequence is monotonically increasing or decreasing.
+            Determine whether the sequence is monotonically increasing or decreasing.
             If it is not,
             determine if there is an <m>m</m> such that it is monotonic for all <m>n\geq m</m>.
           </p>

@@ -793,8 +793,7 @@
       <exercisegroup cols="2" xml:id="exset-ode-modelling">
         <introduction>
           <p>
-            In the following exercises,
-            use the tools in the section to answer the questions presented.
+            Use the tools in the section to answer the questions presented.
           </p>
         </introduction>
         <exercise label="ex-ode-modelling-proportional">

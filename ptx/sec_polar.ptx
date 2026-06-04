@@ -528,7 +528,7 @@
     </example>
   </subsection>
 
-  <subsection>
+  <subsection xml:id="subsec-polar-graphs">
     <title>Polar Functions and Polar Graphs</title>
     <p>
       Defining a new coordinate system allows us to create a new kind of function,
@@ -814,7 +814,7 @@
       in <xref ref="fig_polar4c"/>.
     </p>
 
-    <figure xml:id="fig_polar4c" vshift="5">
+    <figure xml:id="fig_polar4c" vshift="6">
       <caption>Using  technology to graph a polar function</caption>
       <!-- START figures/fig_polar4c.tex -->
       <image width="47%">
@@ -874,7 +874,7 @@
           we numbered each point in the table and on the graph.
         </p>
 
-        <figure xml:id="fig_polar5table" vshift="0">
+        <figure xml:id="fig_polar5table" vshift="1">
           <caption>Table of points for plotting a polar curve in <xref ref="ex_polar5"/></caption>
           <tabular halign="center">
             <row bottom="minor"><cell>Pt.</cell><cell><m>\theta</m></cell><cell><m>\cos(2\theta)</m></cell></row>
@@ -1626,7 +1626,7 @@
         Symmetric about <m>y</m>-axis: <m>r=a\pm b\sin(\theta)</m>; <m>a,b \gt 0</m>
       </p>
 
-      <pagebreak-latex/>
+      <!-- <pagebreak-latex/> -->
       
       <figure xml:id="fig_polar_roses" hstretch="450">
         <caption>Rose curves</caption>
@@ -2650,7 +2650,7 @@
 
           <introduction>
             <p>
-              In the following exercises, graph the polar function on the given interval.
+              Graph the polar function on the given interval.
             </p>
           </introduction>
 
@@ -3505,8 +3505,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            convert the polar equation to a rectangular equation.
+            Convert the polar equation to a rectangular equation.
           </p>
         </introduction>
 
@@ -3721,8 +3720,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            convert the rectangular equation to a polar equation.
+            Convert the rectangular equation to a polar equation.
           </p>
         </introduction>
 
@@ -3910,8 +3908,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the points of intersection of the polar graphs.
+            Find the points of intersection of the polar graphs.
           </p>
         </introduction>
 

@@ -1781,8 +1781,7 @@
       <exercisegroup cols="2" xml:id="exset-vector-field-sketch">
         <introduction>
           <p>
-            In the following exercises,
-            sketch the given vector field over the rectangle with opposite corners <m>(-2,-2)</m> and <m>(2,2)</m>,
+            Sketch the given vector field over the rectangle with opposite corners <m>(-2,-2)</m> and <m>(2,2)</m>,
             sketching one vector for every point with integer coordinates (<ie/>, at <m>(0,0)</m>,
             <m>(1,2)</m>, etc.).
           </p>
@@ -2127,8 +2126,7 @@
       <exercisegroup cols="2" xml:id="ex-vector-field-div-curl">
         <introduction>
           <p>
-            In the following exercises,
-            find the divergence and curl of the given vector field.
+            Find the divergence and curl of the given vector field.
           </p>
         </introduction>
 

@@ -461,7 +461,7 @@
       </p>
 
       <p>
-        <dl>
+        <ul>
           <li>
             <title><m>F_1(x) = (1-x)^2</m></title>
             <p>
@@ -519,7 +519,7 @@
               </md>.
             </p>
           </li>
-        </dl>
+        </ul>
       </p>
     </solution>
   </example>
@@ -2007,6 +2007,7 @@
           <p>
             Find the equations of tangent and normal lines to the graph of the function at the given point.
             Note: the functions here are the same as in <xref first="exer_02_05_06" last="exer_02_05_09" text="local">Exercises</xref>.
+              <enlarge-page skipsize="2"/>
           </p>
         </introduction>
 
@@ -2129,8 +2130,6 @@
           </webwork>
         </exercise>
       </exercisegroup>
-
-      <enlarge-page skipsize="2"/>
 
       <exercise label="ex-deriv-chain-tangent-5">
         <webwork xml:id="webwork-ex-deriv-chain-tangent-5">

@@ -101,7 +101,7 @@
           we can write <m>D = \{(x,y)|\,\frac{x^2}9+\frac{y^2}4 \leq 1\}</m>.
         </p>
 
-        <figure xml:id="fig_multi2" vshift="-2">
+        <figure xml:id="fig_multi2" vshift="0">
           <caption>Illustrating the domain of <m>f(x,y)</m> in <xref ref="ex_multi2"/></caption>
           <!-- START figures/fig_multi2.tex -->
           <image width="47%">
@@ -1079,8 +1079,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            give the domain and range of the multivariable function.
+            Give the domain and range of the multivariable function.
           </p>
         </introduction>
 
@@ -1262,8 +1261,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            describe in words and sketch the level curves for the function and given <m>c</m> values.
+            Describe in words and sketch the level curves for the function and given <m>c</m> values.
           </p>
         </introduction>
 
@@ -1426,8 +1424,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            give the domain and range of the functions of three variables.
+            Give the domain and range of the functions of three variables.
           </p>
         </introduction>
 
@@ -1525,8 +1522,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            describe the level surfaces of the given functions of three variables.
+            Describe the level surfaces of the given functions of three variables.
           </p>
         </introduction>
 

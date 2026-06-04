@@ -406,6 +406,8 @@
       </statement>
     </theorem>
 
+    <!-- <pagebreak-latex/> -->
+
     <exercise component="proteus" label="APEX-PROTEUS-antider-2-v1">
       <title>PROTEUS EXERCISE</title>
       <statement>
@@ -438,7 +440,7 @@
       </cardsort>
     </exercise>
 
-    <p>
+    <p xml:id="p-antider-break1">
       We highlight a few important points from <xref ref="thm_indef_alg"/>.
     </p>
     <p>

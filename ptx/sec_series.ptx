@@ -725,9 +725,9 @@
     </example>
   </subsection>
 
-  <pagebreak-latex/>
+  <!-- <pagebreak-latex/> -->
 
-  <subsection>
+  <subsection xml:id="subsec-series">
     <title><m>p</m>-Series</title>
     <p>
       Another important type of series is the <em>p-series</em>.
@@ -1891,7 +1891,7 @@
 
         <introduction>
           <p>
-            In the following exercises, a series <m>\ds\infser a_n</m> is given.
+            A series <m>\ds\infser a_n</m> is given.
           </p>
 
           <p>
@@ -2149,8 +2149,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            use <xref ref="thm_series_nth_term"/>
+            Use <xref ref="thm_series_nth_term"/>
             to show the given series diverges.
           </p>
         </introduction>
@@ -2268,8 +2267,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            state whether the given series converges or diverges.
+            State whether the given series converges or diverges.
           </p>
         </introduction>
 
@@ -2454,7 +2452,7 @@
 
         <introduction>
           <p>
-            In the following exercises, a series is given.
+            A series is given.
           </p>
 
           <p>

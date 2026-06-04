@@ -280,7 +280,7 @@
     <p>
       Integrating,
       <md>
-        \ln \mu = \int p(x)\,dx
+        \ln(\mu) = \int p(x)\,dx
       </md>,
       or
       <md>
@@ -776,7 +776,7 @@
       <exercisegroup cols="2" xml:id="exset-ode-linear-general-sol">
         <introduction>
           <p>
-            In the following exercises, Find the general solution to the first order linear differential equation.
+            Find the general solution to the first order linear differential equation.
           </p>
         </introduction>
         <exercise label="ex-ode-linear-general-sol-1">
@@ -879,7 +879,7 @@
       <exercisegroup cols="2" xml:id="exset-ode-linear-particular-sol">
         <introduction>
           <p>
-            In the following exercises, Find the particular solution to the initial value problem.
+            Find the particular solution to the initial value problem.
           </p>
         </introduction>
         <exercise label="ex-ode-linear-particular-sol-1">
@@ -982,8 +982,7 @@
       <exercisegroup cols="2" xml:id="exset-ode-linear-classify">
         <introduction>
           <p>
-            In the following exercises,
-            classify the differential equation as separable,
+            Classify the differential equation as separable,
             first order linear, or both,
             and solve the initial value problem using an appropriate method.
           </p>
@@ -1040,7 +1039,7 @@
       <exercisegroup cols="2" xml:id="exset-ode-linear-slope">
         <introduction>
           <p>
-            In the following exercises, draw a slope field for the differential equation.
+            Draw a slope field for the differential equation.
             Use the slope field to predict the behavior of the solution to the initial value problem for large <m>x</m> values.
             Solve the initial value problem,
             and verify your prediction.

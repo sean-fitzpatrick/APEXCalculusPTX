@@ -1337,8 +1337,6 @@
           </webwork>
         </exercise>
       </exercisegroup>
-
-      <enlarge-page skipsize="2"/>
       
       <exercisegroup cols="2" xml:id="exset-trig-sub-definite">
         <introduction>

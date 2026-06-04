@@ -734,9 +734,10 @@
     intended to be a reference for further work.
   </p>
 
-  <pagebreak-latex/>
+  <!-- <pagebreak-latex/> -->
   
-  <theorem xml:id="thm_deriv_glossary" hstretch="420" hskip="120">
+  <!-- <theorem xml:id="thm_deriv_glossary" hstretch="420" hskip="120"> -->
+  <theorem xml:id="thm_deriv_glossary" hstretch="420">
     <title>Glossary of Derivatives of Elementary Functions</title>
     <statement>
       <p>
@@ -1431,13 +1432,12 @@
           </webwork>
         </exercise>
       </exercisegroup>
-
-      <enlarge-page skipsize="2"/>
       
       <exercisegroup cols="2" xml:id="exset-deriv-inverse-two-ways">
         <introduction>
           <p>
             Compute the derivative of the given function in two ways:
+            <enlarge-page skipsize="2"/>
             <ol cols="2">
               <li>
                 <p>

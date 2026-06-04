@@ -1440,7 +1440,7 @@
     We end this section with a table summarizing the usage of the Washer and Shell Methods.
   </p>
 
-  <pagebreak-latex/>
+  <!-- <pagebreak-latex/> -->
 
   <insight xml:id="idea_shell_and_washer">
     <title>Summary of the Washer and Shell Methods</title>

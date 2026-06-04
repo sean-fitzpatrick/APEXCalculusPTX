@@ -805,7 +805,7 @@
         and <xref ref="thm_continuous_functions" text="global"/> as appropriate.
       </p>
 
-      <figure xml:id="fig_continuous3" vshift="0">
+      <figure xml:id="fig_continuous3" vshift="0.5">
         <caption>A graph of <m>f(x)=\sqrt{x-1}+\sqrt{5-x}</m></caption>
         <!-- START figures/fig_continuous3.tex -->
         <image width="47%">

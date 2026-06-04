@@ -533,7 +533,7 @@
           Find the angle between each pair of vectors.
         </p>
 
-        <pagebreak-latex/>
+        <!-- <pagebreak-latex/> -->
         
         <figure xml:id="fig_dotp3" vshift="-1.5">
           <caption>Vectors used in <xref ref="ex_dotp3"/></caption>
@@ -1814,7 +1814,7 @@
 
         <introduction>
           <p>
-            In the following exercises, find the dot product of the given vectors.
+            Find the dot product of the given vectors.
           </p>
         </introduction>
 
@@ -1976,8 +1976,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the measure of the angle between the two vectors in radians.
+            Find the measure of the angle between the two vectors in radians.
           </p>
         </introduction>
 
@@ -2066,7 +2065,7 @@
 
         <introduction>
           <p>
-            In the following exercises, a vector <m>\vec v</m> is given.
+            A vector <m>\vec v</m> is given.
             Give two vectors that are orthogonal to <m>\vec v</m>.
           </p>
         </introduction>
@@ -2240,7 +2239,7 @@
 
         <introduction>
           <p>
-            In the following exercises, vectors <m>\vec u</m> and <m>\vec v</m> are given.
+            Vectors <m>\vec u</m> and <m>\vec v</m> are given.
             Find <m>\proj uv</m>,
             the orthogonal projection of <m>\vec u</m> onto <m>\vec v</m>,
             and sketch all three vectors with the same initial point.
@@ -2407,7 +2406,7 @@
 
         <introduction>
           <p>
-            In the following exercises, vectors <m>\vec u</m> and <m>\vec v</m> are given.
+            Vectors <m>\vec u</m> and <m>\vec v</m> are given.
             Write <m>\vec u</m> as the sum of two vectors,
             one of which is parallel to <m>\vec v</m>
             (or is zero)
@@ -2473,13 +2472,10 @@
 
               <statement>
                 <p>
-                  Write <m>\vec u = \la 1,2\ra</m> as the sum of two vectors,
-                  one parallel to <m>\vec v = \la -1,3\ra</m>
-                  (or zero)
-                  and the other perpendicular.
+                  <m>\vec u = \la 1,2\ra</m>and <m>\vec v = \la -1,3\ra</m>.
                 </p>
 
-                <p>
+                <p component="web">
                   <m>\vec u=</m><var name="$multians" width="15"/><m>{}+{}</m><var name="$multians" width="15"/>
                 </p>
               </statement>
@@ -2543,13 +2539,10 @@
 
               <statement>
                 <p>
-                  Write <m>\vec u = \la 5,5\ra</m> as the sum of two vectors,
-                  one parallel to <m>\vec v = \la 1,3\ra</m>
-                  (or zero)
-                  and the other perpendicular.
+                  <m>\vec u = \la 5,5\ra</m> and <m>\vec v = \la 1,3\ra</m>.
                 </p>
 
-                <p>
+                <p component="web">
                   <m>\vec u=</m><var name="$multians" width="15"/><m>{}+{}</m><var name="$multians" width="15"/>
                 </p>
               </statement>
@@ -2613,13 +2606,10 @@
 
               <statement>
                 <p>
-                  Write <m>\vec u = \la -3,2\ra</m> as the sum of two vectors,
-                  one parallel to <m>\vec v = \la 1,1\ra</m>
-                  (or zero)
-                  and the other perpendicular.
+                  <m>\vec u = \la -3,2\ra</m> and <m>\vec v = \la 1,1\ra</m>.
                 </p>
 
-                <p>
+                <p component="web">
                   <m>\vec u=</m><var name="$multians" width="15"/><m>{}+{}</m><var name="$multians" width="15"/>
                 </p>
               </statement>
@@ -2683,13 +2673,10 @@
 
               <statement>
                 <p>
-                  Write <m>\vec u = \la -3,2\ra</m> as the sum of two vectors,
-                  one parallel to <m>\vec v = \la 2,3\ra</m>
-                  (or zero)
-                  and the other perpendicular.
+                  <m>\vec u = \la -3,2\ra</m> and <m>\vec v = \la 2,3\ra</m>.
                 </p>
 
-                <p>
+                <p component="web">
                   <m>\vec u=</m><var name="$multians" width="15"/><m>{}+{}</m><var name="$multians" width="15"/>
                 </p>
               </statement>
@@ -2753,13 +2740,10 @@
 
               <statement>
                 <p>
-                  Write <m>\vec u = \la 1,5,1\ra</m> as the sum of two vectors,
-                  one parallel to <m>\vec v = \la 1,2,3\ra</m>
-                  (or zero)
-                  and the other perpendicular.
+                  <m>\vec u = \la 1,5,1\ra</m> and <m>\vec v = \la 1,2,3\ra</m>.
                 </p>
 
-                <p>
+                <p component="web">
                   <m>\vec u=</m><var name="$multians" width="15"/><m>{}+{}</m><var name="$multians" width="15"/>
                 </p>
               </statement>
@@ -2823,13 +2807,10 @@
 
               <statement>
                 <p>
-                  Write <m>\vec u = \la 3,-1,2\ra</m> as the sum of two vectors,
-                  one parallel to <m>\vec v = \la 2,2,1\ra</m>
-                  (or zero)
-                  and the other perpendicular.
+                  <m>\vec u = \la 3,-1,2\ra</m> and <m>\vec v = \la 2,2,1\ra</m>.
                 </p>
 
-                <p>
+                <p component="web">
                   <m>\vec u=</m><var name="$multians" width="15"/><m>{}+{}</m><var name="$multians" width="15"/>
                 </p>
               </statement>

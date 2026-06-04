@@ -522,8 +522,7 @@
       <exercisegroup cols="2" xml:id="exset-ode-separable-determine">
         <introduction>
           <p>
-            In the following exercises,
-            decide whether the differential equation is separable or not separable.
+            Decide whether the differential equation is separable or not separable.
             If the equation is separable, write it in separated form.
           </p>
         </introduction>
@@ -581,8 +580,7 @@
       <exercisegroup cols="2" xml:id="exset-ode-separable-general-sol">
         <introduction>
           <p>
-            In the following exercises,
-            find the general solution to the separable differential equation.
+            Find the general solution to the separable differential equation.
             Be sure to check for missing constant solutions.
           </p>
         </introduction>
@@ -686,8 +684,7 @@
       <exercisegroup cols="2" xml:id="exset-ode-separable-particular-sol">
         <introduction>
           <p>
-            In the following exercises,
-            find the particular solution to the separable initial value problem.
+            Find the particular solution to the separable initial value problem.
           </p>
         </introduction>
         <exercise label="ex-ode-separable-particular-sol-1">

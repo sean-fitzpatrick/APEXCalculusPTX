@@ -1085,7 +1085,7 @@
               This is sketched in <xref ref="fig_vect5"/>.
             </p>
 
-            <figure xml:id="fig_vect5" vshift="-2">
+            <figure xml:id="fig_vect5" vshift="1">
               <caption>Graphing vectors in <xref ref="ex_vect5"/>. All vectors shown have their initial point at the origin</caption>
             <!-- START figures/fig_vect5.tex -->
               <image width="47%">
@@ -1157,7 +1157,7 @@
     <em>parallel vectors</em>.
   </p>
 
-  <pagebreak-latex component="novideo"/>
+  <!-- <pagebreak-latex component="novideo"/> -->
   
   <definition xml:id="def_parallel_vectors">
     <title>Parallel Vectors</title>
@@ -1196,7 +1196,7 @@
     <m>\vec v_2</m> are parallel if there is a scalar <m>c\neq 0</m> such that <m>\vec v_1 = c\vec v_2</m>
     (see marginal note).
   </p>
-  <aside xml:id="aside-def-orthogonal" vshift="-1">
+  <aside xml:id="aside-def-orthogonal" vshift="-1.5">
     <title>Direction and the zero vector</title>
 
     <p>
@@ -1292,7 +1292,7 @@
         Find the force applied to each chain.
       </p>
 
-      <figure xml:id="fig_vect6" vshift="1">
+      <figure xml:id="fig_vect6" vshift="-1">
         <caption>A diagram of a weight hanging from 2 chains in <xref ref="ex_vect6"/></caption>
         <!-- START figures/fig_vect6.tex -->
         <image width="40%">
@@ -1542,7 +1542,7 @@
         How much higher will the weight be?
       </p>
 
-      <figure xml:id="fig_vect8" vshift="0">
+      <figure xml:id="fig_vect8" vshift="-2">
         <caption>A figure of a weight being pushed by the wind in <xref ref="ex_vect8"/></caption>
         <!-- START figures/fig_vect8.tex -->
         <image width="40%">
@@ -1788,7 +1788,7 @@
 
         <introduction>
           <p>
-            In the following exercises, points <m>P</m> and <m>Q</m> are given.
+            Points <m>P</m> and <m>Q</m> are given.
             Write the vector <m>\overrightarrow{PQ}</m> in component form and using the standard unit vectors.
           </p>
         </introduction>
@@ -2085,7 +2085,7 @@
 
         <introduction>
           <p>
-            In the following exercises, sketch <m>\vec u</m>, <m>\vec v</m>,
+            Sketch <m>\vec u</m>, <m>\vec v</m>,
             <m>\vec u+\vec v</m> and <m>\vec u-\vec v</m> on the same axes.
           </p>
         </introduction>
@@ -2468,7 +2468,7 @@
 
         <introduction>
           <p>
-            In the following exercises, find
+            Find
             <m>\norm{\vec u}</m>, <m>\norm{\vec v}</m>,
             <m>\norm{\vec u+\vec v}</m> and <m>\norm{\vec u-\vec v}</m>.
           </p>
@@ -2699,8 +2699,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the unit vector <m>\vec u</m> in the direction of <m>\vec v</m>.
+            Find the unit vector <m>\vec u</m> in the direction of <m>\vec v</m>.
           </p>
         </introduction>
 
@@ -2894,7 +2893,7 @@
             </image>
 
           <p>
-            In the following exercises, the angles <m>\theta</m> and <m>\varphi</m> are given.
+            Angles <m>\theta</m> and <m>\varphi</m> are given.
             Find the magnitude of the force applied to each chain.
           </p>
         </introduction>
@@ -3014,7 +3013,7 @@
             </image>
 
           <p>
-            In the following exercises, a force <m>\vec F_w</m> and length <m>\ell</m> are given.
+            A force <m>\vec F_w</m> and length <m>\ell</m> are given.
             Find the angle <m>\theta</m> and the height the weight is lifted as it moves to the right.
           </p>
         </introduction>

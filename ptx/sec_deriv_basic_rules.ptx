@@ -159,7 +159,7 @@
   </p>
 
   <p xml:id="vidint-deriv_basic_rules_exp_func" component="video">
-    <xref ref="thm_deriv_common"/> states that the natural exponential function has a remarkable propery:
+    <xref ref="thm_deriv_common"/> states that the natural exponential function has a remarkable property:
     it is equal to its own derivative! The video in <xref ref="vid_deriv_basic_rules_exp_func"/> explains why this is the case.
   </p>
 
@@ -303,6 +303,8 @@
     The following theorem helps with the first two of these examples
     (the third is answered in the next section).
   </p>
+
+  <enlarge-page skipsize="2"/>
 
   <theorem xml:id="thm_deriv_prop">
     <title>Properties of the Derivative</title>

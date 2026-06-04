@@ -959,8 +959,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            sketch the vector-valued function on the given interval.
+            Sketch the vector-valued function on the given interval.
           </p>
         </introduction>
 
@@ -1348,8 +1347,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            sketch the vector-valued function on the given interval in <m>\mathbb{R}^3</m>.
+            Sketch the vector-valued function on the given interval in <m>\mathbb{R}^3</m>.
             Technology may be useful in creating the sketch.
           </p>
         </introduction>
@@ -1574,7 +1572,7 @@
 
         <introduction>
           <p>
-            In the following exercises, find <m>\norm{\vec r(t)}</m>.
+            Find <m>\norm{\vec r(t)}</m>.
           </p>
         </introduction>
 

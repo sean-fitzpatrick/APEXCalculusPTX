@@ -1616,8 +1616,7 @@
       <exercisegroup cols="2" xml:id="exset-line-int-vector-evaluate">
         <introduction>
           <p>
-            In the following exercises,
-            a vector field <m>\vec F</m> and a curve <m>C</m> are given.
+            A vector field <m>\vec F</m> and a curve <m>C</m> are given.
             Evaluate <m>\ds\int_C\vec F\cdot d\vec r</m>.
           </p>
         </introduction>
@@ -1716,8 +1715,7 @@
       <exercisegroup cols="2" xml:id="exset-line-int-vector-work">
         <introduction>
           <p>
-            In the following exercises,
-            find the work performed by the force field <m>\vec F</m> moving a particle along the path <m>C</m>.
+            Find the work performed by the force field <m>\vec F</m> moving a particle along the path <m>C</m>.
           </p>
         </introduction>
 
@@ -1788,9 +1786,8 @@
       <exercisegroup cols="2" xml:id="exset-line-int-vector-conservative">
         <introduction>
           <p>
-            In the following exercises,
-            a conservative vector field <m>\vec F</m> and a curve <m>C</m> are given.
-
+            A conservative vector field <m>\vec F</m> and a curve <m>C</m> are given.
+            <enlarge-page skipsize="2"/>
             <ol>
               <li>
                 <p>

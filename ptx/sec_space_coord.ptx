@@ -146,7 +146,7 @@
           <idx><h>first octant</h></idx>
     </p>
 
-    <figure xml:id="fig_cartcoord2" vshift="4">
+    <figure xml:id="fig_cartcoord2" vshift="3">
       <caption>Plotting the point <m>P=(2,1,3)</m> in space with a perspective used in this text</caption>
       <!-- START figures/figcartcoord2_3D.asy -->
       <image width="47%">
@@ -4450,8 +4450,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            describe the region in space defined by the inequalities.
+            Describe the region in space defined by the inequalities.
           </p>
         </introduction>
 
@@ -4538,7 +4537,7 @@
 
         <introduction>
           <p>
-            In the following exercises, sketch the cylinder in space.
+            Sketch the cylinder in space.
           </p>
         </introduction>
 
@@ -4898,8 +4897,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            give the equation of the surface of revolution described.
+            Give the equation of the surface of revolution described.
           </p>
         </introduction>
 
@@ -4989,7 +4987,7 @@
 
         <introduction>
           <p>
-            In the following exercises, a quadric surface is sketched.
+            A quadric surface is sketched.
             Determine which of the given equations best fits the graph.
           </p>
         </introduction>
@@ -5315,7 +5313,7 @@
 
         <introduction>
           <p>
-            In the following exercises, sketch the quadric surface.
+            Sketch the quadric surface.
           </p>
         </introduction>
 

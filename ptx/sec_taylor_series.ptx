@@ -1316,7 +1316,7 @@
           <p>
             <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/>
             gives the <m>n</m>th term of the Taylor series of common functions.
-            In the following exercises, verify the formula given in the Key Idea by finding
+            Verify the formula given in the Key Idea by finding
             the first few terms of the Taylor series of the given function and identifying a pattern.
           </p>
         </introduction>
@@ -1443,8 +1443,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find a formula for the <m>n</m>th term of the Taylor series of <m>f(x)</m>,
+            Find a formula for the <m>n</m>th term of the Taylor series of <m>f(x)</m>,
             centered at <m>c</m>,
             by finding the coefficients of the first few powers of <m>x</m> and looking for a pattern.
             (The formulas for several of these are found in <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/>;
@@ -1613,8 +1612,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            show that the Taylor series for <m>f(x)</m>,
+            Show that the Taylor series for <m>f(x)</m>,
             as given in <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/>,
             is equal to <m>f(x)</m> by applying <xref ref="thm_function_series_equality"/>;
             that is, show <m>\lim\limits_{n\to\infty}R_n(x) =0</m>.
@@ -1803,8 +1801,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            use the Taylor series given in <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/> to verify the given identity.
+            Use the Taylor series given in <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/> to verify the given identity.
           </p>
         </introduction>
 
@@ -1908,8 +1905,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            write out the first 5 terms of the Binomial series with the given <m>k</m>-value.
+            Write out the first 5 terms of the Binomial series with the given <m>k</m>-value.
           </p>
         </introduction>
 
@@ -1987,8 +1983,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            use the Taylor series given in <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/>
+            Use the Taylor series given in <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/>
             to create the Taylor series of the given functions.
           </p>
         </introduction>
@@ -2100,8 +2095,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            approximate the value of the given definite integral by using the first 4 nonzero terms of the integrand's Taylor series.
+            Approximate the value of the given definite integral by using the first 4 nonzero terms of the integrand's Taylor series.
           </p>
         </introduction>
 

@@ -351,7 +351,6 @@
       <xref ref="fig_taypolyintroc"/> shows <m>p_{13}(x)</m>;
       we can visually affirm that this polynomial approximates <m>f</m> very
       well on <m>[-2,3]</m>. 
-      <pagebreak-latex component="taypoly-late"/>
       The polynomial <m>p_{13}(x)</m> is not
       particularly <q>nice</q>. It is
       <md>
@@ -2031,8 +2030,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the Maclaurin polynomial of degree <m>n</m> for the given function.
+            Find the Maclaurin polynomial of degree <m>n</m> for the given function.
           </p>
         </introduction>
 
@@ -2424,8 +2422,7 @@
       <exercisegroup cols="2" xml:id="exset-taylor-poly-error-bound">
         <introduction>
           <p>
-            In the following exercises,
-            approximate the function value with the indicated Taylor polynomial
+            Approximate the function value with the indicated Taylor polynomial
             and give approximate bounds on the error.
           </p>
         </introduction>
@@ -2622,8 +2619,7 @@
       <exercisegroup cols="2" xml:id="exset-taylor-poly-nth-term">
         <introduction>
           <p>
-            In the following exercises,
-            find the <m>n</m>th term of the indicated Taylor polynomial.
+            Find the <m>n</m>th term of the indicated Taylor polynomial.
           </p>
         </introduction>
 
@@ -2740,8 +2736,7 @@
       <exercisegroup cols="2" xml:id="exset-taylor-poly-ode">
         <introduction>
           <p>
-            In the following exercises,
-            approximate the solution to the given differential equation with a
+            Approximate the solution to the given differential equation with a
             degree 4 Maclaurin polynomial.
           </p>
         </introduction>

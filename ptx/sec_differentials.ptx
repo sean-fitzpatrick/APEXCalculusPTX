@@ -1921,33 +1921,7 @@
             </task>
           </webwork>
         </exercise>
-        <!-- Exercise 37: Compare errors in wall measurements from previous exercises -->
-        <exercise label="ex-differentials-survey-4">
-          <webwork xml:id="webwork-ex-differentials-survey-4">
-            <pg-macros>
-              <macro-file>parserPopUp.pl</macro-file>
-            </pg-macros>
-            <pg-code>
-              $buttons = DropDown(
-                [
-                  'Right triangle at 25 feet',
-                  'Right triangle at 100 feet',
-                  'Isosceles triangle at 50 feet',
-                ],2,showInStatic=&gt;0);
-            </pg-code>
-            <statement>
-              <p>
-                The length of the walls in
-                <xref first="exer_04_04_ex_35" last="exer_04_04_ex_37"/>
-                are essentially the same.
-                Which setup gives the most accurate result?
-              </p>
-              <p>
-                <var name="$buttons" form="buttons"/>
-              </p>
-            </statement>
-          </webwork>
-        </exercise>
+
         <!-- Exercise 38: Length of wall if the distance has the error instead of the angle -->
         <exercise label="ex-differentials-survey-5">
            <webwork xml:id="webwork-ex-differentials-survey-5">
@@ -1994,6 +1968,34 @@
               </p>
               <p>
                 <var name="$err_pct" width="20"/>
+              </p>
+            </statement>
+          </webwork>
+        </exercise>
+
+      <!-- Exercise 37: Compare errors in wall measurements from previous exercises -->
+        <exercise label="ex-differentials-survey-4">
+          <webwork xml:id="webwork-ex-differentials-survey-4">
+            <pg-macros>
+              <macro-file>parserPopUp.pl</macro-file>
+            </pg-macros>
+            <pg-code>
+              $buttons = DropDown(
+                [
+                  'Right triangle at 25 feet',
+                  'Right triangle at 100 feet',
+                  'Isosceles triangle at 50 feet',
+                ],2,showInStatic=&gt;0);
+            </pg-code>
+            <statement>
+              <p>
+                The length of the walls in
+                <xref first="exer_04_04_ex_35" last="exer_04_04_ex_37"/>
+                are essentially the same.
+                Which setup gives the most accurate result?
+              </p>
+              <p>
+                <var name="$buttons" form="buttons"/>
               </p>
             </statement>
           </webwork>

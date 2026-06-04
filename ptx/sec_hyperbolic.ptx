@@ -1380,8 +1380,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            verify the given identity using <xref ref="def_hyperbolic_functions"/>,
+            Verify the given identity using <xref ref="def_hyperbolic_functions"/>,
             as done in <xref ref="ex_hf1"/>.
           </p>
         </introduction>
@@ -1626,7 +1625,7 @@
 
         <introduction>
           <p>
-            In the following exercises, find the derivative of the given function.
+            Find the derivative of the given function.
           </p>
         </introduction>
   <!-- Exercise 11 -->
@@ -1875,8 +1874,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the equation of the line tangent to the function at the given <m>x</m>-value.
+            Find the equation of the line tangent to the function at the given <m>x</m>-value.
           </p>
         </introduction>
   <!-- Exercise 22 -->
@@ -2061,7 +2059,7 @@
 
         <introduction>
           <p>
-            In the following exercises, evaluate the given indefinite integral.
+            Evaluate the given indefinite integral.
           </p>
         </introduction>
   <!-- Exercise 27 -->
@@ -2362,7 +2360,7 @@
 
         <introduction>
           <p>
-            In the following exercises, evaluate the given definite integral.
+            Evaluate the given definite integral.
           </p>
         </introduction>
   <!-- Exercise 41 -->

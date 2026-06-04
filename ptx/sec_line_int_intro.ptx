@@ -1506,8 +1506,7 @@
       <exercisegroup cols="2" xml:id="exset-line-int-intro-scalar-function">
         <introduction>
           <p>
-            In the following exercises,
-            a planar curve <m>C</m> is given along with a function <m>f</m> that is defined over <m>C</m>.
+            A planar curve <m>C</m> is given along with a function <m>f</m> that is defined over <m>C</m>.
             Evaluate the line integral <m>\ds \int_Cf(s)\, ds</m>.
           </p>
         </introduction>
@@ -1609,8 +1608,7 @@
       <exercisegroup cols="2" xml:id="exset-line-int-scalar-technology">
         <introduction>
           <p>
-            In the following exercises,
-            a planar curve <m>C</m> is given along with a function <m>f</m> that is defined over <m>C</m>.
+            A planar curve <m>C</m> is given along with a function <m>f</m> that is defined over <m>C</m>.
             Set up the line integral <m>\ds \int_Cf(s)\, ds</m>,
             then approximate its value using technology.
           </p>
@@ -1676,7 +1674,7 @@
       <exercisegroup cols="2" xml:id="exset-line-int-intro-area">
         <introduction>
           <p>
-            In the following exercises, a parametrized curve <m>C</m> in space is given.
+            A parametrized curve <m>C</m> in space is given.
             Find the area above the <m>xy</m>-plane that is under <m>C</m>.
           </p>
         </introduction>
@@ -1738,8 +1736,7 @@
       <exercisegroup cols="2" xml:id="exset-line-int-intro-mass">
         <introduction>
           <p>
-            In the following exercises,
-            a parametrized curve <m>C</m> is given that represents a thin wire with density <m>\delta</m>.
+            A parametrized curve <m>C</m> is given that represents a thin wire with density <m>\delta</m>.
             Find the mass and center of mass of the thin wire.
           </p>
         </introduction>

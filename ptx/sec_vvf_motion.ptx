@@ -299,7 +299,7 @@
           the velocity of Object 2 is three times that of Object 1 and so it follows that the speed of Object 2 is three times that of Object 1 (<m>3\sqrt{5}</m> ft/s compared to <m>\sqrt{5}</m> ft/s.)
         </p>
 
-        <pagebreak-latex component="novideo"/>
+        <!-- <pagebreak-latex component="novideo"/> -->
 
         <figure xml:id="fig_motion2a" vshift="-2">
           <caption>Plotting velocity and acceleration vectors for Object 1 in <xref ref="ex_motion2"/></caption>
@@ -1407,7 +1407,7 @@
 
         <introduction>
           <p>
-            In the following exercises, a position function <m>\vrt</m> is given.
+            A position function <m>\vrt</m> is given.
             Find <m>\vvt</m> and <m>\vat</m>.
           </p>
         </introduction>
@@ -1515,7 +1515,7 @@
 
         <introduction>
           <p>
-            In the following exercises, a position function <m>\vrt</m> is given.
+            A position function <m>\vrt</m> is given.
             Sketch <m>\vrt</m> on the indicated interval.
             Find <m>\vvt</m> and <m>\vat</m>,
             then add <m>\vec v(t_0)</m> and <m>\vec a(t_0)</m> to your sketch,
@@ -1609,8 +1609,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            a position function <m>\vrt</m> of an object is given.
+            A position function <m>\vrt</m> of an object is given.
             Find the speed of the object in terms of <m>t</m>,
             and find where the speed is minimized/maximized on the indicated interval.
           </p>
@@ -1885,8 +1884,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            position functions <m>\vec r_1(t)</m> and
+            Position functions <m>\vec r_1(t)</m> and
             <m>\vec r_2(s)</m> for two objects are given that follow the same path on the respective intervals.
           </p>
 
@@ -2072,8 +2070,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the position function of an object given its acceleration and initial velocity and position.
+            Find the position function of an object given its acceleration and initial velocity and position.
           </p>
         </introduction>
 
@@ -2164,7 +2161,7 @@
 
         <introduction>
           <p>
-            In the following exercises, find the displacement, distance traveled,
+            Find the displacement, distance traveled,
             average velocity and average speed of the described object on the given interval.
           </p>
         </introduction>

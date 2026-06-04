@@ -383,7 +383,7 @@
     </theorem>
 
     <aside xml:id="aside-cross-orthogonal" vshift="4">
-      <title>Parallel vectors and the cross product</title>
+      <title>The cross product and parallel vectors</title>
 
       <p>
         We could rewrite <xref ref="def_orthogonal"/>
@@ -1495,7 +1495,7 @@
 
         <introduction>
           <p>
-            In the following exercises, vectors <m>\vec u</m> and <m>\vec v</m> are given.
+            Vectors <m>\vec u</m> and <m>\vec v</m> are given.
             Compute <m>\vec u\times\vec v</m> and check that this vector is orthogonal to both <m>\vec u</m> and <m>\vec v</m>.
           </p>
         </introduction>
@@ -1744,8 +1744,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            the magnitudes of vectors <m>\vec u</m> and <m>\vec v</m> in <m>\mathbb{R}^3</m> are given,
+            The magnitudes of vectors <m>\vec u</m> and <m>\vec v</m> in <m>\mathbb{R}^3</m> are given,
             along with the angle <m>\theta</m> between them.
             Use this information to find the magnitude of <m>\vec u\times\vec v</m>.
           </p>
@@ -1824,8 +1823,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the area of the parallelogram defined by the given vectors.
+            Find the area of the parallelogram defined by the given vectors.
           </p>
         </introduction>
 
@@ -1914,8 +1912,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the area of the triangle with the given vertices.
+            Find the area of the triangle with the given vertices.
           </p>
         </introduction>
 
@@ -2004,8 +2001,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the area of the quadrilateral with the given vertices.
+            Find the area of the quadrilateral with the given vertices.
             (Hint: break the quadrilateral into two triangles.)
           </p>
         </introduction>
@@ -2066,8 +2062,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the volume of the parallelepiped defined by the given vectors.
+            Find the volume of the parallelepiped defined by the given vectors.
           </p>
         </introduction>
 
@@ -2114,8 +2109,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find a unit vector orthogonal to both <m>\vec u</m> and <m>\vec v</m>.
+            Find a unit vector orthogonal to both <m>\vec u</m> and <m>\vec v</m>.
           </p>
         </introduction>
 

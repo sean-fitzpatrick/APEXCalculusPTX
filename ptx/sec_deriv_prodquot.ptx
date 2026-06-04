@@ -191,7 +191,7 @@
       then do some regrouping as shown.
     </p>
 
-    <aside xml:id="aside-derivative-add-zero" vshift="0">
+    <aside xml:id="aside-derivative-add-zero" vshift="1">
       <p>
         Adding <m>0</m> in some clever form is a common mathematical proof technique.
       </p>

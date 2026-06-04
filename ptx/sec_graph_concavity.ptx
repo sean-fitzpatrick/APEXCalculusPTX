@@ -554,7 +554,7 @@
       shows a graph of a function with inflection points labeled.
     </p>
 
-    <figure xml:id="fig_concavity4" vshift="2">
+    <figure xml:id="fig_concavity4" vshift="0">
       <caption>A graph of a function with its inflection points marked. The intervals where concave up/down are also indicated.</caption>
       <!-- START figures/fig_concavity4.tex -->
       <image width="47%">
@@ -997,7 +997,7 @@
           shown in <xref ref="fig_conc3"/>.
         </p>
 
-        <figure xml:id="fig_conc3" vshift="2">
+        <figure xml:id="fig_conc3" vshift="-1">
           <caption>A graph of <m>S(t)</m> in <xref ref="ex_conc3"/>, modeling the sale of a product over time</caption>
           <!-- START figures/fig_conc3.tex -->
           <image width="47%">
@@ -1065,7 +1065,7 @@
           so the decline in sales is <q>leveling off.</q>
         </p>
 
-        <figure xml:id="fig_conc3b" vshift="3">
+        <figure xml:id="fig_conc3b" vshift="0">
           <caption>A graph of <m>S(t)</m> in <xref ref="ex_conc3"/>, along with <m>S'(t)</m></caption>
           <!-- START figures/fig_conc3b.tex -->
           <image width="47%">
@@ -1119,7 +1119,7 @@
       as shown in <xref ref="fig_concavity5"/>.
     </p>
 
-    <figure xml:id="fig_concavity5" vshift="-1">
+    <figure xml:id="fig_concavity5" vshift="-4">
       <caption>A graph of <m>f(x) = x^4</m>. Clearly <m>f</m> is always concave up, despite the fact that <m>\fpp(x) = 0</m> when <m>x=0</m>. In this example, the <em>possible</em> point of inflection <m>(0,0)</m> is not a point of inflection.</caption>
       <!-- START figures/fig_concavity5.tex -->
       <image width="47%">
@@ -1160,7 +1160,38 @@
       See <xref ref="fig_concavity6"/> for a visualization of this.
     </p>
 
-    <figure xml:id="fig_concavity6" vshift="-4.5">
+    <theorem xml:id="thm_second_der">
+      <title>The Second Derivative Test</title>
+      <statement>
+        <p>
+          Let <m>c</m> be a critical value of <m>f</m> where <m>\fpp(c)</m> is defined.
+          <idx><h>derivative</h><h>Second Deriv.
+          Test</h></idx>
+              <idx><h>Second Derivative Test</h></idx>
+              <idx><h>extrema</h><h>and Second Deriv. Test</h></idx>
+              <idx><h>maximum</h><h>and Second Deriv. Test</h></idx>
+              <idx><h>minimum</h><h>and First Deriv. Test</h></idx>
+
+          <ol>
+            <li>
+              <p>
+                If <m>\fpp(c)\gt 0</m>,
+                then <m>f</m> has a local minimum at <m>(c,f(c))</m>.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                If <m>\fpp(c)\lt 0</m>,
+                then <m>f</m> has a local maximum at <m>(c,f(c))</m>.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </statement>
+    </theorem>
+
+    <figure xml:id="fig_concavity6" vshift="1">
       <caption>Demonstrating the fact that relative maxima occur when the graph is concave down and relative minima occur when the graph is concave up</caption>
       <!-- START figures/fig_concavity6.tex -->
       <image width="47%">
@@ -1193,37 +1224,6 @@
       </image>
       <!-- figures/fig_concavity6.tex END -->
     </figure>
-
-    <theorem xml:id="thm_second_der">
-      <title>The Second Derivative Test</title>
-      <statement>
-        <p>
-          Let <m>c</m> be a critical value of <m>f</m> where <m>\fpp(c)</m> is defined.
-          <idx><h>derivative</h><h>Second Deriv.
-          Test</h></idx>
-              <idx><h>Second Derivative Test</h></idx>
-              <idx><h>extrema</h><h>and Second Deriv. Test</h></idx>
-              <idx><h>maximum</h><h>and Second Deriv. Test</h></idx>
-              <idx><h>minimum</h><h>and First Deriv. Test</h></idx>
-
-          <ol>
-            <li>
-              <p>
-                If <m>\fpp(c)\gt 0</m>,
-                then <m>f</m> has a local minimum at <m>(c,f(c))</m>.
-              </p>
-            </li>
-
-            <li>
-              <p>
-                If <m>\fpp(c)\lt 0</m>,
-                then <m>f</m> has a local maximum at <m>(c,f(c))</m>.
-              </p>
-            </li>
-          </ol>
-        </p>
-      </statement>
-    </theorem>
 
     <figure xml:id="vid_graphs_concav_second_deriv_test" component="video" vshift="-4">
       <caption>Video presentation of <xref ref="thm_second_der"/></caption>

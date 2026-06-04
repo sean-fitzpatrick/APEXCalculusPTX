@@ -866,8 +866,7 @@
       <exercisegroup cols="2" xml:id="exset-surface-area-mass">
         <introduction>
           <p>
-            In the following exercises,
-            a surface <m>\surfaceS</m> that represents a thin sheet of material with density <m>\delta</m> is given.
+            A surface <m>\surfaceS</m> that represents a thin sheet of material with density <m>\delta</m> is given.
             Find the mass of each thin sheet.
           </p>
         </introduction>
@@ -906,8 +905,7 @@
       <exercisegroup cols="2" xml:id="exset-surface-integral-flux">
         <introduction>
           <p>
-            In the following exercises,
-            a surface <m>\surfaceS</m> and a vector field <m>\vec F</m> are given.
+            A surface <m>\surfaceS</m> and a vector field <m>\vec F</m> are given.
             Compute the flux of <m>\vec F</m> across <m>\surfaceS</m>.
             (If <m>\surfaceS</m> is not a closed surface,
             choose <m>\vec n</m> so that it has a positive <m>z</m>-component,

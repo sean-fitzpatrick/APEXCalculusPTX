@@ -1231,7 +1231,7 @@
           as done in <xref ref="fig_ftc6"/>.
         </p>
 
-        <figure xml:id="fig_ftc6" vshift="2">
+        <figure xml:id="fig_ftc6" vshift="0">
           <caption>Sketching the region enclosed by <m>y=x^2+x-5</m> and <m>y=3x-2</m> in <xref ref="ex_ftc6"/></caption>
           <image width="47%">
             <shortdescription>

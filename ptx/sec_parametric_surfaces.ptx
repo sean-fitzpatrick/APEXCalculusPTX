@@ -894,7 +894,7 @@
           where <m>-1\leq y\leq 2</m>,
           as shown in <xref ref="fig_parsurf5"/>.
         </p>
-        <figure xml:id="fig_parsurf5" vshift="0">
+        <figure xml:id="fig_parsurf5" vshift="-1">
           <caption>The cylinder parametrized in <xref ref="ex_parsurf5"/></caption>
           <image width="47%">
             <shortdescription>A cylindrical surface centered along the y axis.</shortdescription>
@@ -992,7 +992,7 @@
           where <m>-2\leq z\leq 3</m>,
           as shown in <xref ref="fig_parsurf6a"/>.
         </p>
-        <figure xml:id="fig_parsurf6a" vshift="0">
+        <figure xml:id="fig_parsurf6a" vshift="-1">
           <caption>The elliptic cone as described in  <xref ref="ex_parsurf6"/></caption>
           <image width="47%">
             <shortdescription>An elliptic cone with its cusp at the origin, including portions above and below the x,y plane.</shortdescription>
@@ -1874,8 +1874,7 @@
       <exercisegroup cols="2" xml:id="exset-parametrize-surface">
         <introduction>
           <p>
-            In the following exercises,
-            parametrize the surface defined by the function
+            Parametrize the surface defined by the function
             <m>z=f(x,y)</m> over each of the given regions <m>R</m> of the <m>xy</m>-plane.
           </p>
         </introduction>
@@ -2024,8 +2023,7 @@
       <exercisegroup cols="2">
         <introduction>
           <p>
-            In the following exercises,
-            a surface <m>\surfaceS</m> in space is described that cannot be defined as the graph of a function <m>f(x,y)</m>.
+            A surface <m>\surfaceS</m> in space is described that cannot be defined as the graph of a function <m>f(x,y)</m>.
             Give a parametrization of <m>\surfaceS</m>.
           </p>
         </introduction>
@@ -2095,7 +2093,7 @@
     <exercisegroup cols="2" xml:id="exset-parametrize-boundary">
       <introduction>
         <p>
-          In the following exercises, a domain <m>D</m> in space is given.
+          A domain <m>D</m> in space is given.
           Parametrize each of the bounding surfaces of <m>D</m>.
         </p>
       </introduction>
@@ -3118,8 +3116,7 @@
       <exercisegroup cols="2" xml:id="exset-parametric-surface-area-exact">
         <introduction>
           <p>
-            In the following exercises,
-            find the surface area <m>S</m> of the given surface <m>\surfaceS</m>. (The associated integrals are computable without the assistance of technology.)
+            Find the surface area <m>S</m> of the given surface <m>\surfaceS</m>. (The associated integrals are computable without the assistance of technology.)
           </p>
         </introduction>
 
@@ -3184,8 +3181,7 @@
       <exercisegroup cols="2" xml:id="exset-parametric-surface-area-approx">
         <introduction>
           <p>
-            In the following exercises,
-            set up the double integral that finds the surface area <m>S</m> of the given surface <m>\surfaceS</m>, then use technology to approximate its value.
+            Set up the double integral that finds the surface area <m>S</m> of the given surface <m>\surfaceS</m>, then use technology to approximate its value.
           </p>
         </introduction>
 

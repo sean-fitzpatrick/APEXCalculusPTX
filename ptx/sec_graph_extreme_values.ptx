@@ -640,7 +640,7 @@
   </p>
 
   
-  <figure xml:id="fig_extreme4" vshift="1.5">
+  <figure xml:id="fig_extreme4" vshift="-1.5">
     <caption>A graph of <m>f(x)=x^3</m> which has a critical value of <m>x=0</m>, but no relative extrema</caption>
       <!-- START figures/fig_extreme4.tex -->
     <image width="47%">
@@ -1888,12 +1888,11 @@
         </exercise>
       </exercisegroup>
 
-      <enlarge-page skipsize="2"/>
-
       <exercisegroup cols="2" xml:id="exset-graph-extreme-values-find">
         <introduction>
           <p>
             Find the extreme values of the function on the given interval.
+            <enlarge-page skipsize="2"/>
           </p>
         </introduction>
         <exercise label="ex-graph-extreme-values-find-1">

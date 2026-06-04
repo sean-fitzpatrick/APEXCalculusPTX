@@ -1053,7 +1053,7 @@
           <m>y=t^2-1</m> crosses itself as shown in <xref ref="fig_parcalc7"/>,
           forming a <q>teardrop.</q> Find the arc length of the teardrop.
         </p>
-        <figure xml:id="fig_parcalc7" vshift="2">
+        <figure xml:id="fig_parcalc7" vshift="-2">
           <caption>A graph of the parametric equations in <xref ref="ex_parcalc7"/>, where the arc length of the teardrop is calculated</caption>
           <!-- START figures/fig_parcalc7.tex -->
           <image width="47%">
@@ -1280,7 +1280,7 @@
           Find the surface area if this shape is rotated about the <m>x</m>-axis,
           as shown in <xref ref="fig_parcalc8"/>.
         </p>
-        <figure xml:id="fig_parcalc8" vshift="0">
+        <figure xml:id="fig_parcalc8" vshift="-1">
           <caption>Rotating a teardrop shape about the <m>x</m>-axis in <xref ref="ex_parcalc8"/></caption>
 
           <!-- START figures/figparcalc8_3D.asy -->
@@ -1475,7 +1475,7 @@
 
         <introduction>
           <p>
-            In the following exercises, parametric equations for a curve are given.
+            Parametric equations for a curve are given.
           </p>
 
           <p>
@@ -2362,7 +2362,7 @@
 
         <introduction>
           <p>
-            In the following exercises, numerically approximate the given arc length.
+            Numerically approximate the given arc length.
           </p>
         </introduction>
 
@@ -2445,7 +2445,7 @@
 
         <introduction>
           <p>
-            In the following exercises, a solid of revolution is described.
+            A solid of revolution is described.
             Find or approximate its surface area as specified.
           </p>
         </introduction>

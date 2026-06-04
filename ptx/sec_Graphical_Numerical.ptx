@@ -1806,8 +1806,7 @@
       <exercisegroup cols="2" xml:id="exset-graphical-numerical-verify-sol">
         <introduction>
           <p>
-            In the following exercises,
-            verify that the given function is a solution to the differential equation or initial value problem.
+            Verify that the given function is a solution to the differential equation or initial value problem.
           </p>
         </introduction>
 
@@ -1882,8 +1881,7 @@
       <exercisegroup cols="2" xml:id="exset-graphical-numerical-verify-particular">
         <introduction>
           <p>
-            In the following exercises,
-            verify that the given function is a solution to the differential equation and find the <m>C</m> 
+            Verify that the given function is a solution to the differential equation and find the <m>C</m> 
             value required to make the function satisfy the initial condition.
           </p>
         </introduction>
@@ -1934,8 +1932,7 @@
       <exercisegroup cols="2" xml:id="exset-graphical-numerical-sketch-slope">
         <introduction>
           <p>
-            In the following exercises,
-            sketch a slope field for the given differential equation.
+            Sketch a slope field for the given differential equation.
             Let <m>x</m> and <m>y</m> range between <m>-2</m> and <m>2</m>.
           </p>
         </introduction>
@@ -2301,8 +2298,7 @@
       <exercisegroup cols="2" xml:id="exset-graphical-numerical-sketch-sol">
         <introduction>
           <p>
-            In the following exercises,
-            sketch the slope field for the differential equation,
+            Sketch the slope field for the differential equation,
             and use it to draw a sketch of the solution to the initial value problem.
           </p>
         </introduction>
@@ -2513,8 +2509,7 @@
       <exercisegroup cols="2" xml:id="exset-graphical-numerical-euler">
         <introduction>
           <p>
-            In the following exercises,
-            use Euler's Method to make a table of values that approximates the solution to the initial value problem on the given interval.
+            Use Euler's Method to make a table of values that approximates the solution to the initial value problem on the given interval.
             Use the specified <m>h</m> or <m>N</m> value.
           </p>
         </introduction>
@@ -2641,8 +2636,7 @@
       <exercisegroup>
         <introduction>
           <p>
-            In the following exercises,
-            use the provided solution <m>y(x)</m> and Euler's Method with the <m>h=0.2</m> and <m>h=0.1</m> to complete the following table.
+            Use the provided solution <m>y(x)</m> and Euler's Method with the <m>h=0.2</m> and <m>h=0.1</m> to complete the following table.
           </p>
           <tabular>
             <col right="minor"/>

@@ -779,7 +779,7 @@
         Find the volume of the solid.
       </p>
 
-      <figure xml:id="fig_doublepol4" vshift="0">
+      <figure xml:id="fig_doublepol4" vshift="-1">
         <caption>Visualizing the solid used in <xref ref="ex_doublepol4"/></caption>
 
         <!-- START figures/figdoublepol4_3D.asy -->
@@ -1277,12 +1277,12 @@
         </exercise>
 
       </exercisegroup>
-      <exercisegroup cols="2">
+
+      <exercisegroup cols="2" xml:id="exset-double-polar-special">
 
         <introduction>
           <p>
-            In the following exercises,
-            special double integrals are presented that are especially well suited for evaluation in polar coordinates.
+            The next two exercises present special double integrals that are especially well suited for evaluation in polar coordinates.
           </p>
         </introduction>
 

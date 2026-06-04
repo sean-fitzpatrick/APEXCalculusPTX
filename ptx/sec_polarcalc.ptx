@@ -288,7 +288,7 @@
           we zoom in on the tangent lines in <xref ref="fig_polcalc2"/>.
         </p>
 
-        <figure xml:id="fig_polcalc2" vshift="-1">
+        <figure xml:id="fig_polcalc2" vshift="2">
           <caption>Graphing the tangent lines at the pole in <xref ref="ex_polcalc2"/></caption>
           <!-- START figures/fig_polcalc2.tex -->
           <image width="47%">
@@ -607,7 +607,7 @@
       </solution>
     </example>
 
-    <aside vshift="8">
+    <aside vshift="5">
       <p>
         <xref ref="ex_polcalc3"/>
         requires the use of the integral <m>\ds\int \cos^2(\theta) \,d\theta</m>.
@@ -634,7 +634,7 @@
           as shown in <xref ref="fig_polcalc4"/>.
         </p>
 
-        <figure xml:id="fig_polcalc4" vshift="0.5">
+        <figure xml:id="fig_polcalc4" vshift="-1">
           <caption>Finding the area of the shaded region of a cardioid in <xref ref="ex_polcalc4"/></caption>
           <!-- START figures/fig_polcalc4.tex -->
           <image width="47%">
@@ -1122,7 +1122,7 @@
           </md>.
         </p>
 
-        <figure xml:id="fig_polcalc7" vshift="-4">
+        <figure xml:id="fig_polcalc7" vshift="0">
           <caption>The limaçon in <xref ref="ex_polcalc7"/> whose arc length is measured</caption>
           <!-- START figures/fig_polcalc7.tex -->
           <image width="47%">
@@ -2275,7 +2275,7 @@
 
         <introduction>
           <p>
-            In the following exercises, answer the questions involving arc length.
+            Answer the questions involving arc length.
           </p>
         </introduction>
 
@@ -2410,7 +2410,7 @@
 
         <introduction>
           <p>
-            In the following exercises, answer the questions involving surface area.
+            Answer the questions involving surface area.
           </p>
         </introduction>
 

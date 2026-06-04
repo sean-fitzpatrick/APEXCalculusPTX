@@ -441,7 +441,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-arclength-1-v1" compnent="proteus">
+    <exercise label="APEX-PROTEUS-arclength-1-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -1285,8 +1285,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the arc length of the function on the given interval.
+            Find the arc length of the function on the given interval.
           </p>
         </introduction>
 
@@ -1473,8 +1472,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            set up the integral to compute the arc length of the function on the given interval.
+            Set up the integral to compute the arc length of the function on the given interval.
             Do not evaluate the integral.
           </p>
         </introduction>
@@ -1584,7 +1582,7 @@
 
         <introduction>
           <p>
-            In the following exercises, use Simpson's Rule, with <m>n=4</m>,
+            Use Simpson's Rule, with <m>n=4</m>,
             to approximate the arc length of the function on the given interval.
             Note: these are the same problems as in <xref first="ex_07_04_ex_13" last="ex_07_04_ex_20" text="local">Exercises</xref>.
           </p>
@@ -1697,8 +1695,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the surface area of the described solid of revolution.
+            Find the surface area of the described solid of revolution.
           </p>
         </introduction>
 

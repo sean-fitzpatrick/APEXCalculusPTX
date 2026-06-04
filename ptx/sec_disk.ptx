@@ -272,7 +272,7 @@
         the volume of this slice would then be about <m>36\Delta x_i</m> <quantity><mag/><unit base="inch" exp="3"/></quantity>.
       </p>
 
-      <pagebreak-latex/>
+      <!-- <pagebreak-latex/> -->
       
       <figure xml:id="fig_disk0a" vshift="-2.5">
         <caption>Cutting a slice in the pyramid in <xref ref="ex_disk0"/> at <m>x=3</m></caption>

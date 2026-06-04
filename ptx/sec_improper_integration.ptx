@@ -1490,7 +1490,7 @@
 
         <introduction>
           <p>
-            In the following exercises, evaluate the given improper integral.
+            Evaluate the given improper integral.
           </p>
         </introduction>
   <!-- Exercise 7 -->
@@ -2005,8 +2005,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            use the Direct Comparison Test or the Limit Comparison Test to determine whether the given definite integral converges or diverges.
+            Use the Direct Comparison Test or the Limit Comparison Test to determine whether the given definite integral converges or diverges.
             Clearly state what test is being used and what function the integrand is being compared to.
           </p>
         </introduction>

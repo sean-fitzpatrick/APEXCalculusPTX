@@ -939,8 +939,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the area of the shaded region in the given graph.
+            Find the area of the shaded region in the given graph.
           </p>
         </introduction>
 
@@ -1454,8 +1453,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the total area enclosed by the functions <m>f</m> and <m>g</m>.
+            Find the total area enclosed by the functions <m>f</m> and <m>g</m>.
           </p>
         </introduction>
   <!-- Exercise 11 -->
@@ -1685,7 +1683,7 @@
       <exercisegroup cols="2" xml:id="exset-area-between-two-ways">
         <introduction>
           <p>
-            In the following exercises, find the area of the enclosed region in two ways:
+            Find the area of the enclosed region in two ways:
           </p>
 
           <p>
@@ -2107,8 +2105,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the area of the triangle formed by the given three points.
+            Find the area of the triangle formed by the given three points.
           </p>
         </introduction>
   <!-- Exercise 23 -->

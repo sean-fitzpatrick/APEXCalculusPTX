@@ -1515,14 +1515,14 @@
 
         <introduction>
           <p>
-            In the following exercises:
+            For the given function:
           </p>
 
           <p>
             <ol marker="(a)">
               <li>
                 <p>
-                  Find the domain <m>D</m> of the given function.
+                  Find the domain <m>D</m> of the function.
                 </p>
               </li>
 
@@ -1686,7 +1686,7 @@
 
         <introduction>
           <p>
-            In the following exercises, a limit is given.
+            A limit is given.
             Evaluate the limit along the paths given,
             then state why these results show the given limit does not exist.
           </p>

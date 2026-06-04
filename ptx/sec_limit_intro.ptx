@@ -897,10 +897,7 @@
 
         <p>
           Since <m>f(x)</m> is not approaching a single number, we conclude that
-          <md>
-            \lim_{x\to 1}\frac{1}{(x-1)^2}
-          </md>
-          does not exist.
+          <m>\lim_{x\to 1}\frac{1}{(x-1)^2}</m> does not exist.
         </p>
       </solution>
     </example>
@@ -1245,7 +1242,7 @@
       See <xref ref="fig_diffquot1"/>.
     </p>
 
-    <figure xml:id="fig_diffquot1" vshift="3">
+    <figure xml:id="fig_diffquot1" vshift="2">
       <caption>Interpreting a difference quotient as the slope of a secant line</caption>
       <!-- START figures/fig_diff_quot1.tex -->
       <image width="47%">
