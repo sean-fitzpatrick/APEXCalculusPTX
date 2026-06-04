@@ -251,11 +251,12 @@ https://tex.stackexchange.com/questions/605955/can-i-avoid-indentation-of-margin
 </xsl:template>
 
 <!-- enable a few necessary page breaks to place images correctly -->
-<xsl:template match="pagebreak-latex">
+<!-- template is now obsolete: specify breaks in publisher file -->
+<!-- <xsl:template match="pagebreak-latex">
   <xsl:text>&#xa;</xsl:text>
   <xsl:text>\pagebreak</xsl:text>
   <xsl:text>&#xa;</xsl:text>
-</xsl:template>
+</xsl:template> -->
 
 <!-- and enable occasional enlarging of a page to avoid orphans -->
 <xsl:template match="enlarge-page">

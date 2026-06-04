@@ -461,7 +461,7 @@
           as shown in <xref ref="fig_iterated5"/>.
         </p>
 
-        <figure xml:id="fig_iterated5" vshift="0">
+        <figure xml:id="fig_iterated5" vshift="-2">
           <caption>Calculating the area of a triangle with iterated integrals in <xref ref="ex_iterated5"/></caption>
           <!-- START figures/fig_iterated5.tex -->
           <image width="47%">

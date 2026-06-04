@@ -1078,7 +1078,7 @@
           We find <m>f(0,0) = 5</m>.
         </p>
 
-        <figure xml:id="fig_conopt1bX" vshift="0">
+        <figure xml:id="fig_conopt1bX" vshift="1">
           <caption>The graph of <m>f</m> along with important points along the boundary of <m>S</m> and the interior  in <xref ref="ex_conopt1"/></caption>
           <!-- START figures/figconopt1c_3D.asy -->
           <image width="47%">
@@ -1261,7 +1261,7 @@
           This gives a volume of <m>V(21.67,43.33) \approx 20,343</m>in<m>^3</m>.
         </p>
 
-        <figure xml:id="fig_conopt2" vshift="0">
+        <figure xml:id="fig_conopt2" vshift="2">
           <caption>Graphing the volume of a box with girth <m>4w</m> and length <m>\ell</m>, subject to a size constraint</caption>
 
           <!-- START figures/figconopt2_3D.asy -->
