@@ -1012,7 +1012,7 @@
     </statement>
   </theorem>
 
-  <figure xml:id="vid-multint-double-general-region" component="video" vshift="11">
+  <figure xml:id="vid-multint-double-general-region" component="video" vshift="13">
     <caption>Evaluating a double integral over a more general region</caption>
     <video youtube="FcxnuFSNOfY" label="vid-multint-double-general-region"/>
   </figure>

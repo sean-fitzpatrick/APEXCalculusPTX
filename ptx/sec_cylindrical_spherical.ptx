@@ -927,8 +927,42 @@
       The following Key Idea gives conversions to/from our three spatial coordinate systems.
     </p>
 
-    <insight xml:id="idea_convert_coords" hstretch="330" hskip="45">
-    <!-- <insight xml:id="idea_convert_coords" hstretch="330"> -->
+    <insight xml:id="idea_convert_coords" hstretch="330" component="taypoly-early">
+      <title>Converting Between Rectangular, Cylindrical and Spherical Coordinates</title>
+      <p>
+        <ul>
+          <li>
+            <title>Rectangular and Cylindrical</title>
+            <p>
+              <md>
+                <mrow>\amp r^2 = x^2+y^2, \amp \amp \tan(\theta) = y/x,\amp  z\amp=z</mrow>
+                <mrow>\amp x=r\cos(\theta), \amp \amp y =r\sin(\theta),\amp  z\amp =z</mrow>
+              </md>
+            </p>
+          </li>
+          <li>
+            <title>Rectangular and Spherical</title>
+            <p>
+              <md>
+                <mrow>\amp \rho = \sqrt{x^2+y^2+z^2}, \amp \amp \tan(\theta) = y/x, \amp \amp \sin(\varphi) = z/\sqrt{x^2+y^2+z^2}</mrow>
+                <mrow>\amp x=\rho\cos(\varphi)\cos(\theta),\amp \amp y=\rho\cos(\varphi)\sin(\theta),\amp \amp z=\rho\sin(\varphi)</mrow>
+              </md>
+            </p>
+          </li>
+          <li>
+            <title>Cylindrical and Spherical </title>
+            <p>
+              <md>
+                <mrow>\amp \rho =\sqrt{r^2+z^2},\amp \amp  \theta = \theta,\amp \amp \tan(\varphi) = z/r</mrow>
+                <mrow>\amp r=\rho \cos(\varphi),\amp \amp  \theta = \theta,\amp \amp z=\rho\sin(\varphi)</mrow>
+              </md>
+            </p>
+          </li>
+        </ul>
+      </p>
+    </insight>
+
+    <insight xml:id="idea_convert_coords" hstretch="330" hskip="45" component="taypoly-late">
       <title>Converting Between Rectangular, Cylindrical and Spherical Coordinates</title>
       <p>
         <ul>

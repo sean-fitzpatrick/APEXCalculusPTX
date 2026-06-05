@@ -729,7 +729,7 @@
 
   <aside vshift="-4">
     <p>
-      Note that we require <m>h(x)</m> to be a polynomial function in <xref ref="thm_series_alg"/>.
+      Note that in <xref ref="thm_series_alg"/> we require <m>h(x)</m> to be a polynomial function.
       If we plug a function that is not polynomial into a power series,
       the result will no longer be a power series.
       If one is <em>very</em> careful about the center and radius of convergence,

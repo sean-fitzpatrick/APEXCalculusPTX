@@ -301,7 +301,7 @@
           <!-- figures/figplanes1_3D.asy END -->
         </figure>
       </solution>
-      <solution component="video" vshift="6">
+      <solution component="video" vshift="7">
         <title>Video solution</title>
         <video width="98%" youtube="oc77R0am1vk" label="vid-vectors-planes-3points" component="video"/>
       </solution>
@@ -373,7 +373,7 @@
           it is sketched in <xref ref="fig_planes2"/>.
         </p>
 
-        <figure xml:id="fig_planes2" vshift="3">
+        <figure xml:id="fig_planes2" vshift="2.5">
           <caption>Sketching the plane in <xref ref="ex_planes2"/></caption>
 
           <!-- START figures/figplanes2_3D.asy -->
@@ -465,7 +465,7 @@
           The line and plane are sketched in <xref ref="fig_planes3"/>.
         </p>
 
-        <figure xml:id="fig_planes3" vshift="-1">
+        <figure xml:id="fig_planes3" vshift="1">
           <caption>The line and plane in <xref ref="ex_planes3"/></caption>
 
           <!-- START figures/figplanes3_3D.asy -->
@@ -530,7 +530,7 @@
           <!-- figures/figplanes3_3D.asy END -->
         </figure>
       </solution>
-      <solution component="video" vshift="4">
+      <solution component="video" vshift="-5">
         <title>Video solution</title>
         <video width="98%" youtube="2diP-H-QLoI" label="vid-vectors-planes-given-normal" component="video"/>
       </solution>

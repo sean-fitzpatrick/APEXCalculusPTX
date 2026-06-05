@@ -269,6 +269,11 @@
       and does not work well with terms containing factorials.
     </p>
 
+    <figure xml:id="vid-seqseries-ratroot-root-test" component="video" vshift="-1">
+      <caption>Video presentation of <xref ref="thm_root_test"/></caption>
+      <video youtube="foE1iRYTXpc" label="vid-seqseries-ratroot-root-test"/>
+    </figure>
+
     <theorem xml:id="thm_root_test">
       <title>Root Test</title>
       <statement>
@@ -307,11 +312,6 @@
         </p>
       </statement>
     </theorem>
-
-    <figure xml:id="vid-seqseries-ratroot-root-test" component="video" vshift="-1">
-      <caption>Video presentation of <xref ref="thm_root_test"/></caption>
-      <video youtube="foE1iRYTXpc" label="vid-seqseries-ratroot-root-test"/>
-    </figure>
 
     <example xml:id="ex_root1">
       <title>Applying the Root Test</title>

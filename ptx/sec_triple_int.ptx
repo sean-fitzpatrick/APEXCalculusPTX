@@ -2877,7 +2877,31 @@
 
     <!-- <pagebreak-latex/> -->
     
-    <definition xml:id="def_triple_integral_2" hstretch="360" hskip="70">
+    <definition xml:id="def_triple_integral_2" hstretch="360" hskip="70" component="taypoly-late">
+      <title>Iterated Integration, (Part II)</title>
+      <statement>
+        <p>
+          Let <m>D</m> be a closed,
+          bounded region in space,
+          over which <m>g_1(x)</m>, <m>g_2(x)</m>, <m>f_1(x,y)</m>,
+          <m>f_2(x,y)</m> and <m>h(x,y,z)</m> are all continuous,
+          and let <m>a</m> and <m>b</m> be real numbers.
+        </p>
+
+        <p>
+          The <term>iterated integral</term>
+          <m>\ds \int_a^b\int_{g_1(x)}^{g_2(x)}\int_{f_1(x,y)}^{f_2(x,y)} h(x,y,z)\, dz\, dy\, dx</m> is evaluated as
+              <idx><h>integration</h><h>triple</h></idx>
+              <idx><h>triple integral</h></idx>
+              <idx><h>iterated integration</h></idx>
+          <md>
+            \int_a^b\int_{g_1(x)}^{g_2(x)}\int_{f_1(x,y)}^{f_2(x,y)} h(x,y,z)\, dz\, dy\, dx = \int_a^b\int_{g_1(x)}^{g_2(x)}\left(\int_{f_1(x,y)}^{f_2(x,y)} h(x,y,z)\, dz\right) dy\, dx
+          </md>.
+        </p>
+      </statement>
+    </definition>
+
+    <definition xml:id="def_triple_integral_2" hstretch="360" component="taypoly-early">
       <title>Iterated Integration, (Part II)</title>
       <statement>
         <p>

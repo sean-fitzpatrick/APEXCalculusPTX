@@ -684,7 +684,7 @@
           and is bounded by planes in the <m>y</m> direction.
         </p>
 
-        <figure xml:id="fig_space3" vshift="-1">
+        <figure xml:id="fig_space3" vshift="0">
           <caption>Sketching the boundaries of a region in <xref ref="ex_space3"/></caption>
           <!-- START figures/figspace3_3D.asy -->
           <image width="47%">
@@ -746,7 +746,7 @@
           <!-- figures/figspace3_3D.asy END -->
         </figure>
       </solution>
-      <solution component="video" vshift="6">
+      <solution component="video" vshift="-6">
         <title>Video solution</title>
         <video width="98%" youtube="-9luj-GlMqA" label="vid-vectors-spacecoord-planes-eg" component="video"/>
       </solution>

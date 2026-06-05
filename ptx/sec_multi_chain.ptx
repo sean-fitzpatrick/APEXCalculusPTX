@@ -503,6 +503,11 @@
       </solution>
     </example>
 
+    <figure xml:id="vid-multi-chain-general" component="video-early" vshift="0">
+      <caption>Illustrating the chain rule, and interpreting as matrix multiplication (see <xref ref="sec_deriv_matrix"/>)</caption>
+      <video youtube="7jtaSujep7g" label="vid-multi-chain-general"/>
+    </figure>
+
     <example xml:id="ex_mchain4">
       <title>Using the Multivariable Chain Rule, Part II</title>
       <statement>
@@ -539,11 +544,6 @@
         </p>
       </solution>
     </example>
-
-    <!-- <figure xml:id="vid-multi-chain-general" component="video">
-      <caption>Illustrating the chain rule, and interpreting as matrix multiplication (see <xref ref="sec_deriv_matrix"/>)</caption>
-      <video youtube="7jtaSujep7g" label="vid-multi-chain-general"/>
-    </figure> -->
   </subsection>
 
   <subsection xml:id="subsec-implicit-diff">

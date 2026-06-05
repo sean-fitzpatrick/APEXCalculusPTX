@@ -1463,11 +1463,6 @@
       </solution>
     </example>
 
-    <figure xml:id="vid-veccalc-lineint-ftc-examples" component="video" vshift="0">
-      <caption>Further examples with the Fundamental Theorem (4 videos)</caption>
-      <video youtube="urwjnm5PXhQ" label="vid-veccalc-lineint-ftc-examples"/>
-    </figure>
-
     <p>
       The Fundamental Theorem of Line Integrals states that we can determine whether or not <m>\vec F</m> is conservative by determining whether or not <m>\vec F</m> has a potential function.
       This can be difficult.
@@ -1476,6 +1471,11 @@
       which is a reasonable requirement.
       We state this simpler method as a theorem.
     </p>
+
+    <figure xml:id="vid-veccalc-lineint-ftc-examples" component="video" vshift="0">
+      <caption>Further examples with the Fundamental Theorem (4 videos)</caption>
+      <video youtube="urwjnm5PXhQ" label="vid-veccalc-lineint-ftc-examples"/>
+    </figure>
 
     <theorem xml:id="thm_conservative_field_curl">
       <title>Curl of Conservative Fields</title>
