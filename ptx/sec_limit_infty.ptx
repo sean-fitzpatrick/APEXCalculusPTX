@@ -284,7 +284,7 @@
           So we may say <m>\lim_{x\to 1}1/{(x-1)^2}=\infty</m>.
         </p>
       </solution>
-      <solution component="video" vshift="8">
+      <solution component="video" vshift="12">
         <title>Video solution</title>
         <video width="98%" youtube="S3dUAUQiKFQ" label="vid_limit_inf_ex_using_defn" component="video"/>
       </solution>
@@ -492,7 +492,7 @@
           <!-- figures/fig_multipleasymptotes.tex END -->
         </figure>
       </solution>
-      <solution component="video" vshift="1.5">
+      <solution component="video" vshift="-2">
         <title>Video solution</title>
         <video width="98%" youtube="h-1BCF_lsHI" label="vid_limit_inf_vert_asymptotes_ex" component="video"/>
       </solution>
@@ -520,7 +520,7 @@
       rather, a hole exists in the graph at <m>x=1</m>.
     </p>
 
-    <figure xml:id="fig_noasy" vshift="1">
+    <figure xml:id="fig_noasy" vshift="-2">
       <caption>Graphically showing that <m>f(x) = \frac{x^2-1}{x-1}</m> does not have an asymptote at <m>x=1</m></caption>
       <!-- START figures/fig_noasy.tex -->
       <image width="47%">

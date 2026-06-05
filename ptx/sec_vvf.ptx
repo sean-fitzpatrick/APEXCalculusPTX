@@ -632,7 +632,7 @@
           <m>\vec r(t) = \vec p(t) + \vec c(t) = \la \cos(t) + t,-\sin(t) +1\ra</m>,
           which is graphed in <xref ref="fig_vvf4b"/>.
         </p>
-        <figure xml:id="fig_vvf4b" vshift="-3">
+        <figure xml:id="fig_vvf4b" vshift="2">
           <caption>The cycloid in <xref ref="ex_vvf4"/></caption>
           <!-- START figures/fig_vvf4a.tex -->
           <image width="47%">
@@ -663,7 +663,7 @@
           <!-- figures/fig_vvf4a.tex END -->
         </figure>
       </solution>
-      <solution component="video" vshift="3">
+      <solution component="video" vshift="7.5">
         <title>Video solution</title>
         <video width="98%" youtube="BH9FZMTdgQw" label="vid-vvf-vvfintro-cycloid" component="video"/>
       </solution>
@@ -702,7 +702,7 @@
       </statement>
     </definition>
 
-    <figure xml:id="vid-vvf-vvfintro-displacement" component="video" vshift="-3">
+    <figure xml:id="vid-vvf-vvfintro-displacement" component="video" vshift="2">
       <caption>Video presentation of <xref ref="def_displacement"/></caption>
       <video youtube="LfOpC91t7H8" label="vid-vvf-vvfintro-displacement"/>
     </figure>
@@ -851,7 +851,7 @@
           this average rate of change on <m>[-1,5]</m> is <m>1/3</m> the average rate of change on <m>[-1,1]</m>.
         </p>
       </solution>
-      <solution component="video" vshift="3">
+      <solution component="video" vshift="0">
         <title>Video solution</title>
         <video width="98%" youtube="REA-v1g68bo" label="vid-vvf-vvfintro-average" component="video"/>
       </solution>

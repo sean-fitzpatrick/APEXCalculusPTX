@@ -706,7 +706,7 @@
           Therefore, we conclude that the lines <m>\ell_1</m> and <m>\ell_2</m> are skew.
         </p>
       </solution>
-      <solution component="video" vshift="1">
+      <solution component="video" vshift="-1">
         <title>Video solution</title>
         <video width="98%" youtube="hEYfincwMX0" label="vid-vectors-lines-compare" component="video"/>
       </solution>
@@ -939,7 +939,7 @@
       </md>.
     </p>
 
-    <figure xml:id="vid-vectors-lines-distance-point" component="video" vshift="0">
+    <figure xml:id="vid-vectors-lines-distance-point" component="video" vshift="-1">
       <caption>Determining distance from a line to a point</caption>
       <video youtube="ZJ_e_0s2s2M" label="vid-vectors-lines-distance-point"/>
     </figure>

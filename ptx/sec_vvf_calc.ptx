@@ -835,7 +835,7 @@
           hence cannot find the equation of the tangent line.
         </p>
       </solution>
-      <solution component="video" vshift="3">
+      <solution component="video" vshift="2.5">
         <title>Video solution</title>
         <video width="98%" youtube="czvJ5AtLpa4" label="vid-vvf-calc-tangent-eg2" component="video"/>
       </solution>

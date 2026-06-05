@@ -381,7 +381,7 @@
         the volume is not very difficult to compute.
       </p>
 
-      <figure xml:id="fig_doublepol2" vshift="0">
+      <figure xml:id="fig_doublepol2">
         <caption>Showing the region <m>R</m> and surface used in <xref ref="ex_doublepol2"/></caption>
         <sidebyside widths="47% 47%" margins="0%">
           <figure xml:id="fig_doublepol2a">

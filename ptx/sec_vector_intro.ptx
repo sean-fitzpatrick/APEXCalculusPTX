@@ -511,7 +511,7 @@
     <q>component-wise.</q>
   </p>
 
-  <figure xml:id="vid-vectors-intro-algebra" component="video" vshift="5">
+  <figure xml:id="vid-vectors-intro-algebra" component="video" vshift="8">
     <caption>Video presentation of <xref ref="def_vector_algebra"/> (2 videos)</caption>
     <video youtube="tOpeq-_K0ME" label="vid-vectors-intro-algebra"/>
   </figure>
@@ -578,7 +578,7 @@
         These are all sketched in <xref ref="fig_vect2"/>.
       </p>
     </solution>
-    <solution component="video" vshift="4">
+    <solution component="video" vshift="8">
       <title>Video solution</title>
       <video width="98%" youtube="3MSwQJq_3s0" label="vid-vectors-intro-addition" component="video"/>
     </solution>
@@ -771,7 +771,7 @@
         (when their initial points are the same).
       </p>
     </solution>
-    <solution component="video" vshift="0">
+    <solution component="video" vshift="-1">
       <title>Video solution</title>
       <video width="98%" youtube="a_qRwTkQXYQ" label="vid-vectors-intro-subtraction" component="video"/>
     </solution>
@@ -1128,7 +1128,7 @@
         </ol>
       </p>
     </solution>
-    <solution component="video" vshift="5">
+    <solution component="video" vshift="9">
       <title>Video solution</title>
       <video width="98%" youtube="B9OV0Dja6IY" label="vid-vectors-intro-unitvec-eg" component="video"/>
     </solution>

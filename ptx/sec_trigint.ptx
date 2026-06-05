@@ -832,7 +832,7 @@
           </md>.
         </p>
       </solution>
-      <solution component="video" vshift="-2">
+      <solution component="video" vshift="2">
         <title>Video solution</title>
         <video width="98%" youtube="MUDKKDz3_C8" label="vid-int-trig-ex-tan6" component="video"/>
       </solution>

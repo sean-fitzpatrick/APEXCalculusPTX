@@ -15,7 +15,7 @@
       Knowing <m>x</m>, we can directly find <m>y</m>.)
     </p>
 
-    <figure xml:id="vid_deriv_impl_intro" component="video" vshift="0">
+    <figure xml:id="vid_deriv_impl_intro" component="video" vshift="3">
       <caption>Video introduction to <xref ref="sec_imp_deriv"/></caption>
       <video youtube="E0mQbLG3Pjo" label="vid_deriv_impl_intro"/>
     </figure>
@@ -319,7 +319,7 @@
           <!-- figures/fig_implicit2.tex END -->
         </figure>
       </solution>
-      <solution component="video" vshift="6">
+      <solution component="video" vshift="8">
         <title>Video solution</title>
         <video width="98%" youtube="qYrcm4ObwOM" label="vid_deriv_impl_tan_line_prev_ex" component="video"/>
       </solution>
@@ -614,7 +614,7 @@
           <!-- figures/fig_implicit6.tex END -->
         </figure>
       </solution>
-      <solution component="video" vshift="6">
+      <solution component="video" vshift="8">
         <title>Video solution</title>
         <video width="98%" youtube="BMn-BU6VTQU" label="vid_deriv_impl_ex_3" component="video"/>
       </solution>
@@ -1086,7 +1086,7 @@
           <!-- figures/fig_implicit10.tex END -->
         </figure>
       </solution>
-      <solution component="video" vshift="2">
+      <solution component="video" vshift="-4">
         <title>Video solution</title>
         <video youtube="6eL6WBlmItk" label="vid_deriv_implicit_logarithmic1"/>
       </solution>

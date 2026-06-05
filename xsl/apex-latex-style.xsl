@@ -406,7 +406,7 @@ https://tex.stackexchange.com/questions/605955/can-i-avoid-indentation-of-margin
 <xsl:template match="aside">
     <xsl:text>&#xa;</xsl:text>
     <xsl:choose>
-      <xsl:when test="ancestor::example and not(ancestor::ul or ancestor::ol)">
+      <xsl:when test="(ancestor::example or ancestor::insight) and not(ancestor::ul or ancestor::ol)">
         <xsl:text>\tcbmarginbox{%&#xa;</xsl:text>
       </xsl:when>
       <xsl:when test="(ancestor::example or ancestor::theorem) and (ancestor::ul or ancestor::ol)">
@@ -453,7 +453,7 @@ https://tex.stackexchange.com/questions/605955/can-i-avoid-indentation-of-margin
 
   <!-- give video a new name so it escapes assembly -->
   <margin-video>
-    <image width="40%" margins="2% 58%">
+    <image width="30%" margins="6% 64%">
       <xsl:attribute name="pi:generated">
           <xsl:text>qrcode/</xsl:text>
           <xsl:apply-templates select="." mode="assembly-id"/>

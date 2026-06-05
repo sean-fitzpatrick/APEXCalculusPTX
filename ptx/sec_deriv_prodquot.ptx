@@ -120,7 +120,7 @@
           <!-- figures/fig_5xsquaredsinx.tex END -->
       </figure>
     </solution>
-    <solution component="video" vshift="4">
+    <solution component="video" vshift="9">
       <title>Video solution</title>
       <video width="98%" youtube="37efDywkDyE" label="vid_deriv_prod_quot_prod_ex" component="video"/>
     </solution>
@@ -545,7 +545,7 @@
         <!-- figures/fig_tanx.tex END -->
       </figure>
     </solution>
-    <solution component="video" vshift="6">
+    <solution component="video" vshift="9">
       <title>Video solution</title>
       <video width="98%" youtube="wslbADxDg4c" label="vid_deriv_prod_quot_tanx" component="video"/>
     </solution>

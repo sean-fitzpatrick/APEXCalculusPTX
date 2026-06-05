@@ -301,7 +301,7 @@
           <!-- figures/figplanes1_3D.asy END -->
         </figure>
       </solution>
-      <solution component="video" vshift="3">
+      <solution component="video" vshift="6">
         <title>Video solution</title>
         <video width="98%" youtube="oc77R0am1vk" label="vid-vectors-planes-3points" component="video"/>
       </solution>
@@ -530,7 +530,7 @@
           <!-- figures/figplanes3_3D.asy END -->
         </figure>
       </solution>
-      <solution component="video" vshift="3">
+      <solution component="video" vshift="4">
         <title>Video solution</title>
         <video width="98%" youtube="2diP-H-QLoI" label="vid-vectors-planes-given-normal" component="video"/>
       </solution>
@@ -795,7 +795,7 @@
           <!-- figures/figplanes5_3D.asy END -->
         </figure>
       </solution>
-      <solution component="video" vshift="5">
+      <solution component="video" vshift="6">
         <title>Video solution</title>
         <video width="98%" youtube="DjuaixH0ayo" label="vid-vectors-planes-lineint" component="video"/>
       </solution>

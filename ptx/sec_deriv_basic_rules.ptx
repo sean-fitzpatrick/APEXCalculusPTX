@@ -117,7 +117,7 @@
     
   </exercise>
 
-  <figure xml:id="vid_deriv_basic_rules" component="video" vshift="0">
+  <figure xml:id="vid_deriv_basic_rules" component="video" vshift="2.5">
     <caption>Video explanation of <xref ref="thm_deriv_common"/></caption>
     <video youtube="wPJ8-zKc1n0" label="vid_deriv_basic_rules"/>
   </figure>
@@ -287,7 +287,7 @@
         <!-- figures/fig_xcubedwithderiv.tex END -->
       </figure>
     </solution>
-    <solution component="video" vshift="5">
+    <solution component="video" vshift="8.5">
       <title>Video solution</title>
       <video width="98%" youtube="lyAEJSmSr-A" label="vid_deriv_basic_rules_ex" component="video"/>
     </solution>
@@ -394,7 +394,7 @@
     
   </exercise>
 
-  <figure xml:id="vid_deriv_basic_rules_const_sum_rule" component="video" vshift="2">
+  <figure xml:id="vid_deriv_basic_rules_const_sum_rule" component="video" vshift="1">
     <caption>Video presentation of <xref ref="thm_deriv_prop"/></caption>
     <video youtube="Hr0sQcVhQ9A" label="vid_deriv_basic_rules_const_sum_rule"/>
   </figure>
@@ -654,7 +654,7 @@
       </p>
     </aside>
 
-    <figure xml:id="vid_deriv_basic_rules_higher_order_deriv" component="video" vshift="0">
+    <figure xml:id="vid_deriv_basic_rules_higher_order_deriv" component="video" vshift="-1">
       <caption>Video explanation of <xref ref="def_Higher_Deriv"/></caption>
       <video youtube="usabSpUh65w" label="vid_deriv_basic_rules_higher_order_deriv"/>
     </figure>

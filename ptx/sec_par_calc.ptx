@@ -500,7 +500,7 @@
           therefore the tangent line is <m>y=0</m>, the <m>x</m>-axis.
         </p>
       </solution>
-      <solution component="video" vshift="5">
+      <solution component="video" vshift="0">
         <title>Video solution</title>
         <video width="98%" youtube="rb4wEkhcUtE" label="vid-planecurves-parcalc-astroid" component="video"/>
       </solution>
@@ -1108,10 +1108,10 @@
           Increasing <m>n</m> shows that this value is stable and a good approximation of the actual value.
         </p>
       </solution>
-      <solution component="video" vshift="0">
+      <!-- <solution component="video" vshift="2">
         <title>Video solution</title>
         <video width="98%" youtube="G5U9BVhB3PE" label="vid-planecurves-parcalc-arclength-example2" component="video"/>
-      </solution>
+      </solution> -->
     </example>
 
     <exercise label="APEX-PROTEUS-par-calc-3-v1" component="proteus">

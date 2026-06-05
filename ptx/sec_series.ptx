@@ -718,7 +718,7 @@
           </ol>
         </p>
       </solution>
-      <solution component="video" vshift="13">
+      <solution component="video" vshift="20">
         <title>Video solution</title>
         <video width="98%" youtube="9_AmxyiKVm8" label="vid-seqseries-sequences-example-geometric" component="video"/>
       </solution>

@@ -741,7 +741,7 @@
         It is also clearly stated that <m>f(1) = 1</m>.
       </p>
     </solution>
-    <solution component="video" vshift="0.5">
+    <solution component="video" vshift="-1.5">
       <title>Video solution</title>
       <video width="98%" youtube="HVFazve-Qxc" label="vid_limit_one_sided_ex_4" component="video"/>
     </solution>

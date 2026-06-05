@@ -1038,7 +1038,7 @@
           the graph defined by <m>y=1-x</m> with unrestricted domain is given in a thin line.
         </p>
       </solution>
-      <solution component="video" vshift="0">
+      <solution component="video" vshift="4">
         <title>Video solution</title>
         <video width="98%" youtube="8Vgv74zCWFQ" label="vid-planecurves-parameq-elim-param" component="video"/>
       </solution>
@@ -1110,7 +1110,7 @@
           demonstrating that the graph is indeed of an ellipse with a horizontal major axis and center at <m>(3,1)</m>.
         </p>
       </solution>
-      <solution component="video" vshift="3">
+      <solution component="video" vshift="8">
         <title>Video solution</title>
         <video width="98%" youtube="RYkPHhpgnas" label="vid-planecurves-parameq-ellipse" component="video"/>
       </solution>
@@ -1576,7 +1576,7 @@
           <!-- figures/fig_pareq9.tex END -->
         </figure>
       </solution>
-      <solution component="video" vshift="3">
+      <solution component="video" vshift="6">
         <title>Video solution</title>
         <video width="98%" youtube="rqhh0McArDM" label="vid-planecurves-parameq-nonsmooth" component="video"/>
       </solution>

@@ -579,7 +579,7 @@
       This is explained in the video in <xref ref="vid_deriv_intro_diff_imp_cont"/>.
     </p>
 
-    <figure xml:id="vid_deriv_intro_diff_imp_cont" component="video" vshift="-2">
+    <figure xml:id="vid_deriv_intro_diff_imp_cont" component="video" vshift="-4">
       <caption>Showing that every differentiable function is continuous</caption>
       <video youtube="Ev9hJVbDO1k" label="vid_deriv_intro_diff_imp_cont"/>
     </figure>
@@ -802,7 +802,44 @@
           The graph seems to imply the approximation is rather good.
         </p>
 
-        <figure xml:id="fig_tangentsinx" vshift="3">
+        <figure xml:id="fig_tangentsinx" vshift="3" component="novideo">
+          <caption><m>f(x) = \sin(x)</m> graphed with an approximation to its tangent line at <m>x=0</m></caption>
+          <!-- START figures/fig_tangentsinx.tex -->
+          <image width="47%">
+            <shortdescription>
+              A graph of function sin(x) with an approximation to its tangent line at x=0.
+            </shortdescription>
+            <description>
+              <p>
+                The <m>y</m> axis of the graph is drawn from <m>-1</m> to <m>1</m>
+                and the <m>x</m> axis is drawn from <m>-\pi</m> and <m>\pi</m>.
+                The sine graph has an <m>x</m> intercept at <m>-\pi</m> then enters the
+                third quadrant and forms an upward facing parabola
+                with its vertex at  point <m>(-\pi/2, -1)</m>.
+                It passes throgh the origin then enters the first quadrant forming a downward
+                facing parabola with vertex at <m>(\pi/2, 1)</m>.
+              </p>
+            </description>
+            <latex-image label="img_tangentsinx">
+              \begin{tikzpicture}
+                \begin{axis}[
+                    ymin=-1.1,
+                    ymax=1.1,
+                    xmin=-3.5,
+                    xmax=3.5,
+                    xtick={-3.14,-1.57,1.57,3.14},
+                    xticklabels={$-\pi$,$-\frac{\pi}2$,$\frac{\pi}2$,$\pi$}
+                  ]
+                  \addplot+[infinite,domain=-3.5:3.5,samples=101]{sin(deg(x))};
+                  \addplot+[tangentline,domain=-1:1] {sin(deg(1))*x};
+                  \addplot [soliddot] coordinates{(0,0)};
+                \end{axis}
+              \end{tikzpicture}
+            </latex-image>
+          </image>
+          <!-- figures/fig_tangentsinx.tex END -->
+        </figure>
+        <figure xml:id="fig_tangentsinx" vshift="-1" component="video">
           <caption><m>f(x) = \sin(x)</m> graphed with an approximation to its tangent line at <m>x=0</m></caption>
           <!-- START figures/fig_tangentsinx.tex -->
           <image width="47%">

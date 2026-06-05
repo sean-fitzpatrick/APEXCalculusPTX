@@ -81,7 +81,7 @@
       <!-- figures/fig_improper1.tex END -->
     </figure>
 
-    <figure xml:id="vid-int-improper-intro" component="video" vshift="6">
+    <figure xml:id="vid-int-improper-intro" component="video" vshift="9">
       <caption>Video introduction to <xref ref="sec_improper_integration"/></caption>
       <video youtube="HhBRqV7rt4I" label="vid-int-improper-intro"/>
     </figure>
@@ -431,7 +431,7 @@
           </ol>
         </p>
       </solution>
-      <solution component="video" vshift="7">
+      <solution component="video" vshift="8.5">
         <title>Video solution</title>
         <video width="98%" youtube="hXnmu7fZj-E" label="vid-int-improper-ex-at-infinity" component="video"/>
       </solution>
@@ -719,7 +719,7 @@
           </ol>
         </p>
       </solution>
-      <solution component="video" vshift="1">
+      <solution component="video" vshift="-2">
         <title>Video solution</title>
         <video width="98%" youtube="F46oIXOBjAw" label="vid-int-improper-ex-vert-asy" component="video"/>
       </solution>
@@ -1062,7 +1062,7 @@
           </ol>
         </p>
       </solution>
-      <solution component="video" vshift="5">
+      <solution component="video" vshift="-1">
         <title>Video solution</title>
         <video width="98%" youtube="356-QIN7fWA" label="vid-int-improper-ex-compare-direct" component="video"/>
       </solution>
@@ -1203,7 +1203,7 @@
           <!-- figures/fig_impint6.tex END -->
         </figure>
       </solution>
-      <solution component="video" vshift="6">
+      <solution component="video" vshift="-2">
         <title>Video solution</title>
         <video width="98%" youtube="nIr1A1Tmako" label="vid-int-improper-ex-limit-compare" component="video"/>
       </solution>
@@ -1243,7 +1243,7 @@
       they are omitted from this text.
     </p>
 
-    <aside vshift="-2">
+    <aside vshift="-5">
       <p>
         If you do need to use comparison for an improper integral with infinite range,
         it is generally wise to stick with direct comparison.

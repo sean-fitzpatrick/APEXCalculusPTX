@@ -308,7 +308,7 @@
       </statement>
     </theorem>
 
-    <figure xml:id="vid-seqseries-ratroot-root-test" component="video" vshift="3">
+    <figure xml:id="vid-seqseries-ratroot-root-test" component="video" vshift="-1">
       <caption>Video presentation of <xref ref="thm_root_test"/></caption>
       <video youtube="foE1iRYTXpc" label="vid-seqseries-ratroot-root-test"/>
     </figure>

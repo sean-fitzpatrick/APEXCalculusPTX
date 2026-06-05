@@ -1296,7 +1296,7 @@
           </md>
         </p>
       </solution>
-      <solution component="video" vshift="2">
+      <solution component="video" vshift="5">
         <title>Video solution</title>
         <video width="98%" youtube="su2CXdpYPdo" label="vid_int_FTC_ex_4" component="video"/>
       </solution>
@@ -1308,7 +1308,7 @@
       The video example in <xref ref="vid_int_FTC_ex_5"/> illustrates this phenomenon.
     </p>
 
-    <figure xml:id="vid_int_FTC_ex_5" component="video" vshift="-2">
+    <figure xml:id="vid_int_FTC_ex_5" component="video" vshift="2">
       <caption>Finding the area between curves that intersect multiple times</caption>
       <video youtube="Bgji1b7Wdr4" label="vid_int_FTC_ex_5"/>
     </figure>
@@ -1529,7 +1529,7 @@
       </statement>
     </theorem>
 
-    <figure xml:id="vid_int_FTC_MVT_int" component="video" vshift="0">
+    <figure xml:id="vid_int_FTC_MVT_int" component="video" vshift="5">
       <caption>Video presentation of <xref ref="thm_mvt2"/></caption>
       <video youtube="KD90CwK0PJk" label="vid_int_FTC_MVT_int"/>
     </figure>

@@ -190,7 +190,7 @@
     
   </exercise>
 
-  <figure xml:id="vid_limit_defn_precise" component="video" vshift="-2">
+  <figure xml:id="vid_limit_defn_precise" component="video" vshift="2">
     <caption>Video presentation of <xref ref="def_limit"/></caption>
     <video youtube="npoSY-AFvOY" label="vid_limit_defn_precise"/>
   </figure>
@@ -464,7 +464,7 @@
         that <m>\lim_{x\to 4} \sqrt{x} = 2</m>.
       </p>
     </solution>
-    <solution component="video" vshift="3">
+    <solution component="video" vshift="5">
       <title>Video solution</title>
       <video width="98%" youtube="qHWI0eha_rA" label="vid_limit_defn_sqrt_epsilon" component="video"/>
     </solution>

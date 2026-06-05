@@ -685,6 +685,9 @@
       one has power to select the easiest computation as illustrated next.
     </p>
 
+
+        <enlarge-page skipsize="4"/>
+
     <example xml:id="ex_divthm_space4">
       <title>Using the Divergence Theorem to compute flux</title>
       <statement>
@@ -704,8 +707,6 @@
             \text{ Outward flux: }  \int_{-1}^1\int_{-1}^1\int_{-1}^1(2xy+2z+3x^2z^2)\, dz\, dy\, dx = \frac83
           </md>.
         </p>
-
-        <enlarge-page skipsize="2"/>
 
         <p>
           The direct flux computation requires six surface integrals,

@@ -724,7 +724,7 @@
           <!-- figures/fig_conc1.tex END -->
         </figure>
       </solution>
-      <solution component="video" vshift="9">
+      <solution component="video" vshift="10.5">
         <title>Video solution</title>
         <video width="98%" youtube="n8TRVD_8sY0" label="vid_graphs_concav_ex_1" component="video"/>
       </solution>
@@ -1225,7 +1225,7 @@
       <!-- figures/fig_concavity6.tex END -->
     </figure>
 
-    <figure xml:id="vid_graphs_concav_second_deriv_test" component="video" vshift="-4">
+    <figure xml:id="vid_graphs_concav_second_deriv_test" component="video" vshift="-15">
       <caption>Video presentation of <xref ref="thm_second_der"/></caption>
       <video youtube="4hWldEUoG2U" label="vid_graphs_concav_second_deriv_test"/>
     </figure>
@@ -1296,7 +1296,7 @@
           <!-- figures/fig_conc4.tex END -->
         </figure>
       </solution>
-      <solution component="video" vshift="2">
+      <solution component="video" vshift="-6">
         <title>Video solution</title>
         <video width="98%" youtube="_DhmPXRZfi8" label="vid_graphs_concav_ex_4" component="video"/>
       </solution>

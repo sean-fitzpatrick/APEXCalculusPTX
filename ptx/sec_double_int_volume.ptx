@@ -337,7 +337,7 @@
     This leads to a definition.
   </p>
 
-  <aside xml:id="note_doubleint" vshift="-2.5">
+  <aside xml:id="note_doubleint" vshift="-2">
     <title>Double integrals as limits of double sums</title>
 
     <p>
@@ -402,7 +402,7 @@
     </statement>
   </definition>
 
-  <figure xml:id="vid-multint-double-def" component="video" vshift="-5.5">
+  <figure xml:id="vid-multint-double-def" component="video" vshift="-5">
     <caption>Defining the double integral</caption>
     <video youtube="l7hGaXcsq9g" label="vid-multint-double-def"/>
   </figure>
@@ -884,7 +884,7 @@
     </solution>
   </example>
 
-  <figure xml:id="vid-multint-double-rectangle-eg" component="video" vshift="3.5">
+  <figure xml:id="vid-multint-double-rectangle-eg" component="video" vshift="3">
     <caption>Further examples of double integrals over rectangles</caption>
     <video youtube="MMbLzFw-5Rg" label="vid-multint-double-rectangle-eg"/>
   </figure>
@@ -1012,7 +1012,7 @@
     </statement>
   </theorem>
 
-  <figure xml:id="vid-multint-double-general-region" component="video" vshift="5">
+  <figure xml:id="vid-multint-double-general-region" component="video" vshift="11">
     <caption>Evaluating a double integral over a more general region</caption>
     <video youtube="FcxnuFSNOfY" label="vid-multint-double-general-region"/>
   </figure>

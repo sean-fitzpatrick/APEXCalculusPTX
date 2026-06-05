@@ -398,13 +398,6 @@
     </p>
   </insight>
 
-  <p xml:id="vidint_deriv_apps_diff_dx_eq_delta_x" component="video">
-    When students first encounter differentials,
-    they are often left wondering why <m>dy</m> and <m>\Delta y</m> are different,
-    while <m>dx</m> and <m>\Delta x</m> are the same.
-    The video in <xref ref="vid_deriv_apps_diff_dx_eq_delta_x"/> attempts to offer an explanation.
-  </p>
-
   <figure xml:id="vid_deriv_apps_diff_dx_eq_delta_x" component="video" vshift="1">
     <caption>Why is it that <m>dx = \Delta x</m>?</caption>
     <video youtube="XxpcZw702nA" label="vid_deriv_apps_diff_dx_eq_delta_x"/>
@@ -558,7 +551,7 @@
         so we approximate <m>\sqrt{4.5} \approx 2.125</m>.
       </p>
     </solution>
-    <solution component="video" vshift="0">
+    <solution component="video" vshift="2">
       <title>Video solution</title>
       <video width="98%" youtube="nFaq1O_wWso" label="vid_deriv_apps_diff_ex_3" component="video"/>
     </solution>

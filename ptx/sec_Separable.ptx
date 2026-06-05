@@ -501,7 +501,7 @@
           The general solution the logistic differential equation is the set containing <m>\displaystyle y = \frac{M}{1 + be^{-kt}}</m> and <m>y=0</m>.
         </p>
       </solution>
-      <solution component="video" vshift="4">
+      <solution component="video" vshift="5">
         <title>Video solution</title>
         <video width="98%" youtube="nLItalqug6A" label="vid-diffeq-separable-example-logistic" component="video"/>
       </solution>
