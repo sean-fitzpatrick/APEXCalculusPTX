@@ -1672,7 +1672,7 @@
                 </tabular> -->
               </figure>
 
-              <figure xml:id="fig_taypoly5a-early" vshift="-3" component="taypoly-early">
+              <figure xml:id="fig_taypoly5a-early" vshift="-2.5" component="taypoly-early">
                 <caption>A table of the derivatives of <m>f(x)=\sqrt{x}</m> evaluated at <m>x=4</m></caption>
                 <sidebyside>
                   <p>

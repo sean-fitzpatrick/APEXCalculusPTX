@@ -1178,7 +1178,7 @@
           that is, find the flux across <m>C</m> and show it is equal to the double integral of <m>\divv \vec F</m> over <m>R</m>.
         </p>
 
-        <figure xml:id="fig_div1" vshift="-5">
+        <figure xml:id="fig_div1" vshift="-5.5">
           <caption>The region <m>R</m> used in <xref ref="ex_div1"/></caption>
           <image width="47%">
             <shortdescription>A circle in the plane, plotted against a spiral vector field.</shortdescription>

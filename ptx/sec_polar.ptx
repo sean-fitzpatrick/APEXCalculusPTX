@@ -1213,9 +1213,7 @@
       and is left as a problem in the Exercise section.
     </p>
 
-    <enlarge-page skipsize="2"/>
-
-    <paragraphs>
+    <paragraphs xml:id="polar-curve-gallery">
       <title>Gallery of Polar Curves</title>
 
       <p>

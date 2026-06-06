@@ -693,7 +693,7 @@
         The other driver appears to be speeding slightly.
       </p>
     </solution>
-    <solution component="video" vshift="-1">
+    <solution component="video" vshift="-0.5">
       <title>Video solution</title>
       <video width="98%" youtube="8fFao8XCQC0" label="vid_deriv_apps_rel_rates_speed_radar" component="video"/>
     </solution>
