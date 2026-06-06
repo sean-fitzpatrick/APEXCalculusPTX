@@ -583,7 +583,7 @@
   </p>
 
   <p>
-    In <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/>
+    In <xref ref="idea_common_taylor"/>
     we give a table of the Taylor series of a number of common functions.
     We then give a theorem about the
     <q>algebra of power series,</q> that is,
@@ -595,7 +595,7 @@
   <p>
     Before we investigate combining functions,
     consider the Taylor series for the arctangent function
-    (see <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/>).
+    (see <xref ref="idea_common_taylor"/>).
     Knowing that <m>\tan^{-1}(1) = \pi/4</m>,
     we can use this series to approximate the value of <m>\pi</m>:
     <md>
@@ -770,13 +770,13 @@
     <statement>
       <p>
         Write out the first 3 terms of the Taylor Series for
-        <m>f(x) = e^x\cos(x)</m> using <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/>
+        <m>f(x) = e^x\cos(x)</m> using <xref ref="idea_common_taylor"/>
         and <xref ref="thm_series_alg"/>.
       </p>
     </statement>
     <solution>
       <p>
-        <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/> informs us that
+        <xref ref="idea_common_taylor"/> informs us that
         <md>
           e^x = 1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\cdots \text{ and }  \cos(x) = 1-\frac{x^2}{2!}+\frac{x^4}{4!}+\cdots
         </md>.
@@ -818,7 +818,7 @@
 
 
   <figure xml:id="vid-seqseries-taylorseries-arctan" component="video" vshift="9">
-    <caption>Deriving the Taylor series for <m>\arctan(x)</m> in <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/></caption>
+    <caption>Deriving the Taylor series for <m>\arctan(x)</m> in <xref ref="idea_common_taylor"/></caption>
     <video youtube="v-y5IH796gY" label="vid-seqseries-taylorseries-arctan"/>
   </figure>
 
@@ -1125,7 +1125,7 @@
       </p>
 
       <p>
-        Using <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/>
+        Using <xref ref="idea_common_taylor"/>
         and <xref ref="thm_series_alg"/>,
         we recognize <m>f(x) = e^{2x}</m>:
         <md>
@@ -1141,7 +1141,7 @@
 
   <p>
     Finding a pattern in the coefficients that match the series expansion of a known function,
-    such as those shown in <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/>,
+    such as those shown in <xref ref="idea_common_taylor"/>,
     can be difficult.
     What if the coefficients in the previous example were given in their reduced form;
     how could we still recover the function <m>y=e^{2x}</m>?
@@ -1256,7 +1256,7 @@
       <exercisegroup cols="2" xml:id="exset-taylor-series-identify-pattern">
         <introduction>
           <p>
-            <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/>
+            <xref ref="idea_common_taylor"/>
             gives the <m>n</m>th term of the Taylor series of common functions.
             Verify the formula given in the Key Idea by finding
             the first few terms of the Taylor series of the given function and identifying a pattern.
@@ -1388,7 +1388,7 @@
             Find a formula for the <m>n</m>th term of the Taylor series of <m>f(x)</m>,
             centered at <m>c</m>,
             by finding the coefficients of the first few powers of <m>x</m> and looking for a pattern.
-            (The formulas for several of these are found in <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/>;
+            (The formulas for several of these are found in <xref ref="idea_common_taylor"/>;
             show work verifying these formula.)
           </p>
         </introduction>
@@ -1555,7 +1555,7 @@
         <introduction>
           <p>
             Show that the Taylor series for <m>f(x)</m>,
-            as given in <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/>,
+            as given in <xref ref="idea_common_taylor"/>,
             is equal to <m>f(x)</m> by applying <xref ref="thm_function_series_equality"/>;
             that is, show <m>\lim\limits_{n\to\infty}R_n(x) =0</m>.
           </p>
@@ -1743,7 +1743,7 @@
 
         <introduction>
           <p>
-            Use the Taylor series given in <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/> to verify the given identity.
+            Use the Taylor series given in <xref ref="idea_common_taylor"/> to verify the given identity.
           </p>
         </introduction>
 
@@ -1925,7 +1925,7 @@
 
         <introduction>
           <p>
-            Use the Taylor series given in <xref ref="idea_common_taylor" component="taypoly-late"/><xref ref="idea_common_taylor-early" component="taypoly-early"/>
+            Use the Taylor series given in <xref ref="idea_common_taylor"/>
             to create the Taylor series of the given functions.
           </p>
         </introduction>
