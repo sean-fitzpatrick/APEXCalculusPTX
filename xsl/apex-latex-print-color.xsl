@@ -313,9 +313,9 @@ https://tex.stackexchange.com/questions/605955/can-i-avoid-indentation-of-margin
       <xsl:text>pt}&#xa;</xsl:text>  
     </xsl:if>
     <xsl:if test="(@hskip) and ($b-latex-two-sides)">
-    <xsl:text>\tcbset{enlarge left by=-</xsl:text>
+    <xsl:text>\ifthenelse{\isodd{\thepage}}{}{\tcbset{enlarge left by=-</xsl:text>
       <xsl:value-of select="@hskip"/>
-      <xsl:text>pt}&#xa;</xsl:text>  
+      <xsl:text>pt}}&#xa;</xsl:text>  
   </xsl:if>
     <xsl:apply-imports/>
     <xsl:if test="@vshift">
@@ -393,9 +393,9 @@ https://tex.stackexchange.com/questions/605955/can-i-avoid-indentation-of-margin
     <xsl:text>pt}&#xa;</xsl:text>  
   </xsl:if>
   <xsl:if test="(@hskip) and ($b-latex-two-sides)">
-    <xsl:text>\tcbset{enlarge left by=-</xsl:text>
+    <xsl:text>\ifthenelse{\isodd{\thepage}}{}{\tcbset{enlarge left by=-</xsl:text>
       <xsl:value-of select="@hskip"/>
-      <xsl:text>pt}&#xa;</xsl:text>  
+      <xsl:text>pt}}&#xa;</xsl:text>  
   </xsl:if>
   <xsl:apply-imports/>
   <xsl:if test="@hstretch">
