@@ -774,7 +774,7 @@
         we choose a smaller interval containing <m>1</m>: <m>0.75\lt x\lt 1.25</m>. 
         So
         <md>
-          <mrow>0\frac34 amp \lt  x\lt \frac54</mrow>
+          <mrow>0\frac34 \amp \lt  x\lt \frac54</mrow>
           <mrow>\frac{9}{16}\amp \lt  x^2\lt \frac{25}{16}\amp\amp \text{(Squared each term.)}</mrow>
           <intertext>Adding the above two inequalities, we get:</intertext>
           <mrow>\frac{21}{16}\amp \lt  x^2+x\lt \frac{45}{16}</mrow>
