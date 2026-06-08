@@ -953,7 +953,7 @@
           \delta = \min\{\abs{\ln(1-\varepsilon)}, \ln(1+\varepsilon)\} = \ln(1+\varepsilon)\text{.} \quad \text{(See marginal note.)}
         </md>
       </p>
-      <aside xml:id="aside-limit-def-min-explain" vshift="2">
+      <aside xml:id="aside-limit-def-min-explain" vshift="4">
         <p>
         Recall <m>\ln 1= 0</m> and
         <m>\ln x\lt 0</m> when <m>0\lt x\lt 1</m>.
