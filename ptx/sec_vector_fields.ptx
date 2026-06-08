@@ -846,7 +846,7 @@
           </ol>
         </p>
       </statement>
-      <solution>
+      <solution xml:id="solution-vectorfield-break">
         <p>
           <ol>
             <li>

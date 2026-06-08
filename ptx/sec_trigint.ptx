@@ -797,7 +797,7 @@
       </p>
     </aside>
 
-    <figure xml:id="vid-int-trig-ex-secant-power-reduction" component="video" vshift="-7">
+    <figure xml:id="vid-int-trig-ex-secant-power-reduction" component="video" vshift="-9">
       <caption>Deriving a power reduction formula for secant integrals</caption>
       <video youtube="Om0iOgV9IwA" label="vid-int-trig-ex-secant-power-reduction"/>
     </figure>
@@ -834,7 +834,7 @@
           </md>.
         </p>
       </solution>
-      <solution component="video" vshift="2">
+      <solution component="video" vshift="0">
         <title>Video solution</title>
         <video width="98%" youtube="MUDKKDz3_C8" label="vid-int-trig-ex-tan6" component="video"/>
       </solution>

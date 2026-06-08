@@ -57,21 +57,6 @@
       </statement>
     </definition>
 
-    <aside vshift="0">
-      <p>
-        From <xref ref="def_total_differential"/>,
-        we can write
-        <md>
-          dz = \langle\, f_x,f_y\rangle\cdot\langle dx,dy\rangle
-        </md>.
-      </p>
-
-      <p>
-        While not explored in this section,
-        the vector <m>\langle f_x,f_y\rangle</m> is seen again in the next section and fully defined in <xref ref="sec_directional_derivative"/>.
-      </p>
-    </aside>
-
     <example xml:id="ex_total_diff_10">
       <title>Finding the total differential</title>
       <statement>
@@ -91,6 +76,21 @@
         </p>
       </solution>
     </example>
+    
+    <aside xml:id="aside-differential-dot" vshift="0">
+      <p>
+        From <xref ref="def_total_differential"/>,
+        we can write
+        <md>
+          dz = \langle\, f_x,f_y\rangle\cdot\langle dx,dy\rangle
+        </md>.
+      </p>
+
+      <p>
+        While not explored in this section,
+        the vector <m>\langle f_x,f_y\rangle</m> is seen again in the next section and fully defined in <xref ref="sec_directional_derivative"/>.
+      </p>
+    </aside>
 
     <p>
       We <em>can</em> approximate <m>\ddz</m> with <m>dz</m>,

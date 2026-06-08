@@ -32,10 +32,12 @@
         <geometry>inner=1in,textheight=9in,textwidth=320pt,marginparwidth=150pt,marginparsep=20pt,bottom=1in,footskip=29pt</geometry>
       </page>
       <!-- page breaks in sections -->
-      <insertions pagebreaks="p-antider-break1 thm_deriv_glossary fig_disk0a fig_dotp3 fig_iterated6 fig_lines2 paragraphs-newton-convergence polar-curve-gallery"/>
-      <insertions pagebreaks="fig_polar_roses subsec-series idea_shell_and_washer def_triple_integral_2 def_parallel_vectors fig_motion2a subsec-common-thread"/>
-      <insertions pagebreaks="riemann-summary-break subsec-polar-graphs thm_continuity_algebra def_infl thm_second_der thm_multi_second_test ex_iterated6"/>
-      <insertions pagebreaks="reference-area-volume reference-algebra reference-formulas reference-series-tests sec-hessian sec-multi_extreme_further idea_common_taylor"/>
+      <insertions pagebreaks="p-antider-break1 fig_disk0a fig_dotp3 fig_iterated6 fig_lines2 paragraphs-newton-convergence polar-curve-gallery"/>
+      <insertions pagebreaks="fig_polar_roses subsec-series idea_shell_and_washer def_parallel_vectors fig_motion2a subsec-common-thread"/>
+      <insertions pagebreaks="riemann-summary-break subsec-polar-graphs thm_continuity_algebra def_infl thm_second_der thm_multi_second_test ex_iterated6 "/>
+      <insertions pagebreaks="reference-area-volume reference-algebra reference-formulas reference-series-tests sec-multi_extreme_further sec-hessian"/>
+      <!-- page breaks for orphaned solutions -->
+      <insertions pagebreaks="solution-parcalc-break solution-lhospital-break-1 solution-lhospital-break-2 solution-partial-break solution-vectorfield-break solution-vector-break"/>
        <!-- page breaks in exercises. -->
       <insertions pagebreaks="exset-deriv-implicit-tangent exset-definite-integral-area exset-definite-integral-velocity exset-definite-integral-properties"/>
       <insertions pagebreaks="exset-riemann-integral-approx x07_01_ex_29 exset-alternating-series-bound-sum exset-conic-hyperbola-eqn-std"/>

@@ -754,7 +754,7 @@
           In later sections we'll develop techniques for handling rational functions where substitution is not directly feasible.
         </p>
       </solution>
-      <solution component="video" vshift="3">
+      <solution component="video" vshift="1">
         <title>Video solution</title>
         <video width="98%" youtube="kuHKfsyaOAI" label="vid-int-sub-with-longdiv" component="video"/>
       </solution>
