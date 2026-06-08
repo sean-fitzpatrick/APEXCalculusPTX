@@ -982,7 +982,7 @@
 
           <li>
             <p>
-              <m>\lim\limits_{n\to\infty} (a_n/b_n) = L/K</m>, <m>K\neq 0</m>
+              <m>\lim\limits_{n\to\infty} \left(\frac{a_n}{b_n}\right) = \frac{L}{K}</m>, <m>K\neq 0</m>
             </p>
           </li>
 
