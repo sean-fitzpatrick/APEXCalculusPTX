@@ -1362,7 +1362,31 @@
           not their actual value, so this is all we display.
         </p>
 
-        <figure xml:id="fig_xminuscosx" vshift="-5">
+        <p>
+          <dl>
+            <li>
+              <title>Iteration 1:</title>
+              <p>
+                <m>f(0.7) \lt 0</m>, <m>f(0.9) \gt 0</m>, and <m>f(0.8) \gt 0</m>.
+                So replace <m>0.9</m> with <m>0.8</m> and repeat.
+              </p>
+            </li>
+            <li>
+              <title>Iteration 2:</title>
+              <p>
+                <m>f(0.7)\lt 0</m>, <m>f(0.8) \gt 0</m>,
+                and at the midpoint, <m>0.75</m>,
+                we have <m>f(0.75) \gt 0</m>.
+                So replace <m>0.8</m> with <m>0.75</m> and repeat.
+                Note that we don't need to continue to check the endpoints,
+                just the midpoint.
+                Thus we put the rest of the iterations in <xref ref="table_rootfinding"/>.
+              </p>
+            </li>
+          </dl>
+        </p>
+
+        <figure xml:id="fig_xminuscosx" vshift="0">
           <caption>Graphing a root of <m>f(x) = x-\cos(x)</m></caption>
           <!-- START figures/fig_xminuscosx.tex -->
           <image width="47%">
@@ -1397,30 +1421,6 @@
           </image>
           <!-- figures/fig_xminuscosx.tex END -->
         </figure>
-
-        <p>
-          <dl>
-            <li>
-              <title>Iteration 1:</title>
-              <p>
-                <m>f(0.7) \lt 0</m>, <m>f(0.9) \gt 0</m>, and <m>f(0.8) \gt 0</m>.
-                So replace <m>0.9</m> with <m>0.8</m> and repeat.
-              </p>
-            </li>
-            <li>
-              <title>Iteration 2:</title>
-              <p>
-                <m>f(0.7)\lt 0</m>, <m>f(0.8) \gt 0</m>,
-                and at the midpoint, <m>0.75</m>,
-                we have <m>f(0.75) \gt 0</m>.
-                So replace <m>0.8</m> with <m>0.75</m> and repeat.
-                Note that we don't need to continue to check the endpoints,
-                just the midpoint.
-                Thus we put the rest of the iterations in <xref ref="table_rootfinding"/>.
-              </p>
-            </li>
-          </dl>
-        </p>
 
         <table xml:id="table_rootfinding">
           <title>Iterations of the Bisection Method of Root Finding</title>
