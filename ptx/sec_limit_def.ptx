@@ -790,8 +790,8 @@
         <md>
           <mrow>\abs{x^2+x-1} \amp \lt \frac{29}{16} \amp\amp \text{which implies that}</mrow>
           <mrow>\frac{16}{29} \amp \lt \frac{1}{\abs{x^2+x-1}} \amp\amp \text{which implies that}</mrow>
-          <mrow number="yes" xml:id="eq_lim5">\frac{16\varepsilon}{29} \amp \lt \frac{\varepsilon}{\abs{x^2+x-1}}\amp\amp</mrow>
-        </md>.
+          <mrow number="yes" xml:id="eq_lim5">\frac{16\varepsilon}{29} \amp \lt \frac{\varepsilon}{\abs{x^2+x-1}}\text{.}\amp\amp</mrow>
+        </md>
       </p>
 
       <p>
