@@ -774,7 +774,7 @@
         we choose a smaller interval containing <m>1</m>: <m>0.75\lt x\lt 1.25</m>. 
         So
         <md>
-          <mrow>0\frac34 \amp \lt  x\lt \frac54</mrow>
+          <mrow>\frac34 \amp \lt  x\lt \frac54</mrow>
           <mrow>\frac{9}{16}\amp \lt  x^2\lt \frac{25}{16}\amp\amp \text{(Squared each term.)}</mrow>
           <intertext>Adding the above two inequalities, we get:</intertext>
           <mrow>\frac{21}{16}\amp \lt  x^2+x\lt \frac{45}{16}</mrow>
@@ -789,25 +789,25 @@
         we know that
         <md>
           <mrow>\abs{x^2+x-1} \amp \lt \frac{29}{16} \amp\amp \text{which implies that}</mrow>
-          <mrow>\frac{16}{25} \amp \lt \frac{1}{\abs{x^2+x-1}} \amp\amp \text{which implies that}</mrow>
-          <mrow number="yes" xml:id="eq_lim5">\frac{16\varepsilon}{25} \amp \lt \frac{\varepsilon}{\abs{x^2+x-1}}\amp\amp</mrow>
+          <mrow>\frac{16}{29} \amp \lt \frac{1}{\abs{x^2+x-1}} \amp\amp \text{which implies that}</mrow>
+          <mrow number="yes" xml:id="eq_lim5">\frac{16\varepsilon}{29} \amp \lt \frac{\varepsilon}{\abs{x^2+x-1}}\amp\amp</mrow>
         </md>.
       </p>
 
       <p>
-        So we set <m>\delta \lt 16\epsilon/25</m>, on the interval <m>(0.75, 1.25)</m>.
+        So we set <m>\delta \lt 16\epsilon/29</m>, on the interval <m>(0.75, 1.25)</m>.
         This ends our scratch-work, and we begin the formal proof
         (which also helps us understand why this was a good choice of <m>\delta</m>).
       </p>
 
       <p>
-        Given <m>\varepsilon\gt 0</m>, let <m>\delta \lt \min\{1/4, 16\varepsilon/25\}</m>.
+        Given <m>\varepsilon\gt 0</m>, let <m>\delta \lt \min\{1/4, 16\varepsilon/29\}</m>.
         We want to show that when <m>\abs{x-1}\lt \delta</m>,
         then <m>\abs{(x^3-2x)-(-1)}\lt \varepsilon</m>.
         We start with <m>\abs{x-1}\lt \delta</m>:
         <md>
           <mrow>\abs{x-1} \amp \lt  \delta</mrow>
-          <mrow>\abs{x-1} \amp \lt  \frac{16\varepsilon}{25}</mrow>
+          <mrow>\abs{x-1} \amp \lt  \frac{16\varepsilon}{29}</mrow>
           <mrow>\abs{x-1} \amp \lt  \frac{\varepsilon}{\abs{x^2+x-1}} \amp\amp  \text{(}<xref ref="eq_lim5" text="global">Inequality</xref>, x\text{ near 1)}</mrow>
           <mrow>\abs{x-1}\cdot \abs{x^2+x-1} \amp \lt  \varepsilon</mrow>
           <mrow>\abs{x^3-2x+1} \amp \lt  \varepsilon</mrow>
