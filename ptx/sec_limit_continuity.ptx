@@ -779,7 +779,7 @@
               </md>.
               Similarly, for <m>x\gt 0</m>, <m>f(x)=5x+\cos(x^3)</m>, so
               <md>
-                \lim_{x\\to 0^+}f(x) = \lim_{x\to 0^+}(5x+\cos(x^3)) = 0+\cos(0)=1
+                \lim_{x\to 0^+}f(x) = \lim_{x\to 0^+}(5x+\cos(x^3)) = 0+\cos(0)=1
               </md>.
               Therefore, <m>\lim_{x\to 1}f(x)=1</m> exists.
             </p>
