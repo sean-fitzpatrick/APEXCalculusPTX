@@ -1296,7 +1296,7 @@
           A table of these values is given in <xref ref="fig_taypoly4a" component="taypoly-late"/><xref ref="fig_taypoly4a-early" component="taypoly-early"/>.
         </p>
 
-        <figure xml:id="fig_taypoly4a" vshift="4" component="taypoly-late">
+        <figure xml:id="fig_taypoly4a" vshift="4.5" component="taypoly-late">
           <caption>A table of the derivatives of <m>f(x)=\cos(x)</m> evaluated at <m>x=0</m></caption>
           <sidebyside>
             <p>
@@ -1555,7 +1555,7 @@
           <!-- figures/fig_taypoly4.tex END -->
         </figure>
       </solution>
-      <solution component="video-late" vshift="7">
+      <solution component="video-late" vshift="7.7">
         <title>Video solution</title>
         <video width="98%" youtube="zg1W9miUCB4" label="vid_deriv_apps_taylor_poly_ex_4" component="video"/>
       </solution>
