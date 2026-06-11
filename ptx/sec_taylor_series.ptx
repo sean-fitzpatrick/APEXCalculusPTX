@@ -611,7 +611,7 @@
     which is not particularly good.
   </p>
 
-  <pagebreak-latex/>
+  <p xml:id="pagebreak-taylor-series"></p>
 
   <insight xml:id="idea_common_taylor" hstretch="375" hskip="87">
     <title>Important Taylor Series Expansions</title>

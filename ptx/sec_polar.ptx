@@ -1623,8 +1623,6 @@
       <p>
         Symmetric about <m>y</m>-axis: <m>r=a\pm b\sin(\theta)</m>; <m>a,b \gt 0</m>
       </p>
-
-      <!-- <pagebreak-latex/> -->
       
       <figure xml:id="fig_polar_roses" hstretch="450">
         <caption>Rose curves</caption>

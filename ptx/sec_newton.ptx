@@ -570,8 +570,6 @@
     is less than some small tolerance,
     in this case, <c>0.0000000001</c>.
   </p>
-
-  <!-- <pagebreak-latex/> -->
   
   <paragraphs xml:id="paragraphs-newton-convergence">
     <title>Convergence of Newton's Method</title>
