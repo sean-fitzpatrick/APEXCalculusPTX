@@ -123,8 +123,9 @@
             </li>
           </ol>
         </p>
+        <p xml:id="solution-lhospital-break-1"></p>
       </statement>
-      <solution xml:id="solution-lhospital-break-1">
+      <solution>
         <p>
           <ol>
             <li>

@@ -845,8 +845,9 @@
             </li>
           </ol>
         </p>
+        <p xml:id="solution-vectorfield-break"></p>
       </statement>
-      <solution xml:id="solution-vectorfield-break">
+      <solution>
         <p>
           <ol>
             <li>

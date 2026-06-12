@@ -1320,8 +1320,9 @@
             </li>
           </ol>
         </p>
+        <p xml:id="solution-partial-break"></p>
       </statement>
-      <solution xml:id="solution-partial-break">
+      <solution>
         <p>
           <ol>
             <li>

@@ -336,8 +336,9 @@
             </li>
           </ol>
         </p>
+        <p xml:id="solution-parcalc-break"></p>
       </statement>
-      <solution xml:id="solution-parcalc-break">
+      <solution>
         <p>
           <ol>
             <li>
