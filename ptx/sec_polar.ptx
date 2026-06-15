@@ -224,6 +224,23 @@
       </solution>
     </example>
 
+    <exercise label="APEX-PROTEUS-polar-1-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          Given the point with polar coordinates <m>(3,\pi/4)</m>,
+          we can think of navigating to the point as follows:
+          from the origin, turn so that you are facing out at an angle of <m>\pi/4</m>
+          relative to the <m>x</m> axis, then <q>walk</q> out a distance of <m>3</m> units.
+        </p>
+
+        <p>
+          How would you describe the process of navigating to the point with polar coordinates <m>(-3,\pi/4)</m>?
+        </p>
+      </statement>
+      <response/>
+    </exercise>
+
     <p>
       Consider the following two points:
       <m>A = P(1,\pi)</m> and <m>B = P(-1,0)</m>.
@@ -526,6 +543,99 @@
         </p>
       </solution>
     </example>
+
+    <exercise label="APEX-PROTEUS-polar-2-v1" component="proteus">
+      <statement>
+        <p>
+          Several points are plotted on a polar grid below.
+          (The dashed lines correspond to the <q>special angles</q> on the unit circle.)
+          Match each pair of polar coordinates on the left to the correct point.
+        </p>
+
+        <image width="47%">
+        <shortdescription>Four points plotted on a polar grid.</shortdescription>
+          <description>
+            <p>
+              A standard polar grid is given, with circles of radius 1, 2, and 3.
+              Rays marking the angles <m>\pi/6, \pi/4, \pi/3</m>, and <m>\pi/2</m> are also shown,
+              along with rays for the corresponding angles in the other quadrants.
+            </p>
+
+            <p>
+              The point <m>A</m> lies on the ray <m>\theta=\pi/2</m>,
+              and on the circle <m>r=2</m>.
+            </p>
+
+            <p>
+              The point <m>B</m> lies on the ray <m>\theta=-\pi/3</m>,
+              and on the circle <m>r=2</m>.
+            </p>
+
+            <p>
+              The point <m>C</m> lies on the ray <m>\theta = 7\pi/6</m>,
+              and on the circle <m>r=2</m>.
+            </p>
+
+            <p>
+              The point <m>D</m> lies on the ray <m>\theta = 2\pi/3</m>,
+              and on the circle <m>r=2</m>.
+            </p>
+          </description>
+          <latex-image label="img_polar-proteus-1">
+            \begin{tikzpicture}
+            \draw [dashed,gray] (-3.1,0) -- (0,0);
+            \draw[thick,-&gt;,&gt;=stealth] (0,0) node [below] {\(O\)} -- (3.5,0) ;
+            \filldraw (0,0) circle (2.4pt);
+            \foreach \x in {1,2,3}
+            {\draw (0,0) circle (\x cm);
+            \draw (\x,0) node [below right] {\x};
+            }
+            \foreach \x in {30,45,60,90,120,135,150}
+            {\draw [rotate=\x,dashed,gray] (-3.1,0) -- (3.1,0);
+            }
+            \filldraw (xyz polar cs: angle=90,radius=2) circle (2pt) node [above] {\(A\)}
+                  (xyz polar cs: angle=-60,radius=2)circle (2pt) node [below] {\(B\)}
+                  (xyz polar cs: angle=210,radius=2)circle (2pt) node [right] {\(C\)}
+                  (xyz polar cs: angle=120,radius=2)circle (2pt) node [below] {\(D\)};
+            \end{tikzpicture}
+          </latex-image>
+        </image>
+      </statement>
+      <cardsort>
+        <match>
+          <premise><m>(2,5\pi/2)</m></premise>
+          <premise><m>(-2,3\pi/2)</m></premise>
+          <response><m>A</m></response>
+        </match>
+        <match>
+          <premise><m>(2,5\pi/3)</m></premise>
+          <response><m>B</m></response>
+        </match>
+        <match>
+          <premise><m>(2,-5\pi/6)</m></premise>
+          <premise><m>(2,19\pi/6)</m></premise>
+          <premise><m>(-2,13\pi/6)</m></premise>
+          <response><m>C</m></response>
+        </match>
+        <match>
+          <premise><m>(2, 8\pi/3)</m></premise>
+          <premise><m>(-2,5\pi/3)</m></premise>
+          <response><m>D</m></response>
+        </match>
+        
+      </cardsort>
+    </exercise>
+    
+    <exercise label="APEX-PROTEUS-polar-3-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          What type of curve in the plane is obtained by setting <m>r</m> to a (positive) constant?
+          What type of curve do we get by setting <m>\theta</m> to a constant?
+        </p>
+      </statement>
+      <response/>
+    </exercise>
   </subsection>
 
   <subsection>
