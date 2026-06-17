@@ -126,7 +126,7 @@
     </solution>
   </example>
 
-  <exercise label="APEX-PROTEUS-deriv-prodquot-1-v2" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-2_4-deriv-prodquot-1-v2" component="proteus">
     <title>PROTEUS EXERCISE: Product Rule Match </title>
   
     <statement>
@@ -459,7 +459,7 @@
     </solution>
   </example>
 
-  <exercise component="proteus" label="APEX-PROTEUS-deriv-prodquot-2-v1">
+  <exercise component="proteus" label="APEX-PROTEUS-sec-2_4-deriv-prodquot-2-v1">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>

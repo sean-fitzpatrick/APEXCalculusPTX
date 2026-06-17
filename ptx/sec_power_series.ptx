@@ -285,7 +285,7 @@
     </statement>
   </insight>
 
-  <exercise label="APEX-PROTEUS-power-series-1-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-9_6-power-series-1-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
 
     <statement>
@@ -497,7 +497,7 @@
     </solution>
   </example>
 
-  <exercise label="APEX-PROTEUS-power-series-2-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-9_6-power-series-2-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     
     <statement>

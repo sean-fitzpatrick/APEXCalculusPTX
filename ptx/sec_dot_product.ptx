@@ -48,6 +48,36 @@
       </statement>
     </definition>
 
+    <exercise label="APEX-PROTEUS-dot-product-1-v1" component="proteus">
+      <statement>
+        <p>
+          Match each dot product on the left with its value on the right.
+        </p>
+      </statement>
+      <cardsort>
+        <match>
+          <premise><m>\langle 2,-3\rangle\cdot \langle 4,1\rangle</m></premise>
+          <response><m>5</m></response>
+        </match>
+        <match>
+          <response><m>\langle 8,-3\rangle</m></response>
+        </match>
+        <match>
+          <premise><m>\langle 2, 3, -4\rangle\cdot \langle 5,-2,1\rangle</m></premise>
+          <response><m>0</m></response>
+        </match>
+        <match>
+          <response><m>\langle 10,-6,-4\rangle</m></response>
+        </match>
+        
+        <feedback>
+          <p>
+            Remember that the dot product is a <em>scalar</em>, not a vector.
+          </p>
+        </feedback>
+      </cardsort>
+    </exercise>
+
     <p>
       Note how this product of vectors returns a
       <em>scalar</em>, not another vector.
@@ -332,6 +362,38 @@
         \frac{\vec u}{\norm{\vec u}}\cdot \frac{\vec v}{\norm{\vec v}} = \cos(\theta)
       </md>.
     </p>
+
+    <exercise label="APEX-PROTEUS-dot-product-2-v1" component="proteus">
+      <statement>
+        <p>
+          Suppose <m>\vec v</m> and <m>\vec w</m> are vectors in <m>\mathbb{R}^3</m>
+          such that <m>\norm{\vec v} = 3</m> and <m>\norm{\vec w}=5</m>.
+        </p>
+        <p>
+          Match each dot product value on the left with the best description
+          of the alignment of <m>\vec v</m> and <m>\vec w</m>
+        </p>
+      </statement>
+      <cardsort>
+        <match>
+          <premise><m>\dotp vw = 14</m></premise>
+          <response>Nearly the same direction</response>
+        </match>
+        <match>
+          <premise><m>\dot vw = 1</m></premise>
+          <response>Nearly perpendicular</response>
+        </match>
+        <match>
+          <premise><m>\dot vw = -13</m></premise>
+          <response>Nearly opposite directions</response>
+        </match>
+        <match>
+          <premise><m>\dot vw = 18</m></premise>
+          <response>Impossible</response>
+        </match>
+        
+      </cardsort>
+    </exercise>
 
     <p>
       Note how on the left hand side of the equation,

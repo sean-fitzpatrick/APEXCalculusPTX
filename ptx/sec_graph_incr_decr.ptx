@@ -105,7 +105,7 @@
     Informally, a function is increasing if as <m>x</m> gets larger (<ie/>, looking left to right) <m>f(x)</m> gets larger.
   </p>
 
-  <exercise label="APEX-PROTEUS-graph-incdec-1-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-3_3-graph-incdec-1-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>

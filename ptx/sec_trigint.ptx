@@ -402,7 +402,7 @@
       but being able to work a problem such as this from start to finish is important.
     </p>
 
-    <exercise component="proteus" label="APEX-PROTEUS-trigint-2-v1">
+    <exercise component="proteus" label="APEX-PROTEUS-sec-6_3-trigint-2-v1">
       <title>PROTEUS EXERCISE</title>
       
       <statement>
@@ -435,7 +435,7 @@
       </cardsort>
     </exercise>
 
-    <exercise component="proteus" label="APEX-PROTEUS-trigint-3-v1">
+    <exercise component="proteus" label="APEX-PROTEUS-sec-6_3-trigint-3-v1">
       <title>PROTEUS EXERCISE</title>
       
       <statement>
@@ -839,7 +839,7 @@
       </solution>
     </example>
 
-    <exercise component="proteus" label="APEX-PROTEUS-trigint-1-v1">
+    <exercise component="proteus" label="APEX-PROTEUS-sec-6_3-trigint-1-v1">
       <title>PROTEUS EXERCISE</title>
       
       <statement>

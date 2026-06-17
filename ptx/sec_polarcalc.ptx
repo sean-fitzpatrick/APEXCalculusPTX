@@ -64,7 +64,7 @@
       </p>
     </insight>
 
-    <exercise label="APEX-PROTEUS-polar-calc-1-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-10_5-polar-calc-1-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -253,7 +253,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-polar-calc-2-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-10_5-polar-calc-2-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -817,7 +817,7 @@
         </p>
       </insight>
 
-      <exercise label="APEX-PROTEUS-polar-calc-3-v1" component="proteus">
+      <exercise label="APEX-PROTEUS-sec-10_5-polar-calc-3-v1" component="proteus">
         <title>PROTEUS EXERCISE</title>
         <statement>
           <p>

@@ -734,7 +734,7 @@
       We provide here several tools that help determine the convergence or divergence of improper integrals without integrating.
     </p>
 
-    <exercise label="APEX-PROTEUS-improper-int-1-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-6_8-improper-int-1-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -1209,7 +1209,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-improper-int-2-v1">
+    <exercise label="APEX-PROTEUS-sec-6_8-improper-int-2-v1">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>

@@ -169,7 +169,7 @@
     <!-- figures/sinx_over_x_2.tex END -->
   </figure>
 
-  <exercise label="APEX-PROTEUS-limit-intro-1-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-1_1-limit-intro-1-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -345,7 +345,7 @@
     <em>exactly</em> <m>1</m>.
   </p>
 
-  <exercise label="APEX-PROTEUS-limit-intro-2-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-1_1-limit-intro-2-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -1148,7 +1148,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-limit-intro-3-v2" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-1_1-limit-intro-3-v2" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -1489,7 +1489,7 @@
       find the work done by a variable force, and much more.
     </p>
 
-    <exercise label="APEX-PROTEUS-limit-intro-4-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-1_1-limit-intro-4-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>

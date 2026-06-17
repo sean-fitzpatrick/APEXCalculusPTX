@@ -108,7 +108,7 @@
     </statement>
   </definition>
 
-  <exercise label="APEX-PROTEUS-limit-oneside-1-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-1_4-limit-oneside-1-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -445,7 +445,7 @@
     <m>L</m> (it may not even exist).
   </p>
 
-  <exercise component="proteus" label="APEX-PROTEUS-limit-oneside-2-v1">
+  <exercise component="proteus" label="APEX-PROTEUS-sec-1_4-limit-oneside-2-v1">
     <title>PROTEUS EXERCISE</title>    
     
     <statement>

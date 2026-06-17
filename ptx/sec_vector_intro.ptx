@@ -427,7 +427,7 @@
     </solution>
   </example>
 
-  <exercise label="APEX-PROTEUS-vector-intro-1-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-11_2-vector-intro-1-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -896,7 +896,7 @@
     Usually the context makes is clear whether <m>\vec 0</m> is referring to a vector in the plane or in space.
   </p>
 
-  <exercise label="APEX-PROTEUS-vector-intro-2-v1">
+  <exercise label="APEX-PROTEUS-sec-11_2-vector-intro-2-v1">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <interactive label="interactive-label" platform="doenetml" width="100%" aspect="2:8">
@@ -1299,7 +1299,7 @@
     </p>
   </insight>
 
-  <exercise label="APEX-PROTEUS-vector-intro-3-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-11_2-vector-intro-3-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>

@@ -214,7 +214,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-deriv-interp-1-v4" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-2_2-deriv-interpret-1-v4" component="proteus">
       <title>PROTEUS EXERCISE</title>
       
       <introduction>
@@ -223,7 +223,7 @@
           They are best attempted <em>before</em> reading the solution to the example.
         </p>
       </introduction>
-      <task label="APEX-PROTEUS-deriv-interp-1A-v4">
+      <task label="APEX-PROTEUS-sec-2_2-deriv-interpret-1A-v4">
         <statement>
           <p>
             In the equation <m>P(1000)=500</m>,
@@ -232,7 +232,7 @@
         </statement>
         <response/>
       </task>
-      <task label="APEX-PROTEUS-deriv-interp-1B-v4">
+      <task label="APEX-PROTEUS-sec-2_2-deriv-interpret-1B-v4">
         <statement>
           <p>
             What does <m>P'(n)</m> represent? Is it a slope? Of what?
@@ -241,7 +241,7 @@
         </statement>
         <response/>
       </task>
-      <task label="APEX-PROTEUS-deriv-interp-1C-v4">
+      <task label="APEX-PROTEUS-sec-2_2-deriv-interpret-1C-v4">
         <statement>
           <p>
             What are the units of <m>P'(n)</m>, and how are they related to the numbers in the problem:
@@ -250,7 +250,7 @@
         </statement>
         <response/>
       </task>
-      <task label="APEX-PROTEUS-deriv-interp-1D-v4">
+      <task label="APEX-PROTEUS-sec-2_2-deriv-interpret-1D-v4">
         <statement>
           <p>
             If <m>P'(1000)=0.25</m>, approximate the value of <m>P(1100)</m>.
@@ -261,7 +261,7 @@
       </task>
     </exercise>
 
-    <exercise label="APEX-PROTEUS-deriv-interp-2-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-2_2-deriv-interpret-2-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>

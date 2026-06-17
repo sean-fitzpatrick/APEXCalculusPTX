@@ -93,7 +93,7 @@
     </p>
   </aside>
 
-  <exercise component="proteus" label="APEX-PROTEUS-int-by-parts-1-v1">
+  <exercise component="proteus" label="APEX-PROTEUS-sec-6_2-int-by-parts-1-v1">
     <title>PROTEUS EXERCISE</title>    
     
     <statement>
@@ -244,7 +244,7 @@
     as indicated by <acro>L</acro> coming before <acro>A</acro> in <acro>LIATE</acro>.
   </p>
 
-  <exercise component="proteus" label="APEX-PROTEUS-int-by-parts-2-v1">
+  <exercise component="proteus" label="APEX-PROTEUS-sec-6_2-int-by-parts-2-v1">
     <title>PROTEUS EXERCISE</title>
     
     <statement>
@@ -666,7 +666,7 @@
     </solution>
   </example>
 
-  <exercise component="proteus" label="APEX-PROTEUS-int-by-parts-3-v1">
+  <exercise component="proteus" label="APEX-PROTEUS-sec-6_2-int-by-parts-3-v1">
     <title>PROTEUS EXERCISE</title>
     
     <statement>

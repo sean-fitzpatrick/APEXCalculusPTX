@@ -231,7 +231,7 @@
       </statement>
     </definition>
 
-    <exercise label="APEX-PROTEUS-space-coord-1-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-11_1-space-coord-1-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -3975,7 +3975,7 @@
       </solution>
     </example>
 
-    <!-- <exercise label="APEX-PROTEUS-space-coord-3-v1" component="proteus">
+    <!-- <exercise label="APEX-PROTEUS-sec-11_1-space-coord-3-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -4115,7 +4115,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-space-coord-2-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-11_1-space-coord-2-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>

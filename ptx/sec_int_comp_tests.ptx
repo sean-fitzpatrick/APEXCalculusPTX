@@ -350,7 +350,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-int-comp-test-1-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-9_3-int-comp-test-1-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       
       <statement>
@@ -598,7 +598,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-int-comp-test2-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-9_3-int-comp-test2-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -797,7 +797,7 @@
       as we have not learned how to apply L'Hospital's Rule to <m>n!</m>.
     </p>
 
-    <exercise label="APEX-PROTEUS-int-comp-test-3-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-9_3-int-comp-test-3-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
