@@ -231,6 +231,23 @@
       </statement>
     </definition>
 
+    <exercise label="APEX-PROTEUS-space-coord-1-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          In the plane, the distance formula is a consequence of the Pythagorean theorem:
+          the distance <m>D</m> is the length of the hypotenuse of a right triangle with side lengths
+          <m>\abs{x_2-x_1}</m> and <m>\abs{y_2-y-1}</m>, so
+          <md>
+            D^2 = (x_2-x_1)^2+(y_2-y_1)^2
+          </md>.
+          Can the formula in <xref ref="def_space_distance"/> also be explained using the Pythagorean theorem?
+          Why or why not?
+        </p>
+      </statement>
+      <response/>
+    </exercise>
+
     <p>
       We refer to the line segment that connects points <m>P</m> and <m>Q</m> in space as <m>\overline{PQ}</m>,
       and refer to the length of this segment as <m>\norm{\overline{PQ}}</m>.
@@ -3958,6 +3975,17 @@
       </solution>
     </example>
 
+    <!-- <exercise label="APEX-PROTEUS-space-coord-3-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          Sketching surfaces in space can be challenging.
+          Describe at least two strategies you can use to help with producing a sketch.
+        </p>
+      </statement>
+      <response/>
+    </exercise> -->
+
     <example xml:id="ex_space6">
       <title>Identifying quadric surfaces</title>
       <statement>
@@ -4086,6 +4114,41 @@
         </p>
       </solution>
     </example>
+
+    <exercise label="APEX-PROTEUS-space-coord-2-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          Match each equation on the left to the type of surface in space that it represents.
+        </p>
+      </statement>
+      <cardsort>
+        <match>
+          <premise><m>3x-y=4</m></premise>
+          <premise><m>x+4y=7-2z</m></premise>
+          <response>Plane</response>
+        </match>
+        <match>
+          <premise><m>x^2+3y^2=4z</m></premise>
+          <premise><m>3x^2=z-2y^2</m></premise>
+          <response>Elliptic paraboloid</response>
+        </match>
+        <match>
+          <premise><m>3x^2=z+2y^2</m></premise>
+          <response>Hyperbolic paraboloid</response>
+        </match>
+        <match>
+          <premise><m>x^2+y^2=5+z^2</m></premise>
+          <premise><m>x^2-y^2=5-z^2</m></premise>
+          <response>Hyperbola of one sheet</response>
+        </match>
+        <match>
+          <premise><m>4x^2-5=y^2+z^2</m></premise>
+          <response>Hyperbola of two sheets</response>
+        </match>
+        
+      </cardsort>
+    </exercise>
 
     <p>
       This section has introduced points in space and shown how equations can describe surfaces.
