@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<section xml:id="sec_vector_intro" label="sec_vector_intro">
+<section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec_vector_intro" label="sec_vector_intro">
   <title>An Introduction to Vectors</title>
   <p>
     Many quantities we think about daily can be described by a single number:
@@ -426,6 +426,18 @@
       <video width="98%" youtube="w1MzWJzoyGg" label="vid-vectors-intro-sketch" component="video"/>
     </solution>
   </example>
+
+  <exercise label="APEX-PROTEUS-vector-intro-1-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
+    <statement>
+      <p>
+        Suppose you know that <m>\overrightarrow{PQ}=\langle 3,-2\rangle</m>.
+        If you know the coordinates of <m>P</m>, how can you find the coordinates of <m>Q</m>?
+        If you know the coordinates of <m>Q</m>, how can you find the coordinates of <m>P</m>?
+      </p>
+    </statement>
+    <response/>
+  </exercise>
 
   <p>
     Now that we have defined vectors,
@@ -884,6 +896,17 @@
     Usually the context makes is clear whether <m>\vec 0</m> is referring to a vector in the plane or in space.
   </p>
 
+  <exercise label="APEX-PROTEUS-vector-intro-2-v1">
+    <title>PROTEUS EXERCISE</title>
+    <statement>
+      <interactive label="interactive-label" platform="doenetml" width="100%" aspect="2:8">
+        <slate surface="doenetml">
+          <xi:include parse="text" href="doenet/vector-proteus.doenetml"/> 
+        </slate>
+      </interactive>
+    </statement>
+  </exercise>
+
   <p>
     Our examples have illustrated key principles in vector algebra:
     how to add and subtract vectors and how to multiply vectors by a scalar.
@@ -1275,6 +1298,38 @@
       </ol>
     </p>
   </insight>
+
+  <exercise label="APEX-PROTEUS-vector-intro-3-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
+    <statement>
+      <p>
+        Match each vector on the left with a parallel unit vector on the right.
+      </p>
+    </statement>
+    <feedback>
+      <p>
+        Remember that a parallel vector is a scalar multiple of the one you started with.
+      </p>
+    </feedback>
+    <cardsort randomize="yes">
+      <match>
+        <premise order="3"><m>\langle 2, -1, 2\rangle</m></premise>
+        <response><m>\left\langle \frac23, -\frac13, \frac23\right\rangle</m></response>
+      </match>
+      <match>
+        <premise order="1"><m>\langle 3,0,-4\rangle</m></premise>
+        <response><m>\left\langle \frac35, 0,-\frac45\right\rangle</m></response>
+      </match>
+      <match>
+        <premise order="4"><m>\langle 1,2,1\rangle</m></premise>
+        <response><m>\left\langle \frac{1}{\sqrt{6}},\frac{2}{\sqrt{6}},\frac{1}{\sqrt{6}}\right\rangle</m></response>
+      </match>
+      <match>
+        <premise order="2"><m>\langle 2,0,1\rangle</m></premise>
+        <response><m>\left\langle \frac{2}{\sqrt{5}},0,\frac{1}{\sqrt{5}}\right\rangle</m></response>
+      </match>
+    </cardsort>
+  </exercise>
 
   <p>
     These formulas can come in handy in a variety of situations,
