@@ -1054,11 +1054,11 @@
             <m>\fp(x) = \lim\limits_{h\to 0}\dfrac{f(x+h)-f(x)}{h}</m>
           </p>
         </block>
-        <block correct="no">
+        <!-- <block correct="no">
           <p>
             <m>\fp(x) = \lim\limits_{x\to 0}\dfrac{f(x+h)-f(x)}{h}</m>
           </p>
-        </block>
+        </block> -->
         <block>
           <p>
             <m>\phantom{\fp(x)} = \lim\limits_{h\to 0}\dfrac{\frac{3}{(x+h)^2+4}-\frac{3}{x^2+4}}{h}</m>
@@ -1084,11 +1084,11 @@
             <m>\phantom{\fp(x)} = \lim\limits_{h\to 0}\dfrac{3}{h}\left(\dfrac{x^2+4-(x^2+2xh+h^2+4)}{((x+h)^2+4)(x^2+4)}\right)</m>
           </p>
         </block>
-        <block correct="no">
+        <!-- <block correct="no">
           <p>
             <m>\phantom{\fp(x)} = \lim\limits_{h\to 0}3h\left(\dfrac{x^2+4-(x^2+2xh+h^2+4)}{((x+h)^2+4)(x^2+4)}\right)</m>
           </p>
-        </block>
+        </block> -->
         <block correct="no">
           <p>
             <m>\phantom{\fp(x)} = \lim\limits_{h\to 0}\dfrac{3}{h}\left(\dfrac{x^2+4-(x^2+h^2+4)}{(x^2+h^2+4)(x^2+4)}\right)</m>
@@ -1099,31 +1099,31 @@
             <m>\phantom{\fp(x)} = \lim\limits_{h\to 0}\dfrac{3}{h}\left(\dfrac{-2xh-h^2}{((x+h)^2+4)(x^2+4)}\right)</m>
           </p>
         </block>
-        <block correct="no">
+        <!-- <block correct="no">
           <p>
             <m>\phantom{\fp(x)} = \lim\limits_{h\to 0}\dfrac{3}{h}\left(\dfrac{2xh+h^2}{((x+h)^2+4)(x^2+4)}\right)</m>
           </p>
-        </block>
+        </block> -->
         <block>
           <p>
             <m>\phantom{\fp(x)} = \lim\limits_{h\to 0}3\left(\dfrac{-2x-h}{((x+h)^2+4)(x^2+4)}\right)</m>
           </p>
         </block>
-        <block correct="no">
+        <!-- <block correct="no">
           <p>
             <m>\phantom{\fp(x)} = \lim\limits_{h\to 0}3\left(\dfrac{2x+h}{((x+h)^2+4)(x^2+4)}\right)</m>
           </p>
-        </block>
+        </block> -->
         <block>
           <p>
             <m>\phantom{\fp(x)} = \dfrac{-6x}{(x^2+4)^2}</m>
           </p>
         </block>
-        <block correct="no">
+        <!-- <block correct="no">
           <p>
             <m>\phantom{\fp(x)} = \dfrac{-x}{(x^2+4)^2}</m>
           </p>
-        </block>
+        </block> -->
       </blocks>    
       <feedback>
         <p>

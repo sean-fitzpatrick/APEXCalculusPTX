@@ -126,7 +126,7 @@
     </solution>
   </example>
 
-  <exercise label="APEX-PROTEUS-deriv-prodquot-1-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-deriv-prodquot-1-v2" component="proteus">
     <title>PROTEUS EXERCISE: Product Rule Match </title>
   
     <statement>
@@ -151,7 +151,7 @@
       <match>
         <premise><md>\sin(x)</md></premise>
         <premise><md>\csc(x)</md></premise>
-        <response><md>-\cos(x) \csc(x) + \sin(x) \csc(x) \cot(x)</md></response>
+        <response><md>\cos(x) \csc(x) - \sin(x) \csc(x) \cot(x)</md></response>
       </match>
       <match>
         <premise><md>\frac{1}{x}</md></premise>
