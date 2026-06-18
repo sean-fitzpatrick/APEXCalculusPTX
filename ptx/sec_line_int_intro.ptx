@@ -1489,14 +1489,14 @@
         </answer>
       </exercise>
 
-      <exercise label="TaC-line-int-intro-4" attachment="yes">
+      <exercise label="TaC-line-int-intro-4">
         <statement>
           <p>
             Sketch a closed,
             piecewise smooth curve composed of three subcurves.
           </p>
         </statement>
-        <response />
+        <!-- <response /> -->
         
       </exercise>
     </subexercises>
