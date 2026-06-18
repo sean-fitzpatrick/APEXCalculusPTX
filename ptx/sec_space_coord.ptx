@@ -3975,17 +3975,6 @@
       </solution>
     </example>
 
-    <!-- <exercise label="APEX-PROTEUS-sec-11_1-space-coord-3-v1" component="proteus">
-      <title>PROTEUS EXERCISE</title>
-      <statement>
-        <p>
-          Sketching surfaces in space can be challenging.
-          Describe at least two strategies you can use to help with producing a sketch.
-        </p>
-      </statement>
-      <response/>
-    </exercise> -->
-
     <example xml:id="ex_space6">
       <title>Identifying quadric surfaces</title>
       <statement>
