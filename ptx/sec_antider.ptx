@@ -728,6 +728,18 @@
       </solution>
     </example>
 
+    <exercise label="APEX-PROTEUS-sec-5_1-antider-3-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          Suppose we know that <m>\fp(x)=-1/x^2</m> and that <m>f(-1)=2</m>.
+          Can we use this information to determine the value of <m>f(3)</m>?
+          Why or why not?
+        </p>
+      </statement>
+      
+    </exercise>
+
     <p>
       This section introduced antiderivatives and the indefinite integral.
       We found they are needed when finding a function given information about

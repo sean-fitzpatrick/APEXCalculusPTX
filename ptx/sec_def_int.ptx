@@ -103,6 +103,39 @@
     Hence the object is 42 feet from its starting location.
   </p>
 
+  <exercise label="APEX-PROTEUS-sec-5_2-defint-1-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
+    <statement>
+      <p>
+        If the displacement of an object is known,
+        what additional information do you need to determine its position, and why?
+      </p>
+    </statement>
+    <response/>
+  </exercise>
+
+  <exercise label="APEX-PROTEUS-sec-5_2-defint-3-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
+    <statement>
+      <p>
+        Two instruments that can be found in any car are the <em>odometer</em>,
+        which displays distance traveled, and the <em>speedometer</em>,
+        which displays the speed at which you are traveling.
+      </p>
+
+      <p>
+        Imagine you are driving a car in which the odometer is broken,
+        but you have a passenger who is willing to record your speed at regular intervals of time.
+      </p>
+
+      <p>
+        In this way, how can you estimate the distance you have traveled?
+        What can you do to improve the accuracy of your estimate?
+      </p>
+    </statement>
+    <response/>
+  </exercise>
+
   <p>
     We can again depict this situation graphically.
     In <xref ref="fig_defint2"/>
@@ -641,18 +674,16 @@
     </statement>
   </theorem>
 
-  <exercise label="APEX-PROTEUS-sec-5_2-integral-prop-v1" component="proteus" attachment="yes">
-    <title>PROTEUS EXERCISE</title>   
-    
+  <exercise label="APEX-PROTEUS-sec-5_2-defint-2-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
-        Look at the arguments presented in <xref ref="thm_defintprop"/>. Choose two of 
-        these arguments, other than the first, to sketch. Use these sketches to explain 
-        how this property might be useful.
+        The graph in <xref ref="fig_defint2"/> shows the signed area
+        under the graph of a piecewise-defined function with a jump discontinuity.
+        Which of the properties in <xref ref="thm_defintprop"/> best enables us
+        to evaluate the integral of this function?
       </p>
-      
     </statement>
-
     <response/>
   </exercise>
 
@@ -667,7 +698,7 @@
   </p>
 
   <p>
-    <dl>
+    <dl width="narrow">
       <li>
         <title>1.</title>
         <p>
