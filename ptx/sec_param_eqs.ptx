@@ -418,7 +418,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-param-eqs-1-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-10_2-param-eqs-1-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       
       <statement>
@@ -454,7 +454,7 @@
       </solution>
     </exercise>
 
-    <exercise label="APEX-PROTEUS-param-eqs-2-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-10_2-param-eqs-2-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>Which statement best explains why two different parametric equations can describe the same geometric curve?</p>
@@ -733,7 +733,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-param-eqs-5-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-10_2-param-eqs-5-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -1116,7 +1116,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-param-eqs-3-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-10_2-param-eqs-3-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -1224,7 +1224,7 @@
       </solution>
     </exercise>
 
-    <exercise label="APEX-PROTEUS-param-eqs-4-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-10_2-param-eqs-4-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>

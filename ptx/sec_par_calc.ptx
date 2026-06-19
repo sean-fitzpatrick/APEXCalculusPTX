@@ -84,7 +84,7 @@
       </statement>
     </definition>
 
-    <exercise label="APEX-PROTEUS-par-calc-1-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-10_3-par-calc-1-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -507,7 +507,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-par-calc-4-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-10_3-par-calc-4-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -539,7 +539,7 @@
       </choices>
     </exercise>
 
-    <exercise label="APEX-PROTEUS-par-calc-2-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-10_3-par-calc-2-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -898,7 +898,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-par-calc-5-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-10_3-par-calc-5-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -1115,7 +1115,7 @@
       </solution> -->
     </example>
 
-    <exercise label="APEX-PROTEUS-par-calc-3-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-10_3-par-calc-3-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -1154,7 +1154,7 @@
       </cardsort>
     </exercise>
 
-    <exercise label="APEX-PROTEUS-par-calc-6-v1" language="math" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-10_3-par-calc-6-v1" language="math" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>

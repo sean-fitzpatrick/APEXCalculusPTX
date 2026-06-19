@@ -105,7 +105,7 @@
     Informally, a function is increasing if as <m>x</m> gets larger (<ie/>, looking left to right) <m>f(x)</m> gets larger.
   </p>
 
-  <exercise label="APEX-PROTEUS-graph-incdec-1-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-3_3-graph-incdec-1-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -310,6 +310,18 @@
     <video youtube="SjF3vslBqOA" label="vid_graphs_incr_decr_role_deriv_sign"/>
   </figure>
 
+  <exercise label="APEX-PROTEUS-sec-3_3-graph-incdec-2-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
+    <statement>
+      <p>
+        Can a function <m>f</m> that is decreasing on <m>(-\infty,\infty)</m>
+        have a critical point?
+        Either give an example of such a function that does have a critical point,
+        or explain why no such example is possible.
+      </p>
+    </statement>
+    <response/>
+  </exercise>
 
   <p>
     Let <m>f</m> be differentiable on an interval <m>I</m> and let <m>a</m> and <m>b</m> be in <m>I</m> where
@@ -404,6 +416,19 @@
       </ul>
     </p>
   </insight>
+
+  <exercise label="APEX-PROTEUS-sec-3_3-graph-incdec-3-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
+    <statement>
+      <p>
+        Suppose a function <m>f</m> is increasing on <m>(0,1)</m>
+        and decreasingg on <m>(1,2)</m>.
+        What are two possible features that we might find on the graph of <m>f</m>
+        at <m>x=1</m>? 
+      </p>
+    </statement>
+    <response/>
+  </exercise>
 
   <p>
     We demonstrate using this process in the following example.
@@ -1303,7 +1328,7 @@
         <!-- </webwork> -->
       </exercise>
 
-      <exercise label="TaC-graph-incr-decr-3" attachment="yes">
+      <exercise label="TaC-graph-incr-decr-3">
         <statement>
           <p>
             Sketch a graph of a function on <m>[0,2]</m> that is increasing,
@@ -1311,7 +1336,7 @@
             near <m>x=0</m> and increasing <q>slowly</q> near <m>x=2</m>.
           </p>
         </statement>
-        <response />
+        <!-- <response /> -->
         
         <answer>
           <p>

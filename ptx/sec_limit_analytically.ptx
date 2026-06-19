@@ -117,7 +117,7 @@
     </statement>
   </theorem>
 
-  <exercise label="APEX-PROTEUS-limit-analytic-1-v2" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-1_3-limit-analytic-1-v2" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -278,7 +278,7 @@
     </statement>
   </theorem>
 
-  <exercise label="APEX-PROTEUS-limit-analytic-3-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-1_3-limit-analytic-3-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -368,7 +368,7 @@
     we will give a formal name to these functions that behave <q>nicely.</q>
   </p>
 
-  <exercise label="APEX-PROTEUS-limit-analytic-2-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-1_3-limit-analytic-2-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -962,7 +962,7 @@
     resulting in a limit of <m>1</m>.
   </p>
 
-  <exercise label="APEX-PROTEUS-limit-analytic-4-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-1_3-limit-analytic-4-v1" component="proteus" adaptive="yes">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -1237,7 +1237,7 @@
     </solution>
   </example>
 
-  <exercise label="APEX-PROTEUS-limit-analytic-5-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-1_3-limit-analytic-5-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>

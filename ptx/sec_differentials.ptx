@@ -146,7 +146,7 @@
     (We leave it to the reader to see how good of an approximation this is.)
   </p>
 
-  <exercise label="APEX-PROTEUS-differentials-3-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-4_4-differentials-3-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
         <p>
@@ -174,18 +174,17 @@
     </choices>
   </exercise>
 
-  <exercise component="proteus" label="APEX-PROTEUS-differentials-2-v1" attachment="yes">
+  <exercise component="proteus" label="APEX-PROTEUS-sec-4_4-differentials-2-v1">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
         Note that existence of <m>\fp(c)</m> is necessary to construct a tangent line.
-        Describe (or sketch) at least two different situations where <m>\fp(c)</m> does not exist.
+        Describe at least two different situations where <m>\fp(c)</m> does not exist.
         Why does it not make sense to consider a linear approximation (or draw a tangent line)
         at the point <m>(c,f(c))</m>?
       </p>
     </statement>
-    <response />
-    
+    <response/>    
   </exercise>
 
   <figure xml:id="vid_deriv_apps_diff_ex_1" component="video" vshift="0">
@@ -251,7 +250,7 @@
     the <m>y</m> value of a function <m>f</m> changes by about <m>\fp(c)\Delta x</m>.
   </p>
 
-  <exercise label="APEX-PROTEUS-differentials-4-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-4_4-differentials-4-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>Match each symbol to its meaning in the context of linearization.</p>
@@ -321,7 +320,7 @@
     it is one symbol and not a fraction.
   </p>
 
-  <exercise label="APEX-PROTEUS-differentials-5-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-4_4-differentials-5-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement correct="no">
       <p>The symbol <m>dy/dx</m> in differential notation is literally a fraction of two quantities, <m>dy</m> and <m>dx</m>.</p>
@@ -450,7 +449,7 @@
     </solution>
   </example>
 
-  <exercise label="APEX-PROTEUS-differentials-1-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-4_4-differentials-1-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>

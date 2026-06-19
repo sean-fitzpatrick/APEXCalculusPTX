@@ -182,7 +182,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-deriv-implicit-1-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-2_6-deriv-implicit-1-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
             
       <statement>
@@ -193,7 +193,7 @@
       <response />
     </exercise>
 
-    <exercise label="APEX-PROTEUS-deriv-implicit-2-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-2_6-deriv-implicit-2-v1" component="proteus">
       <title>PROTEUS EXERCISE: Match the Reason to the Step</title>
       <statement>
         <p>

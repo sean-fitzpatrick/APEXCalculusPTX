@@ -205,7 +205,7 @@
     fail are indeed that <m>f_1</m> has a discontinuity on the interval <m>[-1,1]</m> and <m>f_2</m> is not differentiable at the origin.
   </p>
 
-  <exercise component="proteus" label="APEX-PROTEUS-graph-MVT-1-v1">
+  <exercise component="proteus" label="APEX-PROTEUS-sec-3_2-graph-mvt-1-v1">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -356,7 +356,6 @@
     </case>
   </proof>
 
-
   <p>
     We can now prove the Mean Value Theorem.
   </p>
@@ -397,7 +396,7 @@
     Going back to the very beginning of the section,
     we see that the only assumption we would need about our distance function <m>f(t)</m> is that it be continuous and differentiable for <m>t</m> from <m>0</m> to <m>2</m> hours
     (both reasonable assumptions).
-    By the <xref ref="thm_mvt"/>,
+    By the <xref ref="thm_mvt" text="custom">Mean Value Theorem</xref>,
     we are guaranteed a time during the trip where our instantaneous speed is
     <quantity>
       <mag>50</mag><unit base="mileperhour"/>
@@ -413,11 +412,11 @@
   </p>
 
   <p>
-    Note that the <xref ref="thm_mvt"/>
+    Note that <xref ref="thm_mvt" text="title"/>
     is an <em>existence</em> theorem.
     It states that a special value <m>c</m> <em>exists</em>,
     but it does not give any indication about how to find it.
-    It turns out that when we need the <xref ref="thm_mvt"/>,
+    It turns out that when we need the <xref ref="thm_mvt" text="custom">Mean Value Theorem</xref>,
     existence is all we need.
   </p>
 
@@ -426,7 +425,7 @@
     <statement>
       <p>
         Consider <m>f(x) = x^3+5x+5</m> on <m>[-3,3]</m>.
-        Find <m>c</m> in <m>[-3,3]</m> that satisfies the <xref ref="thm_mvt"/>.
+        Find <m>c</m> in <m>[-3,3]</m> that satisfies <xref ref="thm_mvt"/>.
       </p>
     </statement>
     <solution>
@@ -453,7 +452,7 @@
 
       <p>
         We have found two values <m>c</m> in <m>[-3,3]</m> where the instantaneous rate of change is equal to the average rate of change;
-        the <xref ref="thm_mvt"/> guaranteed at least one.
+        the <xref ref="thm_mvt" text="custom">Mean Value Theorem</xref> guaranteed at least one.
         In <xref ref="fig_mvt4"/>,
         <m>f</m> is graphed with a line representing the average rate of change;
         the lines tangent to <m>f</m> at <m>x=\pm \sqrt{3}</m> are also given.
@@ -501,6 +500,17 @@
       <video width="98%" youtube="ON7WYLJY2tE" label="vid_graphs_MVT_ex_3" component="video"/>
     </solution>
   </example>
+
+  <exercise label="APEX-PROTEUS-sec-3_2-MVT-2-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
+    <statement>
+      <p>
+        Can the function <m>f(x)</m> in <xref ref="ex_mvt2"/> have more than one <m>x</m> intercept?
+        Why or why not?
+      </p>
+    </statement>
+    <response/>
+  </exercise>
 
   <p>
     While <xref ref="thm_mvt"/> has practical use
@@ -603,7 +613,6 @@
     </proof>
   </theorem>
 
-
   <figure xml:id="vid_graphs_MVT_func_deriv_0_const" component="video" vshift="7">
     <caption>Showing that a function with zero derivative is constant</caption>
     <video youtube="PVMLAKYehgs" label="vid_graphs_MVT_func_deriv_0_const"/>
@@ -613,6 +622,62 @@
     <caption>Showing that two functions with the equal derivatives differ by a constant</caption>
     <video youtube="BzvxKeZMNtE" label="vid_graphs_MVT_funcs_eq_derivs_diff_const"/>
   </figure>
+
+  <exercise label="APEX-PROTEUS-sec-3_2-MVT-3-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title> 
+    <statement>
+      <p>
+        The Mean Value Theorem can be used to demonstrate the following.
+        Suppose <m>f</m> and <m>g</m> are continuous on <m>[a, b]</m>
+        and differentiable on <m>(a,b)</m>.
+        If <m>f(a)=g(a)</m>, and <m>\fp(x)\lt \gp(x)</m> on <m>(a,b)</m>,
+        then <m>f(x)\lt g(x)</m> on <m>(a,b)</m>.
+      </p>
+
+      <p>
+        Below on the right are the steps of this demonstration.
+        On the left are possible reasons to justify each of the steps.
+        Match the reasons with the steps. Note that some steps may involve more than one reason,
+        and not all steps require justification.
+      </p>
+
+      <p>
+        The idea is to apply the Mean Value Theorem to the function <m>h(x)=g(x)-f(x)</m>.
+        If we can show that <m>h(x)\gt 0</m>, then we can conclude <m>f(x)\lt g(x)</m>.
+      </p>
+    </statement>
+    <cardsort>
+      <match>
+        <premise>Properties of continuous functions</premise>
+        <response><m>h(x)</m> is continuous on <m>[a,b]</m></response>
+      </match>
+      <match>
+        <premise>Sum/difference rule for derivatives</premise>
+        <response><m>h'(x)=\gp(x)-\fp(x)</m> exists</response>
+      </match>
+      <match>
+        <premise>The Mean Value Theorem</premise>
+        <response><m>\frac{h(x)-h(a)}{x-a}=h'(c)</m>, for some <m>c</m></response>
+      </match>
+      <match>
+        <premise><m>f(a)=g(a)</m></premise>
+        <response><m>h(a)=0</m></response>
+      </match>
+      <match>
+        <premise><m>\fp(x)\lt\gp(x)</m></premise>
+        <response><m>h'(x)\gt 0</m></response>
+      </match>
+      <match>
+        <premise>Algebra</premise>
+        <response><m>h(x)=h'(c)(x-a)</m></response>
+      </match>
+      <match>
+        <premise><m>h'(c)\gt 0</m></premise>
+        <premise><m>x\gt a</m></premise>
+        <response><m>h(x)\gt 0</m></response>
+      </match>
+    </cardsort>
+  </exercise>
 
   <p xml:id="vidint-MVT-applications4" component="video">
     We end this section with one more proof involving the Mean Value Theorem;

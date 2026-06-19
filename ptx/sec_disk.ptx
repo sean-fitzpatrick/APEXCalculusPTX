@@ -468,7 +468,7 @@
     </p>
   </insight>
 
-  <exercise label="APEX-PROTEUS-disk-method-1-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-7_2-disk-method-1-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -692,7 +692,7 @@
     </solution>
   </example>
 
-	<exercise label="APEX-PROTEUS-disk-4-v1" component="proteus"> 
+	<exercise label="APEX-PROTEUS-sec-7_2-disk-4-v1" component="proteus"> 
 		<title>PROTEUS EXERCISE</title>
 		<statement>
 			<p>
@@ -737,7 +737,7 @@
 		</cardsort>
 	</exercise>
 
-	<exercise label="APEX-PROTEUS-disk-5-v1" language="math" component="proteus">
+	<exercise label="APEX-PROTEUS-sec-7_2-disk-5-v1" language="math" component="proteus">
 		<title>PROTEUS EXERCISE</title>
 		<statement>
 			<p>
@@ -765,7 +765,7 @@
 		</blocks>
 	</exercise>
 
-	<exercise label="APEX-PROTEUS-disk-6-v1" component="proteus">
+	<exercise label="APEX-PROTEUS-sec-7_2-disk-6-v1" component="proteus">
 		<title>PROTEUS EXERCISE</title>
 		<statement>
 			<p>
@@ -872,7 +872,7 @@
 		</choices>
 	</exercise>
 
-	<exercise label="APEX-PROTEUS-disk-7-v1" component="proteus">
+	<exercise label="APEX-PROTEUS-sec-7_2-disk-7-v1" component="proteus">
 		<title>PROTEUS EXERCISE</title>
 		<statement>
 			<p>
@@ -1133,7 +1133,7 @@
     </solution>
   </example>
 
-  <exercise label="APEX-PROTEUS-disk-method-3-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-7_2-disk-method-3-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -1786,7 +1786,7 @@
     </solution>
   </example>
 
-  <exercise label="APEX-PROTEUS-disk-method-2-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-7_2-disk-method-2-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>

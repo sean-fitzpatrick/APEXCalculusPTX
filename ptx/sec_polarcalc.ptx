@@ -64,6 +64,18 @@
       </p>
     </insight>
 
+    <exercise label="APEX-PROTEUS-sec-10_5-polar-calc-1-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          Which do you think is a more effective way to learn to compute <m>\frac{dy}{dx}</m> for polar functions:
+          to memorize <xref ref="idea_dydxpol"/>, or to apply <xref ref="idea_dydxpar"/>
+          to the polar equations for <m>x</m> and <m>y</m>? Explain your answer.
+        </p>
+      </statement>
+      <response/>
+    </exercise>
+
     <example xml:id="ex_polcalc1">
       <title>Finding <m>\frac{dy}{dx}</m> with polar functions</title>
       <statement>
@@ -241,6 +253,17 @@
       </solution>
     </example>
 
+    <exercise label="APEX-PROTEUS-sec-10_5-polar-calc-2-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          Explain how knowing the locations of the horizontal and vertical tangent lines to a curve
+          can help when attempting to sketch the graph of that curve.
+        </p>
+      </statement>
+      <response/>
+    </exercise>
+
     <p>
       When the graph of the polar function <m>r=f(\theta)</m> intersects the pole,
       it means that <m>f(\alpha)=0</m> for some angle <m>\alpha</m>.
@@ -415,7 +438,7 @@
     </p>
 
     <p>
-      This is a Riemann sum.
+      This is a <xref ref="def_rie_sum" text="custom">Riemann sum</xref>.
       By taking the limit of the sum as <m>n\to\infty</m>,
       we find the exact area of the region in the form of a definite integral.
     </p>
@@ -793,6 +816,18 @@
           </md>.
         </p>
       </insight>
+
+      <exercise label="APEX-PROTEUS-sec-10_5-polar-calc-3-v1" component="proteus">
+        <title>PROTEUS EXERCISE</title>
+        <statement>
+          <p>
+            When finding the area between two polar curves,
+            what are the steps we should take to set up the problem
+            <em>before</em> attempting to evaluate an integral?
+          </p>
+        </statement>
+        <response/>
+      </exercise>
 
       <example xml:id="ex_polcalc5">
         <title>Area between polar curves</title>

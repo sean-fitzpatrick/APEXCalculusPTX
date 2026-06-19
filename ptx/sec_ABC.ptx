@@ -224,7 +224,7 @@
     </statement>
   </theorem>
 
-  <exercise component="proteus" label="APEX-PROTEUS-ABC-1-v1">
+  <exercise component="proteus" label="APEX-PROTEUS-sec-7_1-ABC-1-v1">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -556,7 +556,7 @@
     </solution>
   </example>
 
-  <exercise label="APEX-PROTEUS-ABC-2v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-7_1-ABC-2v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>

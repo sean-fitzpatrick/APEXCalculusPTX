@@ -441,7 +441,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-arclength-1-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-7_4-arclength-1-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -798,7 +798,7 @@
       This gives the second part of <xref ref="thm_surface_area"/>.)
     </p>
 
-    <exercise label="APEX-PROTEUS-arclength-2-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-7_4-arclength-2-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>

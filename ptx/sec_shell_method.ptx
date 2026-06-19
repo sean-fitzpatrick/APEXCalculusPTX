@@ -1478,7 +1478,7 @@
     </p>
   </insight>
 
-  <exercise label="APEX-PROTEUS-shell-method-1-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-7_3-shell-method-1-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -1491,7 +1491,7 @@
     
   </exercise>
 
-	<exercise label="APEX-PROTEUS-shell-2-v2" component="proteus">
+	<exercise label="APEX-PROTEUS-sec-7_3-shell-2-v2" component="proteus">
 		<title>PROTEUS EXERCISE</title>
 		<statement>
 			<p>
@@ -1535,7 +1535,7 @@
 		</cardsort>
 	</exercise>
 
-	<exercise label="APEX-PROTEUS-shell-3-v1" component="proteus">
+	<exercise label="APEX-PROTEUS-sec-7_3-shell-3-v1" component="proteus">
 		<title>PROTEUS EXERCISE</title>
 		<statement>
 			<p>
@@ -1572,7 +1572,7 @@
 		</cardsort>
 	</exercise>
 
-	<exercise label="APEX-PROTEUS-shell-4-v1" language="math" component="proteus">
+	<exercise label="APEX-PROTEUS-sec-7_3-shell-4-v1" language="math" component="proteus">
 		<title>PROTEUS EXERCISE</title>
 		<statement>
 			<p>
@@ -1605,7 +1605,7 @@
 		</blocks>
 	</exercise>
 
-	<exercise label="APEX-PROTEUS-shell-5-v1" component="proteus">
+	<exercise label="APEX-PROTEUS-sec-7_3-shell-5-v1" component="proteus">
 		<title>PROTEUS EXERCISE</title>
 		<statement>
 			<p>

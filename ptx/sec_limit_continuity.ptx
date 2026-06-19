@@ -91,7 +91,7 @@
     </ol>
   </p>
 
-  <exercise label="APEX-PROTEUS-limit-continuous-1-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-1_5-limit-continuous-1-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -292,7 +292,7 @@
     </solution>
   </example>
 
-  <exercise label="APEX-PROTEUS-limit-continuous-2-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-1_5-limit-continuous-2-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <introduction>
       <p>
@@ -331,7 +331,7 @@
         </image>
       </p>
     </introduction>
-    <task label="APEX-PROTEUS-limit-continuous-2A-v1">
+    <task label="APEX-PROTEUS-sec-1_5-limit-continuous-2A-v1">
       <statement>
         <p>
           Is the function <m>f(x)</m> continuous at <m>x=2</m>?
@@ -341,7 +341,7 @@
       <response />
       
     </task>
-    <task label="APEX-PROTEUS-limit-continuous-2B-v2">
+    <task label="APEX-PROTEUS-sec-1_5-limit-continuous-2B-v2">
       <statement>
         <p>
           Is the function <m>g(x)=(x-2)f(x)</m> continuous at <m>x=2</m>?
@@ -737,7 +737,7 @@
     and rational functions are also continuous on their domains.
   </p>
 
-  <exercise label="APEX-PROTEUS-limit-continuous-3-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-1_5-limit-continuous-3-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>

@@ -105,7 +105,7 @@
     </statement>
   </theorem>
 
-  <exercise component="proteus" label="APEX-PROTEUS-deriv-basic-1-v1">
+  <exercise component="proteus" label="APEX-PROTEUS-sec-2_3-deriv-basic-1-v1">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -343,7 +343,7 @@
     </statement>
   </theorem>
 
-  <exercise label="APEX-PROTEUS-deriv-basic-2-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-2_3-deriv-basic-2-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -374,7 +374,7 @@
     </matching>
   </exercise>
 
-  <exercise component="proteus" label="APEX-PROTEUS-deriv-basic-3-v1">
+  <exercise component="proteus" label="APEX-PROTEUS-sec-2_3-deriv-basic-3-v1">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>

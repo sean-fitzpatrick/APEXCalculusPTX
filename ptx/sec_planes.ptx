@@ -165,6 +165,17 @@
       </statement>
     </definition>
 
+    <exercise label="APEX-PROTEUS-sec-11_6-planes-1-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          Is it possible to define a plane using parametric equations?
+          If so, how many parameters are needed, and why?
+        </p>
+      </statement>
+      <response/>
+    </exercise>
+
     <p>
       A key to remember throughout this section is this:
       to find the equation of a plane,
@@ -922,6 +933,25 @@
             <idx><h>distance</h><h>between point and plane</h></idx>
       </p>
     </insight>
+
+    <exercise label="APEX-PROTEUS-sec-11_6-planes-2-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          Notice how the distance formula in <xref ref="idea_planes_dist"/>
+          involves a dot product, while the corresponding formula for a line
+          (see <xref ref="eq_lines2"/>) uses a cross product.
+        </p>
+
+        <p>
+          Explain why we see this difference between the two formulas.
+          In particular, how does the information that defines a plane
+          differ from the information that defines a line,
+          and how is this related to the problem of finding the distance to a point?
+        </p>
+      </statement>
+      <response/>
+    </exercise>
 
     <example xml:id="ex_planes6">
       <title>Distance between a point and a plane</title>

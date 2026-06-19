@@ -140,7 +140,7 @@
     </sidebyside>
   </figure>
 
-  <exercise label="APEX-PROTEUS-newton-1-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-4_1-newton-1-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -520,7 +520,7 @@
     </solution>
   </example>
 
-  <exercise label="APEX-PROTEUS-newton-2-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-4_1-newton-2-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
         <p>
@@ -788,7 +788,7 @@
       There is no <q>fix</q> to this problem; Newton's Method simply will not work and another method must be used. (In this case the particular reason Newton's Method fails is that the tangent line is vertical at the root).
     </p>
 
-    <exercise label="APEX-PROTEUS-newton-3-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-4_1-newton-3-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>

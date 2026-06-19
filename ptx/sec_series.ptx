@@ -308,7 +308,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-series-1-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-9_2-series-1-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -474,7 +474,7 @@
 
     </theorem>
 
-    <exercise label="APEX-PROTEUS-series-2-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-9_2-series-2-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -912,7 +912,7 @@
       </solution>
     </example>
 
-        <exercise label="APEX-PROTEUS-series-3-v1" component="proteus">
+        <exercise label="APEX-PROTEUS-sec-9_2-series-3-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       
       <statement>

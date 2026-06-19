@@ -120,7 +120,7 @@
       </statement>
     </definition>
 
-    <exercise label="APEX-PROTEUS-graphical-numerical-1-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-8_1-graphical-numerical-1-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -200,7 +200,7 @@
 
       </introduction>
 
-      <task label="APEX-PROTEUS-graphical-numerical-2-partA-v1">
+      <task label="APEX-PROTEUS-sec-8_1-graphical-numerical-2-partA-v1">
         <title>Find the particular solution</title>
         <statement>
           <p>
@@ -227,7 +227,7 @@
         </choices>
       </task>
 
-      <task label="APEX-PROTEUS-graphical-numerical-2-partB-v1">
+      <task label="APEX-PROTEUS-sec-8_1-graphical-numerical-2-partB-v1">
         <title>Find the initial condition</title>
         <statement>
           <p>
@@ -255,7 +255,7 @@
         </choices>
       </task>
 
-      <task label="APEX-PROTEUS-graphical-numerical-2-partC-v1">
+      <task label="APEX-PROTEUS-sec-8_1-graphical-numerical-2-partC-v1">
         <title>Find the constant <m>c</m>.</title>
         <statement>
           <p>
@@ -282,7 +282,7 @@
         </choices>
       </task>
 
-      <task label="APEX-PROTEUS-graphical-numerical-2-partD-v1">
+      <task label="APEX-PROTEUS-sec-8_1-graphical-numerical-2-partD-v1">
         <title>Role of Initial Conditions</title>
         <statement>What role do initial conditions play in solving differential equations?</statement>
         <choices randomize="yes">
@@ -550,7 +550,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-graphical-numerical-3-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-8_1-graphical-numerical-3-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -915,7 +915,7 @@
       </solution>
     </example>
 
-    <exercise component="proteus" label="APEX-PROTEUS-graphical-numerical-4-v1">
+    <exercise component="proteus" label="APEX-PROTEUS-sec-8_1-graphical-numerical-4-v1">
       <title>PROTEUS EXERCISE</title>
       
       <statement>
@@ -1338,7 +1338,7 @@
       </p>
     </insight>
 
-    <exercise label="APEX-PROTEUS-graphical-numerical-5-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-8_1-graphical-numerical-5-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>

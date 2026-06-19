@@ -295,7 +295,7 @@
     examples.
   </p>
 
-  <exercise label="APEX-PROTEUS-optimization-1-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-4_3-optimization-1-v1" component="proteus">
     <title>PROTEUS EXERCISE: Identifying Key Ideas</title>
     <statement>
       <p>
@@ -539,7 +539,7 @@
     variable, which we then optimize.
   </p>
 
-  <exercise label="APEX-PROTEUS-optimization-2-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-4_3-optimization-2-v1" component="proteus" adaptive="yes">
     <title>PROTEUS EXERCISE</title>
     
     <statement>
@@ -840,7 +840,7 @@
     </solution>
   </example>
 
-  <exercise component="proteus" label="APEX-PROTEUS-optimization-3-v1">
+  <exercise component="proteus" label="APEX-PROTEUS-sec-4_3-optimization-3-v1">
     <title>PROTEUS EXERCISE</title>
     
     <statement>

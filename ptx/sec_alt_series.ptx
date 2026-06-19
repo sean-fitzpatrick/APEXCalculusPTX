@@ -84,7 +84,7 @@
     <video youtube="-W6wco1HZYo" label="vid-seqseries-ast-def-alt-series"/>
   </figure>
 
-  <exercise label="APEX-PROTEUS-alt-series-1-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-9_5-alt-series-1-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -96,7 +96,7 @@
     
   </exercise>
 
-  <exercise label="APEX-PROTEUS-alt-series-2-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-9_5-alt-series-2-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     
     <statement>
@@ -110,7 +110,7 @@
     
   </exercise>
 
-  <exercise label="APEX-PROTEUS-alt-series-3-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-9_5-alt-series-3-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     
     <statement>
@@ -592,7 +592,7 @@
     Thus we say the Alternating Harmonic Series converges conditionally.
   </p>
 
-  <exercise label="APEX-PROTEUS-alt-series-4-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-9_5-alt-series-4-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
