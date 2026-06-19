@@ -47,7 +47,8 @@
     </statement>
   </definition>
 
-  <exercise label="APEX-PROTEUS-dot-product-1-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-11_3-dot-product-1-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
         Match each dot product on the left with its value on the right.
@@ -362,7 +363,8 @@
     </md>.
   </p>
 
-  <exercise label="APEX-PROTEUS-dot-product-2-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-11_3-dot-product-2-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
         Suppose <m>\vec v</m> and <m>\vec w</m> are vectors in <m>\mathbb{R}^3</m>
@@ -1396,6 +1398,28 @@
       </md>.
     </p>
   </insight>
+
+  <exercise label="APEX-PROTEUS-sec-11_3-dot-product-3-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
+    <statement>
+      <p>
+        Given a vector <m>\vec u</m> and a nonzero vector <m>\vec v</m>,
+        write <m>\vec u = \vec{p}+\vec{q}</m>, where <m>\vec p</m> is parallel to <m>\vec v</m>.
+      </p>
+
+      <p>
+        An important property of the projection is that <m>\vec{p}=\proj uv</m>
+        is the vector for which <m>\norm{\vec u - \vec p}</m> is as small as possible,
+        among all vectors <m>\vec p</m> parallel to <m>\vec v</m>.
+      </p>
+
+      <p>
+        Interpret <m>\norm{\vec u - \vec p}</m> as a distance,
+        and explain why it makes sense that this distance is minimized by <m>\proj uv</m>.
+      </p>
+    </statement>
+    <response/>
+  </exercise>
 
   <p>
     We illustrate the use of this equality in the following example.
