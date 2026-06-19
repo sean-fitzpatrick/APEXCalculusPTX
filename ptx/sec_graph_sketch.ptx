@@ -164,6 +164,17 @@
     </p>
   </insight>
 
+  <exercise label="APEX-PROTEUS-sec-3_5-graph-sketch-3-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
+    <statement>
+      <p>
+        Explain why it is ok for the graph of a function to cross a horizontal asymptote, 
+        but not a vertical asymptote. 
+      </p>
+    </statement>
+    <response/>
+  </exercise>
+
   <example xml:id="ex_sketch1">
     <title>Curve sketching</title>
     <statement>
