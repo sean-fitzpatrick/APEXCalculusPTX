@@ -177,6 +177,17 @@
       define a direction, and state how far in that direction to travel.
     </p>
 
+    <exercise label="APEX-PROTEUS-sec-11_5-lines-1-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          The equation of a line in space involves a direction vector.
+          Why is it not sufficient to use a slope?
+        </p>
+      </statement>
+      <response/>
+    </exercise>
+
     <p>
       <xref ref="eq_lines1">Equation</xref> is an example of a
       <em>vector-valued function</em>;
@@ -552,6 +563,18 @@
         </li>
       </dl>
     </p>
+
+    <exercise label="APEX-PROTEUS-sec-11_5-lines-2-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          Suppose lines <m>\vec{\ell}_1</m> and <m>\vec{\ell}_2</m>
+          have equal direction vectors <m>\vec{d}_1=\vec{d}_2</m>.
+          How can you quickly tell if the lines are idenitcal or parallel?
+        </p>
+      </statement>
+      <response/>
+    </exercise>
 
     <p>
       The next two examples investigate these possibilities.
@@ -1120,6 +1143,20 @@
         </ol>
       </p>
     </insight>
+
+    <exercise label="APEX-PROTEUS-sec-11_5-lines-3-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          The formula in <xref ref="idea_line_distance"/> gives us a way
+          to quickly compute the distance from a point to a line.
+          Why might it still be useful to know how to solve the problem using
+          <xref ref="idea_orthog_proj"/> and a diagram like <xref ref="fig_lines_dist1"/>?
+          Is there any relevant information that we can't get fromt eh distance formula?
+        </p>
+      </statement>
+      <response/>
+    </exercise>
 
     <example xml:id="ex_lines4">
       <title>Finding the distance from a point to a line</title>

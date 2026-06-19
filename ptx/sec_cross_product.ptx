@@ -342,6 +342,18 @@
       we leave it as a problem in the Exercise section to verify this.
     </p>
 
+    <exercise label="APEX-PROTEUS-sec-11_4-cross-prod-1-v1" component="proteus">
+      <title>PROTEUS QUESTION</title>
+      <statement>
+        <p>
+          The cross product is defineds specifically for vectors in three dimensions.
+          Would it be possible to define a cross product in four dimensions?
+          Why or why not?
+        </p>
+      </statement>
+      <response/>
+    </exercise>
+
     <p>
       Property 5 from the theorem is also left to the reader to prove in the Exercise section,
       but it reveals something more interesting than
@@ -350,9 +362,9 @@
       that is, let there be a scalar <m>c</m> such that <m>\vecv = c\vecu</m>.
       Consider their cross product:
       <md>
-        <mrow>\crossp uv \amp = \vecu \times (c\vec u)</mrow>
-        <mrow>\amp =  c(\crossp uu) \text{ (by Property 3 of } <xref ref="thm_cross_prod_prop"/>\text{)}</mrow>
-        <mrow>\amp = \vec 0 \text{ (by Property 5 of } <xref ref="thm_cross_prod_prop"/>\text{)}</mrow>
+        <mrow>\crossp uv \amp = \vecu \times (c\vec u)\amp \amp</mrow>
+        <mrow>\amp =  c(\crossp uu) \amp \amp\text{ (by Property 3 of } <xref ref="thm_cross_prod_prop"/>\text{)}</mrow>
+        <mrow>\amp = \vec 0 \amp \amp\text{ (by Property 5 of } <xref ref="thm_cross_prod_prop"/>\text{)}</mrow>
       </md>.
     </p>
 
@@ -396,6 +408,7 @@
         (See also the <xref ref="aside-def-orthogonal" text="custom">aside</xref> in <xref ref="sec_vector_intro"/>.)
       </p>
     </aside>
+
     <p>
       Note that this theorem makes a statement about the
       <em>magnitude</em> of the cross product.
@@ -406,6 +419,17 @@
       of <xref ref="thm_vector_properties"/>),
       hence the cross product of parallel vectors is <m>\vec 0</m>.
     </p>
+
+    <exercise label="APEX-PROTEUS-sec-11_4-cross-prod-2-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          Both the cross product and the dot product can be used to compute angles between vectors.
+          Which product is more practical for this purpose?
+        </p>
+      </statement>
+      <response/>
+    </exercise>
 
     <figure xml:id="vid-vetors-crossprod-angles" component="video" vshift="-1">
       <caption>Video presentation of <xref ref="thm_cross_product"/> and <xref ref="ex_crossp3"/></caption>
@@ -918,6 +942,18 @@
           <video width="98%" youtube="GuEn2qOey2U" label="vid-vectors-crossprod-triangle" component="video"/>
         </solution>
       </example>
+
+      <exercise label="APEX-PROTEUS-sec-11_4-cross-prod-3-v1" component="proteus">
+        <title>PROTEUS EXERCISE</title>
+        <statement>
+          <p>
+            Each of the three sides of a triangle can be used to construct a vector.
+            Does it matter which two of these three vectors we use to compute the area via the cross product?
+            Why or why not?
+          </p>
+        </statement>
+        <response/>
+      </exercise>
     </paragraphs>
 
     <paragraphs>
