@@ -291,7 +291,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-lhosptial-1-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-6_7-lhosptial-1-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -564,7 +564,7 @@
 
     <!-- better as horizontal parsons but math is not rendering in that format -->
 
-    <exercise label="APEX-PROTEUS-lhosptial-2-v1" component="proteus" language="natural">
+    <exercise label="APEX-PROTEUS-sec-6_7-lhosptial-2-v1" component="proteus" language="natural">
       <title>PROTEUS EXERCISE</title>
             
       <statement>

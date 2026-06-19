@@ -746,7 +746,7 @@
     </statement>
   </theorem>
 
-  <exercise label="APEX-PROTEUS-taylor-series-1-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-9_8-taylor-series-1-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <introduction>
       <p>
@@ -762,7 +762,7 @@
       </p>
     </introduction>
     
-    <task label="APEX-PROTEUS-taylor-series-1a-v1">
+    <task label="APEX-PROTEUS-sec-9_8-taylor-series-1a-v1">
       <statement>
         <p>
           What is the Taylor series for <m>\fp(x) = \dfrac{1}{(1-x)^2}</m>, <m>\abs{x}\lt 1</m>?
@@ -770,7 +770,7 @@
       </statement>
       <response/>
     </task>
-    <task label="APEX-PROTEUS-taylor-series-1b-v1">
+    <task label="APEX-PROTEUS-sec-9_8-taylor-series-1b-v1">
       <statement>
         <p>
           What is the Taylor series for <m>f^{(k)}(x) = \dfrac{1}{(1-x)^k}</m>, <m>\abs{x}\lt 1</m>,
@@ -780,7 +780,7 @@
       <response />
       
     </task>
-    <task label="APEX-PROTEUS-taylor-series-1c-v1">
+    <task label="APEX-PROTEUS-sec-9_8-taylor-series-1c-v1">
       <statement>
         <p>
           What is the Taylor series for <m>g(x) = \dfrac{1}{1+x^2}</m>,
@@ -901,7 +901,7 @@
     </solution>
   </example>
 
-  <exercise label="APEX-PROTEUS-taylor-series-2-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-9_8-taylor-series-2-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
        
     <statement>

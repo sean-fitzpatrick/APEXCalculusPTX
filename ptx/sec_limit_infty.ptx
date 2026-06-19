@@ -114,7 +114,7 @@
       </statement>
     </definition>
 
-    <exercise label="APEX-PROTEUS-limit-infinite-1-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-1_6-limit-infinite-1-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -353,7 +353,7 @@
       </solution>
     </example>
 
-    <exercise component="proteus" label="APEX-PROTEUS-limit-infinite-2-v2">
+    <exercise component="proteus" label="APEX-PROTEUS-sec-1_6-limit-infinite-2-v2">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -1255,7 +1255,7 @@
       </solution>
     </example>
 
-    <exercise component="proteus" label="APEX-PROTEUS-limit-infinite-3-v1">
+    <exercise component="proteus" label="APEX-PROTEUS-sec-1_6-limit-infinite-3-v1">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>

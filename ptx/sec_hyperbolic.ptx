@@ -642,7 +642,7 @@
  <!--</sidebyside>-->
     </insight>
 
-    <exercise label="APEX-PROTEUS-hyperbolic-1-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-6_6-hyperbolic-1-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -1141,6 +1141,19 @@
         </ol>
       </p>
     </insight>
+
+    <exercise label="APEX-PROTEUS-sec-6_6-hyperbolic-2-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          Think back to the types of integrals we were able to evaluate using
+          trigonometric substitution in <xref ref="sec_trig_sub"/>.
+          What hyperbolic substitution would work well for the pattern <m>x^2-a^2</m>?
+          What about the pattern <m>x^2+a^2</m>?
+        </p>
+      </statement>
+      <response/>
+    </exercise>
 
     <insight xml:id="idea_hyperbolic_inverse_integrals">
       <title>Integrals Involving Inverse Hyperbolic Functions</title>

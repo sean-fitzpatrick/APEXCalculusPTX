@@ -208,7 +208,7 @@
 
   </table>
 
-  <exercise component="proteus" label="APEX-PROTEUS-deriv-inverse-1-v1">
+  <exercise component="proteus" label="APEX-PROTEUS-sec-2_7-deriv-inverse-1-v1">
     <title>PROTEUS EXERCISE</title>    
     <statement>
       <p>
@@ -297,7 +297,7 @@
     should earn understanding.
   </p>
 
-  <exercise component="proteus" label="APEX-PROTEUS-deriv-inverse-2-v1">
+  <exercise component="proteus" label="APEX-PROTEUS-sec-2_7-deriv-inverse-2-v1">
     <title>PROTEUS EXERCISE</title>
     
     <introduction>
@@ -319,7 +319,7 @@
       </p>
     </introduction>
 
-    <task label="APEX-PROTEUS-deriv-inverse-2a-v1">
+    <task label="APEX-PROTEUS-sec-2_7-deriv-inverse-2a-v1">
       <statement>
         <p>
           Using <xref ref="thm_deriv_inverse_functions"/>, show that <m>\fp(x)</m>
@@ -331,7 +331,7 @@
       
     </task>
     
-    <task label="APEX-PROTEUS-deriv-inverse-2b-v1">
+    <task label="APEX-PROTEUS-sec-2_7-deriv-inverse-2b-v1">
       <statement>
         <p>
           Using either the <xref ref="thm_QuotientRule" text="title"/> or the <xref ref="thm_chain_rule" text="title"/>,
@@ -347,7 +347,7 @@
       
     </task>
 
-    <task label="APEX-PROTEUS-deriv-inverse-2c-v1">
+    <task label="APEX-PROTEUS-sec-2_7-deriv-inverse-2c-v1">
       <statement>
         <p>
           If we relax the requirement for <m>f</m> to be differentiable,

@@ -345,7 +345,7 @@
     </solution>
   </example>
 
-  <exercise label="APEX-PROTEUS-related-rates-1-v2" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-4_2-related-rates-1-v2" component="proteus">
     <title>PROTEUS EXERCISE: Converting Words Into Math </title>
     <statement>
       <p>
@@ -429,7 +429,7 @@
     </cardsort>
   </exercise>
 
-  <exercise label="APEX-PROTEUS-related-rates-2-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-4_2-related-rates-2-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -878,7 +878,7 @@
     </solution>
   </example>
 
-  <exercise component="proteus" label="APEX-PROTEUS-related-rates-4-v1">
+  <exercise component="proteus" label="APEX-PROTEUS-sec-4_2-related-rates-4-v1">
     <title>PROTEUS EXERCISE</title>    
     <statement>
       <p>
@@ -967,7 +967,7 @@
     </choices>
   </exercise>
 
-  <exercise component="proteus" label="APEX-PROTEUS-related-rates-3-v1">
+  <exercise component="proteus" label="APEX-PROTEUS-sec-4_2-related-rates-3-v1">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>

@@ -224,7 +224,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-polar-1-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-10_4-polar-1-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -544,7 +544,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-polar-2-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-10_4-polar-2-v1" component="proteus">
       <statement>
         <p>
           Several points are plotted on a polar grid below.
@@ -626,7 +626,7 @@
       </cardsort>
     </exercise>
     
-    <exercise label="APEX-PROTEUS-polar-3-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-10_4-polar-3-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>

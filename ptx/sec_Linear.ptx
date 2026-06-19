@@ -95,7 +95,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-linear-DE-1-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-8_3-linear-DE-1-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       
       <statement>
@@ -436,7 +436,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-linear-DE-2-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-8_3-linear-DE-2-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       
       <statement>

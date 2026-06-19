@@ -222,7 +222,7 @@
     <video youtube="GIcjxu8dTnY" label="vid_graphs_extreme_val_EVT"/>
   </figure>
 
-  <exercise component="proteus" label="APEX-PROTEUS-graph-extreme-3-v1">
+  <exercise component="proteus" label="APEX-PROTEUS-sec-3_1-graph-extreme-3-v1">
     <title>PROTEUS EXERCISE</title>
     
     <statement>
@@ -490,7 +490,7 @@
     </solution>
   </example>
 
-  <exercise component="proteus" label="APEX-PROTEUS-graph-extreme-2-v1" attachment="yes">
+  <exercise component="proteus" label="APEX-PROTEUS-sec-3_1-graph-extreme-2-v1">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -507,15 +507,10 @@
             </p>
           </li>
         </ol>
-      </p>
-
-      <p>
-        You may express your answers using either formulas or sketches;
-        in either case you should explain why your examples work.
+        Explain why your answers work.
       </p>
     </statement>
-    <response />
-    
+    <response/>    
   </exercise>
 
   <p>
@@ -573,7 +568,7 @@
     <video youtube="WsBGpi006X0" label="vid_graphs_extreme_val_crit_pnts"/>
   </figure>
 
-  <exercise label="APEX-PROTEUS-graph-extreme-1-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-3_1-graph-extreme-1-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -1195,13 +1190,13 @@
         </webwork> -->
       </exercise>
 
-      <exercise label="TaC-graph-extreme-values-2" attachment="yes">
+      <exercise label="TaC-graph-extreme-values-2">
         <statement>
           <p>
             Sketch the graph of a function <m>f</m> on <m>(-1,1)</m> that has both a maximum and minimum value.
           </p>
         </statement>
-        <response />
+        <!-- <response /> -->
         
         <!-- <answer>
           <p>
@@ -1230,13 +1225,13 @@
         </webwork> -->
       </exercise>
 
-      <exercise label="TaC-graph-extreme-values-4" attachment="yes">
+      <exercise label="TaC-graph-extreme-values-4">
         <statement>
           <p>
             Sketch the graph of a function <m>f</m> where <m>f</m> has a relative maximum at <m>x=1</m> and <m>\fp(1)</m> is undefined.
           </p>
         </statement>
-        <response />
+        <!-- <response /> -->
         
         <!-- <answer>
           <p>

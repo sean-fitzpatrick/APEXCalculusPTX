@@ -63,7 +63,7 @@
       </statement>
     </definition>
 
-    <exercise component="proteus" label="APEX-PROTEUS-antider-1-v1">
+    <exercise component="proteus" label="APEX-PROTEUS-sec-5_1-antider-1-v1">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -406,7 +406,7 @@
       </statement>
     </theorem>
 
-    <exercise component="proteus" label="APEX-PROTEUS-antider-2-v1">
+    <exercise component="proteus" label="APEX-PROTEUS-sec-5_1-antider-2-v1">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -727,6 +727,18 @@
         <video width="98%" youtube="MB1dLY4lOew" label="vid_int_antider_ex_4" component="video"/>
       </solution>
     </example>
+
+    <exercise label="APEX-PROTEUS-sec-5_1-antider-3-v1" component="proteus">
+      <title>PROTEUS EXERCISE</title>
+      <statement>
+        <p>
+          Suppose we know that <m>\fp(x)=-1/x^2</m> and that <m>f(-1)=2</m>.
+          Can we use this information to determine the value of <m>f(3)</m>?
+          Why or why not?
+        </p>
+      </statement>
+      
+    </exercise>
 
     <p>
       This section introduced antiderivatives and the indefinite integral.

@@ -31,7 +31,7 @@
     but <q>hands-on</q> access increases understanding.
   </p>
 
-  <exercise label="APEX-PROTEUS-graph-sketch-1-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-3_5-graph-sketch-1-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -163,6 +163,17 @@
       </ol>
     </p>
   </insight>
+
+  <exercise label="APEX-PROTEUS-sec-3_5-graph-sketch-3-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
+    <statement>
+      <p>
+        Explain why it is ok for the graph of a function to cross a horizontal asymptote, 
+        but not a vertical asymptote. 
+      </p>
+    </statement>
+    <response/>
+  </exercise>
 
   <example xml:id="ex_sketch1">
     <title>Curve sketching</title>
@@ -1044,6 +1055,22 @@
     then adjusted for concavity,
     and finished by showing a very accurate, computer generated graph.
   </p>
+
+  <exercise label="APEX-PROTEUS-sec-3_5-graph-sketch-2-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
+    <statement>
+      <p>
+        Imagine an airplane that travels in a straight line from departure to arrival,
+        and consider the flight path as a graph, with distance along the ground on the <m>x</m> axis,
+        and altitude on the <m>y</m> axis.
+      </p>
+
+      <p>
+        Explain why this graph must have at least two inflection points.
+      </p>
+    </statement>
+    <response/>
+  </exercise>
 
   <p>
     Why are computer graphics so good?

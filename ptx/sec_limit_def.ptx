@@ -111,7 +111,7 @@
     </md>.
   </p>
 
-  <exercise label="APEX-PROTEUS-limit-def-1-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-1_2-limit-def-1-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -177,7 +177,7 @@
     </statement>
   </definition>
 
-  <exercise label="APEX-PROTEUS-limit-def-2-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-1_2-limit-def-2-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -859,7 +859,7 @@
     See if you can use this script to rearrange the blocks below into a valid proof.
   </p>
 
-  <exercise label="APEX-PROTEUS-limit-def-3-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-1_2-limit-def-3-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
@@ -1039,7 +1039,7 @@
     the limit of a sum is the sum of the limits.
   </p>
 
-  <exercise label="APEX-PROTEUS-limit-def-4-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-1_2-limit-def-4-v1" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>

@@ -182,7 +182,7 @@
       Notice how well this secant line approximates <m>f</m> between those two points <mdash/> it is a common practice to approximate functions with straight lines.
     </p>
 
-    <exercise label="APEX-PROTEUS-deriv-intro-1-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-2_1-deriv-intro-1-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>  
       <statement>
         <p>
@@ -927,7 +927,7 @@
       </statement>
     </definition>
 
-    <exercise label="APEX-PROTEUS-deriv-intro-2-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-2_1-deriv-intro-2-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>      
       
       <statement>
@@ -1036,7 +1036,7 @@
       </solution>
     </example>
 
-    <exercise component="proteus" label="APEX-PROTEUS-deriv-intro-3-v1">
+    <exercise component="proteus" label="APEX-PROTEUS-sec-2_1-deriv-intro-3-v1">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>

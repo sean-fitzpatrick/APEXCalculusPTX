@@ -206,7 +206,7 @@
     </p>
   </blockquote>
 
-  <exercise label="APEX-PROTEUS-deriv-chainrule-1-v2" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-2_5-deriv-chainrule-1-v2" component="proteus">
     <title>PROTEUS EXERCISE</title>    
     
     <statement>
@@ -220,7 +220,7 @@
     <response/>
   </exercise>
 
-  <exercise label="APEX-PROTEUS-deriv-chainrule-2-v2" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-2_5-deriv-chainrule-2-v2" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <introduction>
       <p>
@@ -260,7 +260,7 @@
       </image>
     </introduction>
 
-    <task label="APEX-PROTEUS-deriv-chainrule-2A-v2">
+    <task label="APEX-PROTEUS-sec-2_5-deriv-chainrule-2A-v2">
       <statement>
         <p>
           Use image above to approximate (within <m>1^\circ</m> F) the following values:
@@ -286,7 +286,7 @@
       <response/>
     </task>
 
-    <task label="APEX-PROTEUS-deriv-chainrule-2B-v2">
+    <task label="APEX-PROTEUS-sec-2_5-deriv-chainrule-2B-v2">
       <statement>
         <p>
           Explain why the temperature inside the greenhouse is also a function of time.
@@ -295,7 +295,7 @@
       <response/>
     </task>
 
-    <task label="APEX-PROTEUS-deriv-chainrule-2C-v2">
+    <task label="APEX-PROTEUS-sec-2_5-deriv-chainrule-2C-v2">
       <statement>
         <p>
           Notice that the graph of <m>T(S)</m> shows a strictly increasing trend. 
@@ -308,7 +308,7 @@
     </task>
   </exercise>
 
-  <exercise label="APEX-PROTEUS-deriv-chainrule-3-v2" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-2_5-deriv-chainrule-3-v2" component="proteus">
     <title>PROTEUS EXERCISE</title>
     <introduction>
       <p>
@@ -318,7 +318,7 @@
       </p>
     </introduction>
 
-    <task label="APEX-PROTEUS-deriv-chainrule-3A-v2">
+    <task label="APEX-PROTEUS-sec-2_5-deriv-chainrule-3A-v2">
       <statement>
         <p>
           Explain in your own words, how the air temperature you feel changes with time, and find that rate.
@@ -327,7 +327,7 @@
       <response/>
     </task>
 
-    <task label="APEX-PROTEUS-deriv-chainrule-3B-v2">
+    <task label="APEX-PROTEUS-sec-2_5-deriv-chainrule-3B-v2">
       <statement>
         <p>
           How does <xref ref="thm_chain_rule" text="title"/> support what you did to answer part (a)?
@@ -337,7 +337,7 @@
     </task>
   </exercise>
 
-  <exercise label="APEX-PROTEUS-deriv-chainrule-4-v2" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-2_5-deriv-chainrule-4-v2" component="proteus">
     <title>PROTEUS EXERCISE: What's Missing in the Chain Rule? </title>
     <statement>
       <p>
