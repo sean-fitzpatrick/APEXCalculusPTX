@@ -962,7 +962,7 @@
     resulting in a limit of <m>1</m>.
   </p>
 
-  <exercise label="APEX-PROTEUS-sec-1_3-limit-analytic-4-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-1_3-limit-analytic-4-v1" component="proteus" adaptive="yes">
     <title>PROTEUS EXERCISE</title>
     <statement>
       <p>
