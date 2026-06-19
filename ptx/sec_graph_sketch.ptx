@@ -1045,6 +1045,22 @@
     and finished by showing a very accurate, computer generated graph.
   </p>
 
+  <exercise label="APEX-PROTEUS-sec-3_5-graph-sketch-2-v1" component="proteus">
+    <title>PROTEUS EXERCISE</title>
+    <statement>
+      <p>
+        Imagine an airplane that travels in a straight line from departure to arrival,
+        and consider the flight path as a graph, with distance along the ground on the <m>x</m> axis,
+        and altitude on the <m>y</m> axis.
+      </p>
+
+      <p>
+        Explain why this graph must have at least two inflection points.
+      </p>
+    </statement>
+    <response/>
+  </exercise>
+
   <p>
     Why are computer graphics so good?
     It is not because computers are
