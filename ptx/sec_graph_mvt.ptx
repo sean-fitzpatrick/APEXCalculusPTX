@@ -640,11 +640,13 @@
         Match the reasons with the steps. Note that some steps may involve more than one reason,
         and not all steps require justification.
       </p>
+
+      <p>
+        The idea is to apply the Mean Value Theorem to the function <m>h(x)=g(x)-f(x)</m>.
+        If we can show that <m>h(x)\gt 0</m>, then we can conclude <m>f(x)\lt g(x)</m>.
+      </p>
     </statement>
     <cardsort>
-      <match>
-        <response>Let <m>h(x)=g(x)-f(x)</m></response>
-      </match>
       <match>
         <premise>Properties of continuous functions</premise>
         <response><m>h(x)</m> is continuous on <m>[a,b]</m></response>
@@ -674,10 +676,6 @@
         <premise><m>x\gt a</m></premise>
         <response><m>h(x)\gt 0</m></response>
       </match>
-      <match>
-        <premise><m>h(x)\gt 0</m></premise>
-        <response><m>f(x)\lt g(x)</m></response>
-      </match>      
     </cardsort>
   </exercise>
 
