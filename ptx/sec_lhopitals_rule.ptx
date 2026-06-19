@@ -564,7 +564,7 @@
 
     <!-- better as horizontal parsons but math is not rendering in that format -->
 
-    <exercise label="APEX-PROTEUS-sec-6_7-lhosptial-2-v1" component="proteus" language="natural">
+    <exercise label="APEX-PROTEUS-sec-6_7-lhosptial-2-v1" component="proteus" language="math">
       <title>PROTEUS EXERCISE</title>
             
       <statement>

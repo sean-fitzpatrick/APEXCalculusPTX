@@ -539,7 +539,7 @@
     variable, which we then optimize.
   </p>
 
-  <exercise label="APEX-PROTEUS-sec-4_3-optimization-2-v1" component="proteus">
+  <exercise label="APEX-PROTEUS-sec-4_3-optimization-2-v1" component="proteus" adaptive="yes">
     <title>PROTEUS EXERCISE</title>
     
     <statement>

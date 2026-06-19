@@ -1036,7 +1036,7 @@
       </solution>
     </example>
 
-    <exercise component="proteus" label="APEX-PROTEUS-sec-2_1-deriv-intro-3-v1">
+    <exercise component="proteus" label="APEX-PROTEUS-sec-2_1-deriv-intro-3-v1" adaptive="yes">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>

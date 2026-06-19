@@ -270,7 +270,7 @@
       </solution>
     </example>
 
-    <exercise label="APEX-PROTEUS-sec-8_2-separable-2-v1" component="proteus">
+    <exercise label="APEX-PROTEUS-sec-8_2-separable-2-v1" component="proteus" adaptive="yes">
       <title>PROTEUS EXERCISE</title>
 
       <statement>
