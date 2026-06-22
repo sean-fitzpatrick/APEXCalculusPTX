@@ -381,7 +381,7 @@
         the volume is not very difficult to compute.
       </p>
 
-      <figure xml:id="fig_doublepol2" vshift="0">
+      <figure xml:id="fig_doublepol2">
         <caption>Showing the region <m>R</m> and surface used in <xref ref="ex_doublepol2"/></caption>
         <sidebyside widths="47% 47%" margins="0%">
           <figure xml:id="fig_doublepol2a">
@@ -779,7 +779,7 @@
         Find the volume of the solid.
       </p>
 
-      <figure xml:id="fig_doublepol4" vshift="0">
+      <figure xml:id="fig_doublepol4" vshift="-1">
         <caption>Visualizing the solid used in <xref ref="ex_doublepol4"/></caption>
 
         <!-- START figures/figdoublepol4_3D.asy -->
@@ -981,9 +981,8 @@
             </pg-code> -->
             <statement>
               <p>
-                Match each element on the left to the corresponding element on the right,
+                Match the correct elements on the left to the corresponding elements on the right,
                 so that <m>\iint_R f(x,y)\, dA</m> is correctly converted to polar coordinates.
-                Not all cards will be used.
               </p>
             </statement>
             <cardsort>
@@ -1278,12 +1277,12 @@
         </exercise>
 
       </exercisegroup>
-      <exercisegroup cols="2">
+
+      <exercisegroup cols="2" xml:id="exset-double-polar-special">
 
         <introduction>
           <p>
-            In the following exercises,
-            special double integrals are presented that are especially well suited for evaluation in polar coordinates.
+            The next two exercises present special double integrals that are especially well suited for evaluation in polar coordinates.
           </p>
         </introduction>
 

@@ -406,7 +406,7 @@
 	  </solution>
 	</example>
 
-	<figure xml:id="fig_lagrange2" vshift="0">
+	<figure xml:id="fig_lagrange2" vshift="2">
 		<caption>The constraint and some level curves in <xref ref="ex_lagrange2"/></caption>
 		<image width="47%">
 			<shortdescription>A plot of the constraint curve, which is a line, and several level curves, which are ellipses.</shortdescription>
@@ -529,7 +529,7 @@
 		</solution>
 	</example>
 
-	<aside vshift="0">
+	<aside vshift="1">
 	  <p>
 			For functions of three or more variables,
 			it is also possible to consider two or more constraints.

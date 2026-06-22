@@ -207,7 +207,7 @@
                 We want the results in <m>[0,2\pi]</m>;
                 we also recognize there are two solutions,
                 one in the third quadrant and one in the fourth.
-                Using reference angles, we have our two solutions as
+                Using reference angles, the two solutions are
                 <m>\theta =3.39</m> and <m>6.03</m> radians.
                 The four points we obtained where the limaçon has a horizontal tangent line are given in <xref ref="fig_polcalc1"/>
                 with black-filled dots.
@@ -311,7 +311,7 @@
           we zoom in on the tangent lines in <xref ref="fig_polcalc2"/>.
         </p>
 
-        <figure xml:id="fig_polcalc2" vshift="-1">
+        <figure xml:id="fig_polcalc2" vshift="2">
           <caption>Graphing the tangent lines at the pole in <xref ref="ex_polcalc2"/></caption>
           <!-- START figures/fig_polcalc2.tex -->
           <image width="47%">
@@ -355,7 +355,7 @@
           <!-- figures/fig_polcalc2.tex END -->
         </figure>
       </solution>
-      <solution component="video" vshift="5">
+      <solution component="video" vshift="7">
         <title>Video solution</title>
         <video width="98%" youtube="1bAf6kE9F1Y" label="vid-planecurves-polarcalc-polar-tangent" component="video"/>
       </solution>
@@ -624,13 +624,13 @@
           We did this example to demonstrate that the area formula is correct.
         </p>
       </solution>
-      <solution component="video" vshift="0">
+      <solution component="video" vshift="-2">
         <title>Video solution</title>
         <video width="98%" youtube="T_z8FNS3Whs" label="vid-planecurves-polarcalc-example-area1" component="video"/>
       </solution>
     </example>
 
-    <aside vshift="8">
+    <aside vshift="5">
       <p>
         <xref ref="ex_polcalc3"/>
         requires the use of the integral <m>\ds\int \cos^2(\theta) \,d\theta</m>.
@@ -657,7 +657,7 @@
           as shown in <xref ref="fig_polcalc4"/>.
         </p>
 
-        <figure xml:id="fig_polcalc4" vshift="0.5">
+        <figure xml:id="fig_polcalc4" vshift="-1">
           <caption>Finding the area of the shaded region of a cardioid in <xref ref="ex_polcalc4"/></caption>
           <!-- START figures/fig_polcalc4.tex -->
           <image width="47%">
@@ -1157,7 +1157,7 @@
           </md>.
         </p>
 
-        <figure xml:id="fig_polcalc7" vshift="-4">
+        <figure xml:id="fig_polcalc7" vshift="0">
           <caption>The limaçon in <xref ref="ex_polcalc7"/> whose arc length is measured</caption>
           <!-- START figures/fig_polcalc7.tex -->
           <image width="47%">
@@ -1204,7 +1204,7 @@
           which is accurate to 4 places after the decimal.)
         </p>
       </solution>
-      <solution component="video" vshift="4">
+      <solution component="video" vshift="7">
         <title>Video solution</title>
         <video width="98%" youtube="o-cetriP4Ms" label="vid-planecurves-polarcalc-arclength" component="video"/>
       </solution>
@@ -2310,7 +2310,7 @@
 
         <introduction>
           <p>
-            In the following exercises, answer the questions involving arc length.
+            Answer the questions involving arc length.
           </p>
         </introduction>
 
@@ -2445,7 +2445,7 @@
 
         <introduction>
           <p>
-            In the following exercises, answer the questions involving surface area.
+            Answer the questions involving surface area.
           </p>
         </introduction>
 

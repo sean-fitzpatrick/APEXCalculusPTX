@@ -269,6 +269,11 @@
       and does not work well with terms containing factorials.
     </p>
 
+    <figure xml:id="vid-seqseries-ratroot-root-test" component="video" vshift="-1">
+      <caption>Video presentation of <xref ref="thm_root_test"/></caption>
+      <video youtube="foE1iRYTXpc" label="vid-seqseries-ratroot-root-test"/>
+    </figure>
+
     <theorem xml:id="thm_root_test">
       <title>Root Test</title>
       <statement>
@@ -307,11 +312,6 @@
         </p>
       </statement>
     </theorem>
-
-    <figure xml:id="vid-seqseries-ratroot-root-test" component="video" vshift="3">
-      <caption>Video presentation of <xref ref="thm_root_test"/></caption>
-      <video youtube="foE1iRYTXpc" label="vid-seqseries-ratroot-root-test"/>
-    </figure>
 
     <example xml:id="ex_root1">
       <title>Applying the Root Test</title>
@@ -430,7 +430,7 @@
       </cardsort> 
     </exercise>
 
-    <exercise label="APEX-PROTEUS-sec-9_4-ratio-root-3-v1">
+    <exercise label="APEX-PROTEUS-sec-9_4-ratio-root-3-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
       <statement>
         <p>
@@ -618,8 +618,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            determine the convergence of the given series using the Ratio Test.
+            Determine the convergence of the given series using the Ratio Test.
             If the Ratio Test is inconclusive,
             state so and determine convergence with another test.
           </p>
@@ -804,8 +803,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            determine the convergence of the given series using the Root Test.
+            Determine the convergence of the given series using the Root Test.
             If the Root Test is inconclusive,
             state so and determine convergence with another test.
           </p>
@@ -990,7 +988,7 @@
 
         <introduction>
           <p>
-            In the following exercises, determine the convergence of the given series.
+            Determine the convergence of the given series.
             State the test used; more than one test may be appropriate.
           </p>
         </introduction>

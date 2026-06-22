@@ -378,7 +378,7 @@
       as we learn.
     </p>
 
-    <theorem xml:id="thm_indef_alg" hstretch="360" hskip="60">
+    <theorem xml:id="thm_indef_alg" hstretch="360" hskip="70">
       <title>Derivatives and Antiderivatives</title>
       <statement>
         <p>
@@ -438,7 +438,7 @@
       </cardsort>
     </exercise>
 
-    <p>
+    <p xml:id="p-antider-break1">
       We highlight a few important points from <xref ref="thm_indef_alg"/>.
     </p>
     <p>

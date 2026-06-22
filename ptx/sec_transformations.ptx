@@ -2142,7 +2142,7 @@
 					Thus the desired transformation is defined on the rectangle <m>D = [1,4]\times [1,2]</m> and has an inverse given by <m>T^{-1}(x,y) = (y/x,xy)</m>.
 				</p>
 
-				<figure xml:id="fig_int_trans2" vshift="0">
+				<figure xml:id="fig_int_trans2" vshift="2">
 					<caption>The region of integration in <xref ref="ex_int_trans2"/></caption>
 					<image width="47%">
 						<shortdescription>A region in the first quadrant bounded by two hyperbolas, and two lines through the origin.</shortdescription>

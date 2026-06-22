@@ -887,7 +887,7 @@
           as shown in <xref ref="fig_pareq6"/>.
         </p>
 
-        <figure xml:id="fig_pareq6" vshift="0">
+        <figure xml:id="fig_pareq6" vshift="3">
           <caption>Graphing projectile motion in <xref ref="ex_pareq6"/></caption>
           <!-- START figures/fig_pareq6.tex -->
           <image width="47%">
@@ -1038,7 +1038,7 @@
           the graph defined by <m>y=1-x</m> with unrestricted domain is given in a thin line.
         </p>
       </solution>
-      <solution component="video" vshift="0">
+      <solution component="video" vshift="4">
         <title>Video solution</title>
         <video width="98%" youtube="8Vgv74zCWFQ" label="vid-planecurves-parameq-elim-param" component="video"/>
       </solution>
@@ -1072,7 +1072,7 @@
           </md>
         </p>
 
-        <figure xml:id="fig_pareq8" vshift="-5">
+        <figure xml:id="fig_pareq8" vshift="0">
           <caption>Graphing the parametric equations <m>x=4\cos(t) +3</m>, <m>y=2\sin(t) +1</m> in <xref ref="ex_pareq8"/></caption>
           <!-- START figures/fig_pareq8.tex -->
           <image width="47%">
@@ -1110,7 +1110,7 @@
           demonstrating that the graph is indeed of an ellipse with a horizontal major axis and center at <m>(3,1)</m>.
         </p>
       </solution>
-      <solution component="video" vshift="3">
+      <solution component="video" vshift="8">
         <title>Video solution</title>
         <video width="98%" youtube="RYkPHhpgnas" label="vid-planecurves-parameq-ellipse" component="video"/>
       </solution>
@@ -1538,7 +1538,7 @@
           illustrating the cusp at <m>(1,4)</m>.
         </p>
 
-        <figure xml:id="fig_pareq9" vshift="-3">
+        <figure xml:id="fig_pareq9" vshift="0">
           <caption>Graphing the curve in <xref ref="ex_pareq9"/>; note it is not smooth at <m>(1,4)</m></caption>
           <!-- START figures/fig_pareq9.tex -->
           <image width="47%">
@@ -1576,7 +1576,7 @@
           <!-- figures/fig_pareq9.tex END -->
         </figure>
       </solution>
-      <solution component="video" vshift="3">
+      <solution component="video" vshift="6">
         <title>Video solution</title>
         <video width="98%" youtube="rqhh0McArDM" label="vid-planecurves-parameq-nonsmooth" component="video"/>
       </solution>
@@ -1717,8 +1717,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            sketch the graph of the given parametric equations <em>by hand</em>,
+            Sketch the graph of the given parametric equations <em>by hand</em>,
             making a table of points to plot.
             Be sure to indicate the orientation of the graph.
           </p>
@@ -1915,8 +1914,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            sketch the graph of the given parametric equations;
+            Sketch the graph of the given parametric equations;
             using a graphing utility is advisable.
             Be sure to indicate the orientation of the graph.
           </p>
@@ -2358,7 +2356,7 @@
 
         <introduction>
           <p>
-            In the following exercises, four sets of parametric equations are given.
+            Four sets of parametric equations are given.
             Describe how their graphs are similar and different.
             Be sure to discuss orientation and ranges.
           </p>
@@ -2676,8 +2674,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            eliminate the parameter in the given parametric equations.
+            Eliminate the parameter in the given parametric equations.
             Describe the curve defined by the parametric equations based on its rectangular form.
           </p>
         </introduction>
@@ -2762,8 +2759,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find parametric equations for the given rectangular equation using the parameter <m>\ds t=\frac{dy}{dx}</m>.
+            Find parametric equations for the given rectangular equation using the parameter <m>\ds t=\frac{dy}{dx}</m>.
             Verify that at <m>t=1</m>,
             the point on the graph has a tangent line with slope of 1.
           </p>
@@ -2978,8 +2974,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the values of <m>t</m> where the graph of the parametric equations crosses itself.
+            Find the values of <m>t</m> where the graph of the parametric equations crosses itself.
           </p>
         </introduction>
 
@@ -3073,8 +3068,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the value(s) of <m>t</m> where the curve defined by the parametric equations is not smooth.
+            Find the value(s) of <m>t</m> where the curve defined by the parametric equations is not smooth.
           </p>
         </introduction>
 

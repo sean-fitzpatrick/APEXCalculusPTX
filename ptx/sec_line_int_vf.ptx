@@ -1463,11 +1463,6 @@
       </solution>
     </example>
 
-    <figure xml:id="vid-veccalc-lineint-ftc-examples" component="video" vshift="0">
-      <caption>Further examples with the Fundamental Theorem (4 videos)</caption>
-      <video youtube="urwjnm5PXhQ" label="vid-veccalc-lineint-ftc-examples"/>
-    </figure>
-
     <p>
       The Fundamental Theorem of Line Integrals states that we can determine whether or not <m>\vec F</m> is conservative by determining whether or not <m>\vec F</m> has a potential function.
       This can be difficult.
@@ -1476,6 +1471,11 @@
       which is a reasonable requirement.
       We state this simpler method as a theorem.
     </p>
+
+    <figure xml:id="vid-veccalc-lineint-ftc-examples" component="video" vshift="0">
+      <caption>Further examples with the Fundamental Theorem (4 videos)</caption>
+      <video youtube="urwjnm5PXhQ" label="vid-veccalc-lineint-ftc-examples"/>
+    </figure>
 
     <theorem xml:id="thm_conservative_field_curl">
       <title>Curl of Conservative Fields</title>
@@ -1616,8 +1616,7 @@
       <exercisegroup cols="2" xml:id="exset-line-int-vector-evaluate">
         <introduction>
           <p>
-            In the following exercises,
-            a vector field <m>\vec F</m> and a curve <m>C</m> are given.
+            A vector field <m>\vec F</m> and a curve <m>C</m> are given.
             Evaluate <m>\ds\int_C\vec F\cdot d\vec r</m>.
           </p>
         </introduction>
@@ -1716,8 +1715,7 @@
       <exercisegroup cols="2" xml:id="exset-line-int-vector-work">
         <introduction>
           <p>
-            In the following exercises,
-            find the work performed by the force field <m>\vec F</m> moving a particle along the path <m>C</m>.
+            Find the work performed by the force field <m>\vec F</m> moving a particle along the path <m>C</m>.
           </p>
         </introduction>
 
@@ -1788,9 +1786,8 @@
       <exercisegroup cols="2" xml:id="exset-line-int-vector-conservative">
         <introduction>
           <p>
-            In the following exercises,
-            a conservative vector field <m>\vec F</m> and a curve <m>C</m> are given.
-
+            A conservative vector field <m>\vec F</m> and a curve <m>C</m> are given.
+            <enlarge-page skipsize="2"/>
             <ol>
               <li>
                 <p>

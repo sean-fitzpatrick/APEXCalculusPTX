@@ -123,6 +123,7 @@
             </li>
           </ol>
         </p>
+        <p xml:id="solution-lhospital-break-1"></p>
       </statement>
       <solution>
         <p>
@@ -511,7 +512,7 @@
                 This result is supported by the graph of
                 <m>f(x)=x^x</m> given in <xref ref="fig_LHR4"/>.
               </p>
-                <figure xml:id="fig_LHR4" vshift="2">
+                <figure xml:id="fig_LHR4" vshift="2.5">
                   <caption>A graph of <m>f(x)=x^x</m> supporting the fact that as <m>x\to 0^+</m>, <m>f(x)\to 1</m></caption>
                   <!-- START figures/fig_LHR4.tex -->
                   <image width="47%">
@@ -556,7 +557,7 @@
           </ol>
         </p>
       </solution>
-      <solution component="video" vshift="7">
+      <solution component="video" vshift="8">
         <title>Video solution</title>
         <video width="98%" youtube="wHCd7Wsxzug" label="vid-lhospital-ex-expforms" component="video"/>
       </solution>

@@ -801,7 +801,7 @@
           note that the dimensions are for the water, not the pool itself.
           Compute the amount of work performed in draining the pool.
         </p>
-        <figure xml:id="fig_pump3" vshift="3">
+        <figure xml:id="fig_pump3" vshift="1">
           <caption>The cross-section of a swimming pool filled with water in <xref ref="ex_pump3"/></caption>
           <!-- START figures/fig_pump4.tex -->
           <image width="47%">
@@ -839,7 +839,7 @@
           meaning the top of the water is at <m>y=6</m>.
         </p>
 
-        <figure xml:id="fig_pump_3a" vshift="-1">
+        <figure xml:id="fig_pump_3a" vshift="-3">
           <caption>Orienting the pool and showing differential elements for <xref ref="ex_pump3"/></caption>
           <!-- START figures/fig_pump4b.tex -->
           <image width="47%">

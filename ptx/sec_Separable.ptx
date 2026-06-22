@@ -501,13 +501,13 @@
           The general solution the logistic differential equation is the set containing <m>\displaystyle y = \frac{M}{1 + be^{-kt}}</m> and <m>y=0</m>.
         </p>
       </solution>
-      <solution component="video" vshift="4">
+      <solution component="video" vshift="5">
         <title>Video solution</title>
         <video width="98%" youtube="nLItalqug6A" label="vid-diffeq-separable-example-logistic" component="video"/>
       </solution>
     </example>
 
-    <aside vshift="-1">
+    <aside vshift="1">
       <p>
         Solving for <m>y</m> initially yields the explicit solution <m>\displaystyle y = \frac{AMe^{kt}}{1+Ae^{kt}}</m>.
         Dividing numerator and denominator by <m>Ae^{kt}</m> and defining <m>b = 1/A</m>
@@ -522,8 +522,7 @@
       <exercisegroup cols="2" xml:id="exset-ode-separable-determine">
         <introduction>
           <p>
-            In the following exercises,
-            decide whether the differential equation is separable or not separable.
+            Decide whether the differential equation is separable or not separable.
             If the equation is separable, write it in separated form.
           </p>
         </introduction>
@@ -581,8 +580,7 @@
       <exercisegroup cols="2" xml:id="exset-ode-separable-general-sol">
         <introduction>
           <p>
-            In the following exercises,
-            find the general solution to the separable differential equation.
+            Find the general solution to the separable differential equation.
             Be sure to check for missing constant solutions.
           </p>
         </introduction>
@@ -686,8 +684,7 @@
       <exercisegroup cols="2" xml:id="exset-ode-separable-particular-sol">
         <introduction>
           <p>
-            In the following exercises,
-            find the particular solution to the separable initial value problem.
+            Find the particular solution to the separable initial value problem.
           </p>
         </introduction>
         <exercise label="ex-ode-separable-particular-sol-1">

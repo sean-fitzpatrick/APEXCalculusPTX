@@ -68,7 +68,7 @@
           since they are only length 1.)
         </p>
 
-        <figure xml:id="fig_tannorm1" vshift="-3">
+        <figure xml:id="fig_tannorm1" vshift="-1">
           <caption>Plotting unit tangent vectors in <xref ref="ex_tannorm1"/></caption>
 
           <!-- START figures/figtannorm1_3D.asy -->
@@ -140,7 +140,7 @@
           <m>\unittangent(1)</m> to verify it has length 1.
         </p>
       </solution>
-      <solution component="video" vshift="8">
+      <solution component="video" vshift="9">
         <title>Video solution</title>
         <video width="98%" youtube="aGEMbQrBpPI" label="vid-vvf-tannorm-tangent-eg1" component="video"/>
       </solution>
@@ -186,7 +186,7 @@
           They are plotted in <xref ref="fig_tannorm2"/>
         </p>
 
-        <figure xml:id="fig_tannorm2" vshift="0">
+        <figure xml:id="fig_tannorm2" vshift="2">
           <caption>Plotting unit tangent vectors in <xref ref="ex_tannorm2"/></caption>
           <!-- START figures/fig_tannorm2.tex -->
           <image width="47%">
@@ -229,7 +229,7 @@
           <!-- figures/fig_tannorm2.tex END -->
         </figure>
       </solution>
-      <solution component="video" vshift="5.5">
+      <solution component="video" vshift="7">
         <title>Video solution</title>
         <video width="98%" youtube="zdfMTWdXzJs" label="vid-vvf-tannorm-tangent-eg2" component="video"/>
       </solution>
@@ -250,7 +250,7 @@
       It is good to wonder <q>Is one of these two directions preferable over the other?</q>
     </p>
 
-    <figure xml:id="fig_tannorm_intro1" vshift="-2">
+    <figure xml:id="fig_tannorm_intro1" vshift="0">
       <caption>Given a direction in the plane, there are always two directions orthogonal to it</caption>
       <!-- START figures/fig_tannorm_intro1.tex -->
       <image width="47%">
@@ -382,8 +382,8 @@
           These are sketched in <xref ref="fig_tannorm3"/>.
         </p>
 
-        <figure xml:id="fig_tannorm3" vshift="-2">
-          <caption>Plotting unit tangent and normal vectors in <xref ref="fig_tannorm3"/></caption>
+        <figure xml:id="fig_tannorm3" vshift="0">
+          <caption>Plotting unit tangent and normal vectors in <xref ref="ex_tannorm3"/></caption>
 
           <!-- START figures/figtannorm3_3D.asy -->
           <image width="47%">
@@ -441,13 +441,13 @@
           <!-- figures/figtannorm3_3D.asy END -->
         </figure>
       </solution>
-      <solution component="video" vshift="4">
+      <solution component="video" vshift="6">
         <title>Video solution</title>
         <video width="98%" youtube="cZkvyF0t5P4" label="vid-vvf-tannorm-normal-eg1" component="video"/>
       </solution>
     </example>
 
-    <aside vshift="-1">
+    <aside vshift="-6">
       <p>
         There is one flaw in our definition of <m>\unitnormal(t)</m>:
         it is possible that we could have <m>\unittangentprime(t)=0</m>!
@@ -665,7 +665,7 @@
       The following theorem gives alternate formulas for
       <m>a_\text{T}</m> and <m>a_\text{N}</m>.
     </p>
-    <aside vshift="0">
+    <aside vshift="1">
       <p>
         Keep in mind that both <m>a_\text{T}</m> and
         <m>a_\text{N}</m> are functions of <m>t</m>;
@@ -802,7 +802,7 @@
           gives a graph of the path for reference.
         </p>
 
-        <figure xml:id="fig_tannorm6" vshift="-2">
+        <figure xml:id="fig_tannorm6" vshift="0">
           <caption>Graphing <m>\vec r(t)</m> in <xref ref="ex_tannorm6"/></caption>
           <!-- START figures/fig_tannorm6.tex -->
           <image width="47%">
@@ -846,7 +846,7 @@
           Here the particle's speed is not changing and all acceleration is in the form of direction change.
         </p>
       </solution>
-      <solution component="video" vshift="5">
+      <solution component="video" vshift="6">
         <title>Video solution</title>
         <video width="98%" youtube="8LTqjQPvh-A" label="vid-vvf-tannorm-accel-eg2" component="video"/>
       </solution>
@@ -1353,8 +1353,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find <m>\unitnormal(t)</m> using <xref ref="def_unit_normal"/>.
+            Find <m>\unitnormal(t)</m> using <xref ref="def_unit_normal"/>.
             Confirm the result using <xref ref="thm_concave"/>.
           </p>
         </introduction>
@@ -1436,8 +1435,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            a position function <m>\vrt</m> is given along with its unit tangent vector
+            A position function <m>\vrt</m> is given along with its unit tangent vector
             <m>\unittangent(t)</m> evaluated at <m>t=a</m>,
             for some value of <m>a</m>.
           </p>
@@ -1581,7 +1579,7 @@
 
         <introduction>
           <p>
-            In the following exercises, find <m>\unitnormal(t)</m>.
+            Find <m>\unitnormal(t)</m>.
           </p>
         </introduction>
 
@@ -1669,8 +1667,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find <m>a_\text{T}</m> and <m>a_\text{N}</m> given <m>\vrt</m>.
+            Find <m>a_\text{T}</m> and <m>a_\text{N}</m> given <m>\vrt</m>.
             Be sure you can sketch <m>\vrt</m> on the indicated interval,
             and comment on the relative sizes of <m>a_\text{T}</m> and
             <m>a_\text{N}</m> at the indicated <m>t</m> values.

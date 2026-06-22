@@ -616,10 +616,20 @@
           <xref ref="fig_lines2"/> verifies this fact
           (where the points and directions indicated by the equations of each line are identified).
         </p>
-
-        <pagebreak-latex component="novideo"/>
         
-        <figure xml:id="fig_lines2" vshift="-1">
+        <p>
+          We next check to see if they intersect
+          (if they do not, they are skew lines).
+          To find if they intersect,
+          we look for <m>t</m> and <m>s</m> values such that the respective <m>x</m>,
+          <m>y</m> and <m>z</m> values are the same.
+          That is, we want <m>s</m> and <m>t</m> such that:
+          <md>
+            \begin{matrix} 1+3t \amp =\amp -2+4s\\ 2-t\amp =\amp 3+s\\ t\amp =\amp 5+2s \end{matrix}
+          </md>.
+        </p>
+
+        <figure xml:id="fig_lines2" vshift="0">
           <caption>Sketching the lines from <xref ref="ex_lines2"/></caption>
 
           <!-- START figures/figlines2_3D.asy -->
@@ -695,18 +705,6 @@
         </figure>
 
         <p>
-          We next check to see if they intersect
-          (if they do not, they are skew lines).
-          To find if they intersect,
-          we look for <m>t</m> and <m>s</m> values such that the respective <m>x</m>,
-          <m>y</m> and <m>z</m> values are the same.
-          That is, we want <m>s</m> and <m>t</m> such that:
-          <md>
-            \begin{matrix} 1+3t \amp =\amp -2+4s\\ 2-t\amp =\amp 3+s\\ t\amp =\amp 5+2s \end{matrix}
-          </md>.
-        </p>
-
-        <p>
           This is a relatively simple system of linear equations.
           Since the last equation is already solved for <m>t</m>,
           substitute that value of <m>t</m> into the equation above it:
@@ -729,7 +727,7 @@
           Therefore, we conclude that the lines <m>\ell_1</m> and <m>\ell_2</m> are skew.
         </p>
       </solution>
-      <solution component="video" vshift="1">
+      <solution component="video" vshift="-1">
         <title>Video solution</title>
         <video width="98%" youtube="hEYfincwMX0" label="vid-vectors-lines-compare" component="video"/>
       </solution>
@@ -914,7 +912,7 @@
       will help establish a general method of computing this distance <m>h</m>.
     </p>
 
-    <figure xml:id="fig_lines_dist1" vshift="3">
+    <figure xml:id="fig_lines_dist1" vshift="1">
       <caption>Establishing the distance from a point to a line</caption>
       <!-- START figures/fig_lines_dist1.tex -->
       <image width="47%">
@@ -962,7 +960,7 @@
       </md>.
     </p>
 
-    <figure xml:id="vid-vectors-lines-distance-point" component="video" vshift="0">
+    <figure xml:id="vid-vectors-lines-distance-point" component="video" vshift="-1">
       <caption>Determining distance from a line to a point</caption>
       <video youtube="ZJ_e_0s2s2M" label="vid-vectors-lines-distance-point"/>
     </figure>

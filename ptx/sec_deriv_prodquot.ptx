@@ -120,7 +120,7 @@
           <!-- figures/fig_5xsquaredsinx.tex END -->
       </figure>
     </solution>
-    <solution component="video" vshift="4">
+    <solution component="video" vshift="9">
       <title>Video solution</title>
       <video width="98%" youtube="37efDywkDyE" label="vid_deriv_prod_quot_prod_ex" component="video"/>
     </solution>
@@ -191,7 +191,7 @@
       then do some regrouping as shown.
     </p>
 
-    <aside xml:id="aside-derivative-add-zero" vshift="0">
+    <aside xml:id="aside-derivative-add-zero" vshift="1">
       <p>
         Adding <m>0</m> in some clever form is a common mathematical proof technique.
       </p>
@@ -545,7 +545,7 @@
         <!-- figures/fig_tanx.tex END -->
       </figure>
     </solution>
-    <solution component="video" vshift="6">
+    <solution component="video" vshift="9">
       <title>Video solution</title>
       <video width="98%" youtube="wslbADxDg4c" label="vid_deriv_prod_quot_tanx" component="video"/>
     </solution>
@@ -913,12 +913,12 @@
             <p>
               What derivative rule is used to extend the Power Rule to include negative integer exponents?
             </p>
-            <p>
+            <p component="web">
               <!-- <var name="$ans" width="80"/> -->
               <fillin width="30" answer="the quotient rule"/>
             </p>
           </statement>
-          <evaluation>
+          <evaluation component="web">
             <evaluate>
 
               <test correct="yes">

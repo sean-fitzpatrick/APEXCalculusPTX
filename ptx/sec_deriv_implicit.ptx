@@ -15,7 +15,7 @@
       Knowing <m>x</m>, we can directly find <m>y</m>.)
     </p>
 
-    <figure xml:id="vid_deriv_impl_intro" component="video" vshift="0">
+    <figure xml:id="vid_deriv_impl_intro" component="video" vshift="3">
       <caption>Video introduction to <xref ref="sec_imp_deriv"/></caption>
       <video youtube="E0mQbLG3Pjo" label="vid_deriv_impl_intro"/>
     </figure>
@@ -319,7 +319,7 @@
           <!-- figures/fig_implicit2.tex END -->
         </figure>
       </solution>
-      <solution component="video" vshift="6">
+      <solution component="video" vshift="8">
         <title>Video solution</title>
         <video width="98%" youtube="qYrcm4ObwOM" label="vid_deriv_impl_tan_line_prev_ex" component="video"/>
       </solution>
@@ -614,7 +614,7 @@
           <!-- figures/fig_implicit6.tex END -->
         </figure>
       </solution>
-      <solution component="video" vshift="6">
+      <solution component="video" vshift="8">
         <title>Video solution</title>
         <video width="98%" youtube="BMn-BU6VTQU" label="vid_deriv_impl_ex_3" component="video"/>
       </solution>
@@ -1086,7 +1086,7 @@
           <!-- figures/fig_implicit10.tex END -->
         </figure>
       </solution>
-      <solution component="video" vshift="2">
+      <solution component="video" vshift="-4">
         <title>Video solution</title>
         <video youtube="6eL6WBlmItk" label="vid_deriv_implicit_logarithmic1"/>
       </solution>
@@ -1872,55 +1872,42 @@
         </exercise>
       </exercisegroup>
 
-      <exercise label="ex-deriv-implicit-compute-14">
-        <webwork xml:id="webwork-ex-deriv-implicit-compute-14">
-          <introduction>
+      <exercisegroup cols="2" xml:id="ex-deriv-implicit-compute-14">
+        <introduction>
+          <p>
+            Show that <m>\lz{y}{x}</m> is the same for each of the following implicitly defined functions.
+          </p>
+        </introduction>
+
+        <exercise label="ex-deriv-implicit-compare-a">
+          <statement>
             <p>
-              Show that <m>\lz{y}{x}</m> is the same for each of the following implicitly defined functions.
+              <m>xy=1</m>
             </p>
-            </introduction>
-            <task label="ex-deriv-implicit-compare-a">
-              <statement>
-                <p>
-                  <m>xy=1</m>
-                </p>
-                <p>
-                  <var form="essay"/>
-                </p>
-              </statement>
-            </task>
-            <task label="ex-deriv-implicit-compare-b">
-              <statement>
-                <p>
-                  <m>x^2y^2=1</m>
-                </p>
-                <p>
-                  <var form="essay"/>
-                </p>
-              </statement>
-            </task>
-            <task label="ex-deriv-implicit-compare-c">
-              <statement>
-                <p>
-                  <m>\sin(xy) = 1</m>
-                </p>
-                <p>
-                  <var form="essay"/>
-                </p>
-              </statement>
-            </task>
-            <task label="ex-deriv-implicit-compare-d">
-              <statement>
-                <p>
-                  <m>\ln(xy) =1</m>
-                </p>
-                <p>
-                  <var form="essay"/>
-                </p>
-              </statement>
-            </task>
-        </webwork>
-      </exercise>
+          </statement>
+        </exercise>
+        <exercise label="ex-deriv-implicit-compare-b">
+          <statement>
+            <p>
+              <m>x^2y^2=1</m>
+            </p>
+          </statement>
+        </exercise>
+        <exercise label="ex-deriv-implicit-compare-c">
+          <statement>
+            <p>
+              <m>\sin(xy) = 1</m>
+            </p>
+          </statement>
+        </exercise>
+        <exercise label="ex-deriv-implicit-compare-d">
+          <statement>
+            <p>
+              <m>\ln(xy) =1</m>
+            </p>
+          </statement>
+        </exercise>
+      </exercisegroup>
 
       <!-- TODO: solutions for this exercise group. Answers are in APEX -->
       <exercisegroup cols="2" xml:id="exset-deriv-implicit-tangent">

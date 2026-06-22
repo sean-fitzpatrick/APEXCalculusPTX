@@ -251,7 +251,7 @@
     </statement>
   </theorem>
 
-  <figure xml:id="vid_graphs_MVT_rolles_thm" component="video" vshift="8">
+  <figure xml:id="vid_graphs_MVT_rolles_thm" component="video" vshift="9">
     <caption>Video presentation of <xref ref="thm_rolles"/></caption>
     <video youtube="E05H1f8TByI" label="vid_graphs_MVT_rolles_thm"/>
   </figure>
@@ -308,7 +308,7 @@
     The video in <xref ref="vid_graphs_MVT_ex_1"/> illustrates one such use of Rolle's Theorem.
   </p>
 
-  <figure xml:id="vid_graphs_MVT_ex_1" component="video" vshift="-1">
+  <figure xml:id="vid_graphs_MVT_ex_1" component="video" vshift="8">
     <caption>Using Rolle's Theorem to show a polynomial has at most one real root</caption>
     <video youtube="le-5zsb6O7o" label="vid_graphs_MVT_ex_1"/>
   </figure>
@@ -495,7 +495,7 @@
           <!-- figures/fig_mvt4.tex END -->
       </figure>
     </solution>
-    <solution component="video" vshift="6">
+    <solution component="video" vshift="8">
       <title>Video solution</title>
       <video width="98%" youtube="ON7WYLJY2tE" label="vid_graphs_MVT_ex_3" component="video"/>
     </solution>

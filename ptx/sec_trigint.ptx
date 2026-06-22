@@ -253,9 +253,8 @@
       The powerful program <em>Mathematica</em><trademark/> integrates
       <m>\int \sin^5(x) \cos^9(x) \, dx</m> as
       <md>
-        f(x)=-\frac{45 \cos(2 x)}{16384}-\frac{5 \cos(4 x)}{8192}+\frac{19 \cos(6
-        x)}{49152}+\frac{\cos(8 x)}{4096}-\frac{\cos(10 x)}{81920}-\frac{\cos(12
-        x)}{24576}-\frac{\cos(14 x)}{114688}
+        <mrow>f(x) =\amp -\frac{45 \cos(2 x)}{16384}-\frac{5 \cos(4 x)}{8192}+\frac{19 \cos(6x)}{49152}</mrow>
+        <mrow>\amp+\frac{\cos(8 x)}{4096}-\frac{\cos(10 x)}{81920}-\frac{\cos(12x)}{24576}-\frac{\cos(14 x)}{114688}</mrow>
       </md>,
       which clearly has a different form than our answer in
       <xref ref="ex_trigint2"/>, which is
@@ -592,7 +591,7 @@
       This strategy is outlined in the following Key Idea.
     </p>
 
-    <insight xml:id="idea_trig_int_2" hstretch="330">
+    <insight xml:id="idea_trig_int_2" hstretch="310">
       <title>Integrals Involving Powers of Tangent and Secant</title>
       <p>
         Consider <m>\ds\int\tan^m(x) \sec^n(x) \, dx</m>,
@@ -785,18 +784,20 @@
       </solution>
     </example>
 
-    <p xml:id="vidint-int-trig-ex-secant-power-reduction" component="video">
-      Integrals involving odd powers of <m>\sec(x)</m> (and nothing else)
-      are often among the more intimidating tasks for beginning calculus students.
-      However, larger odd powers are best handled not by doing the integral directly,
-      but by employing a <em>reduction forumula</em>.
-      The video in <xref ref="vid-int-trig-ex-secant-power-reduction"/> shows how to obtain a reduction formula for the integral of <m>\sec^{2k+1}(x)</m>;
-      this formula allows us to express the integral in terms of an integral where the power of <m>\sec(x)</m>
-      is reduced by two.
-      <idx><h>reduction formula</h><h>trigonometric integral</h></idx>
-    </p>
+    <aside xml:id="vidint-int-trig-ex-secant-power-reduction" component="video" vshift="-3">
+      <p>
+        Integrals involving odd powers of <m>\sec(x)</m> (and nothing else)
+        are often among the more intimidating tasks for beginning calculus students.
+        However, larger odd powers are best handled not by doing the integral directly,
+        but by employing a <em>reduction forumula</em>.
+        The video in <xref ref="vid-int-trig-ex-secant-power-reduction"/> shows how to obtain a reduction formula for the integral of <m>\sec^{2k+1}(x)</m>;
+        this formula allows us to express the integral in terms of an integral where the power of <m>\sec(x)</m>
+        is reduced by two.
+        <idx><h>reduction formula</h><h>trigonometric integral</h></idx>
+      </p>
+    </aside>
 
-    <figure xml:id="vid-int-trig-ex-secant-power-reduction" component="video" vshift="-1">
+    <figure xml:id="vid-int-trig-ex-secant-power-reduction" component="video" vshift="-9">
       <caption>Deriving a power reduction formula for secant integrals</caption>
       <video youtube="Om0iOgV9IwA" label="vid-int-trig-ex-secant-power-reduction"/>
     </figure>
@@ -833,7 +834,7 @@
           </md>.
         </p>
       </solution>
-      <solution component="video" vshift="-2">
+      <solution component="video" vshift="0">
         <title>Video solution</title>
         <video width="98%" youtube="MUDKKDz3_C8" label="vid-int-trig-ex-tan6" component="video"/>
       </solution>

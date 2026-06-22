@@ -1280,8 +1280,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            practice using <xref ref="idea_sketch"/>
+            Practice using <xref ref="idea_sketch"/>
             by applying the principles to the given functions with familiar graphs.
           </p>
         </introduction>
@@ -1375,8 +1374,7 @@
   <!--TODO: Instead of "use technology", how about "use the Sage cell provided"? -->
         <introduction>
           <p>
-            In the following exercises,
-            sketch a graph of the given function using <xref ref="idea_sketch"/>.
+            Sketch a graph of the given function using <xref ref="idea_sketch"/>.
             Show all work; check your answer with technology.
           </p>
         </introduction>
@@ -1582,8 +1580,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            a function with the parameters <m>a</m> and <m>b</m> are given.
+            A function with the parameters <m>a</m> and <m>b</m> are given.
             Describe the critical points and possible points of inflection of <m>f</m> in terms of <m>a</m> and <m>b</m>.
           </p>
         </introduction>

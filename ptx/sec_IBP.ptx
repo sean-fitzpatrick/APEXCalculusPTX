@@ -189,7 +189,7 @@
         </md>.
       </p>
     </solution>
-    <solution component="video" vshift="2">
+    <solution component="video" vshift="1">
       <title>Video solution</title>
       <video width="98%" youtube="gKtzlaH2EPo" label="vid-int-parts-ex-onestep" component="video"/>
     </solution>

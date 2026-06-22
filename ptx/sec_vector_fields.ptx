@@ -643,8 +643,9 @@
 
     <p>
       We can also compute their cross products:
-      <md hskip="30" minisize="360">
-        <mrow>{\nabla\times \vec F }\amp = {\left\langle \frac{\partial}{\partial y}\big(x^2\big)-\frac{\partial}{\partial z}\big(y^2+z\big),\frac{\partial}{\partial z}\big(x+\sin(y)\big)-\frac{\partial}{\partial x}\big(x^2\big),\frac{\partial}{\partial x}\big(y^2+z\big)-\frac{\partial}{\partial y}\big(x+\sin(y)\big)\right\rangle }</mrow>
+      <md>
+        <mrow>\nabla\times \vec F \amp = \left\langle \frac{\partial}{\partial y}\big(x^2\big)-\frac{\partial}{\partial z}\big(y^2+z\big),\frac{\partial}{\partial z}\big(x+\sin(y)\big)-\frac{\partial}{\partial x}\big(x^2\big),\right.</mrow>
+        <mrow>\amp \phantom{=\frac{\partial}{\partial y}\big(x^2\big)-\frac{\partial}{\partial z}\big(y^2+z\big)}\left.\frac{\partial}{\partial x}\big(y^2+z\big)-\frac{\partial}{\partial y}\big(x+\sin(y)\big)\right\rangle </mrow>
         <mrow>\amp =\langle -1,-2x,-\cos(y)\rangle</mrow>
       </md>.
     </p>
@@ -844,6 +845,7 @@
             </li>
           </ol>
         </p>
+        <p xml:id="solution-vectorfield-break"></p>
       </statement>
       <solution>
         <p>
@@ -1672,6 +1674,8 @@
       </solution>
     </example>
 
+    <enlarge-page skipsize="2"/>
+
     <p>
       There are some important concepts visited in this section that will be revisited in subsequent sections and again at the very end of this chapter.
       One is: given a vector field <m>\vec F</m>,
@@ -1778,8 +1782,7 @@
       <exercisegroup cols="2" xml:id="exset-vector-field-sketch">
         <introduction>
           <p>
-            In the following exercises,
-            sketch the given vector field over the rectangle with opposite corners <m>(-2,-2)</m> and <m>(2,2)</m>,
+            Sketch the given vector field over the rectangle with opposite corners <m>(-2,-2)</m> and <m>(2,2)</m>,
             sketching one vector for every point with integer coordinates (<ie/>, at <m>(0,0)</m>,
             <m>(1,2)</m>, etc.).
           </p>
@@ -2124,8 +2127,7 @@
       <exercisegroup cols="2" xml:id="ex-vector-field-div-curl">
         <introduction>
           <p>
-            In the following exercises,
-            find the divergence and curl of the given vector field.
+            Find the divergence and curl of the given vector field.
           </p>
         </introduction>
 

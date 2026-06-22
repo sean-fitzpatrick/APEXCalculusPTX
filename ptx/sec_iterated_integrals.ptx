@@ -461,7 +461,7 @@
           as shown in <xref ref="fig_iterated5"/>.
         </p>
 
-        <figure xml:id="fig_iterated5" vshift="0">
+        <figure xml:id="fig_iterated5" vshift="-2">
           <caption>Calculating the area of a triangle with iterated integrals in <xref ref="ex_iterated5"/></caption>
           <!-- START figures/fig_iterated5.tex -->
           <image width="47%">
@@ -554,8 +554,6 @@
           Find the area of the region enclosed by <m>y=2x</m> and <m>y=x^2</m>,
           as shown in <xref ref="fig_iterated6"/>.
         </p>
-
-        <pagebreak-latex/>
 
         <figure xml:id="fig_iterated6" vshift="-2">
           <caption>Calculating the area of a plane region with iterated integrals in <xref ref="ex_iterated6"/></caption>
@@ -980,8 +978,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            evaluate the integral and subsequent iterated integral.
+            Evaluate the integral and subsequent iterated integral.
           </p>
         </introduction>
 
@@ -1190,7 +1187,7 @@
 
         <introduction>
           <p>
-            In the following exercises, a graph of a planar region <m>R</m> is given.
+            A graph of a planar region <m>R</m> is given.
             Give the iterated integrals,
             with both orders of integration <m>dy\, dx</m> and <m>dx\, dy</m>,
             that give the area of <m>R</m>.
@@ -1551,8 +1548,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            iterated integrals are given that compute the area of a region <m>R</m> in the <m>xy</m>-plane.
+            Iterated integrals are given that compute the area of a region <m>R</m> in the <m>xy</m>-plane.
             Sketch the region <m>R</m>,
             and give the iterated integral(s) that give the area of <m>R</m> with the opposite order of integration.
           </p>

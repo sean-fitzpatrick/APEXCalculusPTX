@@ -234,11 +234,12 @@
           meaning <em>to the outside</em>, of <m>\surfaceS</m>.)
           The flux across <m>\surfaceS_1</m> is:
           <md>
-            <mrow>\text{ Flux across }\surfaceS_1:\,   \amp = \iint_{\surfaceS_1} \vec F\cdot \vec n_1\, dS</mrow>
-            <mrow>\amp = \int_0^1\int_{-1}^1 \vec F\big(\vec r_1(u,v)\big)\cdot \big(\vec r_{1v}\times\vec r_{1u}\big)\, du\, dv</mrow>
-            <mrow>\amp = \int_0^1\int_{-1}^1 \la v(1-u^2)+u, u^2,4v(1-u^2)\ra \cdot \la 2(u^2-1),0,1-u^2\ra\, du\, dv</mrow>
-            <mrow>\amp = \int_0^1\int_{-1}^1 \big(2u^4v+2u^3-4u^2v-2u+2v\big)\, du\, dv</mrow>
-            <mrow>\amp = \frac{16}{15}</mrow>
+            <mrow>\amp \text{ Flux across }\surfaceS_1:</mrow>
+            <mrow>\amp \quad = \iint_{\surfaceS_1} \vec F\cdot \vec n_1\, dS</mrow>
+            <mrow>\amp \quad = \int_0^1\int_{-1}^1 \vec F\big(\vec r_1(u,v)\big)\cdot \big(\vec r_{1v}\times\vec r_{1u}\big)\, du\, dv</mrow>
+            <mrow>\amp \quad = \int_0^1\int_{-1}^1 \la v(1-u^2)+u, u^2,4v(1-u^2)\ra \cdot \la 2(u^2-1),0,1-u^2\ra\, du\, dv</mrow>
+            <mrow>\amp \quad = \int_0^1\int_{-1}^1 \big(2u^4v+2u^3-4u^2v-2u+2v\big)\, du\, dv</mrow>
+            <mrow>\amp \quad = \frac{16}{15}</mrow>
           </md>.
         </p>
 
@@ -249,11 +250,12 @@
           meaning this vector points outside <m>\surfaceS</m>.)
           The flux across <m>\surfaceS_2</m> is:
           <md>
-            <mrow>\text{ Flux across } \surfaceS_2:\,  \amp = \iint_{\surfaceS_2} \vec F\cdot \vec n_2\, dS</mrow>
-            <mrow>\amp = \int_0^1\int_{-1}^1 \vec F\big(\vec r_2(u,v)\big)\cdot \big(\vec r_{2u}\times\vec r_{2v}\big)\, du\, dv</mrow>
-            <mrow>\amp = \int_0^1\int_{-1}^1 \la 1-u^2+u, u^2, 4v(1-u^2)\ra \cdot \la 2(1-u^2), 4u(1-u^2),0\ra\, du\, dv</mrow>
-            <mrow>\amp = \int_0^1\int_{-1}^1 \big(4u^5-2u^4-2u^3+4u^2-2u-2\big)\, du\, dv</mrow>
-            <mrow>\amp = \frac{32}{15}</mrow>
+            <mrow>\amp \text{ Flux across } \surfaceS_2:</mrow>
+            <mrow>\amp \quad = \iint_{\surfaceS_2} \vec F\cdot \vec n_2\, dS</mrow>
+            <mrow>\amp \quad = \int_0^1\int_{-1}^1 \vec F\big(\vec r_2(u,v)\big)\cdot \big(\vec r_{2u}\times\vec r_{2v}\big)\, du\, dv</mrow>
+            <mrow>\amp \quad = \int_0^1\int_{-1}^1 \la 1-u^2+u, u^2, 4v(1-u^2)\ra \cdot \la 2(1-u^2), 4u(1-u^2),0\ra\, du\, dv</mrow>
+            <mrow>\amp \quad = \int_0^1\int_{-1}^1 \big(4u^5-2u^4-2u^3+4u^2-2u-2\big)\, du\, dv</mrow>
+            <mrow>\amp \quad = \frac{32}{15}</mrow>
           </md>.
         </p>
 
@@ -264,11 +266,12 @@
           meaning this vector points down, outside of <m>\surfaceS</m>.)
           The flux across <m>\surfaceS_3</m> is:
           <md>
-            <mrow>\text{ Flux across } \surfaceS_3:\,  \amp = \iint_{\surfaceS_3} \vec F\cdot \vec n_3\, dS</mrow>
-            <mrow>\amp = \int_0^1\int_{-1}^1 \vec F\big(\vec r_3(u,v)\big)\cdot \big(\vec r_{3u}\times\vec r_{3v}\big)\, du\, dv</mrow>
-            <mrow>\amp = \int_0^1\int_{-1}^1 \la v(1-u^2)+u,u^2,0\ra \cdot \la 0,0,u^2-1\ra\, du\, dv</mrow>
-            <mrow>\amp = \int_0^1\int_{-1}^1 0\, du\, dv</mrow>
-            <mrow>\amp = 0</mrow>
+            <mrow>\amp\text{ Flux across } \surfaceS_3:</mrow>
+            <mrow>\amp \quad = \iint_{\surfaceS_3} \vec F\cdot \vec n_3\, dS</mrow>
+            <mrow>\amp \quad = \int_0^1\int_{-1}^1 \vec F\big(\vec r_3(u,v)\big)\cdot \big(\vec r_{3u}\times\vec r_{3v}\big)\, du\, dv</mrow>
+            <mrow>\amp \quad = \int_0^1\int_{-1}^1 \la v(1-u^2)+u,u^2,0\ra \cdot \la 0,0,u^2-1\ra\, du\, dv</mrow>
+            <mrow>\amp \quad = \int_0^1\int_{-1}^1 0\, du\, dv</mrow>
+            <mrow>\amp \quad = 0</mrow>
           </md>.
         </p>
 
@@ -682,6 +685,9 @@
       one has power to select the easiest computation as illustrated next.
     </p>
 
+
+        <enlarge-page skipsize="4"/>
+
     <example xml:id="ex_divthm_space4">
       <title>Using the Divergence Theorem to compute flux</title>
       <statement>
@@ -787,7 +793,7 @@
           Verify Stoke's Theorem by showing <m>\oint_C \vec F\cdot \, d\vec r = \iint_\surfaceS (\curl\vec F)\cdot \vec n\, dS</m>.
         </p>
 
-        <figure xml:id="fig_stokes1" vshift="0">
+        <figure xml:id="fig_stokes1" vshift="2">
           <caption>As given in <xref ref="ex_stokes1"/>, the surface <m>\surfaceS</m><nbsp/>is the portion of the plane bounded by the curve</caption>
           <image width="47%">
             <shortdescription>An ellipse drawn on a plane in space. It lies over a circle in the x,y plane.</shortdescription>
@@ -1141,7 +1147,7 @@
     </figure>
   </subsection>
 
-  <subsection>
+  <subsection xml:id="subsec-common-thread">
     <title>A Common Thread of Calculus</title>
     <p>
       We have threefold interest in each of the major theorems of this chapter:
@@ -1286,8 +1292,7 @@
       <exercisegroup cols="2" xml:id="exset-divergence-theorem-verify">
         <introduction>
           <p>
-            In the following exercises,
-            a closed surface <m>\surfaceS</m> enclosing a domain <m>D</m> and a vector field <m>\vec F</m> are given.
+            A closed surface <m>\surfaceS</m> enclosing a domain <m>D</m> and a vector field <m>\vec F</m> are given.
             Verify the Divergence Theorem on <m>\surfaceS</m>; that is,
             show <m>\iint_\surfaceS \vec F\cdot \vec n\, dS = \iiint_D\divv \vec F\, dV</m>.
           </p>
@@ -1733,8 +1738,7 @@
       <exercisegroup cols="2" xml:id="exset-stokes-theorem-verify">
         <introduction>
           <p>
-            In the following exercises,
-            a closed curve <m>C</m> that is the boundary of a surface <m>\surfaceS</m> is given along with a vector field <m>\vec F</m>.
+            A closed curve <m>C</m> that is the boundary of a surface <m>\surfaceS</m> is given along with a vector field <m>\vec F</m>.
             Verify Stokes' Theorem on <m>C</m>;
             that is, show <m>\oint_C \vec F\cdot d\vec r = \iint_\surfaceS\big(\curl \vec F\,\big)\cdot\vec n\, dS</m>.
           </p>
@@ -2109,8 +2113,7 @@
       <exercisegroup cols="2" xml:id="exset-divergence-theorem-flux">
         <introduction>
           <p>
-            In the following exercises,
-            a closed surface <m>\surfaceS</m> and a vector field <m>\vec F</m> are given.
+            A closed surface <m>\surfaceS</m> and a vector field <m>\vec F</m> are given.
             Find the outward flux of <m>\vec F</m> over <m>\surfaceS</m> either through direct computation or through the Divergence Theorem.
           </p>
         </introduction>
@@ -2575,8 +2578,7 @@
       <exercisegroup cols="2" xml:id="exset-stokes-theorem-circulation">
         <introduction>
           <p>
-            In the following exercises,
-            a closed curve <m>C</m> that is the boundary of a surface <m>\surfaceS</m> is given along with a vector field <m>\vec F</m>.
+            A closed curve <m>C</m> that is the boundary of a surface <m>\surfaceS</m> is given along with a vector field <m>\vec F</m>.
             Find the circulation of <m>\vec F</m> around <m>C</m> either through direct computation or through Stokes' Theorem.
           </p>
         </introduction>

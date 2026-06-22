@@ -523,7 +523,7 @@
     <q>component-wise.</q>
   </p>
 
-  <figure xml:id="vid-vectors-intro-algebra" component="video" vshift="5">
+  <figure xml:id="vid-vectors-intro-algebra" component="video" vshift="8">
     <caption>Video presentation of <xref ref="def_vector_algebra"/> (2 videos)</caption>
     <video youtube="tOpeq-_K0ME" label="vid-vectors-intro-algebra"/>
   </figure>
@@ -546,7 +546,7 @@
         </md>.
       </p>
 
-      <figure xml:id="fig_vect2" vshift="-2">
+      <figure xml:id="fig_vect2" vshift="0">
         <caption>Graphing the sum of vectors in <xref ref="ex_vect2"/></caption>
         <!-- START figures/fig_vect2.tex -->
         <image width="47%">
@@ -590,7 +590,7 @@
         These are all sketched in <xref ref="fig_vect2"/>.
       </p>
     </solution>
-    <solution component="video" vshift="4">
+    <solution component="video" vshift="8">
       <title>Video solution</title>
       <video width="98%" youtube="3MSwQJq_3s0" label="vid-vectors-intro-addition" component="video"/>
     </solution>
@@ -628,7 +628,7 @@
         <idx><h>vectors</h><h>zero vector</h></idx>
   </p>
 
-  <figure xml:id="fig_vect2b" vshift="0">
+  <figure xml:id="fig_vect2b" vshift="-1">
     <caption>Illustrating how to add vectors using the Head to Tail Rule and Parallelogram Law</caption>
     <!-- START figures/fig_vect2b.tex -->
     <image width="47%">
@@ -728,7 +728,7 @@
         </md>.
       </p>
 
-      <figure xml:id="fig_vect4" vshift="4">
+      <figure xml:id="fig_vect4" vshift="2">
         <caption>Illustrating how to subtract vectors graphically</caption>
         <!-- START figures/fig_vect4.tex -->
         <image width="47%">
@@ -783,7 +783,7 @@
         (when their initial points are the same).
       </p>
     </solution>
-    <solution component="video" vshift="0">
+    <solution component="video" vshift="-1">
       <title>Video solution</title>
       <video width="98%" youtube="a_qRwTkQXYQ" label="vid-vectors-intro-subtraction" component="video"/>
     </solution>
@@ -820,7 +820,7 @@
               </md>.
             </p>
 
-            <figure xml:id="fig_vect3" vshift="-1">
+            <figure xml:id="fig_vect3" vshift="0">
               <caption>Graphing vectors <m>\vec v</m> and <m>2\vec v</m> in <xref ref="ex_vect3"/></caption>
             <!-- START figures/fig_vect3.tex -->
               <image width="47%">
@@ -1108,7 +1108,7 @@
               This is sketched in <xref ref="fig_vect5"/>.
             </p>
 
-            <figure xml:id="fig_vect5" vshift="-2">
+            <figure xml:id="fig_vect5" vshift="1">
               <caption>Graphing vectors in <xref ref="ex_vect5"/>. All vectors shown have their initial point at the origin</caption>
             <!-- START figures/fig_vect5.tex -->
               <image width="47%">
@@ -1151,7 +1151,7 @@
         </ol>
       </p>
     </solution>
-    <solution component="video" vshift="5">
+    <solution component="video" vshift="9">
       <title>Video solution</title>
       <video width="98%" youtube="B9OV0Dja6IY" label="vid-vectors-intro-unitvec-eg" component="video"/>
     </solution>
@@ -1179,8 +1179,6 @@
     Identifying unit vectors with direction allows us to define
     <em>parallel vectors</em>.
   </p>
-
-  <pagebreak-latex component="novideo"/>
   
   <definition xml:id="def_parallel_vectors">
     <title>Parallel Vectors</title>
@@ -1219,7 +1217,7 @@
     <m>\vec v_2</m> are parallel if there is a scalar <m>c\neq 0</m> such that <m>\vec v_1 = c\vec v_2</m>
     (see marginal note).
   </p>
-  <aside xml:id="aside-def-orthogonal" vshift="0">
+  <aside xml:id="aside-def-orthogonal" vshift="-1.5">
     <title>Direction and the zero vector</title>
 
     <p>
@@ -1347,7 +1345,7 @@
         Find the force applied to each chain.
       </p>
 
-      <figure xml:id="fig_vect6" vshift="1">
+      <figure xml:id="fig_vect6" vshift="-1">
         <caption>A diagram of a weight hanging from 2 chains in <xref ref="ex_vect6"/></caption>
         <!-- START figures/fig_vect6.tex -->
         <image width="40%">
@@ -1553,6 +1551,7 @@
           </li>
         </ol>
       </p>
+      <p xml:id="solution-vector-break"></p>
     </statement>
     <solution>
       <p>
@@ -1597,7 +1596,7 @@
         How much higher will the weight be?
       </p>
 
-      <figure xml:id="fig_vect8" vshift="0">
+      <figure xml:id="fig_vect8" vshift="-2">
         <caption>A figure of a weight being pushed by the wind in <xref ref="ex_vect8"/></caption>
         <!-- START figures/fig_vect8.tex -->
         <image width="40%">
@@ -1843,7 +1842,7 @@
 
         <introduction>
           <p>
-            In the following exercises, points <m>P</m> and <m>Q</m> are given.
+            Points <m>P</m> and <m>Q</m> are given.
             Write the vector <m>\overrightarrow{PQ}</m> in component form and using the standard unit vectors.
           </p>
         </introduction>
@@ -2140,7 +2139,7 @@
 
         <introduction>
           <p>
-            In the following exercises, sketch <m>\vec u</m>, <m>\vec v</m>,
+            Sketch <m>\vec u</m>, <m>\vec v</m>,
             <m>\vec u+\vec v</m> and <m>\vec u-\vec v</m> on the same axes.
           </p>
         </introduction>
@@ -2523,7 +2522,7 @@
 
         <introduction>
           <p>
-            In the following exercises, find
+            Find
             <m>\norm{\vec u}</m>, <m>\norm{\vec v}</m>,
             <m>\norm{\vec u+\vec v}</m> and <m>\norm{\vec u-\vec v}</m>.
           </p>
@@ -2754,8 +2753,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the unit vector <m>\vec u</m> in the direction of <m>\vec v</m>.
+            Find the unit vector <m>\vec u</m> in the direction of <m>\vec v</m>.
           </p>
         </introduction>
 
@@ -2949,7 +2947,7 @@
             </image>
 
           <p>
-            In the following exercises, the angles <m>\theta</m> and <m>\varphi</m> are given.
+            Angles <m>\theta</m> and <m>\varphi</m> are given.
             Find the magnitude of the force applied to each chain.
           </p>
         </introduction>
@@ -3069,7 +3067,7 @@
             </image>
 
           <p>
-            In the following exercises, a force <m>\vec F_w</m> and length <m>\ell</m> are given.
+            A force <m>\vec F_w</m> and length <m>\ell</m> are given.
             Find the angle <m>\theta</m> and the height the weight is lifted as it moves to the right.
           </p>
         </introduction>

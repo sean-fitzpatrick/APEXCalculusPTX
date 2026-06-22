@@ -1058,7 +1058,7 @@
           Find the area of <m>R</m>.
         </p>
 
-        <figure xml:id="fig_green3" vshift="0">
+        <figure xml:id="fig_green3" vshift="-1">
           <caption>The region <m>R</m>, whose area is found in <xref ref="ex_green3"/></caption>
           <image width="47%">
             <shortdescription>A teardrop-shaped region in the plane.</shortdescription>
@@ -1178,7 +1178,7 @@
           that is, find the flux across <m>C</m> and show it is equal to the double integral of <m>\divv \vec F</m> over <m>R</m>.
         </p>
 
-        <figure xml:id="fig_div1" vshift="-4">
+        <figure xml:id="fig_div1" vshift="-5.5">
           <caption>The region <m>R</m> used in <xref ref="ex_div1"/></caption>
           <image width="47%">
             <shortdescription>A circle in the plane, plotted against a spiral vector field.</shortdescription>
@@ -1300,7 +1300,7 @@
           consider:
         </p>
 
-        <figure xml:id="fig_div2" vshift="0">
+        <figure xml:id="fig_div2" vshift="-1">
           <caption>As used in <xref ref="ex_div2"/>, the vector field has a divergence of 0 and the two paths only intersect at their initial and terminal points.</caption>
           <image width="47%">
             <shortdescription>Two curves in the plane between points A and B, and a vector field with many vortices.</shortdescription>
@@ -1537,8 +1537,7 @@
       <exercisegroup cols="2" xml:id="exset-Greens-flux">
         <introduction>
           <p>
-            In the following exercises,
-            a vector field <m>\vec F</m> and a curve <m>C</m> are given.
+            A vector field <m>\vec F</m> and a curve <m>C</m> are given.
             Evaluate <m>\int_C \vec F\cdot\vec n\, ds</m>,
             the flux of <m>\vec F</m> over <m>C</m>.
           </p>
@@ -1636,8 +1635,7 @@
       <exercisegroup cols="2" xml:id="exset-Greens-verify">
         <introduction>
           <p>
-            In the following exercises,
-            a vector field <m>\vec F</m> and a closed curve <m>C</m>,
+            A vector field <m>\vec F</m> and a closed curve <m>C</m>,
             enclosing a region <m>R</m>, are given.
             Verify Green's Theorem by evaluating <m>\oint_C\vec F\cdot d\vec r</m> and
             <m>\iint_R \curl \vec F\, dA</m>, showing they are equal.
@@ -1733,8 +1731,7 @@
       <exercisegroup cols="2" xml:id="exset-Greens-area">
         <introduction>
           <p>
-            In the following exercises,
-            a closed curve <m>C</m> enclosing a region <m>R</m> is given.
+            A closed curve <m>C</m> enclosing a region <m>R</m> is given.
             Find the area of <m>R</m> by computing
             <m>\oint_C \vec F\cdot d\vec r</m> for an appropriate choice of vector field <m>\vec F</m>.
           </p>
@@ -1812,8 +1809,7 @@
       <exercisegroup cols="2" xml:id="exset-Greens-divergence">
         <introduction>
           <p>
-            In the following exercises,
-            a vector field <m>\vec F</m> and a closed curve <m>C</m>,
+            A vector field <m>\vec F</m> and a closed curve <m>C</m>,
             enclosing a region <m>R</m>, are given.
             Verify the Divergence Theorem by evaluating <m>\oint_C\vec F\cdot \vec n\, ds</m> and
             <m>\iint_R \divv \vec F\, dA</m>, showing they are equal.

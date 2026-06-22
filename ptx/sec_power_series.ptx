@@ -1028,8 +1028,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            write out the sum of the first 5 terms of the given power series.
+            Write out the sum of the first 5 terms of the given power series.
           </p>
         </introduction>
 
@@ -1106,7 +1105,7 @@
 
         <introduction>
           <p>
-            In the following exercises, a power series is given.
+            A power series is given.
           </p>
 
           <p>
@@ -1595,8 +1594,7 @@
 
       <introduction>
         <p>
-          In the following exercises,
-          a function <m>\ds f(x) = \infser[0] a_nx^n</m> is given.
+          A function <m>\ds f(x) = \infser[0] a_nx^n</m> is given.
         </p>
 
         <p>
@@ -1803,8 +1801,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            give the first 5 terms of the series that is a solution to the given differential equation.
+            Give the first 5 terms of the series that is a solution to the given differential equation.
           </p>
         </introduction>
 

@@ -337,7 +337,7 @@
     This leads to a definition.
   </p>
 
-  <aside xml:id="note_doubleint" vshift="-1.5">
+  <aside xml:id="note_doubleint" vshift="-2">
     <title>Double integrals as limits of double sums</title>
 
     <p>
@@ -402,7 +402,7 @@
     </statement>
   </definition>
 
-  <figure xml:id="vid-multint-double-def" component="video" vshift="-5.5">
+  <figure xml:id="vid-multint-double-def" component="video" vshift="-5">
     <caption>Defining the double integral</caption>
     <video youtube="l7hGaXcsq9g" label="vid-multint-double-def"/>
   </figure>
@@ -456,14 +456,7 @@
     </md>.
   </p>
 
-  <p>
-    Remember that though the integrand contains <m>x</m>,
-    we are viewing <m>x</m> as fixed.
-    Also note that the bounds of integration are functions of <m>x</m>:
-    the bounds depend on the value of <m>x</m>.
-  </p>
-
-  <figure xml:id="fig_double_intro3" vshift="1.5">
+  <figure xml:id="fig_double_intro3" vshift="2">
     <caption>Finding volume under a surface by sweeping out a cross-sectional area</caption>
 
     <!-- START figures/figdouble_intro3_3D.asy -->
@@ -553,6 +546,13 @@
   </figure>
 
   <p>
+    Remember that though the integrand contains <m>x</m>,
+    we are viewing <m>x</m> as fixed.
+    Also note that the bounds of integration are functions of <m>x</m>:
+    the bounds depend on the value of <m>x</m>.
+  </p>
+
+  <p>
     As <m>A(x)</m> is a cross-sectional area function,
     we can find the signed volume <m>V</m> under <m>f</m> by integrating it:
     <md>
@@ -632,7 +632,7 @@
         which is the rectangle with corners <m>(3,1)</m> and <m>(4,2)</m> pictured in <xref ref="fig_double1"/>,
         using Fubini's Theorem and both orders of integration.
       </p>
-      <figure xml:id="fig_double1" vshift="0">
+      <figure xml:id="fig_double1" vshift="-1">
         <caption>Finding the signed volume under a surface in <xref ref="ex_double1"/></caption>
 
         <!-- START figures/figdouble1_3D.asy -->
@@ -754,7 +754,7 @@
         <m>y=0</m> and <m>x/2+y=1</m>,
         as shown in <xref ref="fig_double2"/>.
       </p>
-      <figure xml:id="fig_double2" vshift="0">
+      <figure xml:id="fig_double2" vshift="-2">
         <caption>Finding the signed volume under the surface in <xref ref="ex_double2"/></caption>
 
         <!-- START figures/figdouble2_3D.asy -->
@@ -884,7 +884,7 @@
     </solution>
   </example>
 
-  <figure xml:id="vid-multint-double-rectangle-eg" component="video" vshift="3.5">
+  <figure xml:id="vid-multint-double-rectangle-eg" component="video" vshift="3">
     <caption>Further examples of double integrals over rectangles</caption>
     <video youtube="MMbLzFw-5Rg" label="vid-multint-double-rectangle-eg"/>
   </figure>
@@ -962,7 +962,7 @@
               </md>.
             </p>
 
-            <figure xml:id="fig_double_region" vshift="12">
+            <figure xml:id="fig_double_region" vshift="7">
               <caption><m>R</m> is the union of two nonoverlapping regions, <m>R_1</m> and <m>R_2</m></caption>
               <!-- START figures/fig_double_region.tex -->
               <image width="35%">
@@ -1012,7 +1012,7 @@
     </statement>
   </theorem>
 
-  <figure xml:id="vid-multint-double-general-region" component="video" vshift="5">
+  <figure xml:id="vid-multint-double-general-region" component="video" vshift="13">
     <caption>Evaluating a double integral over a more general region</caption>
     <video youtube="FcxnuFSNOfY" label="vid-multint-double-general-region"/>
   </figure>
@@ -1334,7 +1334,7 @@
         enclosing the region <m>R</m>.
       </p>
 
-      <figure xml:id="fig_double6" vshift="4">
+      <figure xml:id="fig_double6" vshift="1">
         <caption>Determining the region <m>R</m> determined by the bounds of integration in <xref ref="ex_double6"/></caption>
         <!-- START figures/fig_double6.tex -->
         <image width="47%">
@@ -1439,7 +1439,7 @@
         shows the surface over <m>R</m>.
       </p>
 
-      <figure xml:id="fig_double6b" vshift="6">
+      <figure xml:id="fig_double6b" vshift="2">
         <caption>Showing the surface <m>z=f(x,y)</m> defined in <xref ref="ex_double6"/> over its region <m>R</m></caption>
 
         <!-- START figures/figdouble6b_3D.asy -->
@@ -2154,7 +2154,7 @@
 
         <introduction>
           <p>
-            In the following exercises:
+            For the given integral:
 
             <ol marker="(a)">
               <li>
@@ -2795,8 +2795,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            state why it is difficult/impossible to integrate the iterated integral in the given order of integration.
+            State why it is difficult/impossible to integrate the iterated integral in the given order of integration.
             Change the order of integration and evaluate the new iterated integral.
           </p>
         </introduction>
@@ -2885,8 +2884,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the average value of <m>f</m> over the region <m>R</m>.
+            Find the average value of <m>f</m> over the region <m>R</m>.
             Notice how these functions and regions are related to the iterated integrals given in
             <xref first="x13_02_ex_05" last="x13_02_ex_08" text="local">Exercises</xref>.
           </p>

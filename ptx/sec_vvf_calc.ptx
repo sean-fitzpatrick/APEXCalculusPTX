@@ -700,7 +700,7 @@
           Thus <m>\vrp(-1) = \la 1,-2,3\ra</m>.
         </p>
 
-        <figure xml:id="fig_vvfderiv1" vshift="1">
+        <figure xml:id="fig_vvfderiv1" vshift="-1">
           <caption>Graphing a curve in space with its tangent line</caption>
 
           <!-- START figures/figvvfderiv1_3D.asy -->
@@ -835,7 +835,7 @@
           hence cannot find the equation of the tangent line.
         </p>
       </solution>
-      <solution component="video" vshift="3">
+      <solution component="video" vshift="2.5">
         <title>Video solution</title>
         <video width="98%" youtube="czvJ5AtLpa4" label="vid-vvf-calc-tangent-eg2" component="video"/>
       </solution>
@@ -2240,8 +2240,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            evaluate the given definite or indefinite integral.
+            Evaluate the given definite or indefinite integral.
           </p>
         </introduction>
 

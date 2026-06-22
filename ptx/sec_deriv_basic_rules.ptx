@@ -117,7 +117,7 @@
     
   </exercise>
 
-  <figure xml:id="vid_deriv_basic_rules" component="video" vshift="0">
+  <figure xml:id="vid_deriv_basic_rules" component="video" vshift="2.5">
     <caption>Video explanation of <xref ref="thm_deriv_common"/></caption>
     <video youtube="wPJ8-zKc1n0" label="vid_deriv_basic_rules"/>
   </figure>
@@ -159,7 +159,7 @@
   </p>
 
   <p xml:id="vidint-deriv_basic_rules_exp_func" component="video">
-    <xref ref="thm_deriv_common"/> states that the natural exponential function has a remarkable propery:
+    <xref ref="thm_deriv_common"/> states that the natural exponential function has a remarkable property:
     it is equal to its own derivative! The video in <xref ref="vid_deriv_basic_rules_exp_func"/> explains why this is the case.
   </p>
 
@@ -287,7 +287,7 @@
         <!-- figures/fig_xcubedwithderiv.tex END -->
       </figure>
     </solution>
-    <solution component="video" vshift="5">
+    <solution component="video" vshift="8.5">
       <title>Video solution</title>
       <video width="98%" youtube="lyAEJSmSr-A" label="vid_deriv_basic_rules_ex" component="video"/>
     </solution>
@@ -303,6 +303,8 @@
     The following theorem helps with the first two of these examples
     (the third is answered in the next section).
   </p>
+
+  <enlarge-page skipsize="2"/>
 
   <theorem xml:id="thm_deriv_prop">
     <title>Properties of the Derivative</title>
@@ -392,7 +394,7 @@
     
   </exercise>
 
-  <figure xml:id="vid_deriv_basic_rules_const_sum_rule" component="video" vshift="2">
+  <figure xml:id="vid_deriv_basic_rules_const_sum_rule" component="video" vshift="1">
     <caption>Video presentation of <xref ref="thm_deriv_prop"/></caption>
     <video youtube="Hr0sQcVhQ9A" label="vid_deriv_basic_rules_const_sum_rule"/>
   </figure>
@@ -652,7 +654,7 @@
       </p>
     </aside>
 
-    <figure xml:id="vid_deriv_basic_rules_higher_order_deriv" component="video" vshift="0">
+    <figure xml:id="vid_deriv_basic_rules_higher_order_deriv" component="video" vshift="-1">
       <caption>Video explanation of <xref ref="def_Higher_Deriv"/></caption>
       <video youtube="usabSpUh65w" label="vid_deriv_basic_rules_higher_order_deriv"/>
     </figure>
@@ -805,12 +807,12 @@
               What is the name of the rule which states that <m>\lzoo{x}{x^n} = nx^{n-1}</m>,
               where <m>n \gt 0</m> is an integer?
             </p>
-            <p>
+            <p component="web">
               <!-- <var name="$ans" width="20"/> -->
                <fillin width="25" answer="the power rule"/>
             </p>
           </statement>
-          <evaluation>
+          <evaluation component="web">
             <evaluate>
 
               <test correct="yes">

@@ -177,7 +177,7 @@
       That is, for a small enough subregion of <m>R</m>,
       the density across that region is almost constant.
     </p>
-    <aside vshift="0">
+    <aside vshift="2">
       <p>
         <em>Mass</em> and <em>weight</em> are different measures.
         Since they are scalar multiples of each other,
@@ -1462,8 +1462,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            point masses are given along a line or in the plane.
+            Point masses are given along a line or in the plane.
             Find the center of mass <m>\overline{x}</m> or <m>(\overline{x},\overline{y})</m>,
             as appropriate.
             (All masses are in grams and distances are in cm.)
@@ -1559,8 +1558,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the mass/weight of the lamina described by the region <m>R</m> in the plane and its density function <m>\delta(x,y)</m>.
+            Find the mass/weight of the lamina described by the region <m>R</m> in the plane and its density function <m>\delta(x,y)</m>.
           </p>
         </introduction>
 
@@ -1720,8 +1718,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            find the center of mass of the lamina described by the region <m>R</m> in the plane and its density function <m>\delta(x,y)</m>.
+            Find the center of mass of the lamina described by the region <m>R</m> in the plane and its density function <m>\delta(x,y)</m>.
           </p>
 
         <p>
@@ -1917,8 +1914,7 @@
           </p>
 
           <p>
-            In the following exercises,
-            a lamina corresponding to a planar region <m>R</m> is given with a mass of 16 units.
+            A lamina corresponding to a planar region <m>R</m> is given with a mass of 16 units.
             For each, compute <m>I_x</m>,
             <m>I_y</m> and <m>I_O</m>.
           </p>

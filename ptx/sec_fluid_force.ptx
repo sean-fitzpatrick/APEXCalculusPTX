@@ -552,7 +552,7 @@
               Thus the length function is <m>\ell(y) = 1/2y-(-1/2y) = y</m>.
             </p>
 
-            <figure xml:id="fig_fluid2c" vshift="0">
+            <figure xml:id="fig_fluid2c" vshift="-0.5">
               <caption>Sketching the triangular plate in <xref ref="ex_fluid2"/> with the convention that the base of the triangle is at <m>(0,0)</m></caption>
           <!-- START figures/fig_fluid2c.tex -->
               <image width="47%">
@@ -893,7 +893,7 @@
       <exercisegroup cols="2" xml:id="exset-fluid-force-plate">
         <introduction>
           <p>
-            In the following exercises, find the fluid force exerted on the given plate,
+            Find the fluid force exerted on the given plate,
             submerged in water with a weight density of <quantity><mag>62.4</mag><unit base="pound"/><per base="foot" exp="3"/></quantity>.
           </p>
         </introduction>
@@ -1320,7 +1320,7 @@
 
       <introduction>
         <p>
-          In the following exercises, the side of a container is pictured.
+          The side of a container is pictured.
           Find the fluid force exerted on this plate when the container is full of:
         </p>
 

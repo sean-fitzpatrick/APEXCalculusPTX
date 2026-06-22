@@ -59,15 +59,15 @@
 </xsl:template>
 
 <xsl:template match="insight" mode="tcb-style">
-    <xsl:text>before upper app={\setparstyle}, fonttitle=\normalfont\bfseries, colbacktitle=red!60!black!20, colframe=red!30!black!50, colback=white!95!red, coltitle=black, titlerule=-0.3pt,</xsl:text>
+    <xsl:text>before upper app={\setparstyle}, fonttitle=\normalfont\bfseries, before skip = \baselineskip, colbacktitle=red!60!black!20, colframe=red!30!black!50, colback=white!95!red, coltitle=black, titlerule=-0.3pt,</xsl:text>
 </xsl:template>
 
 <xsl:template match="&DEFINITION-LIKE;" mode="tcb-style">
-    <xsl:text>before upper app={\setparstyle}, fonttitle=\normalfont\bfseries, colbacktitle=yellow!90!black!30, colframe=yellow!95!black!60, colback=white!95!yellow, coltitle=black, titlerule=-0.3pt,</xsl:text>
+    <xsl:text>before upper app={\setparstyle}, fonttitle=\normalfont\bfseries, before skip = \baselineskip, colbacktitle=yellow!90!black!30, colframe=yellow!95!black!60, colback=white!95!yellow, coltitle=black, titlerule=-0.3pt,</xsl:text>
 </xsl:template>
 
 <xsl:template match="&THEOREM-LIKE;" mode="tcb-style">
-    <xsl:text>before upper app={\setparstyle}, fonttitle=\normalfont\bfseries, colbacktitle=green!60!black!20, colframe=green!30!black!50, colback=white!95!green, coltitle=black, titlerule=-0.3pt,</xsl:text>
+    <xsl:text>before upper app={\setparstyle}, fonttitle=\normalfont\bfseries, before skip = \baselineskip, colbacktitle=green!60!black!20, colframe=green!30!black!50, colback=white!95!green, coltitle=black, titlerule=-0.3pt,</xsl:text>
 </xsl:template>
 
 <xsl:template match="assemblage" mode="tcb-style">
@@ -251,11 +251,12 @@ https://tex.stackexchange.com/questions/605955/can-i-avoid-indentation-of-margin
 </xsl:template>
 
 <!-- enable a few necessary page breaks to place images correctly -->
-<xsl:template match="pagebreak-latex">
+<!-- template is now obsolete: specify breaks in publisher file -->
+<!-- <xsl:template match="pagebreak-latex">
   <xsl:text>&#xa;</xsl:text>
   <xsl:text>\pagebreak</xsl:text>
   <xsl:text>&#xa;</xsl:text>
-</xsl:template>
+</xsl:template> -->
 
 <!-- and enable occasional enlarging of a page to avoid orphans -->
 <xsl:template match="enlarge-page">
@@ -312,9 +313,9 @@ https://tex.stackexchange.com/questions/605955/can-i-avoid-indentation-of-margin
       <xsl:text>pt}&#xa;</xsl:text>  
     </xsl:if>
     <xsl:if test="(@hskip) and ($b-latex-two-sides)">
-    <xsl:text>\tcbset{enlarge left by=-</xsl:text>
+    <xsl:text>\ifthenelse{\isodd{\thepage}}{}{\tcbset{enlarge left by=-</xsl:text>
       <xsl:value-of select="@hskip"/>
-      <xsl:text>pt}&#xa;</xsl:text>  
+      <xsl:text>pt}}&#xa;</xsl:text>  
   </xsl:if>
     <xsl:apply-imports/>
     <xsl:if test="@vshift">
@@ -392,9 +393,9 @@ https://tex.stackexchange.com/questions/605955/can-i-avoid-indentation-of-margin
     <xsl:text>pt}&#xa;</xsl:text>  
   </xsl:if>
   <xsl:if test="(@hskip) and ($b-latex-two-sides)">
-    <xsl:text>\tcbset{enlarge left by=-</xsl:text>
+    <xsl:text>\ifthenelse{\isodd{\thepage}}{}{\tcbset{enlarge left by=-</xsl:text>
       <xsl:value-of select="@hskip"/>
-      <xsl:text>pt}&#xa;</xsl:text>  
+      <xsl:text>pt}}&#xa;</xsl:text>  
   </xsl:if>
   <xsl:apply-imports/>
   <xsl:if test="@hstretch">
@@ -422,7 +423,7 @@ https://tex.stackexchange.com/questions/605955/can-i-avoid-indentation-of-margin
 <xsl:template match="aside">
     <xsl:text>&#xa;</xsl:text>
     <xsl:choose>
-      <xsl:when test="ancestor::example and not(ancestor::ul or ancestor::ol)">
+      <xsl:when test="(ancestor::example or ancestor::insight) and not(ancestor::ul or ancestor::ol)">
         <xsl:text>\tcbmarginbox{%&#xa;</xsl:text>
       </xsl:when>
       <xsl:when test="(ancestor::example or ancestor::theorem) and (ancestor::ul or ancestor::ol)">
@@ -469,7 +470,7 @@ https://tex.stackexchange.com/questions/605955/can-i-avoid-indentation-of-margin
 
   <!-- give video a new name so it escapes assembly -->
   <margin-video>
-    <image width="40%" margins="2% 58%">
+    <image width="30%" margins="6% 64%">
       <xsl:attribute name="pi:generated">
           <xsl:text>qrcode/</xsl:text>
           <xsl:apply-templates select="." mode="assembly-id"/>

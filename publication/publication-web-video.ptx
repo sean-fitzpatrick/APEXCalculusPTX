@@ -4,11 +4,11 @@
 
     <!-- Relative path, relative to "main" source file -->
     <source>
-        <directories external="../assets" generated="../generated-assets"/>
-        <version include="main color video taypoly-late video-late"/>
+        <directories external="../assets" generated="../generated-assets-video"/>
+        <version include="main color video taypoly-late video-late web"/>
     </source>
 
-    <webwork server="https://webwork-dev.uleth.ca" course="apex-main"/>
+    <webwork server="https://webwork-dev.uleth.ca" course="apex-video"/>
 
     <common>
       <tableofcontents level="2"/>

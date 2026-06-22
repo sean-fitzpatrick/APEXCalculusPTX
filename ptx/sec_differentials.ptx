@@ -397,13 +397,6 @@
     </p>
   </insight>
 
-  <p xml:id="vidint_deriv_apps_diff_dx_eq_delta_x" component="video">
-    When students first encounter differentials,
-    they are often left wondering why <m>dy</m> and <m>\Delta y</m> are different,
-    while <m>dx</m> and <m>\Delta x</m> are the same.
-    The video in <xref ref="vid_deriv_apps_diff_dx_eq_delta_x"/> attempts to offer an explanation.
-  </p>
-
   <figure xml:id="vid_deriv_apps_diff_dx_eq_delta_x" component="video" vshift="1">
     <caption>Why is it that <m>dx = \Delta x</m>?</caption>
     <video youtube="XxpcZw702nA" label="vid_deriv_apps_diff_dx_eq_delta_x"/>
@@ -548,11 +541,7 @@
         We approximate the difference between <m>f(4.5)</m> and <m>f(4)</m> using differentials,
         with <m>dx = 0.5</m>:
         <md>
-          <mrow>f(4.5)-f(4) \amp = \dy \approx dy</mrow>
-          <mrow>\amp = \fp(4)\cdot dx</mrow>
-          <mrow>\amp = 1/4 \cdot 1/2</mrow>
-          <mrow>\amp = 1/8</mrow>
-          <mrow>\amp = 0.125</mrow>
+          f(4.5)-f(4) = \dy \approx dy = \fp(4)\cdot dx = \frac14 \cdot \frac12 = \frac18 = 0.125
         </md>.
       </p>
 
@@ -561,7 +550,7 @@
         so we approximate <m>\sqrt{4.5} \approx 2.125</m>.
       </p>
     </solution>
-    <solution component="video" vshift="0">
+    <solution component="video" vshift="2">
       <title>Video solution</title>
       <video width="98%" youtube="nFaq1O_wWso" label="vid_deriv_apps_diff_ex_3" component="video"/>
     </solution>
@@ -1924,33 +1913,7 @@
             </task>
           </webwork>
         </exercise>
-        <!-- Exercise 37: Compare errors in wall measurements from previous exercises -->
-        <exercise label="ex-differentials-survey-4">
-          <webwork xml:id="webwork-ex-differentials-survey-4">
-            <pg-macros>
-              <macro-file>parserPopUp.pl</macro-file>
-            </pg-macros>
-            <pg-code>
-              $buttons = DropDown(
-                [
-                  'Right triangle at 25 feet',
-                  'Right triangle at 100 feet',
-                  'Isosceles triangle at 50 feet',
-                ],2,showInStatic=&gt;0);
-            </pg-code>
-            <statement>
-              <p>
-                The length of the walls in
-                <xref first="exer_04_04_ex_35" last="exer_04_04_ex_37"/>
-                are essentially the same.
-                Which setup gives the most accurate result?
-              </p>
-              <p>
-                <var name="$buttons" form="buttons"/>
-              </p>
-            </statement>
-          </webwork>
-        </exercise>
+
         <!-- Exercise 38: Length of wall if the distance has the error instead of the angle -->
         <exercise label="ex-differentials-survey-5">
            <webwork xml:id="webwork-ex-differentials-survey-5">
@@ -1997,6 +1960,34 @@
               </p>
               <p>
                 <var name="$err_pct" width="20"/>
+              </p>
+            </statement>
+          </webwork>
+        </exercise>
+
+      <!-- Exercise 37: Compare errors in wall measurements from previous exercises -->
+        <exercise label="ex-differentials-survey-4">
+          <webwork xml:id="webwork-ex-differentials-survey-4">
+            <pg-macros>
+              <macro-file>parserPopUp.pl</macro-file>
+            </pg-macros>
+            <pg-code>
+              $buttons = DropDown(
+                [
+                  'Right triangle at 25 feet',
+                  'Right triangle at 100 feet',
+                  'Isosceles triangle at 50 feet',
+                ],2,showInStatic=&gt;0);
+            </pg-code>
+            <statement>
+              <p>
+                The length of the walls in
+                <xref first="exer_04_04_ex_35" last="exer_04_04_ex_37"/>
+                are essentially the same.
+                Which setup gives the most accurate result?
+              </p>
+              <p>
+                <var name="$buttons" form="buttons"/>
               </p>
             </statement>
           </webwork>

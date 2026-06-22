@@ -827,7 +827,7 @@
           </md>
         </p>
 
-        <figure xml:id="fig_tpl5" vshift="2">
+        <figure xml:id="fig_tpl5" vshift="-1">
           <caption>Graphing the surface in <xref ref="ex_tpl5"/> along with points 4 units from the surface</caption>
 
           <!-- START figures/figtpl5_3D.asy -->
@@ -919,7 +919,7 @@
       <em>tangent</em> to <m>f</m> at <m>P</m>.
     </p>
 
-    <aside vshift="-1.5">
+    <aside vshift="-3">
       <p>
         When we introduced the tangent plane in <xref ref="sec_partial_derivatives"/>,
         we computed the normal vector to be <m>\vec{n}=\la -f_x(x_0,y_0),-f_y(x_0,y_0),1\ra</m>.
@@ -971,7 +971,7 @@
           The surface <m>z=-x^2-y^2+2</m> and tangent plane are graphed in <xref ref="fig_tpl6"/>.
         </p>
 
-        <figure xml:id="fig_tpl6" vshift="0">
+        <figure xml:id="fig_tpl6" vshift="-1">
           <caption>Graphing a surface with tangent plane from <xref ref="ex_tpl6"/></caption>
 
           <!-- START figures/figtpl6_3D.asy -->

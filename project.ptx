@@ -1,46 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project ptx-version="2" source="ptx" asy-method="local">
   <targets>
-    <target name="html" format="html" source="apex.ptx" publication="publication-video.ptx">
-      <stringparams key="html.annotation" value="hypothesis"/>
+    <target name="apex-calculus" format="html" source="apex.ptx" publication="publication-web.ptx"/>
+    <target name="apex-video" format="html" source="apex.ptx" publication="publication-web-video.ptx"/>
+    <target name="apex-standard" format="html" source="apex-UL-standard.ptx" publication="publication-standard-web.ptx">
+      <stringparams html.annotation="hypothesis"/>
     </target>
-    <target name="html-novideo" format="html" source="apex.ptx" publication="publication-novid.ptx">
-      <stringparams key="html.annotation" value="hypothesis"/>
-    </target>
-    <target name="html-standard" format="html" source="apex-UL-standard.ptx" publication="publication-standard.ptx">
-      <stringparams key="html.annotation" value="hypothesis"/>
-    </target>
-    <target name="html-accelerated" format="html" source="apex-UL-accelerated.ptx" publication="publication-accelerated.ptx">
-      <stringparams key="html.annotation" value="hypothesis"/>
+    <target name="apex-accelerated" format="html" source="apex-UL-accelerated.ptx" publication="publication-accelerated-web.ptx">
+      <stringparams html.annotation="hypothesis"/>
     </target>
     <target name="runestone" format="html" source="apex.ptx" publication="publication-runestone.ptx" output-dir="../published/APEX">
-      <stringparams key="html.annotation" value="hypothesis"/>
+      <stringparams html.annotation="hypothesis"/>
     </target>
     <target name="runestone-proteus" format="html" source="apex.ptx" publication="publication-runestone-proteus.ptx" output-dir="../published/APEX-PROTEUS">
-      <stringparams key="html.annotation" value="hypothesis"/>
+      <stringparams html.annotation="hypothesis"/>
     </target>
     <target name="runestone-playground" format="html" source="apex.ptx" publication="publication-proteus-playground.ptx" output-dir="../published/APEXplayground">
-      <stringparams key="html.annotation" value="hypothesis"/>
+      <stringparams html.annotation="hypothesis"/>
     </target>
-    <target name="latex" format="latex" source="apex.ptx" publication="publication.ptx" xsl="apex-latex-style.xsl"/>
-    <target name="latex-novideo" format="latex" source="apex.ptx" publication="publication-novid.ptx" xsl="apex-latex-style.xsl"/>
-    <target name="latex-print" format="latex" source="apex.ptx" publication="publication-print.ptx" xsl="apex-latex-print-style.xsl"/>
-    <target name="latex-color-print" format="latex" source="apex.ptx" publication="publication-color-print.ptx" xsl="apex-latex-print-color.xsl"/>
-    <target name="latex-color-print-novideo" format="latex" source="apex.ptx" publication="publication-color-print-novideo.ptx" xsl="apex-latex-print-color.xsl"/>
-    <target name="latex-print-novideo" format="latex" source="apex.ptx" publication="publication-novid-print.ptx" xsl="apex-latex-print-style.xsl"/>
-    <target name="latex-standard" format="latex" source="apex-UL-standard.ptx" publication="publication-standard.ptx" xsl="apex-latex-style.xsl"/>
-    <target name="latex-standard-print" format="latex" source="apex-UL-standard.ptx" publication="publication-standard-print.ptx" xsl="apex-latex-print-style.xsl"/>
-    <target name="latex-accelerated" format="latex" source="apex-UL-accelerated.ptx" publication="publication-accelerated.ptx" xsl="apex-latex-style.xsl"/>
-    <target name="latex-accelerated-print" format="latex" source="apex-UL-accelerated.ptx" publication="publication-accelerated-print.ptx" xsl="apex-latex-print-style.xsl"/>
-    <target name="epdf" format="pdf" source="apex.ptx" publication="publication.ptx" xsl="apex-latex-style.xsl" output-filename="apex-ebook.pdf"/>
-    <target name="epdf-novideo" format="pdf" source="apex.ptx" publication="publication-novid.ptx" xsl="apex-latex-style.xsl" output-filename="apex-novideo.pdf"/>
-    <target name="print" format="pdf" source="apex.ptx" publication="publication-print.ptx" xsl="apex-latex-print-style.xsl" output-filename="apex-print.pdf"/>
-    <target name="color-print" format="pdf" source="apex.ptx" publication="publication-color-print.ptx" xsl="apex-latex-print-color.xsl" output-filename="apex-color-print.pdf"/>
-    <target name="color-print-novideo" format="pdf" source="apex.ptx" publication="publication-color-print-novideo.ptx" xsl="apex-latex-print-color.xsl" output-filename="apex-color-print-novideo.pdf"/>
-    <target name="print-novideo" format="pdf" source="apex.ptx" publication="publication-novid-print.ptx" xsl="apex-latex-print-style.xsl" output-filename="apex-print-novideo.pdf"/>
-    <target name="epdf-standard" format="pdf" source="apex-UL-standard.ptx" publication="publication-standard.ptx" xsl="apex-latex-style.xsl" output-filename="apex-standard.pdf"/>
-    <target name="print-standard" format="pdf" source="apex-UL-standard.ptx" publication="publication-standard-print.ptx" xsl="apex-latex-print-style.xsl" output-filename="apex-standard-print.pdf"/>
-    <target name="epdf-accelerated" format="pdf" source="apex-UL-accelerated.ptx" publication="publication-accelerated.ptx" xsl="apex-latex-style.xsl" output-filename="apex-accelerated.pdf"/>
-    <target name="print-accelerated" format="pdf" source="apex-UL-accelerated.ptx" publication="publication-accelerated-print.ptx" xsl="apex-latex-print-style.xsl" output-filename="apex-accelerated-print.pdf"/>
+    <target name="apex-pdf" format="pdf" latex-engine="xelatex" latex-source="yes" source="apex.ptx"
+            publication="publication-pdf.ptx" xsl="apex-latex-style.xsl" output-filename="apex-calculus.pdf"/>
+    <target name="apex-pdf-video" format="pdf" latex-engine="xelatex" latex-source="yes" source="apex.ptx"
+            publication="publication-pdf-video.ptx" xsl="apex-latex-style.xsl" output-filename="apex-video.pdf"/>
+    <target name="apex-print" format="pdf" latex-engine="xelatex" latex-source="yes" source="apex.ptx"
+            publication="publication-print.ptx" xsl="apex-latex-print-style.xsl" output-filename="apex-print.pdf"/>
+    <target name="apex-print-video" format="pdf" latex-engine="xelatex" latex-source="yes" source="apex.ptx"
+            publication="publication-print-video.ptx" xsl="apex-latex-print-style.xsl" output-filename="apex-print-video.pdf"/>
+    <target name="apex-color-print" format="pdf" latex-engine="xelatex" latex-source="yes" source="apex.ptx"
+            publication="publication-color-print.ptx" xsl="apex-latex-print-style.xsl" output-filename="apex-print.pdf"/>
+    <target name="apex-color-print-video" format="pdf" latex-engine="xelatex" latex-source="yes" source="apex.ptx"
+            publication="publication-color-print-video.ptx" xsl="apex-latex-print-style.xsl" output-filename="apex-print-video.pdf"/>
+    <target name="apex-standard-pdf" format="pdf" latex-engine="xelatex" latex-source="yes" source="apex-UL-standard.ptx"
+            publication="publication-standard.ptx" xsl="apex-latex-style.xsl" output-filename="apex-standard.pdf"/>
+    <target name="apex-standard-print" format="pdf" latex-engine="xelatex" latex-source="yes" source="apex-UL-standard.ptx"
+            publication="publication-standard-print.ptx" xsl="apex-latex-print-style.xsl" output-filename="apex-standard-print.pdf"/>
+    <target name="apex-accelerated-pdf" format="pdf" latex-engine="xelatex" latex-source="yes" source="apex-UL-accelerated.ptx"
+            publication="publication-accelerated.ptx" xsl="apex-latex-style.xsl" output-filename="apex-accelerated.pdf"/>
+    <target name="apex-accelerated-print" format="pdf" latex-engine="xelatex" latex-source="yes" source="apex-UL-accelerated.ptx"
+            publication="publication-accelerated-print.ptx" xsl="apex-latex-print-style.xsl" output-filename="apex-accelerated-print.pdf"/>
   </targets>
 </project>

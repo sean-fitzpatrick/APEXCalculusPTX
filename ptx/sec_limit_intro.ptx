@@ -209,7 +209,7 @@
     since we are working with the pseudo-definition of a limit,
     not the actual definition.)
   </p>
-  <figure xml:id="vid_limit_intro_sinxoverx" component="video" vshift="0">
+  <figure xml:id="vid_limit_intro_sinxoverx" component="video" vshift="0.25">
     <caption>Investigating <m>\sin(x)/x</m></caption>
     <video youtube="__qzaSg4y1I" label="vid_limit_intro_sinxoverx"/>
   </figure>
@@ -648,11 +648,6 @@
 
   <paragraphs xml:id="subsec_nolimit3">
     <title>Identifying When Limits Do Not Exist</title>
-    <figure xml:id="vid_limit_intro_limit_dne" component="video" vshift="-2">
-      <caption>Discussing ways in which a limit can fail to exist</caption>
-      <video youtube="DSIaDa_ABxo" label="vid_limit_intro_limit_dne"/>
-    </figure>
-
     <p>
       A function may not have a limit for all values of <m>x</m>.
       That is, we cannot write that <m>\lim_{x\to c}f(x)=L</m>
@@ -684,6 +679,11 @@
       </ol>
       We'll explore each of these in turn.
     </p>
+
+    <figure xml:id="vid_limit_intro_limit_dne" component="video" vshift="1">
+      <caption>Discussing ways in which a limit can fail to exist</caption>
+      <video youtube="DSIaDa_ABxo" label="vid_limit_intro_limit_dne"/>
+    </figure>
 
     <example xml:id="ex_no_limit1">
       <title>Different Values Approached From Left and Right</title>
@@ -800,6 +800,11 @@
       </solution>
     </example>
 
+    <figure xml:id="vid_limit_intro_jumps_asymptotes" component="video" vshift="0">
+      <caption>Video presentation for <xref first="ex_no_limit1" last="ex_no_limit2">Examples</xref></caption>
+      <video youtube="NnV1A1KTbg0" label="vid_limit_intro_jumps_asymptotes"/>
+    </figure>
+
     <example xml:id="ex_no_limit2">
       <title>The Function Grows Without Bound</title>
       <statement>
@@ -897,18 +902,10 @@
 
         <p>
           Since <m>f(x)</m> is not approaching a single number, we conclude that
-          <md>
-            \lim_{x\to 1}\frac{1}{(x-1)^2}
-          </md>
-          does not exist.
+          <m>\lim_{x\to 1}\frac{1}{(x-1)^2}</m> does not exist.
         </p>
       </solution>
     </example>
-
-    <figure xml:id="vid_limit_intro_jumps_asymptotes" component="video" vshift="0">
-      <caption>Video presentation for <xref first="ex_no_limit1" last="ex_no_limit2">Examples</xref></caption>
-      <video youtube="NnV1A1KTbg0" label="vid_limit_intro_jumps_asymptotes"/>
-    </figure>
 
     <example xml:id="ex_no_limit3">
       <title>The Function Oscillates</title>
@@ -1096,7 +1093,7 @@
           </sidebyside>
         </figure>
 
-        <figure xml:id="table_nolimit3c" vshift="3">
+        <figure xml:id="table_nolimit3c" vshift="2">
           <caption>Observing that <m>f(x)=\sin(1/x)</m> has no limit as <m>x\to0</m> in <xref ref="ex_no_limit3"/></caption>
           <tabular>
             <row bottom="medium">
@@ -1142,7 +1139,7 @@
           <m>\lim_{x\to 0}\sin(1/x)</m> does not exist.
         </p>
       </solution>
-      <solution component="video" vshift="6">
+      <solution component="video" vshift="10">
         <title>Video solution</title>
         <video width="98%" youtube="gGvvFX5QyjE" label="vid_limit_intro_limit_oscillation" component="video"/>
       </solution>
@@ -1193,7 +1190,7 @@
           <idx><h>limit</h><h>difference quotient</h></idx>
 
     </p>
-    <figure xml:id="vid_limit_intro_limit_diff_quot" component="video" vshift="-3">
+    <figure xml:id="vid_limit_intro_limit_diff_quot" component="video" vshift="0">
       <caption>Introducing the difference quotient</caption>
       <video youtube="2NJmd0Jrt4U" label="vid_limit_intro_limit_diff_quot"/>
     </figure>
@@ -1245,7 +1242,7 @@
       See <xref ref="fig_diffquot1"/>.
     </p>
 
-    <figure xml:id="fig_diffquot1" vshift="3">
+    <figure xml:id="fig_diffquot1" vshift="2">
       <caption>Interpreting a difference quotient as the slope of a secant line</caption>
       <!-- START figures/fig_diff_quot1.tex -->
       <image width="47%">
@@ -1469,7 +1466,7 @@
         </row>
       </tabular>
     </figure>
-    <figure xml:id="vid_limit_intro_limit_diff_quot_ex" component="video" vshift="-2">
+    <figure xml:id="vid_limit_intro_limit_diff_quot_ex" component="video" vshift="-3">
       <caption>Video examples for difference quotients: once with direct computation, and then by simplifying first</caption>
       <video youtube="YplEX5ohJk0" label="vid_limit_intro_limit_diff_quot_ex"/>
     </figure>
@@ -3484,7 +3481,7 @@
                 <m>f(x)=<var name="$f"/></m>,
                 <m>a=<var name="$a"/></m>
               </p>
-              <tabular top="major">
+              <tabular top="major" component="web">
                 <col halign="center"/>
                 <col halign="center"/>
                 <row bottom="medium">
@@ -3604,7 +3601,7 @@
                 <m>f(x)=<var name="$f"/></m>,
                 <m>a=<var name="$a"/></m>
               </p>
-              <tabular top="major">
+              <tabular top="major" component="web">
                 <col halign="center"/>
                 <col halign="center"/>
                 <row bottom="medium">
@@ -3727,7 +3724,7 @@
                 <m>f(x)=<var name="$f"/></m>,
                 <m>a=<var name="$a"/></m>
               </p>
-              <tabular top="major">
+              <tabular top="major" component="web">
                 <col halign="center"/>
                 <col halign="center"/>
                 <row bottom="medium">
@@ -3848,7 +3845,7 @@
                 <m>f(x)=<var name="$f"/></m>,
                 <m>a=<var name="$a"/></m>
               </p>
-              <tabular top="major">
+              <tabular top="major" component="web">
                 <col halign="center"/>
                 <col halign="center"/>
                 <row bottom="medium">
@@ -3975,7 +3972,7 @@
                 <m>f(x)=<var name="$f"/></m>,
                 <m>a=<var name="$a"/></m>
               </p>
-              <tabular top="major">
+              <tabular top="major" component="web">
                 <col halign="center"/>
                 <col halign="center"/>
                 <row bottom="medium">
@@ -4092,7 +4089,7 @@
                 <m>f(x)=<var name="$f"/></m>,
                 <m>a=<var name="$a"/></m>
               </p>
-              <tabular top="major">
+              <tabular top="major" component="web">
                 <col halign="center"/>
                 <col halign="center"/>
                 <row bottom="medium">
@@ -4210,7 +4207,7 @@
                 <m>f(x)=<var name="$f"/></m>,
                 <m>a=<var name="$a"/></m>
               </p>
-              <tabular top="major">
+              <tabular top="major" component="web">
                 <col halign="center"/>
                 <col halign="center"/>
                 <row bottom="medium">
@@ -4328,7 +4325,7 @@
                 <m>f(x)=<var name="$f"/></m>,
                 <m>a=<var name="$a"/></m>
               </p>
-              <tabular top="major">
+              <tabular top="major" component="web">
                 <col halign="center"/>
                 <col halign="center"/>
                 <row bottom="medium">

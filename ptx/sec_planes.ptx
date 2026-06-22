@@ -218,7 +218,7 @@
           The plane is sketched in <xref ref="fig_planes1"/>.
         </p>
 
-        <figure xml:id="fig_planes1" vshift="-5">
+        <figure xml:id="fig_planes1" vshift="0">
           <caption>Sketching the plane in <xref ref="ex_planes1"/></caption>
 
           <!-- START figures/figplanes1_3D.asy -->
@@ -312,7 +312,7 @@
           <!-- figures/figplanes1_3D.asy END -->
         </figure>
       </solution>
-      <solution component="video" vshift="3">
+      <solution component="video" vshift="7">
         <title>Video solution</title>
         <video width="98%" youtube="oc77R0am1vk" label="vid-vectors-planes-3points" component="video"/>
       </solution>
@@ -384,7 +384,7 @@
           it is sketched in <xref ref="fig_planes2"/>.
         </p>
 
-        <figure xml:id="fig_planes2" vshift="3">
+        <figure xml:id="fig_planes2" vshift="2.5">
           <caption>Sketching the plane in <xref ref="ex_planes2"/></caption>
 
           <!-- START figures/figplanes2_3D.asy -->
@@ -476,7 +476,7 @@
           The line and plane are sketched in <xref ref="fig_planes3"/>.
         </p>
 
-        <figure xml:id="fig_planes3" vshift="-4">
+        <figure xml:id="fig_planes3" vshift="1">
           <caption>The line and plane in <xref ref="ex_planes3"/></caption>
 
           <!-- START figures/figplanes3_3D.asy -->
@@ -541,7 +541,7 @@
           <!-- figures/figplanes3_3D.asy END -->
         </figure>
       </solution>
-      <solution component="video" vshift="3">
+      <solution component="video" vshift="-5">
         <title>Video solution</title>
         <video width="98%" youtube="2diP-H-QLoI" label="vid-vectors-planes-given-normal" component="video"/>
       </solution>
@@ -616,7 +616,7 @@
           The planes and line are graphed in <xref ref="fig_planes4"/>.
         </p>
 
-        <figure xml:id="fig_planes4" vshift="-2">
+        <figure xml:id="fig_planes4" vshift="0">
           <caption>Graphing the planes and their line of intersection in <xref ref="ex_planes4"/></caption>
 
           <!-- START figures/figplanes4_3D.asy -->
@@ -743,7 +743,7 @@
           illustrated in <xref ref="fig_planes5"/>.
         </p>
 
-        <figure xml:id="fig_planes5" vshift="-2.5">
+        <figure xml:id="fig_planes5" vshift="0">
           <caption>Illustrating the intersection of a line and a plane in <xref ref="ex_planes5"/></caption>
 
           <!-- START figures/figplanes5_3D.asy -->
@@ -806,7 +806,7 @@
           <!-- figures/figplanes5_3D.asy END -->
         </figure>
       </solution>
-      <solution component="video" vshift="5">
+      <solution component="video" vshift="6">
         <title>Video solution</title>
         <video width="98%" youtube="DjuaixH0ayo" label="vid-vectors-planes-lineint" component="video"/>
       </solution>
@@ -1066,7 +1066,7 @@
 
         <introduction>
           <p>
-            In the following exercises, give any two points in the given plane.
+            Give any two points in the given plane.
           </p>
         </introduction>
 
@@ -1213,8 +1213,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            give the equation of the described plane in standard and general forms.
+            Give the equation of the described plane in standard and general forms.
           </p>
         </introduction>
 
@@ -1965,8 +1964,7 @@
 
         <introduction>
           <p>
-            In the following exercises,
-            give the equation of the line that is the intersection of the given planes.
+            Give the equation of the line that is the intersection of the given planes.
           </p>
         </introduction>
 

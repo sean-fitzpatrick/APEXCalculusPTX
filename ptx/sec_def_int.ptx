@@ -3,7 +3,7 @@
   <title>The Definite Integral</title>
 
 
-  <figure xml:id="vid_int_def_int_intro" component="video" vshift="0">
+  <figure xml:id="vid_int_def_int_intro" component="video" vshift="-18">
     <caption>Video introduction to <xref ref="sec_def_int"/></caption>
     <video youtube="__Xh37Qw4UE" label="vid_int_def_int_intro"/>
   </figure>
@@ -635,7 +635,7 @@
         </image>
       </figure>
     </solution>
-    <solution component="video" vshift="7">
+    <solution component="video" vshift="9">
       <title>Video solution</title>
       <video width="98%" youtube="jrjjVT1j9uw" label="vid_int_def_int_ex_1" component="video"/>
     </solution>
@@ -780,7 +780,7 @@
         <xref ref="fig_defint5"/>.
       </p>
 
-      <figure xml:id="fig_defint5" vshift="-2">
+      <figure xml:id="fig_defint5" vshift="1">
         <caption>A graph of a function in <xref ref="ex_defint5"/></caption>
         <image width="47%">
         <shortdescription>
@@ -1095,7 +1095,7 @@
         hence its maximum displacement is 27 feet from its starting position.
       </p>
     </solution>
-    <solution component="video" vshift="0">
+    <solution component="video" vshift="-10">
       <title>Video solution</title>
       <video width="98%" youtube="2zJzbg0hNXE" label="vid_int_def_int_motion" component="video"/>
     </solution>

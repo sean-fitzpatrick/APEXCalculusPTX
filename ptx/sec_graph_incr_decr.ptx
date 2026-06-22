@@ -159,7 +159,7 @@
     </cardsort>
   </exercise>
 
-  <figure xml:id="vid_graphs_incr_decr_defn" component="video" vshift="0">
+  <figure xml:id="vid_graphs_incr_decr_defn" component="video" vshift="-10">
     <caption>Video presentation of <xref ref="def_incr_decr"/></caption>
     <video youtube="NtV0R-JxrmM" label="vid_graphs_incr_decr_defn"/>
   </figure>
@@ -647,7 +647,7 @@
         <!-- figures/fig_incr1.tex END -->
       </figure>
     </solution>
-    <solution component="video" vshift="10">
+    <solution component="video" vshift="16">
       <title>Video solution</title>
       <video width="98%" youtube="DW6qcgE1TZ0" label="vid_graphs_incr_decr_ex_1" component="video"/>
     </solution>
@@ -1016,7 +1016,7 @@
         again demonstrating that <m>f</m> is increasing when <m>\fp\gt 0</m> and decreasing when <m>\fp\lt 0</m>.
       </p>
 
-      <figure xml:id="fig_incr2" vshift="2">
+      <figure xml:id="fig_incr2" vshift="1">
         <caption>A graph of <m>f(x)</m> in <xref ref="ex_incr2"/>, showing where <m>f</m> is increasing and decreasing</caption>
         <!-- START figures/fig_incr2.tex -->
         <image width="47%">
@@ -1276,7 +1276,7 @@
         <!-- figures/fig_incr3.tex END -->
       </figure>
     </solution>
-    <solution component="video" vshift="3">
+    <solution component="video" vshift="7">
       <title>Video solution</title>
       <video width="98%" youtube="T4RxcQnNotc" label="vid_graphs_incr_decr_ex_3" component="video"/>
     </solution>
