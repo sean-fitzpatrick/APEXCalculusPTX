@@ -14,12 +14,9 @@ Note that the build time is quite long.
 Preparation for generating APEX Calculus from source:
 
 Software requirements:
-- a recent LaTeX distribution
+- a recent LaTeX distribution that includes Asymptote
 - Python (version 3.8 or later)
 - the PreTeXt CLI (do `pip install pretextbook`)
-
-**Note**: ImageMagick may be needed, but can probably be avoided.
-Older versions of the PreTeXt CLI also require `pdf2svg` to build HTML, but soon this will not be required.
 
 Configuration:
 
@@ -27,21 +24,24 @@ Configuration:
 - If you wish to set a custom stylesheet, place it in the `style` folder, and add `<xsl>style/custom-style.xsl</xsl>` tags to the appropriate targets in the `project.ptx` file, where you should of course replace `custom-style.xsl` with whatever you named your style file.
 - You can also use `<xsl>...</xsl>` tags in `project.ptx` to point to a newer version of one of the PreTeXt XSL files than the one that ships with the CLI. (This is not officially supported, so use with caution.)
 
-To build HTML, run `pretext build html`
+To build HTML, run `pretext build apex-calculus`
 
-To build a version without videos, run `pretext build html-novideo`
+To build a version with videos, run `pretext build apex-video`
 
-To build PDF, run `pretext build latex`.
+To build PDF, run `pretext build apex-pdf`.
 
 The following variations are also available:
-- `pretext build latex-novideo`: omit QR code links to videos
-- `pretext build latex-print`: black and white, for print on demand
-- `pretext build latex-print-novideo`: black and white, with no video links
-- `pretext build latex-color-print`: in color, but two-sided layout for printing
-- `pretext build latex-color-print-novideo`: as above, but without QR codes for videos
+- `pretext build apex-pdf-video`: include QR code links to videos
+- `pretext build apex-print`: black and white, for print on demand
+- `pretext build apex-print-video`: black and white, with video links
+- `pretext build apex-color-print`: in color, but two-sided layout for printing
+- `pretext build latex-color-print-video`: as above, but with QR codes for videos
 
-**Do not build PDF directly.** Most of the PDF design is now automated,
-but you may need to adjust the placement of some figures, add page breaks, etc.
+The PDF should work "out of the box", but in case something doesn't look right, the PDF build includes the `.tex` file.
+You can edit this and rebuild as needed.
+
+**Note**: changes to placement of images in the margin are controlled in the PreTeXt source.
+Changes to page breaks are controlled in the publisher files.
 
 At this time, EPUB generation is not fully supported.
 
