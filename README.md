@@ -15,8 +15,8 @@ Preparation for generating APEX Calculus from source:
 
 Software requirements:
 - a recent LaTeX distribution that includes Asymptote
-- Python (version 3.8 or later)
-- the PreTeXt CLI (do `pip install pretextbook`)
+- Python (version 3.13 or later)
+- the PreTeXt CLI (do `pip install pretext`)
 
 Configuration:
 
