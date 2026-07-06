@@ -61,7 +61,7 @@
         <sidebyside widths="47% 47%" margins="0%">
           <image>
             <shortdescription>
-              A rectangular enclosure with green grass and a fence with <m>x</m> and <m>y</m> dimensions.
+              A rectangular enclosure with green grass and a fence with x and y dimensions.
             </shortdescription>
             <description>
               <p>
@@ -111,7 +111,7 @@
 
           <image>
             <shortdescription>
-               A rectangle shape is drawn with sides labeled <m>x</m> and <m>y</m>.
+               A rectangle shape is drawn with sides labeled x and y.
             </shortdescription>
             <description>
               <p>
@@ -737,7 +737,7 @@
             <p>
               The horizontal line of the image is labelled <m>5000-x</m> which is the distance of the power line laid along land,and
               <m>x</m> from the middle to the pont of the offshore facility which is the distance the power line is not laid.
-              The hypotenuse of the right angle triangle measures underwater distance with the equation <msqrt>x^2-1000^2</msqrt>.
+              The hypotenuse of the right angle triangle measures underwater distance with the equation <m>\sqrt{x^2-1000^2}</m>.
             </p>
           </description>
           <latex-image label="img_opt3c">

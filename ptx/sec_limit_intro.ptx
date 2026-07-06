@@ -47,8 +47,7 @@
           </p>
         </description>
         <shortdescription>
-          Graph of sin(x)/x, shows values for the domain -7 &lt;=x &lt;=7,
-          undefined at x = 0. 
+          Graph of sin(x)/x, shows values for the domain -7 &lt;=x &lt;=7, undefined at x = 0. 
         </shortdescription>
         <latex-image label="img_sinx_over_x_full">
           \begin{tikzpicture}[
@@ -81,8 +80,7 @@
           </p>
         </description>
         <shortdescription> 
-          Graph of sin(x)/x zoomed in on values where x is near 1. Shows that for x = 1, 
-          sin(x)/x is approx. 0.84.
+          Graph of sin(x)/x zoomed in on values where x is near 1. Shows that for x = 1, sin(x)/x is approx. 0.84.
         </shortdescription>
         <latex-image label="img_zoom_sinx_over_x">
           \begin{tikzpicture}

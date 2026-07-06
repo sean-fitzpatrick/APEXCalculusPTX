@@ -725,7 +725,7 @@
 
                   <p>
                     The points on the surface that lie above the circle form a curve on the surface.
-                    The curve cuts out a portion of the surface that looks exactly like a <trademark>Pringles</trademark> chip.
+                    The curve cuts out a portion of the surface that looks exactly like a Pringles<trademark/> chip.
                   </p>
                 </description>
                 <asymptote label="img_linescalarfield3a_3D">

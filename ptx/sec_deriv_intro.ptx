@@ -795,10 +795,17 @@
           </md>.
         </p>
 
-        <p>
+        <p component="novideo">
           Thus our approximation of the equation of the tangent line is
           <m>y = 0.9983(x-0) +0 = 0.9983x</m>;
           it is graphed in <xref ref="fig_tangentsinx"/>.
+          The graph seems to imply the approximation is rather good.
+        </p>
+
+        <p component="video">
+          Thus our approximation of the equation of the tangent line is
+          <m>y = 0.9983(x-0) +0 = 0.9983x</m>;
+          it is graphed in <xref ref="fig_tangentsinx-vid"/>.
           The graph seems to imply the approximation is rather good.
         </p>
 
@@ -839,7 +846,7 @@
           </image>
           <!-- figures/fig_tangentsinx.tex END -->
         </figure>
-        <figure xml:id="fig_tangentsinx" vshift="-1" component="video">
+        <figure xml:id="fig_tangentsinx-vid" vshift="-1" component="video">
           <caption><m>f(x) = \sin(x)</m> graphed with an approximation to its tangent line at <m>x=0</m></caption>
           <!-- START figures/fig_tangentsinx.tex -->
           <image width="47%">

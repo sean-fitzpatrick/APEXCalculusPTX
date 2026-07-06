@@ -909,8 +909,8 @@
                 The <m>y</m> and the <m>x</m> axes are drawn from <m>-10</m> to
                 <m>10</m>. The functions <m>y=\sinh(x)</m> and <m>y=\sinh^{-1}(x)</m>.
                 The axis <m>y=x</m> is shown.
-              <p>
               </p>
+              <p>
                 From left to right, the <m>\sinh(x)</m> function starts in the third
                 quadrant and it rises steeply, very closely to the <m>y</m> axis. It
                 crosses the origin along the <m>y=x</m> line, has a dip then increases

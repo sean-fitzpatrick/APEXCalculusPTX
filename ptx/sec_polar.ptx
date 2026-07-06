@@ -1826,7 +1826,7 @@
             <caption><m>r=a\sin(3\theta)</m></caption>
             <!-- START figures/fig_polarrose3.tex -->
             <image>
-              <shortdescription>A rose curve with three leaves, symmetric about the <m>y</m> axis.</shortdescription>
+              <shortdescription>A rose curve with three leaves, symmetric about the y axis.</shortdescription>
               <description>
                 <p>
                   Another rose curve with three leaves, this time given by <m>r=\sin(3\theta)</m>.
