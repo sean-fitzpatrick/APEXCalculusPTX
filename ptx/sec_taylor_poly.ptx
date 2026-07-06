@@ -1636,9 +1636,13 @@
         <p>
           <ol>
             <li>
-              <p>
+              <p component="taypoly-late">
                 We begin by evaluating the derivatives of <m>f</m> at <m>x=4</m>.
-                This is done in <xref ref="fig_taypoly5a" component="taypoly-late"/><xref ref="fig_taypoly5a-early" component="taypoly-early"/>.
+                This is done in <xref ref="fig_taypoly5a"/>.
+              </p>
+              <p component="taypoly-early">
+                We begin by evaluating the derivatives of <m>f</m> at <m>x=4</m>.
+                This is done in <xref ref="fig_taypoly5a-early"/>.
               </p>
 
               <figure xml:id="fig_taypoly5a" vshift="2" component="taypoly-late">

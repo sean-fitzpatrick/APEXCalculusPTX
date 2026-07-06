@@ -1045,7 +1045,7 @@
               <cell><m>0.0740</m></cell>
             </row>
             <row>
-              <cell/>
+              <cell/><cell/><cell/><cell/>
             </row>
           </tabular>
 
@@ -1342,7 +1342,7 @@
                 <cell><m>0.368</m></cell>
               </row>
               <row>
-                <cell/>
+                <cell/><cell/>
               </row>
             </tabular>
           </figure>

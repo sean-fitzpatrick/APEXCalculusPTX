@@ -1460,7 +1460,7 @@
         <cell><m>\ds 2\pi\int_c^d r(y)h(y)\, dy</m></cell>
       </row>
       <row>
-        <cell/>
+        <cell/><cell/><cell/><cell/>
       </row>
       <row>
         <cell>Vertical Axis</cell>
