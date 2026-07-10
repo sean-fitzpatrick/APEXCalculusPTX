@@ -1079,11 +1079,13 @@
           3 gears of various sizes demonstrating the chain rule.
         </shortdescription>
         <description>
-          Three gears, connected in the order <m>x,u,y</m>.
-          <m>x</m> is the largest gear, having 36 teeth. It is rotating counter-clockwise.
-          <m>u</m> is connected to <m>x</m>, and it has 18 teeth. To the left of the connection is <m>\frac{du}{dx} = 2</m>.
-          <m>y</m> is connected to <m>u</m>, and it has 6 teeth. Below the connection is <m>\frac{dy}{du}=3</m>.
-          To the right of the gears is the expression <m>\frac{dy}{dx} = 6</m>.
+          <p>
+            Three gears, connected in the order <m>x,u,y</m>.
+            <m>x</m> is the largest gear, having 36 teeth. It is rotating counter-clockwise.
+            <m>u</m> is connected to <m>x</m>, and it has 18 teeth. To the left of the connection is <m>\frac{du}{dx} = 2</m>.
+            <m>y</m> is connected to <m>u</m>, and it has 6 teeth. Below the connection is <m>\frac{dy}{du}=3</m>.
+            To the right of the gears is the expression <m>\frac{dy}{dx} = 6</m>.
+          </p>
         </description>
         <latex-image label="img_chainrulegears">
 

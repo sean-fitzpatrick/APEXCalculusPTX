@@ -1488,7 +1488,7 @@
                <fillin width="30" answer="the chain rule"/>
             </p>
           </statement>
-          <evaluation component="web">
+          <evaluation>
             <evaluate>
 
               <test correct="yes">

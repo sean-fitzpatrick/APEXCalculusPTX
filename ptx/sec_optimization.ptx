@@ -1099,7 +1099,9 @@
                A rectangle divided into two parts.
               </shortdescription>
               <description>
-                A large rectangle divided into two equal rectangles.
+                <p>
+                  A large rectangle divided into two equal rectangles.
+                </p>
               </description>
               <latex-image label="img_04_03_ex_08">
                 \begin{tikzpicture}

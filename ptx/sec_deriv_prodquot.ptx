@@ -918,7 +918,7 @@
               <fillin width="30" answer="the quotient rule"/>
             </p>
           </statement>
-          <evaluation component="web">
+          <evaluation>
             <evaluate>
 
               <test correct="yes">

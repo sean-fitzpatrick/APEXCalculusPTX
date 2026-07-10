@@ -1457,8 +1457,14 @@
           <m>0.0003</m> of the correct answer.
         </p>
 
-        <p>
-          <xref ref="fig_taypoly4b" component="taypoly-late"/><xref ref="fig_taypoly4b-early" component="taypoly-early"/>
+        <p component="taypoly-late">
+          <xref ref="fig_taypoly4b"/>
+          shows a graph of <m>y=p_8(x)</m> and <m>y=\cos(x)</m>.
+          Note how well the two functions agree on about <m>(-\pi,\pi)</m>.
+        </p>
+
+        <p component="taypoly-early">
+          <xref ref="fig_taypoly4b-early"/>
           shows a graph of <m>y=p_8(x)</m> and <m>y=\cos(x)</m>.
           Note how well the two functions agree on about <m>(-\pi,\pi)</m>.
         </p>
