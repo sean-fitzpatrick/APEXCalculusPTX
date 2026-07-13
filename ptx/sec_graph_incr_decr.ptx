@@ -544,6 +544,7 @@
 
         <!-- START figures/fig_incrline1.tex -->
         <image width="47%">
+          <shortdescription>A number line showing the two critical points for a function</shortdescription>
           <description>
             <p>
               A number line is shown with two marked points.
@@ -1256,7 +1257,22 @@
         <caption>A graph of <m>f(x)</m> in <xref ref="ex_incr3"/>, showing where <m>f</m> is increasing and decreasing</caption>
         <!-- START figures/fig_incr3.tex -->
         <image width="47%">
-          <description/>
+          <shortdescription>A graph with a curved W shape.</shortdescription>
+          <description>
+            <p>
+              The graph of the function <m>f(x)</m> in <xref ref="ex_incr3"/> is plotted,
+              along with its derivative.
+              The graph of <m>f(x)</m> has the shape of a curved W.
+              There are two local minima with horizontal tangent lines at <m>x=1</m> and <m>x=-1</m>.
+              There is a local maximum that is a cusp at the origin.
+            </p>
+            <p>
+              The graph of <m>\fp(x)</m> is shown to be decreasing when <m>x</m> is negative,
+              with an intercept at <m>x=-1</m>. There is a break in the graph at the <m>y</m> axis,
+              since the derivative is undefined there.
+              For positive <m>x</m>, the graph of <m>\fp(x)</m> is increasing, with an intercept at <m>x=1</m>.
+            </p>
+          </description>  
           <latex-image label="img_incr3">
             \begin{tikzpicture}
               \begin{axis}[

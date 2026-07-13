@@ -1483,12 +1483,12 @@
             <p>
               Substitution <q>undoes</q> what derivative rule?
             </p>
-            <p componet="web">
+            <p component="web">
               <!-- <var name="'the Chain Rule'" width="40"/> -->
                <fillin width="30" answer="the chain rule"/>
             </p>
           </statement>
-          <evaluation component="web">
+          <evaluation>
             <evaluate>
 
               <test correct="yes">

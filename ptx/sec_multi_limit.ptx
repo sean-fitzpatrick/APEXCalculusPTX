@@ -1434,7 +1434,7 @@
                   <m>\ds S = \left\{(x,y)\,| \, x^2+y^2=1\right\}</m>
                 </p>
               </statement>
-            answer&gt;
+              <answer>
                 <p>
                   <ol>
                     <li>
@@ -1460,7 +1460,7 @@
                     </li>
                   </ol>
                 </p>
-              answer&gt;
+              </answer>
           <!--</webwork>-->
         </exercise>
 

@@ -1540,7 +1540,7 @@
             <caption>Graphing the hyperbola in <xref ref="ex_conic5"/></caption>
             <!-- START figures/fig_conic5.tex -->
             <image width="47%">
-              <shortdescription>A graph of the hyperbola given in <xref ref="ex_conic5"/></shortdescription>
+              <shortdescription>A graph of the hyperbola in this example</shortdescription>
               <description>
                 <p>
                  A graph of the hyperbola given in <xref ref="ex_conic5"/>.
@@ -1627,7 +1627,7 @@
             <caption>Graphing the hyperbola in <xref ref="ex_conic6"/></caption>
             <!-- START figures/fig_conic6.tex -->
             <image width="47%">
-              <shortdescription>The hyperbola described in <xref ref="ex_conic6"/>.</shortdescription>
+              <shortdescription>The hyperbola described in this example</shortdescription>
               <description>
                 <p>
                   The hyperbola described in  <xref ref="ex_conic6"/>.
@@ -2124,7 +2124,7 @@
           <figure xml:id="fig_hyperbola_locateb">
             <caption/>
             <image>
-              <shortdescription>A hyperbola drawn from points A and B in <xref ref="fig_hyperbola_locatea"/> </shortdescription>
+              <shortdescription>A hyperbola drawn from points A and B to illustrate the location property </shortdescription>
               <description>
                 <p>
                   A hyperbola drawn from points <m>A</m> and <m>B</m> in <xref ref="fig_hyperbola_locatea"/>.
@@ -2161,7 +2161,7 @@
           <figure xml:id="fig_hyperbola_locatec">
             <caption/>
             <image>
-              <shortdescription>A fourth point found from hyperbolas given by points in <xref ref="fig_hyperbola_locatea"/></shortdescription>
+              <shortdescription>A fourth point found from hyperbolas given by points in the previous figures</shortdescription>
               <description>
                 <p>
                   A hyperbola drawn from points <m>B</m> and <m>C</m> in <xref ref="fig_hyperbola_locatea"/>, intersecting with the hyperbola drawn in <xref ref="fig_hyperbola_locateb"/>.

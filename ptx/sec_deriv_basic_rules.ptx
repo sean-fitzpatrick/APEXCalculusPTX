@@ -812,7 +812,7 @@
                <fillin width="25" answer="the power rule"/>
             </p>
           </statement>
-          <evaluation component="web">
+          <evaluation>
             <evaluate>
 
               <test correct="yes">

@@ -1496,7 +1496,7 @@
               <cell/>
             </row>
             <row>
-              <cell/>
+              <cell/><cell/><cell/>
             </row>
           </tabular>
 
@@ -3274,7 +3274,7 @@
               <instruction>If <m>f(m)\gt 0</m> at the midpoint <m>m</m>, put <m>+</m> for the midpoint sign. If <m>f(m)\lt 0</m>, put <m>-</m> for the midpoint sign.</instruction>
               
               <tabular component="web">
-                <row bottom="medium">
+                <row bottom="minor">
                   <cell>Iteration</cell>
                   <cell>Interval</cell>
                   <cell>Midpoint Sign</cell>
@@ -3364,7 +3364,7 @@
               <instruction>If <m>f(m)\gt 0</m> at the midpoint <m>m</m>, put <m>+</m> for the midpoint sign. If <m>f(m)\lt 0</m>, put <m>-</m> for the midpoint sign.</instruction>
               
               <tabular component="web">
-                <row bottom="medium">
+                <row bottom="minor">
                   <cell>Iteration</cell>
                   <cell>Interval</cell>
                   <cell>Midpoint Sign</cell>
@@ -3454,7 +3454,7 @@
               <instruction>If <m>f(m)\gt 0</m> at the midpoint <m>m</m>, put <m>+</m> for the midpoint sign. If <m>f(m)\lt 0</m>, put <m>-</m> for the midpoint sign.</instruction>
               
               <tabular component="web">
-                <row bottom="medium">
+                <row bottom="minor">
                   <cell>Iteration</cell>
                   <cell>Interval</cell>
                   <cell>Midpoint Sign</cell>
@@ -3544,7 +3544,7 @@
               <instruction>If <m>f(m)\gt 0</m> at the midpoint <m>m</m>, put <m>+</m> for the midpoint sign. If <m>f(m)\lt 0</m>, put <m>-</m> for the midpoint sign.</instruction>
               
               <tabular component="web">
-                <row bottom="medium">
+                <row bottom="minor">
                   <cell>Iteration</cell>
                   <cell>Interval</cell>
                   <cell>Midpoint Sign</cell>

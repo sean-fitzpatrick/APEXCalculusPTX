@@ -57,7 +57,7 @@
             </p>
             <p>
               A tangent line is drawn from the point <m>(x_0,f(x_0))</m>  to intersect the <m>x</m> axis at <m>x_1</m>,
-              providing a refined approximation of the function’s root.
+              providing a refined approximation of the function's root.
             </p>
           </description>
           <latex-image label="img_newt1a">

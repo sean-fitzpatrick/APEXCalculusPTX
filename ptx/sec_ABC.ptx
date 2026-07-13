@@ -485,8 +485,12 @@
         <!-- START figures/fig_abc3b.tex -->
         <image width="47%">
           <description>
-            Graph of the shaded region bounded by <m>y=\sqrt{x}+2</m>, <m>y=-(x-1)^2+3</m> and <m>y=2</m> with a red horizontal rectangle slice showing integration with respect to y.
-            The rectangle starts near the beginning of the graph of <m>y=\sqrt{x}+2</m> at a <m>y</m>-level of about 2.2 and spans across to meet the graph of <m>y=-(x-1)^2+3</m>.
+            <p>
+              Graph of the shaded region bounded by <m>y=\sqrt{x}+2</m>, 
+              <m>y=-(x-1)^2+3</m> and <m>y=2</m> with a red horizontal rectangle slice showing integration with respect to y.
+              The rectangle starts near the beginning of the graph of <m>y=\sqrt{x}+2</m> at a 
+              <m>y</m> level of about <m>2.2</m> and spans across to meet the graph of <m>y=-(x-1)^2+3</m>.
+            </p>
           </description>
           <shortdescription>Graph of the shaded region with boundaries relabeled as functions of y.</shortdescription>
           <latex-image label="img_abc3b">
@@ -968,8 +972,13 @@
 
                 <!-- START figures/fig_07_01_ex_04.tex -->
                   <image>
-                    <description>Graph of the region enclosed by the functions <m>y=\frac12 x +3</m> and <m>y=\frac12\cos(x)+1</m> between <m>x = 0</m> and <m>x = 2\pi</m>.
-                      The function <m>y=\frac12 x +3</m> lies above the function <m>y=\frac12\cos(x)+1</m> for the entirety of the region between <m>x = 0</m> and <m>x = 2\pi</m>.
+                    <description>
+                      <p>
+                        Graph of the region enclosed by the functions <m>y=\frac12 x +3</m> 
+                        and <m>y=\frac12\cos(x)+1</m> between <m>x = 0</m> and <m>x = 2\pi</m>.
+                        The function <m>y=\frac12 x +3</m> lies above the function <m>y=\frac12\cos(x)+1</m> 
+                        for the entirety of the region between <m>x = 0</m> and <m>x = 2\pi</m>.
+                      </p>
                     </description>
                     <shortdescription>Graph of the region between two functions between x=0 and x=2pi. </shortdescription>
                     <latex-image label="img_07_01_ex_04">
@@ -1033,8 +1042,13 @@
 
               <!-- START figures/fig_07_01_ex_05.tex -->
                   <image>
-                    <description>Graph of the region enclosed by the functions <m>y=-3x^3+3x+2</m> and <m>y=x^2+x-1</m> between <m>x = -1</m> and <m>x = 1</m>.
-                      The function <m>y=-3x^3+3x+2</m> lies above the function <m>y=x^2+x-1</m> for the entirety of the region between <m>x = -1</m> and <m>x = 1</m>.
+                    <description>
+                      <p>
+                        Graph of the region enclosed by the functions <m>y=-3x^3+3x+2</m> 
+                        and <m>y=x^2+x-1</m> between <m>x = -1</m> and <m>x = 1</m>.
+                        The function <m>y=-3x^3+3x+2</m> lies above the function <m>y=x^2+x-1</m> 
+                        for the entirety of the region between <m>x = -1</m> and <m>x = 1</m>.
+                      </p>
                     </description>
                     <shortdescription>Graph of the region enclosed by the two functions between x=0 and x=2pi. </shortdescription>
                     <latex-image label="img_07_01_ex_05">
@@ -1096,7 +1110,10 @@
 
               <!-- START figures/fig_07_01_ex_10.tex -->
                   <image>
-                    <description>Graph of the region enclosed by horizontal lines <m>y=0</m> and <m>y=1</m> between <m>x = 0</m> and <m>x = \pi</m>.
+                    <description>
+                      <p>
+                        Graph of the region enclosed by horizontal lines <m>y=0</m> and <m>y=1</m> between <m>x = 0</m> and <m>x = \pi</m>.
+                      </p>
                     </description>
                     <shortdescription>Graph of the rectangular region between y=1, y=2, and x=0, x=pi. </shortdescription>
                     <latex-image label="img_07_01_ex_10">
@@ -1161,8 +1178,12 @@
 
               <!-- START figures/fig_07_01_ex_06.tex -->
                   <image>
-                    <description>Graph of the region enclosed by the functions <m>y=\sin(x)+1</m> and <m>y=\sin(x)</m> between <m>x = 0</m> and <m>x = \pi</m>.
-                      The function <m>y=\sin(x)+1</m> lies above the function <m>y=\sin(x)</m> for the entirety of the region between <m>x = 0</m> and <m>x = \pi</m>.
+                    <description>
+                      <p>
+                        Graph of the region enclosed by the functions <m>y=\sin(x)+1</m> and <m>y=\sin(x)</m> between <m>x = 0</m> and <m>x = \pi</m>.
+                        The function <m>y=\sin(x)+1</m> lies above the function <m>y=\sin(x)</m> 
+                        for the entirety of the region between <m>x = 0</m> and <m>x = \pi</m>.
+                      </p>
                     </description>
                     <shortdescription>Graph of the region between the two sine graphs between x=0 and x=pi. </shortdescription>
                     <latex-image label="img_07_01_ex_06">
@@ -1228,8 +1249,12 @@
 
               <!-- START figures/fig_07_01_ex_07.tex -->
                 <image>
-                  <description>Graph of the region enclosed by the functions <m>y=\sin(4x)</m> and <m>y=\sec^2(x)</m> between <m>x = 0</m> and <m>x = \pi/4</m>.
-                    The function <m>y=\sec^2(x)</m> lies above the function <m>y=\sin(4x)</m> for the entirety of the region between <m>x = 0</m> and <m>x = \pi/4</m>.
+                  <description>
+                    <p>
+                      Graph of the region enclosed by the functions <m>y=\sin(4x)</m> and <m>y=\sec^2(x)</m> between <m>x = 0</m> and <m>x = \pi/4</m>.
+                      The function <m>y=\sec^2(x)</m> lies above the function <m>y=\sin(4x)</m> 
+                      for the entirety of the region between <m>x = 0</m> and <m>x = \pi/4</m>.
+                    </p>
                   </description>
                   <shortdescription>Graph of the region enclosed by the two functions between x=0 and x=pi/4. </shortdescription>
                   <latex-image label="img_07_01_ex_07">
@@ -1294,9 +1319,13 @@
 
               <!-- START figures/fig_07_01_ex_08.tex -->
                   <image>
-                    <description>Graph of the region enclosed by the functions <m>y=\sin(x)</m> and <m>y=\cos(x)</m> between <m>x = \pi/4</m> and <m>x = 5\pi/4</m>.
-                      The two functions intersect at <m>x = \pi/4</m> and <m>x = 5\pi/4</m>.
-                      The function <m>y=\sec^2(x)</m> lies above the function <m>y=\sin(4x)</m> for the entirety of the region between <m>x = \pi/4</m> and <m>x = 5\pi/4</m>.
+                    <description>
+                      <p>
+                        Graph of the region enclosed by the functions <m>y=\sin(x)</m> and <m>y=\cos(x)</m> between <m>x = \pi/4</m> and <m>x = 5\pi/4</m>.
+                        The two functions intersect at <m>x = \pi/4</m> and <m>x = 5\pi/4</m>.
+                        The function <m>y=\sec^2(x)</m> lies above the function <m>y=\sin(4x)</m> 
+                        for the entirety of the region between <m>x = \pi/4</m> and <m>x = 5\pi/4</m>.
+                      </p>
                     </description>
                     <shortdescription>Graph of the region enclosed by the two functions between x=pi/4 and x=5 pi/4. </shortdescription>
                     <latex-image label="img_07_01_ex_08">
@@ -1360,9 +1389,12 @@
 
               <!-- START figures/fig_07_01_ex_09.tex -->
                   <image>
-                    <description>Graph of the region enclosed by the functions <m>y=2^x</m> and <m>y=4^x</m> between <m>x = 0</m> and <m>x = 1</m>.
-                      The two functions intersect at <m>x = 0</m> before <m>y=4^x</m> overtakes <m>y=2^x</m>.
-                      The function <m>y=4^x</m> lies above the function <m>y=2^x</m> for the entirety of the region between <m>0</m> and <m>1</m>.
+                    <description>
+                      <p>
+                        Graph of the region enclosed by the functions <m>y=2^x</m> and <m>y=4^x</m> between <m>x = 0</m> and <m>x = 1</m>.
+                        The two functions intersect at <m>x = 0</m> before <m>y=4^x</m> overtakes <m>y=2^x</m>.
+                        The function <m>y=4^x</m> lies above the function <m>y=2^x</m> for the entirety of the region between <m>0</m> and <m>1</m>.
+                      </p>
                     </description>
                     <shortdescription>Graph of the region enclosed by the two functions between x=0 and x=1. </shortdescription>
                     <latex-image label="img_07_01_ex_09">
@@ -1406,14 +1438,17 @@
               and <m>y=1</m>.
             </p>
             <image>
-              <description>Graph of the region enclosed by the functions <m>y=\sqrt{x}+1</m>, <m>y=\sqrt{2-x}+1</m> and the horizontal line <m>y=1</m>.
-                      The curve given by <m> y=\sqrt{x}+1 </m> is drawn starting at the y-axis and ending at the point <m> (1,2) </m>.
-                      The curve given by <m>y=\sqrt{2-x}+1</m> is drawn starting from the end of the previous curve, at the point <m> (1,2) </m>.
-                      This curve then falls downwards before intersecting the horizontal line <m>y=1</m> at the point <m> (2,1) </m>.
-                      Both curves lie entirely above the horizontal line <m>y=1</m>.
-                      The curve <m> y=\sqrt{x}+1 </m> also lies to the left of <m>y=\sqrt{2-x}+1</m> throughout the enclosed region.
-                    </description>
-                    <shortdescription>Graph of the region enclosed by the two functions and the line y=1. </shortdescription>
+              <description>
+                <p>
+                  Graph of the region enclosed by the functions <m>y=\sqrt{x}+1</m>, <m>y=\sqrt{2-x}+1</m> and the horizontal line <m>y=1</m>.
+                  The curve given by <m> y=\sqrt{x}+1 </m> is drawn starting at the y-axis and ending at the point <m> (1,2) </m>.
+                  The curve given by <m>y=\sqrt{2-x}+1</m> is drawn starting from the end of the previous curve, at the point <m> (1,2) </m>.
+                  This curve then falls downwards before intersecting the horizontal line <m>y=1</m> at the point <m> (2,1) </m>.
+                  Both curves lie entirely above the horizontal line <m>y=1</m>.
+                  The curve <m> y=\sqrt{x}+1 </m> also lies to the left of <m>y=\sqrt{2-x}+1</m> throughout the enclosed region.
+                </p>
+              </description>
+              <shortdescription>Graph of the region enclosed by the two functions and the line y=1. </shortdescription>
               <latex-image label="img_07_01_ex_31a">
 
               \begin{tikzpicture}
@@ -1729,12 +1764,15 @@
 
               <!-- START figures/fig_07_01_ex_18.tex -->
                   <image>
-                    <description>Graph of the region enclosed by the functions  <m>y=x^2+1</m>, <m>y=\frac14(x-3)^2+1</m> and the horizontal line <m>y=1</m>.
-                      The curve given by <m>y=x^2+1</m> is drawn starting at the y-axis and ending at the point <m> (1,2) </m>.
-                      The curve given by <m>y=\frac14(x-3)^2+1</m> is drawn starting from the end of the previous curve at the point <m> (1,2) </m>.
-                      This curve then falls downwards before intersecting the horizontal line <m>y=1</m> at the point <m> (3,1) </m>.
-                      Both curves lie above the line <m>y=1</m> for the entirety of the enclosed region.
-                      The curve <m>y=\frac14(x-3)^2+1</m> also lies to the right of the curve <m>y=x^2+1</m> throughout the enclosed region.
+                    <description>
+                      <p>
+                        Graph of the region enclosed by the functions  <m>y=x^2+1</m>, <m>y=\frac14(x-3)^2+1</m> and the horizontal line <m>y=1</m>.
+                        The curve given by <m>y=x^2+1</m> is drawn starting at the y-axis and ending at the point <m> (1,2) </m>.
+                        The curve given by <m>y=\frac14(x-3)^2+1</m> is drawn starting from the end of the previous curve at the point <m> (1,2) </m>.
+                        This curve then falls downwards before intersecting the horizontal line <m>y=1</m> at the point <m> (3,1) </m>.
+                        Both curves lie above the line <m>y=1</m> for the entirety of the enclosed region.
+                        The curve <m>y=\frac14(x-3)^2+1</m> also lies to the right of the curve <m>y=x^2+1</m> throughout the enclosed region.
+                      </p>
                     </description>
                     <shortdescription>Graph of the region enclosed by the two functions and the line y=1. </shortdescription>
                     <latex-image label="img_07_01_ex_18">
@@ -1800,13 +1838,16 @@
 
               <!-- START figures/fig_07_01_ex_19.tex -->
                   <image>
-                    <description>Graph of the region enclosed by the functions  <m>y=\sqrt{x}</m>, <m>y=-2x+3</m> and <m>y=-\frac12 x</m>.
-                      The curve given by <m>y=\sqrt{x}</m> is drawn starting at the origin, from which it goes upwards and ends at the point <m> (1,1) </m>.
-                      The curve given by <m>y=-2x+3</m> is drawn starting from the end of the previous curve at the point <m> (1,1) </m>.
-                      This curve then goes downwards before ending at the point <m> (2,-1) </m>.
-                      The curve given by <m>y=-\frac12 x</m> is drawn starting from the origin, from which it goes downwards until it meets the previous curve at the point <m> (2,-1) </m>.
-                      The curve <m>y=\sqrt{x}</m> graphed between <m> x=0 </m> and <m> x=1 </m> and the line <m>y=-2x+3</m> graphed between <m> x=1 </m> and <m> x=2 </m> lie entirely above the line <m>y=-\frac12 x</m>.
-                      The curve <m>y=\sqrt{x}</m> between <m> y=0 </m> and <m> y=1 </m> and the line <m>y=-\frac12 x</m> between <m> y=-1 </m> and <m> y=0 </m> lie to the left of the curve <m>y=-2x+3</m>.
+                    <description>
+                      <p>
+                        Graph of the region enclosed by the functions  <m>y=\sqrt{x}</m>, <m>y=-2x+3</m> and <m>y=-\frac12 x</m>.
+                        The curve given by <m>y=\sqrt{x}</m> is drawn starting at the origin, from which it goes upwards and ends at the point <m> (1,1) </m>.
+                        The curve given by <m>y=-2x+3</m> is drawn starting from the end of the previous curve at the point <m> (1,1) </m>.
+                        This curve then goes downwards before ending at the point <m> (2,-1) </m>.
+                        The curve given by <m>y=-\frac12 x</m> is drawn starting from the origin, from which it goes downwards until it meets the previous curve at the point <m> (2,-1) </m>.
+                        The curve <m>y=\sqrt{x}</m> graphed between <m> x=0 </m> and <m> x=1 </m> and the line <m>y=-2x+3</m> graphed between <m> x=1 </m> and <m> x=2 </m> lie entirely above the line <m>y=-\frac12 x</m>.
+                        The curve <m>y=\sqrt{x}</m> between <m> y=0 </m> and <m> y=1 </m> and the line <m>y=-\frac12 x</m> between <m> y=-1 </m> and <m> y=0 </m> lie to the left of the curve <m>y=-2x+3</m>.
+                      </p>
                     </description>
                     <shortdescription>Graph of the region enclosed by the three functions. </shortdescription>
                     <latex-image label="img_07_01_ex_19">
@@ -1865,13 +1906,16 @@
 
               <!-- START figures/fig_07_01_ex_20.tex -->
                   <image>
-                    <description>Graph of the region enclosed by the functions <m>y=x+2</m> and <m>y=x^2</m>.
-                      The line <m>y=x+2</m> is drawn starting at the point <m>(-1,1)</m>, from which it goes upwards and ends at the point <m> (2,4) </m>.
-                      The parabola given by <m>y=x^2</m> is also drawn starting from the point <m>(-1,1)</m>, from which it slopes downwards until the point <m> (0,0) </m>.
-                      The parabola then goes upwards before meeting the line at the point <m> (2,4) </m>.
-                      The line <m>y=x+2</m> graphed between <m> x=-1 </m> and <m> x=2 </m> lies entirely above the parabola <m>y=x^2</m> graphed on the same bounds, only interesecting at the end points.
-                      The line <m>y=\sqrt{x}</m> lies to the left of the parabola <m>y=x^2</m> between <m>y=1</m> and <m>y=4</m>.
-                      Between <m>y=0</m> and <m>y=1</m>, the enclosed region spans from the left side of <m>y=x^2</m> to the right side of the <m>y=x^2</m>.
+                    <description>
+                      <p>
+                        Graph of the region enclosed by the functions <m>y=x+2</m> and <m>y=x^2</m>.
+                        The line <m>y=x+2</m> is drawn starting at the point <m>(-1,1)</m>, from which it goes upwards and ends at the point <m> (2,4) </m>.
+                        The parabola given by <m>y=x^2</m> is also drawn starting from the point <m>(-1,1)</m>, from which it slopes downwards until the point <m> (0,0) </m>.
+                        The parabola then goes upwards before meeting the line at the point <m> (2,4) </m>.
+                        The line <m>y=x+2</m> graphed between <m> x=-1 </m> and <m> x=2 </m> lies entirely above the parabola <m>y=x^2</m> graphed on the same bounds, only interesecting at the end points.
+                        The line <m>y=\sqrt{x}</m> lies to the left of the parabola <m>y=x^2</m> between <m>y=1</m> and <m>y=4</m>.
+                        Between <m>y=0</m> and <m>y=1</m>, the enclosed region spans from the left side of <m>y=x^2</m> to the right side of the <m>y=x^2</m>.
+                      </p>
                     </description>
                     <shortdescription>Graph of the region enclosed by the line and parabola. </shortdescription>
                     <latex-image label="img_07_01_ex_20">
@@ -1936,13 +1980,16 @@
 
               <!-- START figures/fig_07_01_ex_21.tex -->
                   <image>
-                    <description>Graph of the region enclosed by the functions <m>x=-\frac12 y+1</m> and <m>x=\frac12 y^2</m>.
-                      The line <m>y=x+2</m> is drawn starting at the point <m>(0.5,1)</m>, from which it goes downwards and ends at the point <m> (2,-2) </m>.
-                      The sideways parabola given by <m>x=\frac12 y^2</m> is also drawn starting from the point <m>(0.5,1)</m>, from which it goes backwards until the point <m> (0,0)</m>.
-                      The parabola then heads to the right before meeting the line at the point <m> (2,-2) </m>.
-                      The line <m>x=-\frac12 y+1</m> graphed between <m> x=-0.5 </m> and <m> x=2 </m> lies entirely above the parabola <m>x=\frac12 y^2</m> between the same bounds, only interesecting at the end points.
-                      However, between  <m> x=0 </m> and <m> x=0.5 </m>, both the top and bottom of the enclosed region are made up by the parabola.
-                      The sideways parabola <m>x=\frac12 y^2</m> lies to the left of the line <m>x=-\frac12 y+1</m> for the entirety of the region between <m> y=-2 </m> and <m> y=1 </m>.
+                    <description>
+                      <p>
+                        Graph of the region enclosed by the functions <m>x=-\frac12 y+1</m> and <m>x=\frac12 y^2</m>.
+                        The line <m>y=x+2</m> is drawn starting at the point <m>(0.5,1)</m>, from which it goes downwards and ends at the point <m> (2,-2) </m>.
+                        The sideways parabola given by <m>x=\frac12 y^2</m> is also drawn starting from the point <m>(0.5,1)</m>, from which it goes backwards until the point <m> (0,0)</m>.
+                        The parabola then heads to the right before meeting the line at the point <m> (2,-2) </m>.
+                        The line <m>x=-\frac12 y+1</m> graphed between <m> x=-0.5 </m> and <m> x=2 </m> lies entirely above the parabola <m>x=\frac12 y^2</m> between the same bounds, only interesecting at the end points.
+                        However, between  <m> x=0 </m> and <m> x=0.5 </m>, both the top and bottom of the enclosed region are made up by the parabola.
+                        The sideways parabola <m>x=\frac12 y^2</m> lies to the left of the line <m>x=-\frac12 y+1</m> for the entirety of the region between <m> y=-2 </m> and <m> y=1 </m>.
+                      </p>
                     </description>
                     <shortdescription>Graph of the region enclosed by the line and parabola. </shortdescription>
                     <latex-image label="img_07_01_ex_21">
@@ -2008,13 +2055,16 @@
 
               <!-- START figures/fig_07_01_ex_22.tex -->
                   <image>
-                    <description>Graph of the region enclosed by the functions <m>y=x^{1/3}</m>, <m>y=\sqrt{x-1/2}</m> and the lines <m>y=0</m>, <m>x=1</m>.
-                      The curve <m>y=x^{1/3}</m> is drawn starting at the origin, from which it goes upwards and ends at the point <m> (1,1) </m>.
-                      The curve <m>y=\sqrt{x-1/2}</m> is drawn starting from the point <m>(0.5,0)</m>, from which it goes upwards until ending at the point <m> (1,sqrt{\frac12})</m>.
-                      The curve <m>y=x^{1/3}</m> graphed between <m> x=0 </m> and <m> x=0.5 </m> lies above x-axis.
-                      Between <m> x=0.5 </m> and <m> x=1 </m>, the curve <m>y=x^{1/3}</m> lies above the curve <m>y=\sqrt{x-1/2}</m>.
-                      The curve <m>y=x^{1/3}</m> lies to the left of the curve <m>y=\sqrt{x-1/2}</m> for the entirety of the length of the curve <m>y=\sqrt{x-1/2}</m>.
-                      After this point, the curve <m>y=x^{1/3}</m> lies to the left of the boundary line occuring at <m>x=1</m>.
+                    <description>
+                      <p>
+                        Graph of the region enclosed by the functions <m>y=x^{1/3}</m>, <m>y=\sqrt{x-1/2}</m> and the lines <m>y=0</m>, <m>x=1</m>.
+                        The curve <m>y=x^{1/3}</m> is drawn starting at the origin, from which it goes upwards and ends at the point <m> (1,1) </m>.
+                        The curve <m>y=\sqrt{x-1/2}</m> is drawn starting from the point <m>(0.5,0)</m>, from which it goes upwards until ending at the point <m> (1,sqrt{\frac12})</m>.
+                        The curve <m>y=x^{1/3}</m> graphed between <m> x=0 </m> and <m> x=0.5 </m> lies above x-axis.
+                        Between <m> x=0.5 </m> and <m> x=1 </m>, the curve <m>y=x^{1/3}</m> lies above the curve <m>y=\sqrt{x-1/2}</m>.
+                        The curve <m>y=x^{1/3}</m> lies to the left of the curve <m>y=\sqrt{x-1/2}</m> for the entirety of the length of the curve <m>y=\sqrt{x-1/2}</m>.
+                        After this point, the curve <m>y=x^{1/3}</m> lies to the left of the boundary line occuring at <m>x=1</m>.
+                      </p>
                     </description>
                     <shortdescription>Graph of the region enclosed by the two functions and y=0 and x=1. </shortdescription>
                     <latex-image label="img_07_01_ex_22">
@@ -2059,13 +2109,16 @@
               and <m>y=1</m>.
             </p>
           <image>
-            <description>Graph of the region enclosed by the functions <m>y=\sqrt{x}+1</m>, <m>y=\sqrt{2-x}+1</m> and the line <m>y=1</m>.
-                      The curve <m>y=\sqrt{x}+1</m> is drawn starting at the point <m>(0,1)</m>, from which it goes upwards and ends at the point <m> (1,2) </m>.
-                      The curve <m>y=\sqrt{2-x}+1</m> is drawn starting from the end of the previous curve, at the point <m>(1,2)</m>, from which it goes downward until ending at the point <m> (2,1)</m>.
-                      Both of these curves lie entirely above the horizontal line <m>y=1</m>.
-                      The curve <m>y=\sqrt{x}+1</m> lies to the left of the curve <m>y=\sqrt{2-x}+1</m> for the entirety of the enclosed region.
-                    </description>
-                    <shortdescription>Graph of the region enclosed by the two functions and the line y=1. </shortdescription>
+            <description>
+              <p>
+                Graph of the region enclosed by the functions <m>y=\sqrt{x}+1</m>, <m>y=\sqrt{2-x}+1</m> and the line <m>y=1</m>.
+                The curve <m>y=\sqrt{x}+1</m> is drawn starting at the point <m>(0,1)</m>, from which it goes upwards and ends at the point <m> (1,2) </m>.
+                The curve <m>y=\sqrt{2-x}+1</m> is drawn starting from the end of the previous curve, at the point <m>(1,2)</m>, from which it goes downward until ending at the point <m> (2,1)</m>.
+                Both of these curves lie entirely above the horizontal line <m>y=1</m>.
+                The curve <m>y=\sqrt{x}+1</m> lies to the left of the curve <m>y=\sqrt{2-x}+1</m> for the entirety of the enclosed region.
+              </p>
+            </description>
+            <shortdescription>Graph of the region enclosed by the two functions and the line y=1. </shortdescription>
             <latex-image label="img_07_01_ex_31">
 
                \begin{tikzpicture}
