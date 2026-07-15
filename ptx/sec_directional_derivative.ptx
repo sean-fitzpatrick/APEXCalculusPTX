@@ -1304,7 +1304,7 @@
             <evaluation>
               <evaluate>
                 <test correct="yes">
-                  <strcmp usee-answer="yes" case="insensitive"/>
+                  <strcmp use-answer="yes" case="insensitive"/>
                 </test>
                 <test>
                   <strcmp case="insensitive">perpendicular</strcmp>

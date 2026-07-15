@@ -983,8 +983,10 @@
               The graph area under the curve is a semicircle with radius 3 on the x axis with centre at origin.
             </shortdescription>
             <description>
-              The graph shows the area under the curve that is a semicircle with radius <m>3</m> on the <m>x</m> axis
-              with centre at origin. It lies on the first and the second quadrant.
+              <p>
+                The graph shows the area under the curve that is a semicircle with radius <m>3</m> on the <m>x</m> axis
+                with centre at origin. It lies on the first and the second quadrant.
+              </p>
             </description>
 
             <latex-image label="img_defint8b">
@@ -1658,16 +1660,16 @@
                 <image>
                   <shortdescription>
                     Graph of function that is a semicircle on the x axis.
-                    </shortdescription>
-                    <description>
+                  </shortdescription>
+                  <description>
                     <p>
-                    The <m>y</m> axis is drawn from <m>0</m> to <m>3</m> and the <m>x</m> axis is
-                    drawn from <m>0</m> to <m>4</m>.
-                    The graph of function <m>f(x) = \sqrt{4-(x-2)^2}</m>
-                    is a semi circle drawn on the <m>x</m> axis with centre at point
-                    <m>(2,0)</m> and radius of <m>2</m>.
+                      The <m>y</m> axis is drawn from <m>0</m> to <m>3</m> and the <m>x</m> axis is
+                      drawn from <m>0</m> to <m>4</m>.
+                      The graph of function <m>f(x) = \sqrt{4-(x-2)^2}</m>
+                      is a semi circle drawn on the <m>x</m> axis with centre at point
+                      <m>(2,0)</m> and radius of <m>2</m>.
                     </p>
-                    </description>
+                  </description>
 
                   <latex-image label="img_05_02_ex_09">
                     \begin{tikzpicture}

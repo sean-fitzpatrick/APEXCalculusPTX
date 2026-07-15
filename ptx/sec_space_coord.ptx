@@ -2382,7 +2382,7 @@
             <cell>Crossed Lines</cell>
           </row>
           <row>
-            <cell/>
+            <cell/><cell/><cell/>
           </row>
           <row>
             <cell><m>x=d</m></cell>
@@ -4251,7 +4251,7 @@
 
             <statement>
               <p>
-                Which quadric surface looks like a Pringles<!--<trademark/>-->(TM)<nbsp/>chip?
+                Which quadric surface looks like a Pringles<trademark/><nbsp/>chip?
               </p>
               <!-- <p>
                 <var name="$surfaces" form="popup"/>

@@ -513,14 +513,14 @@
               <cell><m>\cos(\theta) = x</m></cell>
             </row>
             <row>
-              <cell/>
+              <cell/><cell/>
             </row>
             <row>
               <cell><m>\ds\csc(\theta) = \frac1y</m></cell>
               <cell><m>\ds\sec(\theta) = \frac1x</m></cell>
             </row>
             <row>
-              <cell/>
+              <cell/><cell/>
             </row>
             <row>
               <cell><m>\ds\tan(\theta) = \frac yx</m></cell>
@@ -564,14 +564,14 @@
               <cell><m>\ds\csc(\theta) = \frac{\text{H} }{\text{O} }</m></cell>
             </row>
             <row>
-              <cell/>
+              <cell/><cell/>
             </row>
             <row>
               <cell><m>\ds\cos(\theta) = \frac{\text{A} }{\text{H} }</m></cell>
               <cell><m>\ds\sec(\theta) = \frac{\text{H} }{\text{A} }</m></cell>
             </row>
             <row>
-              <cell/>
+              <cell/><cell/>
             </row>
             <row>
               <cell><m>\ds\tan(\theta) = \frac{\text{O} }{\text{A} }</m></cell>

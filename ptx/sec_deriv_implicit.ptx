@@ -426,16 +426,18 @@
               A curve with two distinct segments and a tangent line with a positive slope
             </shortdescription>
             <description>
-              Two curves are drawn in the <m>xy</m>-plane.
-              The left curve stretches upwards from the left side of the <m>y</m> axis, curving slightly to the left.
-              As <m>y</m> approaches -2, the curve begins to widen to the left, creating a bump in the curve.
-              As the curve crosses the <m>x</m> axis, the curve moves towards the right, no longer increasing and becoming more horizontal as <m>x</m> increases.
-              At the point <m>(0,1)</m>, a tangent line is drawn, with a moderate positive slope.
-              This point corresponds to the corner at which the curve begins to become horizontal.
-              At this point, the curve passes the vertical line test, but does not at most other points on the graph.
-              The second curve begins to the right of the <m>y</m>-axis, as a line stretching upwards from the bottom of the <m>y</m>-axis.
-              As <m>x</m> approaches 1, the curve also begins to become horizontal as <m>x</m> increases.
-              The entire second curve lies in the fourth quadrant.
+              <p>
+                Two curves are drawn in the <m>xy</m>-plane.
+                The left curve stretches upwards from the left side of the <m>y</m> axis, curving slightly to the left.
+                As <m>y</m> approaches -2, the curve begins to widen to the left, creating a bump in the curve.
+                As the curve crosses the <m>x</m> axis, the curve moves towards the right, no longer increasing and becoming more horizontal as <m>x</m> increases.
+                At the point <m>(0,1)</m>, a tangent line is drawn, with a moderate positive slope.
+                This point corresponds to the corner at which the curve begins to become horizontal.
+                At this point, the curve passes the vertical line test, but does not at most other points on the graph.
+                The second curve begins to the right of the <m>y</m>-axis, as a line stretching upwards from the bottom of the <m>y</m>-axis.
+                As <m>x</m> approaches 1, the curve also begins to become horizontal as <m>x</m> increases.
+                The entire second curve lies in the fourth quadrant.
+              </p>
             </description>
             <latex-image label="img_implicit4">
 
@@ -1995,9 +1997,11 @@
                   A square with rounded corners and edges with a point in the first quadrant.
                 </shortdescription>
                 <description>
-                  A curve that lies in all 4 quadrants.
-                  It has the appearance of a square with rounded sides and corners.
-                  A point is drawn at <m>(\sqrt{0.6},\sqrt{0.8})</m>.
+                  <p>
+                    A curve that lies in all 4 quadrants.
+                    It has the appearance of a square with rounded sides and corners.
+                    A point is drawn at <m>(\sqrt{0.6},\sqrt{0.8})</m>.
+                  </p>
                 </description>
                 <latex-image label="img_02_06_ex_28">
                   \begin{tikzpicture}
@@ -2126,16 +2130,18 @@
                   An oval with a cusp on the right side.
                 </shortdescription>
                 <description>
-                  An oval with a cusp on the right side.
-                  A majority of the curve lies to the left of the <m>y</m>-axis.
-                  From the top of the curve, the curve decreases towards the right.
-                  It enters the first quadrant through the point <m>(0,1)</m>.
-                  As the curve nears the <m>x</m>-axis, it bends back toward the <m>y</m>-axis, forming a cusp at the origin.
-                  The curve then bends outwards into the fourth quadrant.
-                  The curve continues downwards and to the left, passing the <m>y</m>-axis through the point <m>(0,-1)</m>.
-                  In the third quadrant the curve bends upwards, passing vertically into the second quadrant through the point <m>(-2,0)</m>.
-                  The curve bends upwards and to the right, once again meeting the top of the curve.
-                  The point at the top of the curve is drawn at <m>(-\frac{3}{4},\frac{3\sqrt{3}}{4})</m>.
+                  <p>
+                    An oval with a cusp on the right side.
+                    A majority of the curve lies to the left of the <m>y</m>-axis.
+                    From the top of the curve, the curve decreases towards the right.
+                    It enters the first quadrant through the point <m>(0,1)</m>.
+                    As the curve nears the <m>x</m>-axis, it bends back toward the <m>y</m>-axis, forming a cusp at the origin.
+                    The curve then bends outwards into the fourth quadrant.
+                    The curve continues downwards and to the left, passing the <m>y</m>-axis through the point <m>(0,-1)</m>.
+                    In the third quadrant the curve bends upwards, passing vertically into the second quadrant through the point <m>(-2,0)</m>.
+                    The curve bends upwards and to the right, once again meeting the top of the curve.
+                    The point at the top of the curve is drawn at <m>(-\frac{3}{4},\frac{3\sqrt{3}}{4})</m>.
+                  </p>
                 </description>
                 <latex-image label="img_02_06_ex_30">
                   \begin{tikzpicture}

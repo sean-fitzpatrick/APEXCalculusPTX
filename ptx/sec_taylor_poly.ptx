@@ -143,7 +143,7 @@
       Finally, we can compute <m>p_2(x) = x^2+x+C</m>.
       Using our initial values, we know <m>p_2(0) = 2</m> so <m>C=2</m>.
       We conclude that <m>p_2(x) = x^2+x+2</m>.
-      This function is plotted with <m>f</m> in <xref ref="fig_taypolyintrob"/>.
+      This function is plotted with <m>f</m> in <xref ref="fig_taypolyintrob-late"/>.
     </p>
 
     <p component="taypoly-early">
@@ -172,7 +172,7 @@
       higher degree that match more of the derivatives of <m>f</m> at <m>x=0</m>.
       In general, a polynomial of degree <m>n</m> can be created to match the
       first <m>n</m> derivatives of <m>f</m>.
-      <xref ref="fig_taypolyintrob"/>
+      <xref ref="fig_taypolyintrob-late"/>
       shows <m>p_4(x)= -x^4/2-x^3/6+x^2+x+2</m>,
       whose first four derivatives at 0 match those of <m>f</m>. (Using the table in <xref ref="fig_taypolyintroa_2"/>,
       start with <m>p_4^{(4)}(x)=-12</m> and solve the related initial-value problem.)
@@ -223,7 +223,7 @@
       whose first four derivatives at 0 match those of <m>f</m>.
     </p>
 
-    <figure xml:id="fig_taypolyintrob" vshift="1" component="taypoly-late">
+    <figure xml:id="fig_taypolyintrob-late" vshift="1" component="taypoly-late">
       <caption>Plotting <m>f</m>, <m>p_2</m> and <m>p_4</m></caption>
       <!-- START figures/fig_taypolyintrob.tex -->
       <image width="47%">
@@ -1288,11 +1288,18 @@
           Thus we want to approximate <m>\cos(2)</m> with <m>p_9(2)</m>.
         </p>
 
-        <p>
+        <p component="taypoly-late">
           We now set out to compute <m>p_9(x)</m>.
           We again need a table of the derivatives of
           <m>f(x)=\cos(x)</m> evaluated at <m>x=0</m>.
-          A table of these values is given in <xref ref="fig_taypoly4a" component="taypoly-late"/><xref ref="fig_taypoly4a-early" component="taypoly-early"/>.
+          A table of these values is given in <xref ref="fig_taypoly4a"/>.
+        </p>
+
+        <p component="taypoly-early">
+          We now set out to compute <m>p_9(x)</m>.
+          We again need a table of the derivatives of
+          <m>f(x)=\cos(x)</m> evaluated at <m>x=0</m>.
+          A table of these values is given in <xref ref="fig_taypoly4a-early"/>.
         </p>
 
         <figure xml:id="fig_taypoly4a" vshift="4.5" component="taypoly-late">
@@ -1450,8 +1457,14 @@
           <m>0.0003</m> of the correct answer.
         </p>
 
-        <p>
-          <xref ref="fig_taypoly4b" component="taypoly-late"/><xref ref="fig_taypoly4b-early" component="taypoly-early"/>
+        <p component="taypoly-late">
+          <xref ref="fig_taypoly4b"/>
+          shows a graph of <m>y=p_8(x)</m> and <m>y=\cos(x)</m>.
+          Note how well the two functions agree on about <m>(-\pi,\pi)</m>.
+        </p>
+
+        <p component="taypoly-early">
+          <xref ref="fig_taypoly4b-early"/>
           shows a graph of <m>y=p_8(x)</m> and <m>y=\cos(x)</m>.
           Note how well the two functions agree on about <m>(-\pi,\pi)</m>.
         </p>
@@ -1629,9 +1642,13 @@
         <p>
           <ol>
             <li>
-              <p>
+              <p component="taypoly-late">
                 We begin by evaluating the derivatives of <m>f</m> at <m>x=4</m>.
-                This is done in <xref ref="fig_taypoly5a" component="taypoly-late"/><xref ref="fig_taypoly5a-early" component="taypoly-early"/>.
+                This is done in <xref ref="fig_taypoly5a"/>.
+              </p>
+              <p component="taypoly-early">
+                We begin by evaluating the derivatives of <m>f</m> at <m>x=4</m>.
+                This is done in <xref ref="fig_taypoly5a-early"/>.
               </p>
 
               <figure xml:id="fig_taypoly5a" vshift="2" component="taypoly-late">
