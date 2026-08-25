@@ -30,6 +30,7 @@
         <webwork divisional="dynamic" reading="dynamic"/>
         <annotation platform="hypothesis"/>
         <css theme="salem" palette="ice-fire"/>
+        <feedback href="https://github.com/APEXCalculus/APEXCalculusPTX/issues"/>
     </html>
     
 </publication>
