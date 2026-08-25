@@ -1146,7 +1146,7 @@
               </pg-code> -->
               <statement>
                 <p>
-                  <m>\vrt = \la 2t^2,t^2-t\ra</m>,<m>t=1</m>
+                  <m>\vrt = \la 2t^2,t^2-t\ra</m>, <m>t=1</m>
                 </p>
               </statement>
               <answer>
@@ -1170,7 +1170,7 @@
 
               <statement>
                 <p>
-                  <m>\vrt = \la t,\cos(t) \ra</m>, <m>t=\pi/4</m>.
+                  <m>\vrt = \la t,\cos(t) \ra</m>, <m>t=\pi/4</m>
                 </p>
                 <instruction>
                   Find <m>\unittangent(t)</m>.
@@ -1194,7 +1194,7 @@
               </pg-code> -->
               <statement>
                 <p>
-                  <m>\vrt = \la \cos^3(t) ,\sin^3(t) \ra</m>,<m>t=\pi/4</m>
+                  <m>\vrt = \la \cos^3(t) ,\sin^3(t) \ra</m>, <m>t=\pi/4</m>
                 </p>
               </statement>
               <solution>
@@ -1221,7 +1221,7 @@
 
               <statement>
                 <p>
-                  <m>\vrt = \la \cos(t) , \sin(t) \ra</m>, <m>t=\pi</m>.
+                  <m>\vrt = \la \cos(t) , \sin(t) \ra</m>, <m>t=\pi</m>
                 </p>
                 <instruction>
                   Find <m>\unittangent(t)</m>.
@@ -1259,8 +1259,7 @@
 
               <statement>
                 <p>
-                  Find the vector equation of the line tangent to
-                  <m>\vrt = \la 2t^2,t^2-t \ra</m> at <m>t=1</m> using the unit tangent vector.
+                  <m>\vrt = \la 2t^2,t^2-t \ra</m>, <m>t=1</m>
                 </p>
 
                 <instruction>
@@ -1283,8 +1282,7 @@
 
               <statement>
                 <p>
-                  Find the vector equation of the line tangent to
-                  <m>\vrt = \la t,\cos(t) \ra</m> at <m>t=\pi/4</m> using the unit tangent vector.
+                  <m>\vrt = \la t,\cos(t) \ra</m>, at <m>t=\pi/4</m>
                 </p>
 
                 <instruction>
@@ -1303,7 +1301,7 @@
               </pg-code> -->
               <statement>
                 <p>
-                  <m>\vrt = \la \cos^3(t) ,\sin^3(t) \ra</m>,<m>t=\pi/4</m>
+                  <m>\vrt = \la \cos^3(t) ,\sin^3(t) \ra</m>, <m>t=\pi/4</m>
                 </p>
               </statement>
               <solution>
@@ -1330,8 +1328,7 @@
 
               <statement>
                 <p>
-                  Find the vector equation of the line tangent to
-                  <m>\vrt = \la \cos(t) ,\sin(t) \ra</m> at <m>t=\pi</m> using the unit tangent vector.
+                  <m>\vrt = \la \cos(t) ,\sin(t) \ra</m>, <m>t=\pi</m>
                 </p>
 
                 <instruction>
