@@ -2333,7 +2333,7 @@
           <p>
             An implicitly defined function is given.
             Find <m>\lzn{2}{y}{x}</m>.
-            Note: these are the same functions used in Exercises <xref ref="exer_02_06_ex_09" text="local"/> through <xref ref="exer_02_06_ex_12" text="local"/>.
+            Note: these are the same functions used in <xref ref="exset-deriv-implicit-compute" text="custom">Exercises</xref>.
           </p>
         </introduction>
         <exercise label="ex-deriv-implicit-second-1">

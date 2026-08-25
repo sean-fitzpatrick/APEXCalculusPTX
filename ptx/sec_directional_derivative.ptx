@@ -1398,7 +1398,7 @@
 
               <statement>
                 <p>
-                  Find <m>\nabla f</m>, where <m>f(x,y) = \sin(x)\cos(y)</m>.
+                  <m>f(x,y) = \sin(x)\cos(y)</m>.
                 </p>
 
                 <p>
@@ -1434,7 +1434,7 @@
 
               <statement>
                 <p>
-                  Find <m>\nabla f</m>, where <m>f(x,y) = -4x+3y</m>.
+                  <m>f(x,y) = -4x+3y</m>.
                 </p>
 
                 <p>
@@ -1470,7 +1470,7 @@
 
               <statement>
                 <p>
-                  Find <m>\nabla f</m>, where <m>f(x,y) = x^2y^3-2x</m>.
+                  <m>f(x,y) = x^2y^3-2x</m>.
                 </p>
 
                 <p>
@@ -1487,7 +1487,7 @@
           <p>
             A function <m>f(x,y)</m> and a point <m>P</m> are given.
             Find the directional derivative of <m>f</m> in the indicated directions.
-            Note: these are the same functions as in <xref first="x12_05_ex_07" last="x12_05_ex_22">Exercises</xref>.
+            Note: these are the same functions as in <xref first="x12_05_ex_07" last="x12_05_ex_22" text="local">Exercises</xref>.
           </p>
         </introduction>
 
@@ -1554,8 +1554,7 @@
 
               <introduction>
                 <p>
-                  Consider <m>f(x,y) = \sin(x)\cos(y)</m>,
-                  at <m>P = \left(\frac{\pi}{4},\frac{\pi}{3}\right)</m>.
+                  <m>f(x,y) = \sin(x)\cos(y)</m>, <m>P = \left(\frac{\pi}{4},\frac{\pi}{3}\right)</m>
                 </p>
               </introduction>
               <task label="ex-directional-derivative-compute-2a">
@@ -1590,7 +1589,7 @@
               </pg-code> -->
               <introduction>
                 <p>
-                  <m>\ds f(x,y) = \frac{1}{x^2+y^2+1}</m>, <m>P = (1,1)</m>.
+                  <m>\ds f(x,y) = \frac{1}{x^2+y^2+1}</m>, <m>P = (1,1)</m>
                 </p>
               </introduction>
               <task label="ex-directional-derivative-compute-3a">
@@ -1616,7 +1615,7 @@
               <task label="ex-directional-derivative-compute-3b">
                 <statement>
                   <p>
-                    In the direction toward the point <m>Q = (-2,-2)</m>.
+                    In the direction toward the point <m>Q = (-2,-2)</m>
                   </p>
                 </statement>
                 <answer>
@@ -1647,7 +1646,7 @@
 
               <introduction>
                 <p>
-                  Consider <m>f(x,y) = -4x+3y</m>, at <m>P = (5,2)</m>.
+                  <m>f(x,y) = -4x+3y</m>, <m>P = (5,2)</m>
                 </p>
               </introduction>
               <task label="ex-directional-derivative-compute-4a">
@@ -1735,7 +1734,7 @@
 
               <introduction>
                 <p>
-                  Consider <m>f(x,y) = x^2y^3-2x</m>, at <m>P = (1,1)</m>.
+                  <m>f(x,y) = x^2y^3-2x</m>, <m>P = (1,1)</m>
                 </p>
               </introduction>
 
@@ -1879,7 +1878,7 @@
               <introduction>
                 <p>
                   <m>f(x,y) = \sin(x)\cos(y)</m>,
-                  <m>P = \left(\frac{\pi}{4},\frac{\pi}{3}\right)</m>:
+                  <m>P = \left(\frac{\pi}{4},\frac{\pi}{3}\right)</m>
                 </p>
               </introduction>
 
@@ -1936,7 +1935,7 @@
               </pg-code> -->
               <introduction>
                 <p>
-                  <m>\ds f(x,y) = \frac{1}{x^2+y^2+1}</m>, <m>P = (1,1)</m>.
+                  <m>\ds f(x,y) = \frac{1}{x^2+y^2+1}</m>, <m>P = (1,1)</m>
                 </p>
               </introduction>
 
@@ -2181,7 +2180,7 @@
 
               <introduction>
                 <p>
-                  Given <m>f(x,y) = x^2y^3-2x</m>, <m>P = (1,1)</m>:
+                  <m>f(x,y) = x^2y^3-2x</m>, <m>P = (1,1)</m>
                 </p>
               </introduction>
 
@@ -2303,7 +2302,7 @@
               <introduction>
                 <p>
                   <m>F(x,y,z) = \sin(x)\cos(y)e^z</m>,
-                  <m>\vec v = \la 2,2,1\ra</m>, <m>P = (0,0,0)</m>.
+                  <m>\vec v = \la 2,2,1\ra</m>, <m>P = (0,0,0)</m>
                 </p>
               </introduction>
 
@@ -2388,8 +2387,8 @@
 
               <introduction>
                 <p>
-                  Given <m>F(x,y,z) = \frac{2}{x^2+y^2+z^2}</m>,
-                  <m>\vec v = \la 1,1,-2\ra</m>, <m>P = (1,1,1)</m>:
+                  <m>F(x,y,z) = \frac{2}{x^2+y^2+z^2}</m>,
+                  <m>\vec v = \la 1,1,-2\ra</m>, <m>P = (1,1,1)</m>
                 </p>
               </introduction>
 
