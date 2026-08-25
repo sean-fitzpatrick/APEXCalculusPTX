@@ -1538,7 +1538,7 @@
           </p>
         </introduction>
 
-        <exercise label="ex-graph-concavity-intervals-1">
+        <exercise label="ex-graph-concavity-intervals-1" xml:id="ex-graph-concavity-intervals-first">
           <webwork xml:id="webwork-ex-graph-concavity-intervals-1" seed="1">
             <pg-code>
               $r = non_zero_random(-9,9,1);
@@ -1654,8 +1654,8 @@
           </webwork>
         </exercise>
 
-        <exercise label="ex-graph-concavity-intervals-3" seed="1">
-          <webwork xml:id="webwork-ex-graph-concavity-intervals-3">
+        <exercise label="ex-graph-concavity-intervals-3">
+          <webwork xml:id="webwork-ex-graph-concavity-intervals-3" seed="1">
             <pg-code>
               $s = random(1,9,1);
               $c = non_zero_random(-9,9,1);
@@ -2358,7 +2358,7 @@
           </webwork>
         </exercise>
 
-        <exercise label="ex-graph-concavity-intervals-14">
+        <exercise label="ex-graph-concavity-intervals-14" xml:id="ex-graph-concavity-intervals-last">
           <webwork xml:id="webwork-ex-graph-concavity-intervals-14" seed="1">
             <pg-code>
               $f = Formula("e^(-x^2)");
@@ -2421,7 +2421,8 @@
             Find the critical points of <m>f</m> and use the Second Derivative Test,
             when possible,
             to determine the relative extrema.
-            (Note: these are the same functions as in <xref ref="exercisegroup-concavity" text="custom">Exercises</xref>.)
+            (Note: these are the same functions as in
+            <xref first="ex-graph-concavity-intervals-first" last="ex-graph-concavity-intervals-last" text="local">Exercises</xref>.)
           </p>
         </introduction>
 
@@ -3316,12 +3317,13 @@
           <p>
             A function <m>f(x)</m> is given.
             Find the <m>x</m> values where <m>\fp(x)</m> has a relative maximum or minimum.
-            (Note: these are the same functions as in <xref ref="exercisegroup-concavity"/>.)
+            (Note: these are the same functions as in 
+            <xref first="ex-graph-concavity-intervals-first" last="ex-graph-concavity-intervals-last" text="local">Exercises</xref>.)
           </p>
         </introduction>
 
         <exercise label="ex-graph-concavity-deriv-crit-1">
-          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-1">
+          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-1" seed="1">
             <pg-code>
               $r = non_zero_random(-9,9,1);
               if($envir{problemSeed}==1){$r=1;};
@@ -3372,7 +3374,7 @@
         </exercise>
 
         <exercise label="ex-graph-concavity-deriv-crit-2">
-          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-2">
+          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-2" seed="1">
             <pg-code>
               ($a,$b) = random_subset(2,-9..-1,1..9);
               if($envir{problemSeed}==1){$a=-5; $b=7};
@@ -3424,7 +3426,7 @@
         </exercise>
 
         <exercise label="ex-graph-concavity-deriv-crit-3">
-          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-3">
+          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-3" seed="1">
             <pg-code>
               $s = random(1,9,1);
               $c = non_zero_random(-9,9,1);
@@ -3494,7 +3496,7 @@
         </exercise>
 
         <exercise label="ex-graph-concavity-deriv-crit-4">
-          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-4">
+          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-4" seed="1">
             <pg-code>
               $a = non_zero_random(-9,9,1);
               $b = non_zero_random(-9,9,1);
@@ -3551,7 +3553,7 @@
         </exercise>
 
         <exercise label="ex-graph-concavity-deriv-crit-5">
-          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-5">
+          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-5" seed="1">
             <pg-code>
               $s = non_zero_random(-9,9,1);
               $k = ($s % 2 == 0) ? non_zero_random(2,8,2) : non_zero_random(1,9,2);
@@ -3611,7 +3613,7 @@
         </exercise>
 
         <exercise label="ex-graph-concavity-deriv-crit-6">
-          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-6">
+          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-6" seed="1">
             <pg-code>
               ($r,$s,$t) = random_subset(3,-5..-1,1..5);
               $k = list_random(-12,-8,-4,4,8,12);
@@ -3693,7 +3695,7 @@
         </exercise>
 
         <exercise label="ex-graph-concavity-deriv-crit-7">
-          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-7">
+          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-7" seed="1">
             <pg-code>
               $r = non_zero_random(-4,4,1);
               if($envir{problemSeed}==1){$r=1;};
@@ -3748,7 +3750,7 @@
         </exercise>
 
         <exercise label="ex-graph-concavity-deriv-crit-8">
-          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-8">
+          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-8" seed="1">
             <pg-code>
               $f = Formula("sec(x)");
               $inflecs = List(Compute("none"));
@@ -3795,7 +3797,7 @@
         </exercise>
 
         <exercise label="ex-graph-concavity-deriv-crit-9">
-          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-9">
+          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-9" seed="1">
             <pg-code>
               $r = random(-9,9,1);
               $s = random(1,9,1);
@@ -3868,7 +3870,7 @@
         </exercise>
 
         <exercise label="ex-graph-concavity-deriv-crit-10">
-          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-10">
+          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-10" seed="1">
             <pg-code>
               ($r,$s) = num_sort(random_subset(2,-9..-1,1..9));
               if($envir{problemSeed}==1){$r=-1; $s = 1;};
@@ -3922,7 +3924,7 @@
         </exercise>
 
         <exercise label="ex-graph-concavity-deriv-crit-11">
-          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-11">
+          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-11" seed="1">
             <pg-code>
               $f = Formula("sin(x) + cos(x)");
               $inflecs = List(Compute("-pi/4"),Compute("3pi/4"));
@@ -3969,7 +3971,7 @@
         </exercise>
 
         <exercise label="ex-graph-concavity-deriv-crit-12">
-          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-12">
+          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-12" seed="1">
             <pg-code>
               $f = Formula("x^2e^x");
               $inflecs = List(Compute("-2+sqrt(2)"),Compute("-2-sqrt(2)"));
@@ -4016,7 +4018,7 @@
         </exercise>
 
         <exercise label="ex-graph-concavity-deriv-crit-13">
-          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-13">
+          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-13" seed="1">
             <pg-code>
               $f = Formula("x^2ln(x)");
               $inflecs = List(Compute("1/e^(3/2)"));
@@ -4063,7 +4065,7 @@
         </exercise>
 
         <exercise label="ex-graph-concavity-deriv-crit-14">
-          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-14">
+          <webwork xml:id="webwork-ex-graph-concavity-deriv-crit-14" seed="1">
             <pg-code>
               $f = Formula("e^(-x^2)");
               $inflecs = List(Compute("1/sqrt(2)"),Compute("-1/sqrt(2)"));
