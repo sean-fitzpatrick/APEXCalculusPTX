@@ -594,7 +594,7 @@
           Find the angle between each pair of vectors.
         </p>
         
-        <figure xml:id="fig_dotp3" vshift="-1.5">
+        <figure xml:id="fig_dotp3" vshift="1.5">
           <caption>Vectors used in <xref ref="ex_dotp3"/></caption>
           <!-- START figures/figdotp3_3D.asy -->
           <image width="47%">

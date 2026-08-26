@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
   <docinfo>
-  <brandlogo url="http://www.apexcalculus.com" source="images/APEX.png"/>
+  <directories external="../assets"/>
   <initialism>APEX</initialism>
   <rename element="inlineexercise">Exercise</rename>
   <rename element="task">Part</rename>
@@ -869,7 +869,7 @@
   <figure xml:id="table_sinx_1" vshift="2">
     <caption>Values of <m>\sin(x)/x</m> with <m>x</m> near <m>1</m></caption>
     <tabular>
-      <row bottom="medium">
+      <row bottom="medium" header="yes">
         <cell><m>x</m></cell>
         <cell><m>\sin(x)/x</m></cell>
       </row>
@@ -919,7 +919,7 @@
   <figure xml:id="table_sinx_2" vshift="-1">
     <caption>Values of <m>\sin(x)/x</m> with <m>x</m> near <m>0</m></caption>
     <tabular>
-      <row bottom="medium">
+      <row bottom="medium" header="yes">
         <cell><m>x</m></cell>
         <cell><m>\sin(x)/x</m></cell>
       </row>
@@ -1042,7 +1042,7 @@
         <figure xml:id="table_limit1">
           <caption>Numerically approximating a limit in <xref ref="ex_limit1"/></caption>
           <tabular>
-            <row bottom="medium">
+            <row bottom="medium" header="yes">
               <cell><m>x</m></cell>
               <cell><m>\frac{x^2-x-6}{6x^2-19x+3}</m></cell>
             </row>
@@ -1202,7 +1202,7 @@
         <figure xml:id="table_limit2">
           <caption>Numerically approximating a limit in <xref ref="ex_limit2"/></caption>
           <tabular>
-            <row bottom="medium">
+            <row bottom="medium" header="yes">
               <cell><m>x</m></cell>
               <cell><m>f(x)</m></cell>
             </row>
@@ -1369,7 +1369,7 @@
           <figure xml:id="table_nolimit1">
             <caption>Values of <m>f(x)</m> near <m>x=1</m> in <xref ref="ex_no_limit1"/></caption>
             <tabular>
-              <row bottom="medium">
+              <row bottom="medium" header="yes">
                 <cell><m>x</m></cell>
                 <cell><m>f(x)</m></cell>
               </row>
@@ -1459,7 +1459,7 @@
           <figure xml:id="table_nolimit2">
             <caption>Values of <m>f(x)</m> near <m>x=1</m> in <xref ref="ex_no_limit2"/></caption>
             <tabular>
-              <row bottom="medium">
+              <row bottom="medium" header="yes">
                 <cell><m>x</m></cell>
                 <cell><m>f(x)</m></cell>
               </row>
@@ -1696,7 +1696,7 @@
         <figure xml:id="table_nolimit3c" vshift="2">
           <caption>Observing that <m>f(x)=\sin(1/x)</m> has no limit as <m>x\to0</m> in <xref ref="ex_no_limit3"/></caption>
           <tabular>
-            <row bottom="medium">
+            <row bottom="medium" header="yes">
               <cell><m>x</m></cell>
               <cell><m>\sin(1/x)</m></cell>
             </row>
@@ -1997,7 +1997,7 @@
     <figure xml:id="table_diff_quot_smallh" vshift="2">
       <caption>The difference quotient evaluated at values of <m>h</m> near <m>0</m></caption>
       <tabular>
-        <row bottom="medium">
+        <row bottom="medium" header="yes">
           <cell><m>h</m></cell>
           <cell><m>\frac{f(1+h)-f(1)}{h}</m></cell>
         </row>
@@ -2094,7 +2094,7 @@
           </pg-code> -->
           <statement>
             <p>
-              An expression of the form <m>\frac{0}{0}</m> is called <fillin width="25" answer="indeterminate"/>.
+              An expression of the form <m>\frac{0}{0}</m> is called <fillin width="25" answer="indeterminate" mode="string"/>.
               <!-- <var evaluator="$evaluator" name="$answer" width="13"/>. -->
             </p>
           </statement>
@@ -2181,7 +2181,7 @@
           <statement>
             <p>
               When <m>x</m> is near <m>0</m>,
-              <m>\dfrac{\sin(x)}{x}</m> is near the value <fillin width="10" answer="1"/>.
+              <m>\dfrac{\sin(x)}{x}</m> is near the value <fillin width="10" answer="1" mode="string"/>.
             </p>
             <!-- <p>
               <var name="1" width="10"/>
@@ -2258,7 +2258,7 @@
                 For a numerical approximation, make a table:
               </p>
               <tabular>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>x</m></cell>
                   <cell><m><var name="$f"/></m></cell>
                 </row>
@@ -2351,7 +2351,7 @@
                 For a numerical approximation, make a table:
               </p>
               <tabular>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>x</m></cell>
                   <cell><m><var name="$f"/></m></cell>
                 </row>
@@ -2447,7 +2447,7 @@
                 For a numerical approximation, make a table:
               </p>
               <tabular>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>x</m></cell>
                   <cell><m><var name="$f"/></m></cell>
                 </row>
@@ -2558,7 +2558,7 @@
                 For a numerical approximation, make a table:
               </p>
               <tabular>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>x</m></cell>
                   <cell><m><var name="$f"/></m></cell>
                 </row>
@@ -2669,7 +2669,7 @@
                 For a numerical approximation, make a table:
               </p>
               <tabular>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>x</m></cell>
                   <cell><m><var name="$f"/></m></cell>
                 </row>
@@ -2776,7 +2776,7 @@
                 For a numerical approximation, make a table:
               </p>
               <tabular>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>x</m></cell>
                   <cell><m><var name="$f"/></m></cell>
                 </row>
@@ -2883,7 +2883,7 @@
                 For a numerical approximation, make a table:
               </p>
               <tabular>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>x</m></cell>
                   <cell><m><var name="$f"/></m></cell>
                 </row>
@@ -2988,7 +2988,7 @@
                 For a numerical approximation, make a table:
               </p>
               <tabular>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>x</m></cell>
                   <cell><m><var name="$f"/></m></cell>
                 </row>
@@ -3093,7 +3093,7 @@
                 For a numerical approximation, make a table:
               </p>
               <tabular>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>x</m></cell>
                   <cell><m><var name="$f"/></m></cell>
                 </row>
@@ -3201,7 +3201,7 @@
                 For a numerical approximation, make a table:
               </p>
               <tabular>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>x</m></cell>
                   <cell><m><var name="$f"/></m></cell>
                 </row>
@@ -3292,7 +3292,7 @@
                 For a numerical approximation, make a table:
               </p>
               <tabular>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>x</m></cell>
                   <cell><m><var name="$f"/></m></cell>
                 </row>
@@ -3381,7 +3381,7 @@
                 For a numerical approximation, make a table:
               </p>
               <tabular>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>x</m></cell>
                   <cell><m><var name="$f"/></m></cell>
                 </row>
@@ -3482,7 +3482,7 @@
                 For a numerical approximation, make a table:
               </p>
               <tabular>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>x</m></cell>
                   <cell><m>\big\lfloor\lvert x\rvert\big\rfloor !</m></cell>
                 </row>
@@ -3597,7 +3597,7 @@
                 For a numerical approximation, make a table:
               </p>
               <tabular>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>x</m></cell>
                   <cell><m>\big\lfloor\lvert x\rvert\big\rfloor !</m></cell>
                 </row>
@@ -3759,7 +3759,7 @@
               <tabular top="major">
                 <col halign="center"/>
                 <col halign="center"/>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>h</m></cell>
                   <cell><m>\frac{f(a+h)-f(a)}{h}</m></cell>
                 </row>
@@ -3856,7 +3856,7 @@
               <tabular top="major">
                 <col halign="center"/>
                 <col halign="center"/>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>h</m></cell>
                   <cell><m>\frac{f(a+h)-f(a)}{h}</m></cell>
                 </row>
@@ -3956,7 +3956,7 @@
               <tabular top="major">
                 <col halign="center"/>
                 <col halign="center"/>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>h</m></cell>
                   <cell><m>\frac{f(a+h)-f(a)}{h}</m></cell>
                 </row>
@@ -4054,7 +4054,7 @@
               <tabular top="major">
                 <col halign="center"/>
                 <col halign="center"/>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>h</m></cell>
                   <cell><m>\frac{f(a+h)-f(a)}{h}</m></cell>
                 </row>
@@ -4158,7 +4158,7 @@
               <tabular top="major">
                 <col halign="center"/>
                 <col halign="center"/>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>h</m></cell>
                   <cell><m>\frac{f(a+h)-f(a)}{h}</m></cell>
                 </row>
@@ -4252,7 +4252,7 @@
               <tabular top="major">
                 <col halign="center"/>
                 <col halign="center"/>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>h</m></cell>
                   <cell><m>\frac{f(a+h)-f(a)}{h}</m></cell>
                 </row>
@@ -4347,7 +4347,7 @@
               <tabular top="major">
                 <col halign="center"/>
                 <col halign="center"/>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>h</m></cell>
                   <cell><m>\frac{f(a+h)-f(a)}{h}</m></cell>
                 </row>
@@ -4442,7 +4442,7 @@
               <tabular top="major">
                 <col halign="center"/>
                 <col halign="center"/>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>h</m></cell>
                   <cell><m>\frac{f(a+h)-f(a)}{h}</m></cell>
                 </row>
@@ -12355,7 +12355,7 @@
         <table xml:id="table_rootfinding">
           <title>Iterations of the Bisection Method of Root Finding</title>
           <tabular>
-            <row>
+            <row header="yes">
               <cell>Iteration #</cell>
               <cell>Interval</cell>
               <cell>Midpoint Sign</cell>
@@ -14744,7 +14744,7 @@
 
             <figure xml:id="fig_hzasy1b"><caption/>
               <tabular>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>x</m></cell>
                   <cell><m>f(x)</m></cell>
                 </row>
@@ -16108,7 +16108,7 @@
                 <ol>
                   <li>
                     <tabular>
-                      <row bottom="minor">
+                      <row bottom="minor" header="yes">
                         <cell><m>x</m></cell>
                         <cell><m>f(x)</m></cell>
                       </row>
@@ -16131,7 +16131,7 @@
                   </li>
                   <li>
                     <tabular>
-                      <row bottom="minor">
+                      <row bottom="minor" header="yes">
                         <cell><m>x</m></cell>
                         <cell><m>f(x)</m></cell>
                       </row>
@@ -16228,7 +16228,7 @@
                 <ol>
                   <li>
                     <tabular>
-                      <row bottom="minor">
+                      <row bottom="minor" header="yes">
                         <cell><m>x</m></cell>
                         <cell><m>f(x)</m></cell>
                       </row>
@@ -16251,7 +16251,7 @@
                   </li>
                   <li>
                     <tabular>
-                      <row bottom="minor">
+                      <row bottom="minor" header="yes">
                         <cell><m>x</m></cell>
                         <cell><m>f(x)</m></cell>
                       </row>
@@ -16348,7 +16348,7 @@
                 <ol>
                   <li>
                     <tabular>
-                      <row bottom="minor">
+                      <row bottom="minor" header="yes">
                         <cell><m>x</m></cell>
                         <cell><m>f(x)</m></cell>
                       </row>
@@ -16371,7 +16371,7 @@
                   </li>
                   <li>
                     <tabular>
-                      <row bottom="minor">
+                      <row bottom="minor" header="yes">
                         <cell><m>x</m></cell>
                         <cell><m>f(x)</m></cell>
                       </row>
@@ -16468,7 +16468,7 @@
                 <ol>
                   <li>
                     <tabular>
-                      <row bottom="minor">
+                      <row bottom="minor" header="yes">
                         <cell><m>x</m></cell>
                         <cell><m>f(x)</m></cell>
                       </row>
@@ -16491,7 +16491,7 @@
                   </li>
                   <li>
                     <tabular>
-                      <row bottom="minor">
+                      <row bottom="minor" header="yes">
                         <cell><m>x</m></cell>
                         <cell><m>f(x)</m></cell>
                       </row>
@@ -16862,7 +16862,6 @@
 </section>
 
   <conclusion>
-    <title>Chapter Summary</title>
     <p>
       In this chapter we:
       <ul>
@@ -17070,7 +17069,7 @@
     <figure xml:id="table_falling" vshift="0">
       <caption>Approximating the instantaneous velocity with average velocities over a small time period <m>h</m></caption>
       <tabular>
-        <row bottom="medium">
+        <row bottom="medium" header="yes">
           <cell><m>h</m></cell>
           <cell>Average Velocity (<quantity><mag/><unit base="foot"/><per base="second"/></quantity>)</cell>
         </row>
@@ -20472,7 +20471,7 @@
               What is the instantaneous rate of change of position called?
             </p>
             <p>
-              <fillin width="20" answer="velocity"/>
+              <fillin width="20" answer="velocity" mode="string"/>
             </p>
           </statement>
           <evaluation>
@@ -20532,7 +20531,7 @@
             </p>
             <p>
               <!-- <var name="$ans" width="20"/> -->
-               <fillin width="30" answer="linear functions"/>
+               <fillin width="30" answer="linear functions" mode="string"/>
             </p>
           </statement>
           <evaluation>
@@ -28248,7 +28247,7 @@
             </p>
             <p>
               <!-- <var name="$ans" width="30"/> -->
-              <fillin width="30" answer="the chain rule"/>
+              <fillin width="30" mode="string" answer="the chain rule"/>
             </p>
           </statement>
           <evaluation>
@@ -29913,7 +29912,7 @@
   <table xml:id="table_fandfinv">
     <title/>
     <tabular>
-      <row bottom="medium">
+      <row bottom="medium" header="yes">
         <cell>Information about <m>f</m></cell>
         <cell>Information about <m>g=f^{-1}</m></cell>
       </row>
@@ -30199,7 +30198,7 @@
   <table xml:id="tab_domain_trig">
     <title>Domains and ranges of the trigonometric and inverse trigonometric functions</title>
     <tabular>
-      <row bottom="medium">
+      <row bottom="medium" header="yes">
         <cell>Function</cell>
         <cell>Domain</cell>
         <cell>Range</cell>
@@ -31989,7 +31988,7 @@
       <figure xml:id="table_ext4" vshift="-1">
         <caption>Finding the extreme values of <m>f(x)= 2x^3+3x^2-12x</m> in <xref ref="ex_extval4"/></caption>
         <tabular>
-          <row bottom="medium">
+          <row bottom="medium" header="yes">
             <cell><m>x</m></cell>
             <cell><m>f(x)</m></cell>
           </row>
@@ -32090,7 +32089,7 @@
         <figure xml:id="table_ext5">
           <caption>Finding the extreme values of a piecewise-defined function in <xref ref="ex_extval5"/></caption>
           <tabular>
-            <row bottom="medium">
+            <row bottom="medium" header="yes">
               <cell><m>x</m></cell>
               <cell><m>f(x)</m></cell>
             </row>
@@ -32191,7 +32190,7 @@
         <figure xml:id="table_ext6">
           <caption>Finding the extrema of <m>f(x)= \cos\mathopen{}\left(x^2\right)\mathclose{}</m> in <xref ref="ex_extval6"/></caption>
           <tabular>
-            <row bottom="medium">
+            <row bottom="medium" header="yes">
               <cell><m>x</m></cell>
               <cell><m>f(x)</m></cell>
             </row>
@@ -32299,7 +32298,7 @@
         <figure xml:id="table_ext7">
           <caption>Finding the extrema of the half-circle in <xref ref="ex_extval7"/></caption>
           <tabular>
-            <row bottom="medium">
+            <row bottom="medium" header="yes">
               <cell><m>x</m></cell>
               <cell><m>f(x)</m></cell>
             </row>
@@ -49792,8 +49791,8 @@
           <statement>
             <p>
               Fill in the blanks:
-              <q>Inverse operations do the <fillin answer="opposite" width="20"/>
-              things in the <fillin answer="opposite" width="20"/> order.</q>
+              <q>Inverse operations do the <fillin answer="opposite" width="20" mode="string"/>
+              things in the <fillin answer="opposite" width="20" mode="string"/> order.</q>
             </p>
           </statement>
           <evaluation>
@@ -49835,7 +49834,7 @@
           </pg-code> -->
           <statement>
             <p>
-              The derivative of a position function is a/an <fillin answer="velocity" width="20"/> function.
+              The derivative of a position function is a/an <fillin answer="velocity" width="20" mode="string"/> function.
             </p>
           </statement>
           <evaluation>
@@ -49857,7 +49856,7 @@
           </pg-code> -->
           <statement>
             <p>
-              An antiderivative of an acceleration function is a/an <fillin answer="velocity" width="20"/>
+              An antiderivative of an acceleration function is a/an <fillin mode="string" answer="velocity" width="20"/>
               function.
             </p>
           </statement>
@@ -51817,7 +51816,7 @@
               What is <m>\ds \int_3^3 \sin(x) \, dx</m>?
             </p>
             <p>
-              <fillin answer="0" width="10"/>
+              <fillin mode="number" answer="0" width="10"/>
             </p>
           </statement>
           <evaluation>
@@ -53950,13 +53949,13 @@
       \draw (1.5,1) node {$\displaystyle x_i = x_0 + i\Delta x$};
 
       \draw [firstcolor] (1,0) node [text width=32pt,align=center] (a) { \centering starting\\[-5pt] value};
-      \draw [firstcolor,-&gt;] (a) -- (.95,.75);
+      \draw [firstcolor,-&gt;] (a) -- (1.25,.75);
 
       \draw [firstcolor] (2,2.5) node [text width=120pt,align=center] (b) { \centering number of subintervals\\[-5pt] between $x_0$ and $x_i$};
-      \draw [firstcolor,-&gt;] (b) -- (1.95,1.25);
+      \draw [firstcolor,-&gt;] (b) -- (2.05,1.25);
 
       \draw [firstcolor] (3,0) node [text width=60pt,align=center] (c) { \centering subinterval\\[-5pt] size};
-      \draw [firstcolor,-&gt;] (c) -- (2.75,.75);
+      \draw [firstcolor,-&gt;] (c) -- (2.45,.75);
 
       \end{tikzpicture}
 
@@ -54891,7 +54890,7 @@
           </pg-code> -->
           <statement>
             <p>
-              A fundamental calculus technique is to use <fillin answer="limits" width="15"/>
+              A fundamental calculus technique is to use <fillin answer="limits" mode="string" width="15"/>
               to refine approximations to get an exact answer.
             </p>
           </statement>
@@ -56448,7 +56447,7 @@
           <m>x \geq 1</m> is given by <m>A(x)=\frac12 (x)(2x)-\frac12 (1)(2)=x^2-1</m>.
         </p>
 
-        <figure xml:id="fig_ftc1b" vshift="-2">
+        <figure xml:id="fig_ftc1b" vshift="-1">
           <caption>The area of the shaded region is <m>F(x) = \int_1^x 2t\, dt</m></caption>
           <image width="47%">
             <shortdescription>
@@ -59762,7 +59761,7 @@
         <figure xml:id="fig_num2a" vshift="-1">
           <caption>Values used to approximate <m>\int_{-\frac{\pi}4}^{\frac{\pi}2}\sin(x^3)\, dx</m> in <xref ref="ex_num2"/></caption>
           <tabular>
-            <row>
+            <row header="yes">
               <cell><m>x_i</m></cell>
               <cell>Exact</cell>
               <cell>Approx.</cell>
@@ -60095,7 +60094,7 @@
         <figure xml:id="fig_num3b" vshift="-4">
           <caption>A table of values of <m>e^{-x^2}</m></caption>
           <tabular>
-            <row>
+            <row header="yes">
               <cell><m>x_i</m></cell>
               <cell><m>e^{-x_i^2}</m></cell>
             </row>
@@ -60290,7 +60289,7 @@
         <figure xml:id="fig_num3_2b" vshift="-1">
           <caption>A table of values of <m>e^{-x^2}</m></caption>
           <tabular>
-            <row>
+            <row header="yes">
               <cell><m>x_i</m></cell>
               <cell><m>e^{-x_i^2}</m></cell>
             </row>
@@ -60357,7 +60356,7 @@
         <figure xml:id="fig_num4_2" vshift="-1">
           <caption>Values used to approximate <m>\int_{-\frac{\pi}4}^{\frac{\pi}2}\sin(x^3)\, dx</m> in <xref ref="ex_num4_2 "/></caption>
           <tabular>
-            <row>
+            <row header="yes">
               <cell><m>\overline{x_i}</m></cell>
               <cell>Exact</cell>
               <cell>Approx.</cell>
@@ -60698,7 +60697,7 @@
 
           <figure xml:id="fig_num5a"><caption/>
             <tabular>
-              <row>
+              <row header="yes">
                 <cell><m>x_i</m></cell>
                 <cell><m>e^{-x_i^2}</m></cell>
               </row>
@@ -60824,7 +60823,7 @@
         <figure xml:id="fig_num6a" vshift="-2">
           <caption>Values used to approximate <m>\int_{-\frac{\pi}4}^{\frac{\pi}2}\sin(x^3)\, dx</m> in <xref ref="ex_num6"/></caption>
           <tabular>
-            <row bottom="minor">
+            <row bottom="minor" header="yes">
               <cell><m>x_i</m></cell>
               <cell><m>\sin(x_i^3)</m></cell>
             </row>
@@ -61356,7 +61355,7 @@
         <figure xml:id="fig_num8" vshift="-5">
           <caption>Speed data collected at 30 second intervals for <xref ref="ex_num8"/></caption>
           <tabular>
-            <row>
+            <row header="yes">
               <cell>Time</cell><cell>Speed</cell>
             </row>
             <row bottom="minor">
@@ -61576,7 +61575,7 @@
             Simpson's Rule is based on approximating portions of a function with what type of function?
           </p>
           <p>
-            <fillin answer="quadratic" width="20"/>
+            <fillin answer="quadratic" mode="string" width="20"/>
           </p>
         </statement>
         <evaluation>
@@ -70396,7 +70395,7 @@
           <statement>
             <p>
               Trigonometric Substitution works on the same principles as Integration by Substitution,
-              though it can feel <fillin answer="backward" width="20"/>.
+              though it can feel <fillin answer="backward" mode="string" width="20"/>.
             </p>
           </statement>
           <evaluation>
@@ -71764,7 +71763,7 @@
           </pg-code> -->
           <statement>
             <p>
-              Partial Fraction Decomposition is a method of rewriting <fillin answer="rational" width="20"/> functions.
+              Partial Fraction Decomposition is a method of rewriting <fillin answer="rational" mode="string" width="20"/> functions.
             </p>
           </statement>
           <evaluation>
@@ -73386,7 +73385,7 @@
       <title>Domains and ranges of the hyperbolic and inverse hyperbolic functions</title>
 
       <tabular>
-        <row bottom="minor">
+        <row bottom="minor" header="yes">
           <cell>Function</cell>
           <cell>Domain</cell>
           <cell>Range</cell>
@@ -75705,8 +75704,8 @@
             <statement>
               <p>
                 Fill in the blanks: The Quotient Rule is applied to
-                <m>\ds \frac{f(x)}{g(x)}</m> when taking <fillin width="20" answer="derivatives"/>;
-                l'Hospital's Rule is applied when taking certain <fillin width="20" answer="limits"/>.
+                <m>\ds \frac{f(x)}{g(x)}</m> when taking <fillin width="20" mode="string" answer="derivatives"/>;
+                l'Hospital's Rule is applied when taking certain <fillin width="20" mode="string" answer="limits"/>.
               </p>
             </statement>
             <evaluation>
@@ -75826,7 +75825,7 @@
               </pg-code>
               <statement>
                 <p>
-                  <m>\lim\limits_{x\to 1} \frac{<var name="$fu"/> }{<var name="$fl"/>}</m>
+                  <md>\lim\limits_{x\to 1} \frac{<var name="$fu"/> }{<var name="$fl"/>}</md>
                 </p>
 
                 <p>
@@ -78129,7 +78128,7 @@
             <statement>
               <p>
                 If <m>\lim\limits_{b\to \infty} \int_0^b f(x)\, dx</m> exists,
-                then the integral <m>\ds \int_0^\infty f(x)\, dx</m> is said to <fillin answer="converge" width="20"/>.
+                then the integral <m>\ds \int_0^\infty f(x)\, dx</m> is said to <fillin answer="converge" mode="string" width="20"/>.
               </p>
             </statement>
             <evaluation>
@@ -78155,7 +78154,7 @@
               <p>
                 If <m>\ds \int_1^\infty f(x)\, dx=10</m>,
                 and <m>0\leq g(x)\leq f(x)</m> for all <m>x</m>,
-                then we know that <m>\ds \int_1^\infty g(x)\, dx</m> <fillin answer="converges" width="20"/>.
+                then we know that <m>\ds \int_1^\infty g(x)\, dx</m> <fillin answer="converges" mode="string" width="20"/>.
               </p>
             </statement>
             <evaluation>
@@ -86105,7 +86104,7 @@
     </p>
 
     <tabular>
-      <row>
+      <row header="yes">
         <cell/>
         <cell>Washer Method</cell>
         <cell/>
@@ -87484,7 +87483,7 @@
         <figure xml:id="fig_arc3" vshift="-1">
           <caption>A table of values of <m>y=\sqrt{1+\cos^2(x) }</m> to evaluate a definite integral in <xref ref="ex_arc3"/></caption>
           <tabular>
-            <row bottom="minor">
+            <row bottom="minor" header="yes">
               <cell><m>x</m></cell><cell><m>\sqrt{1+\cos^2(x) }</m></cell>
             </row>
             <row>
@@ -88404,7 +88403,9 @@
                   <m>\ds f(x) = \frac1{12}x^5+\frac1{5x^3}</m> on <m>[0.1, 1]</m>.
                 </p>
 
-                <var name="'79953333/400000'" width="10"/>
+                <p>
+                  <var name="'79953333/400000'" width="10"/>
+                </p>
               </statement>
           </webwork>
         </exercise>
@@ -89303,7 +89304,7 @@
     <table xml:id="fig_weight_density">
       <title>Weight and Mass densities</title>
       <tabular>
-        <row>
+        <row header="yes">
           <cell>Fluid</cell>
           <cell>lb/ft<m>^3</m></cell>
           <cell>kg/m<m>^3</m></cell>
@@ -89911,8 +89912,8 @@
           </p>
 
           <p>
-            Some integrals in this section are set up by multiplying a variable <fillin answer="force" width="15"/> by a constant distance;
-            others are set up by multiplying a constant force by a variable <fillin answer="distance" width="15"/>.
+            Some integrals in this section are set up by multiplying a variable <fillin answer="force" mode="string" width="15"/> by a constant distance;
+            others are set up by multiplying a constant force by a variable <fillin answer="distance" mode="string" width="15"/>.
           </p>
         </statement>
         <evaluation>
@@ -92972,7 +92973,7 @@
           <caption>Slope field for the logistic differential equation <m>\yp = y(1-y)</m> from <xref ref="ex_logistic_slope_field"/></caption>
           <image width="47%">
             <shortdescription>
-              Graph of slope field for the logistic differential equation y’=y(1-y) from the example.
+              Graph of slope field for the logistic differential equation y'=y(1-y) from the example.
             </shortdescription>
             <description>
               <p>
@@ -93060,7 +93061,7 @@
           with a few representative solution curves</caption>
           <image width="47%">
             <shortdescription>
-              Graph of slope field for the logistic differential equation y’=y(1-y) with representative solution curves.
+              Graph of slope field for the logistic differential equation y'=y(1-y) with representative solution curves.
             </shortdescription>
             <description>
               <p>
@@ -93973,7 +93974,7 @@
         </exercise>
       </exercisegroup>
 
-      <exercise cols="2" label="ex-graphical-numerical-match-slope">
+      <exercise label="ex-graphical-numerical-match-slope">
         <statement>
           <p>
             Match each slope field below with the appropriate differential equation.
@@ -96344,7 +96345,7 @@
           \draw [firstcolor] (-1.5,0) node [text width=60pt,align=center] (a) { \centering The rate of change of the population};
           \draw [firstcolor,-&gt;] (a) -- (.3,.7);
 
-          \draw [firstcolor] (2,.25) node [text width=60pt,align=center] (b) { \centering the population.};
+          \draw [firstcolor] (2,0) node [text width=60pt,align=center] (b) { \centering the\\ population.};
           \draw [firstcolor,-&gt;] (b) -- (1.6,.8);
 
           \draw [firstcolor] (.5,2) node [text width=32pt,align=center] (c) { \centering is};
@@ -97277,7 +97278,7 @@
   </exercises>
 </section>
 </chapter>
-
+  
     <chapter xml:id="chapter_sequences_series" label="chapter_sequences_series">
   <title>Sequences and Series</title>
   <introduction>
@@ -97990,7 +97991,7 @@
             </p>
 
             <figure xml:id="fig_seq4c" vshift="-3">
-              <caption>Scatter plot for the sequence in <xref ref="item_ex_seq4_3"/></caption>
+              <caption>Scatter plot for the sequence in <xref ref="item_ex_seq4_3"/> of <xref ref="ex_seq4"/></caption>
               <!-- START figures/fig_seq4c.tex -->
               <image width="47%">
                 <shortdescription>A scatter plot showing a representative sample of points from the third sequence in this example.</shortdescription>
@@ -98681,7 +98682,7 @@
 
       <p>
         <ol>
-          <li>
+          <li xml:id="ex_seq7_1">
             <p>
               <md>
                 <mrow>a_{n+1}-a_n \amp = \frac{n+2}{n+1} - \frac{n+1}{n}</mrow>
@@ -98690,84 +98691,13 @@
                 <mrow>\amp \lt 0 \text{ for all \(n\). }</mrow>
               </md>
               Since <m>a_{n+1}-a_n\lt 0</m> for all <m>n</m>,
-              we conclude that the sequence is decreasing.
-            </p>
-          </li>
-
-          <li>
-            <p>
-              <md>
-                <mrow>a_{n+1}-a_n \amp = \frac{(n+1)^2+1}{n+2} - \frac{n^2+1}{n+1}</mrow>
-                <mrow>\amp = \frac{\big((n+1)^2+1\big)(n+1)- (n^2+1)(n+2)}{(n+1)(n+2)}</mrow>
-                <mrow>\amp =  \frac{n^2+3n}{(n+1)(n+2)}</mrow>
-                <mrow>\amp \gt 0  \text{ for all \(n\). }</mrow>
-              </md>
-              Since <m>a_{n+1}-a_n\gt 0</m> for all <m>n</m>,
-              we conclude the sequence is increasing.
-            </p>
-          </li>
-
-          <li>
-            <p>
-              We can clearly see in <xref ref="fig_seq7c"/>,
-              where the sequence is plotted, that it is not monotonic.
-              However, it does seem that after the first 4 terms it is decreasing.
-              To understand why, perform the same analysis as done before:
-
-              <md>
-                <mrow>a_{n+1}-a_n \amp = \frac{(n+1)^2-9}{(n+1)^2-10(n+1)+26} - \frac{n^2-9}{n^2-10n+26}</mrow>
-                <mrow>\amp = \frac{n^2+2n-8}{n^2-8n+17}-\frac{n^2-9}{n^2-10n+26}</mrow>
-                <mrow>\amp = \frac{(n^2+2n-8)(n^2-10n+26)-(n^2-9)(n^2-8n+17)}{(n^2-8n+17)(n^2-10n+26)}</mrow>
-                <mrow>\amp = \frac{-10n^2+60n-55}{(n^2-8n+17)(n^2-10n+26)}</mrow>
-              </md>.
+              we conclude that the sequence is decreasing, illustrated in <xref ref="fig_seq7a"/>. 
             </p>
 
-            <p>
-              We want to know when this is greater than, or less than, 0.
-              The denominator is always positive,
-              therefore we are only concerned with the numerator.
-              For small values of <m>n</m>,
-              the numerator is positive.
-              As <m>n</m> grows large,
-              the numerator is dominated by <m>-10n^2</m>,
-              meaning the entire fraction will be negative;
-              <ie/>, for large enough <m>n</m>, <m>a_{n+1}-a_n \lt 0</m>.
-              Using the quadratic formula we can determine that the numerator is negative for <m>n\geq 5</m>.
-              In short, the sequence is simply not monotonic,
-              though it is useful to note that for <m>n\geq 5</m>,
-              the sequence is monotonically decreasing.
-            </p>
-          </li>
-
-          <li xml:id="ex_seq7_4">
-
-            <p>
-              Again, the plot in <xref ref="fig_seq7d"/>
-              shows that the sequence is not monotonic,
-              but it suggests that it is monotonically decreasing after the first term.
-              We perform the usual analysis to confirm this.
-              <md>
-                <mrow>a_{n+1}-a_n \amp = \frac{(n+1)^2}{(n+1)!} - \frac{n^2}{n!}</mrow>
-                <mrow>\amp = \frac{(n+1)^2-n^2(n+1)}{(n+1)!}</mrow>
-                <mrow>\amp =  \frac{-n^3+2n+1}{(n+1)!}</mrow>
-              </md>
-              When <m>n=1</m>, the above expression is <m>\gt 0</m>;
-              for <m>n\geq 2</m>, the above expression is <m>\lt 0</m>.
-              Thus this sequence is not monotonic,
-              but it is monotonically decreasing after the first term.
-            </p>
-          </li>
-        </ol>
-      </p>
-
-      <figure xml:id="fig_seq7">
-        <caption>Plots of sequences in <xref ref="ex_seq7"/></caption>
-        <sbsgroup>
-          <sidebyside widths="47% 47%" valign="bottom" margins="0%">
-            <figure xml:id="fig_seq7a">
-              <caption/>
+            <figure xml:id="fig_seq7a" vshift="3">
+              <caption>Plot of the sequence in <xref ref="ex_seq7_1"/> of <xref ref="ex_seq7"/></caption>
             <!-- START figures/fig_seq7a.tex -->
-              <image>
+              <image width="47%">
                 <shortdescription>Plot of the first sequence in this example. It is decreasing and bounded below.</shortdescription>
                 <description>
                   <p>
@@ -98798,11 +98728,24 @@
               </image>
             <!-- figures/fig_seq7a.tex END -->
             </figure>
+          </li>
 
-            <figure xml:id="fig_seq7b">
-              <caption/>
+          <li xml:id="ex_seq7_2">
+            <p>
+              <md>
+                <mrow>a_{n+1}-a_n \amp = \frac{(n+1)^2+1}{n+2} - \frac{n^2+1}{n+1}</mrow>
+                <mrow>\amp = \frac{\big((n+1)^2+1\big)(n+1)- (n^2+1)(n+2)}{(n+1)(n+2)}</mrow>
+                <mrow>\amp =  \frac{n^2+3n}{(n+1)(n+2)}</mrow>
+                <mrow>\amp \gt 0  \text{ for all \(n\). }</mrow>
+              </md>
+              Since <m>a_{n+1}-a_n\gt 0</m> for all <m>n</m>,
+              we conclude the sequence is increasing, illustrated in <xref ref="fig_seq7b"/>.
+            </p>
+
+            <figure xml:id="fig_seq7b" vshift="2">
+              <caption>Plot of the sequence in <xref ref="ex_seq7_2"/> of <xref ref="ex_seq7"/></caption>
             <!-- START figures/fig_seq7b.tex -->
-              <image>
+              <image width="47%">
                 <shortdescription>Scatter plot for the second sequence in this example. It is increasing but not bounded.</shortdescription>
                 <description>
                   <p>
@@ -98834,13 +98777,43 @@
               </image>
             <!-- figures/fig_seq7b.tex END -->
             </figure>
-          </sidebyside>
+          </li>
 
-          <sidebyside widths="47% 47%" valign="bottom" margins="0%">
-            <figure xml:id="fig_seq7c">
-              <caption/>
+          <li xml:id="ex_seq7_3">
+            <p>
+              We can clearly see in <xref ref="fig_seq7c"/>,
+              where the sequence is plotted, that it is not monotonic.
+              However, it does seem that after the first 4 terms it is decreasing.
+              To understand why, perform the same analysis as done before:
+
+              <md>
+                <mrow>a_{n+1}-a_n \amp = \frac{(n+1)^2-9}{(n+1)^2-10(n+1)+26} - \frac{n^2-9}{n^2-10n+26}</mrow>
+                <mrow>\amp = \frac{n^2+2n-8}{n^2-8n+17}-\frac{n^2-9}{n^2-10n+26}</mrow>
+                <mrow>\amp = \frac{(n^2+2n-8)(n^2-10n+26)-(n^2-9)(n^2-8n+17)}{(n^2-8n+17)(n^2-10n+26)}</mrow>
+                <mrow>\amp = \frac{-10n^2+60n-55}{(n^2-8n+17)(n^2-10n+26)}</mrow>
+              </md>.
+            </p>
+
+            <p>
+              We want to know when this is greater than, or less than, 0.
+              The denominator is always positive,
+              therefore we are only concerned with the numerator.
+              For small values of <m>n</m>,
+              the numerator is positive.
+              As <m>n</m> grows large,
+              the numerator is dominated by <m>-10n^2</m>,
+              meaning the entire fraction will be negative;
+              <ie/>, for large enough <m>n</m>, <m>a_{n+1}-a_n \lt 0</m>.
+              Using the quadratic formula we can determine that the numerator is negative for <m>n\geq 5</m>.
+              In short, the sequence is simply not monotonic,
+              though it is useful to note that for <m>n\geq 5</m>,
+              the sequence is monotonically decreasing.
+            </p>
+
+            <figure xml:id="fig_seq7c" vshift="3">
+              <caption>Plot of the sequence in <xref ref="ex_seq7_3"/> of <xref ref="ex_seq7"/></caption>
             <!-- START figures/fig_seq7c.tex -->
-              <image>
+              <image width="47%">
                 <shortdescription>Scatter plot for the third sequence in this example. It is not monotonic.</shortdescription>
                 <description>
                   <p>
@@ -98877,12 +98850,32 @@
             <!-- figures/fig_seq7c.tex END -->
             </figure>
 
-            <figure xml:id="fig_seq7d">
-              <caption/>
+          </li>
+
+          <li xml:id="ex_seq7_4">
+
+            <p>
+              Again, the plot in <xref ref="ex_seq7_4"/> of <xref ref="fig_seq7d"/>
+              shows that the sequence is not monotonic,
+              but it suggests that it is monotonically decreasing after the first term.
+              We perform the usual analysis to confirm this.
+              <md>
+                <mrow>a_{n+1}-a_n \amp = \frac{(n+1)^2}{(n+1)!} - \frac{n^2}{n!}</mrow>
+                <mrow>\amp = \frac{(n+1)^2-n^2(n+1)}{(n+1)!}</mrow>
+                <mrow>\amp =  \frac{-n^3+2n+1}{(n+1)!}</mrow>
+              </md>
+              When <m>n=1</m>, the above expression is <m>\gt 0</m>;
+              for <m>n\geq 2</m>, the above expression is <m>\lt 0</m>.
+              Thus this sequence is not monotonic,
+              but it is monotonically decreasing after the first term.
+            </p>
+
+            <figure xml:id="fig_seq7d" vshift="3">
+              <caption>Plot of the sequence in <xref ref="ex_seq7_4"/> of <xref ref="ex_seq7"/></caption>
               <!-- <caption>A plot of <m>\{a_n\} = \{n^2/n!\}</m> in <xref ref="ex_seq7_4"/></caption> -->
               <!-- Either all get captions, or none. The labels in each image make it clear enough?-->
             <!-- START figures/fig_seq7d.tex -->
-              <image>
+              <image width="47%">
                 <shortdescription>Scatter plot for the last sequence in this example. It is not monotonic.</shortdescription>
                 <description>
                   <p>
@@ -98921,9 +98914,17 @@
               </image>
             <!-- figures/fig_seq7d.tex END -->
             </figure>
-          </sidebyside>
-        </sbsgroup>
-      </figure>
+
+          </li>
+        </ol>
+      </p>
+
+            
+
+            
+          
+
+            
     </solution>
     
   </example>
@@ -99025,7 +99026,7 @@
             </pg-code>-->
             <statement>
               <p>
-                The domain of a sequence is the <fillin answer="natural" width="15"/> numbers.
+                The domain of a sequence is the <fillin answer="natural" mode="string" width="15"/> numbers.
               </p>
             </statement>
             <evaluation>
@@ -100820,7 +100821,7 @@
           Partial sums of the series are plotted in <xref ref="fig_series3"/>.
         </p>
 
-        <figure xml:id="fig_series3" vshift="0">
+        <figure xml:id="fig_series3" vshift="3">
           <caption>Scatter plots relating to the series of <xref ref="ex_series3"/></caption>
           <!-- START figures/fig_series3.tex -->
           <image width="47%">
@@ -100921,7 +100922,7 @@
       <solution>
         <p>
           <ol>
-            <li>
+            <li xml:id="ex_series4-1">
               <p>
                 We can decompose the fraction <m>2/(n^2+2n)</m> as
                 <md>
@@ -100955,47 +100956,11 @@
                 so <m> \infser \frac1{n^2+2n} = \frac32</m>.
                 This is illustrated in <xref ref="fig_series4a"/>.
               </p>
-            </li>
 
-            <li>
-              <p>
-                We begin by writing the first few partial sums of the series:
-                <md>
-                  <mrow>S_1 \amp = \ln\left(2\right)</mrow>
-                  <mrow>S_2 \amp = \ln\left(2\right)+\ln\left(\frac32\right)</mrow>
-                  <mrow>S_3 \amp = \ln\left(2\right)+\ln\left(\frac32\right)+\ln\left(\frac43\right)</mrow>
-                  <mrow>S_4 \amp = \ln\left(2\right)+\ln\left(\frac32\right)+\ln\left(\frac43\right)+\ln\left(\frac54\right)</mrow>
-                </md>
-                At first, this does not seem helpful,
-                but recall the logarithmic identity:
-                <m>\ln(x) +\ln(y) = \ln(xy)</m>.
-                Applying this to <m>S_4</m> gives:
-                <md>
-                  <mrow>S_4 \amp = \ln\left(2\right)+\ln\left(\frac32\right)+\ln\left(\frac43\right)+\ln\left(\frac54\right)</mrow>
-                  <mrow>    \amp = \ln\left(\frac21\cdot\frac32\cdot\frac43\cdot\frac54\right) = \ln\left(5\right)</mrow>
-                </md>.
-                We can conclude that <m>\{S_n\} = \big\{\ln(n+1)\big\}</m>.
-                This sequence  does not converge,
-                as <m>\lim\limits_{n\to\infty}S_n=\infty</m>.
-                Therefore  <m>\ds\infser  \ln\left(\frac{n+1}{n}\right)=\infty</m>;
-                the series diverges.
-                Note in <xref ref="fig_series4b"/> how the sequence of partial sums grows slowly;
-                after 100 terms, it is not yet over 5.
-                Graphically we may be fooled into thinking the series converges,
-                but our analysis above shows that it does not.
-              </p>
-            </li>
-          </ol>
-        </p>
-
-        <figure xml:id="fig_series4">
-          <caption>Scatter plots relating to the series in <xref ref="ex_series4"/></caption>
-          <sidebyside widths="47% 47%" valign="bottom" margins="0%">
-
-            <figure xml:id="fig_series4a">
-              <caption/>
-        <!-- START figures/fig_series4a.tex -->
-              <image>
+              <figure xml:id="fig_series4a" vshift="1">
+              <caption>Scatter plots of the sequence and corresponding partial sums in <xref ref="ex_series4-1"/> of <xref ref="ex_series4"/></caption>
+              <!-- START figures/fig_series4a.tex -->
+              <image width="47%">
                 <shortdescription>Scatter plots of the sequence, and corresponding partial sums, for the first part of this example.</shortdescription>
                 <description>
                   <p>
@@ -101038,13 +101003,42 @@
 
                 </latex-image>
               </image>
-        <!-- figures/fig_series4a.tex END -->
-            </figure>
+              <!-- figures/fig_series4a.tex END -->
+              </figure>
+            </li>
 
-            <figure xml:id="fig_series4b">
-              <caption/>
-        <!-- START figures/fig_series4b.tex -->
-              <image>
+            <li xml:id="ex_series4-2">
+              <p>
+                We begin by writing the first few partial sums of the series:
+                <md>
+                  <mrow>S_1 \amp = \ln\left(2\right)</mrow>
+                  <mrow>S_2 \amp = \ln\left(2\right)+\ln\left(\frac32\right)</mrow>
+                  <mrow>S_3 \amp = \ln\left(2\right)+\ln\left(\frac32\right)+\ln\left(\frac43\right)</mrow>
+                  <mrow>S_4 \amp = \ln\left(2\right)+\ln\left(\frac32\right)+\ln\left(\frac43\right)+\ln\left(\frac54\right)</mrow>
+                </md>
+                At first, this does not seem helpful,
+                but recall the logarithmic identity:
+                <m>\ln(x) +\ln(y) = \ln(xy)</m>.
+                Applying this to <m>S_4</m> gives:
+                <md>
+                  <mrow>S_4 \amp = \ln\left(2\right)+\ln\left(\frac32\right)+\ln\left(\frac43\right)+\ln\left(\frac54\right)</mrow>
+                  <mrow>    \amp = \ln\left(\frac21\cdot\frac32\cdot\frac43\cdot\frac54\right) = \ln\left(5\right)</mrow>
+                </md>.
+                We can conclude that <m>\{S_n\} = \big\{\ln(n+1)\big\}</m>.
+                This sequence  does not converge,
+                as <m>\lim\limits_{n\to\infty}S_n=\infty</m>.
+                Therefore  <m>\ds\infser  \ln\left(\frac{n+1}{n}\right)=\infty</m>;
+                the series diverges.
+                Note in <xref ref="fig_series4b"/> how the sequence of partial sums grows slowly;
+                after 100 terms, it is not yet over 5.
+                Graphically we may be fooled into thinking the series converges,
+                but our analysis above shows that it does not.
+              </p>
+
+              <figure xml:id="fig_series4b" vshift="1">
+              <caption>Scatter plots of the sequence and corresponding partial sums in <xref ref="ex_series4-2"/> of <xref ref="ex_series4"/></caption>
+              <!-- START figures/fig_series4b.tex -->
+              <image width="47%">
                 <shortdescription>Scatter plots of the sequence, and corresponding partial sums, for the second part of this example.</shortdescription>
                 <description>
                   <p>
@@ -101089,8 +101083,10 @@
               </image>
         <!-- figures/fig_series4b.tex END -->
             </figure>
-          </sidebyside>
-        </figure>
+            </li>
+          </ol>
+        </p>
+
       </solution>
       
     </example>
@@ -101219,7 +101215,7 @@
       <solution>
         <p>
           <ol>
-            <li>
+            <li xml:id="ex_series5-1">
               <p>
                 We start by using algebra to break the series apart:
                 <md>
@@ -101229,31 +101225,10 @@
                 </md>.
                 This is illustrated in <xref ref="fig_series5a"/>.
               </p>
-            </li>
-
-            <li>
-              <p>
-                This looks very similar to the series that involves <m>e</m> in <xref ref="idea_famous_series"/>.
-                Note, however,
-                that the series given in this example starts with <m>n=1</m> and not <m>n=0</m>.
-                The first term of the series in the Key Idea is <m>1/0! = 1</m>,
-                so we will subtract this from our result below:
-                <md>
-                  <mrow>\infser \frac{1000}{n!} \amp = 1000\cdot\infser \frac{1}{n!}</mrow>
-                  <mrow>\amp = 1000\cdot (e-1) \approx  1718.28</mrow>
-                </md>.
-                This is illustrated in <xref ref="fig_series5b"/>.
-                The graph shows how this particular series converges very rapidly.
-              </p>
-
-              <figure xml:id="fig_series5">
-                <caption>Scatter plots relating to the series in <xref ref="ex_series5"/></caption>
-                <sidebyside widths="47% 47%" valign="bottom" margins="0%">
-
-                  <figure xml:id="fig_series5a">
-                    <caption/>
-              <!-- START figures/fig_series5a.tex -->
-                    <image>
+              <figure xml:id="fig_series5a" vshift="3">
+                    <caption>Scatter plots of the sequence and corresponding partial sums in <xref ref="ex_series5-1"/> of <xref ref="ex_series5"/></caption>
+                    <!-- START figures/fig_series5a.tex -->
+                    <image width="47%">
                       <shortdescription>Scatter plots of the sequence, and corresponding partial sums, for the first part of this example.</shortdescription>
                       <description>
                         <p>
@@ -101299,13 +101274,28 @@
 
                       </latex-image>
                     </image>
-              <!-- figures/fig_series5a.tex END -->
+                  <!-- figures/fig_series5a.tex END -->
                   </figure>
+            </li>
 
-                  <figure xml:id="fig_series5b">
-                    <caption/>
-              <!-- START figures/fig_series5b.tex -->
-                    <image>
+            <li xml:id="ex_series5-2">
+              <p>
+                This looks very similar to the series that involves <m>e</m> in <xref ref="idea_famous_series"/>.
+                Note, however,
+                that the series given in this example starts with <m>n=1</m> and not <m>n=0</m>.
+                The first term of the series in the Key Idea is <m>1/0! = 1</m>,
+                so we will subtract this from our result below:
+                <md>
+                  <mrow>\infser \frac{1000}{n!} \amp = 1000\cdot\infser \frac{1}{n!}</mrow>
+                  <mrow>\amp = 1000\cdot (e-1) \approx  1718.28</mrow>
+                </md>.
+                This is illustrated in <xref ref="fig_series5b"/>.
+                The graph shows how this particular series converges very rapidly.
+              </p>
+              <figure xml:id="fig_series5b" vshift="1">
+                    <caption>Scatter plots of the sequence and corresponding partial sums in <xref ref="ex_series5-2"/> of <xref ref="ex_series5"/></caption>
+                    <!-- START figures/fig_series5b.tex -->
+                    <image width="47%">
                       <shortdescription>Scatter plots of the sequence, and corresponding partial sums, for the first part of this example.</shortdescription>
                       <description>
                         <p>
@@ -101345,13 +101335,11 @@
 
                       </latex-image>
                     </image>
-              <!-- figures/fig_series5b.tex END -->
-                  </figure>
-                </sidebyside>
-              </figure>
+                  <!-- figures/fig_series5b.tex END -->
+                </figure>
             </li>
 
-            <li>
+            <li xml:id="ex_series5-3">
               <p>
                 The denominators in each term are perfect squares;
                 we are adding <m>\ds \sum_{n=4}^\infty \frac{1}{n^2}</m>
@@ -103380,6 +103368,18 @@
                 Since the limit on the left side diverges to <m>\infty</m>,
                 we can say that <m>\lim\limits_{n \to \infty}\sum_{i=N}^n b_i</m> also diverges to <m>\infty</m>.
               </p>
+                  <aside vshift="2">
+                    <p>
+                      A sequence <m>\{a_n\}</m> is a <em>positive sequence</em>
+                      if <m>a_n \gt 0</m> for all <m>n</m>.
+                    </p>
+
+                    <p>
+                      Because of <xref ref="thm_series_behavior"/>,
+                      any theorem that relies on a positive sequence still holds true when <m>a_n \gt 0</m> for all but a finite number of values of <m>n</m>.
+                          <idx><h>sequence</h><h>positive</h></idx>
+                    </p>
+                  </aside>
             </li>
           </ol>
         </p>
@@ -103387,18 +103387,7 @@
 
     </theorem>
 
-    <aside vshift="2">
-      <p>
-        A sequence <m>\{a_n\}</m> is a <em>positive sequence</em>
-        if <m>a_n \gt 0</m> for all <m>n</m>.
-      </p>
 
-      <p>
-        Because of <xref ref="thm_series_behavior"/>,
-        any theorem that relies on a positive sequence still holds true when <m>a_n \gt 0</m> for all but a finite number of values of <m>n</m>.
-            <idx><h>sequence</h><h>positive</h></idx>
-      </p>
-    </aside>
 
     
 
@@ -107640,43 +107629,41 @@
 
   <insight xml:id="thm_abs_power">
     <title>Determining the Radius and Interval of Convergence</title>
-    <statement>
-      <p>
-        Given the power series <m>\ds \infser[0] a_n(x-c)^n</m>,
-        apply the ratio test to the series <m>\ds \infser[0]\abs{a_n (x-c)^n}</m>.
-        The result will be <m>L\abs{x-c}</m>, where <m>\ds L=\lim_{n\to\infty}\frac{\abs{a_{n+1}}}{\abs{a_n}}</m>.
-      </p>
+    <p>
+      Given the power series <m>\ds \infser[0] a_n(x-c)^n</m>,
+      apply the ratio test to the series <m>\ds \infser[0]\abs{a_n (x-c)^n}</m>.
+      The result will be <m>L\abs{x-c}</m>, where <m>\ds L=\lim_{n\to\infty}\frac{\abs{a_{n+1}}}{\abs{a_n}}</m>.
+    </p>
 
-      <p>
-        <ol>
-          <li>
-            <p>
-              If <m>L=0</m>, then the power series converges for every <m>x</m>
-              by the ratio test, since <m>L\abs{x-c}=0\lt 1</m>.
-            </p>
-          </li>
+    <p>
+      <ol>
+        <li>
+          <p>
+            If <m>L=0</m>, then the power series converges for every <m>x</m>
+            by the ratio test, since <m>L\abs{x-c}=0\lt 1</m>.
+          </p>
+        </li>
 
-          <li>
-            <p>
-              If <m>L=\infty</m>, then power series converges only when <m>x=c</m>.
-            </p>
-          </li>
+        <li>
+          <p>
+            If <m>L=\infty</m>, then power series converges only when <m>x=c</m>.
+          </p>
+        </li>
 
-          <li>
-            <p>
-              If <m>0\lt L\lt \infty</m>, then <m>R=1/L</m> is the radius of convergence:
-              by the ratio test, the series converges when <m>\abs{x-c}\lt R</m>.
-            </p>
+        <li>
+          <p>
+            If <m>0\lt L\lt \infty</m>, then <m>R=1/L</m> is the radius of convergence:
+            by the ratio test, the series converges when <m>\abs{x-c}\lt R</m>.
+          </p>
 
-            <p>
-              To determine the interval of convergence, plug the endpoints (<m>x=c-R</m> and <m>x=c+R</m>)
-              into the power series, and test the resulting series for convergence.
-              If the series converges, we include the endpoint. If it diverges, we exclude the endpoint.
-            </p>
-          </li>
-        </ol>
-      </p>
-    </statement>
+          <p>
+            To determine the interval of convergence, plug the endpoints (<m>x=c-R</m> and <m>x=c+R</m>)
+            into the power series, and test the resulting series for convergence.
+            If the series converges, we include the endpoint. If it diverges, we exclude the endpoint.
+          </p>
+        </li>
+      </ol>
+    </p>
   </insight>
 
   
@@ -108217,7 +108204,7 @@
             </pg-code>-->
             <statement>
               <p>
-                We adopt the convention that <m>x^0=</m><fillin width="5" answer="1"/>,
+                We adopt the convention that <m>x^0=</m><fillin width="5" mode="number" answer="1"/>,
                 regardless of the value of <m>x</m>.
               </p>
             </statement>
@@ -108288,7 +108275,7 @@
                 <m>\ds\infser[0] a_nx^n</m> is <!--<eval obj="myNum" />--> <m>5</m>, 
                 then the radius of convergence of <m>\ds\infser[0] (-1)^na_nx^n</m> is 
                 <!--<fillin width="5" mode="number" ansobj="myNum" />-->
-                <fillin answer="5" width="5"/>.
+                <fillin answer="5" mode="number" width="5"/>.
               </p>
             </statement>
             <!-- <setup seed="1234">
@@ -109277,15 +109264,13 @@
       <!-- figures/fig_taypolyintroa.tex END -->
       <figure xml:id="fig_taypolyintroa_2">
         <caption>Derivatives of <m>f</m> evaluated at <m>0</m></caption>
-        <sidebyside>
-          <p>
-            <md>
-              <mrow>f(0) \amp = 2 \amp \fp''(0) \amp =-1</mrow>
-              <mrow>\fp(0) \amp = 1 \amp f^{(4)}(0) \amp = -12</mrow>
-              <mrow>\fpp(0) \amp = 2 \amp f^{(5)}(0) \amp = -19</mrow>
-            </md>
-          </p>
-        </sidebyside>
+        <p>
+          <md>
+            <mrow>f(0) \amp = 2 \amp \fp''(0) \amp =-1</mrow>
+            <mrow>\fp(0) \amp = 1 \amp f^{(4)}(0) \amp = -12</mrow>
+            <mrow>\fpp(0) \amp = 2 \amp f^{(5)}(0) \amp = -19</mrow>
+          </md>
+        </p>
         <!-- <tabular>
           <row>
             <cell><m>f(0) = 2</m></cell>
@@ -109583,17 +109568,15 @@
 
               <figure xml:id="fig_taypoly1a" vshift="-2">
                 <caption>The derivatives of <m>f(x)=e^x</m> evaluated at <m>x=0</m></caption>
-                <sidebyside>
-                  <p>
-                    <md>
-                      <mrow>f(x) \amp = e^x \amp f(0) \amp = 1</mrow>
-                      <mrow>\fp(x) \amp = e^x \amp \fp(0) \amp =1</mrow>
-                      <mrow>\fp'(x) \amp = e^x \amp \fp'(0) \amp =1</mrow>
-                      <mrow> \amp \vdots \amp \amp \vdots</mrow>
-                      <mrow>f^{(n)}(x) \amp = e^x \amp f^{(n)}(0) \amp =1</mrow>
-                    </md>
-                  </p>
-                </sidebyside>
+                <p>
+                  <md>
+                    <mrow>f(x) \amp = e^x \amp f(0) \amp = 1</mrow>
+                    <mrow>\fp(x) \amp = e^x \amp \fp(0) \amp =1</mrow>
+                    <mrow>\fp'(x) \amp = e^x \amp \fp'(0) \amp =1</mrow>
+                    <mrow> \amp \vdots \amp \amp \vdots</mrow>
+                    <mrow>f^{(n)}(x) \amp = e^x \amp f^{(n)}(0) \amp =1</mrow>
+                  </md>
+                </p>
                 <!-- <tabular>
                   <row>
                     <cell><m>f(x) = e^x</m></cell>
@@ -109735,20 +109718,18 @@
 
               <figure xml:id="fig_taypoly2a" vshift="-7">
                 <caption>Derivatives of <m>\ln(x)</m> evaluated at <m>x=1</m></caption>
-                <sidebyside>
-                  <p>
-                    <md>
-                      <mrow>f(x) \amp = \ln(x) \amp f(1) \amp = 0</mrow>
-                      <mrow>\fp(x) \amp = \frac1x \amp \fp(1) \amp = 1</mrow>
-                      <mrow>\fp'(x) \amp = -\frac{1}{x^2} \amp \fp'(1) \amp = -1 </mrow>
-                      <mrow>\fp''(x) \amp = \frac{2}{x^3} \amp \fp''(1) \amp = 2</mrow>
-                      <mrow>f^{(4)}(x) \amp = -\frac{6}{x^4} \amp f^{(4)}(1) \amp = -6</mrow>
-                      <mrow> \amp \vdots \amp \amp \vdots</mrow>
-                      <mrow>f^{(n)}(x) \amp = \amp f^{(n)}(1) \amp =</mrow>
-                      <mrow>(-1)^{n+1}\amp\frac{(n-1)!}{x^n} \amp (-1)^{n+1}\amp(n-1)!</mrow>
-                    </md>
-                  </p>
-                </sidebyside>
+                <p>
+                  <md>
+                    <mrow>f(x) \amp = \ln(x) \amp f(1) \amp = 0</mrow>
+                    <mrow>\fp(x) \amp = \frac1x \amp \fp(1) \amp = 1</mrow>
+                    <mrow>\fp'(x) \amp = -\frac{1}{x^2} \amp \fp'(1) \amp = -1 </mrow>
+                    <mrow>\fp''(x) \amp = \frac{2}{x^3} \amp \fp''(1) \amp = 2</mrow>
+                    <mrow>f^{(4)}(x) \amp = -\frac{6}{x^4} \amp f^{(4)}(1) \amp = -6</mrow>
+                    <mrow> \amp \vdots \amp \amp \vdots</mrow>
+                    <mrow>f^{(n)}(x) \amp = \amp f^{(n)}(1) \amp =</mrow>
+                    <mrow>(-1)^{n+1}\amp\frac{(n-1)!}{x^n} \amp (-1)^{n+1}\amp(n-1)!</mrow>
+                  </md>
+                </p>
                 <!-- <tabular>
                   <row>
                     <cell><m>f(x) = \ln(x)</m></cell>
@@ -109922,7 +109903,7 @@
       
     </example>
 
-    <aside vshift="1">
+    <aside vshift="-2">
       <p>
         As always in calculus, angles are measured
         in radians, so the <m>2</m> in <m>\cos(2)</m>
@@ -109969,7 +109950,7 @@
       how do we know how accurate the approximation is?
     </p>
 
-    <aside vshift="-1">
+    <aside vshift="1">
       <p>
         Even though Taylor polynomials <em>could</em>
         be used in calculators and computers to calculate values of
@@ -110198,22 +110179,20 @@
 
         <figure xml:id="fig_taypoly4a" vshift="4.5" component="taypoly-late">
           <caption>A table of the derivatives of <m>f(x)=\cos(x)</m> evaluated at <m>x=0</m></caption>
-          <sidebyside>
-            <p>
-              <md>
-                <mrow>f(x) \amp = \cos(x) \amp f(0) \amp = 1</mrow>
-                <mrow>f'(x) \amp = -\sin(x) \amp \fp(0) \amp = 0</mrow>
-                <mrow>\fp'(x) \amp = -\cos(x) \amp \fp'(0) \amp = -1</mrow>
-                <mrow>\fp''(x) \amp = \sin(x) \amp \fp''(0) \amp = 0</mrow>
-                <mrow>f^{(4)}(x) \amp = \cos(x) \amp f^{(4)}(0) \amp =1</mrow>
-                <mrow>f^{(5)}(x) \amp = -\sin(x) \amp f^{(5)}(0) \amp =0</mrow>
-                <mrow>f^{(6)}(x) \amp = -\cos(x) \amp f^{(6)}(0) \amp =-1</mrow>
-                <mrow>f^{(7)}(x) \amp = \sin(x) \amp f^{(7)}(0) \amp =0</mrow>
-                <mrow>f^{(8)}(x) \amp = \cos(x) \amp f^{(8)}(0) \amp =1</mrow>
-                <mrow>f^{(9)}(x) \amp = -\sin(x) \amp f^{(9)}(0) \amp =0</mrow>
-              </md>
-            </p>
-          </sidebyside>
+          <p>
+            <md>
+              <mrow>f(x) \amp = \cos(x) \amp f(0) \amp = 1</mrow>
+              <mrow>f'(x) \amp = -\sin(x) \amp \fp(0) \amp = 0</mrow>
+              <mrow>\fp'(x) \amp = -\cos(x) \amp \fp'(0) \amp = -1</mrow>
+              <mrow>\fp''(x) \amp = \sin(x) \amp \fp''(0) \amp = 0</mrow>
+              <mrow>f^{(4)}(x) \amp = \cos(x) \amp f^{(4)}(0) \amp =1</mrow>
+              <mrow>f^{(5)}(x) \amp = -\sin(x) \amp f^{(5)}(0) \amp =0</mrow>
+              <mrow>f^{(6)}(x) \amp = -\cos(x) \amp f^{(6)}(0) \amp =-1</mrow>
+              <mrow>f^{(7)}(x) \amp = \sin(x) \amp f^{(7)}(0) \amp =0</mrow>
+              <mrow>f^{(8)}(x) \amp = \cos(x) \amp f^{(8)}(0) \amp =1</mrow>
+              <mrow>f^{(9)}(x) \amp = -\sin(x) \amp f^{(9)}(0) \amp =0</mrow>
+            </md>
+          </p>
           <!-- <tabular>
             <row>
               <cell><m>f(x) = \cos(x)</m></cell>
@@ -110395,17 +110374,15 @@
 
               <figure xml:id="fig_taypoly5a" vshift="2" component="taypoly-late">
                 <caption>A table of the derivatives of <m>f(x)=\sqrt{x}</m> evaluated at <m>x=4</m></caption>
-                <sidebyside>
-                  <p>
-                    <md>
-                      <mrow>f(x) \amp = \sqrt{x} \amp f(4) \amp = 2</mrow>
-                      <mrow>\fp(x) \amp = \frac{1}{2\sqrt{x}} \amp \fp(4) \amp = \frac14</mrow>
-                      <mrow>\fp'(x) \amp = \frac{-1}{4x^{3/2}} \amp \fp'(4) \amp = \frac{-1}{32}</mrow>
-                      <mrow>\fp''(x) \amp = \frac{3}{8x^{5/2}} \amp \fp''(4) \amp = \frac{3}{256}</mrow>
-                      <mrow>f^{(4)}(x) \amp = \frac{-15}{16x^{7/2}} \amp f^{(4)}(4) \amp = \frac{-15}{2048}</mrow>
-                    </md>
-                  </p>
-                </sidebyside>
+                <p>
+                  <md>
+                    <mrow>f(x) \amp = \sqrt{x} \amp f(4) \amp = 2</mrow>
+                    <mrow>\fp(x) \amp = \frac{1}{2\sqrt{x}} \amp \fp(4) \amp = \frac14</mrow>
+                    <mrow>\fp'(x) \amp = \frac{-1}{4x^{3/2}} \amp \fp'(4) \amp = \frac{-1}{32}</mrow>
+                    <mrow>\fp''(x) \amp = \frac{3}{8x^{5/2}} \amp \fp''(4) \amp = \frac{3}{256}</mrow>
+                    <mrow>f^{(4)}(x) \amp = \frac{-15}{16x^{7/2}} \amp f^{(4)}(4) \amp = \frac{-15}{2048}</mrow>
+                  </md>
+                </p>
                 <!-- <tabular>
                   <row height="10pt">
                     <cell><m>f(x) = \sqrt{x}</m></cell>
@@ -110479,7 +110456,7 @@
           </ol>
         </p>
 
-        <figure xml:id="fig_taypoly5b" vshift="0">
+        <figure xml:id="fig_taypoly5b" vshift="2">
           <caption>A graph of <m>f(x)=\sqrt{x}</m> and its degree 4 Taylor
           polynomial at <m>x=4</m></caption>
       <!-- START figures/fig_taypoly5.tex -->
@@ -110630,7 +110607,7 @@
           Note how similar they are near <m>x=0</m>.
         </p>
 
-        <figure xml:id="fig_taypoly6" vshift="0">
+        <figure xml:id="fig_taypoly6" vshift="2">
           <caption>A graph of <m>y=-1/(x-1)</m> and <m>y=p_3(x)</m> from
           <xref ref="ex_taypoly6"/></caption>
           <!-- START figures/fig_taypoly6.tex -->
@@ -111651,22 +111628,20 @@
 
       <figure xml:id="fig_ts1" vshift="-3">
         <caption>Derivatives of <m>f(x)=\cos (x)</m> evaluated at <m>x=0</m></caption>
-        <sidebyside>
-          <p>
-            <md>
-              <mrow>f(x) \amp = \cos(x) \amp f(0) \amp = 1</mrow>
-              <mrow>f'(x) \amp = -\sin(x) \amp \fp(0) \amp = 0</mrow>
-              <mrow>\fp'(x) \amp = -\cos(x) \amp \fp'(0) \amp = -1</mrow>
-              <mrow>\fp''(x) \amp = \sin(x) \amp \fp''(0) \amp = 0</mrow>
-              <mrow>f^{(4)}(x) \amp = \cos(x) \amp f^{(4)}(0) \amp =1</mrow>
-              <mrow>f^{(5)}(x) \amp = -\sin(x) \amp f^{(5)}(0) \amp =0</mrow>
-              <mrow>f^{(6)}(x) \amp = -\cos(x) \amp f^{(6)}(0) \amp =-1</mrow>
-              <mrow>f^{(7)}(x) \amp = \sin(x) \amp f^{(7)}(0) \amp =0</mrow>
-              <mrow>f^{(8)}(x) \amp = \cos(x) \amp f^{(8)}(0) \amp =1</mrow>
-              <mrow>f^{(9)}(x) \amp = -\sin(x) \amp f^{(9)}(0) \amp =0</mrow>
-            </md>
-          </p>
-        </sidebyside>
+        <p>
+          <md>
+            <mrow>f(x) \amp = \cos(x) \amp f(0) \amp = 1</mrow>
+            <mrow>f'(x) \amp = -\sin(x) \amp \fp(0) \amp = 0</mrow>
+            <mrow>\fp'(x) \amp = -\cos(x) \amp \fp'(0) \amp = -1</mrow>
+            <mrow>\fp''(x) \amp = \sin(x) \amp \fp''(0) \amp = 0</mrow>
+            <mrow>f^{(4)}(x) \amp = \cos(x) \amp f^{(4)}(0) \amp =1</mrow>
+            <mrow>f^{(5)}(x) \amp = -\sin(x) \amp f^{(5)}(0) \amp =0</mrow>
+            <mrow>f^{(6)}(x) \amp = -\cos(x) \amp f^{(6)}(0) \amp =-1</mrow>
+            <mrow>f^{(7)}(x) \amp = \sin(x) \amp f^{(7)}(0) \amp =0</mrow>
+            <mrow>f^{(8)}(x) \amp = \cos(x) \amp f^{(8)}(0) \amp =1</mrow>
+            <mrow>f^{(9)}(x) \amp = -\sin(x) \amp f^{(9)}(0) \amp =0</mrow>
+          </md>
+        </p>
         <!-- <tabular>
           <row>
             <cell><m>f(x) = \cos(x)</m></cell>
@@ -111786,21 +111761,19 @@
 
       <figure xml:id="fig_ts2" vshift="-4">
         <caption>Derivatives of <m>\ln(x)</m> evaluated at <m>x=1</m></caption>
-        <sidebyside>
-          <p>
-            <md>
-              <mrow>f(x) \amp = \ln(x) \amp f(1) \amp = 0</mrow>
-              <mrow>\fp(x) \amp = \frac1x \amp \fp(1) \amp = 1</mrow>
-              <mrow>\fp'(x) \amp = -\frac{1}{x^2} \amp \fp'(1) \amp = -1 </mrow>
-              <mrow>\fp''(x) \amp = \frac{2}{x^3} \amp \fp''(1) \amp = 2</mrow>
-              <mrow>f^{(4)}(x) \amp = -\frac{6}{x^4} \amp f^{(4)}(1) \amp = -6</mrow>
-              <mrow>f^{(5)}(x) \amp = \frac{24}{x^5} \amp f^{(5)}(1) \amp = 24</mrow>
-              <mrow> \amp \vdots \amp \amp \vdots</mrow>
-              <mrow>f^{(n)}(x) \amp = \amp f^{(n)}(1) \amp =</mrow>
-              <mrow>(-1)^{n+1}\amp\frac{(n-1)!}{x^n} \amp  (-1)^{n+1}\amp (n-1)! </mrow>
-            </md>
-          </p>
-        </sidebyside>
+        <p>
+          <md>
+            <mrow>f(x) \amp = \ln(x) \amp f(1) \amp = 0</mrow>
+            <mrow>\fp(x) \amp = \frac1x \amp \fp(1) \amp = 1</mrow>
+            <mrow>\fp'(x) \amp = -\frac{1}{x^2} \amp \fp'(1) \amp = -1 </mrow>
+            <mrow>\fp''(x) \amp = \frac{2}{x^3} \amp \fp''(1) \amp = 2</mrow>
+            <mrow>f^{(4)}(x) \amp = -\frac{6}{x^4} \amp f^{(4)}(1) \amp = -6</mrow>
+            <mrow>f^{(5)}(x) \amp = \frac{24}{x^5} \amp f^{(5)}(1) \amp = 24</mrow>
+            <mrow> \amp \vdots \amp \amp \vdots</mrow>
+            <mrow>f^{(n)}(x) \amp = \amp f^{(n)}(1) \amp =</mrow>
+            <mrow>(-1)^{n+1}\amp\frac{(n-1)!}{x^n} \amp  (-1)^{n+1}\amp (n-1)! </mrow>
+          </md>
+        </p>
         <!-- <tabular>
           <row>
             <cell><m>f(x) = \ln(x)</m></cell>
@@ -111881,7 +111854,7 @@
         </md>,
         the Alternating Harmonic Series, which converges.
       </p>
-      <aside vshift="-4">
+      <aside vshift="0">
         <p>
           It can be shown that <m>\ln(x)</m> is equal to this Taylor series on <m>(0,2]</m>.
           From the work in <xref ref="ex_ts2"/>,
@@ -112160,7 +112133,7 @@
   <insight xml:id="idea_common_taylor" hstretch="375" hskip="87">
     <title>Important Taylor Series Expansions</title>
     <tabular>
-      <row>
+      <row header="yes">
         <cell><term>Function and Series</term></cell>
         <cell><term>First Few Terms</term></cell>
         <cell><term>Interval of</term></cell>
@@ -112465,7 +112438,7 @@
         The function <m>f(x)=e^{\sin(x)}</m> and its approximation are plotted in <xref ref="fig_tayseries1"/> below.
         Note that our polynomial approximation is very good on <m>[-1,1]</m>.
       </p>
-      <figure xml:id="fig_tayseries1" vshift="2">
+      <figure xml:id="fig_tayseries1" vshift="3">
         <caption>A graph of <m>f(x)</m> and its degree 5 Maclaurin polynomial</caption>
         <image width="47%">
           <shortdescription>A graph of the function from this example, and its degree 5 Maclaurin polynomial approximation.</shortdescription>
@@ -115080,7 +115053,7 @@
         <col width="33%"/>
         <col width="5%"/>
         <col width="33%"/>
-        <row>
+        <row header="yes">
           <cell><p>Horizontal Transverse Axis</p></cell><cell/><cell>Vertical Transverse Axis</cell>
         </row>
         <row>
@@ -115908,7 +115881,7 @@
         <evaluation>
           <evaluate>
             <test correct="yes">
-              <strcmp use-answer="yes" case-sensitive="no"/>
+              <strcmp use-answer="yes" case="insensitive"/>
             </test>
             <test>
               <strcmp use-answer="yes" strip="no"/>
@@ -116889,7 +116862,7 @@
               </p>
 
               <tabular>
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell>Planet</cell>
                   <cell><line>Distance from</line><line>center to vertex</line></cell>
                   <cell><line>Orbit</line><line>eccentricity</line></cell>
@@ -117197,8 +117170,8 @@
           <caption>A table of values of the parametric equations in <xref ref="ex_pareq1"/> along with a sketch of their graph</caption>
           <sidebyside valign="bottom" widths="47% 47%">
             <figure xml:id="fig_pareq1a"><caption/>
-              <tabular>
-                <row>
+              <tabular halign="center">
+                <row header="yes">
                   <cell><m>t</m></cell>
                   <cell><m>x</m></cell>
                   <cell><m>y</m></cell>
@@ -117313,8 +117286,8 @@
           <caption>A table of values of the parametric equations in <xref ref="ex_pareq2"/> along with a sketch of their graph</caption>
           <sidebyside valign="bottom" widths="47% 47%">
             <figure xml:id="fig_pareq2a"><caption/>
-              <tabular>
-                <row>
+              <tabular halign="center">
+                <row header="yes">
                   <cell><m>t</m></cell>
                   <cell><m>x</m></cell>
                   <cell><m>y</m></cell>
@@ -117946,7 +117919,7 @@
           </md>
         </p>
 
-        <figure xml:id="fig_pareq8" vshift="0">
+        <figure xml:id="fig_pareq8" vshift="2">
           <caption>Graphing the parametric equations <m>x=4\cos(t) +3</m>, <m>y=2\sin(t) +1</m> in <xref ref="ex_pareq8"/></caption>
           <!-- START figures/fig_pareq8.tex -->
           <image width="47%">
@@ -118273,7 +118246,7 @@
           illustrating the cusp at <m>(1,4)</m>.
         </p>
 
-        <figure xml:id="fig_pareq9" vshift="0">
+        <figure xml:id="fig_pareq9" vshift="2">
           <caption>Graphing the curve in <xref ref="ex_pareq9"/>; note it is not smooth at <m>(1,4)</m></caption>
           <!-- START figures/fig_pareq9.tex -->
           <image width="47%">
@@ -120493,7 +120466,7 @@
                 any line that passes through the center of a circle intersects the circle at right angles.
               </p>
 
-              <figure xml:id="fig_parcalc2" vshift="1">
+              <figure xml:id="fig_parcalc2" vshift="3">
                 <caption>Illustrating how a circle's normal lines pass through its center</caption>
             <!-- START figures/fig_parcalc2.tex -->
                 <image width="47%">
@@ -120710,7 +120683,7 @@
           </md>
         </p>
 
-        <figure xml:id="fig_parcalc4" vshift="0">
+        <figure xml:id="fig_parcalc4" vshift="1">
           <caption>Graphing the parametric equations in <xref ref="ex_parcalc4"/> to demonstrate concavity</caption>
           <!-- START figures/fig_parcalc4.tex -->
           <image width="47%">
@@ -120829,38 +120802,12 @@
           </md>.
         </p>
 
-        <p>
-          The points of inflection are found by setting <m>\frac{d^2y}{dx^2}=0</m>.
-          This is not trivial,
-          as equations that mix polynomials and trigonometric functions generally do not have <q>nice</q> solutions.
-        </p>
-
-        <p>
-          In <xref ref="fig_parcalc5a"/> we see a plot of the second derivative.
-          It shows that it has zeros at approximately <m>t=0.5,\,3.5,\,6.5,\,9.5,\,12.5</m> and <m>16</m>.
-          These approximations are not very good,
-          made only by looking at the graph.
-          Newton's Method provides more accurate approximations.
-          Accurate to 2 decimal places, we have:
-          <md>
-            t=0.65,\,3.29,\,6.36,\,9.48,\,12.61\,\text{ and } \,15.74
-          </md>.
-        </p>
-
-        <p>
-          The corresponding points have been plotted on the graph of the parametric equations in <xref ref="fig_parcalc5b"/>.
-          Note how most occur near the <m>x</m>-axis,
-          but not exactly on the axis.
-        </p>
-
-        <figure xml:id="fig_parcalc5">
-          <caption>In (a), a graph of <m>\frac{d^2y}{dx^2}</m>, showing where it is approximately 0. In (b), graph of the parametric equations in <xref ref="ex_parcalc5"/> along with the points of inflection</caption>
-          <sidebyside widths="47% 47%" margins="0%" valign="bottom">
-            <figure xml:id="fig_parcalc5a">
-              <caption/>
+        <figure xml:id="fig_parcalc5a" vshift="3">
+          <caption>Graphing <m>\frac{d^2y}{dx^2}</m> in <xref ref="ex_parcalc5"/>, showing where it is approximately 0</caption>
+          <!-- START figures/fig_parcalc4.tex -->
+          <image width="47%">
             <!-- START figures/fig_parcalc5b.tex -->
-              <image>
-                <shortdescription>Graph of the second derivative is a sinusoid with increasing amplitude.</shortdescription>
+              <shortdescription>Graph of the second derivative is a sinusoid with increasing amplitude.</shortdescription>
                 <description>
                   <p>
                     The image shows the graph <m>y = 2\cos(t)-4t\sin(t)</m>, which is a graph of <m>\frac{d^2y}{dx^2}</m>.
@@ -120888,15 +120835,40 @@
                 \end{tikzpicture}
 
                 </latex-image>
-              </image>
+          </image>
             <!-- figures/fig_parcalc5b.tex END -->
             </figure>
 
-            <figure xml:id="fig_parcalc5b">
-              <caption/>
+        <p>
+          The points of inflection are found by setting <m>\frac{d^2y}{dx^2}=0</m>.
+          This is not trivial,
+          as equations that mix polynomials and trigonometric functions generally do not have <q>nice</q> solutions.
+        </p>
+
+        <p>
+          In <xref ref="fig_parcalc5a"/> we see a plot of the second derivative.
+          It shows that it has zeros at approximately <m>t=0.5,\,3.5,\,6.5,\,9.5,\,12.5</m> and <m>16</m>.
+          These approximations are not very good,
+          made only by looking at the graph.
+          Newton's Method provides more accurate approximations.
+          Accurate to 2 decimal places, we have:
+          <md>
+            t=0.65,\,3.29,\,6.36,\,9.48,\,12.61\,\text{ and } \,15.74
+          </md>.
+        </p>
+
+        <p>
+          The corresponding points have been plotted on the graph of the parametric equations in <xref ref="fig_parcalc5b"/>.
+          Note how most occur near the <m>x</m>-axis,
+          but not exactly on the axis.
+        </p>
+
+        <figure xml:id="fig_parcalc5b" vshift="2">
+          <caption>A graph of the parametric equations in <xref ref="ex_parcalc5"/> along with the points of inflection</caption>
+          <!-- START figures/fig_parcalc4.tex -->
+          <image width="47%">
             <!-- START figures/fig_parcalc5.tex -->
-              <image>
-                <shortdescription>Graph of the parametric curve in this example, with points of inflection marked.</shortdescription>
+              <shortdescription>Graph of the parametric curve in this example, with points of inflection marked.</shortdescription>
                 <description>
                   <p>
                     The graph shows a curve that appears to be sinusoidal, but with a frequency that increases with <m>x</m>.
@@ -120932,9 +120904,6 @@
               </image>
             <!-- figures/fig_parcalc5.tex END -->
             </figure>
-          </sidebyside>
-
-        </figure>
       </solution>
     </example>
 
@@ -121174,7 +121143,7 @@
           Find the surface area if this shape is rotated about the <m>x</m>-axis,
           as shown in <xref ref="fig_parcalc8"/>.
         </p>
-        <figure xml:id="fig_parcalc8" vshift="-1">
+        <figure xml:id="fig_parcalc8" vshift="3">
           <caption>Rotating a teardrop shape about the <m>x</m>-axis in <xref ref="ex_parcalc8"/></caption>
 
           <!-- START figures/figparcalc8_3D.asy -->
@@ -122491,7 +122460,7 @@
           <idx><h>coordinates</h><h>polar</h></idx>
     </p>
 
-    <figure xml:id="fig_polar_intro1" vshift="0">
+    <figure xml:id="fig_polar_intro1" vshift="2">
       <caption>Illustrating polar coordinates</caption>
       <image width="33%">
         <shortdescription>Illustration of polar coordinates relative to a pole and initial ray.</shortdescription>
@@ -123045,7 +123014,7 @@
                 This graph is also plotted in <xref ref="fig_polar3"/>.
               </p>
 
-              <figure xml:id="fig_polar3" vshift="-1">
+              <figure xml:id="fig_polar3" vshift="3">
                 <caption>Plotting standard polar plots</caption>
             <!-- START figures/fig_polar3.tex -->
                 <image width="47%">
@@ -123147,7 +123116,7 @@
           <sidebyside widths="47% 47%" margins="0%" valign="bottom">
             <figure xml:id="fig_polar4a"><caption/>
               <tabular halign="center">
-                <row bottom="minor">
+                <row bottom="minor" header="yes">
                   <cell><m>\theta</m></cell><cell><m>r=1+\cos(\theta)</m></cell>
                 </row>
                 <row>
@@ -123320,7 +123289,7 @@
         <figure xml:id="fig_polar5table" vshift="1">
           <caption>Table of points for plotting a polar curve in <xref ref="ex_polar5"/></caption>
           <tabular halign="center">
-            <row bottom="minor"><cell>Pt.</cell><cell><m>\theta</m></cell><cell><m>\cos(2\theta)</m></cell></row>
+            <row bottom="minor" header="yes"><cell>Pt.</cell><cell><m>\theta</m></cell><cell><m>\cos(2\theta)</m></cell></row>
             <row><cell><m>1</m></cell><cell><m>0</m></cell><cell><m>1</m></cell></row>
             <row><cell><m>2</m></cell><cell><m>\pi/6</m></cell><cell><m>0.5</m></cell></row>
             <row><cell><m>3</m></cell><cell><m>\pi/4</m></cell><cell><m>0</m></cell></row>
@@ -126675,7 +126644,7 @@
                 </md>.
               </p>
 
-              <figure xml:id="fig_polcalc1" vshift="0">
+              <figure xml:id="fig_polcalc1" vshift="2">
                 <caption>The limaçon in <xref ref="ex_polcalc1"/> with its tangent line at <m>\theta=\pi/4</m> and points of vertical and horizontal tangency</caption>
             <!-- START figures/fig_polcalc1.tex -->
                 <image width="47%">
@@ -127452,7 +127421,7 @@
             Find the area bounded between the polar curves <m>r=1</m> and <m>r=2\cos(2\theta)</m>,
             as shown in <xref ref="fig_polcalc6a"/>.
           </p>
-          <figure xml:id="fig_polcalc6a" vshift="-2">
+          <figure xml:id="fig_polcalc6a" vshift="0">
             <caption>The region bounded by the functions in <xref ref="ex_polcalc6"/></caption>
             <image width="47%">
               <shortdescription>A zoomed in view of a region bounded by a circle, a rose curve, and the x axis.</shortdescription>
@@ -127507,7 +127476,7 @@
             </md>.
           </p>
 
-          <figure xml:id="fig_polcalc6b" vshift="-11.5">
+          <figure xml:id="fig_polcalc6b" vshift="-4.5">
             <caption>Breaking the region bounded by the functions in <xref ref="ex_polcalc6"/> into its component parts</caption>
             <image width="47%">
               <shortdescription>A zoomed in view of a polar region, showing it divided into two parts.</shortdescription>
@@ -127666,7 +127635,7 @@
           </md>.
         </p>
 
-        <figure xml:id="fig_polcalc7" vshift="0">
+        <figure xml:id="fig_polcalc7" vshift="2">
           <caption>The limaçon in <xref ref="ex_polcalc7"/> whose arc length is measured</caption>
           <!-- START figures/fig_polcalc7.tex -->
           <image width="47%">
@@ -131054,6 +131023,11 @@
       </md>.
     </p>
 
+    <p>
+      This describes an ellipse <mdash/> so cross sections parallel to the <m>xy</m>-coordinate plane are ellipses.
+      This ellipse is drawn in the figure.
+    </p>
+
     <figure xml:id="fig_quadric1" vshift="2">
       <caption>The elliptic paraboloid <m>z=x^2/4+y^2</m></caption>
       <!-- START figures/figquadric_parb_3D.asy -->
@@ -131127,11 +131101,6 @@
       </image>
       <!-- figures/figquadric_parb_3D.asy END -->
     </figure>
-
-    <p>
-      This describes an ellipse <mdash/> so cross sections parallel to the <m>xy</m>-coordinate plane are ellipses.
-      This ellipse is drawn in the figure.
-    </p>
 
     <p>
       Now consider cross sections parallel to the <m>xz</m>-plane.
@@ -131220,7 +131189,7 @@
       </image>
       <!-- figures/figquadric_par_3D.asy END -->
       <tabular>
-        <row>
+        <row header="yes">
           <cell><em>Plane</em></cell>
           <cell/>
           <cell><em>Trace</em></cell>
@@ -131397,7 +131366,7 @@
         </image>
         <!-- figures/figquadric_cone_3D.asy END -->
         <tabular>
-          <row>
+          <row header="yes">
             <cell><em>Plane</em></cell>
             <cell/>
             <cell><em>Trace</em></cell>
@@ -131662,7 +131631,7 @@
       </image>
       <!-- figures/figquadric_ellipsoid_3D.asy END -->
       <tabular>
-        <row>
+        <row header="yes">
           <cell><em>Plane</em></cell>
           <cell/>
           <cell><em>Trace</em></cell>
@@ -131856,7 +131825,7 @@
       </image>
       <!-- figures/figquadric_hyp_one_sheet_3D.asy END -->
       <tabular>
-        <row>
+        <row header="yes">
           <cell><em>Plane</em></cell>
           <cell/>
           <cell><em>Trace</em></cell>
@@ -132065,7 +132034,7 @@
       </image>
       <!-- figures/figquadric_hyp_two_sheet_3D.asy END -->
       <tabular>
-        <row>
+        <row header="yes">
           <cell><em>Plane</em></cell>
           <cell/>
           <cell><em>Trace</em></cell>
@@ -132275,7 +132244,7 @@
         </image>
         <!-- figures/figquadric_hyp_par_3D.asy END -->
         <tabular>
-          <row>
+          <row header="yes">
             <cell><em>Plane</em></cell>
             <cell/>
             <cell><em>Trace</em></cell>
@@ -133200,8 +133169,8 @@
             <statement>
               <p>
                 In the plane,
-                the equation <m>x=2</m> defines a <fillin answer="line" mode="text" width="10"/>;
-                in space, <m>x=2</m> defines a <fillin answer="plane" mode="text" width="10"/>.
+                the equation <m>x=2</m> defines a <fillin answer="line" mode="string" width="10"/>;
+                in space, <m>x=2</m> defines a <fillin answer="plane" mode="string" width="10"/>.
               </p>
             </statement>
             <evaluation>
@@ -135043,7 +135012,7 @@
                     <description>
                       <p>
                         The <m>x</m> and <m>y</m> axes are drawn from <m>-4</m> to <m>4</m>. Two vectors are drawn.
-                        The vector <m>PP’</m> is in the first quadrant it is downward facing, it starts from
+                        The vector <m>PP'</m> is in the first quadrant it is downward facing, it starts from
                         <m>P=(3, 2)</m> and ends at <m>P'=(5, 1)</m>. The second vector <m>RS</m> from <m>(-3, -2)</m>
                         to <m>(-1, 2)</m>. This vector lies midway between the second and the third quadrant.
                       </p>
@@ -138169,51 +138138,49 @@
   <figure xml:id="fig_dotpanglesign">
     <caption>Illustrating the relationship between the angle between vectors and the sign of their dot product</caption>
   <!-- START figures/fig_dotpanglesign.tex -->
-    <sidebyside>
-      <image width="80%">
-        <shortdescription>
-          Image shows the relation between the angle between two vectors and the sign of their dot product.
-          </shortdescription>
-          <description>
-          <p>
-            Each image has the two vectors <m>\vec u</m> and <m>\vec v</m> along with <m>\theta</m> shown.
-            The dot product along with three possible cases of &lt;, &gt; and equal to <m>0</m> are shown.
-            In the first image, the dot product has a positive value, the angle between the two vectors is acute.
-            In the second image, the dot product is equal to <m>0</m>, the angle is <m>90</m> degrees.
-            In the third image, the dot product has a negative value and the angle is obtuse.
-          </p>
-        </description>
-        <latex-image label="img_dotpanglesign">
+    <image width="80%">
+      <shortdescription>
+        Image shows the relation between the angle between two vectors and the sign of their dot product.
+        </shortdescription>
+        <description>
+        <p>
+          Each image has the two vectors <m>\vec u</m> and <m>\vec v</m> along with <m>\theta</m> shown.
+          The dot product along with three possible cases of &lt;, &gt; and equal to <m>0</m> are shown.
+          In the first image, the dot product has a positive value, the angle between the two vectors is acute.
+          In the second image, the dot product is equal to <m>0</m>, the angle is <m>90</m> degrees.
+          In the third image, the dot product has a negative value and the angle is obtuse.
+        </p>
+      </description>
+      <latex-image label="img_dotpanglesign">
 
-        \begin{tikzpicture}[scale=1.5,&gt;=stealth]
+      \begin{tikzpicture}[scale=1.5,&gt;=stealth]
 
-        \begin{scope}
-          \draw[-&gt;] (0,0) -- (1,0) node [pos=.5,below] { $\vec u\cdot \vec v &gt;0$} node [right] { $\vec u$};
-          \draw[-&gt;] (0,0) -- (.5,.866) node [above right] { $\vec v$};
-          \draw[-&gt;] (.3,0) arc (0:60:.3);
-          \draw[rotate=30] (.45,0) node { $\theta$};
-        \end{scope}
+      \begin{scope}
+        \draw[-&gt;] (0,0) -- (1,0) node [pos=.5,below] { $\vec u\cdot \vec v &gt;0$} node [right] { $\vec u$};
+        \draw[-&gt;] (0,0) -- (.5,.866) node [above right] { $\vec v$};
+        \draw[-&gt;] (.3,0) arc (0:60:.3);
+        \draw[rotate=30] (.45,0) node { $\theta$};
+      \end{scope}
 
-        \begin{scope}[shift={(3cm,0)}]
-          \draw[-&gt;] (0,0) -- (1,0) node [pos=.5,below] { $\vec u\cdot \vec v =0$}node [right] { $\vec u$};
-          \draw[-&gt;] (0,0) -- (0,1) node [above ] { $\vec v$};
-          \draw[-&gt;] (.3,0) arc (0:90:.3);
-          \draw[rotate=22.5] (.7,.2) node { $\theta=\pi/2$};
-        \end{scope}
+      \begin{scope}[shift={(3cm,0)}]
+        \draw[-&gt;] (0,0) -- (1,0) node [pos=.5,below] { $\vec u\cdot \vec v =0$}node [right] { $\vec u$};
+        \draw[-&gt;] (0,0) -- (0,1) node [above ] { $\vec v$};
+        \draw[-&gt;] (.3,0) arc (0:90:.3);
+        \draw[rotate=22.5] (.7,.2) node { $\theta=\pi/2$};
+      \end{scope}
 
-        \begin{scope}[shift={(6.5cm,0)}]
-          \draw[-&gt;] (0,0) -- (1,0) node [pos=.5,below] { $\vec u\cdot \vec v &lt;0$}node [right] { $\vec u$};
-          \draw[-&gt;] (0,0) -- (-.707,.707) node [above left] { $\vec v$};
-          \draw[-&gt;] (.3,0) arc (0:135:.3);
-          \draw[rotate=67.5] (.45,0) node { $\theta$};
-        \end{scope}
+      \begin{scope}[shift={(6.5cm,0)}]
+        \draw[-&gt;] (0,0) -- (1,0) node [pos=.5,below] { $\vec u\cdot \vec v &lt;0$}node [right] { $\vec u$};
+        \draw[-&gt;] (0,0) -- (-.707,.707) node [above left] { $\vec v$};
+        \draw[-&gt;] (.3,0) arc (0:135:.3);
+        \draw[rotate=67.5] (.45,0) node { $\theta$};
+      \end{scope}
 
-        \end{tikzpicture}
+      \end{tikzpicture}
 
-        </latex-image>
-      </image>
+      </latex-image>
+    </image>
       <!-- figures/fig_dotpanglesign.tex END -->
-    </sidebyside>
   </figure>
 
   <p>
@@ -138345,7 +138312,7 @@
           Find the angle between each pair of vectors.
         </p>
         
-        <figure xml:id="fig_dotp3" vshift="-1.5">
+        <figure xml:id="fig_dotp3" vshift="1.5">
           <caption>Vectors used in <xref ref="ex_dotp3"/></caption>
           <!-- START figures/figdotp3_3D.asy -->
           <image width="47%">
@@ -142182,7 +142149,7 @@
             </pg-code> -->
             <statement>
               <p>
-                <fillin answer="Torque" width="15"/> is a measure of the turning force applied to an object.
+                <fillin answer="Torque" mode="string" width="15"/> is a measure of the turning force applied to an object.
               </p>
             </statement>
             <evaluation>
@@ -144282,7 +144249,7 @@
             </pg-code> -->
             <statement>
               <p>
-                Two distinct lines in the plane can intersect or be <fillin answer="parallel" width="15"/>.
+                Two distinct lines in the plane can intersect or be <fillin answer="parallel" mode="string" width="15"/>.
               </p>
             </statement>
             <evaluation>
@@ -148104,7 +148071,7 @@
             <figure xml:id="fig_vvf1a">
               <caption/>
               <tabular>
-                <row>
+                <row header="yes">
                   <cell><m>t</m></cell>
                   <cell><m>t^3-t</m></cell>
                   <cell><m>\ds \frac{1}{t^2+1}</m></cell>
@@ -148573,7 +148540,7 @@
           <m>\vec r(t) = \vec p(t) + \vec c(t) = \la \cos(t) + t,-\sin(t) +1\ra</m>,
           which is graphed in <xref ref="fig_vvf4b"/>.
         </p>
-        <figure xml:id="fig_vvf4b" vshift="2">
+        <figure xml:id="fig_vvf4b" vshift="3">
           <caption>The cycloid in <xref ref="ex_vvf4"/></caption>
           <!-- START figures/fig_vvf4a.tex -->
           <image width="47%">
@@ -148669,7 +148636,7 @@
           The displacement of <m>\vec r(t)</m> on <m>[-1,1]</m> is thus <m>\vec d = \la 0,1\ra - \la 0,-1\ra = \la 0,2\ra</m>.
         </p>
 
-        <figure xml:id="fig_vvf5" vshift="-6">
+        <figure xml:id="fig_vvf5" vshift="2">
           <caption>Graphing the displacement of a position function in <xref ref="ex_vvf5"/></caption>
           <!-- START figures/fig_vvf5.tex -->
           <image width="47%">
@@ -148837,7 +148804,7 @@
             <statement>
               <p>
                 When sketching vector-valued functions,
-                technically one isn't graphing points, but rather <fillin answer="vectors" width="15"/>.
+                technically one isn't graphing points, but rather <fillin answer="vectors" mode="string" width="15"/>.
               </p>
             </statement>
             <evaluation>
@@ -148856,7 +148823,7 @@
             </pg-code> -->
             <statement>
               <p>
-                It can be useful to think of <fillin answer="displacement" width="20"/> as a vector that points from a starting position to an ending position.
+                It can be useful to think of <fillin answer="displacement" mode="string" width="20"/> as a vector that points from a starting position to an ending position.
               </p>
             </statement>
             <evaluation>
@@ -148873,7 +148840,7 @@
         <statement>
           <p>
             In the context of vector-valued functions,
-            average rate of change is <fillin answer="displacement" width="20"/> divided by time.
+            average rate of change is <fillin answer="displacement" mode="string" width="20"/> divided by time.
           </p>
         </statement>
         <evaluation>
@@ -150004,7 +149971,7 @@
       The theorem following the definition shows that in practice,
       taking limits of vector-valued functions is no more difficult than taking limits of real-valued functions.
     </p>
-    <aside vshift="0">
+    <aside vshift="-2">
       <p>
         We can define one-sided limits in a manner very similar to <xref ref="def_vvf_limit"/>.
       </p>
@@ -150315,12 +150282,20 @@
       </statement>
     </definition>
 
-    <aside vshift="0">
+    <aside vshift="3">
       <p>
-        Alternate notations for the derivative of <m>\vec r</m> include:
+        Two notes on <xref ref="def_vvf_derivative"/>:
+      </p>
+      <p>
+        First, alternate notations for the derivative of <m>\vec r</m> include:
         <md>
           \vrp(t) = \frac{d}{dt}\big(\,\vec r(t)\,\big) = \frac{d\vec r}{dt}
         </md>.
+      </p>
+      <p>
+        Second, using one-sided limits,
+        we can define differentiability on closed intervals.
+        We'll make use of this a few times in this chapter.
       </p>
     </aside>
     <p>
@@ -150335,14 +150310,7 @@
       The following theorem verifies that this means we can compute derivatives component-wise as well,
       making the task not too difficult.
     </p>
-    <aside vshift="0">
-      <p>
-        Again, using one-sided limits,
-        we can define differentiability on closed intervals.
-        We'll make use of this a few times in this chapter.
-      </p>
-    </aside>
-
+    
     <theorem xml:id="thm_vvf_deriv">
       <title>Derivatives of Vector-Valued Functions</title>
       <statement>
@@ -150947,7 +150915,7 @@
                 <m>\vec u(t)</m> is 1 for all <m>t</m>.
               </p>
 
-              <figure xml:id="fig_vvfderiv2a" vshift="-3">
+              <figure xml:id="fig_vvfderiv2a" vshift="0">
                 <caption>Graphing <m>\vec r(t)</m> and <m>\vec u(t)</m> in <xref ref="ex_vvfderiv2"/></caption>
               <!-- START figures/fig_vvfderiv2a.tex -->
                 <image width="47%">
@@ -151025,7 +150993,7 @@
                 </md>
               </p>
 
-              <figure xml:id="fig_vvfderiv2b" vshift="-5">
+              <figure xml:id="fig_vvfderiv2b" vshift="2">
                 <caption>Graphing some of the derivatives of <m>\vec u(t)</m> in <xref ref="ex_vvfderiv2"/></caption>
               <!-- START figures/fig_vvfderiv2b.tex -->
                 <image width="47%">
@@ -151397,7 +151365,7 @@
             </pg-code> -->
             <statement>
               <p>
-                Limits, derivatives and integrals of vector-valued functions are all evaluated <fillin answer="component" width="20"/>-wise.
+                Limits, derivatives and integrals of vector-valued functions are all evaluated <fillin answer="component" mode="string" width="20"/>-wise.
               </p>
             </statement>
             <evaluation>
@@ -151416,7 +151384,7 @@
             </pg-code> -->
             <statement>
               <p>
-                The definite integral of a velocity function gives <fillin answer="displacement" width="20"/>.
+                The definite integral of a velocity function gives <fillin answer="displacement" mode="string" width="20"/>.
               </p>
             </statement>
             <evaluation>
@@ -152255,7 +152223,7 @@
 
               <statement>
                 <p>
-                  <m>\displaystyle\int_0^{\pi} \la -\sin(t) ,\cos(t) \ra\,dt=</m><var name="$int" width="30"/>.
+                  <m>\displaystyle\int_0^{\pi} \la -\sin(t) ,\cos(t) \ra\,dt=</m><var name="$int" width="20"/>.
                 </p>
               </statement>
           </webwork>
@@ -153338,6 +153306,8 @@
         <mrow>\vrt \amp = \la \big(v_0\cos(\theta) \big)t+x_0\,, -\frac12gt^2+\big(v_0\sin(\theta) \big)t+y_0\,\ra</mrow>
       </md>.
     </p>
+
+    <p xml:id="pagebreak-projectile-motion"/>
 
     <insight xml:id="idea_projectile">
       <title>Projectile Motion</title>
@@ -155111,7 +155081,7 @@
           since they are only length 1.)
         </p>
 
-        <figure xml:id="fig_tannorm1" vshift="-1">
+        <figure xml:id="fig_tannorm1" vshift="2">
           <caption>Plotting unit tangent vectors in <xref ref="ex_tannorm1"/></caption>
 
           <!-- START figures/figtannorm1_3D.asy -->
@@ -155416,7 +155386,7 @@
           These are sketched in <xref ref="fig_tannorm3"/>.
         </p>
 
-        <figure xml:id="fig_tannorm3" vshift="0">
+        <figure xml:id="fig_tannorm3" vshift="3">
           <caption>Plotting unit tangent and normal vectors in <xref ref="ex_tannorm3"/></caption>
 
           <!-- START figures/figtannorm3_3D.asy -->
@@ -155478,17 +155448,7 @@
       
     </example>
 
-    <aside vshift="-6">
-      <p>
-        There is one flaw in our definition of <m>\unitnormal(t)</m>:
-        it is possible that we could have <m>\unittangentprime(t)=0</m>!
-        Indeed, this is the case for any line of the form
-        <m>\vec{\ell}(t) = \vec{r}_0+t\vec{v}</m>.
-        For straight lines in the plane,
-        it is most common to orient the normal vector <m>90^\circ</m> counterclockwise from the tangent vector,
-        but for lines in three dimensions, there is no preferred choice of normal vector.
-      </p>
-    </aside>
+    
 
     <p>
       The previous example was once again
@@ -155548,7 +155508,7 @@
           we compute the unit tangent and normal vectors for <m>t=-1,0</m> and 1 and sketch them in <xref ref="fig_tannorm4"/>.
         </p>
 
-        <figure xml:id="fig_tannorm4" vshift="-5">
+        <figure xml:id="fig_tannorm4" vshift="0">
           <caption>Plotting unit tangent and normal vectors in <xref ref="ex_tannorm4"/></caption>
           <!-- START figures/fig_tannorm4.tex -->
           <image width="47%">
@@ -155635,6 +155595,18 @@
         </p>
       </statement>
     </theorem>
+
+    <p>
+        A brief consideration of this theorem may make one wonder: what if the graph of <m>\vec r</m> does 
+        not have a concave side? What if <m>\vec r</m> is a line?
+    </p> 
+    <p>   
+        This exposes a shortcoming in our definition of <m>\unitnormal(t)</m>, where
+        we require that <m>\unittangent(t)</m> be smooth, i.e., that <m>\unittangentprime(t) \neq \vec 0</m>,
+        a requirement that lines do not fulfill. One may still want to compute a normal vector for a given line, though. 
+        For straight lines in the <m>x,y</m> plane, it is most common to orient the normal vector <m>90^\circ</m> 
+        counterclockwise from the tangent vector. For lines in three dimensions, there is no preferred choice of normal vector.
+      </p>
   </subsection>
 
   <subsection>
@@ -155824,7 +155796,7 @@
           gives a graph of the path for reference.
         </p>
 
-        <figure xml:id="fig_tannorm6" vshift="0">
+        <figure xml:id="fig_tannorm6" vshift="2">
           <caption>Graphing <m>\vec r(t)</m> in <xref ref="ex_tannorm6"/></caption>
           <!-- START figures/fig_tannorm6.tex -->
           <image width="47%">
@@ -155894,7 +155866,7 @@
           which we plot in <xref ref="fig_tannorm7b"/>.
         </p>
 
-        <figure xml:id="fig_tannorm7b" vshift="-2">
+        <figure xml:id="fig_tannorm7b" vshift="0">
           <caption>Plotting the position of a thrown ball, with 1s increments shown</caption>
           <!-- START figures/fig_tannorm7b.tex -->
           <image width="47%">
@@ -155985,7 +155957,7 @@
         <figure xml:id="fig_tannorm7a" vshift="1">
           <caption>A table of values of <m>a_T</m> and <m>a_N</m> in <xref ref="ex_tannorm7"/></caption>
           <tabular>
-            <row>
+            <row header="yes">
               <cell><m>t</m></cell>
               <cell><m>a_\text{T}</m></cell>
               <cell><m>a_\text{N}</m></cell>
@@ -156063,10 +156035,7 @@
               <p>
                 If <m>\unittangent(t)</m> is a unit tangent vector,
                 what is <m>\norm{\unittangent(t)}</m>?
-              </p>
-
-              <p>
-                <fillin answer="1" width="5"/>
+                <fillin answer="1" mode="number" width="5"/>
               </p>
             </statement>
             <evaluation>
@@ -156092,10 +156061,7 @@
               <p>
                 If <m>\unitnormal(t)</m> is a unit normal vector,
                 what is <m>\unitnormal(t)\cdot \vrp(t)</m>?
-              </p>
-
-              <p>
-                <fillin answer="0" width="5"/>
+                <fillin answer="0" mode="number" width="5"/>
               </p>
             </statement>
             <evaluation>
@@ -156138,7 +156104,7 @@
             </pg-code> -->
             <statement>
               <p>
-                <m>a_\text{T}</m> measures how much the acceleration is affecting the <fillin answer="speed" width="15"/> of an object.
+                <m>a_\text{T}</m> measures how much the acceleration is affecting the <fillin answer="speed" mode="string" width="15"/> of an object.
               </p>
             </statement>
             <evaluation>
@@ -157215,7 +157181,7 @@
           We find it with <m>\vec r(2) = \la 1/5, 18/5\ra</m>.
         </p>
 
-        <figure xml:id="fig_vvfarc1" vshift="-2">
+        <figure xml:id="fig_vvfarc1" vshift="0">
           <caption>Graphing <m>\vec r</m> in <xref ref="ex_vvfarc1"/> with parameters <m>t</m> and <m>s</m></caption>
           <!-- START figures/fig_vvfarc1.tex -->
           <image width="47%">
@@ -157679,7 +157645,7 @@
       Being able to think of curvature in terms of the radius of a circle is very useful.
     </p>
 
-    <figure xml:id="fig_curvature_osculate" vshift="6">
+    <figure xml:id="fig_curvature_osculate" vshift="3">
       <caption>Illustrating the osculating circles for the curve seen in <xref ref="fig_curvature_intro"/></caption>
       <!-- START figures/fig_curvature_introc.tex -->
       <image width="47%">
@@ -157746,7 +157712,7 @@
           </md>.
         </p>
 
-        <figure xml:id="fig_curvature3" vshift="0">
+        <figure xml:id="fig_curvature3" vshift="1">
           <caption>Examining the curvature of <m>y=x^2</m></caption>
           <!-- START figures/fig_curvature3.tex -->
           <image width="47%">
@@ -157823,26 +157789,10 @@
           </md>
         </p>
 
-        <p>
-          While this is not a particularly <q>nice</q> formula,
-          it does explicitly tell us what the curvature is at a given <m>t</m> value.
-          To maximize <m>\kappa(t)</m>,
-          we should solve <m>\kappa'(t)=0</m> for <m>t</m>.
-          This is doable, but <em>very</em> time consuming.
-          Instead, consider the graph of
-          <m>\kappa(t)</m> as given in <xref ref="fig_curvature4a"/>.
-          We see that <m>\kappa</m> is maximized at two <m>t</m> values;
-          using a numerical solver, we find these values are <m>t\approx\pm 0.189</m>.
-          In <xref ref="fig_curvature4b_3D"/> we graph <m>\vrt</m> and indicate the points where curvature is maximized.
-        </p>
-
-        <figure xml:id="fig_curvature4">
-          <caption>Understanding the curvature of a curve in space</caption>
-          <sidebyside widths="47% 47%" margins="0%" valign="bottom">
-            <figure xml:id="fig_curvature4a">
-              <caption>The curvature of <m>\vec{r}(t)</m></caption>
+        <figure xml:id="fig_curvature4a" vshift="4">
+              <caption>The curvature of <m>\vec{r}(t)</m> in <xref ref="ex_curvature4"/></caption>
             <!-- START figures/fig_curvature4a.tex -->
-              <image>
+              <image width="47%">
                 <shortdescription>A plot of the curvature as a function of the parameter t.</shortdescription>
                 <description>
                   <p>
@@ -157874,11 +157824,11 @@
             <!-- figures/fig_curvature4a.tex END -->
             </figure>
 
-            <figure xml:id="fig_curvature4b_3D">
-              <caption>A plot of the curve <m>\vec{r}(t)=\la t, t^2, 2t^3\ra</m></caption>
+        <figure xml:id="fig_curvature4b_3D" vshift="-3">
+              <caption>A plot of the curve <m>\vec{r}(t)=\la t, t^2, 2t^3\ra</m> in <xref ref="ex_curvature4"/></caption>
 
               <!-- START figures/figcurvature4_3D.asy -->
-              <image>
+              <image width="47%">
                 <shortdescription>A plot of the vector-valued function in this example, with points of maximum curvature marked.</shortdescription>
                 <description>
                   <p>
@@ -157939,9 +157889,19 @@
               </image>
             <!-- figures/figcurvature4_3D.asy END -->
             </figure>
-          </sidebyside>
 
-        </figure>
+        <p>
+          While this is not a particularly <q>nice</q> formula,
+          it does explicitly tell us what the curvature is at a given <m>t</m> value.
+          To maximize <m>\kappa(t)</m>,
+          we should solve <m>\kappa'(t)=0</m> for <m>t</m>.
+          This is doable, but <em>very</em> time consuming.
+          Instead, consider the graph of
+          <m>\kappa(t)</m> as given in <xref ref="fig_curvature4a"/>.
+          We see that <m>\kappa</m> is maximized at two <m>t</m> values;
+          using a numerical solver, we find these values are <m>t\approx\pm 0.189</m>.
+          In <xref ref="fig_curvature4b_3D"/> we graph <m>\vrt</m> and indicate the points where curvature is maximized.
+        </p>
 
       </solution>
     </example>
@@ -158060,7 +158020,7 @@
           <tabular>
             <!-- <col width="45%"/>
             <col width="45%"/> -->
-            <row bottom="minor">
+            <row bottom="minor" header="yes">
               <cell><line>Operating</line><line>Speed (mph)</line></cell>
               <cell><line>Minimum</line><line>Radius (ft)</line></cell>
             </row>
@@ -158178,7 +158138,7 @@
             <statement>
               <p>
                 A measure of the <q>curviness</q>
-                of a curve is <fillin answer="curvature" width="20"/>.
+                of a curve is <fillin mode="string" answer="curvature" width="20"/>.
               </p>
             </statement>
             <evaluation>
@@ -159947,7 +159907,7 @@
         <figure xml:id="fig_multi4" vshift="-1">
           <caption>A table of <m>c</m> values and the corresponding radius <m>r</m> of the spheres of constant value in <xref ref="ex_multi4"/></caption>
           <tabular>
-            <row>
+            <row header="yes">
               <cell><m>c</m></cell>
               <cell><m>r</m></cell>
             </row>
@@ -160046,7 +160006,7 @@
             </pg-code> -->
             <statement>
               <p>
-                The graph of a function of two variables is a <fillin answer="surface" width="15"/>.
+                The graph of a function of two variables is a <fillin answer="surface" mode="string" width="15"/>.
               </p>
             </statement>
             <evaluation>
@@ -160065,7 +160025,7 @@
             </pg-code> -->
             <statement>
               <p>
-                Most people are familiar with the concept of level curves in the context of <fillin answer="topographical" width="20"/> maps.
+                Most people are familiar with the concept of level curves in the context of <fillin answer="topographical" mode="string" width="20"/> maps.
               </p>
             </statement>
             <evaluation>
@@ -160103,7 +160063,7 @@
             </pg-code> -->
             <statement>
               <p>
-                The analogue of a level curve for functions of three variables is a level <fillin answer="surface" width="15"/>.
+                The analogue of a level curve for functions of three variables is a level <fillin answer="surface" mode="string" width="15"/>.
               </p>
             </statement>
             <evaluation>
@@ -167471,7 +167431,7 @@
             <statement>
               <p>
                 Fill in the blank: The single variable Chain Rule states
-                <m>\ds\frac{d}{dx}\Big(f\big(g(x)\big)\Big) = \fp\big(g(x)\big)\cdot</m><fillin answer="g'(x)" width="10"/>.
+                <m>\ds\frac{d}{dx}\Big(f\big(g(x)\big)\Big) = \fp\big(g(x)\big)\cdot</m><fillin answer="g'(x)" mode="string" width="10"/>.
               </p>
             </statement>
             <evaluation>
@@ -167550,7 +167510,7 @@
 
             <statement>
               <p>
-                The Multivariable Chain Rule allows us to compute implicit derivatives easily by just computing two <fillin answer="partial" width="15"/> derivatives.
+                The Multivariable Chain Rule allows us to compute implicit derivatives easily by just computing two <fillin answer="partial" mode="string" width="15"/> derivatives.
               </p>
             </statement>
             <evaluation>
@@ -169794,7 +169754,7 @@
 
             <statement>
               <p>
-                The gradient is <fillin name="'orthogonal'" width="20"/> to level curves.
+                The gradient is <fillin name="orthogonal" mode="string" width="20"/> to level curves.
               </p>
             </statement>
             <evaluation>
@@ -169843,7 +169803,7 @@
             <statement>
               <p>
                 It is generally more informative to view the directional derivative not as the result of a limit,
-                but rather as the result of a <fillin answer="dot" width="10"/> product.
+                but rather as the result of a <fillin answer="dot" mode="string" width="10"/> product.
               </p>
             </statement>
             <evaluation>
@@ -176293,8 +176253,8 @@
             <statement>
               <p>
                 When evaluating an iterated integral,
-                we integrate from <fillin answer="curve" width="10"/> to <fillin answer="curve" width="10"/>, 
-                then from <fillin answer="point" width="10"/> to <fillin answer="point" width="10"/>.
+                we integrate from <fillin answer="curve" mode="string" width="10"/> to <fillin answer="curve" mode="string" width="10"/>, 
+                then from <fillin answer="point" mode="string" width="10"/> to <fillin answer="point" mode="string" width="10"/>.
               </p>
             </statement>
             <evaluation>
@@ -176329,7 +176289,7 @@
             <statement>
               <p>
                 One understanding of an iterated integral is that
-                <m>\ds \int_a^b\int_{g_1(x)}^{g_2(x)} \, dy\, dx</m> gives the <fillin answer="area" width="10"/> of a plane region.
+                <m>\ds \int_a^b\int_{g_1(x)}^{g_2(x)} \, dy\, dx</m> gives the <fillin answer="area" mode="string" width="10"/> of a plane region.
               </p>
             </statement>
             <evaluation>
@@ -179031,7 +178991,7 @@
             <statement>
               <p>
                 An integral can be interpreted as giving the signed area over an interval;
-                a double integral can be interpreted as giving the signed <fillin answer="volume" width="15"/> over a region.
+                a double integral can be interpreted as giving the signed <fillin answer="volume" mode="string" width="15"/> over a region.
               </p>
             </statement>
             <evaluation>
@@ -181148,35 +181108,13 @@
             <pg-code>
             </pg-code> -->
             <statement>
-              <p>
-                Match the correct elements on the left to the corresponding elements on the right,
-                so that <m>\iint_R f(x,y)\, dA</m> is correctly converted to polar coordinates.
+              
+              <p component="pdf">
+                When evaluating <m>\iint_R f(x,y)\, dA</m> using polar coordinates,
+                <m>f(x,y)</m> is replaced with <fillin/> and <m>dA</m> is replaced with <fillin/>.
               </p>
             </statement>
-            <cardsort>
-              <match>
-                <premise order="3"><m>r\cos(\theta)</m></premise>
-                <response><m>x</m></response>
-              </match>
-              <match>
-                <premise order="5"><m>r\sin(\theta)</m></premise>
-                <response><m>y</m></response>
-              </match>
-              <match>
-                <premise order="6"><m>r\,dr\,d\theta</m></premise>
-                <response><m>dA</m></response>
-              </match>
-              <match>
-                <premise order="2"><m>dr\,d\theta</m></premise>
-              </match>
-              <match>
-                <premise order="4"><m>\cos(\theta)</m></premise>
-              </match>
-              <match>
-                <premise order="1"><m>\sin(\theta)</m></premise>
-              </match>
-              
-            </cardsort>
+            
         <!--</webwork>-->
       </exercise>
 
@@ -182905,7 +182843,7 @@
             <statement>
               <p>
                 Given a point <m>(x,y)</m>,
-                the value of <m>x</m> is a measure of distance from the <fillin answer="y" width="5"/>-axis.
+                the value of <m>x</m> is a measure of distance from the <fillin mode="string" answer="y" width="5"/>-axis.
               </p>
             </statement>
             <evaluation>
@@ -184351,7 +184289,7 @@
             <statement>
               <p>
                 To approximate the area of a small portion of a surface,
-                we computed the area of its <fillin answer="tangent" width="15"/> plane.
+                we computed the area of its <fillin answer="tangent" mode="string" width="15"/> plane.
               </p>
             </statement>
             <evaluation>
@@ -184379,16 +184317,14 @@
                 <test correct="yes">
                   <strcmp use-answer="yes" case="insensitive"/>
                 </test>
-              </evaluate>
-              <evaluate>
                 <test>
                   <strcmp case="insensitive">surface area</strcmp>
+                  <feedback>
+                    <p>
+                      Your answer should be plural.
+                    </p>
+                  </feedback>
                 </test>
-                <feedback>
-                  <p>
-                    Your answer should be plural.
-                  </p>
-                </feedback>
               </evaluate>
             </evaluation>
         <!--</webwork>-->
@@ -188452,9 +188388,9 @@
             <statement>
               <p>
                 The strategy for establishing bounds for triple integrals is
-                <fillin answer="surface" width="15"/> to <fillin answer="surface" width="15"/>,
-                <fillin answer="curve" width="15"/> to <fillin answer="curve" width="15"/> and 
-                <fillin answer="point" width="15"/> to <fillin answer="point" width="15"/>.
+                <fillin answer="surface" mode="string" width="15"/> to <fillin answer="surface" mode="string" width="15"/>,
+                <fillin answer="curve" mode="string" width="15"/> to <fillin answer="curve" mode="string" width="15"/> and 
+                <fillin answer="point" mode="string" width="15"/> to <fillin answer="point" mode="string" width="15"/>.
               </p>
             </statement>
             <evaluation>
@@ -200677,8 +200613,8 @@ draw(arc((0,0,0),.8*(r1*cos(t1)*sin(p2),r1*sin(t1)*sin(p2),0),.7*(r1*cos(t1)*sin
         <statement>
           <p>
             Let <m>\vec F</m> be a vector field and let <m>C</m> be a curve.
-            <em>Flow</em> is a measure of the amount of <m>\vec F</m> going <fillin answer="along" width="15"/> <m>C</m>;
-            <em>flux</em> is a measure of the amount of <m>\vec F</m> going <fillin answer="across" width="15"/> <m>C</m>.
+            <em>Flow</em> is a measure of the amount of <m>\vec F</m> going <fillin answer="along" mode="string" width="15"/> <m>C</m>;
+            <em>flux</em> is a measure of the amount of <m>\vec F</m> going <fillin answer="across" mode="string" width="15"/> <m>C</m>.
           </p>
         </statement>
         <evaluation>
@@ -200715,7 +200651,7 @@ draw(arc((0,0,0),.8*(r1*cos(t1)*sin(p2),r1*sin(t1)*sin(p2),0),.7*(r1*cos(t1)*sin
           <p>
             Green's Theorem states, informally,
             that the circulation around a closed curve that bounds a region <m>R</m> is equal to the sum of the 
-            <fillin answer="curl" width="10"/> of <m>\vec{F}</m> across <m>R</m>.
+            <fillin answer="curl" mode="string" width="10"/> of <m>\vec{F}</m> across <m>R</m>.
           </p>
         </statement>
         <evaluation>
@@ -200732,7 +200668,7 @@ draw(arc((0,0,0),.8*(r1*cos(t1)*sin(p2),r1*sin(t1)*sin(p2),0),.7*(r1*cos(t1)*sin
           <p>
             The Divergence Theorem states, informally,
             that the outward flux across a closed curve that bounds a region <m>R</m> 
-            is equal to the sum of the <fillin answer="divergence" width="15"/> of <m>\vec{F}</m> across <m>R</m>.
+            is equal to the sum of the <fillin answer="divergence" mode="string" width="15"/> of <m>\vec{F}</m> across <m>R</m>.
           </p>
         </statement>
         <evaluation>
@@ -200754,7 +200690,7 @@ draw(arc((0,0,0),.8*(r1*cos(t1)*sin(p2),r1*sin(t1)*sin(p2),0),.7*(r1*cos(t1)*sin
           <p>
             Let <m>\vec F</m> be a vector field and let <m>C_1</m> and <m>C_2</m> 
             be any nonintersecting paths except that each starts at point <m>A</m> and ends at point <m>B</m>.
-            If the <fillin answer="curl" width="10"/> of <m>\vec{F}</m> is <m>0</m>,
+            If the <fillin answer="curl" mode="string" width="10"/> of <m>\vec{F}</m> is <m>0</m>,
             then <m>\int_{C_1} \vec F\cdot \vec T\, ds = \int_{C_2} \vec F\cdot \vec T\, ds</m>.
           </p>
         </statement>
@@ -200772,7 +200708,7 @@ draw(arc((0,0,0),.8*(r1*cos(t1)*sin(p2),r1*sin(t1)*sin(p2),0),.7*(r1*cos(t1)*sin
           <p>
             Let <m>\vec F</m> be a vector field and let <m>C_1</m> and <m>C_2</m> 
             be any nonintersecting paths except that each starts at point <m>A</m> and ends at point <m>B</m>.
-            If the <fillin answer="divergence" width="15"/> of <m>\vec{F}</m> is <m>0</m>,
+            If the <fillin answer="divergence" mode="string" width="15"/> of <m>\vec{F}</m> is <m>0</m>,
             then <m>\int_{C_1} \vec F\cdot \vec n\, ds = \int_{C_2} \vec F\cdot \vec n\, ds</m>.
           </p>
         </statement>
@@ -205160,8 +205096,8 @@ draw(arc((0,0,0),.8*(r1*cos(t1)*sin(p2),r1*sin(t1)*sin(p2),0),.7*(r1*cos(t1)*sin
         <statement>
           <p>
             In the plane,
-            flux is a measurement of how much of the vector field passes across a <fillin answer="curve" width="15"/>;
-            in space, flux is a measurement of how much of the vector field passes across a <fillin answer="surface" width="15"/>.
+            flux is a measurement of how much of the vector field passes across a <fillin answer="curve" mode="string" width="15"/>;
+            in space, flux is a measurement of how much of the vector field passes across a <fillin answer="surface" mode="string" width="15"/>.
           </p>
         </statement>
         <evaluation>
@@ -205200,7 +205136,7 @@ draw(arc((0,0,0),.8*(r1*cos(t1)*sin(p2),r1*sin(t1)*sin(p2),0),.7*(r1*cos(t1)*sin
         <statement>
           <p>
             When <m>\surfaceS</m> is a closed surface,
-            we choose the normal vector so that it points to the <fillin answer="outside" width="15"/> of the surface.
+            we choose the normal vector so that it points to the <fillin answer="outside" mode="string" width="15"/> of the surface.
           </p>
         </statement>
         <evaluation>
@@ -205217,7 +205153,7 @@ draw(arc((0,0,0),.8*(r1*cos(t1)*sin(p2),r1*sin(t1)*sin(p2),0),.7*(r1*cos(t1)*sin
           <p>
             If <m>\surfaceS</m> is a plane,
             and <m>\vec F</m> is always parallel to <m>\surfaceS</m>, 
-            then the flux of <m>\vec F</m> across <m>\surfaceS</m> will be <fillin answer="0" width="10"/>.
+            then the flux of <m>\vec F</m> across <m>\surfaceS</m> will be <fillin answer="0" mode="number" width="10"/>.
           </p>
         </statement>
         <evaluation>
@@ -210010,7 +209946,7 @@ draw(arc((0,0,0),.8*(r1*cos(t1)*sin(p2),r1*sin(t1)*sin(p2),0),.7*(r1*cos(t1)*sin
         <col width="19%"/>
         <col width="19%"/>
         <col width="22%"/>
-        <row bottom="minor">
+        <row bottom="minor" header="yes">
           <cell>Test</cell>
           <cell>Series</cell>
           <cell><p>Condition(s) of Convergence</p></cell>

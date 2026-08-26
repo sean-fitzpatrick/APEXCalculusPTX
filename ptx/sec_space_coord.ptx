@@ -2015,6 +2015,11 @@
       </md>.
     </p>
 
+    <p>
+      This describes an ellipse <mdash/> so cross sections parallel to the <m>xy</m>-coordinate plane are ellipses.
+      This ellipse is drawn in the figure.
+    </p>
+
     <figure xml:id="fig_quadric1" vshift="2">
       <caption>The elliptic paraboloid <m>z=x^2/4+y^2</m></caption>
       <!-- START figures/figquadric_parb_3D.asy -->
@@ -2088,11 +2093,6 @@
       </image>
       <!-- figures/figquadric_parb_3D.asy END -->
     </figure>
-
-    <p>
-      This describes an ellipse <mdash/> so cross sections parallel to the <m>xy</m>-coordinate plane are ellipses.
-      This ellipse is drawn in the figure.
-    </p>
 
     <p>
       Now consider cross sections parallel to the <m>xz</m>-plane.
