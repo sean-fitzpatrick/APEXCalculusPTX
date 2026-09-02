@@ -1711,7 +1711,7 @@
     though we interpreted the number as an area.
   </p>
 
-  <figure xml:id="fig_double_summary" vshift="1">
+  <figure xml:id="fig_double_summary" vshift="-1">
     <caption>Showing how an iterated integral used to find area also finds a certain volume</caption>
 
     <!-- START figures/figdouble_summary_3D.asy -->
