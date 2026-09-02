@@ -1716,48 +1716,6 @@
       </choices>
     </exercise>
 
-    <exercise label="peer-limit-continuity-4">
-      <statement>
-        <p>
-          <m>f</m> is not continuous at either <m>0</m> or <m>1</m>
-        </p>
-
-        <p>
-          For what value of <m>c</m> is <m>f</m> continuous at <m>2</m>?
-        </p>
-      </statement>
-      <choices>
-        <choice>
-          <statement>
-            <p>
-              <m>5/2</m>
-            </p>
-          </statement>
-        </choice>
-        <choice>
-          <statement>
-            <p>
-              <m>8/3</m>
-            </p>
-          </statement>
-        </choice>
-        <choice>
-          <statement>
-            <p>
-              <m>\sqrt{2}</m>
-            </p>
-          </statement>
-        </choice>
-        <choice>
-          <statement>
-            <p>
-              Not possible to solve for <m>c</m>
-            </p>
-          </statement>
-        </choice>
-      </choices>
-    </exercise>
-    
     <exercise label="peer-limit-continuity-5a">
       <statement>
         <p>
