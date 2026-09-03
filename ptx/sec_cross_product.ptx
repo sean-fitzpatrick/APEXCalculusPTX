@@ -874,7 +874,7 @@
             <m>B=(2,3)</m> and <m>C=(3,1)</m>,
             as pictured in <xref ref="fig_crossp5"/>.
           </p>
-          <figure xml:id="fig_crossp5" vshift="5">
+          <figure xml:id="fig_crossp5" vshift="3">
             <caption>Finding the area of a triangle in <xref ref="ex_crossp5"/></caption>
             <!-- START figures/fig_crossp5.tex -->
             <image width="47%">

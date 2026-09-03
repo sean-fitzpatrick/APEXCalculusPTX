@@ -46,7 +46,7 @@
       where certain points along the line are indicated.
     </p>
 
-    <figure xml:id="fig_lines_intro" vshift="0">
+    <figure xml:id="fig_lines_intro" vshift="2">
       <caption>Defining a line in space</caption>
 
       <!-- START figures/figlines_intro_3D.asy -->
@@ -111,7 +111,8 @@
     </figure>
 
     <p>
-      The figure illustrates how every point on the line can be obtained by starting with <m>\vec p</m> and moving a certain distance in the direction of <m>\vec d</m>.
+      The figure illustrates how every point on the line can be obtained by starting with <m>\vec p</m> and moving a 
+      certain distance in the direction of <m>\vec d</m>.
       That is, we can define the line as a function of <m>t</m>:
       <md number="yes" xml:id="eq_lines1">
         \vec\ell(t) = \vec p + t\ \vec d
@@ -121,10 +122,13 @@
     <p>
       In many ways, this is <em>not</em> a new concept.
       Compare <xref ref="eq_lines1">Equation</xref> to the familiar
-      <q><m>y=mx+b</m></q> equation of a line:
+      <q><m>y=mx+b</m></q> equation of a line, as illustrated in <xref ref="fig_lines_eq"/>. 
+      The equations exhibit the same structure:
+      they give a starting point,
+      define a direction, and state how far in that direction to travel.
     </p>
 
-    <figure xml:id="fig_lines_eq" vshift="-5">
+    <figure xml:id="fig_lines_eq" vshift="-2">
       <caption>Understanding the vector equation of a line</caption>
       <image width="47%">
         <shortdescription>A text description, comparing the elements the equations of a line in the plane, and in space.</shortdescription>
@@ -170,12 +174,6 @@
         </latex-image>
       </image>
     </figure>
-
-    <p>
-      The equations exhibit the same structure:
-      they give a starting point,
-      define a direction, and state how far in that direction to travel.
-    </p>
 
     <exercise label="APEX-PROTEUS-sec-11_5-lines-1-v1" component="proteus">
       <title>PROTEUS EXERCISE</title>
