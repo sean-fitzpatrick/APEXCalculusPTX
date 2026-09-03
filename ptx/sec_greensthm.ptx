@@ -13,7 +13,7 @@
           <idx><h>circulation</h></idx>
     </p>
 
-    <figure xml:id="fig_flowfluxintro" vshift="0">
+    <figure xml:id="fig_flowfluxintro" vshift="-1">
       <caption>Illustrating the principles of flow and flux</caption>
           <image width="47%">
             <shortdescription>A constant vector field in the plane, pointing to the right, and a triangular path in the first quadrant.</shortdescription>
@@ -194,7 +194,7 @@
       <em>a closed curve is being traversed counterclockwise if the outside is to the right of the path and the inside is to the left.</em>)
     </p>
 
-    <figure xml:id="fig_fluxcounterclockwise" vshift="-1">
+    <figure xml:id="fig_fluxcounterclockwise" vshift="1">
       <caption>Determining <q>counterclockwise</q> is not always simple without a good definition</caption>
            <image width="47%">
             <shortdescription>A closed curve in the plane, in the shape of a cashew or boomerang.</shortdescription>

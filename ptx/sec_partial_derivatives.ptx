@@ -749,6 +749,14 @@
       </statement>
     </definition>
 
+    <aside vshift="2">
+      <p>
+        The terms in <xref ref="def_second_partial"/> all depend on limits,
+        so each definition comes with the caveat
+        <q>where the limit exists.</q>
+      </p>
+    </aside>
+    
     <p>
       The notation of second partial derivatives gives some insight into the notation of the second derivative of a function of a single variable.
       If <m>y=f(x)</m>, then <m>\fp'(x) = \frac{d^2 y}{dx^2}</m>.
@@ -761,14 +769,7 @@
       Now that we understand functions of multiple variables,
       we see the importance of specifying which variables we are referring to.
     </p>
-    <aside vshift="2">
-      <p>
-        The terms in <xref ref="def_second_partial"/> all depend on limits,
-        so each definition comes with the caveat
-        <q>where the limit exists.</q>
-      </p>
-    </aside>
-
+    
     <example xml:id="ex_partial6">
       <title>Second partial derivatives</title>
       <statement>

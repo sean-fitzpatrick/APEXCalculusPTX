@@ -452,7 +452,7 @@
       (as the gravitational pull is strongest near the point mass).
     </p>
 
-    <figure xml:id="fig_vectorfieldintro3" vshift="2">
+    <figure xml:id="fig_vectorfieldintro3" vshift="4">
       <caption>Graphing a vector field in space</caption>
       <image width="47%">
         <shortdescription>A very chaotic plot of a three-dimensional vector field.</shortdescription>
