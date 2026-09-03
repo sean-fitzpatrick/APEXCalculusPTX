@@ -28,6 +28,7 @@
         <asymptote links="yes"/>
         <webwork divisional="dynamic" reading="dynamic"/>
         <annotation platform="hypothesis"/>
+        <feedback href="https://github.com/APEXCalculus/APEXCalculusPTX/issues"/>
         <!-- <css toc="crc" banner="crc" navbar="crc" shell="crc"/> -->
     </html>
     <!-- PDF-Specific Options -->

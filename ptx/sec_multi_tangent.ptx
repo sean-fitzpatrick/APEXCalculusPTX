@@ -1621,7 +1621,7 @@
               </pg-code> -->
               <statement>
                 <p>
-                  <m>f(x,y) = 3x-5y</m>, <m>\vec v = \la 1,1\ra</m>, <m>P=(4,2)</m>.
+                  <m>f(x,y) = 3x-5y</m>, <m>\vec v = \la 1,1\ra</m>, <m>P=(4,2)</m>
                 </p>
               </statement>
               <solution>
@@ -1752,7 +1752,7 @@
               </pg-code> -->
               <statement>
                 <p>
-                  <m>f(x,y) = 2x^2y-4xy^2</m>, <m>P=(2,3)</m>.
+                  <m>f(x,y) = 2x^2y-4xy^2</m>, <m>P=(2,3)</m>
                 </p>
               </statement>
               <solution>
@@ -1838,7 +1838,7 @@
               </pg-code> -->
               <statement>
                 <p>
-                  <m>f(x,y) = 3x-5y</m>, <m>P=(4,2)</m>.
+                  <m>f(x,y) = 3x-5y</m>, <m>P=(4,2)</m>
                 </p>
               </statement>
               <solution>
@@ -1934,7 +1934,7 @@
               </pg-code> -->
               <statement>
                 <p>
-                  <m>f(x,y) = 2x^2y-4xy^2</m>, <m>P=(2,3)</m>.
+                  <m>f(x,y) = 2x^2y-4xy^2</m>, <m>P=(2,3)</m>
                 </p>
               </statement>
               <solution>
@@ -1952,7 +1952,7 @@
               </pg-code> -->
               <statement>
                 <p>
-                  <m>f(x,y) = 3\cos(x) \sin(y)</m>, <m>P=(\pi/3, \pi/6)</m>.
+                  <m>f(x,y) = 3\cos(x) \sin(y)</m>, <m>P=(\pi/3, \pi/6)</m>
                 </p>
               </statement>
               <solution>
@@ -1969,7 +1969,7 @@
               </pg-code> -->
               <statement>
                 <p>
-                  <m>f(x,y) = 3x-5y</m>, <m>P=(4,2)</m>.
+                  <m>f(x,y) = 3x-5y</m>, <m>P=(4,2)</m>
                 </p>
               </statement>
               <solution>
@@ -1986,7 +1986,7 @@
               </pg-code> -->
               <statement>
                 <p>
-                  <m>f(x,y) = x^2-2x-y^2+4y</m>, <m>P=(1,2)</m>.
+                  <m>f(x,y) = x^2-2x-y^2+4y</m>, <m>P=(1,2)</m>
                 </p>
               </statement>
               <solution>
@@ -2014,7 +2014,7 @@
               </pg-code> -->
               <statement>
                 <p>
-                  <m>f(x,y) = 2x^2y-4xy^2</m>, <m>P=(2,3)</m>.
+                  <m>f(x,y) = 2x^2y-4xy^2</m>, <m>P=(2,3)</m>
                 </p>
               </statement>
               <solution>
@@ -2034,7 +2034,7 @@
 
               <statement>
                 <p>
-                  <m>f(x,y) = 3\cos(x) \sin(y)</m>, <m>P=(\pi/3, \pi/6)</m>.
+                  <m>f(x,y) = 3\cos(x) \sin(y)</m>, <m>P=(\pi/3, \pi/6)</m>
                 </p>
 
                 <instruction>
@@ -2053,7 +2053,7 @@
               </pg-code> -->
               <statement>
                 <p>
-                  <m>f(x,y) = 3x-5y</m>, <m>P=(4,2)</m>.
+                  <m>f(x,y) = 3x-5y</m>, <m>P=(4,2)</m>
                 </p>
               </statement>
               <solution>

@@ -27,6 +27,7 @@
         <knowl example="no"/>
         <asymptote links="yes"/>
         <webwork divisional="dynamic"/>
+        <feedback href="https://github.com/APEXCalculus/APEXCalculusPTX/issues"/>
     </html>
     <!-- PDF-Specific Options -->
     <latex print="no" sides="one">
