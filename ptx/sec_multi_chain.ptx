@@ -681,7 +681,7 @@
       </md>.
     </p>
 
-    <aside vshift="0">
+    <aside vshift="2">
       <p>
         There is a subtlety in this calculation that can be quite confusing.
         It appears to be chain rule, but shouldn't the derivative of <m>f(x,y,z)</m>

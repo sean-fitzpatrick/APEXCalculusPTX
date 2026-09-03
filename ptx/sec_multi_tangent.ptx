@@ -614,7 +614,7 @@
           </md>.
         </p>
 
-        <figure xml:id="fig_tpl3" vshift="0">
+        <figure xml:id="fig_tpl3" vshift="2">
           <caption>Graphing a surface with a normal line  from <xref ref="ex_tpl3"/></caption>
 
           <!-- START figures/figtpl3_3D.asy -->
@@ -817,17 +817,7 @@
           </md>.
         </p>
 
-        <p>
-          An advantage of this parametrization of the line is that letting <m>t=t_0</m> gives a point on the line that is <m>\abs{t_0}</m> units from <m>P</m>.
-          (This is because the direction of the line is given in terms of a unit vector.)
-          There are thus two points in space 4 units from <m>P</m>:
-          <md>
-            <mrow>Q_1 \amp = \ell_n(4) \amp  Q_2 \amp = \ell_n(-4)</mrow>
-            <mrow>\amp \approx \la 3.63, -2.27, 2.37\ra \amp  \amp  \approx\la 0.37, 4.27, 5.63\ra</mrow>
-          </md>
-        </p>
-
-        <figure xml:id="fig_tpl5" vshift="-1">
+        <figure xml:id="fig_tpl5" vshift="0">
           <caption>Graphing the surface in <xref ref="ex_tpl5"/> along with points 4 units from the surface</caption>
 
           <!-- START figures/figtpl5_3D.asy -->
@@ -900,7 +890,17 @@
         </figure>
 
         <p>
-          The surface is graphed along with points <m>P</m>, <m>Q_1</m>,
+          An advantage of this parametrization of the line is that letting <m>t=t_0</m> gives a point on the line that is <m>\abs{t_0}</m> units from <m>P</m>.
+          (This is because the direction of the line is given in terms of a unit vector.)
+          There are thus two points in space 4 units from <m>P</m>:
+          <md>
+            <mrow>Q_1 \amp = \ell_n(4) \amp  Q_2 \amp = \ell_n(-4)</mrow>
+            <mrow>\amp \approx \la 3.63, -2.27, 2.37\ra \amp  \amp  \approx\la 0.37, 4.27, 5.63\ra</mrow>
+          </md>
+        </p>
+
+        <p>
+          The surface is graphed in <xref ref="fig_tpl5"/> along with points <m>P</m>, <m>Q_1</m>,
           <m>Q_2</m> and a portion of the normal line to <m>f</m> at <m>P</m>.
         </p>
       </solution>
@@ -919,7 +919,7 @@
       <em>tangent</em> to <m>f</m> at <m>P</m>.
     </p>
 
-    <aside vshift="-3">
+    <aside vshift="-2">
       <p>
         When we introduced the tangent plane in <xref ref="sec_partial_derivatives"/>,
         we computed the normal vector to be <m>\vec{n}=\la -f_x(x_0,y_0),-f_y(x_0,y_0),1\ra</m>.
@@ -971,7 +971,7 @@
           The surface <m>z=-x^2-y^2+2</m> and tangent plane are graphed in <xref ref="fig_tpl6"/>.
         </p>
 
-        <figure xml:id="fig_tpl6" vshift="-1">
+        <figure xml:id="fig_tpl6" vshift="1">
           <caption>Graphing a surface with tangent plane from <xref ref="ex_tpl6"/></caption>
 
           <!-- START figures/figtpl6_3D.asy -->
@@ -1201,7 +1201,7 @@
           The ellipsoid and tangent plane are graphed in <xref ref="fig_tpl8"/>.
         </p>
 
-        <figure xml:id="fig_tpl8" vshift="-1">
+        <figure xml:id="fig_tpl8" vshift="3">
           <caption>An ellipsoid and its tangent plane at a point</caption>
 
           <!-- START figures/figtpl8_3D.asy -->

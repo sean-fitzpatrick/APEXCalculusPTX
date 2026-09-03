@@ -299,7 +299,7 @@
       </statement>
     </definition>
 
-    <aside vshift="0">
+    <aside vshift="2">
       <p>
         The symbol <q><m>\nabla</m></q> is named <q>nabla,</q>
         derived from the Greek name of a Jewish harp.
@@ -748,7 +748,7 @@
           as this indicates that all directional derivatives are 0.
         </p>
 
-        <figure xml:id="fig_direct9" vshift="0">
+        <figure xml:id="fig_direct9" vshift="3">
           <caption>At the top of a paraboloid, all directional derivatives are 0</caption>
 
           <!-- START figures/figdirect9_3D.asy -->

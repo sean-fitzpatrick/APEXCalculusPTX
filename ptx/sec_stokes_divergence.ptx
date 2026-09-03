@@ -42,7 +42,7 @@
       </statement>
     </theorem>
 
-    <aside vshift="-1">
+    <aside vshift="2">
       <p>
         <em>Note:</em> the term <q>outer unit normal vector</q>
         used in <xref ref="thm_divergence2"/>
@@ -331,7 +331,7 @@
           (This surface and vector field were used in <xref ref="ex_surfflux2"/>.)
         </p>
 
-        <figure xml:id="fig_divthm_space1" vshift="0">
+        <figure xml:id="fig_divthm_space1" vshift="-1">
           <caption>The surfaces used in  <xref ref="ex_divthm_space1"/></caption>
           <image width="47%">
             <shortdescription>A circular paraboloid, opening downward, meets the x,y plane along the unit circle. The interior of the circle is a disk.</shortdescription>
