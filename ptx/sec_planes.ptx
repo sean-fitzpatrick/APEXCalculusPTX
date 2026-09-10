@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="sec_planes" label="sec_planes">
   <title>Planes</title>
-  <introduction>
     <p>
       Any flat surface, such as a wall,
       table top or stiff piece of cardboard can be thought of as representing part of a plane.
@@ -811,9 +810,8 @@
         <video width="98%" youtube="DjuaixH0ayo" label="vid-vectors-planes-lineint" component="video"/>
       </solution>
     </example>
-  </introduction>
 
-  <subsection xml:id="subsec_planes_distances">
+  <paragraphs xml:id="subsec_planes_distances">
     <title>Distances</title>
     <p>
       Just as it was useful to find distances between points and lines in the previous section,
@@ -1015,7 +1013,7 @@
       but simple to apply to planes.
       By approximating a surface with millions of small planes one can more readily model the needed behavior.
     </p>
-  </subsection>
+  </paragraphs>
 
   <exercises>
     <subexercises xml:id="TaC-vectors-planes">
