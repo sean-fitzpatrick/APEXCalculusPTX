@@ -757,8 +757,7 @@
         <p>
           Contour plots for four functions are given below,
           and labeled A, B, C, D.
-          Among the functions provided, select those that correspond to one of the contour plots,
-          and match the function to the appropriate letter.
+          Match the letters A, B, C, D to the function that produces the corresponding contour plot.
         </p>
 
         <sbsgroup widths="47% 47%">
@@ -871,26 +870,26 @@
       </statement>
       <cardsort>
         <match>
-          <premise><m>f(x,y)=e^{x-y}</m></premise>
-          <response>D</response>
+          <premise>A</premise>
+          <response><m>f(x,y)=x^2-y</m></response>
         </match>
         <match>
-          <premise><m>f(x,y)=2x^2+y^2</m></premise>
-          <response>C</response>
+          <premise>B</premise>
+          <response><m>f(x,y)=x^2-y^2</m></response>
         </match>
         <match>
-          <premise><m>f(x,y)=x^2-y^2</m></premise>
-          <response>B</response>
+          <premise>C</premise>
+          <response><m>f(x,y)=2x^2+y^2</m></response>
         </match>
         <match>
-          <premise><m>f(x,y)=x^2-y</m></premise>
-          <response>A</response>
+          <premise>D</premise>
+          <response><m>f(x,y)=e^{x-y}</m></response>
         </match>
         <match>
-          <premise><m>f(x,y)=x^2+2y^2</m></premise>
+          <response><m>f(x,y)=x^2+2y^2</m></response>
         </match>
         <match>
-          <premise><m>f(x,y)=x-y</m></premise>
+          <response><m>f(x,y)=x-y</m></response>
         </match>        
       </cardsort>
     </exercise>
