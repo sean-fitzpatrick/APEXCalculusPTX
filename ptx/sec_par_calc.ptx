@@ -1494,7 +1494,7 @@
       </exercise>
 
       <exercise label="m2565-parcalc-7">
-        <webwork source="Library/Rochester/setIntegrals19Area/ur_in_19_12.pg" />
+        <webwork source="local/Library/Rochester/setIntegrals19Area/ur_in_19_12.pg" />
       </exercise>
 
       <exercise label="m2565-parcalc-8">
