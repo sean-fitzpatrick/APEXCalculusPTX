@@ -1496,7 +1496,7 @@
       </exercise>
 
       <exercise label="m2565-polcalc-10">
-        <webwork source="Contrib/Hope/Calc2/APEX_09_05_Polar_area/Q_27.pg" />
+        <webwork source="local/Contrib/Hope/Calc2/APEX_09_05_Polar_area/Q_27.pg" />
       </exercise>
 
       <exercise label="m2565-polcalc-11">
