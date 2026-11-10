@@ -922,6 +922,58 @@
       </exercise>
     </subexercises>
 
+    <subexercises component="m2565">
+      <title>Math 2565 Homework</title>
+    
+      <exercise label="m2565-ibp-1">
+        <webwork source="Contrib/AgnesScott/Int_Techniques/2-IntByParts/calc06205b_AnswerOnly.pg"/>
+      </exercise>
+
+      <exercise label="m2565-ibp-2">
+        <webwork source="Contrib/AgnesScott/Int_Techniques/2-IntByParts/calc06214a_StepByStep.pg"/>
+      </exercise>
+      
+      <exercise label="m2565-ibp-3">
+        <webwork source="Contrib/CCCS/CalculusTwo/03.1/CCD_CCCS_Openstax_Calc2_C2-2016-002_3_1_30.pg"/>
+      </exercise>
+
+      <exercise label="m2565-ibp-4">
+        <webwork source="Contrib/CCCS/CalculusTwo/03.1/CCD_CCCS_Openstax_Calc2_C2-2016-002_3_1_31.pg"/>
+      </exercise>
+
+      <exercise label="m2565-ibp-5">
+        <webwork source="Contrib/CCCS/CalculusTwo/03.1/CCD_CCCS_Openstax_Calc2_C2-2016-002_3_1_36.pg"/>
+      </exercise>
+
+      <exercise label="m2565-ipb-6">
+        <webwork source="Contrib/CCCS/CalculusTwo/03.1/CCD_CCCS_Openstax_Calc2_C2-2016-002_3_1_45.pg" />
+      </exercise>
+
+      <exercise label="m2565-ibp-7">
+        <webwork source="Contrib/AgnesScott/Int_Techniques/2-IntByParts/calc06225b_AnswerOnly.pg"/>
+      </exercise>
+
+      <exercise label="m2565-ibp-8">
+        <webwork source="Contrib/AgnesScott/Int_Techniques/2-IntByParts/calcIBPwGraph.pg"/>
+      </exercise>
+
+      <exercise label="m2565-ibp-9">
+        <webwork source="Contrib/AgnesScott/Int_Techniques/2-IntByParts/calcIBPwTable.pg"/>
+      </exercise>
+
+      <exercise label="m2565-ibp-10">
+        <webwork source="Contrib/CCCS/CalculusTwo/03.1/CCD_CCCS_Openstax_Calc2_C2-2016-002_3_1_22.pg"/>
+      </exercise>
+
+      <exercise label="m2565-ibp-11">
+        <webwork source="Contrib/CCCS/CalculusTwo/03.1/CCD_CCCS_Openstax_Calc2_C2-2016-002_3_1_25.pg"/>
+      </exercise>
+
+      <exercise label="m2565-ibp-12">
+        <webwork source="Contrib/CCCS/CalculusTwo/03.1/CCD_CCCS_Openstax_Calc2_C2-2016-002_3_1_40.pg"/>
+      </exercise>
+    </subexercises>
+
     <subexercises>
       <title>Problems</title>
 

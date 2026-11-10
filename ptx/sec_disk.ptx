@@ -2214,6 +2214,61 @@
         <!-- </webwork> -->
       </exercise>
     </subexercises>
+
+    <subexercises component="m2565">
+      <title>Math 2565 Homwork</title>
+    
+      <exercise label="m2565-disk-1">
+        <webwork source="Contrib/CCCS/CalculusTwo/02.2/CCD_CCCS_Openstax_Calc2_C2-2016-002_2_2_63.pg" />
+      </exercise>
+      
+      <exercise label="m2565-disk-2">
+        <webwork source="Contrib/CCCS/CalculusTwo/02.2/CCD_CCCS_Openstax_Calc2_C2-2016-002_2_2_68.pg" />
+      </exercise>
+
+      <exercise label="m2565-disk-3">
+        <webwork source="Contrib/CCCS/CalculusTwo/02.2/CCD_CCCS_Openstax_Calc2_C2-2016-002_2_2_69.pg" />
+      </exercise>
+
+      <exercise label="m2565-disk-4">
+        <webwork source="Contrib/AgnesScott/Int_Applications/2-DiscWasher/calc07204.pg" />
+      </exercise>
+
+      <exercise label="m2565-disk-5">
+        <webwork source="Contrib/AgnesScott/Int_Applications/2-DiscWasher/calc07205.pg" />
+      </exercise>
+
+      <exercise label="m2565-disk-6">
+        <webwork source="Contrib/AgnesScott/Int_Applications/2-DiscWasher/calc07206.pg" />
+      </exercise>
+
+      <exercise label="m2565-disk-7">
+        <webwork source="Contrib/AgnesScott/Int_Applications/2-DiscWasher/calc07208.pg" />
+      </exercise>
+
+      <exercise label="m2565-disk-8">
+        <webwork source="Contrib/AgnesScott/Int_Applications/2-DiscWasher/calc07209.pg" />
+      </exercise>
+
+      <exercise label="m2565-disk-9">
+        <webwork source="Contrib/CCCS/CalculusTwo/02.2/CCD_CCCS_Openstax_Calc2_C2-2016-002_2_2_106.pg" />
+      </exercise>
+
+      <exercise label="m2565-disk-10">
+        <webwork source="Contrib/AgnesScott/Int_Applications/2-DiscWasher/calc07207.pg" />
+      </exercise>
+
+      <exercise label="m2565-disk-11">
+        <webwork source="Contrib/AgnesScott/Int_Applications/2-DiscWasher/calc07215.pg" />
+      </exercise>
+
+      <exercise label="m2565-disk-12">
+        <webwork source="Contrib/CCCS/CalculusTwo/02.2/CCD_CCCS_Openstax_Calc2_C2-2016-002_2_2_101.pg" />
+      </exercise>
+
+      
+    </subexercises>
+
     <subexercises>
       <title>Problems</title>
       <exercisegroup cols="2" xml:id="exset-volume-disk-x-axis">

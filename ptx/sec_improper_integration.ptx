@@ -1482,8 +1482,60 @@
           </choice>
         </choices>
       </exercise>
-
     </subexercises>
+
+    <subexercises component="m2565">
+      <title>Math 2565 Homework</title>
+    
+      <exercise label="m2565-imporoper-1">
+        <webwork source="Contrib/Berkeley/StewCalcET7e/7.8/7-8-x01.pg"/>
+      </exercise>
+      
+      <exercise label="m2565-improper-2">
+        <webwork source="Contrib/CCCS/CalculusTwo/03.7/CCD_CCCS_Openstax_Calc2_C2-2016-002_3_7_348.pg" />
+      </exercise>
+
+      <exercise label="m2565-improper-3">
+        <webwork source="Contrib/CCCS/CalculusTwo/03.7/CCD_CCCS_Openstax_Calc2_C2-2016-002_3_7_349.pg" />
+      </exercise>
+
+      <exercise label="m2565-improper-4">
+        <webwork source="Contrib/CCCS/CalculusTwo/03.7/CCD_CCCS_Openstax_Calc2_C2-2016-002_3_7_350.pg" />
+      </exercise>
+
+      <exercise label="m2565-improper-5">
+        <webwork source="Contrib/CCCS/CalculusTwo/03.7/CCD_CCCS_Openstax_Calc2_C2-2016-002_3_7_371.pg" />
+      </exercise>
+
+      <exercise label="m2565-improper-6">
+        <webwork source="Contrib/CCCS/CalculusTwo/03.7/CCD_CCCS_Openstax_Calc2_C2-2016-002_3_7_372.pg" />
+      </exercise>
+
+      <exercise label="m2565-improper-7">
+        <webwork source="Library/ASU-topics/setCalculus/stef/stef7_8p1.pg" />
+      </exercise>
+
+      <exercise label="m2565-improper-8">
+        <webwork source="local/Library/Indiana/Indiana_setIntegrals18Improper/ur_in_18_3.pg" />
+      </exercise>
+
+      <exercise label="m2565-improper-9">
+        <webwork source="Library/maCalcDB/setIntegrals18Improper/ur_in_18_7.pg" />
+      </exercise>
+
+      <exercise label="m2565-improper-10">
+        <webwork source="local/Library/Rochester/setIntegrals18Improper/sc5_9_21.pg" />
+      </exercise>
+
+      <exercise label="m2565-improper-11">
+        <webwork source="Library/UCSB/Stewart5_7_8/Stewart5_7_8_59.pg" />
+      </exercise>
+
+      <exercise label="m2565-improper-12">
+        <webwork source="Library/UCSB/Stewart5_7_8/Stewart5_7_8_68.pg" />
+      </exercise>
+    </subexercises>
+
     <subexercises>
       <title>Problems</title>
       <exercisegroup cols="2" xml:id="exset-improper-integration-evaluate">

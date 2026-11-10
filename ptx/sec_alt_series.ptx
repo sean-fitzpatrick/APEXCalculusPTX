@@ -988,6 +988,43 @@
         <!--</webwork>-->
       </exercise>
     </subexercises>
+
+    <subexercises component="m2565">
+      <title>Math 2565 Homework</title>
+    
+      <exercise label="m2565-ast-1">
+        <webwork source="Contrib/Hope/Calc2/APEX_08_05_Alternating/Q_07.pg" />
+      </exercise>
+
+      <exercise label="m2565-ast-2">
+        <webwork source="Contrib/Hope/Calc2/APEX_08_05_Alternating/Q_08.pg" />
+      </exercise>
+
+      <exercise label="m2565-ast-3">
+        <webwork source="Contrib/Hope/Calc2/APEX_08_05_Alternating/Q_09.pg" />
+      </exercise>
+
+      <exercise label="m2565-ast-4">
+        <webwork source="Contrib/Hope/Calc2/APEX_08_05_Alternating/Q_23.pg" />
+      </exercise>
+
+      <exercise label="m2565-ast-5">
+        <webwork source="Library/ma123DB/set11/s11_5_23.pg" />
+      </exercise>
+
+      <exercise label="m2565-ast-6">
+        <webwork source="Library/UMN/calculusStewartCCC/s_11_5_34.pg" />
+      </exercise>
+
+      <exercise label="m2565-ast-7">
+        <webwork source="Contrib/CCCS/CalculusTwo/05.5/CCD_CCCS_Openstax_Calc2_C1-2016-002_5_5_253.pg" />
+      </exercise>
+
+      <exercise label="m2565-ast-8">
+        <webwork source="Library/WinonaState/StewartCalcEarlyTran7ed/Chap11Section05/SCalcET7-11-5-ex2.pg" />
+      </exercise>
+    </subexercises>
+
     <subexercises>
       <title>Problems</title>
       <exercisegroup cols="2" xml:id="exset-alternating-series-conditional">

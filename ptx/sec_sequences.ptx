@@ -1906,6 +1906,38 @@
         <!--</webwork>-->
       </exercise>
     </subexercises>
+
+    <subexercises component="m2565">
+      <title>Math 2565 Homework</title>
+    
+      <exercise label="m2565-sequence-1">
+        <webwork source="local/Contrib/CCCS/CalculusTwo/05.1/CCD_CCCS_Openstax_Calc2_C1-2016-002_5_1_27.pg" />
+      </exercise>
+      
+      <exercise label="m2565-sequence-2">
+        <webwork source="local/Contrib/CCCS/CalculusTwo/05.1/CCD_CCCS_Openstax_Calc2_C1-2016-002_5_1_29.pg" />
+      </exercise>
+
+      <exercise label="m2565-sequence-3">
+        <webwork source="Contrib/CUNY/OPLremix/Library/ma123DB/set10/s11_1_24.pg" />
+      </exercise>
+
+      <exercise label="m2565-sequence-4">
+        <webwork source="Contrib/CUNY/OPLremix/Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.1_Sequences/10.1.51.pg" />
+      </exercise>
+
+      <exercise label="m2565-sequence-5">
+        <webwork source="local/Library/Utah/Calculus_II/set7_Infinite_Series/set7_pr11.pg" />
+      </exercise>
+
+      <exercise label="m2565-sequence-6">
+        <webwork source="local/Library/Utah/Calculus_II/set7_Infinite_Series/set7_pr12.pg" />
+      </exercise>
+
+      <exercise label="m2565-sequence-7">
+        <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.1_Sequences/10.1.31.pg" />
+      </exercise>
+    </subexercises>
     
     <subexercises>
       <title>Problems</title>

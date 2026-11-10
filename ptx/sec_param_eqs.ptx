@@ -1710,6 +1710,34 @@
         <!-- </webwork> -->
       </exercise>
     </subexercises>
+
+    <subexercises component="m2565">
+      <title>Math 2565 Homework</title>
+    
+      <exercise label="m2565-param-1">
+        <webwork source="Library/ASU-topics/setCalc2/tracogna27.pg" />
+      </exercise>
+      
+      <exercise label="m2565-param-2">
+        <webwork source="Library/Michigan/Chap4Sec8/Q09.pg" />
+      </exercise>
+
+      <exercise label="m2565-param-3">
+        <webwork source="Contrib/CUNY/OPLremix/Library/OSU/accelerated_calculus_and_analytic_geometry_ii/hmwk5/prob1.pg" />
+      </exercise>
+
+      <exercise label="m2565-param-4">
+        <webwork source="Library/ASU-topics/setCalc2/tracogna26.pg" />
+      </exercise>
+
+      <exercise label="m2565-param-5">
+        <webwork source="Library/Hope/Multi2/09-02-Parametric-curves/Parametric-curves-2D-01.pg" />
+      </exercise>
+
+      <exercise label="m2565-param-6">
+        <webwork source="Library/ma123DB/set8/s10_1_5.pg" />
+      </exercise>
+    </subexercises>
     
     <subexercises>
       <title>Problems</title>

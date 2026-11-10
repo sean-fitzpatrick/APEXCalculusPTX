@@ -1020,6 +1020,71 @@
         <!--</webwork>-->
       </exercise>
     </subexercises>
+
+    <subexercises component="m2565">
+      <title>Math 2565 Exercises</title>
+    
+      <exercise label="m2565-power-1">
+        <webwork source="Contrib/CCCS/CalculusTwo/05.6/CCD_CCCS_Openstax_Calc2_C1-2016-002_5_6_364.pg" />
+      </exercise>
+
+      <exercise label="m2565-power-2">
+        <webwork source="Contrib/CCCS/CalculusTwo/06.1/CCD_CCCS_Openstax_Calc2_C1-2016-002_6_1_13.pg" />
+      </exercise>
+
+      <exercise label="m2565-power-3">
+        <webwork source="Contrib/CCCS/CalculusTwo/06.1/CCD_CCCS_Openstax_Calc2_C1-2016-002_6_1_17.pg" />
+      </exercise>
+
+      <exercise label="m2565-power-4">
+        <webwork source="Contrib/CCCS/CalculusTwo/06.1/CCD_CCCS_Openstax_Calc2_C1-2016-002_6_1_18.pg" />
+      </exercise>
+
+      <exercise label="m2565-power-5">
+        <webwork source="Contrib/CCCS/CalculusTwo/06.1/CCD_CCCS_Openstax_Calc2_C1-2016-002_6_1_23.pg" />
+      </exercise>
+
+      <exercise label="m2565-power-6">
+        <webwork source="Contrib/CCCS/CalculusTwo/06.1/CCD_CCCS_Openstax_Calc2_C1-2016-002_6_1_30.pg" />
+      </exercise>
+
+      <exercise label="m2565-power-7">
+        <webwork source="Contrib/CCCS/CalculusTwo/06.1/CCD_CCCS_Openstax_Calc2_C1-2016-002_6_1_34.pg" />
+      </exercise>
+
+      <exercise label="m2565-power-8">
+        <webwork source="Contrib/CCCS/CalculusTwo/06.1/CCD_CCCS_Openstax_Calc2_C1-2016-002_6_1_8.pg" />
+      </exercise>
+
+      <exercise label="m2565-power-9">
+        <webwork source="Contrib/CUNY/OPLremix/Library/UMN/calculusStewartCCC/s_11_8_18.pg" />
+      </exercise>
+
+      <exercise label="m2565-power-10">
+        <webwork source="Contrib/CUNY/OPLremix/Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/10_Infinite_Series/10.7_Taylor_Series/10.7.3.pg" />
+      </exercise>
+
+      <exercise label="m2565-power-11">
+        <webwork source="Contrib/CCCS/CalculusTwo/05.2/CCD_CCCS_Openstax_Calc2_C1-2016-002_5_2_98.pg" />
+      </exercise>
+
+      <exercise label="m2565-power-12">
+        <webwork source="Contrib/CCCS/CalculusTwo/06.2/CCD_CCCS_Openstax_Calc2_C1-2016-002_6_2_65.pg" />
+      </exercise>
+      
+      <exercise label="m2565-power-13">
+        <webwork source="Contrib/CCCS/CalculusTwo/06.2/CCD_CCCS_Openstax_Calc2_C1-2016-002_6_2_83.pg" />
+      </exercise>
+
+      <exercise label="m2565-power-14">
+        <webwork source="Contrib/CCCS/CalculusTwo/06.2/CCD_CCCS_Openstax_Calc2_C1-2016-002_6_2_87.pg" />
+      </exercise>
+      
+      <exercise label="m2565-power-15">
+        <webwork source="Contrib/CCCS/CalculusTwo/06.2/CCD_CCCS_Openstax_Calc2_C1-2016-002_6_2_89.pg" />
+      </exercise>
+    </subexercises>
+
     <subexercises>
       <title>Problems</title>
       <exercisegroup cols="2" xml:id="exset-power-series-first-terms">

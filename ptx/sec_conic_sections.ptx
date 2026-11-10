@@ -2357,6 +2357,50 @@
         </evaluation>
       </exercise>
     </subexercises>
+
+    <subexercises component="m2565">
+      <title>Math 2565 Homework</title>
+    
+      <exercise label="m2565-conic-1">
+        <webwork source="Contrib/CCCS/CollegeAlgebra/12.3/CCD_CCCS_Openstax_AlgTrig_AT-1-001-AS_12_3_17.pg" />
+      </exercise>
+      
+      <exercise label="m2565-conic-2">
+        <webwork source="Contrib/CCCS/CollegeAlgebra/12.3/CCD_CCCS_Openstax_AlgTrig_AT-1-001-AS_12_3_19.pg" />
+      </exercise>
+
+      <exercise label="m2565-conic-3">
+        <webwork source="Library/Rochester/setAlgebra27Conics/ur_geo_3_2.pg" />
+      </exercise>
+
+      <exercise label="m2565-conic-4">
+        <webwork source="Contrib/CCCS/CollegeAlgebra/12.1/CCD_CCCS_Openstax_AlgTrig_AT-1-001-AS_12_1_12.pg" />
+      </exercise>
+
+      <exercise label="m2565-conic-5">
+        <webwork source="Contrib/CCCS/CollegeAlgebra/12.1/CCD_CCCS_Openstax_AlgTrig_AT-1-001-AS_12_1_13.pg" />
+      </exercise>
+
+      <exercise label="m2565-conic-6">
+        <webwork source="Library/OSU/accelerated_calculus_and_analytic_geometry_ii/hmwk6/prob2.pg" />
+      </exercise>
+
+      <exercise label="m2565-conic-7">
+        <webwork source="local/Library/Utah/Intermediate_Algebra/set12_Conics/s12p10.pg" />
+      </exercise>
+
+      <exercise label="m2565-conic-8">
+        <webwork source="Contrib/CCCS/CollegeAlgebra/12.2/CCD_CCCS_Openstax_AlgTrig_AT-1-001-AS_12_2_13.pg" />
+      </exercise>
+
+      <exercise label="m2565-conic-9">
+        <webwork source="Contrib/CCCS/CollegeAlgebra/12.2/CCD_CCCS_Openstax_AlgTrig_AT-1-001-AS_12_2_14b.pg" />
+      </exercise>
+
+      <exercise label="m2565-conic-10">
+        <webwork source="Library/maCalcDB/setAlgebra27Conics/ur_geo_3_10.pg" />
+      </exercise>
+    </subexercises>
     
     <subexercises>
       <title>Problems</title>

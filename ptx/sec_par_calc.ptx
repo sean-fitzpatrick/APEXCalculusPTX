@@ -1465,6 +1465,58 @@
         <!-- </webwork> -->
       </exercise>
     </subexercises>
+
+    <subexercises component="m2565">
+      <title>Math 2565 Homework</title>
+    
+      <exercise label="m2565-parcalc-1">
+        <webwork source="Contrib/CCCS/CalculusTwo/07.2/CCD_CCCS_Openstax_Calc2_C1-2016-002_7_2_67.pg" />
+      </exercise>
+      
+      <exercise label="m2565-parcalc-2">
+        <webwork source="Contrib/CCCS/CalculusTwo/07.2/CCD_CCCS_Openstax_Calc2_C1-2016-002_7_2_68.pg" />
+      </exercise>
+
+      <exercise label="m2565-parcalc-3">
+        <webwork source="Contrib/CCCS/CalculusTwo/07.2/CCD_CCCS_Openstax_Calc2_C1-2016-002_7_2_70.pg" />
+      </exercise>
+
+      <exercise label="m2565-parcalc-4">
+        <webwork source="Contrib/CCCS/CalculusTwo/07.2/CCD_CCCS_Openstax_Calc2_C1-2016-002_7_2_73.pg" />
+      </exercise>
+
+      <exercise label="m2565-parcalc-5">
+        <webwork source="Contrib/CCCS/CalculusTwo/07.2/CCD_CCCS_Openstax_Calc2_C1-2016-002_7_2_76.pg" />
+      </exercise>
+
+      <exercise label="m2565-parcalc-6">
+        <webwork source="Contrib/CCCS/CalculusTwo/07.2/CCD_CCCS_Openstax_Calc2_C1-2016-002_7_2_91.pg" />
+      </exercise>
+
+      <exercise label="m2565-parcalc-7">
+        <webwork source="Library/Rochester/setIntegrals19Area/ur_in_19_12.pg" />
+      </exercise>
+
+      <exercise label="m2565-parcalc-8">
+        <webwork source="Library/Rochester/setParametric1Curves/ur_pa_1_6.pg" />
+      </exercise>
+
+      <exercise label="m2565-parcalc-9">
+        <webwork source="Library/Rochester/setVectorCalculus2/ur_vc_12_8.pg" />
+      </exercise>
+
+      <exercise label="m2565-parcalc-10">
+        <webwork source="Contrib/CCCS/CalculusTwo/07.2/CCD_CCCS_Openstax_Calc2_C1-2016-002_7_2_114.pg" />
+      </exercise>
+
+      <exercise label="m2565-parcalc-11">
+        <webwork source="Library/OSU/accelerated_calculus_and_analytic_geometry_ii/hmwk5/prob6.pg" />
+      </exercise>
+
+      <exercise label="m2565-parcalc-12">
+        <webwork source="Library/UCSB/Stewart5_10_2/Stewart5_10_2_41.pg" />
+      </exercise>
+    </subexercises>
     
     <subexercises>
       <title>Problems</title>
@@ -2518,7 +2570,7 @@
               </statement>
               <solution>
                 <p>
-                  <m>SA\approx 8.50101</m> (actual value <m>SA = 8.02851</m>
+                  <m>SA\approx 8.50101</m> (actual value <m>SA = 8.02851)</m>
                 </p>
               </solution>
           <!-- </webwork> -->

@@ -918,6 +918,58 @@
       </exercisegroup>
     </subexercises>
 
+    <subexercises component="m2565">
+      <title>Math 2565 Homework</title>
+    
+      <exercise label="m2565-partfrac-1">
+        <webwork source="Contrib/AgnesScott/Int_Techniques/5-PartFrac/calc06508.pg"/>
+      </exercise>
+      
+      <exercise label="m2565-partfrac-2">
+        <webwork source="Contrib/AgnesScott/Int_Techniques/5-PartFrac/calc06510a.pg"/>
+      </exercise>
+
+      <exercise label="m2565-partfrac-3">
+        <webwork source="Contrib/AgnesScott/Int_Techniques/5-PartFrac/calc06510b.pg"/>
+      </exercise>
+
+      <exercise label="m2565-partfrac-4">
+        <webwork source="Contrib/AgnesScott/Int_Techniques/5-PartFrac/calc06512.pg"/>
+      </exercise>
+
+      <exercise label="m2565-partfrac-5">
+        <webwork source="Contrib/AgnesScott/Int_Techniques/5-PartFrac/calc06517.pg"/>
+      </exercise>
+
+      <exercise label="m2565-partfrac-6">
+        <webwork source="Contrib/CCCS/CalculusTwo/03.4/CCD_CCCS_Openstax_Calc2_C2-2016-002_3_4_205.pg"/>
+      </exercise>
+
+      <exercise label="m2565-partfrac-7">
+        <webwork source="Contrib/CCCS/CalculusTwo/03.4/CCD_CCCS_Openstax_Calc2_C2-2016-002_3_4_209.pg"/>
+      </exercise>
+
+      <exercise label="m2565-partfrac-8">
+        <webwork source="Contrib/CCCS/CalculusTwo/03.4/CCD_CCCS_Openstax_Calc2_C2-2016-002_3_4_211.pg"/>
+      </exercise>
+
+      <exercise label="m2565-partfrac-9">
+        <webwork source="Contrib/CCCS/CalculusTwo/03.4/CCD_CCCS_Openstax_Calc2_C2-2016-002_3_4_221.pg"/>
+      </exercise>
+
+      <exercise label="m2565-partfrac-10">
+        <webwork source="Library/ma123DB/set3/s7_4_27.pg"/>
+      </exercise>
+
+      <exercise label="m2565-partfrac-11">
+        <webwork source="Library/Rochester/setIntegrals25RationalFunctions/ur_in_25_5.pg"/>
+      </exercise>
+
+      <exercise label="m2565-partfrac-12">
+        <webwork source="Library/UCSB/Stewart5_7_4/Stewart5_7_4_58.pg"/>
+      </exercise>
+    </subexercises>
+
     <subexercises>
       <title>Problems</title>
       <exercisegroup cols="2" xml:id="exset-partial-fractions-evaluate">

@@ -1302,6 +1302,44 @@
             
       </exercise>
     </subexercises>
+
+    <subexercises component="m2565">
+      <title>Math 2565 Homework</title>
+    
+      <exercise label="m2565-arclength-1">
+        <webwork source="Contrib/AgnesScott/Int_Applications/4-ArcLengthSurfaceArea/calc07406.pg" />
+      </exercise>
+
+      <exercise label="m2565-arclength-2">
+        <webwork source="Contrib/AgnesScott/Int_Applications/4-ArcLengthSurfaceArea/calc07418.pg" />
+      </exercise>
+
+      <exercise label="m2565-arclength-3">
+        <webwork source="Contrib/CCCS/CalculusTwo/02.4/CCD_CCCS_Openstax_Calc2_C2-2016-002_2_4_166.pg" />
+      </exercise>
+
+      <exercise label="m2565-arclength-4">
+        <webwork source="Contrib/CCCS/CalculusTwo/03.2/CCD_CCCS_Openstax_Calc2_C2-2016-002_3_2_119.pg" />
+      </exercise>
+
+      <exercise label="m2565-arclength-5">
+        <webwork source="local/Library/NAU/setCalcII/catenary.pg" />
+      </exercise>
+
+      <exercise label="m2565-arclength-6">
+        <webwork source="Contrib/AgnesScott/Int_Applications/4-ArcLengthSurfaceArea/calc07430.pg" />
+      </exercise>
+
+      <exercise label="m2565-arclength-7">
+        <webwork source="Contrib/AgnesScott/Int_Applications/4-ArcLengthSurfaceArea/calc07432.pg" />
+      </exercise>
+
+      <exercise label="m2565-arclength-8">
+        <webwork source="Contrib/CCCS/CalculusTwo/02.4/CCD_CCCS_Openstax_Calc2_C2-2016-002_2_4_192.pg" />
+      </exercise>
+      
+    </subexercises>
+
     <subexercises>
       <title>Problems</title>
       <exercisegroup cols="2" xml:id="exset-arc-length-compute">

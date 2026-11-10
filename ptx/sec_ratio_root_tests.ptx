@@ -612,6 +612,59 @@
         <!--</webwork>-->
       </exercise>
     </subexercises>
+
+    <subexercises component="m2565">
+      <title>Math 2565 Homework</title>
+    
+      <exercise label="m2565-ratio-1">
+        <webwork source="Contrib/CCCS/CalculusTwo/05.6/CCD_CCCS_Openstax_Calc2_C1-2016-002_5_6_317.pg" />
+      </exercise>
+      
+      <exercise label="m2565-ratio-2">
+        <webwork source="Contrib/CCCS/CalculusTwo/05.6/CCD_CCCS_Openstax_Calc2_C1-2016-002_5_6_319.pg" />
+      </exercise>
+
+      <exercise label="m2565-ratio-3">
+        <webwork source="Contrib/CCCS/CalculusTwo/05.6/CCD_CCCS_Openstax_Calc2_C1-2016-002_5_6_321.pg" />
+      </exercise>
+
+      <exercise label="m2565-ratio-4">
+        <webwork source="Contrib/CCCS/CalculusTwo/05.6/CCD_CCCS_Openstax_Calc2_C1-2016-002_5_6_323.pg" />
+      </exercise>
+
+      <exercise label="m2565-ratio-5">
+        <webwork source="Contrib/CCCS/CalculusTwo/05.6/CCD_CCCS_Openstax_Calc2_C1-2016-002_5_6_325.pg" />
+      </exercise>
+
+      <exercise label="m2565-ratio-6">
+        <webwork source="Contrib/CUNY/OPLremix/Library/FortLewis/Calc2/9-4-Ratio-test/ratio-05.pg" />
+      </exercise>
+
+      <exercise label="m2565-ratio-7">
+        <webwork source="Contrib/CUNY/OPLremix/Library/UMN/calculusStewartCCC/s_11_6_15.pg" />
+      </exercise>
+
+      <exercise label="m2565-ratio-8">
+        <webwork source="Contrib/CCCS/CalculusTwo/05.6/CCD_CCCS_Openstax_Calc2_C1-2016-002_5_6_329.pg" />
+      </exercise>
+
+      <exercise label="m2565-ratio-9">
+        <webwork source="Contrib/CCCS/CalculusTwo/05.6/CCD_CCCS_Openstax_Calc2_C1-2016-002_5_6_330.pg" />
+      </exercise>
+
+      <exercise label="m2565-ratio-10">
+        <webwork source="Contrib/Hope/Calc2/APEX_08_04_Ratio_root/Q_19.pg" />
+      </exercise>
+
+      <exercise label="m2565-ratio-11">
+        <webwork source="Library/Hope/Calc2/APEX_08_04_Ratio_root/Q_16.pg" />
+      </exercise>
+
+      <exercise label="m2565-ratio-12">
+        <webwork source="Contrib/Hope/Calc2/APEX_08_04_Ratio_root/Q_08.pg" />
+      </exercise>
+    </subexercises>
+
     <subexercises>
       <title>Problems</title>
       <exercisegroup cols="2" xml:id="exset-ratio-test-convergence">

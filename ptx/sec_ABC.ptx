@@ -937,6 +937,52 @@
         <!-- </webwork> -->
       </exercise>
     </subexercises>
+
+    <subexercises component="m2565">
+      <title>Math 2565 Homework</title>
+    
+      <exercise label="m2565-area-1">
+        <webwork source="local/Contrib/Berkeley/StewCalcET7e/6.1/6.1.rescue1.pg" />
+      </exercise>
+
+      <exercise label="m2565-area-2">
+        <webwork source="Contrib/METU-NCC/MAT101/Final/Areas.pg" />
+      </exercise>
+
+      <exercise label="m2565-area-3">
+        <webwork source="local/Contrib/Valdosta/APEX_Calculus/5.4/APEX_5.4_50.pg" />
+      </exercise>
+
+      <exercise label="m2565-area-4">
+        <webwork source="local/Contrib/Valdosta/APEX_Calculus/5.4/APEX_5.4_52.pg" />
+      </exercise>
+
+      <exercise label="m2565-area-5">
+        <webwork source="Library/ASU-topics/setAreaBetweenCurves/osu_in_19_14.pg" />
+      </exercise>
+
+      <exercise label="m2565-area-6">
+        <webwork source="local/Library/Indiana/Indiana_setIntegrals19Area/sc6_1_14.pg" />
+      </exercise>
+
+      <exercise label="m2565-area-7">
+        <webwork source="Library/Rochester/setIntegrals19Area/ns6_1_25.pg" />
+      </exercise>
+
+      <exercise label="m2565-area-8">
+        <webwork source="Library/UCSB/Stewart5_6_1/Stewart5_6_1_18.pg" />
+      </exercise>
+
+      <exercise label="m2565-area-9">
+        <webwork source="Library/UCSB/Stewart5_6_1/Stewart5_6_1_30.pg" />
+      </exercise>
+
+      <exercise label="m2565-area-10">
+        <webwork source="Library/UMN/calculusStewartCCC/s_6_1_39.pg" />
+      </exercise>
+      
+    </subexercises>
+
     <subexercises xml:id="problems-area-between">
       <title>Problems</title>
       <exercisegroup cols="2" xml:id="exset-area-between-graph">

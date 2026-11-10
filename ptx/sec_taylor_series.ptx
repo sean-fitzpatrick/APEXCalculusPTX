@@ -1249,6 +1249,59 @@
         <!--</webwork>-->
       </exercise>
     </subexercises>
+
+    <subexercises component="m2565">
+      <title>Math 2565 Homework</title>
+    
+      <exercise label="m2565-taylor-1">
+        <webwork source="Contrib/CCCS/CalculusTwo/06.4/CCD_CCCS_Openstax_Calc2_C1-2016-002_6_4_175.pg" />
+      </exercise>
+      
+      <exercise label="m2565-taylor-2">
+        <webwork source="local/Contrib/CCCS/CalculusTwo/06.4/CCD_CCCS_Openstax_Calc2_C1-2016-002_6_4_204.pg" />
+      </exercise>
+      
+
+      <exercise label="m2565-taylor-3">
+        <webwork source="local/Contrib/CCCS/CalculusTwo/06.4/CCD_CCCS_Openstax_Calc2_C1-2016-002_6_4_207.pg" />
+      </exercise>
+      
+
+      <exercise label="m2565-taylor-4">
+        <webwork source="local/Contrib/CCCS/CalculusTwo/06.4/CCD_CCCS_Openstax_Calc2_C1-2016-002_6_4_208.pg" />
+      </exercise>
+      
+
+      <exercise label="m2565-taylor-5">
+        <webwork source="Contrib/CCCS/CalculusTwo/06.4/CCD_CCCS_Openstax_Calc2_C1-2016-002_6_4_222.pg" />
+      </exercise>
+      
+
+      <exercise label="m2565-taylor-6">
+        <webwork source="local/Contrib/CCCS/CalculusTwo/06.3/CCD_CCCS_Openstax_Calc2_C1-2016-002_6_3_117.pg" />
+      </exercise>
+      
+
+      <exercise label="m2565-taylor-7">
+        <webwork source="local/Contrib/CCCS/CalculusTwo/06.3/CCD_CCCS_Openstax_Calc2_C1-2016-002_6_3_118.pg" />
+      </exercise>
+      
+
+      <exercise label="m2565-taylor-8">
+        <webwork source="Contrib/CCCS/CalculusTwo/06.3/CCD_CCCS_Openstax_Calc2_C1-2016-002_6_3_140_a.pg" />
+      </exercise>
+      
+
+      <exercise label="m2565-taylor-9">
+        <webwork source="Contrib/CCCS/CalculusTwo/06.3/CCD_CCCS_Openstax_Calc2_C1-2016-002_6_3_142.pg" />
+      </exercise>
+      
+
+      <exercise label="m2565-taylor-10">
+        <webwork source="local/Contrib/CCCS/CalculusTwo/06.3/CCD_CCCS_Openstax_Calc2_C1-2016-002_6_3_148.pg" />
+      </exercise>
+    </subexercises>
+
     <subexercises>
       <title>Problems</title>
       <exercisegroup cols="2" xml:id="exset-taylor-series-identify-pattern">

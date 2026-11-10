@@ -1543,6 +1543,51 @@
       </exercise>
     </subexercises>
 
+    <subexercises component="m2565">
+      <title>Math 2565 Homework</title>
+    
+      <exercise label="m2565-partial-1">
+        <webwork source="Library/272/setStewart14_3/UR_VC_5_14.pg" />
+      </exercise>
+
+      <exercise label="m2565-partial-2">
+        <webwork source="Library/Dartmouth/setMTWCh2S2/problem_3.pg" />
+      </exercise>
+
+      <exercise label="m2565-partial-3">
+        <webwork source="local/Library/Dartmouth/setMTWCh2S2/problem_4.pg" />
+      </exercise>
+
+      <exercise label="m2565-partial-4">
+        <webwork source="Library/272/setStewart14_3/problem_4.pg" />
+      </exercise>
+
+      <exercise label="m2565-partial-5">
+        <webwork source="Library/Dartmouth/setStewartCh15S3/problem_5.pg" />
+      </exercise>
+
+      <exercise label="m2565-partial-6">
+        <webwork source="Library/FortLewis/Calc3/14-7-Second-order-partials/HGM4-14-7-01-Second-order-partials.pg" />
+      </exercise>
+
+      <exercise label="m2565-partial-7">
+        <webwork source="Library/FortLewis/Calc3/14-7-Second-order-partials/HGM4-14-7-06-Second-order-partials.pg" />
+      </exercise>
+
+      <exercise label="m2565-partial-8">
+        <webwork source="Library/Dartmouth/setStewartCh15S3/problem_1.pg" />
+      </exercise>
+
+      <exercise label="m2565-partial-9">
+        <webwork source="Library/272/setStewart14_4/problem_2.pg" />
+      </exercise>
+
+      <exercise label="m2565-partial-10">
+        <webwork source="Library/Michigan/Chap14Sec3/Q03.pg" />
+      </exercise>
+      
+    </subexercises>
+
     <subexercises>
       <title>Problems</title>
       <exercisegroup cols="2" xml:id="exset-partial-derivatives-evaluate-at-point">

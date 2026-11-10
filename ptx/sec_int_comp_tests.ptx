@@ -995,6 +995,58 @@
         <!--</webwork>-->
       </exercise>
     </subexercises>
+
+    <subexercises component="m2565">
+      <title>Math 2565 Homework</title>
+    
+      <exercise label="m2565-intcomp-1">
+        <webwork source="Contrib/CCCS/CalculusTwo/05.3/CCD_CCCS_Openstax_Calc2_C1-2016-002_5_3_159.pg" />
+      </exercise>
+      
+      <exercise label="m2565-intcomp-2">
+        <webwork source="Contrib/CCCS/CalculusTwo/05.3/CCD_CCCS_Openstax_Calc2_C1-2016-002_5_3_162.pg" />
+      </exercise>
+
+      <exercise label="m2565-intcomp-3">
+        <webwork source="Contrib/Berkeley/StewCalcET7e/11.3/11-3-x02.pg" />
+      </exercise>
+
+      <exercise label="m2565-intcomp-4">
+        <webwork source="Contrib/Berkeley/StewCalcET7e/11.3/11-3-x01.pg" />
+      </exercise>
+
+      <exercise label="m2565-intcomp-5">
+        <webwork source="Contrib/CCCS/CalculusTwo/05.4/CCD_CCCS_Openstax_Calc2_C1-2016-002_5_4_198.pg" />
+      </exercise>
+
+      <exercise label="m2565-intcomp-6">
+        <webwork source="Contrib/CCCS/CalculusTwo/05.4/CCD_CCCS_Openstax_Calc2_C1-2016-002_5_4_201.pg" />
+      </exercise>
+
+      <exercise label="m2565-intcomp-7">
+        <webwork source="Contrib/CCCS/CalculusTwo/05.4/CCD_CCCS_Openstax_Calc2_C1-2016-002_5_4_206.pg" />
+      </exercise>
+
+      <exercise label="m2565-intcomp-8">
+        <webwork source="Contrib/CCCS/CalculusTwo/05.4/CCD_CCCS_Openstax_Calc2_C1-2016-002_5_4_210.pg" />
+      </exercise>
+
+      <exercise label="m2565-intcomp-9">
+        <webwork source="Contrib/CCCS/CalculusTwo/05.4/CCD_CCCS_Openstax_Calc2_C1-2016-002_5_4_212.pg" />
+      </exercise>
+
+      <exercise label="m2565-intcomp-10">
+        <webwork source="Contrib/CCCS/CalculusTwo/05.4/CCD_CCCS_Openstax_Calc2_C1-2016-002_5_4_215.pg" />
+      </exercise>
+
+      <exercise label="m2565-intcomp-11">
+        <webwork source="local/Library/Rochester/setSeries6CompTests/ur_sr_6_14.pg" />
+      </exercise>
+
+      <exercise label="m2565-intcomp-12">
+        <webwork source="Contrib/CCCS/CalculusTwo/05.4/CCD_CCCS_Openstax_Calc2_C1-2016-002_5_4_219.pg" />
+      </exercise>
+    </subexercises>
     
     <subexercises>
       <title>Problems</title>

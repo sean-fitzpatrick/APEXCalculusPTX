@@ -5,7 +5,7 @@
     <!-- Relative path, relative to "main" source file -->
     <source>
         <directories generated="../generated-assets-standard"/>
-        <version include="main color video taypoly-early video-early web"/>
+        <version include="main color video taypoly-early video-early web proteus"/>
     </source>
 
     <webwork server="https://webwork-dev.uleth.ca" course="apex-standard"/>

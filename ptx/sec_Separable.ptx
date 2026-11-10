@@ -517,6 +517,50 @@
   </subsection>
 
   <exercises>
+    <subexercises component="m2565">
+      <title>Math 2565 Homework</title>
+    
+      <exercise label="m2565-separable-1">
+        <webwork source="Contrib/CCCS/CalculusTwo/04.1/CCD_CCCS_Openstax_Calc2_C2-2016-002_4_1_19.pg" />
+      </exercise>
+
+      <exercise label="m2565-separable-2">
+        <webwork source="Contrib/CCCS/CalculusTwo/04.1/CCD_CCCS_Openstax_Calc2_C2-2016-002_4_1_21.pg" />
+      </exercise>
+
+      <exercise label="m2565-separable-3">
+        <webwork source="Contrib/CCCS/CalculusTwo/04.3/CCD_CCCS_Openstax_Calc2_C2-2016-002_4_3_124.pg" />
+      </exercise>
+
+      <exercise label="m2565-separable-4">
+        <webwork source="Contrib/CCCS/CalculusTwo/04.3/CCD_CCCS_Openstax_Calc2_C2-2016-002_4_3_129.pg" />
+      </exercise>
+
+      <exercise label="m2565-separable-5">
+        <webwork source="Contrib/CCCS/CalculusTwo/04.3/CCD_CCCS_Openstax_Calc2_C2-2016-002_4_3_135.pg" />
+      </exercise>
+
+      <exercise label="m2565-separable-6">
+        <webwork source="Contrib/CCCS/CalculusTwo/04.3/CCD_CCCS_Openstax_Calc2_C2-2016-002_4_3_138.pg" />
+      </exercise>
+
+      <exercise label="m2565-separable-7">
+        <webwork source="Library/FortLewis/DiffEq/1-First-order/03-Separable/KJ-2-6-22.pg" />
+      </exercise>
+
+      <exercise label="m2565-separable-8">
+        <webwork source="Library/FortLewis/DiffEq/1-First-order/03-Separable/Lebl-1-3-02.pg" />
+      </exercise>
+
+      <exercise label="m2565-separable-9">
+        <webwork source="Library/Rochester/setDiffEQ1/ur_de_1_4.pg" />
+      </exercise>
+
+      <exercise label="m2565-separable-10">
+        <webwork source="Library/Michigan/Chap11Sec4/Q37.pg" />
+      </exercise>
+      
+    </subexercises>
     <subexercises>
       <title>Problems</title>
       <exercisegroup cols="2" xml:id="exset-ode-separable-determine">
