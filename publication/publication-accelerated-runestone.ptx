@@ -29,7 +29,7 @@
         <webwork divisional="dynamic" reading="dynamic"/>
         <annotation platform="hypothesis"/>
         <feedback href="https://github.com/APEXCalculus/APEXCalculusPTX/issues"/>
-        <!-- <css toc="crc" banner="crc" navbar="crc" shell="crc"/> -->
+        <css theme="salem" palette="ice-fire"/>
     </html>
     <!-- PDF-Specific Options -->
     <latex print="no" sides="one">
